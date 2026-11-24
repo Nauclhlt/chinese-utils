@@ -1,0 +1,590 @@
+[
+  {
+    "id": "C-G06-01-01",
+    "lessonId": "L06",
+    "minLesson": 6,
+    "grammarIds": ["G06-01"],
+    "difficulty": 1,
+    "japanesePrompt": "私たちは列車に乗って蘇州へ行きましょうよ。",
+    "targetGrammarHint": "提案・勧誘の「吧」と連動文",
+    "hints": [
+      "枠組み：我们 + 坐火车 + 去苏州 + 吧。",
+      "語彙：列車(huǒchē) / 乗る(zuò) / 蘇州(Sūzhōu)",
+      "文末に軽声の「吧」を置くと「〜しましょうよ」という柔らかい誘いになります。"
+    ],
+    "modelAnswer": "我们坐火车去苏州吧。",
+    "acceptableAnswers": [
+      "我们一起坐火车去苏州吧。"
+    ],
+    "pinyin": "Wǒmen zuò huǒchē qù Sūzhōu ba.",
+    "structureBreakdown": [
+      { "text": "我们", "role": "S", "label": "主語" },
+      { "text": "坐火车", "role": "V", "label": "V1(手段)" },
+      { "text": "去苏州", "role": "V", "label": "V2(移動)" },
+      { "text": "吧", "role": "P", "label": "語気助詞(提案)" }
+    ],
+    "explanation": "手段＋移動の連動文の文末に「吧」を加えることで、相手を誘う自然な提案文になります。",
+    "commonMistakes": [
+      { "wrong": "我们坐火车去苏州吗？", "reason": "「吗」を付けると「行きますか？」という単なる質問になり、提案のニュアンスが出ません。" }
+    ]
+  },
+  {
+    "id": "C-G06-01-02",
+    "lessonId": "L06",
+    "minLesson": 6,
+    "grammarIds": ["G06-01"],
+    "difficulty": 1,
+    "japanesePrompt": "今日の午後、あなたはとても忙しいのでしょう？",
+    "targetGrammarHint": "推量・確認の「吧？」",
+    "hints": [
+      "枠組み：今天下午 + 你 + 很忙 + 吧？",
+      "語彙：今日の午後(jīntiān xiàwǔ) / 忙しい(máng)",
+      "「很忙」の後ろに「吧？」を置いて推量・確認を表します。「吗」は付けません。"
+    ],
+    "modelAnswer": "今天下午你很忙吧？",
+    "acceptableAnswers": [
+      "你今天下午很忙吧？"
+    ],
+    "pinyin": "Jīntiān xiàwǔ nǐ hěn máng ba?",
+    "structureBreakdown": [
+      { "text": "今天下午", "role": "Time", "label": "時間詞" },
+      { "text": "你", "role": "S", "label": "主語" },
+      { "text": "很忙", "role": "P", "label": "形容詞述語" },
+      { "text": "吧", "role": "P", "label": "語気助詞(推量)" }
+    ],
+    "explanation": "相手が忙しそうだと予想して確認するときは、文末に「吧？」を使います。",
+    "commonMistakes": [
+      { "wrong": "今天下午你很忙吧吗？", "reason": "「吧」と「吗」を同時に文末に並べることはできません。" }
+    ]
+  },
+  {
+    "id": "C-G06-01-03",
+    "lessonId": "L06",
+    "minLesson": 6,
+    "grammarIds": ["G06-01"],
+    "difficulty": 2,
+    "japanesePrompt": "あなたはここで私を待っていてくださいね。",
+    "targetGrammarHint": "柔らかい依頼・指示の「吧」",
+    "hints": [
+      "枠組み：你 + 在这儿 + 等我 + 吧。",
+      "語彙：ここ(zhèr / zhèlǐ) / 待つ(děng)",
+      "介詞句「在这儿」を動詞「等」の前に置きます。"
+    ],
+    "modelAnswer": "你在这儿等我吧。",
+    "acceptableAnswers": [
+      "你在这里等我吧。"
+    ],
+    "pinyin": "Nǐ zài zhèr děng wǒ ba.",
+    "structureBreakdown": [
+      { "text": "你", "role": "S", "label": "主語" },
+      { "text": "在这儿", "role": "Prep", "label": "場所(介詞句)" },
+      { "text": "等", "role": "V", "label": "動詞" },
+      { "text": "我", "role": "O", "label": "目的語" },
+      { "text": "吧", "role": "P", "label": "語気助詞" }
+    ],
+    "explanation": "動作を行う場所「在这儿」を動詞「等」の前に置き、文末の「吧」で優しい指示・依頼にします。",
+    "commonMistakes": [
+      { "wrong": "你等我在这儿吧。", "reason": "動作が行われる場所を表す「在这儿」は動詞の前に置くのが基本です。" }
+    ]
+  },
+  {
+    "id": "C-G06-01-04",
+    "lessonId": "L06",
+    "minLesson": 6,
+    "grammarIds": ["G06-01"],
+    "difficulty": 2,
+    "japanesePrompt": "外灘（バンド）の夜景はとても有名ですよね。",
+    "targetGrammarHint": "同意を求める「吧？」",
+    "hints": [
+      "枠組み：外滩的夜景 + 很有名 + 吧？",
+      "語彙：外灘(Wàitān) / 夜景(yèjǐng) / 有名だ(yǒumíng)",
+      "形容詞「有名」の前には「很」を補います。"
+    ],
+    "modelAnswer": "外滩的夜景很有名吧？",
+    "acceptableAnswers": [
+      "外滩的夜景非常有名吧？",
+      "外滩的夜景特别有名吧？"
+    ],
+    "pinyin": "Wàitān de yèjǐng hěn yǒumíng ba?",
+    "structureBreakdown": [
+      { "text": "外滩的夜景", "role": "S", "label": "主語" },
+      { "text": "很", "role": "Adv", "label": "程度副詞" },
+      { "text": "有名", "role": "P", "label": "形容詞述語" },
+      { "text": "吧", "role": "P", "label": "語気助詞(確認)" }
+    ],
+    "explanation": "形容詞述語文の後ろに「吧？」を付けることで「〜ですよね」と相手の同意を求める表現になります。",
+    "commonMistakes": [
+      { "wrong": "外滩的夜景有名吧？", "reason": "肯定の形容詞述語文では対比でない限り「很」などを前に補います。" }
+    ]
+  },
+  {
+    "id": "C-G06-01-05",
+    "lessonId": "L06",
+    "minLesson": 6,
+    "grammarIds": ["G06-01"],
+    "difficulty": 2,
+    "japanesePrompt": "わかりました、今晩は家で晩ご飯を食べましょう。",
+    "targetGrammarHint": "同意「好吧」＋提案「吧」",
+    "hints": [
+      "枠組み：好吧，今天晚上 + 我们 + 在家 + 吃晚饭 + 吧。",
+      "語彙：わかりました(hǎo ba) / 家で(zài jiā) / 晩ご飯を食べる(chī wǎnfàn)",
+      "「好吧」でまず同意を示し、その後に具体的な内容を続けます。"
+    ],
+    "modelAnswer": "好吧，今天晚上我们在家吃晚饭吧。",
+    "acceptableAnswers": [
+      "好吧，我们今天晚上在家吃晚饭吧。",
+      "好吧，今天晚上在家吃晚饭吧。"
+    ],
+    "pinyin": "Hǎo ba, jīntiān wǎnshang wǒmen zài jiā chī wǎnfàn ba.",
+    "structureBreakdown": [
+      { "text": "好吧", "role": "Other", "label": "同意の表現" },
+      { "text": "今天晚上", "role": "Time", "label": "時間詞" },
+      { "text": "我们", "role": "S", "label": "主語" },
+      { "text": "在家", "role": "Prep", "label": "場所(介詞句)" },
+      { "text": "吃晚饭", "role": "V", "label": "動詞句" },
+      { "text": "吧", "role": "P", "label": "語気助詞" }
+    ],
+    "explanation": "「好吧」で相手の意向を受け入れ、続く節でも「吧」を使って穏やかに提案しています。",
+    "commonMistakes": [
+      { "wrong": "是吧，今天晚上我们在家吃晚饭。", "reason": "「わかりました（いいでしょう）」という提案への同意には「是吧」ではなく「好吧」を使います。" }
+    ]
+  },
+
+  {
+    "id": "C-G06-02-01",
+    "lessonId": "L06",
+    "minLesson": 6,
+    "grammarIds": ["G06-02"],
+    "difficulty": 1,
+    "japanesePrompt": "彼こそが私たちの新しい先生です。",
+    "targetGrammarHint": "限定・強調の「就是」",
+    "hints": [
+      "枠組み：他 + 就 + 是 + 我们的 + 新 + 老师。",
+      "語彙：新しい(xīn) / 先生(lǎoshī)",
+      "「就」は判断動詞「是」の直前に置きます。"
+    ],
+    "modelAnswer": "他就是我们的新老师。",
+    "acceptableAnswers": [],
+    "pinyin": "Tā jiù shì wǒmen de xīn lǎoshī.",
+    "structureBreakdown": [
+      { "text": "他", "role": "S", "label": "主語" },
+      { "text": "就", "role": "Adv", "label": "副詞(強調)" },
+      { "text": "是", "role": "V", "label": "動詞" },
+      { "text": "我们的新老师", "role": "O", "label": "目的語" }
+    ],
+    "explanation": "「就是〜」で「まさに〜だ／〜こそがそうだ」と強調します。",
+    "commonMistakes": [
+      { "wrong": "他是就我们的新老师。", "reason": "副詞「就」は動詞「是」の前に置きます。" }
+    ]
+  },
+  {
+    "id": "C-G06-02-02",
+    "lessonId": "L06",
+    "minLesson": 6,
+    "grammarIds": ["G06-02"],
+    "difficulty": 1,
+    "japanesePrompt": "私たちは（まさに）このレストランで晩ご飯を食べましょう。",
+    "targetGrammarHint": "決定・限定の「就在 + 場所」",
+    "hints": [
+      "枠組み：我们 + 就 + 在这家餐厅 + 吃晚饭 + 吧。",
+      "語彙：レストラン(cāntīng / 量詞: 家) / 晩ご飯(wǎnfàn)",
+      "「就」は介詞句「在这家餐厅」の前に置きます。"
+    ],
+    "modelAnswer": "我们就在这家餐厅吃晚饭吧。",
+    "acceptableAnswers": [
+      "我们就在这儿吃晚饭吧。"
+    ],
+    "pinyin": "Wǒmen jiù zài zhè jiā cāntīng chī wǎnfàn ba.",
+    "structureBreakdown": [
+      { "text": "我们", "role": "S", "label": "主語" },
+      { "text": "就", "role": "Adv", "label": "副詞(限定)" },
+      { "text": "在这家餐厅", "role": "Prep", "label": "場所(介詞句)" },
+      { "text": "吃晚饭", "role": "V", "label": "動詞句" },
+      { "text": "吧", "role": "P", "label": "語気助詞" }
+    ],
+    "explanation": "「就在＋場所」で「他のところではなく、まさにここで」という決定のニュアンスを出します。",
+    "commonMistakes": [
+      { "wrong": "就在这家餐厅我们吃晚饭吧。", "reason": "「就」を主語の前に出すことはできません。" }
+    ]
+  },
+  {
+    "id": "C-G06-02-03",
+    "lessonId": "L06",
+    "minLesson": 6,
+    "grammarIds": ["G06-02"],
+    "difficulty": 1,
+    "japanesePrompt": "路線バスはすぐに（まもなく）来ます。",
+    "targetGrammarHint": "「马上就 + 動詞」",
+    "hints": [
+      "枠組み：公共汽车 + 马上 + 就 + 来。",
+      "語彙：路線バス(gōnggòng qìchē) / すぐに(mǎshàng) / 来る(lái)",
+      "「马上」が先、「就」が後（马上就来）の順になります。"
+    ],
+    "modelAnswer": "公共汽车马上就来。",
+    "acceptableAnswers": [
+      "公交车马上就来。"
+    ],
+    "pinyin": "Gōnggòng qìchē mǎshàng jiù lái.",
+    "structureBreakdown": [
+      { "text": "公共汽车", "role": "S", "label": "主語" },
+      { "text": "马上", "role": "Adv", "label": "時間副詞" },
+      { "text": "就", "role": "Adv", "label": "副詞" },
+      { "text": "来", "role": "V", "label": "動詞" }
+    ],
+    "explanation": "「马上就＋動詞」は「今にもすぐ〜する」を表す非常に頻度の高い組み合わせです。",
+    "commonMistakes": [
+      { "wrong": "公共汽车就马上来。", "reason": "「就」と「马上」の語順が逆です。" }
+    ]
+  },
+  {
+    "id": "C-G06-02-04",
+    "lessonId": "L06",
+    "minLesson": 6,
+    "grammarIds": ["G06-02"],
+    "difficulty": 2,
+    "japanesePrompt": "姉は毎晩9時にはもう寝ます。",
+    "targetGrammarHint": "時間表現の後ろの「就」（早さの強調）",
+    "hints": [
+      "枠組み：姐姐 + 每天晚上九点 + 就 + 睡觉。",
+      "語彙：毎晩(měitiān wǎnshang) / 9時(jiǔ diǎn) / 寝る(shuìjiào)",
+      "時刻「九点」の直後に「就」を置いて「9時という早い時間に」を表します。"
+    ],
+    "modelAnswer": "姐姐每天晚上九点就睡觉。",
+    "acceptableAnswers": [
+      "每天晚上九点姐姐就睡觉。"
+    ],
+    "pinyin": "Jiějie měitiān wǎnshang jiǔ diǎn jiù shuìjiào.",
+    "structureBreakdown": [
+      { "text": "姐姐", "role": "S", "label": "主語" },
+      { "text": "每天晚上九点", "role": "Time", "label": "時間詞" },
+      { "text": "就", "role": "Adv", "label": "副詞(早さ)" },
+      { "text": "睡觉", "role": "V", "label": "動詞" }
+    ],
+    "explanation": "時刻「九点」の後に「就」を置くことで「もう9時に寝る（早い）」という意味合いを加えます。",
+    "commonMistakes": [
+      { "wrong": "姐姐每天晚上就九点睡觉。", "reason": "「就」は時間表現の前ではなく後ろ（動詞の直前）に置きます。" }
+    ]
+  },
+  {
+    "id": "C-G06-02-05",
+    "lessonId": "L06",
+    "minLesson": 6,
+    "grammarIds": ["G06-02"],
+    "difficulty": 2,
+    "japanesePrompt": "来週、中国語の試験が始まります（もうすぐ始まる）。",
+    "targetGrammarHint": "「時間詞 + 就 + 動詞」",
+    "hints": [
+      "枠組み：汉语考试 + 下个星期 + 就 + 开始。",
+      "語彙：中国語の試験(Hànyǔ kǎoshì) / 来週(xià ge xīngqī) / 始まる(kāishǐ)",
+      "「下个星期」には量詞「个」が必要です。"
+    ],
+    "modelAnswer": "汉语考试下个星期就开始。",
+    "acceptableAnswers": [
+      "下个星期汉语考试就开始。"
+    ],
+    "pinyin": "Hànyǔ kǎoshì xià ge xīngqī jiù kāishǐ.",
+    "structureBreakdown": [
+      { "text": "汉语考试", "role": "S", "label": "主語" },
+      { "text": "下个星期", "role": "Time", "label": "時間詞" },
+      { "text": "就", "role": "Adv", "label": "副詞(早さ)" },
+      { "text": "开始", "role": "V", "label": "動詞" }
+    ],
+    "explanation": "「下个星期就开始」で「来週にはもう始まる」という切迫感・早さを表します。",
+    "commonMistakes": [
+      { "wrong": "就汉语考试下个星期开始。", "reason": "「就」を文頭に置くことはできません。" }
+    ]
+  },
+
+  {
+    "id": "C-G06-03-01",
+    "lessonId": "L06",
+    "minLesson": 6,
+    "grammarIds": ["G06-03"],
+    "difficulty": 1,
+    "japanesePrompt": "私の両親は二人とも京都大学の出身ではありません（二人とも京都人ではありません）。",
+    "targetGrammarHint": "全部否定「都 + 不 + 述語」",
+    "hints": [
+      "枠組み：我父母 + 都 + 不是 + 京都人。",
+      "語彙：両親(fùmǔ) / 京都の人(Jīngdūrén)",
+      "全部否定なので「都」が先、「不」が後（都不是）の順にします。"
+    ],
+    "modelAnswer": "我父母都不是京都人。",
+    "acceptableAnswers": [
+      "我的父母都不是京都人。"
+    ],
+    "pinyin": "Wǒ fùmǔ dōu bú shì Jīngdūrén.",
+    "structureBreakdown": [
+      { "text": "我父母", "role": "S", "label": "複数主語" },
+      { "text": "都", "role": "Adv", "label": "総括副詞" },
+      { "text": "不是", "role": "Neg", "label": "否定＋動詞" },
+      { "text": "京都人", "role": "O", "label": "目的語" }
+    ],
+    "explanation": "「都不是」は「（複数人）全員〜ではない」という全部否定です。",
+    "commonMistakes": [
+      { "wrong": "我父母不都是京都人。", "reason": "「不都」にすると「二人ともが京都人というわけではない（一人は京都人）」という部分否定になってしまいます。" }
+    ]
+  },
+  {
+    "id": "C-G06-03-02",
+    "lessonId": "L06",
+    "minLesson": 6,
+    "grammarIds": ["G06-03"],
+    "difficulty": 2,
+    "japanesePrompt": "私たちもみんな中華料理を食べるのが好きです。",
+    "targetGrammarHint": "「也」と「都」の連結「也都」",
+    "hints": [
+      "枠組み：我们 + 也 + 都 + 喜欢 + 吃中餐。",
+      "語彙：中華料理(zhōngcān) / 好き(xǐhuan)",
+      "「也」が先、「都」が後で「也都」にします。"
+    ],
+    "modelAnswer": "我们也都喜欢吃中餐。",
+    "acceptableAnswers": [],
+    "pinyin": "Wǒmen yě dōu xǐhuan chī zhōngcān.",
+    "structureBreakdown": [
+      { "text": "我们", "role": "S", "label": "複数主語" },
+      { "text": "也", "role": "Adv", "label": "副詞" },
+      { "text": "都", "role": "Adv", "label": "総括副詞" },
+      { "text": "喜欢", "role": "V", "label": "動詞" },
+      { "text": "吃中餐", "role": "O", "label": "目的語" }
+    ],
+    "explanation": "「私たちも（也）みな（都）」を表すときは、必ず「也都」の順に並べます。",
+    "commonMistakes": [
+      { "wrong": "我们都也喜欢吃中餐。", "reason": "「都」を「也」の前に置く「都也」は誤りです。" }
+    ]
+  },
+  {
+    "id": "C-G06-03-03",
+    "lessonId": "L06",
+    "minLesson": 6,
+    "grammarIds": ["G06-03"],
+    "difficulty": 2,
+    "japanesePrompt": "私たちのクラスの同級生は、全員が大学生というわけではありません。",
+    "targetGrammarHint": "部分否定「不 + 都 + 述語」",
+    "hints": [
+      "枠組み：我们班的同学 + 不 + 都 + 是 + 大学生。",
+      "語彙：同級生(tóngxué) / 大学生(dàxuéshēng)",
+      "部分否定は「不」を「都」の前に置き「不都」とします。"
+    ],
+    "modelAnswer": "我们班的同学不都是大学生。",
+    "acceptableAnswers": [
+      "我们班的学生不都是大学生。"
+    ],
+    "pinyin": "Wǒmen bān de tóngxué bù dōu shì dàxuéshēng.",
+    "structureBreakdown": [
+      { "text": "我们班的同学", "role": "S", "label": "複数主語" },
+      { "text": "不", "role": "Neg", "label": "否定副詞" },
+      { "text": "都", "role": "Adv", "label": "総括副詞" },
+      { "text": "是", "role": "V", "label": "動詞" },
+      { "text": "大学生", "role": "O", "label": "目的語" }
+    ],
+    "explanation": "「不都」は「すべてが〜というわけではない（例外もある）」という部分否定を表します。",
+    "commonMistakes": [
+      { "wrong": "我们班的同学都不是大学生。", "reason": "「都不是」は「一人も大学生がいない」という全部否定になってしまいます。" }
+    ]
+  },
+  {
+    "id": "C-G06-03-04",
+    "lessonId": "L06",
+    "minLesson": 6,
+    "grammarIds": ["G06-03"],
+    "difficulty": 2,
+    "japanesePrompt": "テニスも卓球も私はどちらも好きです。",
+    "targetGrammarHint": "複数の目的語を前置して「都」で受ける",
+    "hints": [
+      "枠組み：网球和乒乓球 + 我 + 都 + 喜欢。",
+      "語彙：テニス(wǎngqiú) / 卓球(pīngpāngqiú)",
+      "複数の対象「网球和乒乓球」を「都」の前に出す必要があります。"
+    ],
+    "modelAnswer": "网球和乒乓球我都喜欢。",
+    "acceptableAnswers": [
+      "打网球和打乒乓球我都喜欢。",
+      "我网球和乒乓球都喜欢。"
+    ],
+    "pinyin": "Wǎngqiú hé pīngpāngqiú wǒ dōu xǐhuan.",
+    "structureBreakdown": [
+      { "text": "网球和乒乓球", "role": "O", "label": "前置目的語" },
+      { "text": "我", "role": "S", "label": "主語" },
+      { "text": "都", "role": "Adv", "label": "総括副詞" },
+      { "text": "喜欢", "role": "V", "label": "動詞" }
+    ],
+    "explanation": "「都」は左側の複数項目を総括するため、「网球和乒乓球」を「都」の前（文頭または「我」の直後）に置きます。",
+    "commonMistakes": [
+      { "wrong": "我都喜欢网球和乒乓球。", "reason": "主語が単数「我」で目的語が後ろにあるため、「都」が受けられる複数項目が左側にありません。" }
+    ]
+  },
+  {
+    "id": "C-G06-03-05",
+    "lessonId": "L06",
+    "minLesson": 6,
+    "grammarIds": ["G06-03"],
+    "difficulty": 2,
+    "japanesePrompt": "兄も弟も毎日地下鉄に乗って学校へ行きます。",
+    "targetGrammarHint": "複数主語 + 「每天都」または「都」＋連動文",
+    "hints": [
+      "枠組み：哥哥和弟弟 + 都 + 每天 + 坐地铁去学校。",
+      "語彙：兄と弟(gēge hé dìdi) / 毎日(měitiān) / 地下鉄(dìtiě)",
+      "「都」は「每天」の後ろまたは前に置けます（通常「每天都〜」がよく使われます）。"
+    ],
+    "modelAnswer": "哥哥和弟弟每天都坐地铁去学校。",
+    "acceptableAnswers": [
+      "哥哥和弟弟都每天坐地铁去学校。",
+      "我哥哥和弟弟每天都坐地铁去学校。"
+    ],
+    "pinyin": "Gēge hé dìdi měitiān dōu zuò dìtiě qù xuéxiào.",
+    "structureBreakdown": [
+      { "text": "哥哥和弟弟", "role": "S", "label": "複数主語" },
+      { "text": "每天", "role": "Time", "label": "時間詞" },
+      { "text": "都", "role": "Adv", "label": "総括副詞" },
+      { "text": "坐地铁去学校", "role": "V", "label": "連動文述語" }
+    ],
+    "explanation": "「哥哥和弟弟」の二人にも、「每天（毎日いつも）」にも「都」が自然に掛かります。",
+    "commonMistakes": [
+      { "wrong": "哥哥和弟弟坐地铁去学校都。", "reason": "副詞「都」を文末に置くことはできません。" }
+    ]
+  },
+
+  {
+    "id": "C-G06-04-01",
+    "lessonId": "L06",
+    "minLesson": 6,
+    "grammarIds": ["G06-04"],
+    "difficulty": 1,
+    "japanesePrompt": "私は映画を見ることがとても好きです。",
+    "targetGrammarHint": "「程度副詞 + 喜欢 + 動詞句」",
+    "hints": [
+      "枠組み：我 + 很 + 喜欢 + 看电影。",
+      "語彙：映画を見る(kàn diànyǐng) / 好き(xǐhuan)",
+      "「看电影」をそのまま「喜欢」の後ろに置き、「的」は付けません。"
+    ],
+    "modelAnswer": "我很喜欢看电影。",
+    "acceptableAnswers": [
+      "我非常喜欢看电影。",
+      "我特别喜欢看电影。"
+    ],
+    "pinyin": "Wǒ hěn xǐhuan kàn diànyǐng.",
+    "structureBreakdown": [
+      { "text": "我", "role": "S", "label": "主語" },
+      { "text": "很", "role": "Adv", "label": "程度副詞" },
+      { "text": "喜欢", "role": "V", "label": "心理動詞" },
+      { "text": "看电影", "role": "O", "label": "動詞句目的語" }
+    ],
+    "explanation": "「喜欢」は心理動詞なので前に「很・非常・特别」が置け、後ろに動詞句を直接取れます。",
+    "commonMistakes": [
+      { "wrong": "我很喜欢看电影的。", "reason": "動詞句を目的語にするとき文末に「的」は付けません。" }
+    ]
+  },
+  {
+    "id": "C-G06-04-02",
+    "lessonId": "L06",
+    "minLesson": 6,
+    "grammarIds": ["G06-04"],
+    "difficulty": 1,
+    "japanesePrompt": "私は西洋料理を食べることがあまり好きではありません。",
+    "targetGrammarHint": "柔らかな否定「不太喜欢」",
+    "hints": [
+      "枠組み：我 + 不太 + 喜欢 + 吃西餐。",
+      "語彙：あまり〜ない(bú tài) / 西洋料理(xīcān)",
+      "「不太」は「喜欢」の前に置きます。"
+    ],
+    "modelAnswer": "我不太喜欢吃西餐。",
+    "acceptableAnswers": [],
+    "pinyin": "Wǒ bú tài xǐhuan chī xīcān.",
+    "structureBreakdown": [
+      { "text": "我", "role": "S", "label": "主語" },
+      { "text": "不太", "role": "Neg", "label": "部分/柔らかな否定" },
+      { "text": "喜欢", "role": "V", "label": "心理動詞" },
+      { "text": "吃西餐", "role": "O", "label": "動詞句目的語" }
+    ],
+    "explanation": "好みを否定するとき、直接的な「不喜欢」よりも「不太喜欢（あまり好きではない）」が丁寧で自然です。",
+    "commonMistakes": [
+      { "wrong": "我没太喜欢吃西餐。", "reason": "心理動詞「喜欢」の否定には「没」ではなく「不」を使います。" }
+    ]
+  },
+  {
+    "id": "C-G06-04-03",
+    "lessonId": "L06",
+    "minLesson": 6,
+    "grammarIds": ["G06-04"],
+    "difficulty": 2,
+    "japanesePrompt": "あなたは卓球をするのが好きですか、それともテニスをするのが好きですか。",
+    "targetGrammarHint": "「喜欢」と選択疑問文「还是」",
+    "hints": [
+      "枠組み：你 + 喜欢打乒乓球，还是 + 喜欢打网球？",
+      "語彙：卓球をする(dǎ pīngpāngqiú) / テニスをする(dǎ wǎngqiú)",
+      "選択疑問文なので文末に「吗」は付けません。"
+    ],
+    "modelAnswer": "你喜欢打乒乓球，还是喜欢打网球？",
+    "acceptableAnswers": [
+      "你喜欢打乒乓球还是喜欢打网球？",
+      "你喜欢打乒乓球，还是打网球？"
+    ],
+    "pinyin": "Nǐ xǐhuan dǎ pīngpāngqiú, háishi xǐhuan dǎ wǎngqiú?",
+    "structureBreakdown": [
+      { "text": "你", "role": "S", "label": "主語" },
+      { "text": "喜欢打乒乓球", "role": "V", "label": "選択肢A" },
+      { "text": "还是", "role": "Conj", "label": "選択接続詞" },
+      { "text": "喜欢打网球", "role": "V", "label": "選択肢B" }
+    ],
+    "explanation": "2つの好みを「还是」で尋ねる文です。どちらにも動詞「喜欢」を繰り返すと対称的で綺麗になります。",
+    "commonMistakes": [
+      { "wrong": "你喜欢打乒乓球，还是喜欢打网球吗？", "reason": "「还是」の疑問文には「吗」を付けません。" }
+    ]
+  },
+  {
+    "id": "C-G06-04-04",
+    "lessonId": "L06",
+    "minLesson": 6,
+    "grammarIds": ["G06-04"],
+    "difficulty": 2,
+    "japanesePrompt": "妹は春の京都が特に好きです。",
+    "targetGrammarHint": "「特别喜欢 + 名詞句」",
+    "hints": [
+      "枠組み：妹妹 + 特别 + 喜欢 + 春天的京都。",
+      "語彙：特に(tèbié) / 春(chūntiān) / 京都(Jīngdū)",
+      "「春の京都」は「春天的京都」と「的」でつなぎます。"
+    ],
+    "modelAnswer": "妹妹特别喜欢春天的京都。",
+    "acceptableAnswers": [
+      "妹妹非常喜欢春天的京都。"
+    ],
+    "pinyin": "Mèimei tèbié xǐhuan chūntiān de Jīngdū.",
+    "structureBreakdown": [
+      { "text": "妹妹", "role": "S", "label": "主語" },
+      { "text": "特别", "role": "Adv", "label": "程度副詞" },
+      { "text": "喜欢", "role": "V", "label": "心理動詞" },
+      { "text": "春天的京都", "role": "O", "label": "目的語" }
+    ],
+    "explanation": "「特别喜欢」で「とりわけ好きだ」を表し、名詞の連体修飾「春天的京都」を目的語にしています。",
+    "commonMistakes": [
+      { "wrong": "妹妹喜欢特别春天的京都。", "reason": "副詞「特别」は動詞「喜欢」の前に置きます。" }
+    ]
+  },
+  {
+    "id": "C-G06-04-05",
+    "lessonId": "L06",
+    "minLesson": 6,
+    "grammarIds": ["G06-04"],
+    "difficulty": 2,
+    "japanesePrompt": "彼は旅行が好きですか。（反復疑問文で）",
+    "targetGrammarHint": "2音節動詞「喜欢」の反復疑問文",
+    "hints": [
+      "枠組み：他 + 喜不喜欢 + 旅行？",
+      "語彙：旅行(lǚxíng)",
+      "2音節動詞の反復疑問文「喜不喜欢（または喜欢不喜欢）」を使い、文末に「吗」は付けません。"
+    ],
+    "modelAnswer": "他喜不喜欢旅行？",
+    "acceptableAnswers": [
+      "他喜欢不喜欢旅行？"
+    ],
+    "pinyin": "Tā xǐ bu xǐhuan lǚxíng?",
+    "structureBreakdown": [
+      { "text": "他", "role": "S", "label": "主語" },
+      { "text": "喜不喜欢", "role": "V", "label": "反復疑問動詞" },
+      { "text": "旅行", "role": "O", "label": "目的語" }
+    ],
+    "explanation": "「喜不喜欢」は肯定形と否定形を並べる反復疑問文の自然でよく使われる形です。",
+    "commonMistakes": [
+      { "wrong": "他喜不喜欢旅行吗？", "reason": "反復疑問文の文末に「吗」を付けてはいけません。" }
+    ]
+  }
+]

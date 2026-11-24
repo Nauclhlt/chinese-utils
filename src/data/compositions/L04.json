@@ -1,0 +1,555 @@
+[
+  {
+    "id": "C-G04-01-01",
+    "lessonId": "L04",
+    "minLesson": 4,
+    "grammarIds": ["G04-01"],
+    "difficulty": 1,
+    "japanesePrompt": "私はカメラを持っていますが、彼は持っていません。",
+    "targetGrammarHint": "「有」と、その否定「没有」を使います。",
+    "hints": [
+      "「我＋有＋相机，他＋没有」の語順です。",
+      "カメラは「相机 (xiàngjī)」、「持っていない」は「没有 (méiyǒu)」です（×不有）。",
+      "我有相机，（　）。"
+    ],
+    "modelAnswer": "我有相机，他没有。",
+    "acceptableAnswers": [
+      "我有相机，他没有",
+      "我有相机，他没有相机。",
+      "我有相机,他没有。",
+      "我有相机，他没相机。"
+    ],
+    "pinyin": "Wǒ yǒu xiàngjī, tā méiyǒu.",
+    "structureBreakdown": [
+      { "text": "我", "role": "S", "label": "主語" },
+      { "text": "有", "role": "V", "label": "動詞" },
+      { "text": "相机", "role": "O", "label": "目的語" },
+      { "text": "他", "role": "S", "label": "主語" },
+      { "text": "没有", "role": "V", "label": "否定動詞" }
+    ],
+    "explanation": "目的語が前の節で明らかなため、後半の「他没有」の後ろの「相机」は省略できます。「不有」は絶対に使えません。",
+    "commonMistakes": [
+      { "wrong": "我有相机，他不有。", "reason": "「有」の否定は必ず「没有」を使います。" }
+    ]
+  },
+  {
+    "id": "C-G04-01-02",
+    "lessonId": "L04",
+    "minLesson": 4,
+    "grammarIds": ["G04-01", "G04-03"],
+    "difficulty": 1,
+    "japanesePrompt": "机の上に中国語の本が1冊あります。",
+    "targetGrammarHint": "存在文「場所 + 有 + 数詞 + 量詞 + 名詞」を使います。",
+    "hints": [
+      "「桌子上＋有＋一冊の＋中国語の本」の語順です。",
+      "本の量詞は「本 (běn)」です（一本汉语书）。",
+      "桌子上（　）汉语书。"
+    ],
+    "modelAnswer": "桌子上有一本汉语书。",
+    "acceptableAnswers": ["桌子上有一本汉语书", "桌子上面有一本汉语书。", "桌子上有一本中文书。"],
+    "pinyin": "Zhuōzi shàng yǒu yì běn Hànyǔ shū.",
+    "structureBreakdown": [
+      { "text": "桌子上", "role": "Loc", "label": "場所(主語)" },
+      { "text": "有", "role": "V", "label": "動詞" },
+      { "text": "一本", "role": "Attr", "label": "数量詞" },
+      { "text": "汉语书", "role": "O", "label": "名詞" }
+    ],
+    "explanation": "ある場所に何があるかを新しく述べるときは「場所＋有＋(数量)＋名詞」の語順になります。",
+    "commonMistakes": [
+      { "wrong": "一本汉语书在桌子上。", "reason": "不特定の「1冊の本」を主語にして「在」を使うのは不自然で、「桌子上有一本〜」とするのが自然です。" }
+    ]
+  },
+  {
+    "id": "C-G04-01-03",
+    "lessonId": "L04",
+    "minLesson": 4,
+    "grammarIds": ["G04-01"],
+    "difficulty": 1,
+    "japanesePrompt": "教室の中に学生はいません。",
+    "targetGrammarHint": "場所「教室里」を文頭に置き、否定「没有」を使います。",
+    "hints": [
+      "「教室里＋没有＋学生」の語順です。",
+      "単純方位詞「里」の前に「的」は入れません。",
+      "教室里（　）学生。"
+    ],
+    "modelAnswer": "教室里没有学生。",
+    "acceptableAnswers": ["教室里没有学生", "教室里面没有学生。", "教室里没学生。"],
+    "pinyin": "Jiàoshì lǐ méiyǒu xuésheng.",
+    "structureBreakdown": [
+      { "text": "教室里", "role": "Loc", "label": "場所(主語)" },
+      { "text": "没有", "role": "V", "label": "否定動詞" },
+      { "text": "学生", "role": "O", "label": "名詞" }
+    ],
+    "explanation": "存在の否定も「没有」で表します。",
+    "commonMistakes": [
+      { "wrong": "教室里不在学生。", "reason": "「不在」は特定の人がそこにいない（例：学生不在教室里）ときに使います。" }
+    ]
+  },
+  {
+    "id": "C-G04-01-04",
+    "lessonId": "L04",
+    "minLesson": 4,
+    "grammarIds": ["G04-01"],
+    "difficulty": 2,
+    "japanesePrompt": "あなたには中国人の友達がいますか。",
+    "targetGrammarHint": "所有・関係の疑問文「你有……吗？」を使います。",
+    "hints": [
+      "「你＋有＋中国人の友達＋吗？」の語順です。",
+      "「中国人の友達」は「中国朋友」または「中国人的朋友」と言えます（通常「中国朋友」が簡潔）。",
+      "你有（　）吗？"
+    ],
+    "modelAnswer": "你有中国朋友吗？",
+    "acceptableAnswers": ["你有中国朋友吗", "你有中国人的朋友吗？", "你有没有中国朋友？"],
+    "pinyin": "Nǐ yǒu Zhōngguó péngyou ma?",
+    "structureBreakdown": [
+      { "text": "你", "role": "S", "label": "主語" },
+      { "text": "有", "role": "V", "label": "動詞" },
+      { "text": "中国朋友", "role": "O", "label": "目的語" },
+      { "text": "吗", "role": "Aux", "label": "語気助詞" }
+    ],
+    "explanation": "「中国朋友」で「中国人の友達」を表します。人脈の有無も「有」で表現します。",
+    "commonMistakes": [
+      { "wrong": "你在中国朋友吗？", "reason": "所有・存在の有無には「在」ではなく「有」を使います。" }
+    ]
+  },
+  {
+    "id": "C-G04-01-05",
+    "lessonId": "L04",
+    "minLesson": 4,
+    "grammarIds": ["G04-01", "G04-03"],
+    "difficulty": 2,
+    "japanesePrompt": "私のカバンの中に辞書は1冊も（＝辞書が）ありません。",
+    "targetGrammarHint": "「我的书包里」を主語に「没有词典」を続けます。",
+    "hints": [
+      "「我的书包里＋没有＋词典」の語順です。",
+      "カバンは「书包 (shūbāo)」、辞書は「词典 (cídiǎn)」です。",
+      "我的书包里（　）。"
+    ],
+    "modelAnswer": "我的书包里没有词典。",
+    "acceptableAnswers": ["我的书包里没有词典", "我书包里没有词典。", "我的书包里面没有词典。"],
+    "pinyin": "Wǒ de shūbāo lǐ méiyǒu cídiǎn.",
+    "structureBreakdown": [
+      { "text": "我的书包里", "role": "Loc", "label": "場所(主語)" },
+      { "text": "没有", "role": "V", "label": "否定動詞" },
+      { "text": "词典", "role": "O", "label": "名詞" }
+    ],
+    "explanation": "「书包里」が場所を表し、「没有」が不在・非存在を表します。",
+    "commonMistakes": [
+      { "wrong": "我的书包里不有一本词典。", "reason": "否定には「没有」を使い、通常「一本」などの数量詞は入れません。" }
+    ]
+  },
+  {
+    "id": "C-G04-02-01",
+    "lessonId": "L04",
+    "minLesson": 4,
+    "grammarIds": ["G04-02"],
+    "difficulty": 1,
+    "japanesePrompt": "私たちは教室の中で中国語を学びます。",
+    "targetGrammarHint": "介詞句「在教室里」を動詞「学习」の前に置きます。",
+    "hints": [
+      "「我们＋在教室里＋学习＋汉语」の語順です。",
+      "介詞句は必ず動詞の前に置きます。",
+      "我们在（　）学习汉语。"
+    ],
+    "modelAnswer": "我们在教室里学习汉语。",
+    "acceptableAnswers": ["我们在教室里学习汉语", "我们在教室里学汉语。", "我们在教室学习汉语。"],
+    "pinyin": "Wǒmen zài jiàoshì lǐ xuéxí Hànyǔ.",
+    "structureBreakdown": [
+      { "text": "我们", "role": "S", "label": "主語" },
+      { "text": "在教室里", "role": "Prep", "label": "介詞句" },
+      { "text": "学习", "role": "V", "label": "動詞" },
+      { "text": "汉语", "role": "O", "label": "目的語" }
+    ],
+    "explanation": "「在＋場所＋動詞」の典型的な語順です。",
+    "commonMistakes": [
+      { "wrong": "我们学习汉语在教室里。", "reason": "場所の介詞句を動詞句の後ろに置くことはできません。" }
+    ]
+  },
+  {
+    "id": "C-G04-02-02",
+    "lessonId": "L04",
+    "minLesson": 4,
+    "grammarIds": ["G04-02"],
+    "difficulty": 1,
+    "japanesePrompt": "彼は上海から東京へ来ます。",
+    "targetGrammarHint": "起点の介詞「从」を動詞「来」の前に置きます。",
+    "hints": [
+      "「他＋从上海＋来＋东京」の語順です。",
+      "「〜から」は「从 (cóng)」です。",
+      "他（　）来东京。"
+    ],
+    "modelAnswer": "他从上海来东京。",
+    "acceptableAnswers": ["他从上海来东京", "他从上海到东京来。"],
+    "pinyin": "Tā cóng Shànghǎi lái Dōngjīng.",
+    "structureBreakdown": [
+      { "text": "他", "role": "S", "label": "主語" },
+      { "text": "从上海", "role": "Prep", "label": "介詞句(起点)" },
+      { "text": "来", "role": "V", "label": "動詞" },
+      { "text": "东京", "role": "Loc", "label": "目的地" }
+    ],
+    "explanation": "移動の起点「从上海」を移動動詞「来」の前に配置します。",
+    "commonMistakes": [
+      { "wrong": "他来东京从上海。", "reason": "介詞句「从上海」は動詞「来」の前に置きます。" }
+    ]
+  },
+  {
+    "id": "C-G04-02-03",
+    "lessonId": "L04",
+    "minLesson": 4,
+    "grammarIds": ["G04-02"],
+    "difficulty": 1,
+    "japanesePrompt": "私は母に手紙を書きます。",
+    "targetGrammarHint": "介詞「给＋相手」を動詞「写」の前に置きます。",
+    "hints": [
+      "「我＋给妈妈＋写＋信」の語順です。",
+      "書くは「写 (xiě)」、手紙は「信 (xìn)」です。",
+      "我（　）写信。"
+    ],
+    "modelAnswer": "我给妈妈写信。",
+    "acceptableAnswers": ["我给妈妈写信", "我给我妈妈写信。"],
+    "pinyin": "Wǒ gěi māma xiě xìn.",
+    "structureBreakdown": [
+      { "text": "我", "role": "S", "label": "主語" },
+      { "text": "给妈妈", "role": "Prep", "label": "介詞句" },
+      { "text": "写", "role": "V", "label": "動詞" },
+      { "text": "信", "role": "O", "label": "目的語" }
+    ],
+    "explanation": "「给＋人＋写信」で「〜に手紙を書く」という表現になります。",
+    "commonMistakes": [
+      { "wrong": "我写信给妈妈。", "reason": "基本の語順としては介詞句「给妈妈」を「写」の前に置きます。" }
+    ]
+  },
+  {
+    "id": "C-G04-02-04",
+    "lessonId": "L04",
+    "minLesson": 4,
+    "grammarIds": ["G04-02"],
+    "difficulty": 2,
+    "japanesePrompt": "私たちはここから図書館へ行きます。",
+    "targetGrammarHint": "「从＋起点＋到＋到達点＋去」を使います。",
+    "hints": [
+      "「我们＋从这儿＋到图书馆＋去」の語順です。",
+      "ここから＝「从这儿」、図書館へ＝「到图书馆」です。",
+      "我们（　）去。"
+    ],
+    "modelAnswer": "我们从这儿到图书馆去。",
+    "acceptableAnswers": [
+      "我们从这儿到图书馆去",
+      "我们从这里到图书馆去。",
+      "我们从这儿去图书馆。"
+    ],
+    "pinyin": "Wǒmen cóng zhèr dào túshūguǎn qù.",
+    "structureBreakdown": [
+      { "text": "我们", "role": "S", "label": "主語" },
+      { "text": "从这儿", "role": "Prep", "label": "介詞句(起点)" },
+      { "text": "到图书馆", "role": "Prep", "label": "介詞句(到達点)" },
+      { "text": "去", "role": "V", "label": "動詞" }
+    ],
+    "explanation": "「从 A 到 B 去/来」は、出発地から目的地への移動経路を明確に表す定型パターンです。",
+    "commonMistakes": [
+      { "wrong": "我们去从这儿到图书馆。", "reason": "「从〜到〜」の介詞句は動詞「去」の前に置きます。" }
+    ]
+  },
+  {
+    "id": "C-G04-02-05",
+    "lessonId": "L04",
+    "minLesson": 4,
+    "grammarIds": ["G04-02"],
+    "difficulty": 2,
+    "japanesePrompt": "私はここでコーヒーを飲みません。",
+    "targetGrammarHint": "否定副詞「不」を介詞句「在这儿」の直前に置きます。",
+    "hints": [
+      "「我＋不＋在这儿＋喝咖啡」の語順です。",
+      "「不」は介詞「在」の前に置きます。",
+      "我（　）喝咖啡。"
+    ],
+    "modelAnswer": "我不在这儿喝咖啡。",
+    "acceptableAnswers": ["我不在这儿喝咖啡", "我不在这里喝咖啡。", "我不在这里喝咖啡"],
+    "pinyin": "Wǒ bú zài zhèr hē kāfēi.",
+    "structureBreakdown": [
+      { "text": "我", "role": "S", "label": "主語" },
+      { "text": "不", "role": "Neg", "label": "否定" },
+      { "text": "在这儿", "role": "Prep", "label": "介詞句" },
+      { "text": "喝", "role": "V", "label": "動詞" },
+      { "text": "咖啡", "role": "O", "label": "目的語" }
+    ],
+    "explanation": "介詞を含む文の否定では「不＋介詞句＋動詞」にするのが原則です。",
+    "commonMistakes": [
+      { "wrong": "我在这儿不喝咖啡。", "reason": "否定の「不」は介詞句の前に置くのが自然です。" }
+    ]
+  },
+  {
+    "id": "C-G04-03-01",
+    "lessonId": "L04",
+    "minLesson": 4,
+    "grammarIds": ["G04-03", "G04-01"],
+    "difficulty": 1,
+    "japanesePrompt": "私は中国語の本を2冊持っています。",
+    "targetGrammarHint": "数量の「2」には「两」を使い、本の量詞「本」を添えます。",
+    "hints": [
+      "「我＋有＋两＋本＋汉语书」の語順です。",
+      "量詞「本」の前なので「二」ではなく「两 (liǎng)」を使います。",
+      "我有（　）汉语书。"
+    ],
+    "modelAnswer": "我有两本汉语书。",
+    "acceptableAnswers": ["我有两本汉语书", "我有两本中文书。"],
+    "pinyin": "Wǒ yǒu liǎng běn Hànyǔ shū.",
+    "structureBreakdown": [
+      { "text": "我", "role": "S", "label": "主語" },
+      { "text": "有", "role": "V", "label": "動詞" },
+      { "text": "两本", "role": "Attr", "label": "数詞+量詞" },
+      { "text": "汉语书", "role": "O", "label": "名詞" }
+    ],
+    "explanation": "量詞の直前の「2」は必ず「两」になります。",
+    "commonMistakes": [
+      { "wrong": "我有二本汉语书。", "reason": "量詞の前に「二」を使うことはできません。" }
+    ]
+  },
+  {
+    "id": "C-G04-03-02",
+    "lessonId": "L04",
+    "minLesson": 4,
+    "grammarIds": ["G04-03"],
+    "difficulty": 1,
+    "japanesePrompt": "彼は写真を3枚撮ります。",
+    "targetGrammarHint": "写真を数える量詞「张」を使います。",
+    "hints": [
+      "「他＋拍＋三＋张＋照片」の語順です。",
+      "撮るは「拍 (pāi)」、写真は「照片 (zhàopiàn)」です。",
+      "他拍（　）照片。"
+    ],
+    "modelAnswer": "他拍三张照片。",
+    "acceptableAnswers": ["他拍三张照片"],
+    "pinyin": "Tā pāi sān zhāng zhàopiàn.",
+    "structureBreakdown": [
+      { "text": "他", "role": "S", "label": "主語" },
+      { "text": "拍", "role": "V", "label": "動詞" },
+      { "text": "三张", "role": "Attr", "label": "数詞+量詞" },
+      { "text": "照片", "role": "O", "label": "名詞" }
+    ],
+    "explanation": "平らなものを数える量詞「张」と数詞「三」を名詞の前に置きます。",
+    "commonMistakes": [
+      { "wrong": "他拍三个照片。", "reason": "写真の量詞には「个」ではなく「张」を使います。" }
+    ]
+  },
+  {
+    "id": "C-G04-03-03",
+    "lessonId": "L04",
+    "minLesson": 4,
+    "grammarIds": ["G04-03", "G04-01"],
+    "difficulty": 2,
+    "japanesePrompt": "彼女にはお兄さんが2人と妹が1人います。",
+    "targetGrammarHint": "人の量詞「个」と「两」「一」を正しく使い分けます。",
+    "hints": [
+      "「她＋有＋两个哥哥＋和＋一个妹妹」の語順です。",
+      "2人は「两个」、1人は「一个」（発音は yí gè）です。",
+      "她有两个哥哥和（　）。"
+    ],
+    "modelAnswer": "她有两个哥哥和一个妹妹。",
+    "acceptableAnswers": ["她有两个哥哥和一个妹妹"],
+    "pinyin": "Tā yǒu liǎng gè gēge hé yí gè mèimei.",
+    "structureBreakdown": [
+      { "text": "她", "role": "S", "label": "主語" },
+      { "text": "有", "role": "V", "label": "動詞" },
+      { "text": "两个哥哥", "role": "O", "label": "数量+名詞" },
+      { "text": "和", "role": "Conj", "label": "接続詞" },
+      { "text": "一个妹妹", "role": "O", "label": "数量+名詞" }
+    ],
+    "explanation": "名詞同士をつなぐときは接続詞「和 (hé)」を使います。「一个」は「个 (gè：4声)」の前で yí gè と変調します。",
+    "commonMistakes": [
+      { "wrong": "她有二个哥哥和一妹妹。", "reason": "「二个」は「两个」に、「一妹妹」には量詞「个」が必要です。" }
+    ]
+  },
+  {
+    "id": "C-G04-03-04",
+    "lessonId": "L04",
+    "minLesson": 4,
+    "grammarIds": ["G04-03", "G03-01", "G03-02"],
+    "difficulty": 2,
+    "japanesePrompt": "この写真はとてもきれいです。",
+    "targetGrammarHint": "指示代詞「这」＋量詞「张」＋名詞「照片」で「この写真」を作ります。",
+    "hints": [
+      "「这张照片＋很＋漂亮」の語順です。",
+      "「这」の後ろに量詞「张」を忘れないようにします。",
+      "（　）照片很漂亮。"
+    ],
+    "modelAnswer": "这张照片很漂亮。",
+    "acceptableAnswers": ["这张照片很漂亮"],
+    "pinyin": "Zhè zhāng zhàopiàn hěn piàoliang.",
+    "structureBreakdown": [
+      { "text": "这张照片", "role": "S", "label": "指示+量詞+名詞" },
+      { "text": "很", "role": "Adv", "label": "副詞" },
+      { "text": "漂亮", "role": "V", "label": "形容詞述語" }
+    ],
+    "explanation": "指示代詞「这」「那」が名詞を直接修飾するときも、量詞が必須です。",
+    "commonMistakes": [
+      { "wrong": "这照片很漂亮。", "reason": "「这」と名詞「照片」の間に量詞「张」が必要です。" }
+    ]
+  },
+  {
+    "id": "C-G04-03-05",
+    "lessonId": "L04",
+    "minLesson": 4,
+    "grammarIds": ["G04-03", "G03-04"],
+    "difficulty": 2,
+    "japanesePrompt": "第2教育棟は図書館の隣にあります。",
+    "targetGrammarHint": "序数「第2」には「两」ではなく「二」を使います。",
+    "hints": [
+      "「第二教学楼＋在＋图书馆＋旁边」の語順です。",
+      "第2は「第二 (dì èr)」です。",
+      "（　）在图书馆旁边。"
+    ],
+    "modelAnswer": "第二教学楼在图书馆旁边。",
+    "acceptableAnswers": ["第二教学楼在图书馆旁边", "第二教学楼在图书馆的旁边。"],
+    "pinyin": "Dì èr jiàoxuélóu zài túshūguǎn pángbiān.",
+    "structureBreakdown": [
+      { "text": "第二教学楼", "role": "S", "label": "序数+名詞" },
+      { "text": "在", "role": "V", "label": "所在動詞" },
+      { "text": "图书馆旁边", "role": "Loc", "label": "場所" }
+    ],
+    "explanation": "「第2」のような序数を表す場合は必ず「二」を使います（×第两）。",
+    "commonMistakes": [
+      { "wrong": "第两教学楼在图书馆旁边。", "reason": "序数には「两」ではなく「二」を使います。" }
+    ]
+  },
+  {
+    "id": "C-G04-04-01",
+    "lessonId": "L04",
+    "minLesson": 4,
+    "grammarIds": ["G04-04"],
+    "difficulty": 1,
+    "japanesePrompt": "これは誰のカメラですか。",
+    "targetGrammarHint": "「谁的＋名詞」を目的語の位置に置き、文末に「吗」を付けません。",
+    "hints": [
+      "「这＋是＋谁的＋相机？」の語順です。",
+      "誰のは「谁的 (shéi de)」、カメラは「相机 (xiàngjī)」です。",
+      "这是（　）相机？"
+    ],
+    "modelAnswer": "这是谁的相机？",
+    "acceptableAnswers": ["这是谁的相机"],
+    "pinyin": "Zhè shì shéi de xiàngjī?",
+    "structureBreakdown": [
+      { "text": "这", "role": "S", "label": "指示代詞" },
+      { "text": "是", "role": "V", "label": "判断動詞" },
+      { "text": "谁的", "role": "Attr", "label": "疑問詞(所有)" },
+      { "text": "相机", "role": "O", "label": "名詞" }
+    ],
+    "explanation": "疑問詞を含む疑問文では、平叙文の語順のまま疑問詞を置き、「吗」は付けません。",
+    "commonMistakes": [
+      { "wrong": "这是谁的相机吗？", "reason": "疑問詞「谁」がある文に「吗」は付けません。" }
+    ]
+  },
+  {
+    "id": "C-G04-04-02",
+    "lessonId": "L04",
+    "minLesson": 4,
+    "grammarIds": ["G04-04"],
+    "difficulty": 1,
+    "japanesePrompt": "あなたは何の本を買いますか。",
+    "targetGrammarHint": "「什么＋名詞」を動詞「买」の目的語の位置に置きます。",
+    "hints": [
+      "「你＋买＋什么＋书？」の語順です。",
+      "「什么」を文頭に移動させません。",
+      "你买（　）？"
+    ],
+    "modelAnswer": "你买什么书？",
+    "acceptableAnswers": ["你买什么书"],
+    "pinyin": "Nǐ mǎi shénme shū?",
+    "structureBreakdown": [
+      { "text": "你", "role": "S", "label": "主語" },
+      { "text": "买", "role": "V", "label": "動詞" },
+      { "text": "什么", "role": "Attr", "label": "疑問詞" },
+      { "text": "书", "role": "O", "label": "名詞" }
+    ],
+    "explanation": "「什么＋名詞」で「何の〜／どんな〜」を尋ねます。",
+    "commonMistakes": [
+      { "wrong": "什么书你买？", "reason": "目的語の疑問詞は動詞の後ろにそのまま置きます。" }
+    ]
+  },
+  {
+    "id": "C-G04-04-03",
+    "lessonId": "L04",
+    "minLesson": 4,
+    "grammarIds": ["G04-04"],
+    "difficulty": 1,
+    "japanesePrompt": "すみません、図書館へはどう行きますか。",
+    "targetGrammarHint": "「请问，」＋「目的地＋怎么＋走？」を使います。",
+    "hints": [
+      "「请问，图书馆＋怎么＋走？」の語順です。",
+      "どうやっては「怎么 (zěnme)」、歩く・行くは「走 (zǒu)」です。",
+      "请问，图书馆（　）？"
+    ],
+    "modelAnswer": "请问，图书馆怎么走？",
+    "acceptableAnswers": [
+      "请问，图书馆怎么走",
+      "请问，去图书馆怎么走？",
+      "请问,图书馆怎么走？"
+    ],
+    "pinyin": "Qǐngwèn, túshūguǎn zěnme zǒu?",
+    "structureBreakdown": [
+      { "text": "请问", "role": "V", "label": "丁寧表現" },
+      { "text": "图书馆", "role": "S", "label": "目的地" },
+      { "text": "怎么", "role": "Adv", "label": "疑問詞(方法)" },
+      { "text": "走", "role": "V", "label": "動詞" }
+    ],
+    "explanation": "道順を尋ねる定番の表現「〜怎么走？」です。",
+    "commonMistakes": [
+      { "wrong": "请问，图书馆为什么走？", "reason": "行き方（方法）を尋ねるときは「为什么」ではなく「怎么」を使います。" }
+    ]
+  },
+  {
+    "id": "C-G04-04-04",
+    "lessonId": "L04",
+    "minLesson": 4,
+    "grammarIds": ["G04-04"],
+    "difficulty": 2,
+    "japanesePrompt": "あなたはなぜ一緒に行かないのですか。",
+    "targetGrammarHint": "理由を尋ねる「为什么」を主語の後ろ（否定・副詞の前）に置きます。",
+    "hints": [
+      "「你＋为什么＋不＋一起＋去？」の語順です。",
+      "なぜは「为什么 (wèishénme)」です。",
+      "你（　）不一起去？"
+    ],
+    "modelAnswer": "你为什么不一起去？",
+    "acceptableAnswers": ["你为什么不一起去", "为什么你不一起去？", "为什么你不一起去"],
+    "pinyin": "Nǐ wèishénme bù yìqǐ qù?",
+    "structureBreakdown": [
+      { "text": "你", "role": "S", "label": "主語" },
+      { "text": "为什么", "role": "Adv", "label": "疑問詞(理由)" },
+      { "text": "不", "role": "Neg", "label": "否定" },
+      { "text": "一起", "role": "Adv", "label": "副詞" },
+      { "text": "去", "role": "V", "label": "動詞" }
+    ],
+    "explanation": "「为什么」は主語と述語（不一起去）の間に置くのが標準です（文頭に置くこともできます）。",
+    "commonMistakes": [
+      { "wrong": "你不一起去为什么？", "reason": "「为什么」を単独で文末に置くのではなく、述語の前（または文頭）に置きます。" }
+    ]
+  },
+  {
+    "id": "C-G04-04-05",
+    "lessonId": "L04",
+    "minLesson": 4,
+    "grammarIds": ["G04-04", "G04-02"],
+    "difficulty": 2,
+    "japanesePrompt": "あなたは誰に手紙を書きますか。",
+    "targetGrammarHint": "介詞「给」の目的語の位置に「谁」を置きます。",
+    "hints": [
+      "「你＋给谁＋写信？」の語順です。",
+      "介詞句「给谁」を動詞「写」の前に置きます。",
+      "你（　）写信？"
+    ],
+    "modelAnswer": "你给谁写信？",
+    "acceptableAnswers": ["你给谁写信"],
+    "pinyin": "Nǐ gěi shéi xiě xìn?",
+    "structureBreakdown": [
+      { "text": "你", "role": "S", "label": "主語" },
+      { "text": "给谁", "role": "Prep", "label": "介詞句(疑問)" },
+      { "text": "写", "role": "V", "label": "動詞" },
+      { "text": "信", "role": "O", "label": "目的語" }
+    ],
+    "explanation": "介詞の目的語を尋ねるときも、語順を変えずに介詞の後ろに疑問詞をそのまま入れます。",
+    "commonMistakes": [
+      { "wrong": "谁你给写信？", "reason": "疑問詞だけを文頭に抜き出すことはできません。" }
+    ]
+  }
+]

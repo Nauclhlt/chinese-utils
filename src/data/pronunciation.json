@@ -1,0 +1,243 @@
+{
+  "sandhiRules": [
+    {
+      "id": "SANDHI-01",
+      "title": "第3声の連続（半3声・2声化）",
+      "description": "第3声（ˇ：低く抑えて上がる音）が2つ以上連続すると、後ろの第3声は本来の第3声（または半3声）のまま、前の第3声は発音上「第2声（ˊ）」のように上昇調に変化します。辞書や単語帳では本来の声調（第3声）を表記し、実際の発話で変調させます。",
+      "examples": [
+        {
+          "hanzi": "你好",
+          "originalPinyin": "nǐ hǎo",
+          "spokenPinyin": "ní hǎo",
+          "ja": "こんにちは",
+          "note": "本来の声調は [3, 3] だが、発音時は [2, 3] に近くなる。"
+        },
+        {
+          "hanzi": "水果",
+          "originalPinyin": "shuǐguǒ",
+          "spokenPinyin": "shuíguǒ",
+          "ja": "果物",
+          "note": "3声＋3声のため、前の「shuǐ」が上昇調になる。"
+        },
+        {
+          "hanzi": "展览馆",
+          "originalPinyin": "zhǎnlǎnguǎn",
+          "spokenPinyin": "zhánlánguǎn",
+          "ja": "展示館",
+          "note": "3音節とも第3声のときは、文節の区切りに応じて [2, 2, 3] または [半3, 2, 3] になる。"
+        }
+      ]
+    },
+    {
+      "id": "SANDHI-02",
+      "title": "「不 (bù)」の声調変調",
+      "description": "「不」の本来の声調は第4声（bù）です。単独・文末・第1/2/3声の前では本来の第4声で発音されますが、後ろに「第4声」の音節が続くときのみ、発音上「第2声（bú）」に変化します。",
+      "examples": [
+        {
+          "hanzi": "不是",
+          "originalPinyin": "bù shì",
+          "spokenPinyin": "bú shì",
+          "ja": "〜ではない",
+          "note": "後ろの「shì」が第4声のため、「bú」と上がる。"
+        },
+        {
+          "hanzi": "不错",
+          "originalPinyin": "bù cuò",
+          "spokenPinyin": "bú cuò",
+          "ja": "悪くない・素晴らしい",
+          "note": "後ろの「cuò」が第4声のため「bú cuò」。"
+        },
+        {
+          "hanzi": "不好",
+          "originalPinyin": "bù hǎo",
+          "spokenPinyin": "bù hǎo",
+          "ja": "よくない",
+          "note": "後ろが第3声なので変調せず本来の第4声のまま。"
+        }
+      ]
+    },
+    {
+      "id": "SANDHI-03",
+      "title": "「一 (yī)」の声調変調",
+      "description": "「一」の本来の声調は第1声（yī）です。単独・序数（第一）・番号（一一〇）では第1声のままですが、後ろに第4声が来ると「第2声（yí）」、後ろに第1・2・3声が来ると「第4声（yì）」に変わります。",
+      "examples": [
+        {
+          "hanzi": "一个",
+          "originalPinyin": "yī gè",
+          "spokenPinyin": "yí gè (yí ge)",
+          "ja": "1つ",
+          "note": "後ろの「gè」が本来第4声のため「yí」になる。"
+        },
+        {
+          "hanzi": "一起",
+          "originalPinyin": "yī qǐ",
+          "spokenPinyin": "yì qǐ",
+          "ja": "一緒に",
+          "note": "後ろが第3声のため、発音は第4声「yì qǐ」になる。"
+        },
+        {
+          "hanzi": "第一课",
+          "originalPinyin": "dì yī kè",
+          "spokenPinyin": "dì yī kè",
+          "ja": "第1課",
+          "note": "序数（順番）の「一」は変調せず第1声「yī」のまま。"
+        }
+      ]
+    },
+    {
+      "id": "SANDHI-04",
+      "title": "軽声 (qīngshēng)",
+      "description": "語気助詞（吗・呢・吧）、アスペクト・構造助詞（了・着・过・的・地・得）、畳語の2音節目（爸爸・妈妈・看看）、名詞接尾辞（桌子・我们）などは、本来の声調を失って短く軽く発音されます（軽声）。数字表記では「ma5」「ma0」または無標で表します。",
+      "examples": [
+        {
+          "hanzi": "妈妈",
+          "originalPinyin": "māma",
+          "spokenPinyin": "māma",
+          "ja": "お母さん",
+          "note": "2音節目が軽声（5）。"
+        },
+        {
+          "hanzi": "东西",
+          "originalPinyin": "dōngxi",
+          "spokenPinyin": "dōngxi",
+          "ja": "もの・品物",
+          "note": "「dōngxī（東西の方角）」と「dōngxi（品物）」は軽声の有無で意味が変わる。"
+        }
+      ]
+    }
+  ],
+  "pairDrills": [
+    {
+      "id": "PP-01",
+      "lessonId": "L01",
+      "minLesson": 1,
+      "category": "similar-sound",
+      "prompt": "有気音「p」と無気音「b」の区別：『お父さん』はどちら？",
+      "optionA": { "hanzi": "爸爸", "pinyin": "bàba", "ja": "お父さん" },
+      "optionB": { "hanzi": "怕", "pinyin": "pà", "ja": "恐れる" },
+      "target": "A",
+      "explanation": "b は息を強く出さない無気音、p は息を強く吐き出す有気音です。「爸爸」は bàba です。"
+    },
+    {
+      "id": "PP-02",
+      "lessonId": "L01",
+      "minLesson": 1,
+      "category": "similar-sound",
+      "prompt": "声調の区別：『質問する（問う）』はどちら？",
+      "optionA": { "hanzi": "闻", "pinyin": "wén", "ja": "匂いを嗅ぐ・聞く" },
+      "optionB": { "hanzi": "问", "pinyin": "wèn", "ja": "尋ねる・質問する" },
+      "target": "B",
+      "explanation": "同じ wen でも、第2声 wén は「嗅ぐ」、第4声 wèn は「質問する（请问の问）」です。"
+    },
+    {
+      "id": "PP-03",
+      "lessonId": "L02",
+      "minLesson": 2,
+      "category": "similar-sound",
+      "prompt": "そり舌音「sh」と歯茎音「s」：『10』はどちら？",
+      "optionA": { "hanzi": "十", "pinyin": "shí", "ja": "10" },
+      "optionB": { "hanzi": "四", "pinyin": "sì", "ja": "4" },
+      "target": "A",
+      "explanation": "「十 (shí)」は舌先を反らせるそり舌音の第2声、「四 (sì)」は舌を平らにする第4声です。"
+    },
+    {
+      "id": "PP-04",
+      "lessonId": "L03",
+      "minLesson": 3,
+      "category": "similar-sound",
+      "prompt": "声調の違いで意味が変わる語：『買う』はどちら？",
+      "optionA": { "hanzi": "买", "pinyin": "mǎi", "ja": "買う" },
+      "optionB": { "hanzi": "卖", "pinyin": "mài", "ja": "売る" },
+      "target": "A",
+      "explanation": "「买 (mǎi)」は第3声で「買う」、「卖 (mài)」は第4声で「売る」です。"
+    },
+    {
+      "id": "PP-05",
+      "lessonId": "L04",
+      "minLesson": 4,
+      "category": "similar-sound",
+      "prompt": "「u」と「ü」の区別：『行く』はどちら？",
+      "optionA": { "hanzi": "住", "pinyin": "zhù", "ja": "住む" },
+      "optionB": { "hanzi": "去", "pinyin": "qù", "ja": "行く" },
+      "target": "B",
+      "explanation": "q の後ろの u は実際の発音は ü（唇を丸めて「イ」と言う口の形）です。ピンイン表記では点を省略して qù と書きます。"
+    },
+    {
+      "id": "PP-06",
+      "lessonId": "L05",
+      "minLesson": 5,
+      "category": "similar-sound",
+      "prompt": "語尾 -n と -ng の区別：『今』はどちら？",
+      "optionA": { "hanzi": "现在", "pinyin": "xiànzài", "ja": "今・現在" },
+      "optionB": { "hanzi": "想", "pinyin": "xiǎng", "ja": "〜したい・思う" },
+      "target": "A",
+      "explanation": "「现 (xiàn)」は舌先を歯茎につけて閉じる前鼻音 -n、「想 (xiǎng)」は口の奥に響かせる後鼻音 -ng です。"
+    },
+    {
+      "id": "PP-07",
+      "lessonId": "L06",
+      "minLesson": 6,
+      "category": "tone-sandhi",
+      "prompt": "声調変調の理解：「不好 (bù hǎo)」の本来の声調と実際の発音の組合せで正しいのは？",
+      "optionA": { "hanzi": "bù hǎo（変調しない）", "pinyin": "bù hǎo", "ja": "後ろが第3声なので「不」は第4声のまま" },
+      "optionB": { "hanzi": "bú hǎo（変調する）", "pinyin": "bú hǎo", "ja": "常に第2声に変わる" },
+      "target": "A",
+      "explanation": "「不」が第2声（bú）に変調するのは後ろに第4声が来るときだけです。第3声の前では第4声のままです。"
+    },
+    {
+      "id": "PP-08",
+      "lessonId": "L08",
+      "minLesson": 8,
+      "category": "similar-sound",
+      "prompt": "「j/q/x」と「zh/ch/sh」の区別：『7』はどちら？",
+      "optionA": { "hanzi": "七", "pinyin": "qī", "ja": "7" },
+      "optionB": { "hanzi": "吃", "pinyin": "chī", "ja": "食べる" },
+      "target": "A",
+      "explanation": "qī は舌面音（口を横に引き「チ」に近い音）、chī はそり舌音（舌を巻いて出す音）です。"
+    },
+    {
+      "id": "PP-09",
+      "lessonId": "L10",
+      "minLesson": 10,
+      "category": "neutral-tone",
+      "prompt": "軽声の有無で意味が変わる語：『もの・品物』を表す発音は？",
+      "optionA": { "hanzi": "东西 (dōngxi)", "pinyin": "dōngxi", "ja": "もの・品物（2文字目が軽声）" },
+      "optionB": { "hanzi": "东西 (dōngxī)", "pinyin": "dōngxī", "ja": "東と西（方角）" },
+      "target": "A",
+      "explanation": "2音節目を軽声にすると「もの（品物）」、第1声で読むと「東と西」という意味になります。"
+    },
+    {
+      "id": "PP-10",
+      "lessonId": "L12",
+      "minLesson": 12,
+      "category": "similar-sound",
+      "prompt": "有気音「t」と無気音「d」の区別：『聞く』はどちら？",
+      "optionA": { "hanzi": "听", "pinyin": "tīng", "ja": "聞く" },
+      "optionB": { "hanzi": "订", "pinyin": "dìng", "ja": "予約する" },
+      "target": "A",
+      "explanation": "「听 (tīng)」は息を強く出す有気音の t、「订 (dìng)」は無気音の d です。"
+    },
+    {
+      "id": "PP-11",
+      "lessonId": "L14",
+      "minLesson": 14,
+      "category": "similar-sound",
+      "prompt": "そり舌音 r と l の区別：『熱い』はどちら？",
+      "optionA": { "hanzi": "热", "pinyin": "rè", "ja": "熱い・暑い" },
+      "optionB": { "hanzi": "乐", "pinyin": "lè", "ja": "楽しい" },
+      "target": "A",
+      "explanation": "「热 (rè)」は舌先を後ろに反らせて摩擦させる音（r）、「乐 (lè)」は舌先を上の歯茎につけて弾く音（l）です。"
+    },
+    {
+      "id": "PP-12",
+      "lessonId": "L16",
+      "minLesson": 16,
+      "category": "tone-sandhi",
+      "prompt": "「一」の変調：「一起 (yī qǐ)」を実際に発音するときの声調は？",
+      "optionA": { "hanzi": "yì qǐ（第4声＋第3声）", "pinyin": "yì qǐ", "ja": "後ろが第3声なので「一」は第4声で発音" },
+      "optionB": { "hanzi": "yí qǐ（第2声＋第3声）", "pinyin": "yí qǐ", "ja": "後ろが第3声なので第2声で発音" },
+      "target": "A",
+      "explanation": "「一」は第1・2・3声の前では第4声（yì）に変調し、第4声の前では第2声（yí）に変調します。"
+    }
+  ]
+}

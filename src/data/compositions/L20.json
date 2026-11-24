@@ -1,0 +1,798 @@
+[
+  {
+    "id": "C-G20-01-01",
+    "lessonId": "L20",
+    "minLesson": 20,
+    "grammarIds": ["G20-01"],
+    "difficulty": 1,
+    "japanesePrompt": "この映画の言葉は少し難しいですが、演技はとても素晴らしいです。",
+    "targetGrammarHint": "逆接複文「虽然……，但是……」",
+    "hints": [
+      "「虽然……，但是……」の逆接ペアを使います。",
+      "語彙ヒント：这部电影 (zhè bù diànyǐng)、语言 (yǔyán)、表演 (biǎoyǎn)、精彩 (jīngcǎi)。",
+      "骨組み：虽然这部电影的语言……，但是表演……。"
+    ],
+    "modelAnswer": "虽然这部电影的语言有点儿难，但是表演非常精彩。",
+    "acceptableAnswers": [
+      "虽然这部电影的语言有点儿难，但是表演非常精彩。",
+      "虽然这部电影的语言有点难，可是表演非常精彩。",
+      "这部电影的语言虽然有点儿难，但是表演非常精彩。",
+      "虽然这部电影的语言有点难，但是表演很精彩。"
+    ],
+    "pinyin": "Suīrán zhè bù diànyǐng de yǔyán yǒudiǎnr nán, dànshì biǎoyǎn fēicháng jīngcǎi.",
+    "structureBreakdown": [
+      { "text": "虽然", "role": "Conj", "label": "逆接前件" },
+      { "text": "这部电影的语言", "role": "S", "label": "主語1" },
+      { "text": "有点儿难", "role": "P", "label": "述語1" },
+      { "text": "但是", "role": "Conj", "label": "逆接後件" },
+      { "text": "表演", "role": "S", "label": "主語2" },
+      { "text": "非常精彩", "role": "P", "label": "述語2" }
+    ],
+    "explanation": "前後節で主語が異なる（语言／表演）ため、それぞれ「虽然」と「但是」の直後に主語を置きます。「有点儿」は形容詞の前で「少し〜」を表します。",
+    "commonMistakes": [
+      { "wrong": "虽然这部电影的语言有点儿难，所以表演非常精彩。", "reason": "「虽然」には因果の「所以」ではなく、逆接の「但是 / 可是 / 不过」を呼応させます。" },
+      { "wrong": "这部电影的语言有点儿难，但是精彩。", "reason": "「虽然」がなく「但是」だけ、かつ後件の主語「表演」と程度副詞「很 / 非常」が抜けると不自然になります。" }
+    ]
+  },
+  {
+    "id": "C-G20-01-02",
+    "lessonId": "L20",
+    "minLesson": 20,
+    "grammarIds": ["G20-01"],
+    "difficulty": 1,
+    "japanesePrompt": "彼は日本に来てまだ半年ですが、日本語をとても流暢に話します。",
+    "targetGrammarHint": "同主語の逆接「主語 + 虽然……，但是……」",
+    "hints": [
+      "前後節の主語が同じ「他」なので、文頭に「他」を置き「他虽然……，但是……」にします。",
+      "語彙ヒント：来日本 (lái Rìběn)、才半年 (cái bàn nián)、流利 (liúlì)。",
+      "骨組み：他虽然来日本才半年，但是日语说得……。"
+    ],
+    "modelAnswer": "他虽然来日本才半年，但是日语说得很流利。",
+    "acceptableAnswers": [
+      "他虽然来日本才半年，但是日语说得很流利。",
+      "虽然他来日本才半年，但是日语说得很流利。",
+      "他虽然来日本才半年，可是日语说得非常流利。"
+    ],
+    "pinyin": "Tā suīrán lái Rìběn cái bàn nián, dànshì Rìyǔ shuō de hěn liúlì.",
+    "structureBreakdown": [
+      { "text": "他", "role": "S", "label": "共通主語" },
+      { "text": "虽然", "role": "Conj", "label": "逆接前件" },
+      { "text": "来日本才半年", "role": "V", "label": "前件述語" },
+      { "text": "但是", "role": "Conj", "label": "逆接後件" },
+      { "text": "日语", "role": "O", "label": "話題" },
+      { "text": "说得很流利", "role": "C", "label": "動詞＋程度補語" }
+    ],
+    "explanation": "「とても流暢に話す」は程度補語「说得很流利」を用います。主語が共通なので文頭に「他」を置くとすっきりします。",
+    "commonMistakes": [
+      { "wrong": "他虽然来日本才半年，但是说流利日语。", "reason": "動作の様態・程度を評価するときは「说得很流利」のように程度補語を使います。" },
+      { "wrong": "因为来日本才半年，但是日语说得很流利。", "reason": "「因为」と「但是」の混用は典型的な誤りです。" }
+    ]
+  },
+  {
+    "id": "C-G20-01-03",
+    "lessonId": "L20",
+    "minLesson": 20,
+    "grammarIds": ["G20-01"],
+    "difficulty": 2,
+    "japanesePrompt": "今日の風は強いですが、私たちはやはり出かけるつもりです。",
+    "targetGrammarHint": "「虽然……，但是 + 主語 + 还是 + 打算……」",
+    "hints": [
+      "前件の主語は「今天的风」、後件の主語は「我们」です。",
+      "「やはり〜するつもりだ」は「还是打算……」を使います。",
+      "骨組み：虽然今天的风很大，但是我们还是打算……。"
+    ],
+    "modelAnswer": "虽然今天的风很大，但是我们还是打算出门。",
+    "acceptableAnswers": [
+      "虽然今天的风很大，但是我们还是打算出门。",
+      "虽然今天的风很大，可是我们还是打算出去。",
+      "今天风虽然很大，但是我们还是打算出门。"
+    ],
+    "pinyin": "Suīrán jīntiān de fēng hěn dà, dànshì wǒmen háishi dǎsuàn chūmén.",
+    "structureBreakdown": [
+      { "text": "虽然", "role": "Conj", "label": "逆接前件" },
+      { "text": "今天的风很大", "role": "S", "label": "主述節" },
+      { "text": "但是", "role": "Conj", "label": "逆接後件" },
+      { "text": "我们", "role": "S", "label": "主語2" },
+      { "text": "还是", "role": "Adv", "label": "やはり" },
+      { "text": "打算出门", "role": "V", "label": "予定・行動" }
+    ],
+    "explanation": "逆接の後件に副詞「还是（やはり・それでも）」を加えると、「風が強くても計画通りに出かける」というニュアンスが明確になります。",
+    "commonMistakes": [
+      { "wrong": "虽然今天的风很强，但是我们打算出门。", "reason": "風の勢いには「风强」ではなく「风大」を使うのが自然な中国語です。" }
+    ]
+  },
+  {
+    "id": "C-G20-01-04",
+    "lessonId": "L20",
+    "minLesson": 20,
+    "grammarIds": ["G20-01"],
+    "difficulty": 2,
+    "japanesePrompt": "私は故郷をとても懐かしく思っていますが、今はまだ戻ることができません。",
+    "targetGrammarHint": "「虽然……，但是……」（怀念・目前）",
+    "hints": [
+      "「懐かしく思う」は「怀念 (huáiniàn)」を使います。",
+      "前後とも主語が「我」なので「我虽然……，但是目前还……」とします。",
+      "骨組み：我虽然很怀念家乡，但是现在还不能……。"
+    ],
+    "modelAnswer": "我虽然非常怀念家乡，但是现在还不能回去。",
+    "acceptableAnswers": [
+      "我虽然非常怀念家乡，但是现在还不能回去。",
+      "虽然我很怀念家乡，但是目前还不能回去。",
+      "我虽然很怀念家乡，可是现在还回不去。"
+    ],
+    "pinyin": "Wǒ suīrán fēicháng huáiniàn jiāxiāng, dànshì xiànzài hái bù néng huíqu.",
+    "structureBreakdown": [
+      { "text": "我", "role": "S", "label": "主語" },
+      { "text": "虽然", "role": "Conj", "label": "逆接前件" },
+      { "text": "非常怀念家乡", "role": "V", "label": "心理動詞句" },
+      { "text": "但是", "role": "Conj", "label": "逆接後件" },
+      { "text": "现在还不能回去", "role": "V", "label": "否定可能" }
+    ],
+    "explanation": "心理動詞「怀念」は「很 / 非常」で修飾できます。「戻ることができない」は「不能回去」または可能補語「回不去」で表します。",
+    "commonMistakes": [
+      { "wrong": "我虽然很怀念家乡，但是还不能回来。", "reason": "話し手が現在故郷の外にいる状況から故郷へ戻る方向は「回去」を使います。" }
+    ]
+  },
+  {
+    "id": "C-G20-01-05",
+    "lessonId": "L20",
+    "minLesson": 20,
+    "grammarIds": ["G20-01"],
+    "difficulty": 2,
+    "japanesePrompt": "この街は大きくありませんが、独特の魅力を持っています。",
+    "targetGrammarHint": "「虽然……，不过/但是……」＋「有着」",
+    "hints": [
+      "「独特の魅力を持っている」には第20課の「有着 (yǒuzhe)」と「魅力 (mèilì)」が使えます。",
+      "「虽然……，不过/但是……」で軽く逆接します。",
+      "骨組み：这座城市虽然不大，但是有着独特的魅力。"
+    ],
+    "modelAnswer": "这座城市虽然不大，但是有着独特的魅力。",
+    "acceptableAnswers": [
+      "这座城市虽然不大，但是有着独特的魅力。",
+      "虽然这个城市不大，不过有着独特的魅力。",
+      "这个城市虽然不大，但是很有魅力。"
+    ],
+    "pinyin": "Zhè zuò chéngshì suīrán bú dà, dànshì yǒuzhe dútè de mèilì.",
+    "structureBreakdown": [
+      { "text": "这座城市", "role": "S", "label": "主語" },
+      { "text": "虽然不大", "role": "Conj", "label": "逆接前件" },
+      { "text": "但是", "role": "Conj", "label": "逆接後件" },
+      { "text": "有着", "role": "V", "label": "保有動詞" },
+      { "text": "独特的魅力", "role": "O", "label": "目的語" }
+    ],
+    "explanation": "「有着」を使うことで、単なる所有ではなく「（歴史的・文化的な）魅力を備えている」という表現豊かな文になります。",
+    "commonMistakes": [
+      { "wrong": "虽然这座城市不大，但是有有着独特的魅力。", "reason": "「有着」自体が動詞「有＋着」なので、前にさらに「有」を重ねません。" }
+    ]
+  },
+
+  {
+    "id": "C-G20-02-01",
+    "lessonId": "L20",
+    "minLesson": 20,
+    "grammarIds": ["G20-02"],
+    "difficulty": 1,
+    "japanesePrompt": "私は今日、水を一ロも飲んでいません。",
+    "targetGrammarHint": "完全否定「一 + 量詞 + 名 + 也/都 + 没 + V」",
+    "hints": [
+      "「一口の水も」は「一口水 (yì kǒu shuǐ)」または「一杯水」を動詞の前に置きます。",
+      "「也」または「都」を必ず「没喝」の前に置きます。",
+      "骨組み：我今天一口水也没喝。"
+    ],
+    "modelAnswer": "我今天一口水也没喝。",
+    "acceptableAnswers": [
+      "我今天一口水也没喝。",
+      "我今天一口水都没喝。",
+      "今天我一口水也没有喝。"
+    ],
+    "pinyin": "Wǒ jīntiān yì kǒu shuǐ yě méi hē.",
+    "structureBreakdown": [
+      { "text": "我", "role": "S", "label": "主語" },
+      { "text": "今天", "role": "Time", "label": "時間" },
+      { "text": "一口水", "role": "O", "label": "最小数量(前置)" },
+      { "text": "也", "role": "Adv", "label": "強調" },
+      { "text": "没喝", "role": "V", "label": "否定完了" }
+    ],
+    "explanation": "過去の動作の未実現には否定副詞「没」を使います。「一口水」を「也没喝」の前に引き出すのがポイントです。",
+    "commonMistakes": [
+      { "wrong": "我今天没喝一口水也。", "reason": "強調する目的語「一口水」は必ず「也/都 + 没 + 動詞」の前に置きます。" },
+      { "wrong": "我今天一口水没喝。", "reason": "「也」または「都」がないと完全否定の強調構文になりません。" }
+    ]
+  },
+  {
+    "id": "C-G20-02-02",
+    "lessonId": "L20",
+    "minLesson": 20,
+    "grammarIds": ["G20-02"],
+    "difficulty": 1,
+    "japanesePrompt": "今日のテストは少しも難しくありません。",
+    "targetGrammarHint": "形容詞の完全否定「一点儿 + 也/都 + 不 + Adj」",
+    "hints": [
+      "形容詞「难」を「少しも〜ない」と否定するときは「一点儿」を使います。",
+      "形容詞の現在の性質の否定なので「没」ではなく「不」を使います。",
+      "骨組み：今天的考试一点儿也不难。"
+    ],
+    "modelAnswer": "今天的考试一点儿也不难。",
+    "acceptableAnswers": [
+      "今天的考试一点儿也不难。",
+      "今天的考试一点儿都不难。",
+      "今天的考试一点也不难。"
+    ],
+    "pinyin": "Jīntiān de kǎoshì yìdiǎnr yě bù nán.",
+    "structureBreakdown": [
+      { "text": "今天的考试", "role": "S", "label": "主語" },
+      { "text": "一点儿", "role": "Adv", "label": "少しも" },
+      { "text": "也", "role": "Adv", "label": "強調" },
+      { "text": "不难", "role": "P", "label": "形容詞否定" }
+    ],
+    "explanation": "「一点儿也/都不 + 形容詞」で「少しも〜ない」を表す頻出フレーズです。「一点儿」の後ろに「的」は入れません。",
+    "commonMistakes": [
+      { "wrong": "今天的考试一个也不难。", "reason": "形容詞の程度を否定するときは量詞「个」ではなく「一点儿」を使います。" },
+      { "wrong": "今天的考试一点儿也没难。", "reason": "形容詞の性質・状態の否定には「不」を使います。" }
+    ]
+  },
+  {
+    "id": "C-G20-02-03",
+    "lessonId": "L20",
+    "minLesson": 20,
+    "grammarIds": ["G20-02"],
+    "difficulty": 2,
+    "japanesePrompt": "彼はびっくりして、一言も答えられませんでした。",
+    "targetGrammarHint": "「一句话也回答不出来」",
+    "hints": [
+      "「言葉」の量詞は「句」を使います（一句话 / 一句）。",
+      "「答えられない（思いついて声に出せない）」は可能補語「回答不出来」または「说不出来」が自然です。",
+      "骨組み：他吃惊得一句话也回答不出来。"
+    ],
+    "modelAnswer": "他吃惊得一句话也回答不出来。",
+    "acceptableAnswers": [
+      "他吃惊得一句话也回答不出来。",
+      "他惊讶得一句话都说不出来。",
+      "他吓得一句话也回答不上来。"
+    ],
+    "pinyin": "Tā chījīng de yí jù huà yě huídá bu chūlái.",
+    "structureBreakdown": [
+      { "text": "他", "role": "S", "label": "主語" },
+      { "text": "吃惊得", "role": "V", "label": "動詞＋得" },
+      { "text": "一句话", "role": "O", "label": "最小数量(前置)" },
+      { "text": "也", "role": "Adv", "label": "強調" },
+      { "text": "回答不出来", "role": "C", "label": "可能補語否定" }
+    ],
+    "explanation": "程度補語「吃惊得〜」の中に完全否定「一句话也回答不出来」を入れた表現です。第20課の「回答」を活かしています。",
+    "commonMistakes": [
+      { "wrong": "他吃惊得一个话也回答不出来。", "reason": "「话」の量詞は「个」ではなく「句」です。" }
+    ]
+  },
+  {
+    "id": "C-G20-02-04",
+    "lessonId": "L20",
+    "minLesson": 20,
+    "grammarIds": ["G20-02"],
+    "difficulty": 2,
+    "japanesePrompt": "日曜日ですが、図書館には人が一人もいません。",
+    "targetGrammarHint": "「一个人也没有」",
+    "hints": [
+      "「日曜日ですが」の部分は「虽然是星期天，但是……」にします。",
+      "「人が一人もいない」は「一个人也没有」です。",
+      "骨組み：虽然是星期天，但是图书馆里一个人也没有。"
+    ],
+    "modelAnswer": "虽然是星期天，但是图书馆里一个人也没有。",
+    "acceptableAnswers": [
+      "虽然是星期天，但是图书馆里一个人也没有。",
+      "虽然是星期天，可是图书馆里一个人都没有。",
+      "虽然是星期日，但是图书馆里一个人也没有。"
+    ],
+    "pinyin": "Suīrán shì xīngqītiān, dànshì túshūguǎn lǐ yí ge rén yě méiyǒu.",
+    "structureBreakdown": [
+      { "text": "虽然是星期天", "role": "Conj", "label": "逆接前件" },
+      { "text": "但是", "role": "Conj", "label": "逆接後件" },
+      { "text": "图书馆里", "role": "Loc", "label": "場所" },
+      { "text": "一个人", "role": "O", "label": "最小数量" },
+      { "text": "也", "role": "Adv", "label": "強調" },
+      { "text": "没有", "role": "V", "label": "存在の否定" }
+    ],
+    "explanation": "「有」の否定は常に「没有」です。場所詞「图书馆里」の後ろに「一个人也没有」を続けます。",
+    "commonMistakes": [
+      { "wrong": "图书馆里一个人也不在。", "reason": "不特定の人物が「一人もいない」と言うときは「在」ではなく「没有」を使います（一个人也没有）。" }
+    ]
+  },
+  {
+    "id": "C-G20-02-05",
+    "lessonId": "L20",
+    "minLesson": 20,
+    "grammarIds": ["G20-02"],
+    "difficulty": 2,
+    "japanesePrompt": "彼は本屋で長いこと見ましたが、1冊も買いませんでした。",
+    "targetGrammarHint": "名詞の省略「一本也没买」",
+    "hints": [
+      "「本屋で長いこと見た」は「在书店看了半天」で表せます。",
+      "本屋の話から「本」であることは明らかなので「一本也没买」と名詞「书」を省略できます（もちろん「一本书」も可）。",
+      "骨組み：他在书店看了半天，但是一本也没买。"
+    ],
+    "modelAnswer": "他在书店看了半天，但是一本也没买。",
+    "acceptableAnswers": [
+      "他在书店看了半天，但是一本也没买。",
+      "他在书店看了半天，但是一本书都没买。",
+      "他在书店看了很久，可是一本也没有买。"
+    ],
+    "pinyin": "Tā zài shūdiàn kàn le bàntiān, dànshì yì běn yě méi mǎi.",
+    "structureBreakdown": [
+      { "text": "他", "role": "S", "label": "主語" },
+      { "text": "在书店看了半天", "role": "V", "label": "状況" },
+      { "text": "但是", "role": "Conj", "label": "逆接" },
+      { "text": "一本", "role": "O", "label": "最小数量(名詞省略)" },
+      { "text": "也没买", "role": "V", "label": "完全否定" }
+    ],
+    "explanation": "「半天」は「長い時間」を表す慣用表現です。「一本也没买」は文脈上「一本书」の「书」を省略した自然な表現です。",
+    "commonMistakes": [
+      { "wrong": "他在书店看了半天，但是一个也没买。", "reason": "本の量詞は「个」ではなく「本」を使います。" }
+    ]
+  },
+
+  {
+    "id": "C-G20-03-01",
+    "lessonId": "L20",
+    "minLesson": 20,
+    "grammarIds": ["G20-03"],
+    "difficulty": 1,
+    "japanesePrompt": "妹は音楽を聴きながら宿題をしています。",
+    "targetGrammarHint": "並行動作「一边……，一边……」",
+    "hints": [
+      "主語「妹妹」を最初の「一边」の前に置きます。",
+      "「音楽を聴く」は「听音乐」、「宿題をする」は「写作业（または做作业）」。",
+      "骨組み：妹妹一边听音乐，一边写作业。"
+    ],
+    "modelAnswer": "妹妹一边听音乐，一边写作业。",
+    "acceptableAnswers": [
+      "妹妹一边听音乐，一边写作业。",
+      "妹妹一边听音乐，一边做作业。",
+      "妹妹正一边听音乐，一边写作业呢。"
+    ],
+    "pinyin": "Mèimei yìbiān tīng yīnyuè, yìbiān xiě zuòyè.",
+    "structureBreakdown": [
+      { "text": "妹妹", "role": "S", "label": "主語" },
+      { "text": "一边", "role": "Adv", "label": "並行1" },
+      { "text": "听音乐", "role": "V", "label": "動作1" },
+      { "text": "一边", "role": "Adv", "label": "並行2" },
+      { "text": "写作业", "role": "V", "label": "動作2" }
+    ],
+    "explanation": "同一人物が2つの動作を同時に行っているため「一边……，一边……」を使います。",
+    "commonMistakes": [
+      { "wrong": "一边妹妹听音乐，一边写作业。", "reason": "主語が共通のときは必ず最初の「一边」の前に主語を出します。" }
+    ]
+  },
+  {
+    "id": "C-G20-03-02",
+    "lessonId": "L20",
+    "minLesson": 20,
+    "grammarIds": ["G20-03"],
+    "difficulty": 1,
+    "japanesePrompt": "帰宅途中、私たちは歩きながらおしゃべりしました。",
+    "targetGrammarHint": "「回家的路上」＋「一边……，一边……」",
+    "hints": [
+      "「帰宅途中」は第20課の「路上 (lùshang)」を使い「回家的路上」とします。",
+      "「歩く」は「走（路） / 散步」、「おしゃべりする」は「聊天儿」。",
+      "骨組み：回家的路上，我们一边走，一边聊天。"
+    ],
+    "modelAnswer": "回家的路上，我们一边走，一边聊天儿。",
+    "acceptableAnswers": [
+      "回家的路上，我们一边走，一边聊天儿。",
+      "回家的路上，我们一边走路，一边聊天。",
+      "在回家的路上，我们一边散步一边聊天。"
+    ],
+    "pinyin": "Huí jiā de lùshang, wǒmen yìbiān zǒu, yìbiān liáotiānr.",
+    "structureBreakdown": [
+      { "text": "回家的路上", "role": "Loc", "label": "場面・途中" },
+      { "text": "我们", "role": "S", "label": "主語" },
+      { "text": "一边走", "role": "V", "label": "動作1" },
+      { "text": "一边聊天儿", "role": "V", "label": "動作2" }
+    ],
+    "explanation": "文頭に場所・時間場面「回家的路上」を置き、主語「我们」の後ろに「一边……，一边……」を続けます。",
+    "commonMistakes": [
+      { "wrong": "回家的路上，我们走着聊天儿。", "reason": "「歩きながら話す」は2つの動作の同時並行なので「一边走，一边聊天儿」の方がはるかに自然です。" }
+    ]
+  },
+  {
+    "id": "C-G20-03-03",
+    "lessonId": "L20",
+    "minLesson": 20,
+    "grammarIds": ["G20-03"],
+    "difficulty": 2,
+    "japanesePrompt": "授業中、先生は黒板に書きながら学生に質問しました。",
+    "targetGrammarHint": "「上课的时候」＋「一边……，一边……」",
+    "hints": [
+      "「授業中」は「上课的时候」。",
+      "「黒板に書く」は「在黑板上写字」、「学生に質問する」は「问学生问题 / 向学生提问」。",
+      "骨組み：上课的时候，老师一边在黑板上写字，一边问学生问题。"
+    ],
+    "modelAnswer": "上课的时候，老师一边在黑板上写字，一边问学生问题。",
+    "acceptableAnswers": [
+      "上课的时候，老师一边在黑板上写字，一边问学生问题。",
+      "上课的时候，老师一边在黑板上写字，一边向学生提问。"
+    ],
+    "pinyin": "Shàngkè de shíhou, lǎoshī yìbiān zài hēibǎn shàng xiě zì, yìbiān wèn xuésheng wèntí.",
+    "structureBreakdown": [
+      { "text": "上课的时候", "role": "Time", "label": "時間節" },
+      { "text": "老师", "role": "S", "label": "主語" },
+      { "text": "一边在黑板上写字", "role": "V", "label": "動作1" },
+      { "text": "一边问学生问题", "role": "V", "label": "動作2" }
+    ],
+    "explanation": "場所の介詞句「在黑板上」は「一边」の後ろ・動詞「写字」の前に置きます。",
+    "commonMistakes": [
+      { "wrong": "老师在黑板上一边写字，一边问学生问题。", "reason": "黒板の上で行うのは1つ目の動作「写字」だけなので、「在黑板上」は1つ目の「一边」の中に入れるのが正確です。" }
+    ]
+  },
+  {
+    "id": "C-G20-03-04",
+    "lessonId": "L20",
+    "minLesson": 20,
+    "grammarIds": ["G20-03"],
+    "difficulty": 2,
+    "japanesePrompt": "歩きながらスマホを見てはいけません。",
+    "targetGrammarHint": "禁止「不要 / 别」＋「一边……，一边……」",
+    "hints": [
+      "禁止を表す「不要」または「别」を最初に置きます。",
+      "「歩く」は「走路」、「スマホを見る」は「看手机」。",
+      "骨組み：不要一边走路，一边看手机。"
+    ],
+    "modelAnswer": "不要一边走路，一边看手机。",
+    "acceptableAnswers": [
+      "不要一边走路，一边看手机。",
+      "别一边走路，一边看手机。",
+      "走路的时候不要一边走一边看手机。"
+    ],
+    "pinyin": "Búyào yìbiān zǒulù, yìbiān kàn shǒujī.",
+    "structureBreakdown": [
+      { "text": "不要", "role": "Neg", "label": "禁止" },
+      { "text": "一边走路", "role": "V", "label": "動作1" },
+      { "text": "一边看手机", "role": "V", "label": "動作2" }
+    ],
+    "explanation": "禁止表現「不要 / 别」を構文全体の前に置くことで、「〜しながら〜してはいけない」という注意喚起になります。",
+    "commonMistakes": [
+      { "wrong": "一边走路，不要一边看手机。", "reason": "2つの動作を同時に行うこと自体を禁止するので、「不要 / 别」は最初の「一边」の前に置きます。" }
+    ]
+  },
+  {
+    "id": "C-G20-03-05",
+    "lessonId": "L20",
+    "minLesson": 20,
+    "grammarIds": ["G20-03"],
+    "difficulty": 2,
+    "japanesePrompt": "私たちは映画を見ながら、いつの間にか涙を流しました。",
+    "targetGrammarHint": "「一边……，一边……」＋「不知不觉」・「掉眼泪」",
+    "hints": [
+      "第20課の語彙「不知不觉 (bùzhībùjué)」「掉眼泪 (diào yǎnlèi)」を使います。",
+      "2つ目の「一边」の後ろに「不知不觉地掉下了眼泪」を置きます。",
+      "骨組み：我们一边看电影，一边不知不觉地掉下了眼泪。"
+    ],
+    "modelAnswer": "我们一边看电影，一边不知不觉地掉下了眼泪。",
+    "acceptableAnswers": [
+      "我们一边看电影，一边不知不觉地掉下了眼泪。",
+      "我们一边看电影，一边不知不觉就掉眼泪了。"
+    ],
+    "pinyin": "Wǒmen yìbiān kàn diànyǐng, yìbiān bù zhī bù jué de diào xià le yǎnlèi.",
+    "structureBreakdown": [
+      { "text": "我们", "role": "S", "label": "主語" },
+      { "text": "一边看电影", "role": "V", "label": "動作1" },
+      { "text": "一边", "role": "Adv", "label": "並行2" },
+      { "text": "不知不觉地", "role": "Adv", "label": "連用修飾" },
+      { "text": "掉下了眼泪", "role": "V", "label": "動作2" }
+    ],
+    "explanation": "「不知不觉（地）」は「知らず知らずのうちに」という状況描写の副詞句で、動詞「掉下了眼泪」の前に置きます。",
+    "commonMistakes": [
+      { "wrong": "我们一边看电影，不知不觉一边掉眼泪。", "reason": "「不知不觉」は2つ目の動作の様態なので「一边」の後ろに置きます。" }
+    ]
+  },
+
+  {
+    "id": "C-G20-04-01",
+    "lessonId": "L20",
+    "minLesson": 20,
+    "grammarIds": ["G20-04"],
+    "difficulty": 1,
+    "japanesePrompt": "雨がひどいので、私たちはやむを得ず家で待つことにしました。",
+    "targetGrammarHint": "二重否定「不得不」",
+    "hints": [
+      "「雨がひどいので」は「因为雨下得很大」。",
+      "外的な理由による「やむを得ず〜する」は「不得不 (bùdébù)」を使います。",
+      "骨組み：因为雨下得很大，我们不得不在家等。"
+    ],
+    "modelAnswer": "因为雨下得很大，我们不得不在家等。",
+    "acceptableAnswers": [
+      "因为雨下得很大，我们不得不在家等。",
+      "因为雨太大了，我们不得不在家里等着。",
+      "雨下得太大了，我们不得不留在家里等。"
+    ],
+    "pinyin": "Yīnwèi yǔ xià de hěn dà, wǒmen bùdébù zài jiā děng.",
+    "structureBreakdown": [
+      { "text": "因为雨下得很大", "role": "Conj", "label": "原因節" },
+      { "text": "我们", "role": "S", "label": "主語" },
+      { "text": "不得不", "role": "Adv", "label": "二重否定" },
+      { "text": "在家等", "role": "V", "label": "述語" }
+    ],
+    "explanation": "「不得不」は助動詞的に「在家等」の前に置きます。",
+    "commonMistakes": [
+      { "wrong": "因为雨下得很大，不得不我们在家等。", "reason": "「不得不」は接続詞ではなく述語修飾なので、主語「我们」の後ろに置きます。" }
+    ]
+  },
+  {
+    "id": "C-G20-04-02",
+    "lessonId": "L20",
+    "minLesson": 20,
+    "grammarIds": ["G20-04"],
+    "difficulty": 2,
+    "japanesePrompt": "この素晴らしい演技を見て、私は感動しないわけにはいきません。",
+    "targetGrammarHint": "二重否定「不能不」",
+    "hints": [
+      "「見る」は「看到」、「素晴らしい演技」は「精彩的表演」。",
+      "感情的な必然「〜しないわけにはいかない」には「不能不」が自然です。",
+      "骨組み：看到这样精彩的表演，我不能不感动。"
+    ],
+    "modelAnswer": "看到这样精彩的表演，我不能不感动。",
+    "acceptableAnswers": [
+      "看到这样精彩的表演，我不能不感动。",
+      "看到这么精彩的表演，我不能不被感动。",
+      "看了这场精彩的表演，我不得不感动。"
+    ],
+    "pinyin": "Kàndào zhèyàng jīngcǎi de biǎoyǎn, wǒ bùnéngbù gǎndòng.",
+    "structureBreakdown": [
+      { "text": "看到这样精彩的表演", "role": "V", "label": "前提条件" },
+      { "text": "我", "role": "S", "label": "主語" },
+      { "text": "不能不", "role": "Adv", "label": "二重否定" },
+      { "text": "感动", "role": "V", "label": "心理述語" }
+    ],
+    "explanation": "感動や称賛など感情面で「そうせずにはいられない」と表す場合は「不能不」が非常に自然です。",
+    "commonMistakes": [
+      { "wrong": "看到这样精彩的表演，我不可以不感动。", "reason": "慣用的な二重否定としては「不能不」または「不得不」を用います。" }
+    ]
+  },
+  {
+    "id": "C-G20-04-03",
+    "lessonId": "L20",
+    "minLesson": 20,
+    "grammarIds": ["G20-04"],
+    "difficulty": 2,
+    "japanesePrompt": "明日は朝早い授業があるので、今夜は早く寝ざるを得ません。",
+    "targetGrammarHint": "「不得不」",
+    "hints": [
+      "「朝早い授業がある」は「早上有一节早课」または「早上很早就有课」。",
+      "「今夜は早く寝ざるを得ない」は「今天晚上不得不早点儿睡觉」。",
+      "骨組み：明天早上有课，我今晚不得不早点儿睡觉。"
+    ],
+    "modelAnswer": "明天早上有课，我今晚不得不早点儿睡觉。",
+    "acceptableAnswers": [
+      "明天早上有课，我今晚不得不早点儿睡觉。",
+      "因为明天早上很早有课，我今天晚上不得不早点睡。"
+    ],
+    "pinyin": "Míngtiān zǎoshang yǒu kè, wǒ jīnwǎn bùdébù zǎodiǎnr shuìjiào.",
+    "structureBreakdown": [
+      { "text": "明天早上有课", "role": "V", "label": "背景理由" },
+      { "text": "我", "role": "S", "label": "主語" },
+      { "text": "今晚", "role": "Time", "label": "時間" },
+      { "text": "不得不", "role": "Adv", "label": "二重否定" },
+      { "text": "早点儿睡觉", "role": "V", "label": "行動" }
+    ],
+    "explanation": "時間詞「今晚」の後ろ、動詞句「早点儿睡觉」の前に「不得不」を置きます。",
+    "commonMistakes": [
+      { "wrong": "我今晚早点儿睡觉不得不。", "reason": "「不得不」を文末に置くことはできません。" }
+    ]
+  },
+  {
+    "id": "C-G20-04-04",
+    "lessonId": "L20",
+    "minLesson": 20,
+    "grammarIds": ["G20-04"],
+    "difficulty": 2,
+    "japanesePrompt": "切符がすでに売り切れてしまったので、私たちはやむを得ず次の列車に変えました。",
+    "targetGrammarHint": "「不得不」＋結果補語「完」",
+    "hints": [
+      "「売り切れてしまった」は「卖完了 (mài wán le)」。",
+      "「列車を変える」は「改坐下一班车 / 改乘下一趟列车」。",
+      "骨組み：因为车票已经卖完了，我们不得不改坐下一班车。"
+    ],
+    "modelAnswer": "因为车票已经卖完了，我们不得不改坐下一班车。",
+    "acceptableAnswers": [
+      "因为车票已经卖完了，我们不得不改坐下一班车。",
+      "车票已经卖光了，我们不得不换下一趟列车。"
+    ],
+    "pinyin": "Yīnwèi chēpiào yǐjīng mài wán le, wǒmen bùdébù gǎi zuò xià yì bān chē.",
+    "structureBreakdown": [
+      { "text": "因为车票已经卖完了", "role": "Conj", "label": "原因節" },
+      { "text": "我们", "role": "S", "label": "主語" },
+      { "text": "不得不", "role": "Adv", "label": "二重否定" },
+      { "text": "改坐下一班车", "role": "V", "label": "やむを得ない行動" }
+    ],
+    "explanation": "「改坐〜（別の便に乗り換える）」の前に「不得不」を置き、不本意な変更を表現します。",
+    "commonMistakes": [
+      { "wrong": "因为车票卖完了，我们不改坐下一班车不可。", "reason": "「非……不可」は本人の決意なので、外部事情で仕方なく変える場合は「不得不」の方が自然です。" }
+    ]
+  },
+  {
+    "id": "C-G20-04-05",
+    "lessonId": "L20",
+    "minLesson": 20,
+    "grammarIds": ["G20-04"],
+    "difficulty": 2,
+    "japanesePrompt": "彼女は仕事と家庭を両立させなければならず、毎日とても忙しいです。",
+    "targetGrammarHint": "「不得不 / 不能不」",
+    "hints": [
+      "「仕事と家庭の面倒を見る」は「照顾工作和家庭 (zhàogù gōngzuò hé jiātíng)」と表現できます。",
+      "「不得不」または「不能不」を使って原因・背景を説明します。",
+      "骨組み：她每天不得不兼顾工作和家庭，非常忙碌。"
+    ],
+    "modelAnswer": "她不得不同时照顾工作和家庭，每天都非常忙。",
+    "acceptableAnswers": [
+      "她不得不同时照顾工作和家庭，每天都非常忙。",
+      "她不能不照顾工作和家庭，所以每天都很忙。"
+    ],
+    "pinyin": "Tā bùdébù tóngshí zhàogù gōngzuò hé jiātíng, měitiān dōu fēicháng máng.",
+    "structureBreakdown": [
+      { "text": "她", "role": "S", "label": "主語" },
+      { "text": "不得不", "role": "Adv", "label": "二重否定" },
+      { "text": "同时照顾工作和家庭", "role": "V", "label": "述語" },
+      { "text": "每天都非常忙", "role": "P", "label": "結果状況" }
+    ],
+    "explanation": "「同时照顾（同時に面倒を見る・両立する）」の前に「不得不」を置いています。",
+    "commonMistakes": [
+      { "wrong": "她照顾工作和家庭不得不，每天很忙。", "reason": "「不得不」は動詞句の前に置きます。" }
+    ]
+  },
+
+  {
+    "id": "C-G20-05-01",
+    "lessonId": "L20",
+    "minLesson": 20,
+    "grammarIds": ["G20-05"],
+    "difficulty": 1,
+    "japanesePrompt": "この問題は簡単すぎて、小学生でさえ答えられます。",
+    "targetGrammarHint": "主語の強調「连 + 主語 + 都/也 + 述語」",
+    "hints": [
+      "「小学生でさえ」は「连小学生 (lián xiǎoxuéshēng)」。",
+      "「连」の後ろには必ず「都」または「也」を置きます。",
+      "骨組み：这个问题太简单了，连小学生都能回答。"
+    ],
+    "modelAnswer": "这个问题太简单了，连小学生都能回答。",
+    "acceptableAnswers": [
+      "这个问题太简单了，连小学生都能回答。",
+      "这个问题非常简单，连小学生也会回答。",
+      "这个问题这么简单，连小学生都答得出来。"
+    ],
+    "pinyin": "Zhège wèntí tài jiǎndān le, lián xiǎoxuéshēng dōu néng huídá.",
+    "structureBreakdown": [
+      { "text": "这个问题太简单了", "role": "P", "label": "前提評価" },
+      { "text": "连", "role": "Prep", "label": "取立て" },
+      { "text": "小学生", "role": "S", "label": "極端主語" },
+      { "text": "都", "role": "Adv", "label": "呼応" },
+      { "text": "能回答", "role": "V", "label": "述語" }
+    ],
+    "explanation": "「小学生」を「连……都……」で取り立てることで、「まして中学生や大学生は当然できる」という含みを伝えます。",
+    "commonMistakes": [
+      { "wrong": "这个问题太简单了，连小学生能回答。", "reason": "「都」または「也」を省略することはできません。" }
+    ]
+  },
+  {
+    "id": "C-G20-05-02",
+    "lessonId": "L20",
+    "minLesson": 20,
+    "grammarIds": ["G20-05"],
+    "difficulty": 2,
+    "japanesePrompt": "彼は忙しすぎて、昼ご飯を食べる時間さえありません。",
+    "targetGrammarHint": "目的語の強調「连 + 目的語 + 都/也 + 没」",
+    "hints": [
+      "「忙しすぎて〜」は程度補語「忙得……」を使います。",
+      "「昼ご飯を食べる時間」は「吃午饭的时间」。これを「连……都……」で「没有」の前に出します。",
+      "骨組み：他忙得连吃午饭的时间都没有。"
+    ],
+    "modelAnswer": "他忙得连吃午饭的时间都没有。",
+    "acceptableAnswers": [
+      "他忙得连吃午饭的时间都没有。",
+      "他太忙了，连吃午饭的时间也没有。"
+    ],
+    "pinyin": "Tā máng de lián chī wǔfàn de shíjiān dōu méiyǒu.",
+    "structureBreakdown": [
+      { "text": "他", "role": "S", "label": "主語" },
+      { "text": "忙得", "role": "V", "label": "程度補語導入" },
+      { "text": "连吃午饭的时间", "role": "O", "label": "強調対象(前置)" },
+      { "text": "都", "role": "Adv", "label": "呼応" },
+      { "text": "没有", "role": "V", "label": "否定動詞" }
+    ],
+    "explanation": "目的語「吃午饭的时间」を「连」とともに動詞「没有」の前に移動させて強調しています。",
+    "commonMistakes": [
+      { "wrong": "他忙得没有连吃午饭的时间。", "reason": "「连 + 目的語」は必ず動詞の前に出し、「都 / 也」を伴います。" }
+    ]
+  },
+  {
+    "id": "C-G20-05-03",
+    "lessonId": "L20",
+    "minLesson": 20,
+    "grammarIds": ["G20-05"],
+    "difficulty": 2,
+    "japanesePrompt": "彼はうっかりして、自分の家の鍵さえ忘れてしまいました。",
+    "targetGrammarHint": "「连 + 目的語 + 都 + 忘了……」",
+    "hints": [
+      "「鍵」は「钥匙 (yàoshi)」。",
+      "「自分の家の鍵さえ」は「连自己家的钥匙」。",
+      "骨組み：他太粗心了，连自己家的钥匙都忘了带。"
+    ],
+    "modelAnswer": "他太粗心了，连自己家的钥匙都忘了带。",
+    "acceptableAnswers": [
+      "他太粗心了，连自己家的钥匙都忘了带。",
+      "他粗心极了，连家里的钥匙也忘记带了。",
+      "他连自己家的钥匙都忘了。"
+    ],
+    "pinyin": "Tā tài cūxīn le, lián zìjǐ jiā de yàoshi dōu wàng le dài.",
+    "structureBreakdown": [
+      { "text": "他太粗心了", "role": "P", "label": "前提評価" },
+      { "text": "连自己家的钥匙", "role": "O", "label": "強調対象" },
+      { "text": "都", "role": "Adv", "label": "呼応" },
+      { "text": "忘了带", "role": "V", "label": "忘れた動作" }
+    ],
+    "explanation": "「忘れ物をした（持って出るのを忘れた）」と言うときは「忘了带」を使うと非常に自然な中国語になります。",
+    "commonMistakes": [
+      { "wrong": "他太粗心了，都忘了带连自己家的钥匙。", "reason": "強調する目的語句は「都」の前に置く必要があります。" }
+    ]
+  },
+  {
+    "id": "C-G20-05-04",
+    "lessonId": "L20",
+    "minLesson": 20,
+    "grammarIds": ["G20-05"],
+    "difficulty": 2,
+    "japanesePrompt": "外で仕事をすることは言うまでもなく、彼女は今ベッドから起きることさえできません。",
+    "targetGrammarHint": "「别说……，连……都……」",
+    "hints": [
+      "第20課の接続詞「别说 (biéshuō)：〜は言うまでもなく」で前節を作ります。",
+      "後節で「连起床都……」と極端な動作を強調します。",
+      "骨組み：别说出去工作了，她现在连起床都起不来。"
+    ],
+    "modelAnswer": "别说出去工作了，她现在连下床都做不到。",
+    "acceptableAnswers": [
+      "别说出去工作了，她现在连下床都做不到。",
+      "别说去上班了，她现在连起床都起不来。",
+      "别说工作了，她现在连下床都很困难。"
+    ],
+    "pinyin": "Biéshuō chūqù gōngzuò le, tā xiànzài lián xiàchuáng dōu zuò bu dào.",
+    "structureBreakdown": [
+      { "text": "别说出去工作了", "role": "Conj", "label": "〜は言うまでもなく" },
+      { "text": "她现在", "role": "S", "label": "主語・時間" },
+      { "text": "连下床", "role": "O", "label": "強調対象" },
+      { "text": "都", "role": "Adv", "label": "呼応" },
+      { "text": "做不到", "role": "C", "label": "可能補語否定" }
+    ],
+    "explanation": "「别说 A（了），连 B 都……」は第20課の語彙「别说」と「连……都……」を組み合わせた定番の強調パターンです。",
+    "commonMistakes": [
+      { "wrong": "别说工作，她现在连不起来床。", "reason": "離合詞「起床」の可能補語否定は「起不来床」または「下不了床 / 起不来」にします。" }
+    ]
+  },
+  {
+    "id": "C-G20-05-05",
+    "lessonId": "L20",
+    "minLesson": 20,
+    "grammarIds": ["G20-05"],
+    "difficulty": 2,
+    "japanesePrompt": "その映画の美しい音楽は、お年寄りさえ夢中になって聴いていました。",
+    "targetGrammarHint": "「连……也/都……」",
+    "hints": [
+      "「美しい音楽」は「优美的音乐 (yōuměi de yīnyuè)」。",
+      "「お年寄りさえ」は「连老人都 / 也……」。",
+      "骨組み：那部电影优美的音乐，连老人都听得入迷了。"
+    ],
+    "modelAnswer": "那部电影优美的音乐，连老人都喜欢听。",
+    "acceptableAnswers": [
+      "那部电影优美的音乐，连老人都喜欢听。",
+      "那部电影的音乐太美了，连老人都听得着迷了。",
+      "那部电影优美的音乐，连老人都被深深吸引了。"
+    ],
+    "pinyin": "Nà bù diànyǐng yōuměi de yīnyuè, lián lǎorén dōu xǐhuan tīng.",
+    "structureBreakdown": [
+      { "text": "那部电影优美的音乐", "role": "O", "label": "話題(前置目的語)" },
+      { "text": "连老人", "role": "S", "label": "強調主語" },
+      { "text": "都", "role": "Adv", "label": "呼応" },
+      { "text": "喜欢听", "role": "V", "label": "述語" }
+    ],
+    "explanation": "話題「那部电影优美的音乐」を文頭に提示し、その後ろで「连老人都……」と展開すると自然な主題‐評述文になります。",
+    "commonMistakes": [
+      { "wrong": "连老人也喜欢听那部电影优美的音乐都。", "reason": "「都」は「连老人」の後ろ・動詞「喜欢听」の前に置きます。" }
+    ]
+  }
+]

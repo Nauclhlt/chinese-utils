@@ -1,0 +1,400 @@
+[
+  {
+    "id": "V21-001",
+    "hanzi": "终于",
+    "pinyin": "zhōngyú",
+    "tones": [1, 2],
+    "meaningJa": "ついに・ようやく",
+    "pos": "副詞",
+    "usage": "長い時間や努力・待ち望んだ末に、ついに望ましい（あるいは予想された）結果が実現したときに使う。多くは文末に「了」を伴う。",
+    "example": {
+      "hanzi": "爬了三个多小时以后，我们终于登上了山顶。",
+      "pinyin": "Pá le sān ge duō xiǎoshí yǐhòu, wǒmen zhōngyú dēngshàng le shāndǐng.",
+      "ja": "3時間余り登った後、私たちはついに山頂に登りました。"
+    },
+    "lessonId": "L21",
+    "minLesson": 21,
+    "source": "textbook-scope",
+    "grammarIds": ["G07-04", "G21-02"]
+  },
+  {
+    "id": "V21-002",
+    "hanzi": "向往",
+    "pinyin": "xiàngwǎng",
+    "tones": [4, 3],
+    "meaningJa": "憧れる・熱望する",
+    "pos": "動詞",
+    "usage": "「向往 + 名詞（場所・生活・理想）」「令人向往（人々の憧れを誘う）」の形で使う。",
+    "example": {
+      "hanzi": "我一直很向往去云南看看美丽的雪山。",
+      "pinyin": "Wǒ yìzhí hěn xiàngwǎng qù Yúnnán kànkan měilì de xuěshān.",
+      "ja": "私はずっと雲南に行って美しい雪山を見ることに憧れています。"
+    },
+    "lessonId": "L21",
+    "minLesson": 21,
+    "source": "textbook-scope",
+    "grammarIds": ["G21-01"]
+  },
+  {
+    "id": "V21-003",
+    "hanzi": "爬",
+    "pinyin": "pá",
+    "tones": [2],
+    "meaningJa": "登る・這う",
+    "pos": "動詞",
+    "usage": "手足や体を使って高い所へ登る。「爬山（山に登る）」「爬楼梯（階段を上る）」。",
+    "example": {
+      "hanzi": "周末我们先做准备活动，再一起去爬山。",
+      "pinyin": "Zhōumò wǒmen xiān zuò zhǔnbèi huódòng, zài yìqǐ qù páshān.",
+      "ja": "週末はまず準備運動をしてから、一緒に山登りに行きます。"
+    },
+    "lessonId": "L21",
+    "minLesson": 21,
+    "source": "textbook-scope",
+    "grammarIds": ["G21-03"],
+    "related": ["山路", "顶峰"]
+  },
+  {
+    "id": "V21-004",
+    "hanzi": "遇到",
+    "pinyin": "yùdào",
+    "tones": [4, 4],
+    "meaningJa": "出会う・遭遇する・ぶつかる",
+    "pos": "動詞",
+    "usage": "偶然人に出会ったり、困難・問題・悪天候などに遭遇したりするときに使う。「遇到困难（困難に出会う）」。",
+    "example": {
+      "hanzi": "不管遇到什么问题，我们都可以先商量再决定。",
+      "pinyin": "Bùguǎn yùdào shénme wèntí, wǒmen dōu kěyǐ xiān shāngliang zài juédìng.",
+      "ja": "どんな問題にぶつかっても、私たちはまず相談してから決めることができます。"
+    },
+    "lessonId": "L21",
+    "minLesson": 21,
+    "source": "textbook-scope",
+    "grammarIds": ["G21-01", "G21-03"],
+    "synonyms": ["碰到"]
+  },
+  {
+    "id": "V21-005",
+    "hanzi": "老人",
+    "pinyin": "lǎorén",
+    "tones": [3, 2],
+    "meaningJa": "お年寄り・老人",
+    "pos": "名詞",
+    "usage": "高齢の人を指す一般的な語。量詞は「位 (wèi)」または「个 (gè)」。",
+    "example": {
+      "hanzi": "在山路上，我们遇到了一位精神很好的老人。",
+      "pinyin": "Zài shānlù shàng, wǒmen yùdào le yí wèi jīngshen hěn hǎo de lǎorén.",
+      "ja": "山道で、私たちはとても元気なお年寄りに出会いました。"
+    },
+    "lessonId": "L21",
+    "minLesson": 21,
+    "source": "textbook-scope",
+    "grammarIds": ["G21-01"],
+    "measureWord": "位 / 个",
+    "antonyms": ["年轻人"]
+  },
+  {
+    "id": "V21-006",
+    "hanzi": "互相",
+    "pinyin": "hùxiāng",
+    "tones": [4, 1],
+    "meaningJa": "互いに・お互いに",
+    "pos": "副詞",
+    "usage": "必ず動詞の前に置き、双方向の関係を表す。「互相帮助（助け合う）」「互相鼓励（励まし合う）」「互相学习（学び合う）」。",
+    "example": {
+      "hanzi": "学习外语时，同学们应该互相帮助、互相鼓励。",
+      "pinyin": "Xuéxí wàiyǔ shí, tóngxuémen yīnggāi hùxiāng bāngzhù, hùxiāng gǔlì.",
+      "ja": "外国語を学ぶとき、同級生はお互いに助け合い、励まし合うべきです。"
+    },
+    "lessonId": "L21",
+    "minLesson": 21,
+    "source": "textbook-scope",
+    "grammarIds": ["G21-02"],
+    "related": ["鼓励"]
+  },
+  {
+    "id": "V21-007",
+    "hanzi": "鼓励",
+    "pinyin": "gǔlì",
+    "tones": [3, 4],
+    "meaningJa": "励ます・激励する／励まし",
+    "pos": "動詞・名詞",
+    "usage": "「鼓励 + 人 + V（〜するよう励ます）」「受到鼓励（励ましを受ける）」。",
+    "example": {
+      "hanzi": "老师经常鼓励我们多用汉语交流。",
+      "pinyin": "Lǎoshī jīngcháng gǔlì wǒmen duō yòng Hànyǔ jiāoliú.",
+      "ja": "先生はよく私たちに中国語でたくさん交流するよう励ましてくれます。"
+    },
+    "lessonId": "L21",
+    "minLesson": 21,
+    "source": "textbook-scope",
+    "grammarIds": ["G21-02"],
+    "related": ["互相"]
+  },
+  {
+    "id": "V21-008",
+    "hanzi": "努力",
+    "pinyin": "nǔlì",
+    "tones": [3, 4],
+    "meaningJa": "努力する・一生懸命だ",
+    "pos": "動詞・形容詞",
+    "usage": "「努力学习（一生懸命勉強する）」「很努力（とても努力家だ）」のように動詞的にも形容詞的にも使う。",
+    "example": {
+      "hanzi": "只要你平时努力准备，考试就一定能通过。",
+      "pinyin": "Zhǐyào nǐ píngshí nǔlì zhǔnbèi, kǎoshì jiù yídìng néng tōngguò.",
+      "ja": "普段から一生懸命準備しさえすれば、試験はきっと合格できます。"
+    },
+    "lessonId": "L21",
+    "minLesson": 21,
+    "source": "textbook-scope",
+    "grammarIds": ["G21-02"]
+  },
+  {
+    "id": "V21-009",
+    "hanzi": "险峻",
+    "pinyin": "xiǎnjùn",
+    "tones": [3, 4],
+    "meaningJa": "険しい・急峻だ",
+    "pos": "形容詞",
+    "usage": "山や地形・道が急で険しいことを表す。「山路险峻」「险峻的山峰」。",
+    "example": {
+      "hanzi": "不管山势多么险峻，也挡不住登山者的脚步。",
+      "pinyin": "Bùguǎn shānshì duōme xiǎnjùn, yě dǎng bu zhù dēngshānzhě de jiǎobù.",
+      "ja": "山の地形がどれほど険しくても、登山者の足取りを止めることはできません。"
+    },
+    "lessonId": "L21",
+    "minLesson": 21,
+    "source": "textbook-scope",
+    "grammarIds": ["G21-01"],
+    "related": ["山路", "顶峰"]
+  },
+  {
+    "id": "V21-010",
+    "hanzi": "山路",
+    "pinyin": "shānlù",
+    "tones": [1, 4],
+    "meaningJa": "山道",
+    "pos": "名詞",
+    "usage": "山の中を通る道。量詞は「条 (tiáo)」。",
+    "example": {
+      "hanzi": "下雨后山路比较滑，大家走路要格外小心。",
+      "pinyin": "Xiàyǔ hòu shānlù bǐjiào huá, dàjiā zǒulù yào géwài xiǎoxīn.",
+      "ja": "雨の後は山道が滑りやすいので、みなさん歩くときは特に気をつけてください。"
+    },
+    "lessonId": "L21",
+    "minLesson": 21,
+    "source": "textbook-scope",
+    "grammarIds": ["G21-01"],
+    "measureWord": "条",
+    "related": ["爬", "险峻"]
+  },
+  {
+    "id": "V21-011",
+    "hanzi": "只要",
+    "pinyin": "zhǐyào",
+    "tones": [3, 4],
+    "meaningJa": "〜しさえすれば",
+    "pos": "接続詞",
+    "usage": "十分条件を導く接続詞。「只要……，就……」の形で使い、条件が満たされれば後ろの結果が自然に成立することを示す。",
+    "example": {
+      "hanzi": "只要坚持每天朗读，你的发音就会越来越地道。",
+      "pinyin": "Zhǐyào jiānchí měitiān lǎngdú, nǐ de fāyīn jiù huì yuèláiyuè dìdao.",
+      "ja": "毎日音読を続けさえすれば、あなたの発音はますます本格的になります。"
+    },
+    "lessonId": "L21",
+    "minLesson": 21,
+    "source": "textbook-scope",
+    "grammarIds": ["G21-02"],
+    "related": ["就"]
+  },
+  {
+    "id": "V21-012",
+    "hanzi": "顶峰",
+    "pinyin": "dǐngfēng",
+    "tones": [3, 1],
+    "meaningJa": "頂上・山頂・ピーク",
+    "pos": "名詞",
+    "usage": "山の最高点や、比喩的に発展・感情などの絶頂を指す。「登上顶峰（山頂に登り詰める）」。",
+    "example": {
+      "hanzi": "登上顶峰的那一刻，所有的疲劳仿佛都消失了。",
+      "pinyin": "Dēngshàng dǐngfēng de nà yí kè, suǒyǒu de píláo fǎngfú dōu xiāoshī le.",
+      "ja": "頂上に登り詰めたその瞬間、すべての疲れが消え去ったようでした。"
+    },
+    "lessonId": "L21",
+    "minLesson": 21,
+    "source": "textbook-scope",
+    "grammarIds": ["G21-02"],
+    "measureWord": "座",
+    "synonyms": ["山顶"]
+  },
+  {
+    "id": "V21-013",
+    "hanzi": "日出",
+    "pinyin": "rìchū",
+    "tones": [4, 1],
+    "meaningJa": "日の出",
+    "pos": "名詞",
+    "usage": "太陽が昇ること・昇る光景。「看日出（日の出を見る）」「太阳从东方升起」。",
+    "example": {
+      "hanzi": "为了看到壮丽的日出，我们凌晨四点就起床了。",
+      "pinyin": "Wèile kàndào zhuànglì de rìchū, wǒmen língchén sì diǎn jiù qǐchuáng le.",
+      "ja": "壮麗な日の出を見るために、私たちは早朝4時にはもう起きました。"
+    },
+    "lessonId": "L21",
+    "minLesson": 21,
+    "source": "textbook-scope",
+    "grammarIds": ["G21-02"],
+    "antonyms": ["日落"]
+  },
+  {
+    "id": "V21-014",
+    "hanzi": "不管",
+    "pinyin": "bùguǎn",
+    "tones": [4, 3],
+    "meaningJa": "〜にかかわらず・たとえ〜でも",
+    "pos": "接続詞",
+    "usage": "後ろに疑問詞や選択形を置き、後件の「都 / 也」と呼応して無条件複文を作る。",
+    "example": {
+      "hanzi": "不管结果怎么样，认真努力过就不会后悔。",
+      "pinyin": "Bùguǎn jiéguǒ zěnmeyàng, rènzhēn nǔlì guo jiù bú huì hòuhuǐ.",
+      "ja": "結果がどうあろうと、真剣に努力したなら後悔することはありません。"
+    },
+    "lessonId": "L21",
+    "minLesson": 21,
+    "source": "textbook-scope",
+    "grammarIds": ["G21-01"],
+    "synonyms": ["无论"]
+  },
+  {
+    "id": "V21-015",
+    "hanzi": "无论",
+    "pinyin": "wúlùn",
+    "tones": [2, 4],
+    "meaningJa": "〜にかかわらず・〜を問わず",
+    "pos": "接続詞",
+    "usage": "「不管」とほぼ同じ用法の無条件接続詞だが、やや書き言葉的・丁寧な響きがある。「无论……，都 / 也……」。",
+    "example": {
+      "hanzi": "无论工作多忙，他每天晚上都抽出时间看书。",
+      "pinyin": "Wúlùn gōngzuò duō máng, tā měitiān wǎnshang dōu chōuchū shíjiān kànshū.",
+      "ja": "仕事がどれほど忙しくても、彼は毎晩時間を作って本を読みます。"
+    },
+    "lessonId": "L21",
+    "minLesson": 21,
+    "source": "textbook-scope",
+    "grammarIds": ["G21-01"],
+    "synonyms": ["不管"]
+  },
+  {
+    "id": "V21-016",
+    "hanzi": "先",
+    "pinyin": "xiān",
+    "tones": [1],
+    "meaningJa": "まず・先に",
+    "pos": "副詞",
+    "usage": "「先……，再……」の形で、最初に行う動作の前（主語の後ろ）に置く。",
+    "example": {
+      "hanzi": "进教室以前，请先关掉手机铃声。",
+      "pinyin": "Jìn jiàoshì yǐqián, qǐng xiān guāndiào shǒujī língshēng.",
+      "ja": "教室に入る前に、まずスマホの着信音を切ってください。"
+    },
+    "lessonId": "L21",
+    "minLesson": 21,
+    "source": "textbook-scope",
+    "grammarIds": ["G21-03"],
+    "related": ["再"]
+  },
+  {
+    "id": "V21-017",
+    "hanzi": "再",
+    "pinyin": "zài",
+    "tones": [4],
+    "meaningJa": "それから・そのあとで／もう一度",
+    "pos": "副詞",
+    "usage": "「先……，再……」で順序の2番目を表すほか、未実現の動作の反復（「もう一度〜する」）を表す。",
+    "example": {
+      "hanzi": "我们先吃点儿东西，休息一下再继续赶路。",
+      "pinyin": "Wǒmen xiān chī diǎnr dōngxi, xiūxi yíxià zài jìxù gǎnlù.",
+      "ja": "私たちはまず少し何かを食べて、ちょっと休んでからまた先を急ぎましょう。"
+    },
+    "lessonId": "L21",
+    "minLesson": 21,
+    "source": "textbook-scope",
+    "grammarIds": ["G13-03", "G21-03"],
+    "related": ["先"]
+  },
+  {
+    "id": "V21-018",
+    "hanzi": "坚持",
+    "pinyin": "jiānchí",
+    "tones": [1, 2],
+    "meaningJa": "やり通す・粘り強く続ける",
+    "pos": "動詞",
+    "usage": "「坚持 + V / 名詞」「坚持下去（やり続ける）」のように、困難があっても途中で投げ出さずに継続することを表す。",
+    "example": {
+      "hanzi": "只要坚持到底，你就一定会看到成果。",
+      "pinyin": "Zhǐyào jiānchí dàodǐ, nǐ jiù yídìng huì kàndào chéngguǒ.",
+      "ja": "最後までやり通しさえすれば、あなたはきっと成果を目にするでしょう。"
+    },
+    "lessonId": "L21",
+    "minLesson": 21,
+    "source": "textbook-scope",
+    "grammarIds": ["G21-01", "G21-02"],
+    "antonyms": ["放弃"]
+  },
+  {
+    "id": "V21-019",
+    "hanzi": "风景",
+    "pinyin": "fēngjǐng",
+    "tones": [1, 3],
+    "meaningJa": "風景・景色",
+    "pos": "名詞",
+    "usage": "自然の景色や名勝の眺望を指す。「风景优美（風景が美しい）」「看风景」。",
+    "example": {
+      "hanzi": "站在高处往下看，周围的风景美丽极了。",
+      "pinyin": "Zhàn zài gāochù wǎng xià kàn, zhōuwéi de fēngjǐng měilì jíle.",
+      "ja": "高い所に立って下を見下ろすと、周囲の景色はこの上なく美しいです。"
+    },
+    "lessonId": "L21",
+    "minLesson": 21,
+    "source": "textbook-scope",
+    "grammarIds": ["G21-02"],
+    "synonyms": ["景色"]
+  },
+  {
+    "id": "V21-020",
+    "hanzi": "休息",
+    "pinyin": "xiūxi",
+    "tones": [1, 5],
+    "meaningJa": "休む・休憩する",
+    "pos": "動詞",
+    "usage": "「休息一下（ちょっと休む）」「好好休息（ゆっくり休む）」。第2音節「息」は軽声。",
+    "example": {
+      "hanzi": "你看起来很累了，先坐下来休息一会儿再说吧。",
+      "pinyin": "Nǐ kàn qǐlái hěn lèi le, xiān zuò xiàlái xiūxi yìhuìr zài shuō ba.",
+      "ja": "とても疲れているように見えますね、まず座って少し休んでからにしましょう。"
+    },
+    "lessonId": "L21",
+    "minLesson": 21,
+    "source": "textbook-scope",
+    "grammarIds": ["G21-03"]
+  },
+  {
+    "id": "V21-021",
+    "hanzi": "成功",
+    "pinyin": "chénggōng",
+    "tones": [2, 1],
+    "meaningJa": "成功する／成功",
+    "pos": "動詞・名詞・形容詞",
+    "usage": "目標を達成すること。「取得成功（成功を収める）」「很成功（大成功だ）」。",
+    "example": {
+      "hanzi": "不管遇到多少挫折，只要不断总结经验，最终就能成功。",
+      "pinyin": "Bùguǎn yùdào duōshao cuòzhé, zhǐyào búduàn zǒngjié jīngyàn, zuìzhōng jiù néng chénggōng.",
+      "ja": "どれほど挫折に出会っても、経験をまとめ続けさえすれば、最後には成功できます。"
+    },
+    "lessonId": "L21",
+    "minLesson": 21,
+    "source": "textbook-scope",
+    "grammarIds": ["G21-01", "G21-02"],
+    "antonyms": ["失败"]
+  }
+]

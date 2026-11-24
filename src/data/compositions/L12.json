@@ -1,0 +1,481 @@
+[
+  {
+    "id": "C-G12-01-01",
+    "lessonId": "L12",
+    "minLesson": 12,
+    "grammarIds": ["G12-01"],
+    "difficulty": 1,
+    "japanesePrompt": "（部屋の中から）外は雨が降っています、早く中に入ってきてください。",
+    "targetGrammarHint": "話し手が中にいるため、方向補語「进来」を使います。",
+    "hints": [
+      "「入って来る」は「进 ＋ 来（进来）」を使います。",
+      "「雨が降っている」は「在下雨」または「下雨了」で表せます。",
+      "外面下雨了，快进来吧。"
+    ],
+    "modelAnswer": "外面下雨了，请快进来吧。",
+    "acceptableAnswers": [
+      "外面下雨了，请快进来吧。",
+      "外面下雨了，请快进来吧",
+      "外边正在下雨，快进来吧。",
+      "外面下雨了，快进来吧。"
+    ],
+    "pinyin": "Wàimiàn xià yǔ le, qǐng kuài jìnlái ba.",
+    "structureBreakdown": [
+      { "text": "外面下雨了", "role": "P", "label": "状況" },
+      { "text": "请", "role": "V", "label": "依頼" },
+      { "text": "快", "role": "Adv", "label": "副詞" },
+      { "text": "进", "role": "V", "label": "方向動詞" },
+      { "text": "来", "role": "C", "label": "方向補語" },
+      { "text": "吧", "role": "Aux", "label": "語気助詞" }
+    ],
+    "explanation": "話し手が部屋の中にいるので、外から自分の方へ近づいてくる動きには「进来」を使います。",
+    "commonMistakes": [
+      { "wrong": "外面下雨了，请快进去吧。", "reason": "話し手が中にいるのに「进去」を使うと「外へ（または話し手から離れて）中に入れ」という不自然な意味になります。" }
+    ]
+  },
+  {
+    "id": "C-G12-01-02",
+    "lessonId": "L12",
+    "minLesson": 12,
+    "grammarIds": ["G12-01"],
+    "difficulty": 2,
+    "japanesePrompt": "彼は図書館の中へ入っていきました。",
+    "targetGrammarHint": "場所目的語は「进」と「去」の間に置きます（进 + 場所 + 去）。",
+    "hints": [
+      "「入っていく」は「进……去」ですが、場所目的語を「去」の前に挟みます。",
+      "「図書館」は「图书馆」です。",
+      "他 ＋ 进图书馆去了。"
+    ],
+    "modelAnswer": "他进图书馆去了。",
+    "acceptableAnswers": [
+      "他进图书馆去了。",
+      "他进图书馆去了",
+      "他走进图书馆去了。"
+    ],
+    "pinyin": "Tā jìn túshūguǎn qù le.",
+    "structureBreakdown": [
+      { "text": "他", "role": "S", "label": "主語" },
+      { "text": "进", "role": "V", "label": "方向動詞" },
+      { "text": "图书馆", "role": "Loc", "label": "場所目的語" },
+      { "text": "去", "role": "C", "label": "方向補語" },
+      { "text": "了", "role": "Aux", "label": "完了" }
+    ],
+    "explanation": "単純方向補語に場所目的語が伴うときは、必ず「V + 場所 + 来/去」の語順になります。",
+    "commonMistakes": [
+      { "wrong": "他进去图书馆了。", "reason": "場所目的語「图书馆」を「去」の後ろに置くことはできません。" }
+    ]
+  },
+  {
+    "id": "C-G12-01-03",
+    "lessonId": "L12",
+    "minLesson": 12,
+    "grammarIds": ["G12-01"],
+    "difficulty": 2,
+    "japanesePrompt": "先生はまだ学校に戻ってきていません。",
+    "targetGrammarHint": "「まだ〜していない」の否定「还没 + 回来」を使います。",
+    "hints": [
+      "「戻ってくる」は「回来 (huílái)」、場所を入れるなら「回学校来」にします。",
+      "否定の「还没」を動詞の前に置き、「了」は付けません。",
+      "老师还没回学校来。"
+    ],
+    "modelAnswer": "老师还没回学校来。",
+    "acceptableAnswers": [
+      "老师还没回学校来。",
+      "老师还没回学校来",
+      "老师还没有回到学校来。",
+      "老师还没回来学校。"
+    ],
+    "pinyin": "Lǎoshī hái méi huí xuéxiào lái.",
+    "structureBreakdown": [
+      { "text": "老师", "role": "S", "label": "主語" },
+      { "text": "还没", "role": "Neg", "label": "副詞+否定" },
+      { "text": "回", "role": "V", "label": "方向動詞" },
+      { "text": "学校", "role": "Loc", "label": "場所目的語" },
+      { "text": "来", "role": "C", "label": "方向補語" }
+    ],
+    "explanation": "学校にいる話し手にとって先生は学校へ「戻ってくる」ため「回学校来」となり、場所目的語「学校」は「来」の前に置きます。",
+    "commonMistakes": [
+      { "wrong": "老师还没回来学校。", "reason": "場所目的語「学校」は「来」の前に置きます。" }
+    ]
+  },
+  {
+    "id": "C-G12-01-04",
+    "lessonId": "L12",
+    "minLesson": 12,
+    "grammarIds": ["G12-01"],
+    "difficulty": 2,
+    "japanesePrompt": "友達が京都から美味しいお土産（特産品）をたくさん持ってきてくれました。",
+    "targetGrammarHint": "完了した事物目的語を伴う「带来了 + O」を使います。",
+    "hints": [
+      "「〜から持ってくる」は「从……带来」を使います。",
+      "「特産品」は「特产 (tèchǎn)」、完了した行為なので「带来了很多好吃的特产」にします。",
+      "朋友从京都带来了很多好吃的特产。"
+    ],
+    "modelAnswer": "朋友从京都带来了很多好吃的特产。",
+    "acceptableAnswers": [
+      "朋友从京都带来了很多好吃的特产。",
+      "朋友从京都带来了很多好吃的特产",
+      "朋友从京都带来很多好吃的特产了。"
+    ],
+    "pinyin": "Péngyou cóng Jīngdū dài lái le hěn duō hǎochī de tèchǎn.",
+    "structureBreakdown": [
+      { "text": "朋友", "role": "S", "label": "主語" },
+      { "text": "从京都", "role": "Prep", "label": "起点" },
+      { "text": "带来", "role": "V", "label": "動詞+方向補語" },
+      { "text": "了", "role": "Aux", "label": "完了" },
+      { "text": "很多好吃的特产", "role": "O", "label": "事物目的語" }
+    ],
+    "explanation": "すでに完了した動作でモノが目的語のときは、「带来了＋目的語」のように「了」の後ろに目的語を置く語順が自然です。",
+    "commonMistakes": [
+      { "wrong": "朋友从京都带了很多好吃的特产来。", "reason": "「带来」の途中に「了」を割り込ませることはできません（目的語を先に置くなら「带很多特产来了」）。" }
+    ]
+  },
+  {
+    "id": "C-G12-01-05",
+    "lessonId": "L12",
+    "minLesson": 12,
+    "grammarIds": ["G12-01", "G09-04"],
+    "difficulty": 2,
+    "japanesePrompt": "明日、ノートパソコンを持ってきていただけますか。",
+    "targetGrammarHint": "「把」構文と「带来」を組み合わせます（把笔记本电脑带来）。",
+    "hints": [
+      "「ノートパソコン」は「笔记本电脑 (bǐjìběn diànnǎo)」です。",
+      "「明天你能把……带来吗？」の語順にします。",
+      "明天你能把笔记本电脑带来吗？"
+    ],
+    "modelAnswer": "明天你能把笔记本电脑带来吗？",
+    "acceptableAnswers": [
+      "明天你能把笔记本电脑带来吗？",
+      "明天你能把笔记本电脑带来吗",
+      "明天你带笔记本电脑来，好吗？",
+      "明天你可以把电脑带来吗？"
+    ],
+    "pinyin": "Míngtiān nǐ néng bǎ bǐjìběn diànnǎo dài lái ma?",
+    "structureBreakdown": [
+      { "text": "明天", "role": "Time", "label": "時間" },
+      { "text": "你", "role": "S", "label": "主語" },
+      { "text": "能", "role": "Aux", "label": "助動詞" },
+      { "text": "把笔记本电脑", "role": "Prep", "label": "把+目的語" },
+      { "text": "带来", "role": "V", "label": "動詞+方向補語" },
+      { "text": "吗？", "role": "Aux", "label": "疑問助詞" }
+    ],
+    "explanation": "特定のモノを持ってくるよう依頼するときは「把 + モノ + 带来」が非常に自然です。",
+    "commonMistakes": [
+      { "wrong": "明天你能把带来笔记本电脑吗？", "reason": "「把」構文の目的語「笔记本电脑」は必ず動詞「带来」の前に置きます。" }
+    ]
+  },
+
+  {
+    "id": "C-G12-02-01",
+    "lessonId": "L12",
+    "minLesson": 12,
+    "grammarIds": ["G12-02"],
+    "difficulty": 1,
+    "japanesePrompt": "明日、台風が来るそうですが、本当ですか？",
+    "targetGrammarHint": "文頭に「听说」を置き、後ろに「是真的吗？」を続けます。",
+    "hints": [
+      "「台風」は「台风 (táifēng)」、台風が来るは「有台风」または「刮台风」と言います。",
+      "「听说」は必ず文頭に置きます。",
+      "听说明天有台风，是真的吗？"
+    ],
+    "modelAnswer": "听说明天有台风，是真的吗？",
+    "acceptableAnswers": [
+      "听说明天有台风，是真的吗？",
+      "听说明天有台风，是真的吗",
+      "听说明天台风要来了，是真的吗？",
+      "听说明天要刮台风，是真的吗？"
+    ],
+    "pinyin": "Tīngshuō míngtiān yǒu táifēng, shì zhēn de ma?",
+    "structureBreakdown": [
+      { "text": "听说", "role": "V", "label": "伝聞" },
+      { "text": "明天有台风", "role": "O", "label": "伝聞内容" },
+      { "text": "是真的吗？", "role": "P", "label": "真偽確認" }
+    ],
+    "explanation": "「听说 + 伝聞内容，是真的吗？」は会話でよく使われる情報確認の定番フレーズです。",
+    "commonMistakes": [
+      { "wrong": "明天有台风听说，是真的吗？", "reason": "「听说」を日本語のように文末・節末に置くことはできません。" }
+    ]
+  },
+  {
+    "id": "C-G12-02-02",
+    "lessonId": "L12",
+    "minLesson": 12,
+    "grammarIds": ["G12-02"],
+    "difficulty": 1,
+    "japanesePrompt": "あの公園は春になると桜が特に美しいそうです。",
+    "targetGrammarHint": "「听说」＋「一到春天……」または「春天的时候……」。",
+    "hints": [
+      "「桜」は「樱花 (yīnghuā)」、「特に美しい」は「特别美」または「非常漂亮」です。",
+      "「听说那个公园一到春天，樱花就特别美。」のように表現します。",
+      "听说那个公园春天的樱花特别美。"
+    ],
+    "modelAnswer": "听说那个公园春天的樱花特别美。",
+    "acceptableAnswers": [
+      "听说那个公园春天的樱花特别美。",
+      "听说那个公园春天的樱花特别美",
+      "听说那个公园一到春天，樱花就特别漂亮。"
+    ],
+    "pinyin": "Tīngshuō nàge gōngyuán chūntiān de yīnghuā tèbié měi.",
+    "structureBreakdown": [
+      { "text": "听说", "role": "V", "label": "伝聞" },
+      { "text": "那个公园春天的樱花", "role": "S", "label": "節の主語" },
+      { "text": "特别美", "role": "P", "label": "節の述語" }
+    ],
+    "explanation": "観光地や名所の評判を人から聞いた話として紹介するときにも「听说」が活躍します。",
+    "commonMistakes": [
+      { "wrong": "我听说过那个公园春天的樱花特别美。", "reason": "単に「〜だそうです」という伝聞を伝えるときは「过」を付けず「听说」にします。" }
+    ]
+  },
+  {
+    "id": "C-G12-02-03",
+    "lessonId": "L12",
+    "minLesson": 12,
+    "grammarIds": ["G12-02"],
+    "difficulty": 2,
+    "japanesePrompt": "王さんは来月、中国の大学へ留学に行くそうです。",
+    "targetGrammarHint": "「听说 + 王同学下个月要去……」の形にします。",
+    "hints": [
+      "「留学に行く」は「去……留学」を使います。",
+      "「来月〜する予定だ」は「下个月要……」とします。",
+      "听说小王下个月要去中国的大学留学。"
+    ],
+    "modelAnswer": "听说小王下个月要去中国的大学留学。",
+    "acceptableAnswers": [
+      "听说小王下个月要去中国的大学留学。",
+      "听说小王下个月要去中国的大学留学",
+      "听说王同学下个月打算去中国的大学留学。"
+    ],
+    "pinyin": "Tīngshuō Xiǎo Wáng xià ge yuè yào qù Zhōngguó de dàxué liúxué.",
+    "structureBreakdown": [
+      { "text": "听说", "role": "V", "label": "伝聞" },
+      { "text": "小王", "role": "S", "label": "節の主語" },
+      { "text": "下个月", "role": "Time", "label": "時間" },
+      { "text": "要去中国的大学留学", "role": "P", "label": "節の述語" }
+    ],
+    "explanation": "第三者の今後の予定についての伝聞では、「听说」に続けて「要 / 打算 + 動作」の節を置きます。",
+    "commonMistakes": [
+      { "wrong": "小王下个月要去留学听说。", "reason": "「听说」は文頭に置きます。" }
+    ]
+  },
+  {
+    "id": "C-G12-02-04",
+    "lessonId": "L12",
+    "minLesson": 12,
+    "grammarIds": ["G12-02"],
+    "difficulty": 2,
+    "japanesePrompt": "その店の石の庭は形がとても独特で、見学する価値があるそうです。",
+    "targetGrammarHint": "「听说」の後ろに複数の特徴を並べます。",
+    "hints": [
+      "「石の庭」は「石头庭院 (shítou tíngyuàn)」、「形が独特」は「形状很奇特」です。",
+      "「見学する価値がある」は「很值得参观 (hěn zhídé cānguān)」を使います。",
+      "听说那儿的石头庭院形状很奇特，很值得参观。"
+    ],
+    "modelAnswer": "听说那儿的石头庭院形状很奇特，很值得参观。",
+    "acceptableAnswers": [
+      "听说那儿的石头庭院形状很奇特，很值得参观。",
+      "听说那儿的石头庭院形状很奇特，很值得参观",
+      "听说那里的石头庭园形状非常奇特，很值得一看。"
+    ],
+    "pinyin": "Tīngshuō nàr de shítou tíngyuàn xíngzhuàng hěn qítè, hěn zhídé cānguān.",
+    "structureBreakdown": [
+      { "text": "听说", "role": "V", "label": "伝聞" },
+      { "text": "那儿的石头庭院形状很奇特", "role": "P", "label": "伝聞内容1" },
+      { "text": "很值得参观", "role": "P", "label": "伝聞内容2" }
+    ],
+    "explanation": "「听说」1回で、後ろにコンマでつないだ複数の伝聞内容を受けることができます。",
+    "commonMistakes": [
+      { "wrong": "听说那儿的石头庭院奇特形状。", "reason": "主述述語文では「石头庭院（大主語）＋形状（小主語）＋很奇特（述語）」の語順にします。" }
+    ]
+  },
+  {
+    "id": "C-G12-02-05",
+    "lessonId": "L12",
+    "minLesson": 12,
+    "grammarIds": ["G12-02"],
+    "difficulty": 2,
+    "japanesePrompt": "新しい図書館は来週はまだ開館しないそうですね。",
+    "targetGrammarHint": "否定の内容を含む伝聞「听说……还不开馆，是吧？」を使います。",
+    "hints": [
+      "「開館する」は「开馆 (kāiguǎn)」または「开门」です。",
+      "「〜そうですね」の確認には文末に「，是吧？」または「，是吗？」を添えます。",
+      "听说新图书馆下周还不开馆，是吧？"
+    ],
+    "modelAnswer": "听说新图书馆下周还不开馆，是吧？",
+    "acceptableAnswers": [
+      "听说新图书馆下周还不开馆，是吧？",
+      "听说新图书馆下周还不开馆，是吧",
+      "听说新图书馆下星期还不开门，是吗？"
+    ],
+    "pinyin": "Tīngshuō xīn túshūguǎn xià zhōu hái bù kāiguǎn, shì ba?",
+    "structureBreakdown": [
+      { "text": "听说", "role": "V", "label": "伝聞" },
+      { "text": "新图书馆下周还不开馆", "role": "O", "label": "否定伝聞内容" },
+      { "text": "是吧？", "role": "P", "label": "確認" }
+    ],
+    "explanation": "否定の伝聞でも「听说」自体は肯定のまま使い、後ろの節の中で「不 / 没」を使って否定します。",
+    "commonMistakes": [
+      { "wrong": "没听说新图书馆下周开馆，是吧？", "reason": "「没听说」は「聞いたことがない（初耳だ）」という意味になり、「〜ないそうだ」の訳にはなりません。" }
+    ]
+  },
+
+  {
+    "id": "C-G12-03-01",
+    "lessonId": "L12",
+    "minLesson": 12,
+    "grammarIds": ["G12-03"],
+    "difficulty": 1,
+    "japanesePrompt": "彼は走るのがとても速いです。",
+    "targetGrammarHint": "程度補語「跑得很快」を使います。",
+    "hints": [
+      "「走る」は「跑 (pǎo)」、「速い」は「快 (kuài)」です。",
+      "「V + 得 + 很 + 形容詞」の語順にします。",
+      "他跑得很快。"
+    ],
+    "modelAnswer": "他跑得很快。",
+    "acceptableAnswers": [
+      "他跑得很快。",
+      "他跑得很快",
+      "他跑得非常快。"
+    ],
+    "pinyin": "Tā pǎo de hěn kuài.",
+    "structureBreakdown": [
+      { "text": "他", "role": "S", "label": "主語" },
+      { "text": "跑", "role": "V", "label": "動詞" },
+      { "text": "得", "role": "Aux", "label": "程度得" },
+      { "text": "很快", "role": "C", "label": "程度補語" }
+    ],
+    "explanation": "目的語のない動詞「跑」の後ろに「得」を置き、程度を表す「很快」を続ける程度補語の基本文です。",
+    "commonMistakes": [
+      { "wrong": "他跑很快。", "reason": "動詞と程度を表す形容詞の間には必ず「得」を挟みます。" },
+      { "wrong": "他跑地很快。", "reason": "動詞の後ろに置く程度補語は「地」ではなく「得」を使います。" }
+    ]
+  },
+  {
+    "id": "C-G12-03-02",
+    "lessonId": "L12",
+    "minLesson": 12,
+    "grammarIds": ["G12-03"],
+    "difficulty": 2,
+    "japanesePrompt": "彼女は料理を作るのがとても上手です。",
+    "targetGrammarHint": "目的語がある場合は動詞反復「做菜做得……」を使います。",
+    "hints": [
+      "「料理を作る」は「做菜 (zuò cài)」です。",
+      "目的語「菜」があるため、「做」を反復して「做菜做得很好」または「做得很好吃」にします。",
+      "她做菜做得很好吃。"
+    ],
+    "modelAnswer": "她做菜做得很好吃。",
+    "acceptableAnswers": [
+      "她做菜做得很好吃。",
+      "她做菜做得很好吃",
+      "她做菜做得非常好。",
+      "她菜做得很好。"
+    ],
+    "pinyin": "Tā zuò cài zuò de hěn hǎochī.",
+    "structureBreakdown": [
+      { "text": "她", "role": "S", "label": "主語" },
+      { "text": "做菜", "role": "V", "label": "V+O" },
+      { "text": "做", "role": "V", "label": "動詞反復" },
+      { "text": "得", "role": "Aux", "label": "程度得" },
+      { "text": "很好吃", "role": "C", "label": "程度補語" }
+    ],
+    "explanation": "目的語を伴う動詞（做菜）に程度補語を続けるときは、1つ目の「做菜」の後ろで動詞「做」を繰り返してから「得＋形容詞」を続けます。",
+    "commonMistakes": [
+      { "wrong": "她做菜得很好吃。", "reason": "目的語「菜」の直後に「得」を置くことはできません。必ず動詞「做」を反復します。" }
+    ]
+  },
+  {
+    "id": "C-G12-03-03",
+    "lessonId": "L12",
+    "minLesson": 12,
+    "grammarIds": ["G12-03"],
+    "difficulty": 2,
+    "japanesePrompt": "すみません、あなたは話すのが速すぎます。私ははっきり聞き取れませんでした。",
+    "targetGrammarHint": "「说得太快了」と結果補語の否定「没听清楚」を組み合わせます。",
+    "hints": [
+      "「話すのが速すぎる」は「说得太快了」で表します。",
+      "「はっきり聞き取れなかった」は「没听清楚」です。",
+      "不好意思，您说得太快了，我没听清楚。"
+    ],
+    "modelAnswer": "不好意思，您说得太快了，我没听清楚。",
+    "acceptableAnswers": [
+      "不好意思，您说得太快了，我没听清楚。",
+      "不好意思，您说得太快了，我没听清楚",
+      "对不起，你说得太快了，我没听清楚。"
+    ],
+    "pinyin": "Bù hǎoyìsi, nín shuō de tài kuài le, wǒ méi tīng qīngchu.",
+    "structureBreakdown": [
+      { "text": "不好意思", "role": "Other", "label": "謝罪" },
+      { "text": "您", "role": "S", "label": "主語" },
+      { "text": "说得太快了", "role": "V", "label": "程度補語" },
+      { "text": "我没听清楚", "role": "P", "label": "結果補語否定" }
+    ],
+    "explanation": "「太 + 形容詞 + 了」を程度補語に組み込むと「〜しすぎる」という評価になります。",
+    "commonMistakes": [
+      { "wrong": "您太说得快了。", "reason": "「太」は「得」の後ろの形容詞の前に置きます。" }
+    ]
+  },
+  {
+    "id": "C-G12-03-04",
+    "lessonId": "L12",
+    "minLesson": 12,
+    "grammarIds": ["G12-03"],
+    "difficulty": 2,
+    "japanesePrompt": "私は歌を歌うのがあまり上手ではありません。",
+    "targetGrammarHint": "程度補語の否定は「得」の後ろに「不太好」を置きます。",
+    "hints": [
+      "「歌を歌う」は「唱歌」、動詞を反復して「唱歌唱得……」にします。",
+      "否定は「得」の後ろに置いて「不太好」とします。",
+      "我唱歌唱得不太好。"
+    ],
+    "modelAnswer": "我唱歌唱得不太好。",
+    "acceptableAnswers": [
+      "我唱歌唱得不太好。",
+      "我唱歌唱得不太好",
+      "我歌儿唱得不太好。",
+      "我唱得不太好。"
+    ],
+    "pinyin": "Wǒ chànggē chàng de bú tài hǎo.",
+    "structureBreakdown": [
+      { "text": "我", "role": "S", "label": "主語" },
+      { "text": "唱歌", "role": "V", "label": "離合動詞" },
+      { "text": "唱", "role": "V", "label": "動詞反復" },
+      { "text": "得", "role": "Aux", "label": "程度得" },
+      { "text": "不太好", "role": "C", "label": "否定補語" }
+    ],
+    "explanation": "「唱歌」は離合動詞なので動詞「唱」のみを反復します。また程度補語の否定は必ず「得」の後ろで行います。",
+    "commonMistakes": [
+      { "wrong": "我不太唱歌唱得好。", "reason": "程度補語の否定は「唱」の前ではなく、「得」の後ろの「好」を否定します。" }
+    ]
+  },
+  {
+    "id": "C-G12-03-05",
+    "lessonId": "L12",
+    "minLesson": 12,
+    "grammarIds": ["G12-03"],
+    "difficulty": 2,
+    "japanesePrompt": "彼は最近、毎日とても早く起きて、とても遅く寝ます。",
+    "targetGrammarHint": "「起得很早」と「睡得很晚」を並べます。",
+    "hints": [
+      "「起きるのが早い」は「起得很早」、「寝るのが遅い」は「睡得很晚」です。",
+      "「最近、毎日」は「最近每天」を主語の後ろ（または文頭）に置きます。",
+      "他最近每天都起得很早，睡得很晚。"
+    ],
+    "modelAnswer": "他最近每天都起得很早，睡得很晚。",
+    "acceptableAnswers": [
+      "他最近每天都起得很早，睡得很晚。",
+      "他最近每天都起得很早，睡得很晚",
+      "最近他每天起得很早，睡得很晚。"
+    ],
+    "pinyin": "Tā zuìjìn měitiān dōu qǐ de hěn zǎo, shuì de hěn wǎn.",
+    "structureBreakdown": [
+      { "text": "他", "role": "S", "label": "主語" },
+      { "text": "最近每天都", "role": "Time", "label": "時間+副詞" },
+      { "text": "起得很早", "role": "V", "label": "程度補語1" },
+      { "text": "睡得很晚", "role": "V", "label": "程度補語2" }
+    ],
+    "explanation": "起床や就寝の時刻の早遅を描写する際は「起得很早」「睡得很晚」という程度補語を使うのが最も自然な中国語です。",
+    "commonMistakes": [
+      { "wrong": "他最近每天都很早起，很晚睡。", "reason": "普段の習慣や様子を描写・評価するときは、動詞の前に副詞的に置くより程度補語「起得很早，睡得很晚」にするほうが自然です。" }
+    ]
+  }
+]

@@ -1,0 +1,390 @@
+[
+  {
+    "id": "V19-001",
+    "hanzi": "说到",
+    "pinyin": "shuōdào",
+    "tones": [1, 4],
+    "meaningJa": "〜といえば、〜の話になると",
+    "pos": "動詞・フレーズ",
+    "usage": "「说到……（〜と言えば）」の形で文頭に置き、新しい話題を切り出すときに非常に多く使う。",
+    "example": {
+      "hanzi": "说到中国南方的风景，苏州和杭州都很有名。",
+      "pinyin": "Shuōdào Zhōngguó nánfāng de fēngjǐng, Sūzhōu hé Hángzhōu dōu hěn yǒumíng.",
+      "ja": "中国南方の風景といえば、蘇州も杭州もとても有名です。"
+    },
+    "lessonId": "L19",
+    "minLesson": 19,
+    "source": "textbook-scope",
+    "grammarIds": ["G09-01"],
+    "synonyms": ["提到"]
+  },
+  {
+    "id": "V19-002",
+    "hanzi": "果然",
+    "pinyin": "guǒrán",
+    "tones": [3, 2],
+    "meaningJa": "案の定、思ったとおり、なるほど（評判通り）",
+    "pos": "副詞",
+    "usage": "予測や噂と実際の結果が一致したときの納得・感嘆を表す。主語の前後どちらにも置ける。",
+    "example": {
+      "hanzi": "朋友说这家面馆的味道很正宗，今天来尝了尝，果然名不虚传。",
+      "pinyin": "Péngyou shuō zhè jiā miànguǎn de wèidào hěn zhèngzōng, jīntiān lái cháng le cháng, guǒrán míngbùxūchuán.",
+      "ja": "友達がこの麺屋の味はとても本格的だと言っていましたが、今日味わってみると、なるほど評判に違わぬ味でした。"
+    },
+    "lessonId": "L19",
+    "minLesson": 19,
+    "source": "textbook-scope",
+    "grammarIds": ["G19-02"]
+  },
+  {
+    "id": "V19-003",
+    "hanzi": "不愧",
+    "pinyin": "bùkuì",
+    "tones": [4, 4],
+    "meaningJa": "さすがに〜だ、〜に恥じない、さすが〜だけある",
+    "pos": "副詞",
+    "usage": "「不愧是……（さすがに〜だけのことはある）」の形で称賛を表す。「不」の後ろが第4声「愧」のため、発音上は「búkuì」と第2声に変調する（本調は bù）。",
+    "example": {
+      "hanzi": "这座古城保存得真好，不愧是著名的历史文化名城。",
+      "pinyin": "Zhè zuò gǔchéng bǎocún de zhēn hǎo, bùkuì shì zhùmíng de lìshǐ wénhuà míngchéng.",
+      "ja": "この古い街並みは本当によく保存されていて、さすが有名な歴史文化都市だけのことはあります。"
+    },
+    "lessonId": "L19",
+    "minLesson": 19,
+    "source": "textbook-scope",
+    "grammarIds": ["G19-02"]
+  },
+  {
+    "id": "V19-004",
+    "hanzi": "文化",
+    "pinyin": "wénhuà",
+    "tones": [2, 4],
+    "meaningJa": "文化、教養",
+    "pos": "名詞",
+    "usage": "「传统文化（伝統文化）」「文化交流（文化交流）」「文化遗产（文化遺産）」。",
+    "example": {
+      "hanzi": "通过学习语言，我们可以更深入地了解当地文化。",
+      "pinyin": "Tōngguò xuéxí yǔyán, wǒmen kěyǐ gèng shēnrù de liǎojiě dāngdì wénhuà.",
+      "ja": "言語を学ぶことを通じて、私たちは現地の文化をより深く理解することができます。"
+    },
+    "lessonId": "L19",
+    "minLesson": 19,
+    "source": "textbook-scope",
+    "grammarIds": ["G19-01"]
+  },
+  {
+    "id": "V19-005",
+    "hanzi": "遗产",
+    "pinyin": "yíchǎn",
+    "tones": [2, 3],
+    "meaningJa": "遺産",
+    "pos": "名詞",
+    "usage": "歴史的・文化的に受け継がれた財産や、親族から引き継ぐ財産。「世界文化遗产（世界文化遺産）」。",
+    "example": {
+      "hanzi": "既然来到这里，我们一定要去参观那处世界文化遗产。",
+      "pinyin": "Jìrán láidào zhèlǐ, wǒmen yídìng yào qù cānguān nà chù shìjiè wénhuà yíchǎn.",
+      "ja": "せっかくここに来たのですから、ぜひあの世界文化遺産を見学に行きましょう。"
+    },
+    "lessonId": "L19",
+    "minLesson": 19,
+    "source": "textbook-scope",
+    "grammarIds": ["G19-02"],
+    "measureWord": "处 / 项"
+  },
+  {
+    "id": "V19-006",
+    "hanzi": "特色",
+    "pinyin": "tèsè",
+    "tones": [4, 4],
+    "meaningJa": "特色、特徴、持ち味",
+    "pos": "名詞",
+    "usage": "「很有特色（とても特色がある）」「地方特色（地域の特色）」。量詞は「个 (gè)」「种 (zhǒng)」。",
+    "example": {
+      "hanzi": "这座城市的建筑风格非常有特色，吸引了不少游客。",
+      "pinyin": "Zhè zuò chéngshì de jiànzhù fēnggé fēicháng yǒu tèsè, xīyǐn le bùshǎo yóukè.",
+      "ja": "この街の建築様式はとても特色があり、少なからぬ観光客を引きつけています。"
+    },
+    "lessonId": "L19",
+    "minLesson": 19,
+    "source": "textbook-scope",
+    "grammarIds": ["G19-03"],
+    "synonyms": ["特点"]
+  },
+  {
+    "id": "V19-007",
+    "hanzi": "自古",
+    "pinyin": "zìgǔ",
+    "tones": [4, 3],
+    "meaningJa": "古来より、昔から",
+    "pos": "副詞",
+    "usage": "「自古以来（古来より今に至るまで）」の形で書き言葉や歴史・文化の紹介でよく使われる。",
+    "example": {
+      "hanzi": "江南水乡自古以来就是文人喜欢游览的地方。",
+      "pinyin": "Jiāngnán shuǐxiāng zìgǔ yǐlái jiù shì wénrén xǐhuan yóulǎn de dìfang.",
+      "ja": "江南の水郷は古来より文人が好んで遊覧する場所でした。"
+    },
+    "lessonId": "L19",
+    "minLesson": 19,
+    "source": "textbook-scope",
+    "grammarIds": ["G19-01"]
+  },
+  {
+    "id": "V19-008",
+    "hanzi": "游览",
+    "pinyin": "yóulǎn",
+    "tones": [2, 3],
+    "meaningJa": "遊覧する、見学して回る、観光する",
+    "pos": "動詞",
+    "usage": "名所や庭園・美術館などを鑑賞しながら巡ること。「游览名胜古迹（名所旧跡を巡る）」。",
+    "example": {
+      "hanzi": "国庆长假期间，很多游客前来游览古典园林。",
+      "pinyin": "Guóqìng chángjià qījiān, hěn duō yóukè qiánlái yóulǎn gǔdiǎn yuánlín.",
+      "ja": "国慶節の大型連休中、多くの観光客が古典庭園の見物に訪れます。"
+    },
+    "lessonId": "L19",
+    "minLesson": 19,
+    "source": "textbook-scope",
+    "grammarIds": ["G19-03"],
+    "synonyms": ["参观", "游玩"]
+  },
+  {
+    "id": "V19-009",
+    "hanzi": "胜地",
+    "pinyin": "shèngdì",
+    "tones": [4, 4],
+    "meaningJa": "名勝地、景勝地、有名な行楽地",
+    "pos": "名詞",
+    "usage": "「游览胜地（観光の名勝地）」「避暑胜地（避暑地）」。量詞は「个 (gè)」「处 (chù)」。",
+    "example": {
+      "hanzi": "这里山清水秀，是全国闻名的避暑胜地。",
+      "pinyin": "Zhèlǐ shānqīng-shuǐxiù, shì quán guó wénmíng de bìshǔ shèngdì.",
+      "ja": "ここは山が青く水が澄んでおり、全国的に有名な避暑地です。"
+    },
+    "lessonId": "L19",
+    "minLesson": 19,
+    "source": "textbook-scope",
+    "grammarIds": ["G19-01"],
+    "measureWord": "个 / 处"
+  },
+  {
+    "id": "V19-010",
+    "hanzi": "倾斜",
+    "pinyin": "qīngxié",
+    "tones": [1, 2],
+    "meaningJa": "傾く、傾斜する",
+    "pos": "動詞",
+    "usage": "塔や建物などが水平・垂直から傾いている様子を表す。「有些倾斜（少し傾いている）」。",
+    "example": {
+      "hanzi": "听说那座千年古塔有点儿倾斜，我非亲眼去看看不可。",
+      "pinyin": "Tīngshuō nà zuò qiānnián gǔtǎ yǒudiǎnr qīngxié, wǒ fēi qīnyǎn qù kànkan bùkě.",
+      "ja": "あの千年の古い塔は少し傾いていると聞いたので、私はどうしても自分の目で見に行かなければなりません。"
+    },
+    "lessonId": "L19",
+    "minLesson": 19,
+    "source": "textbook-scope",
+    "grammarIds": ["G19-03"]
+  },
+  {
+    "id": "V19-011",
+    "hanzi": "演出",
+    "pinyin": "yǎnchū",
+    "tones": [3, 1],
+    "meaningJa": "上演する、演奏・演技する／公演、上演",
+    "pos": "動詞・名詞",
+    "usage": "舞台芸術の公演や演奏を行うこと。名詞では量詞「场 (chǎng)」を使う。",
+    "example": {
+      "hanzi": "今晚剧场有一场传统戏剧演出，你去不去？",
+      "pinyin": "Jīnwǎn jùchǎng yǒu yì chǎng chuántǒng xìjù yǎnchū, nǐ qù bú qù?",
+      "ja": "今晩劇場で伝統演劇の公演がありますが、あなたは行きますか。"
+    },
+    "lessonId": "L19",
+    "minLesson": 19,
+    "source": "textbook-scope",
+    "grammarIds": ["G17-03"],
+    "measureWord": "场"
+  },
+  {
+    "id": "V19-012",
+    "hanzi": "不管",
+    "pinyin": "bùguǎn",
+    "tones": [4, 3],
+    "meaningJa": "〜にかかわらず、〜であっても、どうであれ",
+    "pos": "接続詞",
+    "usage": "「不管……，都/也……」で条件を問わない帰結を表す。発音は第4声＋第3声。",
+    "example": {
+      "hanzi": "不管遇到什么天气，他每天早上都坚持去公园跑步。",
+      "pinyin": "Bùguǎn yùdào shénme tiānqì, tā měitiān zǎoshang dōu jiānchí qù gōngyuán pǎobù.",
+      "ja": "どんな天気であっても、彼は毎朝欠かさず公園へ走りに行きます。"
+    },
+    "lessonId": "L19",
+    "minLesson": 19,
+    "source": "textbook-scope",
+    "grammarIds": ["G15-03"],
+    "synonyms": ["无论"]
+  },
+  {
+    "id": "V19-013",
+    "hanzi": "才",
+    "pinyin": "cái",
+    "tones": [2],
+    "meaningJa": "（時間が遅く）ようやく〜する、（数量が）たった〜だけ、〜して初めて",
+    "pos": "副詞",
+    "usage": "「十点才来（10時にやっと来た）」「只有……，才……（〜してこそ初めて…）」。遅さ・少なさの文末には原則「了」を付けない。",
+    "example": {
+      "hanzi": "我昨晚十二点才做完报告，今天早上差点儿迟到。",
+      "pinyin": "Wǒ zuówǎn shí'èr diǎn cái zuòwán bàogào, jīntiān zǎoshang chàdiǎnr chídào.",
+      "ja": "私は昨晩12時になってやっとレポートを書き終えたので、今朝もう少しで遅刻するところでした。"
+    },
+    "lessonId": "L19",
+    "minLesson": 19,
+    "source": "textbook-scope",
+    "grammarIds": ["G19-01"],
+    "antonyms": ["就"]
+  },
+  {
+    "id": "V19-014",
+    "hanzi": "只有",
+    "pinyin": "zhǐyǒu",
+    "tones": [3, 3],
+    "meaningJa": "〜だけ（が）、〜してこそ（初めて）",
+    "pos": "接続詞・副詞",
+    "usage": "「只有 + 条件，才 + 結果」で必要条件を表す。第3声連続のため発音上は前の「只」が第2声のように変化する。",
+    "example": {
+      "hanzi": "只有多开口练习，口语水平才能提高得快。",
+      "pinyin": "Zhǐyǒu duō kāikǒu liànxí, kǒuyǔ shuǐpíng cái néng tígāo de kuài.",
+      "ja": "たくさん声に出して練習してこそ初めて、会話レベルが速く向上します。"
+    },
+    "lessonId": "L19",
+    "minLesson": 19,
+    "source": "textbook-scope",
+    "grammarIds": ["G19-01"]
+  },
+  {
+    "id": "V19-015",
+    "hanzi": "既然",
+    "pinyin": "jìrán",
+    "tones": [4, 2],
+    "meaningJa": "〜である以上（は）、せっかく〜なのだから",
+    "pos": "接続詞",
+    "usage": "「既然……，就……」で既定の事実に基づく提案や推論を述べる。後節に「所以」は置かない。",
+    "example": {
+      "hanzi": "既然你已经买好票了，我们周末就一起去看展览吧。",
+      "pinyin": "Jìrán nǐ yǐjīng mǎihǎo piào le, wǒmen zhōumò jiù yìqǐ qù kàn zhǎnlǎn ba.",
+      "ja": "あなたがもうチケットを買ったのなら、週末に一緒に展覧会を見に行きましょう。"
+    },
+    "lessonId": "L19",
+    "minLesson": 19,
+    "source": "textbook-scope",
+    "grammarIds": ["G19-02"]
+  },
+  {
+    "id": "V19-016",
+    "hanzi": "后悔",
+    "pinyin": "hòuhuǐ",
+    "tones": [4, 3],
+    "meaningJa": "後悔する、悔やむ",
+    "pos": "動詞",
+    "usage": "「感到后悔（後悔を感じる）」「后悔没早点去（もっと早く行かなかったことを後悔する）」。",
+    "example": {
+      "hanzi": "既然已经做出了决定，就不要再后悔了。",
+      "pinyin": "Jìrán yǐjīng zuòchū le juédìng, jiù búyào zài hòuhuǐ le.",
+      "ja": "すでに決断を下した以上、もう後悔しないでください。"
+    },
+    "lessonId": "L19",
+    "minLesson": 19,
+    "source": "textbook-scope",
+    "grammarIds": ["G19-02"]
+  },
+  {
+    "id": "V19-017",
+    "hanzi": "正宗",
+    "pinyin": "zhèngzōng",
+    "tones": [4, 1],
+    "meaningJa": "本場の、正統派の、本格的な",
+    "pos": "形容詞",
+    "usage": "料理や伝統芸能・流派などが本物・本場であることを表す。「很正宗」「正宗的川菜」。",
+    "example": {
+      "hanzi": "去了重庆以后，我非吃一顿正宗的重庆小面不可。",
+      "pinyin": "Qù le Chóngqìng yǐhòu, wǒ fēi chī yí dùn zhèngzōng de Chóngqìng xiǎomiàn bùkě.",
+      "ja": "重慶へ行ったら、私は絶対に本場の重慶小麺を一杯食べなければなりません。"
+    },
+    "lessonId": "L19",
+    "minLesson": 19,
+    "source": "textbook-scope",
+    "grammarIds": ["G19-03"],
+    "synonyms": ["地道"]
+  },
+  {
+    "id": "V19-018",
+    "hanzi": "尝",
+    "pinyin": "cháng",
+    "tones": [2],
+    "meaningJa": "味わう、試食する、なめてみる",
+    "pos": "動詞",
+    "usage": "「尝一尝 / 尝尝（ちょっと味わってみる）」のように重ね型でよく使う。",
+    "example": {
+      "hanzi": "这是我刚学会做的点心，你快尝尝味道怎么样。",
+      "pinyin": "Zhè shì wǒ gāng xuéhuì zuò de diǎnxin, nǐ kuài chángchang wèidào zěnmeyàng.",
+      "ja": "これは私が作ったばかりのお菓子です、味がどうか早く味わってみてください。"
+    },
+    "lessonId": "L19",
+    "minLesson": 19,
+    "source": "textbook-scope",
+    "grammarIds": ["G13-02", "G19-03"]
+  },
+  {
+    "id": "V19-019",
+    "hanzi": "俗话",
+    "pinyin": "súhuà",
+    "tones": [2, 4],
+    "meaningJa": "ことわざ、俗諺、世間で言われる言葉",
+    "pos": "名詞",
+    "usage": "「俗话说（ことわざに言うように）」「俗话说得好（よく言ったもので）」の形で引用を導く。",
+    "example": {
+      "hanzi": "俗话说“活到老，学到老”，学习是没有止境的。",
+      "pinyin": "Súhuà shuō “huó dào lǎo, xué dào lǎo”, xuéxí shì méiyǒu zhǐjìng de.",
+      "ja": "「老いるまで生き、老いるまで学ぶ」ということわざがあるように、学びに終わりはありません。"
+    },
+    "lessonId": "L19",
+    "minLesson": 19,
+    "source": "textbook-scope",
+    "grammarIds": ["G19-01"],
+    "measureWord": "句"
+  },
+  {
+    "id": "V19-020",
+    "hanzi": "请客",
+    "pinyin": "qǐngkè",
+    "tones": [3, 4],
+    "meaningJa": "ごちそうする、客を招く・おごる",
+    "pos": "離合動詞",
+    "usage": "「我请客（私のおごりです）」「请他吃一次饭（彼に1回食事をごちそうする）」。離合動詞なので間に目的語や数量を挟める。",
+    "example": {
+      "hanzi": "今天我请客，大家想吃什么就点什么吧。",
+      "pinyin": "Jīntiān wǒ qǐngkè, dàjiā xiǎng chī shénme jiù diǎn shénme ba.",
+      "ja": "今日は私のおごりですから、みんな食べたいものを何でも注文してくださいね。"
+    },
+    "lessonId": "L19",
+    "minLesson": 19,
+    "source": "textbook-scope",
+    "grammarIds": ["G19-04"]
+  },
+  {
+    "id": "V19-021",
+    "hanzi": "苏州",
+    "pinyin": "Sūzhōu",
+    "tones": [1, 1],
+    "meaningJa": "蘇州（中国江蘇省の歴史文化都市）",
+    "pos": "固有名詞",
+    "usage": "古典庭園や運河・水郷で有名な都市。「上有天堂，下有苏杭（天に極楽あり、地に蘇州・杭州あり）」で知られる。",
+    "example": {
+      "hanzi": "去苏州游览的时候，千万不要错过那里的古典园林。",
+      "pinyin": "Qù Sūzhōu yóulǎn de shíhou, qiānwàn búyào cuòguò nàlǐ de gǔdiǎn yuánlín.",
+      "ja": "蘇州へ観光に行くときは、決してそこの古典庭園を見逃さないでください。"
+    },
+    "lessonId": "L19",
+    "minLesson": 19,
+    "source": "textbook-scope",
+    "grammarIds": ["G17-02"]
+  }
+]

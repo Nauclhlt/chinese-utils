@@ -1,0 +1,610 @@
+[
+  {
+    "id": "C-G18-01-01",
+    "lessonId": "L18",
+    "minLesson": 18,
+    "grammarIds": ["G18-01"],
+    "difficulty": 1,
+    "japanesePrompt": "天気はますます暖かくなってきました。",
+    "targetGrammarHint": "「越来越＋形容詞＋了」を使います（形容詞の前に「很」を入れない）。",
+    "hints": [
+      "主語は「天气」、変化の副詞句は「越来越」です。",
+      "「暖かい」は「暖和」です。",
+      "状態の変化を表すため文末に「了」を付けます。"
+    ],
+    "modelAnswer": "天气越来越暖和了。",
+    "acceptableAnswers": [
+      "天气越来越暖和了。"
+    ],
+    "pinyin": "Tiānqì yuèláiyuè nuǎnhuo le.",
+    "structureBreakdown": [
+      { "text": "天气", "role": "S", "label": "主語" },
+      { "text": "越来越", "role": "Adv", "label": "比例変化" },
+      { "text": "暖和", "role": "P", "label": "形容詞" },
+      { "text": "了", "role": "P", "label": "変化の了" }
+    ],
+    "explanation": "時間経過とともに状態が変化することを「越来越＋形容詞＋了」で表します。",
+    "commonMistakes": [
+      { "wrong": "天气越来越很暖和了。", "reason": "「越来越」の後ろに程度副詞「很」は置けません。" }
+    ]
+  },
+  {
+    "id": "C-G18-01-02",
+    "lessonId": "L18",
+    "minLesson": 18,
+    "grammarIds": ["G18-01"],
+    "difficulty": 1,
+    "japanesePrompt": "彼女の中国語は話すほどにますます流暢になりました。",
+    "targetGrammarHint": "「越来越」または「越说越流利」を使います。",
+    "hints": [
+      "「中国語を話す」は「说汉语」または「汉语说得……」とできます。",
+      "「ますます流暢」は「越来越流利」または「越说越流利」です。",
+      "変化の「了」を文末に置きます。"
+    ],
+    "modelAnswer": "她的汉语越说越流利了。",
+    "acceptableAnswers": [
+      "她的汉语越说越流利了。",
+      "她的汉语说得越来越流利了。",
+      "她说汉语越说越流利了。"
+    ],
+    "pinyin": "Tā de Hànyǔ yuè shuō yuè liúlì le.",
+    "structureBreakdown": [
+      { "text": "她的汉语", "role": "S", "label": "主語" },
+      { "text": "越说", "role": "Adv", "label": "越+動詞" },
+      { "text": "越流利", "role": "P", "label": "越+形容詞" },
+      { "text": "了", "role": "P", "label": "変化の了" }
+    ],
+    "explanation": "「越说越流利了（話せば話すほど流暢になった）」のように、行為と結果の比例を簡潔に表せます。",
+    "commonMistakes": [
+      { "wrong": "她的汉语越说很流利了。", "reason": "「越……越……」構文では2つ目の「越」が不可欠で、「很」は置けません。" }
+    ]
+  },
+  {
+    "id": "C-G18-01-03",
+    "lessonId": "L18",
+    "minLesson": 18,
+    "grammarIds": ["G18-01"],
+    "difficulty": 2,
+    "japanesePrompt": "今回撮った写真は、見れば見るほど満足です。",
+    "targetGrammarHint": "「越看越满意」を使います。",
+    "hints": [
+      "「今回撮った写真」は「这次拍的照片」で話題として文頭に置けます。",
+      "「私は」は「我」です。",
+      "「見れば見るほど満足だ」は「越看越满意」です。"
+    ],
+    "modelAnswer": "这次拍的照片我越看越满意。",
+    "acceptableAnswers": [
+      "这次拍的照片我越看越满意。",
+      "我越看这次拍的照片越满意。"
+    ],
+    "pinyin": "Zhè cì pāi de zhàopiàn wǒ yuè kàn yuè mǎnyì.",
+    "structureBreakdown": [
+      { "text": "这次拍的照片", "role": "O", "label": "話題(目的語)" },
+      { "text": "我", "role": "S", "label": "主語" },
+      { "text": "越看", "role": "V", "label": "越+動詞" },
+      { "text": "越满意", "role": "P", "label": "越+形容詞" }
+    ],
+    "explanation": "対象「这次拍的照片」を文頭に主題化し、「我越看越满意」と続ける非常に自然な中国語の語順です。",
+    "commonMistakes": [
+      { "wrong": "我越来越满意看这次拍的照片。", "reason": "行為と感情の比例を表すには「越看越满意」の形を使います。" }
+    ]
+  },
+  {
+    "id": "C-G18-01-04",
+    "lessonId": "L18",
+    "minLesson": 18,
+    "grammarIds": ["G18-01"],
+    "difficulty": 2,
+    "japanesePrompt": "風は吹けば吹くほど強くなりました。",
+    "targetGrammarHint": "「风越刮越大」を使います。",
+    "hints": [
+      "「風」は「风」、風が吹く動詞は「刮」です。",
+      "「強くなる（大きくなる）」は「大」で表します。",
+      "「风越刮越大了」と組み立てます。"
+    ],
+    "modelAnswer": "风越刮越大了。",
+    "acceptableAnswers": [
+      "风越刮越大了。",
+      "风越刮越大。"
+    ],
+    "pinyin": "Fēng yuè guā yuè dà le.",
+    "structureBreakdown": [
+      { "text": "风", "role": "S", "label": "主語" },
+      { "text": "越刮", "role": "V", "label": "越+動詞" },
+      { "text": "越大", "role": "P", "label": "越+形容詞" },
+      { "text": "了", "role": "P", "label": "変化の了" }
+    ],
+    "explanation": "自然現象の変化（「雨越下越大」「风越刮越大」）は「越 V 越 Adj」の最も代表的な用法です。",
+    "commonMistakes": [
+      { "wrong": "风刮越来越大了。", "reason": "動詞「刮」と結びつく比例変化は「越刮越大」とします。" }
+    ]
+  },
+  {
+    "id": "C-G18-01-05",
+    "lessonId": "L18",
+    "minLesson": 18,
+    "grammarIds": ["G18-01"],
+    "difficulty": 3,
+    "japanesePrompt": "先生が説明すればするほど、私はますますよく分かるようになりました。",
+    "targetGrammarHint": "主語が2つ異なる「S1 + 越 + V1，S2 + 越 + V2/Adj」を使います。",
+    "hints": [
+      "前節の主語は「老师」、動詞は「讲」または「解释」です。",
+      "後節の主語は「我」、述語は「明白」です。",
+      "それぞれの主語を「越」の前に置きます：老师越讲，我越明白了。"
+    ],
+    "modelAnswer": "老师越讲，我越明白了。",
+    "acceptableAnswers": [
+      "老师越讲，我越明白了。",
+      "老师越解释，我越明白了。"
+    ],
+    "pinyin": "Lǎoshī yuè jiǎng, wǒ yuè míngbai le.",
+    "structureBreakdown": [
+      { "text": "老师", "role": "S", "label": "主語1" },
+      { "text": "越讲", "role": "V", "label": "越+動詞1" },
+      { "text": "我", "role": "S", "label": "主語2" },
+      { "text": "越明白了", "role": "P", "label": "越+述語2" }
+    ],
+    "explanation": "前節と後節で主語が違うときは、各節の最初にそれぞれの主語を置きます。",
+    "commonMistakes": [
+      { "wrong": "越老师讲，越我明白了。", "reason": "「越」は必ず主語の後ろ（動詞の前）に置きます。" }
+    ]
+  },
+
+  {
+    "id": "C-G18-02-01",
+    "lessonId": "L18",
+    "minLesson": 18,
+    "grammarIds": ["G18-02"],
+    "difficulty": 1,
+    "japanesePrompt": "彼女は現在、大阪に住んでいます。",
+    "targetGrammarHint": "「住＋在＋場所」の語順にします。",
+    "hints": [
+      "主語は「她」、時間「现在」を後に置きます。",
+      "「大阪に住んでいる」は「住在大阪」です。",
+      "「在大阪住」ではなく「住在大阪」の語順にします。"
+    ],
+    "modelAnswer": "她现在住在大阪。",
+    "acceptableAnswers": [
+      "她现在住在大阪。",
+      "现在她住在大阪。"
+    ],
+    "pinyin": "Tā xiànzài zhù zài Dàbǎn.",
+    "structureBreakdown": [
+      { "text": "她", "role": "S", "label": "主語" },
+      { "text": "现在", "role": "Time", "label": "時間" },
+      { "text": "住", "role": "V", "label": "動詞" },
+      { "text": "在大阪", "role": "Loc", "label": "定着場所" }
+    ],
+    "explanation": "居住する場所という定着位置を表すため、「住」の後ろに「在＋場所」を置きます。",
+    "commonMistakes": [
+      { "wrong": "她现在在大阪住。", "reason": "「住」は定着位置を表すため、原則「住在＋場所」の語順に統一されます。" }
+    ]
+  },
+  {
+    "id": "C-G18-02-02",
+    "lessonId": "L18",
+    "minLesson": 18,
+    "grammarIds": ["G18-02", "G09-04"],
+    "difficulty": 1,
+    "japanesePrompt": "彼は財布をテーブルの上に置きました。",
+    "targetGrammarHint": "「把＋目的語＋放在＋場所＋了」の語順を使います。",
+    "hints": [
+      "「財布」は「钱包」です。",
+      "「把钱包」で処置の対象を動詞「放」の前に出します。",
+      "定着先「在桌子上了」を動詞「放」の後ろに置きます。"
+    ],
+    "modelAnswer": "他把钱包放在桌子上了。",
+    "acceptableAnswers": [
+      "他把钱包放在桌子上了。",
+      "他把钱包放在桌上了。"
+    ],
+    "pinyin": "Tā bǎ qiánbāo fàng zài zhuōzi shàng le.",
+    "structureBreakdown": [
+      { "text": "他", "role": "S", "label": "主語" },
+      { "text": "把钱包", "role": "Prep", "label": "把+目的語" },
+      { "text": "放", "role": "V", "label": "動詞" },
+      { "text": "在桌子上", "role": "Loc", "label": "定着場所" },
+      { "text": "了", "role": "P", "label": "完了" }
+    ],
+    "explanation": "「置く（放）」という動作の結果、財布がテーブルの上に定着することを「把〜放在〜上」で表します。",
+    "commonMistakes": [
+      { "wrong": "他在桌子上放钱包了。", "reason": "定着場所が焦点なので「在桌子上放」ではなく「把钱包放在桌子上」にします。" }
+    ]
+  },
+  {
+    "id": "C-G18-02-03",
+    "lessonId": "L18",
+    "minLesson": 18,
+    "grammarIds": ["G18-02"],
+    "difficulty": 2,
+    "japanesePrompt": "次回杭州へ来るときは、西湖のそばのホテルに泊まりたいです。",
+    "targetGrammarHint": "「想住在＋場所」を使います。",
+    "hints": [
+      "「次回杭州へ来るとき」は「下次来杭州的时候」です。",
+      "「〜に泊まりたい」は「想住在……」です。",
+      "「西湖のそばのホテル」は「西湖旁边的宾馆」です。"
+    ],
+    "modelAnswer": "下次来杭州的时候，我想住在西湖旁边的宾馆。",
+    "acceptableAnswers": [
+      "下次来杭州的时候，我想住在西湖旁边的宾馆。",
+      "下次来杭州，我想住在西湖旁边的酒店。"
+    ],
+    "pinyin": "Xià cì lái Hángzhōu de shíhou, wǒ xiǎng zhù zài Xīhú pángbiān de bīnguǎn.",
+    "structureBreakdown": [
+      { "text": "下次来杭州的时候", "role": "Time", "label": "時節" },
+      { "text": "我", "role": "S", "label": "主語" },
+      { "text": "想", "role": "Aux", "label": "願望" },
+      { "text": "住", "role": "V", "label": "動詞" },
+      { "text": "在西湖旁边的宾馆", "role": "Loc", "label": "定着場所" }
+    ],
+    "explanation": "助動詞「想」の後ろに「住在＋長い場所名詞句」が続く応用文です。",
+    "commonMistakes": [
+      { "wrong": "我想在西湖旁边的宾馆住。", "reason": "宿泊・居住の場所には「住在＋場所」を使います。" }
+    ]
+  },
+  {
+    "id": "C-G18-02-04",
+    "lessonId": "L18",
+    "minLesson": 18,
+    "grammarIds": ["G18-02", "G09-04"],
+    "difficulty": 2,
+    "japanesePrompt": "あなたの電話番号をこの紙の上に書いてください。",
+    "targetGrammarHint": "「请把＋目的語＋写在＋場所」を使います。",
+    "hints": [
+      "「電話番号」は「电话号码」です。",
+      "「この紙の上」は「这张纸上」です。",
+      "文字を書き留めてそこに残す動作なので「写在」を使います。"
+    ],
+    "modelAnswer": "请把你的电话号码写在这张纸上。",
+    "acceptableAnswers": [
+      "请把你的电话号码写在这张纸上。",
+      "请你把电话号码写在这张纸上。"
+    ],
+    "pinyin": "Qǐng bǎ nǐ de diànhuà hàomǎ xiě zài zhè zhāng zhǐ shàng.",
+    "structureBreakdown": [
+      { "text": "请", "role": "Other", "label": "依頼" },
+      { "text": "把你的电话号码", "role": "Prep", "label": "把+目的語" },
+      { "text": "写", "role": "V", "label": "動詞" },
+      { "text": "在这张纸上", "role": "Loc", "label": "定着場所" }
+    ],
+    "explanation": "書いた文字が紙の上に定着して残るため、「在这张纸上写」ではなく「把……写在这张纸上」にします。",
+    "commonMistakes": [
+      { "wrong": "请在这张纸上写你的电话号码。", "reason": "「どこに書き残すか」という結果の定着を示す場合は「把〜写在〜」が最も自然です。" }
+    ]
+  },
+  {
+    "id": "C-G18-02-05",
+    "lessonId": "L18",
+    "minLesson": 18,
+    "grammarIds": ["G18-02"],
+    "difficulty": 3,
+    "japanesePrompt": "彼らは公園の大きな木の下のベンチに座って話をしていました。",
+    "targetGrammarHint": "「坐在＋場所＋動詞」の連動型を使います。",
+    "hints": [
+      "「大きな木の下のベンチ」は「大树下的长椅上」です。",
+      "「ベンチに座る」は定着なので「坐在大树下的长椅上」とします。",
+      "その後に「聊天」や「说话」を続けます。"
+    ],
+    "modelAnswer": "他们坐在公园大树下的长椅上聊天。",
+    "acceptableAnswers": [
+      "他们坐在公园大树下的长椅上聊天。",
+      "他们坐在大树下的椅子上说话。"
+    ],
+    "pinyin": "Tāmen zuò zài gōngyuán dàshù xià de chángyǐ shàng liáotiān.",
+    "structureBreakdown": [
+      { "text": "他们", "role": "S", "label": "主語" },
+      { "text": "坐在公园大树下的长椅上", "role": "V", "label": "動詞+在+場所" },
+      { "text": "聊天", "role": "V", "label": "連続動作" }
+    ],
+    "explanation": "「坐在〜」で姿勢・定着先を示し、続けてそこで行った動作「聊天」を並べる連動文的な拡張です。",
+    "commonMistakes": [
+      { "wrong": "他们在公园大树下的长椅上坐聊天。", "reason": "「座る」位置は「坐在＋場所」で示します。" }
+    ]
+  },
+
+  {
+    "id": "C-G18-03-01",
+    "lessonId": "L18",
+    "minLesson": 18,
+    "grammarIds": ["G18-03"],
+    "difficulty": 1,
+    "japanesePrompt": "彼はとても忙しいけれど、それでも毎日中国語を練習しています。",
+    "targetGrammarHint": "「尽管……，(但是)……还是……」を使います。",
+    "hints": [
+      "前節：「尽管他很忙，」とします。",
+      "後節：「但是每天还是练习汉语。」または「他还是每天练习汉语。」とします。",
+      "「但是」はあってもなくても「还是」とよく合います。"
+    ],
+    "modelAnswer": "尽管他很忙，但是还是每天练习汉语。",
+    "acceptableAnswers": [
+      "尽管他很忙，但是还是每天练习汉语。",
+      "尽管他很忙，他还是每天练习汉语。",
+      "尽管他非常忙，还是每天都练习汉语。"
+    ],
+    "pinyin": "Jǐnguǎn tā hěn máng, dànshì háishi měitiān liànxí Hànyǔ.",
+    "structureBreakdown": [
+      { "text": "尽管", "role": "Conj", "label": "譲歩" },
+      { "text": "他很忙", "role": "Other", "label": "前節" },
+      { "text": "但是", "role": "Conj", "label": "逆接" },
+      { "text": "还是", "role": "Adv", "label": "副詞" },
+      { "text": "每天练习汉语", "role": "V", "label": "後節" }
+    ],
+    "explanation": "多忙という条件を受け入れつつ、「それでもやはり毎日練習している」という対比を明確に表します。",
+    "commonMistakes": [
+      { "wrong": "尽管他很忙，所以每天练习汉语。", "reason": "譲歩の「尽管」に因果の「所以」を呼応させてはいけません。" }
+    ]
+  },
+  {
+    "id": "C-G18-03-02",
+    "lessonId": "L18",
+    "minLesson": 18,
+    "grammarIds": ["G18-03"],
+    "difficulty": 1,
+    "japanesePrompt": "雨が降っているけれども、私たちはやはり出発するつもりです。",
+    "targetGrammarHint": "「尽管……，还是……」を使います。",
+    "hints": [
+      "「雨が降っている」は進行・持続の「下着雨」または「正在下雨」です。",
+      "「私たちはやはり出発するつもりだ」は「我们还是打算出发」です。",
+      "「尽管」を文頭に置きます。"
+    ],
+    "modelAnswer": "尽管外面下着雨，我们还是打算出发。",
+    "acceptableAnswers": [
+      "尽管外面下着雨，我们还是打算出发。",
+      "尽管正在下雨，但是我们还是打算出发。"
+    ],
+    "pinyin": "Jǐnguǎn wàimiàn xià zhe yǔ, wǒmen háishi dǎsuàn chūfā.",
+    "structureBreakdown": [
+      { "text": "尽管", "role": "Conj", "label": "譲歩" },
+      { "text": "外面下着雨", "role": "Other", "label": "前節" },
+      { "text": "我们", "role": "S", "label": "主語" },
+      { "text": "还是", "role": "Adv", "label": "副詞" },
+      { "text": "打算出发", "role": "V", "label": "後節" }
+    ],
+    "explanation": "「尽管……」の後ろに具体的な状況（下着雨）を置き、「但是」を省いて「还是」だけで受ける自然な口語・書き言葉両用の形です。",
+    "commonMistakes": [
+      { "wrong": "尽管雨，我们还是出发。", "reason": "「尽管」の後ろには名詞1語だけではなく、述語を含んだ節を置きます。" }
+    ]
+  },
+  {
+    "id": "C-G18-03-03",
+    "lessonId": "L18",
+    "minLesson": 18,
+    "grammarIds": ["G18-03"],
+    "difficulty": 2,
+    "japanesePrompt": "母が何度も言ったのに、彼はやはり覚えられませんでした。",
+    "targetGrammarHint": "可能補語「记不住」と譲歩「尽管……，……还是……」を組み合わせます。",
+    "hints": [
+      "「母が何度も言った」は「妈妈说了好多次」です。",
+      "「覚えられない」は可能補語「记不住」です。",
+      "「尽管妈妈说了好多次，他还是记不住。」と組み立てます。"
+    ],
+    "modelAnswer": "尽管妈妈说了好多次，他还是记不住。",
+    "acceptableAnswers": [
+      "尽管妈妈说了好多次，他还是记不住。",
+      "尽管妈妈说过很多遍，但是他还是记不住。"
+    ],
+    "pinyin": "Jǐnguǎn māma shuō le hǎo duō cì, tā háishi jì bù zhù.",
+    "structureBreakdown": [
+      { "text": "尽管", "role": "Conj", "label": "譲歩" },
+      { "text": "妈妈说了好多次", "role": "Other", "label": "前節" },
+      { "text": "他", "role": "S", "label": "主語" },
+      { "text": "还是", "role": "Adv", "label": "副詞" },
+      { "text": "记不住", "role": "V", "label": "可能補語否定" }
+    ],
+    "explanation": "「好多次（何度も）」と可能補語「记不住（覚えられない）」に譲歩構文を合わせた実用的な文です。",
+    "commonMistakes": [
+      { "wrong": "尽管妈妈说了好多次，他记不住。", "reason": "後節に「还是」または「可是 / 但是」を入れないと譲歩の対比が弱くなります。" }
+    ]
+  },
+  {
+    "id": "C-G18-03-04",
+    "lessonId": "L18",
+    "minLesson": 18,
+    "grammarIds": ["G18-03"],
+    "difficulty": 2,
+    "japanesePrompt": "その店は駅から少し遠いけれど、料理がとてもおいしいです。",
+    "targetGrammarHint": "「尽管……，但是……」と語彙の組み合わせです。",
+    "hints": [
+      "「駅から少し遠い」は「离车站有点儿远」です。",
+      "「料理がとてもおいしい」は「菜很好吃」です。",
+      "「尽管那家店离车站有点儿远，但是菜很好吃。」とします。"
+    ],
+    "modelAnswer": "尽管那家店离车站有点儿远，但是菜很好吃。",
+    "acceptableAnswers": [
+      "尽管那家店离车站有点儿远，但是菜很好吃。",
+      "尽管那家餐厅离车站有点儿远，可是饭菜非常好吃。"
+    ],
+    "pinyin": "Jǐnguǎn nà jiā diàn lí chēzhàn yǒudiǎnr yuǎn, dànshì cài hěn hǎochī.",
+    "structureBreakdown": [
+      { "text": "尽管", "role": "Conj", "label": "譲歩" },
+      { "text": "那家店离车站有点儿远", "role": "Other", "label": "前節" },
+      { "text": "但是", "role": "Conj", "label": "逆接" },
+      { "text": "菜很好吃", "role": "P", "label": "後節" }
+    ],
+    "explanation": "距離を表す「A 离 B 远」を前節に置いた譲歩文です。後節は意志ではなく事実の対比なので「还是」を使わず「但是」を使います。",
+    "commonMistakes": [
+      { "wrong": "尽管那家店离车站有点儿远，还是菜很好吃。", "reason": "「还是」は主観的意志や変わらぬ状態（「やはり〜する／やはり〜だ」）に向いており、別の客観的長所（「料理がおいしい」）を述べるときは「但是 / 可是」が自然です。" }
+    ]
+  },
+  {
+    "id": "C-G18-03-05",
+    "lessonId": "L18",
+    "minLesson": 18,
+    "grammarIds": ["G18-03"],
+    "difficulty": 3,
+    "japanesePrompt": "両親がずっと反対していたにもかかわらず、二人は最後にやはり結婚しました。",
+    "targetGrammarHint": "L18の語彙「反对」「结合」「最后」と「尽管……还是……」を活用します。",
+    "hints": [
+      "「両親がずっと反対していた」は「父母一直反对」です。",
+      "「二人は最後にやはり結婚した」は「两个人最后还是结婚了」または「结合了」です。",
+      "「尽管……，……还是……」でつなぎます。"
+    ],
+    "modelAnswer": "尽管父母一直反对，他们两个人最后还是结婚了。",
+    "acceptableAnswers": [
+      "尽管父母一直反对，他们两个人最后还是结婚了。",
+      "尽管父母一直反对，他们最后还是结合了。"
+    ],
+    "pinyin": "Jǐnguǎn fùmǔ yìzhí fǎnduì, tāmen liǎng ge rén zuìhòu háishi jiéhūn le.",
+    "structureBreakdown": [
+      { "text": "尽管", "role": "Conj", "label": "譲歩" },
+      { "text": "父母一直反对", "role": "Other", "label": "前節" },
+      { "text": "他们两个人", "role": "S", "label": "主語" },
+      { "text": "最后", "role": "Time", "label": "時間" },
+      { "text": "还是结婚了", "role": "V", "label": "後節" }
+    ],
+    "explanation": "困難（両親の反対）を乗り越えた結末（最后还是〜了）を述べる、L18語彙を活かした表現です。",
+    "commonMistakes": [
+      { "wrong": "尽管父母一直反对，所以他们结婚了。", "reason": "譲歩文に「所以」は使えません。" }
+    ]
+  },
+
+  {
+    "id": "C-G18-04-01",
+    "lessonId": "L18",
+    "minLesson": 18,
+    "grammarIds": ["G18-04"],
+    "difficulty": 1,
+    "japanesePrompt": "留学するために、彼女は毎日中国語を練習しています。",
+    "targetGrammarHint": "文頭に「为了＋目的」を置きます。",
+    "hints": [
+      "「留学するために」は「为了留学」です。",
+      "「毎日中国語を練習している」は「每天练习汉语」です。",
+      "「为了留学，她每天都练习汉语。」の形にします。"
+    ],
+    "modelAnswer": "为了留学，她每天都练习汉语。",
+    "acceptableAnswers": [
+      "为了留学，她每天都练习汉语。",
+      "为了去留学，她每天练习汉语。"
+    ],
+    "pinyin": "Wèile liúxué, tā měitiān dōu liànxí Hànyǔ.",
+    "structureBreakdown": [
+      { "text": "为了留学", "role": "Prep", "label": "目的" },
+      { "text": "她", "role": "S", "label": "主語" },
+      { "text": "每天都", "role": "Time", "label": "時間" },
+      { "text": "练习汉语", "role": "V", "label": "行動" }
+    ],
+    "explanation": "目的の「为了……」を文頭に置き、その後ろにそのための努力・行動を続けます。",
+    "commonMistakes": [
+      { "wrong": "因为留学，她每天都练习汉语。", "reason": "これから実現したい目的には「因为（原因）」ではなく「为了」を使います。" }
+    ]
+  },
+  {
+    "id": "C-G18-04-02",
+    "lessonId": "L18",
+    "minLesson": 18,
+    "grammarIds": ["G18-04"],
+    "difficulty": 1,
+    "japanesePrompt": "子どものために、両親はどんな苦労もいとわず頑張ります。",
+    "targetGrammarHint": "「为了 + 名詞（孩子），……」を使います。",
+    "hints": [
+      "「子どものために」は「为了孩子」です。",
+      "「どんなことでもする気がある」は「什么都愿意做」で表現できます。",
+      "文頭に「为了孩子，」を置きます。"
+    ],
+    "modelAnswer": "为了孩子，父母什么都愿意做。",
+    "acceptableAnswers": [
+      "为了孩子，父母什么都愿意做。",
+      "为了孩子，爸爸妈妈非常努力工作。"
+    ],
+    "pinyin": "Wèile háizi, fùmǔ shénme dōu yuànyi zuò.",
+    "structureBreakdown": [
+      { "text": "为了孩子", "role": "Prep", "label": "目的・対象" },
+      { "text": "父母", "role": "S", "label": "主語" },
+      { "text": "什么都", "role": "Adv", "label": "全称強調" },
+      { "text": "愿意做", "role": "V", "label": "動詞句" }
+    ],
+    "explanation": "「为了」の目的語には人の名詞（「孩子」「家人」）を置くこともでき、「〜のために」という強い動機を示せます。",
+    "commonMistakes": [
+      { "wrong": "父母什么都愿意做为了孩子。", "reason": "「为了〜」をそのまま文末に置くことはできません（文末に置く場合は「……是为了〜」にします）。" }
+    ]
+  },
+  {
+    "id": "C-G18-04-03",
+    "lessonId": "L18",
+    "minLesson": 18,
+    "grammarIds": ["G18-04"],
+    "difficulty": 2,
+    "japanesePrompt": "遅刻しないために、彼は今朝6時に起きました。",
+    "targetGrammarHint": "否定の目的「为了不＋動詞」を使います。",
+    "hints": [
+      "「遅刻しないために」は「为了不迟到」です。",
+      "「今朝6時に起きた」は「今天早上六点就起床了」です。",
+      "「×不为了」としないように注意します。"
+    ],
+    "modelAnswer": "为了不迟到，他今天早上六点就起床了。",
+    "acceptableAnswers": [
+      "为了不迟到，他今天早上六点就起床了。",
+      "为了不迟到，他今早六点就起来了。"
+    ],
+    "pinyin": "Wèile bù chídào, tā jīntiān zǎoshang liù diǎn jiù qǐchuáng le.",
+    "structureBreakdown": [
+      { "text": "为了不迟到", "role": "Prep", "label": "否定目的" },
+      { "text": "他", "role": "S", "label": "主語" },
+      { "text": "今天早上六点", "role": "Time", "label": "時間" },
+      { "text": "就起床了", "role": "V", "label": "早い行動" }
+    ],
+    "explanation": "「〜しないように・〜しないために」という否定の目的は「为了不 + 動詞」で表します。早い時間の強調「就」とも相性が抜群です。",
+    "commonMistakes": [
+      { "wrong": "不为了迟到，他今天早上六点起床了。", "reason": "否定の「不」は「为了」の前ではなく後ろ（動詞の前）に置きます。" }
+    ]
+  },
+  {
+    "id": "C-G18-04-04",
+    "lessonId": "L18",
+    "minLesson": 18,
+    "grammarIds": ["G18-04"],
+    "difficulty": 2,
+    "japanesePrompt": "私たちが本を読むのは、より多くの知識を学び、自分の教養を高めるためです。",
+    "targetGrammarHint": "目的を述語位置で説明する「……是为了 + 目的」を使います。",
+    "hints": [
+      "主節：「我们读书（私たちは本を読む）」とします。",
+      "目的の説明：「是为了……（〜するためです）」で受けます。",
+      "「より多くの知識を学ぶ」は「学到更多的知识」、「教養を高める」は「提高自己的修养」です。"
+    ],
+    "modelAnswer": "我们读书，是为了学到更多的知识，提高自己的修养。",
+    "acceptableAnswers": [
+      "我们读书，是为了学到更多的知识，提高自己的修养。",
+      "读书是为了学到更多的知识并提高自己的修养。"
+    ],
+    "pinyin": "Wǒmen dúshū, shì wèile xuédào gèng duō de zhīshi, tígāo zìjǐ de xiūyǎng.",
+    "structureBreakdown": [
+      { "text": "我们读书", "role": "S", "label": "主題(行動)" },
+      { "text": "是为了", "role": "V", "label": "判断+目的" },
+      { "text": "学到更多的知识，提高自己的修养", "role": "O", "label": "目的内容" }
+    ],
+    "explanation": "行為の目的や意義を説明する際に非常に多く使われる「A，是为了 B」構文です。",
+    "commonMistakes": [
+      { "wrong": "我们读书为了学到更多的知识。", "reason": "文の後半に「为了〜」を置いて目的を説明するときは、原則「是为了〜」と「是」を補います。" }
+    ]
+  },
+  {
+    "id": "C-G18-04-05",
+    "lessonId": "L18",
+    "minLesson": 18,
+    "grammarIds": ["G18-04", "G18-02"],
+    "difficulty": 3,
+    "japanesePrompt": "見つけやすくするために、私はその資料を机の左上に置きました。",
+    "targetGrammarHint": "「为了……」と「把……放在……」を組み合わせます。",
+    "hints": [
+      "「見つけやすくするために」は「为了方便找到」または「为了容易找到」で表せます。",
+      "「その資料を机の左上に置いた」は「我把那份资料放在桌子左上角了」です。",
+      "目的節を先頭に置いて後半へつなげます。"
+    ],
+    "modelAnswer": "为了方便找到，我把那份资料放在桌子左上角了。",
+    "acceptableAnswers": [
+      "为了方便找到，我把那份资料放在桌子左上角了。",
+      "为了容易找到，我把资料放在桌子上了。"
+    ],
+    "pinyin": "Wèile fāngbiàn zhǎodào, wǒ bǎ nà fèn zīliào fàng zài zhuōzi zuǒshàngjiǎo le.",
+    "structureBreakdown": [
+      { "text": "为了方便找到", "role": "Prep", "label": "目的" },
+      { "text": "我", "role": "S", "label": "主語" },
+      { "text": "把那份资料", "role": "Prep", "label": "把+目的語" },
+      { "text": "放在桌子左上角了", "role": "V", "label": "定着位置" }
+    ],
+    "explanation": "L18の「为了……」と「動詞＋在」を組み合わせた実用的な複合表現です。",
+    "commonMistakes": [
+      { "wrong": "我把那份资料放在桌子左上角了为了方便找到。", "reason": "「为了……」は文頭か「是为了……」の形にします。" }
+    ]
+  }
+]

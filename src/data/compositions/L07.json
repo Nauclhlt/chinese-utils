@@ -1,0 +1,608 @@
+[
+  {
+    "id": "C-G07-01-01",
+    "lessonId": "L07",
+    "minLesson": 7,
+    "grammarIds": ["G07-01"],
+    "difficulty": 1,
+    "japanesePrompt": "この博物館はこんなに大きいのですね！",
+    "targetGrammarHint": "程度指示詞「这么」＋形容詞",
+    "hints": [
+      "枠組み：这个博物馆 + 这么 + 大！",
+      "語彙：博物館(bówùguǎn) / こんなに(zhème) / 大きい(dà)",
+      "「这么」の後ろに「很」を付けてはいけません。"
+    ],
+    "modelAnswer": "这个博物馆这么大！",
+    "acceptableAnswers": [
+      "这个博物馆这么大啊！"
+    ],
+    "pinyin": "Zhège bówùguǎn zhème dà!",
+    "structureBreakdown": [
+      { "text": "这个博物馆", "role": "S", "label": "主語" },
+      { "text": "这么", "role": "Adv", "label": "程度指示詞" },
+      { "text": "大", "role": "P", "label": "形容詞述語" }
+    ],
+    "explanation": "目の前にある大きな建物を見て感嘆するときは、近称の「这么」を形容詞「大」の前に置きます。",
+    "commonMistakes": [
+      { "wrong": "这个博物馆这么很大！", "reason": "「这么」の後ろに「很」を重ねてはいけません。" }
+    ]
+  },
+  {
+    "id": "C-G07-01-02",
+    "lessonId": "L07",
+    "minLesson": 7,
+    "grammarIds": ["G07-01"],
+    "difficulty": 2,
+    "japanesePrompt": "あんなに有名な場所は、一度見学に行ってみたいです。",
+    "targetGrammarHint": "「那么 + 形容詞 + 的 + 名詞」",
+    "hints": [
+      "枠組み：那么著名的地方 + 我 + 很想去参观一下。",
+      "語彙：あんなに(nàme) / 有名な(zhùmíng / yǒumíng) / 場所(dìfang)",
+      "形容詞と名詞「地方」の間には必ず「的」を入れます。"
+    ],
+    "modelAnswer": "那么著名的地方，我很想去参观一下。",
+    "acceptableAnswers": [
+      "那么有名的地方，我很想去参观一下。",
+      "我很想去参观一下那么著名的地方。"
+    ],
+    "pinyin": "Nàme zhùmíng de dìfang, wǒ hěn xiǎng qù cānguān yíxià.",
+    "structureBreakdown": [
+      { "text": "那么著名的地方", "role": "O", "label": "話題(前置目的語)" },
+      { "text": "我", "role": "S", "label": "主語" },
+      { "text": "很想", "role": "Aux", "label": "願望" },
+      { "text": "去参观一下", "role": "V", "label": "連動文＋一下" }
+    ],
+    "explanation": "「那么＋形容詞＋的＋名詞」で「あんなに〜な場所」という連体修飾句を作ります。",
+    "commonMistakes": [
+      { "wrong": "那么著名地方，我很想去参观一下。", "reason": "「那么著名」の後ろに連体修飾の「的」が必要です。" }
+    ]
+  },
+  {
+    "id": "C-G07-01-03",
+    "lessonId": "L07",
+    "minLesson": 7,
+    "grammarIds": ["G07-01", "G05-04"],
+    "difficulty": 2,
+    "japanesePrompt": "ここの夏は上海ほど（あんなに）暑くありません。",
+    "targetGrammarHint": "否定比較「没有……那么……」",
+    "hints": [
+      "枠組み：这里的夏天 + 没有 + 上海 + 那么 + 热。",
+      "語彙：夏(xiàtiān) / 暑い(rè) / それほど(nàme)",
+      "「没有」の文では「比」を使いません。"
+    ],
+    "modelAnswer": "这里的夏天没有上海那么热。",
+    "acceptableAnswers": [
+      "这儿的夏天没有上海那么热。",
+      "这里的夏天没有上海的夏天那么热。"
+    ],
+    "pinyin": "Zhèlǐ de xiàtiān méiyǒu Shànghǎi nàme rè.",
+    "structureBreakdown": [
+      { "text": "这里的夏天", "role": "S", "label": "比較対象A" },
+      { "text": "没有", "role": "Neg", "label": "否定比較" },
+      { "text": "上海", "role": "O", "label": "基準B" },
+      { "text": "那么", "role": "Adv", "label": "程度指示詞" },
+      { "text": "热", "role": "P", "label": "形容詞述語" }
+    ],
+    "explanation": "「A 没有 B 那么 + 形容詞」は「AはBほど〜ではない」を表す最も自然な否定比較の形です。",
+    "commonMistakes": [
+      { "wrong": "这里的夏天比上海没有那么热。", "reason": "否定比較では「比」を外して「没有」を使います。" }
+    ]
+  },
+  {
+    "id": "C-G07-01-04",
+    "lessonId": "L07",
+    "minLesson": 7,
+    "grammarIds": ["G07-01"],
+    "difficulty": 2,
+    "japanesePrompt": "彼はどうしてこんなに中国語を学ぶのが好きなのでしょうか。",
+    "targetGrammarHint": "「怎么 + 这么 + 喜欢……」",
+    "hints": [
+      "枠組み：他 + 怎么 + 这么 + 喜欢 + 学汉语？",
+      "語彙：どうして(zěnme) / こんなに(zhème) / 好き(xǐhuan)",
+      "「怎么（どうして）」と「这么（こんなに）」の2つを順番に並べます。"
+    ],
+    "modelAnswer": "他怎么这么喜欢学汉语？",
+    "acceptableAnswers": [
+      "他怎么这么喜欢学习汉语？"
+    ],
+    "pinyin": "Tā zěnme zhème xǐhuan xué Hànyǔ?",
+    "structureBreakdown": [
+      { "text": "他", "role": "S", "label": "主語" },
+      { "text": "怎么", "role": "Adv", "label": "疑問副詞(なぜ)" },
+      { "text": "这么", "role": "Adv", "label": "程度指示詞" },
+      { "text": "喜欢", "role": "V", "label": "心理動詞" },
+      { "text": "学汉语", "role": "O", "label": "動詞句目的語" }
+    ],
+    "explanation": "疑問詞「怎么（なぜ・どうして）」と程度指示詞「这么（こんなに）」は「怎么这么〜」の順で重ねて驚き・疑問を表せます。",
+    "commonMistakes": [
+      { "wrong": "他这么怎么喜欢学汉语？", "reason": "「怎么」が先、「这么」が後（怎么这么）の語順です。" }
+    ]
+  },
+  {
+    "id": "C-G07-01-05",
+    "lessonId": "L07",
+    "minLesson": 7,
+    "grammarIds": ["G07-01"],
+    "difficulty": 2,
+    "japanesePrompt": "外は今こんなに寒いので、熱いお茶を飲みましょう。",
+    "targetGrammarHint": "「这么」＋形容詞と提案の「吧」",
+    "hints": [
+      "枠組み：外边 + 现在 + 这么冷，我们 + 喝热茶 + 吧。",
+      "語彙：外(wàibiān) / 寒い(lěng) / 熱いお茶(rè chá)",
+      "「这么冷」に「很」を入れないよう注意しましょう。"
+    ],
+    "modelAnswer": "外边现在这么冷，我们喝热茶吧。",
+    "acceptableAnswers": [
+      "外边现在这么冷，我们喝一杯热茶吧。",
+      "现在外边这么冷，我们喝热茶吧。"
+    ],
+    "pinyin": "Wàibiān xiànzài zhème lěng, wǒmen hē rè chá ba.",
+    "structureBreakdown": [
+      { "text": "外边", "role": "Loc", "label": "主語(場所)" },
+      { "text": "现在", "role": "Time", "label": "時間詞" },
+      { "text": "这么冷", "role": "P", "label": "程度指示＋形容詞" },
+      { "text": "我们喝热茶吧", "role": "Other", "label": "提案の節" }
+    ],
+    "explanation": "「外边现在这么冷」で現状を感嘆しながら描写し、続けて「喝热茶吧」と提案しています。",
+    "commonMistakes": [
+      { "wrong": "外边现在这么很冷。", "reason": "「这么」と「很」を並べることはできません。" }
+    ]
+  },
+
+  {
+    "id": "C-G07-02-01",
+    "lessonId": "L07",
+    "minLesson": 7,
+    "grammarIds": ["G07-02"],
+    "difficulty": 1,
+    "japanesePrompt": "私は今、熱いコーヒーを1杯飲みたいです。",
+    "targetGrammarHint": "願望の「想」",
+    "hints": [
+      "枠組み：我 + 现在 + 想 + 喝 + 一杯热咖啡。",
+      "語彙：〜したい(xiǎng) / 1杯(yì bēi) / 熱いコーヒー(rè kāfēi)",
+      "「想」は動詞「喝」の前に置きます。"
+    ],
+    "modelAnswer": "我现在想喝一杯热咖啡。",
+    "acceptableAnswers": [
+      "现在我想喝一杯热咖啡。",
+      "我现在很想喝一杯热咖啡。"
+    ],
+    "pinyin": "Wǒ xiànzài xiǎng hē yì bēi rè kāfēi.",
+    "structureBreakdown": [
+      { "text": "我", "role": "S", "label": "主語" },
+      { "text": "现在", "role": "Time", "label": "時間詞" },
+      { "text": "想", "role": "Aux", "label": "助動詞(願望)" },
+      { "text": "喝", "role": "V", "label": "動詞" },
+      { "text": "一杯热咖啡", "role": "O", "label": "目的語" }
+    ],
+    "explanation": "「〜したい」という気持ちを表すときは「想＋動詞」を使います。",
+    "commonMistakes": [
+      { "wrong": "我现在喝想一杯热咖啡。", "reason": "助動詞「想」は本動詞「喝」の前に置きます。" }
+    ]
+  },
+  {
+    "id": "C-G07-02-02",
+    "lessonId": "L07",
+    "minLesson": 7,
+    "grammarIds": ["G07-02"],
+    "difficulty": 1,
+    "japanesePrompt": "夏休み、あなたはどこへ旅行するつもりですか。",
+    "targetGrammarHint": "計画・予定を尋ねる「打算」",
+    "hints": [
+      "枠組み：暑假 + 你 + 打算 + 去哪儿 + 旅行？",
+      "語彙：夏休み(shǔjià) / 〜するつもり(dǎsuàn) / どこ(nǎr) / 旅行(lǚxíng)",
+      "疑問詞「哪儿」があるため文末に「吗」は付けません。"
+    ],
+    "modelAnswer": "暑假你打算去哪儿旅行？",
+    "acceptableAnswers": [
+      "你暑假打算去哪儿旅行？",
+      "暑假你打算去哪里旅行？"
+    ],
+    "pinyin": "Shǔjià nǐ dǎsuàn qù nǎr lǚxíng?",
+    "structureBreakdown": [
+      { "text": "暑假", "role": "Time", "label": "時間詞" },
+      { "text": "你", "role": "S", "label": "主語" },
+      { "text": "打算", "role": "Aux", "label": "計画動詞" },
+      { "text": "去哪儿旅行", "role": "V", "label": "連動文目的語" }
+    ],
+    "explanation": "具体的な予定を尋ねるときは「打算」が最も自然です。",
+    "commonMistakes": [
+      { "wrong": "暑假你打算去哪儿旅行吗？", "reason": "疑問詞「哪儿」を含む文に「吗」を付けてはいけません。" }
+    ]
+  },
+  {
+    "id": "C-G07-02-03",
+    "lessonId": "L07",
+    "minLesson": 7,
+    "grammarIds": ["G07-02"],
+    "difficulty": 2,
+    "japanesePrompt": "私は明日博物館へ行きたいのですが、時間がありません。",
+    "targetGrammarHint": "「很想……，可是……」",
+    "hints": [
+      "枠組み：我 + 明天 + 很想 + 去博物馆，可是 + 没有时间。",
+      "語彙：しかし(kěshì) / 時間(shíjiān)",
+      "「想」の前に「很」を置いて強調できます。否定は「没有时间」です。"
+    ],
+    "modelAnswer": "我明天很想去博物馆，可是没有时间。",
+    "acceptableAnswers": [
+      "明天我很想去博物馆，可是没有时间。",
+      "我明天想去博物馆，可是没有时间。"
+    ],
+    "pinyin": "Wǒ míngtiān hěn xiǎng qù bówùguǎn, kěshì méiyǒu shíjiān.",
+    "structureBreakdown": [
+      { "text": "我", "role": "S", "label": "主語" },
+      { "text": "明天", "role": "Time", "label": "時間詞" },
+      { "text": "很想", "role": "Aux", "label": "程度＋願望" },
+      { "text": "去博物馆", "role": "V", "label": "動詞句" },
+      { "text": "可是", "role": "Conj", "label": "逆接接続詞" },
+      { "text": "没有时间", "role": "V", "label": "否定述語" }
+    ],
+    "explanation": "前半で願望「很想去」、接続詞「可是」でつなぎ、後半で「有」の否定「没有」を使います。",
+    "commonMistakes": [
+      { "wrong": "可是不有时间。", "reason": "「有」の否定は必ず「没有」を使います（「不有」は不可）。" }
+    ]
+  },
+  {
+    "id": "C-G07-02-04",
+    "lessonId": "L07",
+    "minLesson": 7,
+    "grammarIds": ["G07-02"],
+    "difficulty": 2,
+    "japanesePrompt": "来週私たちは上海へ行きますが、あなたは一緒に行きますか。（反復疑問文「要不要」で）",
+    "targetGrammarHint": "反復疑問文「要不要……？」",
+    "hints": [
+      "枠組み：下个星期 + 我们 + 去上海，你 + 要不要 + 跟我们一起去？",
+      "語彙：来週(xià ge xīngqī) / 〜と一緒に(gēn ... yìqǐ)",
+      "「要不要」の反復疑問文を使うので文末に「吗」は不要です。"
+    ],
+    "modelAnswer": "下个星期我们去上海，你要不要跟我们一起去？",
+    "acceptableAnswers": [
+      "下个星期我们去上海，你要不要和我们一起去？",
+      "下个星期我们要去上海，你要不要一起去？"
+    ],
+    "pinyin": "Xià ge xīngqī wǒmen qù Shànghǎi, nǐ yào bu yào gēn wǒmen yìqǐ qù?",
+    "structureBreakdown": [
+      { "text": "下个星期我们去上海", "role": "Other", "label": "前提の節" },
+      { "text": "你", "role": "S", "label": "主語" },
+      { "text": "要不要", "role": "Aux", "label": "反復疑問助動詞" },
+      { "text": "跟我们一起去", "role": "V", "label": "動詞句" }
+    ],
+    "explanation": "「要不要……？」は相手に同行や参加の意思があるかどうかを尋ねる実用的な表現です。",
+    "commonMistakes": [
+      { "wrong": "你要不要跟我们一起去吗？", "reason": "反復疑問文に「吗」を重ねてはいけません。" }
+    ]
+  },
+  {
+    "id": "C-G07-02-05",
+    "lessonId": "L07",
+    "minLesson": 7,
+    "grammarIds": ["G07-02"],
+    "difficulty": 2,
+    "japanesePrompt": "私は疲れたので、外へ買い物に行きたくありません。",
+    "targetGrammarHint": "願望の否定「不想」",
+    "hints": [
+      "枠組み：我 + 累了，不想 + 去外边买东西。",
+      "語彙：疲れた(lèi le) / 〜したくない(bù xiǎng) / 買い物をする(mǎi dōngxi)",
+      "「行きたくない」は「不要去」ではなく「不想去」を使います。"
+    ],
+    "modelAnswer": "我累了，不想去买东西。",
+    "acceptableAnswers": [
+      "我累了，不想出去买东西。",
+      "我累了，不想去外边买东西。"
+    ],
+    "pinyin": "Wǒ lèi le, bù xiǎng qù mǎi dōngxi.",
+    "structureBreakdown": [
+      { "text": "我累了", "role": "Other", "label": "理由(変化)" },
+      { "text": "不想", "role": "Neg", "label": "願望の否定" },
+      { "text": "去买东西", "role": "V", "label": "連動文" }
+    ],
+    "explanation": "自分の願望の否定には必ず「不想」を使います。",
+    "commonMistakes": [
+      { "wrong": "我累了，不要去买东西。", "reason": "「不要去」は禁止（行くな）の意味になるため、自分の意思の否定には「不想去」を使います。" }
+    ]
+  },
+
+  {
+    "id": "C-G07-03-01",
+    "lessonId": "L07",
+    "minLesson": 7,
+    "grammarIds": ["G07-03"],
+    "difficulty": 1,
+    "japanesePrompt": "ちょっと待ってください、私も一緒に行きます。",
+    "targetGrammarHint": "「请等一下」",
+    "hints": [
+      "枠組み：请 + 等一下，我 + 也 + 一起去。",
+      "語彙：待つ(děng) / ちょっと(yīxià) / 〜も(yě)",
+      "「一下」は動詞「等」の直後に置きます。"
+    ],
+    "modelAnswer": "请等一下，我也一起去。",
+    "acceptableAnswers": [
+      "等一下，我也一起去。",
+      "请等我一下，我也一起去。"
+    ],
+    "pinyin": "Qǐng děng yíxià, wǒ yě yìqǐ qù.",
+    "structureBreakdown": [
+      { "text": "请", "role": "V", "label": "敬語動詞" },
+      { "text": "等", "role": "V", "label": "動詞" },
+      { "text": "一下", "role": "C", "label": "動量詞" },
+      { "text": "我也一起去", "role": "Other", "label": "後続節" }
+    ],
+    "explanation": "「请等一下」は「ちょっと待ってください」の決まり文句です。",
+    "commonMistakes": [
+      { "wrong": "请一下等，我也一起去。", "reason": "「一下」を動詞の前に置くことはできません。" }
+    ]
+  },
+  {
+    "id": "C-G07-03-02",
+    "lessonId": "L07",
+    "minLesson": 7,
+    "grammarIds": ["G07-03"],
+    "difficulty": 1,
+    "japanesePrompt": "私は私の中国の友達をちょっと紹介します。",
+    "targetGrammarHint": "「介绍一下 + 目的語」",
+    "hints": [
+      "枠組み：我 + 介绍一下 + 我的中国朋友。",
+      "語彙：紹介する(jièshào) / 友達(péngyou)",
+      "目的語があるときは「动词 + 一下 + 目的语」の語順にします。"
+    ],
+    "modelAnswer": "我介绍一下我的中国朋友。",
+    "acceptableAnswers": [
+      "我来介绍一下我的中国朋友。"
+    ],
+    "pinyin": "Wǒ jièshào yíxià wǒ de Zhōngguó péngyou.",
+    "structureBreakdown": [
+      { "text": "我", "role": "S", "label": "主語" },
+      { "text": "介绍", "role": "V", "label": "動詞" },
+      { "text": "一下", "role": "C", "label": "動量詞" },
+      { "text": "我的中国朋友", "role": "O", "label": "目的語" }
+    ],
+    "explanation": "「介绍一下」の直後に目的語「我的中国朋友」を置きます。",
+    "commonMistakes": [
+      { "wrong": "我介绍我的中国朋友一下。", "reason": "普通名詞の目的語は「一下」の後ろに置きます。" }
+    ]
+  },
+  {
+    "id": "C-G07-03-03",
+    "lessonId": "L07",
+    "minLesson": 7,
+    "grammarIds": ["G07-03"],
+    "difficulty": 2,
+    "japanesePrompt": "私たちは今、上海博物館をちょっと見学したいです。",
+    "targetGrammarHint": "「想 + 动词 + 一下 + 目的语」",
+    "hints": [
+      "枠組み：我们 + 现在 + 想 + 参观一下 + 上海博物馆。",
+      "語彙：見学する(cānguān) / 上海博物館(Shànghǎi Bówùguǎn)",
+      "「一下」は動詞「参观」の直後・目的語の前に置きます。"
+    ],
+    "modelAnswer": "我们现在想参观一下上海博物馆。",
+    "acceptableAnswers": [
+      "现在我们想参观一下上海博物馆。",
+      "我们现在想去参观一下上海博物馆。"
+    ],
+    "pinyin": "Wǒmen xiànzài xiǎng cānguān yíxià Shànghǎi Bówùguǎn.",
+    "structureBreakdown": [
+      { "text": "我们", "role": "S", "label": "主語" },
+      { "text": "现在", "role": "Time", "label": "時間詞" },
+      { "text": "想", "role": "Aux", "label": "願望" },
+      { "text": "参观", "role": "V", "label": "動詞" },
+      { "text": "一下", "role": "C", "label": "動量詞" },
+      { "text": "上海博物馆", "role": "O", "label": "目的語" }
+    ],
+    "explanation": "「想」で願望を示し、「参观一下」で軽い気持ちで見学してみたいというニュアンスを出します。",
+    "commonMistakes": [
+      { "wrong": "我们现在想一下参观上海博物馆。", "reason": "「一下」は「想」ではなく本動詞「参观」の後ろに置きます。" }
+    ]
+  },
+  {
+    "id": "C-G07-03-04",
+    "lessonId": "L07",
+    "minLesson": 7,
+    "grammarIds": ["G07-03"],
+    "difficulty": 2,
+    "japanesePrompt": "あなたはここでちょっと休んでください。",
+    "targetGrammarHint": "「在这儿 + 休息一下 + 吧」",
+    "hints": [
+      "枠組み：你 + 在这儿 + 休息一下 + 吧。",
+      "語彙：休む(xiūxi) / ここ(zhèr)",
+      "場所「在这儿」を動詞「休息」の前に、語気助詞「吧」を文末に置きます。"
+    ],
+    "modelAnswer": "你在这儿休息一下吧。",
+    "acceptableAnswers": [
+      "你在这里休息一下吧。",
+      "请在这儿休息一下。"
+    ],
+    "pinyin": "Nǐ zài zhèr xiūxi yíxià ba.",
+    "structureBreakdown": [
+      { "text": "你", "role": "S", "label": "主語" },
+      { "text": "在这儿", "role": "Prep", "label": "場所(介詞句)" },
+      { "text": "休息", "role": "V", "label": "動詞" },
+      { "text": "一下", "role": "C", "label": "動量詞" },
+      { "text": "吧", "role": "P", "label": "語気助詞" }
+    ],
+    "explanation": "「休息一下」に文末の「吧」を添えることで、相手を気遣うとても優しい表現になります。",
+    "commonMistakes": [
+      { "wrong": "你在这儿休息一点儿吧。", "reason": "動作が短時間であることを表すときは「一点儿」ではなく「一下」を使います。" }
+    ]
+  },
+  {
+    "id": "C-G07-03-05",
+    "lessonId": "L07",
+    "minLesson": 7,
+    "grammarIds": ["G07-03"],
+    "difficulty": 2,
+    "japanesePrompt": "先生、この漢字をちょっと説明していただけませんか。（「请您……一下」で）",
+    "targetGrammarHint": "「请您 + 动词 + 一下 + 目的语」",
+    "hints": [
+      "枠組み：老师，请您 + 说明一下 + 这个汉字。",
+      "語彙：説明する(shuōmíng) / この漢字(zhège Hànzì)",
+      "敬称「您」を使い、動詞「说明」の直後に「一下」を置きます。"
+    ],
+    "modelAnswer": "老师，请您说明一下这个汉字。",
+    "acceptableAnswers": [
+      "老师，请您说明一下这个字。"
+    ],
+    "pinyin": "Lǎoshī, qǐng nín shuōmíng yíxià zhège Hànzì.",
+    "structureBreakdown": [
+      { "text": "老师", "role": "Other", "label": "呼びかけ" },
+      { "text": "请您", "role": "V", "label": "丁寧な依頼" },
+      { "text": "说明", "role": "V", "label": "動詞" },
+      { "text": "一下", "role": "C", "label": "動量詞" },
+      { "text": "这个汉字", "role": "O", "label": "目的語" }
+    ],
+    "explanation": "「请您 + 動詞 + 一下」は目上の人に何かを頼むときに負担感を和らげる便利な表現です。",
+    "commonMistakes": [
+      { "wrong": "老师，请您说明这个汉字一下。", "reason": "目的語「这个汉字」は「一下」の後ろに置きます。" }
+    ]
+  },
+
+  {
+    "id": "C-G07-04-01",
+    "lessonId": "L07",
+    "minLesson": 7,
+    "grammarIds": ["G07-04"],
+    "difficulty": 1,
+    "japanesePrompt": "昨日、私は中国語の辞典を1冊買いました。",
+    "targetGrammarHint": "完了の「了」＋数量詞＋名詞",
+    "hints": [
+      "枠組み：昨天 + 我 + 买了 + 一本 + 汉语词典。",
+      "語彙：昨日(zuótiān) / 買う(mǎi) / 冊(běn) / 中国語辞典(Hànyǔ cídiǎn)",
+      "完了の「了」は動詞「买」の直後に置きます。"
+    ],
+    "modelAnswer": "昨天我买了一本汉语词典。",
+    "acceptableAnswers": [
+      "我昨天买了一本汉语词典。"
+    ],
+    "pinyin": "Zuótiān wǒ mǎi le yì běn Hànyǔ cídiǎn.",
+    "structureBreakdown": [
+      { "text": "昨天", "role": "Time", "label": "時間詞" },
+      { "text": "我", "role": "S", "label": "主語" },
+      { "text": "买", "role": "V", "label": "動詞" },
+      { "text": "了", "role": "Aux", "label": "完了の了" },
+      { "text": "一本汉语词典", "role": "O", "label": "数量詞＋目的語" }
+    ],
+    "explanation": "目的語に数量詞「一本」があるため、「买了＋一本汉语词典」の形で文が自然に完結します。",
+    "commonMistakes": [
+      { "wrong": "昨天我买一本汉语词典了。", "reason": "具体的な数量を完了した文では「买了＋数量＋名詞」の形が標準です。" }
+    ]
+  },
+  {
+    "id": "C-G07-04-02",
+    "lessonId": "L07",
+    "minLesson": 7,
+    "grammarIds": ["G07-04"],
+    "difficulty": 2,
+    "japanesePrompt": "昨日、私は図書館へは行きましたが、書店へは行きませんでした。",
+    "targetGrammarHint": "完了の肯定「去了」と否定「没去」",
+    "hints": [
+      "枠組み：昨天 + 我 + 去了 + 图书馆，没去 + 书店。",
+      "語彙：図書館(túshūguǎn) / 書店(shūdiàn)",
+      "後半の否定では「没」を使い、「了」を必ず消します。"
+    ],
+    "modelAnswer": "昨天我去了图书馆，没去书店。",
+    "acceptableAnswers": [
+      "昨天我去了图书馆，没有去书店。",
+      "我昨天去了图书馆，没去书店。"
+    ],
+    "pinyin": "Zuótiān wǒ qù le túshūguǎn, méi qù shūdiàn.",
+    "structureBreakdown": [
+      { "text": "昨天", "role": "Time", "label": "時間詞" },
+      { "text": "我", "role": "S", "label": "主語" },
+      { "text": "去了图书馆", "role": "V", "label": "完了の肯定" },
+      { "text": "没去书店", "role": "Neg", "label": "完了の否定(了なし)" }
+    ],
+    "explanation": "肯定節では「去了」、否定節では「没去」と「了」を取り除く対比が重要です。",
+    "commonMistakes": [
+      { "wrong": "昨天我去了图书馆，没去了书店。", "reason": "「没」で否定するときに「了」を残すことはできません。" }
+    ]
+  },
+  {
+    "id": "C-G07-04-03",
+    "lessonId": "L07",
+    "minLesson": 7,
+    "grammarIds": ["G07-04"],
+    "difficulty": 1,
+    "japanesePrompt": "外は雨が降ってきました、私たちは帰りましょう。",
+    "targetGrammarHint": "変化の「了」（下雨了）",
+    "hints": [
+      "枠組み：外边 + 下雨了，我们 + 回家 + 吧。",
+      "語彙：外(wàibiān) / 雨が降る(xiàyǔ) / 家に帰る(huí jiā)",
+      "「雨が降ってきた」という新しい状況の発生を文末の「了」で表します。"
+    ],
+    "modelAnswer": "外边下雨了，我们回家吧。",
+    "acceptableAnswers": [
+      "外边下雨了，我们回去吧。"
+    ],
+    "pinyin": "Wàibiān xiàyǔ le, wǒmen huí jiā ba.",
+    "structureBreakdown": [
+      { "text": "外边", "role": "Loc", "label": "場所主語" },
+      { "text": "下雨", "role": "V", "label": "離合動詞" },
+      { "text": "了", "role": "P", "label": "変化の了" },
+      { "text": "我们回家吧", "role": "Other", "label": "提案の節" }
+    ],
+    "explanation": "離合動詞「下雨」の後に文末の「了」を置くと、「雨が降り始めた」という変化のニュアンスになります。",
+    "commonMistakes": [
+      { "wrong": "外边了下雨。", "reason": "「了」を動詞の前に置くことはできません。" }
+    ]
+  },
+  {
+    "id": "C-G07-04-04",
+    "lessonId": "L07",
+    "minLesson": 7,
+    "grammarIds": ["G07-04"],
+    "difficulty": 2,
+    "japanesePrompt": "天気が寒くなりました、体（体調）に気をつけてくださいね。",
+    "targetGrammarHint": "形容詞＋変化の「了」（天冷了）",
+    "hints": [
+      "枠組み：天 + 冷 + 了，注意身体。",
+      "語彙：天気(tiān / tiānqì) / 寒い(lěng) / 気をつける(zhùyì) / 体(shēntǐ)",
+      "変化の「了」を伴う「天冷了」では「很」を付けません。"
+    ],
+    "modelAnswer": "天冷了，注意身体。",
+    "acceptableAnswers": [
+      "天气冷了，注意身体。",
+      "天气冷了，请注意身体。",
+      "天冷了，你要注意身体。"
+    ],
+    "pinyin": "Tiān lěng le, zhùyì shēntǐ.",
+    "structureBreakdown": [
+      { "text": "天", "role": "S", "label": "主語" },
+      { "text": "冷", "role": "P", "label": "形容詞述語" },
+      { "text": "了", "role": "P", "label": "変化の了" },
+      { "text": "注意身体", "role": "V", "label": "忠告の節" }
+    ],
+    "explanation": "「天冷了」は「（今まで暖かかったのに）寒くなった」という気候の変化を表します。",
+    "commonMistakes": [
+      { "wrong": "天很冷了。", "reason": "単純な変化を表すときは「很」を入れずに「天冷了」と言います。" }
+    ]
+  },
+  {
+    "id": "C-G07-04-05",
+    "lessonId": "L07",
+    "minLesson": 7,
+    "grammarIds": ["G07-04"],
+    "difficulty": 2,
+    "japanesePrompt": "夕食を食べ終えたら、すぐ公園へ散歩に行きましょう。",
+    "targetGrammarHint": "先行完了の「了」（V1 + 了 + O1，就……）",
+    "hints": [
+      "枠組み：吃了 + 晚饭，我们 + 就 + 去公园散步 + 吧。",
+      "語彙：夕食(wǎnfàn) / すぐ(jiù) / 散歩する(sànbù)",
+      "未来のことであっても「食べ終わったら」の完了には「吃了」を使います。"
+    ],
+    "modelAnswer": "吃了晚饭，我们就去公园散步吧。",
+    "acceptableAnswers": [
+      "吃了晚饭就去公园散步吧。"
+    ],
+    "pinyin": "Chī le wǎnfàn, wǒmen jiù qù gōngyuán sànbù ba.",
+    "structureBreakdown": [
+      { "text": "吃了晚饭", "role": "V", "label": "先行完了節" },
+      { "text": "我们", "role": "S", "label": "主語" },
+      { "text": "就", "role": "Adv", "label": "副詞" },
+      { "text": "去公园散步", "role": "V", "label": "連動文" },
+      { "text": "吧", "role": "P", "label": "語気助詞" }
+    ],
+    "explanation": "「V1 + 了 + O1，就 + V2」は「〜したらすぐ……する」という日常会話で非常に重要なパターンです。",
+    "commonMistakes": [
+      { "wrong": "吃晚饭了，我们就去公园散步吧。", "reason": "後ろの節に続く先行動作を明示する場合は、動詞の直後に「了」を置いて「吃了晚饭」とします。" }
+    ]
+  }
+]

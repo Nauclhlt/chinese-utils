@@ -1,0 +1,434 @@
+[
+  {
+    "id": "V22-001",
+    "hanzi": "云彩",
+    "pinyin": "yúncai",
+    "tones": [2, 5],
+    "meaningJa": "雲",
+    "pos": "名詞",
+    "usage": "空に浮かぶ雲をやや口語的・情景豊かに表す語。「彩」は軽声。量詞は「朵 (duǒ)」または「片 (piàn)」。",
+    "example": {
+      "hanzi": "天上的云彩一会儿变成白马，一会儿变成小山。",
+      "pinyin": "Tiānshàng de yúncai yīhuìr biànchéng báimǎ, yīhuìr biànchéng xiǎoshān.",
+      "ja": "空の雲は白馬になったかと思えば、小山になったりします。"
+    },
+    "lessonId": "L22",
+    "minLesson": 22,
+    "source": "textbook-scope",
+    "grammarIds": ["G22-02"],
+    "measureWord": "朵 / 片",
+    "synonyms": ["云"]
+  },
+  {
+    "id": "V22-002",
+    "hanzi": "边上",
+    "pinyin": "biānshang",
+    "tones": [1, 5],
+    "meaningJa": "そば・ほとり・縁（ふち）",
+    "pos": "方位詞",
+    "usage": "「湖边上」「路边上」「桌子边上」のように何かのすぐ近く・端を表す。「上」は軽声。",
+    "example": {
+      "hanzi": "河边上有几位老人正在一边聊天一边下棋。",
+      "pinyin": "Hé biānshang yǒu jǐ wèi lǎorén zhèngzài yìbiān liáotiān yìbiān xiàqí.",
+      "ja": "川のほとりでは数人のお年寄りがおしゃべりをしながら将棋を指しています。"
+    },
+    "lessonId": "L22",
+    "minLesson": 22,
+    "source": "textbook-scope",
+    "grammarIds": ["G22-01"],
+    "synonyms": ["旁边"]
+  },
+  {
+    "id": "V22-003",
+    "hanzi": "似乎",
+    "pinyin": "sìhū",
+    "tones": [4, 1],
+    "meaningJa": "まるで〜のようだ・〜らしい",
+    "pos": "副詞",
+    "usage": "話し手の推量や主観的な印象を表す。「好像」よりやや書き言葉的で、主語の前後どちらにも置ける。",
+    "example": {
+      "hanzi": "听到这个好消息，她似乎一下子有了精神。",
+      "pinyin": "Tīngdào zhège hǎo xiāoxi, tā sìhū yíxiàzi yǒu le jīngshen.",
+      "ja": "この良い知らせを聞いて、彼女はまるで一気に元気が出たかのようでした。"
+    },
+    "lessonId": "L22",
+    "minLesson": 22,
+    "source": "textbook-scope",
+    "grammarIds": ["G15-01", "G22-01"],
+    "synonyms": ["好像"]
+  },
+  {
+    "id": "V22-004",
+    "hanzi": "忽然",
+    "pinyin": "hūrán",
+    "tones": [1, 2],
+    "meaningJa": "突然・急に・ふと",
+    "pos": "副詞",
+    "usage": "予期しない出来事が急に起こることを表す。主語の後ろまたは文頭に置ける。",
+    "example": {
+      "hanzi": "刚出门不久，天空中忽然飘起了小雨。",
+      "pinyin": "Gāng chūmén bùjiǔ, tiānkōng zhōng hūrán piāo qǐ le xiǎoyǔ.",
+      "ja": "家を出たばかりなのに、空から急に小雨が降ってきました。"
+    },
+    "lessonId": "L22",
+    "minLesson": 22,
+    "source": "textbook-scope",
+    "grammarIds": ["G22-01"],
+    "synonyms": ["突然"]
+  },
+  {
+    "id": "V22-005",
+    "hanzi": "听到",
+    "pinyin": "tīngdào",
+    "tones": [1, 4],
+    "meaningJa": "聞こえる・耳にする",
+    "pos": "動詞（結果補語）",
+    "usage": "「听」に結果補語「到」が付き、音や声が耳に届いて聞き取れることを表す。",
+    "example": {
+      "hanzi": "我在走廊里听到有人在练习唱中文歌。",
+      "pinyin": "Wǒ zài zǒuláng lǐ tīngdào yǒu rén zài liànxí chàng Zhōngwén gē.",
+      "ja": "私は廊下で誰かが中国語の歌を練習しているのを耳にしました。"
+    },
+    "lessonId": "L22",
+    "minLesson": 22,
+    "source": "textbook-scope",
+    "grammarIds": ["G09-01", "G22-01"]
+  },
+  {
+    "id": "V22-006",
+    "hanzi": "背后",
+    "pinyin": "bèihòu",
+    "tones": [4, 4],
+    "meaningJa": "背後・後ろ側／裏で",
+    "pos": "名詞・方位詞",
+    "usage": "人体の背中側や、物事の裏面・陰を表す。「在背后」「从背后」。",
+    "example": {
+      "hanzi": "我刚走进大厅，就感到背后有人轻轻拍了我一下。",
+      "pinyin": "Wǒ gāng zǒujìn dàtīng, jiù gǎndào bèihòu yǒu rén qīngqīng pāi le wǒ yíxià.",
+      "ja": "ホールに入った途端、後ろから誰かが軽く私の肩を叩くのを感じました。"
+    },
+    "lessonId": "L22",
+    "minLesson": 22,
+    "source": "textbook-scope",
+    "grammarIds": ["G22-01"],
+    "antonyms": ["面前"]
+  },
+  {
+    "id": "V22-007",
+    "hanzi": "回头",
+    "pinyin": "huítóu",
+    "tones": [2, 2],
+    "meaningJa": "振り返る／あとで",
+    "pos": "動詞・副詞",
+    "usage": "物理的に後ろを振り返る意味のほか、口語で「またあとで（回头见）」の意味にも使う。",
+    "example": {
+      "hanzi": "听到脚步声，她回头一看，原来是老同学。",
+      "pinyin": "Tīngdào jiǎobùshēng, tā huítóu yí kàn, yuánlái shì lǎo tóngxué.",
+      "ja": "足音を聞いて彼女が振り返って見ると、なんと昔の同級生でした。"
+    },
+    "lessonId": "L22",
+    "minLesson": 22,
+    "source": "textbook-scope",
+    "grammarIds": ["G22-01", "G22-02"]
+  },
+  {
+    "id": "V22-008",
+    "hanzi": "犹豫",
+    "pinyin": "yóuyù",
+    "tones": [2, 4],
+    "meaningJa": "ためらう・迷う・躊躇する",
+    "pos": "動詞・形容詞",
+    "usage": "決断がつかずぐずぐず迷うこと。「毫不犹豫（少しもためらわず）」「犹豫不决（優柔不断で決められない）」。",
+    "example": {
+      "hanzi": "面对这个难得的机会，他一会儿想报名，一会儿又有点儿犹豫。",
+      "pinyin": "Miànduì zhège nándé de jīhuì, tā yìhuìr xiǎng bàomíng, yìhuìr yòu yǒudiǎnr yóuyù.",
+      "ja": "このめったにない機会を前にして、彼は申し込もうかと思う一方、少し迷ったりもしました。"
+    },
+    "lessonId": "L22",
+    "minLesson": 22,
+    "source": "textbook-scope",
+    "grammarIds": ["G22-02"]
+  },
+  {
+    "id": "V22-009",
+    "hanzi": "点头",
+    "pinyin": "diǎntóu",
+    "tones": [3, 2],
+    "meaningJa": "うなずく",
+    "pos": "離合動詞",
+    "usage": "同意や理解を示して首を縦に振る。「点了点头（うなずいた）」「向我点头微笑」。",
+    "example": {
+      "hanzi": "听完我的想法，老师笑着点了点头。",
+      "pinyin": "Tīngwán wǒ de xiǎngfǎ, lǎoshī xiào zhe diǎn le diǎntóu.",
+      "ja": "私の考えを聞き終えると、先生は微笑みながらうなずきました。"
+    },
+    "lessonId": "L22",
+    "minLesson": 22,
+    "source": "textbook-scope",
+    "grammarIds": ["G10-01"],
+    "antonyms": ["摇头"]
+  },
+  {
+    "id": "V22-010",
+    "hanzi": "奋力",
+    "pinyin": "fènlì",
+    "tones": [4, 4],
+    "meaningJa": "力を振り絞って・懸命に",
+    "pos": "副詞",
+    "usage": "「奋力 + 動詞（向前・攀登・拼搏など）」の形で、全力で奮闘する様子を表す。",
+    "example": {
+      "hanzi": "运动员们奋力冲向终点，赢得了全场的掌声。",
+      "pinyin": "Yùndòngyuánmen fènlì chōngxiàng zhōngdiǎn, yíngdé le quánchǎng de zhǎngshēng.",
+      "ja": "選手たちは力を振り絞ってゴールへ駆け抜け、会場全体の拍手を勝ち取りました。"
+    },
+    "lessonId": "L22",
+    "minLesson": 22,
+    "source": "textbook-scope",
+    "grammarIds": ["G22-03"]
+  },
+  {
+    "id": "V22-011",
+    "hanzi": "留",
+    "pinyin": "liú",
+    "tones": [2],
+    "meaningJa": "残す・とどまる・引き留める",
+    "pos": "動詞",
+    "usage": "「留下纪念（記念を残す）」「留在家里（家にとどまる）」「留电话号码（電話番号を残す）」。",
+    "example": {
+      "hanzi": "大家在风景最美的地方合影留念。",
+      "pinyin": "Dàjiā zài fēngjǐng zuì měi de dìfang héyǐng liúniàn.",
+      "ja": "みんなは景色の一番美しい場所で記念写真を撮りました。"
+    },
+    "lessonId": "L22",
+    "minLesson": 22,
+    "source": "textbook-scope",
+    "grammarIds": ["G22-01"],
+    "related": ["纪念"]
+  },
+  {
+    "id": "V22-012",
+    "hanzi": "纪念",
+    "pinyin": "jìniàn",
+    "tones": [4, 4],
+    "meaningJa": "記念する／記念・思い出の品",
+    "pos": "動詞・名詞",
+    "usage": "「作为纪念（記念として）」「留个纪念（記念に残す）」「纪念品（記念品）」。",
+    "example": {
+      "hanzi": "这张合影是我留学期间最珍贵的纪念。",
+      "pinyin": "Zhè zhāng héyǐng shì wǒ liúxué qījiān zuì zhēnguì de jìniàn.",
+      "ja": "この集合写真は私の留学期間中で最も大切な記念です。"
+    },
+    "lessonId": "L22",
+    "minLesson": 22,
+    "source": "textbook-scope",
+    "grammarIds": ["G22-01"],
+    "related": ["留"]
+  },
+  {
+    "id": "V22-013",
+    "hanzi": "鼓舞",
+    "pinyin": "gǔwǔ",
+    "tones": [3, 3],
+    "meaningJa": "鼓舞する・奮い立たせる／励まし",
+    "pos": "動詞・名詞",
+    "usage": "精神を奮い立たせて勇気づけること。「受到鼓舞（鼓舞される）」「巨大的鼓舞」。第3声連続のため発音上は gúwǔ。",
+    "example": {
+      "hanzi": "要不是父母的鼓舞，我当时很难坚持下去。",
+      "pinyin": "Yàobushì fùmǔ de gǔwǔ, wǒ dāngshí hěn nán jiānchí xiàqù.",
+      "ja": "もし両親の励ましがなかったら、私は当時やり続けるのが難しかったでしょう。"
+    },
+    "lessonId": "L22",
+    "minLesson": 22,
+    "source": "textbook-scope",
+    "grammarIds": ["G22-03"],
+    "synonyms": ["鼓励"]
+  },
+  {
+    "id": "V22-014",
+    "hanzi": "勇气",
+    "pinyin": "yǒngqì",
+    "tones": [3, 4],
+    "meaningJa": "勇気",
+    "pos": "名詞",
+    "usage": "「鼓起勇气（勇気を奮い起こす）」「有勇气（勇気がある）」。",
+    "example": {
+      "hanzi": "只要鼓起勇气迈出第一步，后面的路就会好走得多。",
+      "pinyin": "Zhǐyào gǔqǐ yǒngqì màichū dì yī bù, hòumiàn de lù jiù huì hǎo zǒu de duō.",
+      "ja": "勇気を出して第一歩を踏み出しさえすれば、その後の道はずっと歩きやすくなります。"
+    },
+    "lessonId": "L22",
+    "minLesson": 22,
+    "source": "textbook-scope",
+    "grammarIds": ["G21-02", "G22-03"]
+  },
+  {
+    "id": "V22-015",
+    "hanzi": "决心",
+    "pinyin": "juéxīn",
+    "tones": [2, 1],
+    "meaningJa": "決心・決意／決心する",
+    "pos": "名詞・動詞",
+    "usage": "「下决心（決心する）」「有决心（固い決意がある）」。後ろに動詞句を続けて「决心学好汉语」とも言える。",
+    "example": {
+      "hanzi": "看到前辈的表现，他也下定决心要更加努力。",
+      "pinyin": "Kàndào qiánbèi de biǎoxiàn, tā yě xiàdìng juéxīn yào gèngjiā nǔlì.",
+      "ja": "先輩の活躍を見て、彼もいっそう努力しようと固く決心しました。"
+    },
+    "lessonId": "L22",
+    "minLesson": 22,
+    "source": "textbook-scope",
+    "grammarIds": ["G22-03"],
+    "related": ["勇气"]
+  },
+  {
+    "id": "V22-016",
+    "hanzi": "居然",
+    "pinyin": "jūrán",
+    "tones": [1, 2],
+    "meaningJa": "なんと・意外にも・まさか〜とは",
+    "pos": "副詞",
+    "usage": "予想や常識に反して意外な結果になったことへの驚きを表す。述語の前または主語の前に置く。",
+    "example": {
+      "hanzi": "他才学了半年日语，居然就能看懂长篇小说了。",
+      "pinyin": "Tā cái xué le bàn nián Rìyǔ, jūrán jiù néng kàndǒng chángpiān xiǎoshuō le.",
+      "ja": "彼は日本語を半年学んだばかりなのに、なんと長編小説が読めるようになりました。"
+    },
+    "lessonId": "L22",
+    "minLesson": 22,
+    "source": "textbook-scope",
+    "grammarIds": ["G22-03"],
+    "synonyms": ["竟然"]
+  },
+  {
+    "id": "V22-017",
+    "hanzi": "别人",
+    "pinyin": "biérén",
+    "tones": [2, 2],
+    "meaningJa": "ほかの人・他人",
+    "pos": "代詞",
+    "usage": "話し手・聞き手以外の不特定の人を指す。「向别人学习（他者から学ぶ）」「关心别人」。",
+    "example": {
+      "hanzi": "不管别人怎么看，我都会坚持自己的选择。",
+      "pinyin": "Bùguǎn biérén zěnme kàn, wǒ dōu huì jiānchí zìjǐ de xuǎnzé.",
+      "ja": "ほかの人がどう見ようと、私は自分の選択を貫きます。"
+    },
+    "lessonId": "L22",
+    "minLesson": 22,
+    "source": "textbook-scope",
+    "grammarIds": ["G21-01", "G22-01"],
+    "antonyms": ["自己"]
+  },
+  {
+    "id": "V22-018",
+    "hanzi": "身上",
+    "pinyin": "shēnshang",
+    "tones": [1, 5],
+    "meaningJa": "体の上・身につけて／（人）のところに・面において",
+    "pos": "名詞・方位詞",
+    "usage": "「在……身上」「从……身上」の形で、人の体・持ち物・性格や長所などを指す。「上」は軽声。",
+    "example": {
+      "hanzi": "在他身上，我学到了认真负责的态度。",
+      "pinyin": "Zài tā shēnshang, wǒ xuédào le rènzhēn fùzé de tàidù.",
+      "ja": "彼から（彼の姿を通して）、私は真剣で責任感のある態度を学びました。"
+    },
+    "lessonId": "L22",
+    "minLesson": 22,
+    "source": "textbook-scope",
+    "grammarIds": ["G22-01"],
+    "related": ["汲取", "力量"]
+  },
+  {
+    "id": "V22-019",
+    "hanzi": "汲取",
+    "pinyin": "jíqǔ",
+    "tones": [2, 3],
+    "meaningJa": "汲み取る・吸収する",
+    "pos": "動詞",
+    "usage": "教訓・経験・知識・力などを取り入れて自分のものにするときに使う書き言葉寄りの語。「汲取力量」「汲取经验」。",
+    "example": {
+      "hanzi": "我们可以从失败中汲取教训，让自己变得更成熟。",
+      "pinyin": "Wǒmen kěyǐ cóng shībài zhōng jíqǔ jiàoxun, ràng zìjǐ biànde gèng chéngshú.",
+      "ja": "私たちは失敗から教訓を汲み取って、自分をより成熟させることができます。"
+    },
+    "lessonId": "L22",
+    "minLesson": 22,
+    "source": "textbook-scope",
+    "grammarIds": ["G22-01"],
+    "related": ["力量", "身上"]
+  },
+  {
+    "id": "V22-020",
+    "hanzi": "力量",
+    "pinyin": "lìliang",
+    "tones": [4, 5],
+    "meaningJa": "力・パワー・精神的な支え",
+    "pos": "名詞",
+    "usage": "物理的な筋力だけでなく、精神的な力・団結の力なども表す。「量」は軽声。「汲取力量」「团结的力量」。",
+    "example": {
+      "hanzi": "朋友的信任给了我很大的力量。",
+      "pinyin": "Péngyou de xìnrèn gěi le wǒ hěn dà de lìliang.",
+      "ja": "友人の信頼は私にとても大きな力を与えてくれました。"
+    },
+    "lessonId": "L22",
+    "minLesson": 22,
+    "source": "textbook-scope",
+    "grammarIds": ["G22-03"],
+    "related": ["勇气", "汲取"]
+  },
+  {
+    "id": "V22-021",
+    "hanzi": "一会儿",
+    "pinyin": "yī huìr",
+    "tones": [1, 4],
+    "meaningJa": "ちょっとの間／（一会儿……一会儿……で）〜したり〜したり",
+    "pos": "時間詞・副詞",
+    "usage": "本来の声調は「yī huìr」だが、後ろの「huì」が第4声のため実際の発音は「yíhuìr」に変調し、「儿」を伴って児化する。",
+    "example": {
+      "hanzi": "刚认识的小猫一会儿跑来跑去，一会儿又趴在地上睡觉。",
+      "pinyin": "Gāng rènshi de xiǎomāo yīhuìr pǎo lái pǎo qù, yīhuìr yòu pā zài dìshang shuìjiào.",
+      "ja": "出会ったばかりの子猫は走り回ったかと思うと、また地面に伏せて寝たりしています。"
+    },
+    "lessonId": "L22",
+    "minLesson": 22,
+    "source": "textbook-scope",
+    "grammarIds": ["G22-02"],
+    "related": ["有时"]
+  },
+  {
+    "id": "V22-022",
+    "hanzi": "有时",
+    "pinyin": "yǒushí",
+    "tones": [3, 2],
+    "meaningJa": "ある時は・ときどき",
+    "pos": "副詞",
+    "usage": "「有时……，有时……」のペアで「ある時は〜、またある時は〜」を表す。「有时候」とも言う。",
+    "example": {
+      "hanzi": "晚饭后，我有时听广播，有时散步。",
+      "pinyin": "Wǎnfàn hòu, wǒ yǒushí tīng guǎngbō, yǒushí sànbù.",
+      "ja": "夕食後、私はラジオを聴くこともあれば、散歩することもあります。"
+    },
+    "lessonId": "L22",
+    "minLesson": 22,
+    "source": "textbook-scope",
+    "grammarIds": ["G17-01", "G22-02"],
+    "synonyms": ["有时候"]
+  },
+  {
+    "id": "V22-023",
+    "hanzi": "要不是",
+    "pinyin": "yàobushì",
+    "tones": [4, 5, 4],
+    "meaningJa": "もし〜でなかったら",
+    "pos": "接続詞",
+    "usage": "反実仮想複文「要不是……（的话），就……」を導き、既定の事実と反対の仮定を表す。「不」は軽く発音される。",
+    "example": {
+      "hanzi": "要不是地铁准时到达，我们今天肯定赶不上考试了。",
+      "pinyin": "Yàobushì dìtiě zhǔnshí dàodá, wǒmen jīntiān kěndìng gǎn bu shàng kǎoshì le.",
+      "ja": "もし地下鉄が定刻に着かなかったのでなければ、私たちは今日きっと試験に間に合わなかったでしょう。"
+    },
+    "lessonId": "L22",
+    "minLesson": 22,
+    "source": "textbook-scope",
+    "grammarIds": ["G22-03"]
+  }
+]

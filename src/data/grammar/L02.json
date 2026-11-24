@@ -1,0 +1,475 @@
+[
+  {
+    "id": "G02-01",
+    "title": "連体修飾 I “的”",
+    "categoryId": "cat-modifier",
+    "lessonId": "L02",
+    "difficulty": 1,
+    "prerequisites": ["G01-01"],
+    "relatedIds": ["G01-01", "G03-02", "G03-04"],
+    "meaning": "構造助詞「的 (de)」を使って、「誰々の〜」「どこの〜」のように所有・所属関係を表す連体修飾句を作ります。また、「的」の後ろの名詞が文脈上明らかなときは名詞を省略して「〜のもの」という意味にもなります。",
+    "pattern": "修飾語（名詞・代詞） + 的 + 名詞 ／ 修飾語 + 的（〜のもの）",
+    "structureSlots": [
+      { "role": "Attr", "label": "修飾語", "text": "我 / 老师 / 大学", "pinyin": "wǒ / lǎoshī / dàxué" },
+      { "role": "Aux", "label": "構造助詞", "text": "的", "pinyin": "de" },
+      { "role": "O", "label": "中心語(名詞)", "text": "书 / 朋友 / 学生", "pinyin": "shū / péngyou / xuésheng" }
+    ],
+    "wordOrderNote": "日本語の「〜の」と同じ語順（修飾語＋的＋被修飾名詞）です。「的」は常に軽声（de）で発音します。",
+    "usageConditions": "人称代詞や名詞が後ろの名詞を修飾する（所有・所属を表す）ときに使います。ただし、親族（爸爸、妈妈、哥哥など）や自分が所属する機関・団体（学校、大学、国家、公司など）が被修飾語の場合は、人称代詞の後ろの「的」を省略するのが自然です（例：我爸爸、我们大学）。",
+    "distinctionNotes": "日本語では「友達の田中」のように同格関係でも「の」を使いますが、中国語では「我朋友田中」のように同格には「的」を入れません。また「的」が連続するときは後ろの「的」だけを残す傾向があります（例：我朋友的书 ○ / ×我的朋友的书）。",
+    "forms": {
+      "affirmative": "修飾語 + 的 + 名詞",
+      "negative": "（修飾関係を含む文の否定）S + 不是 + 修飾語 + 的 + 名詞",
+      "interrogative": "S + 是 + 修飾語 + 的 + 名詞 + 吗？"
+    },
+    "japaneseLearnerPitfalls": [
+      "「私の兄」「私たちの大学」のように親族や所属組織を言う際に「的」を必ず入れてしまい、不自然になったり冗長になる点（我哥哥、我们学校 のように省略可能）。",
+      "「的」が2回以上続く表現で「×我的老师的书」のようにすべてに「的」を入れてしまう点（通常は「我老师的书」と1つ目の「的」を省く）。",
+      "「日本人の友達」のような同格・属性表現で不要な「的」を入れたり、逆に所有物「私の本」で「的」を落として「×我书」としてしまう点。"
+    ],
+    "similarDifferences": [
+      {
+        "targetId": "G01-01",
+        "targetName": "人称代詞",
+        "difference": "英語の my / your と異なり、中国語には専用の所有格代名詞がないため、人称代詞に「的」を付けて「我的・你的」を作ります。"
+      },
+      {
+        "targetId": "G03-02",
+        "targetName": "形容詞の連体修飾",
+        "difference": "名詞・代詞の修飾（第2課）に続き、第3課では形容詞が「的」を伴って名詞を修飾するルールを学びます。"
+      }
+    ],
+    "examples": [
+      {
+        "id": "EX-G02-01-1",
+        "hanzi": "林明是我的朋友。",
+        "pinyin": "Lín Míng shì wǒ de péngyou.",
+        "ja": "林明は私の友達です。",
+        "note": "人称代詞「我」＋「的」＋名詞「朋友」で所有・関係を表します。",
+        "breakdown": [
+          { "role": "S", "label": "主語", "text": "林明", "pinyin": "Lín Míng" },
+          { "role": "V", "label": "判断動詞", "text": "是", "pinyin": "shì" },
+          { "role": "Attr", "label": "修飾語", "text": "我的", "pinyin": "wǒ de" },
+          { "role": "O", "label": "中心語", "text": "朋友", "pinyin": "péngyou" }
+        ]
+      },
+      {
+        "id": "EX-G02-01-2",
+        "hanzi": "王老师是我们大学的老师。",
+        "pinyin": "Wáng lǎoshī shì wǒmen dàxué de lǎoshī.",
+        "ja": "王先生は私たちの大学の先生です。",
+        "note": "「我们大学」は所属機関のため「我们」の後ろの「的」が省略され、後ろの「的」だけ残しています。",
+        "breakdown": [
+          { "role": "S", "label": "主語", "text": "王老师", "pinyin": "Wáng lǎoshī" },
+          { "role": "V", "label": "判断動詞", "text": "是", "pinyin": "shì" },
+          { "role": "Attr", "label": "修飾語", "text": "我们大学的", "pinyin": "wǒmen dàxué de" },
+          { "role": "O", "label": "中心語", "text": "老师", "pinyin": "lǎoshī" }
+        ]
+      },
+      {
+        "id": "EX-G02-01-3",
+        "hanzi": "我爸爸不是老师，他爸爸是老师。",
+        "pinyin": "Wǒ bàba bù shì lǎoshī, tā bàba shì lǎoshī.",
+        "ja": "私の父は先生ではなく、彼の父が先生です。",
+        "note": "親族を表す「爸爸」「妈妈」の前では人称代詞の後ろの「的」を省くのが自然です。",
+        "breakdown": [
+          { "role": "S", "label": "主語", "text": "我爸爸", "pinyin": "wǒ bàba" },
+          { "role": "Neg", "label": "否定", "text": "不", "pinyin": "bù" },
+          { "role": "V", "label": "判断動詞", "text": "是", "pinyin": "shì" },
+          { "role": "O", "label": "名詞", "text": "老师", "pinyin": "lǎoshī" },
+          { "role": "S", "label": "主語", "text": "他爸爸", "pinyin": "tā bàba" },
+          { "role": "V", "label": "判断動詞", "text": "是", "pinyin": "shì" },
+          { "role": "O", "label": "名詞", "text": "老师", "pinyin": "lǎoshī" }
+        ]
+      },
+      {
+        "id": "EX-G02-01-4",
+        "hanzi": "汉语书是我的，英语书是她的。",
+        "pinyin": "Hànyǔ shū shì wǒ de, Yīngyǔ shū shì tā de.",
+        "ja": "中国語の本は私のもので、英語の本は彼女のものです。",
+        "note": "「的」の後ろの名詞（书）を省略し、「我的（私のもの）」「她的（彼女のもの）」と名詞句にしています。",
+        "breakdown": [
+          { "role": "S", "label": "主語", "text": "汉语书", "pinyin": "Hànyǔ shū" },
+          { "role": "V", "label": "判断動詞", "text": "是", "pinyin": "shì" },
+          { "role": "O", "label": "的構文", "text": "我的", "pinyin": "wǒ de" },
+          { "role": "S", "label": "主語", "text": "英语书", "pinyin": "Yīngyǔ shū" },
+          { "role": "V", "label": "判断動詞", "text": "是", "pinyin": "shì" },
+          { "role": "O", "label": "的構文", "text": "她的", "pinyin": "tā de" }
+        ]
+      },
+      {
+        "id": "EX-G02-01-5",
+        "hanzi": "我妹妹看张老师的书。",
+        "pinyin": "Wǒ mèimei kàn Zhāng lǎoshī de shū.",
+        "ja": "私の妹は張先生の本を読みます。",
+        "note": "「我妹妹（的省略）」と「张老师的书（的所有）」を組み合わせています。",
+        "breakdown": [
+          { "role": "S", "label": "主語", "text": "我妹妹", "pinyin": "wǒ mèimei" },
+          { "role": "V", "label": "動詞", "text": "看", "pinyin": "kàn" },
+          { "role": "Attr", "label": "修飾語", "text": "张老师的", "pinyin": "Zhāng lǎoshī de" },
+          { "role": "O", "label": "目的語", "text": "书", "pinyin": "shū" }
+        ]
+      }
+    ],
+    "referenceUrl": "https://hanyujiaocai.jinkan.kyoto-u.ac.jp/2018shanghai/2018CALL/L2_3.html",
+    "referenceTitle": "文法事項 １．連体修飾 I “的”"
+  },
+  {
+    "id": "G02-02",
+    "title": "語気助詞 “吗” と “呢”",
+    "categoryId": "cat-question",
+    "lessonId": "L02",
+    "difficulty": 1,
+    "prerequisites": ["G01-02", "G01-03"],
+    "relatedIds": ["G01-02", "G04-04"],
+    "meaning": "文末に置いて疑問の語気を表す軽声の助詞です。「吗 (ma)」は平叙文をそのまま「〜ですか」という Yes/No 疑問文に変えます。「呢 (ne)」は名詞や代詞の後ろに置いて「〜は（どうですか）？」と聞き返すときに使います。",
+    "pattern": "平叙文 + 吗？ ／ 名詞・代詞 + 呢？",
+    "structureSlots": [
+      { "role": "S", "label": "主語", "text": "你 / 咖啡", "pinyin": "nǐ / kāfēi" },
+      { "role": "V", "label": "述語(任意)", "text": "是学生 / 好", "pinyin": "shì xuésheng / hǎo" },
+      { "role": "Aux", "label": "語気助詞", "text": "吗 / 呢", "pinyin": "ma / ne" }
+    ],
+    "wordOrderNote": "英語の do/does や主語と動詞の倒置は一切不要です。肯定文の語順のまま文末に「吗」を付けるだけで疑問文になります。「呢」は前の話題を受けた省略疑問文「A呢？（Aは？）」を作ります。",
+    "usageConditions": "「吗」は「はい／いいえ」で答えられる質問（諾否疑問文）専用です。「呢」は「我很好，你呢？（私は元気です、あなたは？）」「我是日本人，他呢？（私は日本人です、彼は？）」のように相手や別の対象に話題を移して尋ねるときに多用されます。",
+    "distinctionNotes": "「谁（誰）」「什么（何）」「哪儿（どこ）」などの疑問詞を使う文（第3・4課で学習）の文末には、原則として「吗」を付けません（「吗」は Yes/No 疑問専用）。また「呢」を単独の「A呢？」で使うと「Aはどこ？」や「Aはどう？」という省略疑問になります。",
+    "forms": {
+      "affirmative": "S + V + O",
+      "negative": "S + 不 + V + O",
+      "interrogative": "S + V + O + 吗？ ／ S2 + 呢？"
+    },
+    "japaneseLearnerPitfalls": [
+      "「我是学生吗？」「你叫什么名字吗？」のように、将来習う疑問詞疑問文にまで「吗」を付けてしまう誤り。",
+      "「あなたは？」と聞き返す場面で「×你吗？」と言ってしまう誤り（問い返しは「你呢？」を使う）。",
+      "「吗」「呢」を第1声などの強い声調で発音してしまう点（どちらも常に軽声で短く軽く発音する）。"
+    ],
+    "similarDifferences": [
+      {
+        "targetId": "G01-02",
+        "targetName": "“是”と“不是”",
+        "difference": "「是」の肯定文に「吗」を付けるだけで「是……吗？」という疑問文になり、答えは「是」または「不是」で返せます。"
+      },
+      {
+        "targetId": "G04-04",
+        "targetName": "疑問詞（谁・什么・怎么・为什么）",
+        "difference": "「吗」は Yes/No を尋ねる助詞であり、具体的な内容を尋ねる疑問詞疑問文には「吗」を使いません。"
+      }
+    ],
+    "examples": [
+      {
+        "id": "EX-G02-02-1",
+        "hanzi": "你是京都大学的学生吗？",
+        "pinyin": "Nǐ shì Jīngdū Dàxué de xuésheng ma?",
+        "ja": "あなたは京都大学の学生ですか。",
+        "note": "平叙文「你是京都大学的学生」の文末に「吗」を付けた Yes/No 疑問文。",
+        "breakdown": [
+          { "role": "S", "label": "主語", "text": "你", "pinyin": "nǐ" },
+          { "role": "V", "label": "判断動詞", "text": "是", "pinyin": "shì" },
+          { "role": "Attr", "label": "修飾語", "text": "京都大学的", "pinyin": "Jīngdū Dàxué de" },
+          { "role": "O", "label": "目的語", "text": "学生", "pinyin": "xuésheng" },
+          { "role": "Aux", "label": "語気助詞", "text": "吗", "pinyin": "ma" }
+        ]
+      },
+      {
+        "id": "EX-G02-02-2",
+        "hanzi": "我学习汉语，你呢？",
+        "pinyin": "Wǒ xuéxí Hànyǔ, nǐ ne?",
+        "ja": "私は中国語を学びます。あなたは？",
+        "note": "前の文と同じ内容について対象を変えて尋ねる「〜呢？」。",
+        "breakdown": [
+          { "role": "S", "label": "主語", "text": "我", "pinyin": "wǒ" },
+          { "role": "V", "label": "動詞", "text": "学习", "pinyin": "xuéxí" },
+          { "role": "O", "label": "目的語", "text": "汉语", "pinyin": "Hànyǔ" },
+          { "role": "S", "label": "対象", "text": "你", "pinyin": "nǐ" },
+          { "role": "Aux", "label": "語気助詞", "text": "呢", "pinyin": "ne" }
+        ]
+      },
+      {
+        "id": "EX-G02-02-3",
+        "hanzi": "王老师喝咖啡吗？",
+        "pinyin": "Wáng lǎoshī hē kāfēi ma?",
+        "ja": "王先生はコーヒーを飲みますか。",
+        "note": "動詞述語文の末尾に「吗」を置く例。",
+        "breakdown": [
+          { "role": "S", "label": "主語", "text": "王老师", "pinyin": "Wáng lǎoshī" },
+          { "role": "V", "label": "動詞", "text": "喝", "pinyin": "hē" },
+          { "role": "O", "label": "目的語", "text": "咖啡", "pinyin": "kāfēi" },
+          { "role": "Aux", "label": "語気助詞", "text": "吗", "pinyin": "ma" }
+        ]
+      },
+      {
+        "id": "EX-G02-02-4",
+        "hanzi": "我不是老师，他呢？",
+        "pinyin": "Wǒ bù shì lǎoshī, tā ne?",
+        "ja": "私は先生ではありません。彼は（先生ですか）？",
+        "note": "否定文の後でも文脈から「他呢？」で同様に質問できます。",
+        "breakdown": [
+          { "role": "S", "label": "主語", "text": "我", "pinyin": "wǒ" },
+          { "role": "Neg", "label": "否定", "text": "不", "pinyin": "bù" },
+          { "role": "V", "label": "判断動詞", "text": "是", "pinyin": "shì" },
+          { "role": "O", "label": "名詞", "text": "老师", "pinyin": "lǎoshī" },
+          { "role": "S", "label": "対象", "text": "他", "pinyin": "tā" },
+          { "role": "Aux", "label": "語気助詞", "text": "呢", "pinyin": "ne" }
+        ]
+      },
+      {
+        "id": "EX-G02-02-5",
+        "hanzi": "你们去学校吗？",
+        "pinyin": "Nǐmen qù xuéxiào ma?",
+        "ja": "あなたたちは学校へ行きますか。",
+        "note": "移動動詞文＋「吗」の疑問文。",
+        "breakdown": [
+          { "role": "S", "label": "主語", "text": "你们", "pinyin": "nǐmen" },
+          { "role": "V", "label": "動詞", "text": "去", "pinyin": "qù" },
+          { "role": "Loc", "label": "場所", "text": "学校", "pinyin": "xuéxiào" },
+          { "role": "Aux", "label": "語気助詞", "text": "吗", "pinyin": "ma" }
+        ]
+      }
+    ],
+    "referenceUrl": "https://hanyujiaocai.jinkan.kyoto-u.ac.jp/2018shanghai/2018CALL/L2_4.html",
+    "referenceTitle": "文法事項 ２．語気助詞 “吗”，“呢”"
+  },
+  {
+    "id": "G02-03",
+    "title": "副詞 “也”",
+    "categoryId": "cat-adverb",
+    "lessonId": "L02",
+    "difficulty": 1,
+    "prerequisites": ["G01-02"],
+    "relatedIds": ["G01-02", "G02-04"],
+    "meaning": "「〜も（また）」という追加・同様の意味を表す副詞です。否定文で使えば「〜も〜ない」という意味になります。",
+    "pattern": "肯定：S + 也 + 述語 ／ 否定：S + 也 + 不 + 述語",
+    "structureSlots": [
+      { "role": "S", "label": "主語", "text": "我 / 妹妹", "pinyin": "wǒ / mèimei" },
+      { "role": "Adv", "label": "副詞", "text": "也", "pinyin": "yě" },
+      { "role": "Neg", "label": "否定(任意)", "text": "不", "pinyin": "bù" },
+      { "role": "V", "label": "述語", "text": "是 / 去 / 喝", "pinyin": "shì / qù / hē" },
+      { "role": "O", "label": "目的語", "text": "学生 / 学校 / 茶", "pinyin": "xuésheng / xuéxiào / chá" }
+    ],
+    "wordOrderNote": "中国語の副詞は原則として「主語の後・述語（動詞・形容詞）の前」に置きます。否定の「不」と同時に使うときは必ず「也＋不＋述語」の順になります。",
+    "usageConditions": "先行する情報と同じ状態・行為であることを示します。主語が異なる場合（「Aは学生だ。Bも学生だ」）だけでなく、目的語や述語が異なる場合（「彼は中国語を学び、英語も学ぶ」）でも、「也」の位置は常に述語の直前です。",
+    "distinctionNotes": "日本語の「私も〜」「お茶も〜」は名詞の後ろに「も」が付くため、学習者は「×我也我」「×我喝茶也」や「×也我是学生」と置きがちですが、「也」を文頭や名詞の後ろ・文末に置くことはできません。常に述語の直前に配置します。",
+    "forms": {
+      "affirmative": "S + 也 + V + O",
+      "negative": "S + 也 + 不 + V + O",
+      "interrogative": "S + 也 + V + O + 吗？"
+    },
+    "japaneseLearnerPitfalls": [
+      "日本語の「私も」に引かれて「×也我是日本人」と主語の前に「也」を置いてしまう誤り。",
+      "「私もコーヒーを飲みます（他にお茶も飲む文脈）」で「×我喝也咖啡」や「×我喝咖啡也」と目的語側に「也」を置いてしまう誤り（必ず「我也喝咖啡」のように動詞「喝」の前に置く）。",
+      "否定文で語順を逆にして「×我不也是学生」と言ってしまう誤り（正しくは「我也不是学生」）。"
+    ],
+    "similarDifferences": [
+      {
+        "targetId": "G01-02",
+        "targetName": "“是”と“不是”",
+        "difference": "判断文「是」に「也」を足す場合は「S + 也是 + 名詞」、否定は「S + 也不是 + 名詞」となります。"
+      },
+      {
+        "targetId": "G02-04",
+        "targetName": "副詞 “一起”",
+        "difference": "「也」と「一起」を両方使う場合は「S + 也 + 一起 + 動詞」のように「也」が「一起」の前に来ます。"
+      }
+    ],
+    "examples": [
+      {
+        "id": "EX-G02-03-1",
+        "hanzi": "他是大学生，我也是大学生。",
+        "pinyin": "Tā shì dàxuéshēng, wǒ yě shì dàxuéshēng.",
+        "ja": "彼は大学生で、私も大学生です。",
+        "note": "「也」は主語「我」の後、判断動詞「是」の前に置きます。",
+        "breakdown": [
+          { "role": "S", "label": "主語", "text": "他", "pinyin": "tā" },
+          { "role": "V", "label": "判断動詞", "text": "是", "pinyin": "shì" },
+          { "role": "O", "label": "名詞", "text": "大学生", "pinyin": "dàxuéshēng" },
+          { "role": "S", "label": "主語", "text": "我", "pinyin": "wǒ" },
+          { "role": "Adv", "label": "副詞", "text": "也", "pinyin": "yě" },
+          { "role": "V", "label": "判断動詞", "text": "是", "pinyin": "shì" },
+          { "role": "O", "label": "名詞", "text": "大学生", "pinyin": "dàxuéshēng" }
+        ]
+      },
+      {
+        "id": "EX-G02-03-2",
+        "hanzi": "我不喝茶，她也不喝茶。",
+        "pinyin": "Wǒ bù hē chá, tā yě bù hē chá.",
+        "ja": "私はお茶を飲みません。彼女もお茶を飲みません。",
+        "note": "否定文では「也＋不＋動詞」の語順になります。",
+        "breakdown": [
+          { "role": "S", "label": "主語", "text": "我", "pinyin": "wǒ" },
+          { "role": "Neg", "label": "否定", "text": "不", "pinyin": "bù" },
+          { "role": "V", "label": "動詞", "text": "喝", "pinyin": "hē" },
+          { "role": "O", "label": "目的語", "text": "茶", "pinyin": "chá" },
+          { "role": "S", "label": "主語", "text": "她", "pinyin": "tā" },
+          { "role": "Adv", "label": "副詞", "text": "也", "pinyin": "yě" },
+          { "role": "Neg", "label": "否定", "text": "不", "pinyin": "bù" },
+          { "role": "V", "label": "動詞", "text": "喝", "pinyin": "hē" },
+          { "role": "O", "label": "目的語", "text": "茶", "pinyin": "chá" }
+        ]
+      },
+      {
+        "id": "EX-G02-03-3",
+        "hanzi": "我学习汉语，也学习日语。",
+        "pinyin": "Wǒ xuéxí Hànyǔ, yě xuéxí Rìyǔ.",
+        "ja": "私は中国語を学び、日本語も学びます。",
+        "note": "「日本語も」という意味であっても、「也」は動詞「学习」の前に置きます。",
+        "breakdown": [
+          { "role": "S", "label": "主語", "text": "我", "pinyin": "wǒ" },
+          { "role": "V", "label": "動詞", "text": "学习", "pinyin": "xuéxí" },
+          { "role": "O", "label": "目的語", "text": "汉语", "pinyin": "Hànyǔ" },
+          { "role": "Adv", "label": "副詞", "text": "也", "pinyin": "yě" },
+          { "role": "V", "label": "動詞", "text": "学习", "pinyin": "xuéxí" },
+          { "role": "O", "label": "目的語", "text": "日语", "pinyin": "Rìyǔ" }
+        ]
+      },
+      {
+        "id": "EX-G02-03-4",
+        "hanzi": "张老师不是中国人，李老师也不是中国人。",
+        "pinyin": "Zhāng lǎoshī bù shì Zhōngguórén, Lǐ lǎoshī yě bù shì Zhōngguórén.",
+        "ja": "張先生は中国人ではなく、李先生も中国人ではありません。",
+        "note": "「也不是」の語順に注意（×不也是）。",
+        "breakdown": [
+          { "role": "S", "label": "主語", "text": "张老师", "pinyin": "Zhāng lǎoshī" },
+          { "role": "Neg", "label": "否定", "text": "不", "pinyin": "bù" },
+          { "role": "V", "label": "判断動詞", "text": "是", "pinyin": "shì" },
+          { "role": "O", "label": "名詞", "text": "中国人", "pinyin": "Zhōngguórén" },
+          { "role": "S", "label": "主語", "text": "李老师", "pinyin": "Lǐ lǎoshī" },
+          { "role": "Adv", "label": "副詞", "text": "也", "pinyin": "yě" },
+          { "role": "Neg", "label": "否定", "text": "不", "pinyin": "bù" },
+          { "role": "V", "label": "判断動詞", "text": "是", "pinyin": "shì" },
+          { "role": "O", "label": "名詞", "text": "中国人", "pinyin": "Zhōngguórén" }
+        ]
+      },
+      {
+        "id": "EX-G02-03-5",
+        "hanzi": "你哥哥也去上海吗？",
+        "pinyin": "Nǐ gēge yě qù Shànghǎi ma?",
+        "ja": "あなたのお兄さんも上海へ行きますか。",
+        "note": "疑問文でも「也」の位置は述語動詞「去」の直前です。",
+        "breakdown": [
+          { "role": "S", "label": "主語", "text": "你哥哥", "pinyin": "nǐ gēge" },
+          { "role": "Adv", "label": "副詞", "text": "也", "pinyin": "yě" },
+          { "role": "V", "label": "動詞", "text": "去", "pinyin": "qù" },
+          { "role": "Loc", "label": "場所", "text": "上海", "pinyin": "Shànghǎi" },
+          { "role": "Aux", "label": "語気助詞", "text": "吗", "pinyin": "ma" }
+        ]
+      }
+    ],
+    "referenceUrl": "https://hanyujiaocai.jinkan.kyoto-u.ac.jp/2018shanghai/2018CALL/L2_5.html",
+    "referenceTitle": "文法事項 ３．副詞 “也”"
+  },
+  {
+    "id": "G02-04",
+    "title": "副詞 “一起”",
+    "categoryId": "cat-adverb",
+    "lessonId": "L02",
+    "difficulty": 1,
+    "prerequisites": ["G01-03"],
+    "relatedIds": ["G01-03", "G02-03", "G04-02"],
+    "meaning": "「一緒に（動作をする）」を表す副詞です。複数の主体が同じ場所で同じ行動を共に行うときに使います。",
+    "pattern": "S(複数) + 一起 + 動詞 (+ 目的語)",
+    "structureSlots": [
+      { "role": "S", "label": "主語(複数)", "text": "我们 / 同学", "pinyin": "wǒmen / tóngxué" },
+      { "role": "Adv", "label": "副詞(任意)", "text": "也 / 不", "pinyin": "yě / bù" },
+      { "role": "Adv", "label": "副詞", "text": "一起", "pinyin": "yìqǐ" },
+      { "role": "V", "label": "動詞", "text": "去 / 看 / 喝", "pinyin": "qù / kàn / hē" },
+      { "role": "O", "label": "目的語", "text": "学校 / 电影 / 咖啡", "pinyin": "xuéxiào / diànyǐng / kāfēi" }
+    ],
+    "wordOrderNote": "副詞であるため、必ず動詞の直前（主語の後）に置きます。「也」や「不」を伴うときは「也＋一起＋動詞」「不＋一起＋動詞」の語順になります。",
+    "usageConditions": "「一起」は「複数人が一緒に」という意味なので、主語は「我们」「你们」「他们」のような複数名詞・代詞にするか、「我和他（私と彼）」のように2者以上を並べます（単数主語だけで「×我一起去」とは言えません）。また「一起」の本来の声調は第1声＋第3声（yīqǐ）ですが、発音時は後ろが第3声なので yìqǐ に変調します。",
+    "distinctionNotes": "「一緒に」と訳せるからといって、動詞の後ろや文末に「×我们去学校一起」と置くことはできません。必ず動詞の前に置きます。",
+    "forms": {
+      "affirmative": "S(複数) + 一起 + V + O",
+      "negative": "S(複数) + 不 + 一起 + V + O",
+      "interrogative": "S(複数) + 一起 + V + O + 吗？"
+    },
+    "japaneseLearnerPitfalls": [
+      "主語が単数のまま「×我一起去看电影」と書いてしまう誤り（必ず複数主語「我们」や相手を含む主語にする）。",
+      "「一起」を文末や目的語の後に置いて「×我们看电影一起」としてしまう誤り。",
+      "「一緒に行かない」と言うときに「×我们一起不去」と否定の位置を誤る点（「不」は「一起」の前に置いて「我们不一起去」とするのが基本）。"
+    ],
+    "similarDifferences": [
+      {
+        "targetId": "G02-03",
+        "targetName": "副詞 “也”",
+        "difference": "「也」と「一起」を並べる場合は「也」が先、「一起」が後（我们也一起去）になります。"
+      },
+      {
+        "targetId": "G04-02",
+        "targetName": "介詞（在・从・到・给など）",
+        "difference": "「Aと一緒に〜する」と相手を明示したいときは、後の課で学ぶ介詞「跟 / 和」を併用して「我跟他一起去」と表現できます。"
+      }
+    ],
+    "examples": [
+      {
+        "id": "EX-G02-04-1",
+        "hanzi": "我们一起去大学。",
+        "pinyin": "Wǒmen yìqǐ qù dàxué.",
+        "ja": "私たちは一緒に大学へ行きます。",
+        "note": "複数主語「我们」＋「一起」＋動詞「去」＋目的語「大学」。",
+        "breakdown": [
+          { "role": "S", "label": "主語", "text": "我们", "pinyin": "wǒmen" },
+          { "role": "Adv", "label": "副詞", "text": "一起", "pinyin": "yìqǐ" },
+          { "role": "V", "label": "動詞", "text": "去", "pinyin": "qù" },
+          { "role": "Loc", "label": "場所", "text": "大学", "pinyin": "dàxué" }
+        ]
+      },
+      {
+        "id": "EX-G02-04-2",
+        "hanzi": "你们一起喝咖啡吗？",
+        "pinyin": "Nǐmen yìqǐ hē kāfēi ma?",
+        "ja": "あなたたちは一緒にコーヒーを飲みますか。",
+        "note": "「一起」を含む疑問文。「吗」を文末に添えます。",
+        "breakdown": [
+          { "role": "S", "label": "主語", "text": "你们", "pinyin": "nǐmen" },
+          { "role": "Adv", "label": "副詞", "text": "一起", "pinyin": "yìqǐ" },
+          { "role": "V", "label": "動詞", "text": "喝", "pinyin": "hē" },
+          { "role": "O", "label": "目的語", "text": "咖啡", "pinyin": "kāfēi" },
+          { "role": "Aux", "label": "語気助詞", "text": "吗", "pinyin": "ma" }
+        ]
+      },
+      {
+        "id": "EX-G02-04-3",
+        "hanzi": "他们不一起看电影。",
+        "pinyin": "Tāmen bù yìqǐ kàn diànyǐng.",
+        "ja": "彼らは一緒に映画を見ません。",
+        "note": "「一緒には〜しない」の否定は「不＋一起＋動詞」とします。",
+        "breakdown": [
+          { "role": "S", "label": "主語", "text": "他们", "pinyin": "tāmen" },
+          { "role": "Neg", "label": "否定", "text": "不", "pinyin": "bù" },
+          { "role": "Adv", "label": "副詞", "text": "一起", "pinyin": "yìqǐ" },
+          { "role": "V", "label": "動詞", "text": "看", "pinyin": "kàn" },
+          { "role": "O", "label": "目的語", "text": "电影", "pinyin": "diànyǐng" }
+        ]
+      },
+      {
+        "id": "EX-G02-04-4",
+        "hanzi": "我朋友也一起学习汉语。",
+        "pinyin": "Wǒ péngyou yě yìqǐ xuéxí Hànyǔ.",
+        "ja": "私の友達も一緒に中国語を学びます。",
+        "note": "「也」と「一起」を併用するときは「也＋一起」の順に並べます。",
+        "breakdown": [
+          { "role": "S", "label": "主語", "text": "我朋友", "pinyin": "wǒ péngyou" },
+          { "role": "Adv", "label": "副詞", "text": "也", "pinyin": "yě" },
+          { "role": "Adv", "label": "副詞", "text": "一起", "pinyin": "yìqǐ" },
+          { "role": "V", "label": "動詞", "text": "学习", "pinyin": "xuéxí" },
+          { "role": "O", "label": "目的語", "text": "汉语", "pinyin": "Hànyǔ" }
+        ]
+      },
+      {
+        "id": "EX-G02-04-5",
+        "hanzi": "请你们一起喝茶。",
+        "pinyin": "Qǐng nǐmen yìqǐ hē chá.",
+        "ja": "皆さんどうぞ一緒にお茶を飲んでください。",
+        "note": "「请＋複数人＋一起＋動詞」で皆を一緒に誘う丁寧な表現になります。",
+        "breakdown": [
+          { "role": "V", "label": "勧誘", "text": "请", "pinyin": "qǐng" },
+          { "role": "O", "label": "対象", "text": "你们", "pinyin": "nǐmen" },
+          { "role": "Adv", "label": "副詞", "text": "一起", "pinyin": "yìqǐ" },
+          { "role": "V", "label": "動詞", "text": "喝", "pinyin": "hē" },
+          { "role": "O", "label": "目的語", "text": "茶", "pinyin": "chá" }
+        ]
+      }
+    ],
+    "referenceUrl": "https://hanyujiaocai.jinkan.kyoto-u.ac.jp/2018shanghai/2018CALL/L2_6.html",
+    "referenceTitle": "文法事項 ４．副詞 “一起”"
+  }
+]

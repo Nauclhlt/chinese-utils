@@ -1,0 +1,803 @@
+[
+  {
+    "id": "C-G11-01-01",
+    "lessonId": "L11",
+    "minLesson": 11,
+    "grammarIds": ["G11-01"],
+    "difficulty": 1,
+    "japanesePrompt": "私は昨日、図書館で2時間本を読みました。",
+    "targetGrammarHint": "時量補語「两个小时」を動詞「看」と目的語「书」の間に置きます。",
+    "hints": [
+      "「本を読む」は「看书」、2時間は「两个小时」を使います。",
+      "離合構造「看书」の間に「了＋两个小时」を挟みます。",
+      "我昨天在图书馆 ＋ 看了 ＋ 两个小时 ＋ 书。"
+    ],
+    "modelAnswer": "我昨天在图书馆看了两个小时书。",
+    "acceptableAnswers": [
+      "我昨天在图书馆看了两个小时书。",
+      "我昨天在图书馆看了两个小时书",
+      "昨天我在图书馆看了两个小时的书。",
+      "我昨天在图书馆看书看了两个小时。"
+    ],
+    "pinyin": "Wǒ zuótiān zài túshūguǎn kàn le liǎng ge xiǎoshí shū.",
+    "structureBreakdown": [
+      { "text": "我", "role": "S", "label": "主語" },
+      { "text": "昨天", "role": "Time", "label": "時間" },
+      { "text": "在图书馆", "role": "Loc", "label": "場所" },
+      { "text": "看了", "role": "V", "label": "動詞+了" },
+      { "text": "两个小时", "role": "C", "label": "時量補語" },
+      { "text": "书", "role": "O", "label": "目的語" }
+    ],
+    "explanation": "「看书」のような動詞＋一般名詞の目的語の後ろに時量補語を置くときは、「看了＋時量＋书」または動詞反復「看书看了＋時量」にします。",
+    "commonMistakes": [
+      { "wrong": "我昨天在图书馆两个小时看了书。", "reason": "動作の持続時間は動詞の前ではなく後ろ（補語位置）に置きます。" },
+      { "wrong": "我昨天在图书馆看了两小时书。", "reason": "話し言葉・標準語では「小时」の前に量詞「个」を付けるのが原則です。" }
+    ]
+  },
+  {
+    "id": "C-G11-01-02",
+    "lessonId": "L11",
+    "minLesson": 11,
+    "grammarIds": ["G11-01"],
+    "difficulty": 2,
+    "japanesePrompt": "私たちは駅の改札で彼を30分待ちました。",
+    "targetGrammarHint": "人称代詞「他」は時量補語「半个小时 / 三十分钟」の前に置きます。",
+    "hints": [
+      "「改札」は「检票口 (jiǎnpiàokǒu)」または「车站入口」、簡単に「在车站」でも構いません。",
+      "人称代詞「他」を動詞「等了」の直後に置き、その後に「三十分钟」を続けます。",
+      "我们在车站检票口 ＋ 等了他 ＋ 三十分钟。"
+    ],
+    "modelAnswer": "我们在车站检票口等了他三十分钟。",
+    "acceptableAnswers": [
+      "我们在车站检票口等了他三十分钟。",
+      "我们在车站检票口等了他三十分钟",
+      "我们在车站检票口等了他半个小时。",
+      "我们在车站等了他三十分钟。"
+    ],
+    "pinyin": "Wǒmen zài chēzhàn jiǎnpiàokǒu děng le tā sānshí fēnzhōng.",
+    "structureBreakdown": [
+      { "text": "我们", "role": "S", "label": "主語" },
+      { "text": "在车站检票口", "role": "Loc", "label": "場所" },
+      { "text": "等了", "role": "V", "label": "動詞+了" },
+      { "text": "他", "role": "O", "label": "人称代詞" },
+      { "text": "三十分钟", "role": "C", "label": "時量補語" }
+    ],
+    "explanation": "目的語が人称代詞（我・你・他・她）のときは、必ず「動詞＋了＋代詞＋時量補語」の語順になります。",
+    "commonMistakes": [
+      { "wrong": "我们在车站等了三十分钟他。", "reason": "人称代詞の目的語を時量補語の後ろに置くことはできません。" }
+    ]
+  },
+  {
+    "id": "C-G11-01-03",
+    "lessonId": "L11",
+    "minLesson": 11,
+    "grammarIds": ["G11-01"],
+    "difficulty": 2,
+    "japanesePrompt": "この重要な文型を私は今朝3回通読しました。",
+    "targetGrammarHint": "最初から最後まで通す回数には動量詞「遍」を使います。",
+    "hints": [
+      "「通読する・音読する」は「读 (dú)」または「念 (niàn)」を使います。",
+      "最初から終わりまで1回通すには「遍 (biàn)」を使います。",
+      "这个重要句型 ＋ 我今天早上 ＋ 读了三遍。"
+    ],
+    "modelAnswer": "这个重要句型我今天早上读了三遍。",
+    "acceptableAnswers": [
+      "这个重要句型我今天早上读了三遍。",
+      "这个重要句型我今天早上读了三遍",
+      "今天早上我把这个重要句型读了三遍。",
+      "这个重要的句型我今早念了三遍。"
+    ],
+    "pinyin": "Zhège zhòngyào jùxíng wǒ jīntiān zǎoshang dú le sān biàn.",
+    "structureBreakdown": [
+      { "text": "这个重要句型", "role": "O", "label": "前置目的語" },
+      { "text": "我", "role": "S", "label": "主語" },
+      { "text": "今天早上", "role": "Time", "label": "時間" },
+      { "text": "读了", "role": "V", "label": "動詞+了" },
+      { "text": "三遍", "role": "C", "label": "動量補語" }
+    ],
+    "explanation": "音読・暗唱・視聴など最初から最後まで一通り行う回数には「遍」を用います。前置された目的語に対して「读了三遍」で受けます。",
+    "commonMistakes": [
+      { "wrong": "我今天早上读了三个遍。", "reason": "「遍」自体が動量詞なので、前に「个」を付ける必要はありません。" }
+    ]
+  },
+  {
+    "id": "C-G11-01-04",
+    "lessonId": "L11",
+    "minLesson": 11,
+    "grammarIds": ["G11-01"],
+    "difficulty": 2,
+    "japanesePrompt": "私はもう1年半中国語を勉強しています（今も勉強中）。",
+    "targetGrammarHint": "現在までの継続を表すため、動詞の後ろと文末の両方に「了」を置きます。",
+    "hints": [
+      "「1年半」は「一年半」と表します。",
+      "「V + 了 + 時量 + O + 了」の形にします。",
+      "我已经学了 ＋ 一年半 ＋ 汉语了。"
+    ],
+    "modelAnswer": "我已经学了一年半汉语了。",
+    "acceptableAnswers": [
+      "我已经学了一年半汉语了。",
+      "我已经学了一年半汉语了",
+      "我已经学习了一年半中文了。",
+      "我学了一年半汉语了。"
+    ],
+    "pinyin": "Wǒ yǐjīng xué le yì nián bàn Hànyǔ le.",
+    "structureBreakdown": [
+      { "text": "我", "role": "S", "label": "主語" },
+      { "text": "已经", "role": "Adv", "label": "副詞" },
+      { "text": "学了", "role": "V", "label": "動詞+了" },
+      { "text": "一年半", "role": "C", "label": "時量補語" },
+      { "text": "汉语", "role": "O", "label": "目的語" },
+      { "text": "了", "role": "Aux", "label": "継続の了" }
+    ],
+    "explanation": "文末の「了」を付けることで「現在もなお勉強を継続していて1年半に達した」という意味になります。",
+    "commonMistakes": [
+      { "wrong": "我已经学了一年半汉语。", "reason": "文末の「了」を落とすと過去の一定期間だけ学んだ（今はやっていない）意味に解釈されやすくなります。" }
+    ]
+  },
+  {
+    "id": "C-G11-01-05",
+    "lessonId": "L11",
+    "minLesson": 11,
+    "grammarIds": ["G11-01", "G09-02"],
+    "difficulty": 2,
+    "japanesePrompt": "私はこの映画をこれまでに2回観たことがあります。",
+    "targetGrammarHint": "経験の「过」と動量補語「两次」を組み合わせます。",
+    "hints": [
+      "「観たことがある」は「看过」を使います。",
+      "回数「两次」は「看过」の直後に置きます。",
+      "这部电影 ＋ 我以前 ＋ 看过两次。"
+    ],
+    "modelAnswer": "这部电影我以前看过两次。",
+    "acceptableAnswers": [
+      "这部电影我以前看过两次。",
+      "这部电影我以前看过两次",
+      "我以前看过两次这部电影。",
+      "这部电影我看过两次。"
+    ],
+    "pinyin": "Zhè bù diànyǐng wǒ yǐqián kàn guo liǎng cì.",
+    "structureBreakdown": [
+      { "text": "这部电影", "role": "O", "label": "前置目的語" },
+      { "text": "我", "role": "S", "label": "主語" },
+      { "text": "以前", "role": "Time", "label": "時間" },
+      { "text": "看过", "role": "V", "label": "動詞+过" },
+      { "text": "两次", "role": "C", "label": "動量補語" }
+    ],
+    "explanation": "過去の経験回数を述べるときは「V + 过 + 回数」の語順になります。「2回」は「两次」です。",
+    "commonMistakes": [
+      { "wrong": "这部电影我以前看两次过。", "reason": "「过」は必ず動詞の直後に置き、回数はその後に続けます。" }
+    ]
+  },
+
+  {
+    "id": "C-G11-02-01",
+    "lessonId": "L11",
+    "minLesson": 11,
+    "grammarIds": ["G11-02"],
+    "difficulty": 1,
+    "japanesePrompt": "あなたはどのようにして学校へ来たのですか？ — 地下鉄に乗って来ました。",
+    "targetGrammarHint": "交通手段を焦点化する「是……的」構文を使います。",
+    "hints": [
+      "手段を尋ねる疑問詞は「怎么 (zěnme)」を使います。",
+      "「是 + 手段 + 来的」の形にします。",
+      "你是怎么来学校的？ — 我是坐地铁来的。"
+    ],
+    "modelAnswer": "你是怎么来学校的？我是坐地铁来的。",
+    "acceptableAnswers": [
+      "你是怎么来学校的？我是坐地铁来的。",
+      "你是怎么来学校的？我是坐地铁来的",
+      "你是怎么来学校的？我坐地铁来的。"
+    ],
+    "pinyin": "Nǐ shì zěnme lái xuéxiào de? Wǒ shì zuò dìtiě lái de.",
+    "structureBreakdown": [
+      { "text": "你", "role": "S", "label": "主語" },
+      { "text": "是", "role": "V", "label": "焦点枠" },
+      { "text": "怎么", "role": "Adv", "label": "手段疑問" },
+      { "text": "来学校的？", "role": "V", "label": "動詞+目的語+的" },
+      { "text": "我是坐地铁来的", "role": "P", "label": "応答文" }
+    ],
+    "explanation": "学校へ到着したことは双方の既知の事実であり、その「手段（どうやって）」を焦点にして問答する「是……的」の典型例です。",
+    "commonMistakes": [
+      { "wrong": "你是怎么来了学校的？", "reason": "「是……的」構文では完了の「了」を使いません。" }
+    ]
+  },
+  {
+    "id": "C-G11-02-02",
+    "lessonId": "L11",
+    "minLesson": 11,
+    "grammarIds": ["G11-02"],
+    "difficulty": 1,
+    "japanesePrompt": "彼は杭州から来たのです。",
+    "targetGrammarHint": "出発地「从杭州」を「是……的」で強調します。",
+    "hints": [
+      "「〜から」は介詞「从 (cóng)」を使います。",
+      "「是 ＋ 从杭州 ＋ 来 ＋ 的」の語順にします。",
+      "他是 ＋ 从杭州 ＋ 来的。"
+    ],
+    "modelAnswer": "他是从杭州来的。",
+    "acceptableAnswers": [
+      "他是从杭州来的。",
+      "他是从杭州来的",
+      "他从杭州来的。"
+    ],
+    "pinyin": "Tā shì cóng Hángzhōu lái de.",
+    "structureBreakdown": [
+      { "text": "他", "role": "S", "label": "主語" },
+      { "text": "是", "role": "V", "label": "焦点枠" },
+      { "text": "从杭州", "role": "Prep", "label": "出発地" },
+      { "text": "来", "role": "V", "label": "動詞" },
+      { "text": "的", "role": "Aux", "label": "的" }
+    ],
+    "explanation": "出身地や出発地を述べるときに最もよく使われる「是 + 从〜 + 来的」の文型です。",
+    "commonMistakes": [
+      { "wrong": "他是杭州来的。", "reason": "場所を起点として「〜から来た」と言うときは介詞「从」が必要です。" }
+    ]
+  },
+  {
+    "id": "C-G11-02-03",
+    "lessonId": "L11",
+    "minLesson": 11,
+    "grammarIds": ["G11-02"],
+    "difficulty": 2,
+    "japanesePrompt": "この中国語辞典は私が昨日、駅前の書店で買ったものです。",
+    "targetGrammarHint": "時間と場所を「是……的」で焦点化します。",
+    "hints": [
+      "「駅前の書店で」は「在车站前面的书店」で表します。",
+      "時間「昨天」と場所「在……书店」を「是」の後ろに並べます。",
+      "这本汉语词典 ＋ 是我昨天在车站前面的书店 ＋ 买的。"
+    ],
+    "modelAnswer": "这本汉语词典是我昨天在车站前面的书店买的。",
+    "acceptableAnswers": [
+      "这本汉语词典是我昨天在车站前面的书店买的。",
+      "这本汉语词典是我昨天在车站前面的书店买的",
+      "这本中文词典是我昨天在车站前的书店买的。"
+    ],
+    "pinyin": "Zhè běn Hànyǔ cídiǎn shì wǒ zuótiān zài chēzhàn qiánmiàn de shūdiàn mǎi de.",
+    "structureBreakdown": [
+      { "text": "这本汉语词典", "role": "S", "label": "主語" },
+      { "text": "是", "role": "V", "label": "焦点枠" },
+      { "text": "我昨天在车站前面的书店", "role": "P", "label": "動作主+時間+場所" },
+      { "text": "买", "role": "V", "label": "動詞" },
+      { "text": "的", "role": "Aux", "label": "的" }
+    ],
+    "explanation": "購入済みの辞典を主語に立てて、「誰が・いつ・どこで」買ったのかを「是……的」で説明する自然な文です。",
+    "commonMistakes": [
+      { "wrong": "这本汉语词典是我昨天在车站前面的书店买了的。", "reason": "「是……的」構文に「了」を併用してはいけません。" }
+    ]
+  },
+  {
+    "id": "C-G11-02-04",
+    "lessonId": "L11",
+    "minLesson": 11,
+    "grammarIds": ["G11-02"],
+    "difficulty": 2,
+    "japanesePrompt": "この料理は私が作ったのではなく、母が作ったものです。",
+    "targetGrammarHint": "「是……的」の否定「不是……的」で動作主を対比します。",
+    "hints": [
+      "「〜が作ったのではない」は「不是我做的」とします。",
+      "後半は「是妈妈做的」で受けます。",
+      "这道菜不是我做的，是妈妈做的。"
+    ],
+    "modelAnswer": "这道菜不是我做的，是妈妈做的。",
+    "acceptableAnswers": [
+      "这道菜不是我做的，是妈妈做的。",
+      "这道菜不是我做的，是妈妈做的",
+      "这个菜不是我做的，是我妈妈做的。"
+    ],
+    "pinyin": "Zhè dào cài bú shì wǒ zuò de, shì māma zuò de.",
+    "structureBreakdown": [
+      { "text": "这道菜", "role": "S", "label": "主語" },
+      { "text": "不是我做的", "role": "P", "label": "否定焦点" },
+      { "text": "是妈妈做的", "role": "P", "label": "肯定焦点" }
+    ],
+    "explanation": "「是……的」構文を否定するときは必ず「不是……的」となり、「没是」にはなりません。",
+    "commonMistakes": [
+      { "wrong": "这道菜没是我做的。", "reason": "「是……的」構文の否定には「没」ではなく「不」を使い「不是……的」にします。" }
+    ]
+  },
+  {
+    "id": "C-G11-02-05",
+    "lessonId": "L11",
+    "minLesson": 11,
+    "grammarIds": ["G11-02"],
+    "difficulty": 2,
+    "japanesePrompt": "あなたと山田さんはどこで知り合ったのですか？",
+    "targetGrammarHint": "知り合った場所を「是在哪儿认识的？」で尋ねます。",
+    "hints": [
+      "「〜と」は「和」または「跟」、「知り合う」は「认识 (rènshi)」です。",
+      "「どこで〜したのか」は「是在哪儿……的？」を使います。",
+      "你和山田 ＋ 是在哪儿认识的？"
+    ],
+    "modelAnswer": "你和山田是在哪儿认识的？",
+    "acceptableAnswers": [
+      "你和山田是在哪儿认识的？",
+      "你和山田是在哪儿认识的",
+      "你跟山田是在哪里认识的？"
+    ],
+    "pinyin": "Nǐ hé Shāntián shì zài nǎr rènshi de?",
+    "structureBreakdown": [
+      { "text": "你和山田", "role": "S", "label": "主語" },
+      { "text": "是", "role": "V", "label": "焦点枠" },
+      { "text": "在哪儿", "role": "Loc", "label": "疑問(場所)" },
+      { "text": "认识", "role": "V", "label": "動詞" },
+      { "text": "的？", "role": "Aux", "label": "的" }
+    ],
+    "explanation": "2人が知り合いであることは既知であり、「どこで知り合ったか」という過去の状況を尋ねる「是……的」疑問文です。",
+    "commonMistakes": [
+      { "wrong": "你和山田在哪儿认识了？", "reason": "知り合った場所を尋ねる場合は「是……的」構文にするのが自然です。" }
+    ]
+  },
+
+  {
+    "id": "C-G11-03-01",
+    "lessonId": "L11",
+    "minLesson": 11,
+    "grammarIds": ["G11-03"],
+    "difficulty": 1,
+    "japanesePrompt": "私はこの映画がとても面白いと思います。",
+    "targetGrammarHint": "「我觉得 + 主述フレーズ」の語順を使います。",
+    "hints": [
+      "「〜と思う」は「我觉得 (wǒ juéde)」を文頭に置きます。",
+      "「とても面白い」は「很有意思」または「很精彩」で表します。",
+      "我觉得 ＋ 这部电影很有意思。"
+    ],
+    "modelAnswer": "我觉得这部电影很有意思。",
+    "acceptableAnswers": [
+      "我觉得这部电影很有意思。",
+      "我觉得这部电影很有意思",
+      "我觉得这个电影很有意思。",
+      "我觉得这部电影非常精彩。"
+    ],
+    "pinyin": "Wǒ juéde zhè bù diànyǐng hěn yǒu yìsi.",
+    "structureBreakdown": [
+      { "text": "我", "role": "S", "label": "主語" },
+      { "text": "觉得", "role": "V", "label": "動詞" },
+      { "text": "这部电影很有意思", "role": "O", "label": "主述節" }
+    ],
+    "explanation": "「觉得」の後ろに「这部电影很有意思」という主述フレーズをそのまま目的語として続けます。",
+    "commonMistakes": [
+      { "wrong": "这部电影很有意思我觉得。", "reason": "中国語では主述節を「觉得」の後ろに置きます。" }
+    ]
+  },
+  {
+    "id": "C-G11-03-02",
+    "lessonId": "L11",
+    "minLesson": 11,
+    "grammarIds": ["G11-03"],
+    "difficulty": 2,
+    "japanesePrompt": "先生は、私たちが毎日中国語を音読するべきだと考えています。",
+    "targetGrammarHint": "意見を表す「认为」＋主述フレーズを使います。",
+    "hints": [
+      "「〜と考える」は「认为 (rènwéi)」を使います。",
+      "「音読するべきだ」は「应该朗读 (yīnggāi lǎngdú)」または「应该多读」で表せます。",
+      "老师认为 ＋ 我们每天应该朗读汉语。"
+    ],
+    "modelAnswer": "老师认为我们每天应该朗读汉语。",
+    "acceptableAnswers": [
+      "老师认为我们每天应该朗读汉语。",
+      "老师认为我们每天应该朗读汉语",
+      "老师觉得我们应该每天朗读中文。"
+    ],
+    "pinyin": "Lǎoshī rènwéi wǒmen měitiān yīnggāi lǎngdú Hànyǔ.",
+    "structureBreakdown": [
+      { "text": "老师", "role": "S", "label": "主語" },
+      { "text": "认为", "role": "V", "label": "思考動詞" },
+      { "text": "我们每天应该朗读汉语", "role": "O", "label": "主述節" }
+    ],
+    "explanation": "「认为」の後ろに学習上の意見を表す節「我们每天应该朗读汉语」を直接つなぎます。",
+    "commonMistakes": [
+      { "wrong": "老师认为说我们每天应该朗读汉语。", "reason": "「认为」と節の間に「说」などを挟む必要はありません。" }
+    ]
+  },
+  {
+    "id": "C-G11-03-03",
+    "lessonId": "L11",
+    "minLesson": 11,
+    "grammarIds": ["G11-03"],
+    "difficulty": 2,
+    "japanesePrompt": "来年の夏、私たちが蘇州の古典庭園を一緒に見学できることを願っています。",
+    "targetGrammarHint": "「我希望 + 主述フレーズ」を使います。",
+    "hints": [
+      "「〜を願う」は「希望 (xīwàng)」を使います。",
+      "「蘇州の古典庭園」は「苏州的古典园林」です。",
+      "我希望明年夏天 ＋ 我们能一起参观苏州的古典园林。"
+    ],
+    "modelAnswer": "我希望明年夏天我们能一起参观苏州的古典园林。",
+    "acceptableAnswers": [
+      "我希望明年夏天我们能一起参观苏州的古典园林。",
+      "我希望明年夏天我们能一起参观苏州的古典园林",
+      "我希望能和大家明年夏天一起去参观苏州的古典园林。"
+    ],
+    "pinyin": "Wǒ xīwàng míngnián xiàtiān wǒmen néng yìqǐ cānguān Sūzhōu de gǔdiǎn yuánlín.",
+    "structureBreakdown": [
+      { "text": "我", "role": "S", "label": "主語" },
+      { "text": "希望", "role": "V", "label": "願望動詞" },
+      { "text": "明年夏天我们能一起参观苏州的古典园林", "role": "O", "label": "主述節" }
+    ],
+    "explanation": "「希望」は「我想」と異なり、自分以外の主語を含む節を目的語にとることができます。",
+    "commonMistakes": [
+      { "wrong": "我想明年夏天我们能一起参观。", "reason": "「想」は通常自分の行動意欲に使い、状況や複数人の希望を述べる節をとるときは「希望」を使います。" }
+    ]
+  },
+  {
+    "id": "C-G11-03-04",
+    "lessonId": "L11",
+    "minLesson": 11,
+    "grammarIds": ["G11-03"],
+    "difficulty": 2,
+    "japanesePrompt": "あなたは、彼が明日時間どおりに来られると思いますか？",
+    "targetGrammarHint": "「你觉得……吗？」または「你认为……」で相手の考えを尋ねます。",
+    "hints": [
+      "「時間どおりに」は「准时 (zhǔnshí)」または「按时 (ànshí)」を使います。",
+      "「来られる」は「能来」で表します。",
+      "你觉得 ＋ 他明天能准时来 ＋ 吗？"
+    ],
+    "modelAnswer": "你觉得他明天能准时来吗？",
+    "acceptableAnswers": [
+      "你觉得他明天能准时来吗？",
+      "你觉得他明天能准时来吗",
+      "你认为他明天能按时来吗？",
+      "你觉得他明天能不能准时来？"
+    ],
+    "pinyin": "Nǐ juéde tā míngtiān néng zhǔnshí lái ma?",
+    "structureBreakdown": [
+      { "text": "你", "role": "S", "label": "主語" },
+      { "text": "觉得", "role": "V", "label": "思考動詞" },
+      { "text": "他明天能准时来", "role": "O", "label": "主述節" },
+      { "text": "吗？", "role": "Aux", "label": "疑問助詞" }
+    ],
+    "explanation": "「你觉得＋主述節＋吗？」で相手の予測や見解を自然に尋ねることができます。",
+    "commonMistakes": [
+      { "wrong": "他明天能准时来，你觉得吗？", "reason": "疑問の内容は「觉得」の後ろに組み込みます。" }
+    ]
+  },
+  {
+    "id": "C-G11-03-05",
+    "lessonId": "L11",
+    "minLesson": 11,
+    "grammarIds": ["G11-03"],
+    "difficulty": 2,
+    "japanesePrompt": "この博物館が毎週月曜日に休館だということを私は知りませんでした。",
+    "targetGrammarHint": "「我不知道 + 主述フレーズ」を使います。",
+    "hints": [
+      "「知らなかった」は「不知道」または「之前不知道」で表します（「知道」の否定は通常「不」）。",
+      "「休館する」は「闭馆 (bìguǎn)」または「休息」です。",
+      "我不知道 ＋ 这座博物馆每周一闭馆。"
+    ],
+    "modelAnswer": "我不知道这座博物馆每周一闭馆。",
+    "acceptableAnswers": [
+      "我不知道这座博物馆每周一闭馆。",
+      "我不知道这座博物馆每周一闭馆",
+      "我以前不知道这家博物馆每星期一休息。",
+      "我之前不知道这座博物馆每周一闭馆。"
+    ],
+    "pinyin": "Wǒ bù zhīdào zhè zuò bówùguǎn měi zhōuyī bìguǎn.",
+    "structureBreakdown": [
+      { "text": "我", "role": "S", "label": "主語" },
+      { "text": "不知道", "role": "V", "label": "否定+認知動詞" },
+      { "text": "这座博物馆每周一闭馆", "role": "O", "label": "主述節" }
+    ],
+    "explanation": "「知道」は認知・状態の動詞であるため、過去のことでも「不知道」と「不」で否定するのが標準です。",
+    "commonMistakes": [
+      { "wrong": "我没知道这座博物馆每周一闭馆。", "reason": "「知道」の否定には「没」ではなく「不」を使います。" }
+    ]
+  },
+
+  {
+    "id": "C-G11-04-01",
+    "lessonId": "L11",
+    "minLesson": 11,
+    "grammarIds": ["G11-04"],
+    "difficulty": 1,
+    "japanesePrompt": "私の辞書はあなたの辞書と同じです。",
+    "targetGrammarHint": "「A 跟/和 B 一样」で、比較対象を「我的词典」と「你的（词典）」で揃えます。",
+    "hints": [
+      "「あなたの（辞書）」は「你的词典」または省略して「你的」にします。",
+      "「同じ」は「一样 (yíyàng)」を最後に置きます。",
+      "我的词典 ＋ 跟你的 ＋ 一样。"
+    ],
+    "modelAnswer": "我的词典跟你的词典一样。",
+    "acceptableAnswers": [
+      "我的词典跟你的词典一样。",
+      "我的词典跟你的词典一样",
+      "我的词典和你的一样。",
+      "我的词典跟你的一样。"
+    ],
+    "pinyin": "Wǒ de cídiǎn gēn nǐ de cídiǎn yíyàng.",
+    "structureBreakdown": [
+      { "text": "我的词典", "role": "S", "label": "比較A" },
+      { "text": "跟", "role": "Prep", "label": "と" },
+      { "text": "你的词典", "role": "O", "label": "比較B" },
+      { "text": "一样", "role": "P", "label": "述語" }
+    ],
+    "explanation": "比較対象AとBが同じ種類のモノになるよう「我的词典」と「你的（词典）」を揃えます。",
+    "commonMistakes": [
+      { "wrong": "我的词典和你一样。", "reason": "「的」を落とすと「私の辞書とあなた自身」を比較することになってしまいます。" }
+    ]
+  },
+  {
+    "id": "C-G11-04-02",
+    "lessonId": "L11",
+    "minLesson": 11,
+    "grammarIds": ["G11-04"],
+    "difficulty": 1,
+    "japanesePrompt": "中国の食文化は日本のとまったく違います。",
+    "targetGrammarHint": "「完全不一样」で「まったく異なる」を表します。",
+    "hints": [
+      "「食文化」は「饮食文化 (yǐnshí wénhuà)」または「饮食习惯」です。",
+      "「まったく違う」は「完全不一样」を使います。",
+      "中国的饮食文化 ＋ 和日本的 ＋ 完全不一样。"
+    ],
+    "modelAnswer": "中国的饮食文化和日本的完全不一样。",
+    "acceptableAnswers": [
+      "中国的饮食文化和日本的完全不一样。",
+      "中国的饮食文化和日本的完全不一样",
+      "中国的饮食习惯跟日本的完全不一样。"
+    ],
+    "pinyin": "Zhōngguó de yǐnshí wénhuà hé Rìběn de wánquán bù yíyàng.",
+    "structureBreakdown": [
+      { "text": "中国的饮食文化", "role": "S", "label": "比較A" },
+      { "text": "和", "role": "Prep", "label": "と" },
+      { "text": "日本的", "role": "O", "label": "比較B" },
+      { "text": "完全", "role": "Adv", "label": "副詞" },
+      { "text": "不一样", "role": "P", "label": "述語" }
+    ],
+    "explanation": "「完全」は「不一样」の直前に置き、完全に異なることを強調します。",
+    "commonMistakes": [
+      { "wrong": "中国的饮食文化和日本不一样完全。", "reason": "程度を表す副詞「完全」は「不一样」の前に置きます。" }
+    ]
+  },
+  {
+    "id": "C-G11-04-03",
+    "lessonId": "L11",
+    "minLesson": 11,
+    "grammarIds": ["G11-04"],
+    "difficulty": 2,
+    "japanesePrompt": "大阪の夏は京都と同じくらい暑いです。",
+    "targetGrammarHint": "「A 跟/和 B 一样 + 形容詞」を使います（「很」不要）。",
+    "hints": [
+      "「暑い」は「热 (rè)」です。",
+      "「一样」の後ろに「热」を続けますが、「很」は入れません。",
+      "大阪的夏天 ＋ 跟京都 ＋ 一样热。"
+    ],
+    "modelAnswer": "大阪的夏天跟京都一样热。",
+    "acceptableAnswers": [
+      "大阪的夏天跟京都一样热。",
+      "大阪的夏天跟京都一样热",
+      "大阪的夏天和京都的一样热。",
+      "大阪的夏天和京都一样热。"
+    ],
+    "pinyin": "Dàbǎn de xiàtiān gēn Jīngdū yíyàng rè.",
+    "structureBreakdown": [
+      { "text": "大阪的夏天", "role": "S", "label": "比較A" },
+      { "text": "跟", "role": "Prep", "label": "と" },
+      { "text": "京都", "role": "O", "label": "比較B" },
+      { "text": "一样", "role": "Adv", "label": "同じくらい" },
+      { "text": "热", "role": "P", "label": "形容詞" }
+    ],
+    "explanation": "同等比較では「一样 + 形容詞」の形になり、間に「很」を入れない点に注意します。",
+    "commonMistakes": [
+      { "wrong": "大阪的夏天跟京都一样很热。", "reason": "「一样」の後ろの形容詞には「很」を付けません。" }
+    ]
+  },
+  {
+    "id": "C-G11-04-04",
+    "lessonId": "L11",
+    "minLesson": 11,
+    "grammarIds": ["G11-04"],
+    "difficulty": 2,
+    "japanesePrompt": "妹は私と同じように、写真を撮るのが大好きです。",
+    "targetGrammarHint": "「A 跟/和 B 一样 + 動詞フレーズ」を使います。",
+    "hints": [
+      "「写真を撮る」は「拍照 (pāizhào)」または「照相」です。",
+      "「〜と同じように」は「跟我一样」を述語「非常喜欢拍照」の前に置きます。",
+      "妹妹跟我一样，非常喜欢拍照。"
+    ],
+    "modelAnswer": "妹妹跟我一样，非常喜欢拍照。",
+    "acceptableAnswers": [
+      "妹妹跟我一样，非常喜欢拍照。",
+      "妹妹跟我一样，非常喜欢拍照",
+      "我妹妹和我一样很喜欢照相。",
+      "妹妹跟我一样喜欢拍照。"
+    ],
+    "pinyin": "Mèimei gēn wǒ yíyàng, fēicháng xǐhuan pāizhào.",
+    "structureBreakdown": [
+      { "text": "妹妹", "role": "S", "label": "比較A" },
+      { "text": "跟我", "role": "Prep", "label": "と+B" },
+      { "text": "一样", "role": "Adv", "label": "同じように" },
+      { "text": "非常喜欢拍照", "role": "P", "label": "述語句" }
+    ],
+    "explanation": "「一样」の後ろに形容詞だけでなく「喜欢〜」などの動詞フレーズを続けて「同じように〜する」と言えます。",
+    "commonMistakes": [
+      { "wrong": "妹妹跟我一样的喜欢拍照。", "reason": "「一样」と動詞句の間に「的」は不要です。" }
+    ]
+  },
+  {
+    "id": "C-G11-04-05",
+    "lessonId": "L11",
+    "minLesson": 11,
+    "grammarIds": ["G11-04"],
+    "difficulty": 2,
+    "japanesePrompt": "この公園の雰囲気は、私が想像していたのと少し違います。",
+    "targetGrammarHint": "「不太一样」で「少し違う（あまり同じではない）」を表します。",
+    "hints": [
+      "「私が想像していた（もの）」は「我想象的 (wǒ xiǎngxiàng de)」で表せます。",
+      "「少し違う」は「不太一样」を使います。",
+      "这个公园的气氛 ＋ 跟我想象的 ＋ 不太一样。"
+    ],
+    "modelAnswer": "这个公园的气氛跟我想象的不太一样。",
+    "acceptableAnswers": [
+      "这个公园的气氛跟我想象的不太一样。",
+      "这个公园的气氛跟我想象的不太一样",
+      "这家公园的气氛和我想的不太一样。"
+    ],
+    "pinyin": "Zhège gōngyuán de qìfēn gēn wǒ xiǎngxiàng de bú tài yíyàng.",
+    "structureBreakdown": [
+      { "text": "这个公园的气氛", "role": "S", "label": "比較A" },
+      { "text": "跟", "role": "Prep", "label": "と" },
+      { "text": "我想象的", "role": "O", "label": "比較B(的フレーズ)" },
+      { "text": "不太一样", "role": "P", "label": "述語" }
+    ],
+    "explanation": "「跟我想象的不太一样（思っていたのとちょっと違う）」は日常会話でとてもよく使われる自然な表現です。",
+    "commonMistakes": [
+      { "wrong": "跟我想象的一点儿不一样。", "reason": "「少し違う」には「有点儿不一样」または「不太一样」を使い、「一点儿不一样」とは言いません。" }
+    ]
+  },
+
+  {
+    "id": "C-G11-05-01",
+    "lessonId": "L11",
+    "minLesson": 11,
+    "grammarIds": ["G11-05"],
+    "difficulty": 1,
+    "japanesePrompt": "彼は家に帰るとすぐに宿題をやり始めます。",
+    "targetGrammarHint": "「S + 一 + V1 + 就 + V2」を使います。",
+    "hints": [
+      "「家に帰る」は「回家」、「〜し始める」は「开始 + V」を使います。",
+      "主語「他」が同じなので冒頭に1回だけ置きます。",
+      "他一回家 ＋ 就开始写作业。"
+    ],
+    "modelAnswer": "他一回家就开始写作业。",
+    "acceptableAnswers": [
+      "他一回家就开始写作业。",
+      "他一回家就开始写作业",
+      "他一回到家就开始做作业。"
+    ],
+    "pinyin": "Tā yì huíjiā jiù kāishǐ xiě zuòyè.",
+    "structureBreakdown": [
+      { "text": "他", "role": "S", "label": "主語" },
+      { "text": "一", "role": "Adv", "label": "一" },
+      { "text": "回家", "role": "V", "label": "動作1" },
+      { "text": "就", "role": "Adv", "label": "就" },
+      { "text": "开始写作业", "role": "V", "label": "動作2" }
+    ],
+    "explanation": "同一主語による連続動作「一＋V1＋就＋V2」の基本文型です。前半「一回家」には「了」を付けません。",
+    "commonMistakes": [
+      { "wrong": "一他回家就开始写作业。", "reason": "「一」は副詞なので主語「他」の後ろに置きます。" }
+    ]
+  },
+  {
+    "id": "C-G11-05-02",
+    "lessonId": "L11",
+    "minLesson": 11,
+    "grammarIds": ["G11-05"],
+    "difficulty": 2,
+    "japanesePrompt": "授業のベルが鳴るとすぐ、学生たちはみんな教室に入りました。",
+    "targetGrammarHint": "主語が前後で異なるときは「S1 + 一 + V1，S2 + 就 + V2」にします。",
+    "hints": [
+      "「授業のベルが鳴る」は「上课铃响 (shàngkèlíng xiǎng)」で表せます。",
+      "2番目の主語「学生们」は「就」の前に置きます。",
+      "上课铃一响，学生们就都走进教室了。"
+    ],
+    "modelAnswer": "上课铃一响，学生们就都走进教室了。",
+    "acceptableAnswers": [
+      "上课铃一响，学生们就都走进教室了。",
+      "上课铃一响，学生们就都走进教室了",
+      "上课铃一响，学生们就进教室了。"
+    ],
+    "pinyin": "Shàngkèlíng yì xiǎng, xuéshengmen jiù dōu zǒujìn jiàoshì le.",
+    "structureBreakdown": [
+      { "text": "上课铃", "role": "S", "label": "主語1" },
+      { "text": "一响", "role": "V", "label": "一+動作1" },
+      { "text": "学生们", "role": "S", "label": "主語2" },
+      { "text": "就都", "role": "Adv", "label": "副詞" },
+      { "text": "走进教室了", "role": "V", "label": "動作2" }
+    ],
+    "explanation": "主語が変わる場合は「主語1＋一＋動詞1，主語2＋就＋動詞2」の語順を守ることが重要です。",
+    "commonMistakes": [
+      { "wrong": "上课铃一响，就学生们走进教室了。", "reason": "2番目の主語「学生们」は必ず「就」の前に置きます。" }
+    ]
+  },
+  {
+    "id": "C-G11-05-03",
+    "lessonId": "L11",
+    "minLesson": 11,
+    "grammarIds": ["G11-05"],
+    "difficulty": 2,
+    "japanesePrompt": "この漢字は、彼は一目見てすぐに覚えました。",
+    "targetGrammarHint": "「一看就记住了」のように結果補語と組み合わせます。",
+    "hints": [
+      "目的語「这个汉字」を文頭に立てると自然です。",
+      "「覚える」は結果補語「记住 (jìzhù)」を使います。",
+      "这个汉字，他一看就记住了。"
+    ],
+    "modelAnswer": "这个汉字，他一看就记住了。",
+    "acceptableAnswers": [
+      "这个汉字，他一看就记住了。",
+      "这个汉字，他一看就记住了",
+      "他一看就记住了这个汉字。"
+    ],
+    "pinyin": "Zhège Hànzì, tā yí kàn jiù jì zhù le.",
+    "structureBreakdown": [
+      { "text": "这个汉字", "role": "O", "label": "話題(目的語)" },
+      { "text": "他", "role": "S", "label": "主語" },
+      { "text": "一看", "role": "V", "label": "一+動作1" },
+      { "text": "就记住了", "role": "V", "label": "就+結果補語+了" }
+    ],
+    "explanation": "「一 + V1 + 就 + V2」の後半に結果補語＋「了」を置き、瞬時の達成を表しています。",
+    "commonMistakes": [
+      { "wrong": "他一看了这个汉字就记住。", "reason": "前半の「一＋V」には「了」を付けません。" }
+    ]
+  },
+  {
+    "id": "C-G11-05-04",
+    "lessonId": "L11",
+    "minLesson": 11,
+    "grammarIds": ["G11-05"],
+    "difficulty": 2,
+    "japanesePrompt": "冬になるとすぐに、北海道は真っ白な雪の世界になります。",
+    "targetGrammarHint": "季節の変化を表す「一到冬天，……就……」を使います。",
+    "hints": [
+      "「冬になる」は「到冬天」、「〜になる」は「变成 (biànchéng)」を使います。",
+      "「雪の世界」は「雪的世界」または「银装素裹」などで表現できます。",
+      "一到冬天，北海道就变成了雪的世界。"
+    ],
+    "modelAnswer": "一到冬天，北海道就变成了雪的世界。",
+    "acceptableAnswers": [
+      "一到冬天，北海道就变成了雪的世界。",
+      "一到冬天，北海道就变成了雪的世界",
+      "一到冬天，北海道就成了雪的世界。"
+    ],
+    "pinyin": "Yí dào dōngtiān, Běihǎidào jiù biànchéng le xuě de shìjiè.",
+    "structureBreakdown": [
+      { "text": "一到冬天", "role": "Time", "label": "一+季節到来" },
+      { "text": "北海道", "role": "S", "label": "主語" },
+      { "text": "就", "role": "Adv", "label": "就" },
+      { "text": "变成了雪的世界", "role": "V", "label": "変化結果" }
+    ],
+    "explanation": "「一到＋季節・時間」で「〜になるとすぐに」を表す、描写文で非常によく使われる表現です。",
+    "commonMistakes": [
+      { "wrong": "到一冬天，北海道就变成雪的世界。", "reason": "「一」は「到」の前に置いて「一到冬天」とします。" }
+    ]
+  },
+  {
+    "id": "C-G11-05-05",
+    "lessonId": "L11",
+    "minLesson": 11,
+    "grammarIds": ["G11-05"],
+    "difficulty": 2,
+    "japanesePrompt": "私は長い文章を読むとすぐに眠くなります。",
+    "targetGrammarHint": "条件反応の「一……就……」を使います。",
+    "hints": [
+      "「長い文章」は「长文章 (cháng wénzhāng)」、「眠くなる」は「想睡觉」または「犯困 (fànkùn)」です。",
+      "「一」を「读/看」の前に、「就」を「想睡觉」の前に置きます。",
+      "我一看长文章就想睡觉。"
+    ],
+    "modelAnswer": "我一看长文章就想睡觉。",
+    "acceptableAnswers": [
+      "我一看长文章就想睡觉。",
+      "我一看长文章就想睡觉",
+      "我一读长文章就犯困。",
+      "我一读长的文章就想睡觉。"
+    ],
+    "pinyin": "Wǒ yí kàn cháng wénzhāng jiù xiǎng shuìjiào.",
+    "structureBreakdown": [
+      { "text": "我", "role": "S", "label": "主語" },
+      { "text": "一看长文章", "role": "V", "label": "一+条件動作" },
+      { "text": "就想睡觉", "role": "V", "label": "就+反応" }
+    ],
+    "explanation": "ある条件が起きると毎回決まって生じる体質・習慣的な反応を表す「一……就……」の定番用法です。",
+    "commonMistakes": [
+      { "wrong": "我看了长文章一就想睡觉。", "reason": "「一」は動詞「看」の直前に置きます。" }
+    ]
+  }
+]

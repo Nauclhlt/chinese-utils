@@ -1,0 +1,332 @@
+[
+  {
+    "id": "L01",
+    "number": 1,
+    "title": "第1課",
+    "topic": "初対面の挨拶・自己紹介（人称代詞・是・基本動詞文）",
+    "objectives": [
+      "人称代詞の単数・複数と敬称「您」を使い分けられる",
+      "「是 / 不是」を用いて身分や属性を肯定・否定で表現できる",
+      "S + V + O の基本語順で簡単な動詞述語文を作れる"
+    ],
+    "grammarIds": ["G01-01", "G01-02", "G01-03"],
+    "referenceUrl": "https://hanyujiaocai.jinkan.kyoto-u.ac.jp/2018shanghai/2018CALL/L1_top.html",
+    "referenceTocUrl": "https://hanyujiaocai.jinkan.kyoto-u.ac.jp/2018shanghai/2018CALL/L1_toc.html",
+    "pronunciationFocus": "基本挨拶の音調・第3声連続（你好）・有気音と無気音の区別"
+  },
+  {
+    "id": "L02",
+    "number": 2,
+    "title": "第2課",
+    "topic": "所属・学校生活・質問と応答（的・吗/呢・也・一起）",
+    "objectives": [
+      "「的」を使って所有や所属関係を表す連体修飾句を作れる",
+      "「吗」で諾否疑問文を、「呢」で簡潔な問い返しを作れる",
+      "副詞「也」「一起」を述語の直前に正しく配置できる"
+    ],
+    "grammarIds": ["G02-01", "G02-02", "G02-03", "G02-04"],
+    "referenceUrl": "https://hanyujiaocai.jinkan.kyoto-u.ac.jp/2018shanghai/2018CALL/L2_top.html",
+    "referenceTocUrl": "https://hanyujiaocai.jinkan.kyoto-u.ac.jp/2018shanghai/2018CALL/L2_toc.html",
+    "pronunciationFocus": "軽声（的・吗・呢）および親族呼称の畳語"
+  },
+  {
+    "id": "L03",
+    "number": 3,
+    "title": "第3課",
+    "topic": "場所・風景の描写と道案内（指示代詞・形容詞・在・方位詞）",
+    "objectives": [
+      "指示代詞「这・那・这儿・那儿・哪儿」を正しく使える",
+      "形容詞述語文で「很」を補う規則と連体修飾の語順を理解する",
+      "動詞「在」と方位詞を組み合わせて物の位置を説明できる"
+    ],
+    "grammarIds": ["G03-01", "G03-02", "G03-03", "G03-04"],
+    "referenceUrl": "https://hanyujiaocai.jinkan.kyoto-u.ac.jp/2018shanghai/2018CALL/L3_top.html",
+    "referenceTocUrl": "https://hanyujiaocai.jinkan.kyoto-u.ac.jp/2018shanghai/2018CALL/L3_toc.html",
+    "pronunciationFocus": "そり舌音・r音・形容詞の対比ペアの声調"
+  },
+  {
+    "id": "L04",
+    "number": 4,
+    "title": "第4課",
+    "topic": "所有・移動・数量と疑問詞（有・介詞在/从/到・数詞量詞・疑問詞）",
+    "objectives": [
+      "動詞「有 / 没有」で所有や存在を表せる",
+      "介詞「在・从・到・给」の句を動詞の前に置く語順を習得する",
+      "数詞＋量詞＋名詞の基本構造と主要疑問詞の疑問文を使える"
+    ],
+    "grammarIds": ["G04-01", "G04-02", "G04-03", "G04-04"],
+    "referenceUrl": "https://hanyujiaocai.jinkan.kyoto-u.ac.jp/2018shanghai/2018CALL/L4_top.html",
+    "referenceTocUrl": "https://hanyujiaocai.jinkan.kyoto-u.ac.jp/2018shanghai/2018CALL/L4_toc.html",
+    "pronunciationFocus": "「一」の変調と基本数詞の発音"
+  },
+  {
+    "id": "L05",
+    "number": 5,
+    "title": "第5課",
+    "topic": "現在の動作・交通手段・比較（進行形・時間詞I・还是・比・連動文）",
+    "objectives": [
+      "「正 / 在 / 正在……(呢)」で進行中の動作を表せる",
+      "時間詞の位置（主語の前後）と選択疑問文「……还是……」を使える",
+      "「A 比 B + 形容詞」の比較文と連動文の語順を理解する"
+    ],
+    "grammarIds": ["G05-01", "G05-02", "G05-03", "G05-04", "G05-05"],
+    "referenceUrl": "https://hanyujiaocai.jinkan.kyoto-u.ac.jp/2018shanghai/2018CALL/L5_top.html",
+    "referenceTocUrl": "https://hanyujiaocai.jinkan.kyoto-u.ac.jp/2018shanghai/2018CALL/L5_toc.html",
+    "pronunciationFocus": "前鼻音 -n と後鼻音 -ng の聞き分け"
+  },
+  {
+    "id": "L06",
+    "number": 6,
+    "title": "第6課",
+    "topic": "食事の誘い・好み・範囲（吧・就・都・喜欢）",
+    "objectives": [
+      "語気助詞「吧」で柔らかい提案・推量・同意を表せる",
+      "副詞「就」と「都」を述語前に配置し、数量・条件・総括を表現できる",
+      "動詞「喜欢」の肯定・否定・目的語の取り方を習得する"
+    ],
+    "grammarIds": ["G06-01", "G06-02", "G06-03", "G06-04"],
+    "referenceUrl": "https://hanyujiaocai.jinkan.kyoto-u.ac.jp/2018shanghai/2018CALL/L6_top.html",
+    "referenceTocUrl": "https://hanyujiaocai.jinkan.kyoto-u.ac.jp/2018shanghai/2018CALL/L6_toc.html",
+    "pronunciationFocus": "「不」の変調（不好き・悪くない等）"
+  },
+  {
+    "id": "L07",
+    "number": 7,
+    "title": "第7課",
+    "topic": "旅行の計画・完了と変化（这么/那么・想/打算/要・一下・了）",
+    "objectives": [
+      "程度指示「这么 / 那么」を使って感情や程度を表現できる",
+      "願望・計画の「想 / 打算 / 要」のニュアンスを区別できる",
+      "「一下」で軽い試みを表し、完了の「了」と変化の「了」を使い分けられる"
+    ],
+    "grammarIds": ["G07-01", "G07-02", "G07-03", "G07-04"],
+    "referenceUrl": "https://hanyujiaocai.jinkan.kyoto-u.ac.jp/2018shanghai/2018CALL/L7_top.html",
+    "referenceTocUrl": "https://hanyujiaocai.jinkan.kyoto-u.ac.jp/2018shanghai/2018CALL/L7_toc.html",
+    "pronunciationFocus": "軽声「了」と文末のイントネーション"
+  },
+  {
+    "id": "L08",
+    "number": 8,
+    "title": "第8課",
+    "topic": "日時・年齢・身体や性質の描写（時間詞II・名詞述語文・主述述語文・一点儿）",
+    "objectives": [
+      "年月日・曜日・時刻を大きい単位から順に正確に表現できる",
+      "「是」を使わない名詞述語文（日時・年齢・価格）を作れる",
+      "主述述語文と「一点儿 / 有一点儿」の使い分けを習得する"
+    ],
+    "grammarIds": ["G08-01", "G08-02", "G08-03", "G08-04"],
+    "referenceUrl": "https://hanyujiaocai.jinkan.kyoto-u.ac.jp/2018shanghai/2018CALL/L8_top.html",
+    "referenceTocUrl": "https://hanyujiaocai.jinkan.kyoto-u.ac.jp/2018shanghai/2018CALL/L8_toc.html",
+    "pronunciationFocus": "時刻・日付の数詞連続と児化音（一点儿）"
+  },
+  {
+    "id": "L09",
+    "number": 9,
+    "title": "第9課",
+    "topic": "過去の経験・動作の結果と処置（結果補語・过・不是……吗・把構文）",
+    "objectives": [
+      "動詞＋結果補語で動作の達成・結果を表せる",
+      "「过」で過去の経験を表し、「了」と区別して否定形を作れる",
+      "反問「不是……吗？」と基本の「把」構文（S + 把 + O + V + 補語等）を使える"
+    ],
+    "grammarIds": ["G09-01", "G09-02", "G09-03", "G09-04"],
+    "referenceUrl": "https://hanyujiaocai.jinkan.kyoto-u.ac.jp/2018shanghai/2018CALL/L9_top.html",
+    "referenceTocUrl": "https://hanyujiaocai.jinkan.kyoto-u.ac.jp/2018shanghai/2018CALL/L9_toc.html",
+    "pronunciationFocus": "軽声「过」と結果補語アクセント"
+  },
+  {
+    "id": "L10",
+    "number": 10,
+    "title": "第10課",
+    "topic": "買い物・状態の持続・可能と許可（着・可能補語・貨幣・能/可以・二重目的語）",
+    "objectives": [
+      "「着」を用いて動作の結果生じた状態の持続を描写できる",
+      "「動詞＋得/不＋補語」で可能・不可能を表し、結果補語と区別できる",
+      "中国通貨の単位（元/块・角/毛・分）と「能 / 可以」の使い分けができる"
+    ],
+    "grammarIds": ["G10-01", "G10-02", "G10-03", "G10-04", "G10-05"],
+    "referenceUrl": "https://hanyujiaocai.jinkan.kyoto-u.ac.jp/2018shanghai/2018CALL/L10_top.html",
+    "referenceTocUrl": "https://hanyujiaocai.jinkan.kyoto-u.ac.jp/2018shanghai/2018CALL/L10_toc.html",
+    "pronunciationFocus": "「两」と「二」の区別、軽声「着」"
+  },
+  {
+    "id": "L11",
+    "number": 11,
+    "title": "第11課",
+    "topic": "感想・詳細の焦点化・比較と反応（回数/時間量・是……的・觉得・一样・一……就）",
+    "objectives": [
+      "動量補語（次/遍）と時量補語（時間・日数）を目的語とともに正しく配置できる",
+      "「是……的」構文で既発の出来事の時・場所・手段・行為者を焦点化できる",
+      "「觉得 + 主述句」「和/跟……一样」「一……就……」を使いこなせる"
+    ],
+    "grammarIds": ["G11-01", "G11-02", "G11-03", "G11-04", "G11-05"],
+    "referenceUrl": "https://hanyujiaocai.jinkan.kyoto-u.ac.jp/2018shanghai/2018CALL/L11_top.html",
+    "referenceTocUrl": "https://hanyujiaocai.jinkan.kyoto-u.ac.jp/2018shanghai/2018CALL/L11_toc.html",
+    "pronunciationFocus": "「一……就……」における「一」の変調"
+  },
+  {
+    "id": "L12",
+    "number": 12,
+    "title": "第12課",
+    "topic": "移動の向きと評価描写（単純方向補語・听说・程度補語）",
+    "objectives": [
+      "「来 / 去」を用いた単純方向補語と場所目的語・事物目的語の語順を理解する",
+      "「听说」で伝聞情報を伝えられる",
+      "「動詞＋得＋形容詞」の程度補語で動作の様子や到達度を評価できる"
+    ],
+    "grammarIds": ["G12-01", "G12-02", "G12-03"],
+    "referenceUrl": "https://hanyujiaocai.jinkan.kyoto-u.ac.jp/2018shanghai/2018CALL/L12_top.html",
+    "referenceTocUrl": "https://hanyujiaocai.jinkan.kyoto-u.ac.jp/2018shanghai/2018CALL/L12_toc.html",
+    "pronunciationFocus": "方向補語と軽声「得」の発音区別"
+  },
+  {
+    "id": "L13",
+    "number": 13,
+    "title": "第13課",
+    "topic": "仮定・柔らかい提案・義務（如果/要是・動詞重ね型・再・应该/得 děi）",
+    "objectives": [
+      "「如果 / 要是……(的话)，就……」で仮定条件文を作れる",
+      "動詞の重ね型（AA / A一A / ABAB）で軽い試み・短時間の動作を表せる",
+      "未実現の反復「再」と義務の助動詞「应该 / 得(děi)」を使える"
+    ],
+    "grammarIds": ["G13-01", "G13-02", "G13-03", "G13-04"],
+    "referenceUrl": "https://hanyujiaocai.jinkan.kyoto-u.ac.jp/2018shanghai/2018CALL/L13_top.html",
+    "referenceTocUrl": "https://hanyujiaocai.jinkan.kyoto-u.ac.jp/2018shanghai/2018CALL/L13_toc.html",
+    "pronunciationFocus": "動詞重ね型第2音節の軽声化と多音字「得 (de / děi / dé)」"
+  },
+  {
+    "id": "L14",
+    "number": 14,
+    "title": "第14課",
+    "topic": "複文修飾・受け身・因果（連体修飾II・地・被構文・因为/所以・快……了）",
+    "objectives": [
+      "節（主述文）を「的」で名詞に繋ぐ長い連体修飾を理解できる",
+      "連用修飾「〜地」と程度補語「〜得」の違いを正確に使い分けられる",
+      "受け身「被」構文、因果「因为……所以……」、切迫「快……了」を使える"
+    ],
+    "grammarIds": ["G14-01", "G14-02", "G14-03", "G14-04", "G14-05"],
+    "referenceUrl": "https://hanyujiaocai.jinkan.kyoto-u.ac.jp/2018shanghai/2018CALL/L14_top.html",
+    "referenceTocUrl": "https://hanyujiaocai.jinkan.kyoto-u.ac.jp/2018shanghai/2018CALL/L14_toc.html",
+    "pronunciationFocus": "「的・地・得」の共通軽声と文脈判別"
+  },
+  {
+    "id": "L15",
+    "number": 15,
+    "title": "第15課",
+    "topic": "比喩・例外・全面否定・複合方向（像/好像・除了……之外・強調表現I・複合方向補語）",
+    "objectives": [
+      "「像……一样」「好像」で比喩や推量を表現できる",
+      "「除了……之外/以外」で「〜を除いて」と「〜のほかに」を区別できる",
+      "疑問詞＋都/也による全称・全面否定と、複合方向補語の語順・派生義を習得する"
+    ],
+    "grammarIds": ["G15-01", "G15-02", "G15-03", "G15-04"],
+    "referenceUrl": "https://hanyujiaocai.jinkan.kyoto-u.ac.jp/2018shanghai/2018CALL/L15_top.html",
+    "referenceTocUrl": "https://hanyujiaocai.jinkan.kyoto-u.ac.jp/2018shanghai/2018CALL/L15_toc.html",
+    "pronunciationFocus": "複合方向補語の軽声化パターン"
+  },
+  {
+    "id": "L16",
+    "number": 16,
+    "title": "第16課",
+    "topic": "能力・使役・並立と累加（会・让/叫/使・又……又・不但……而且・怪不得）",
+    "objectives": [
+      "助動詞「会」（習得技能・将来の推量）を「能・可以」と区別できる",
+      "使役動詞「让 / 叫 / 使」の語順とニュアンスの差を理解する",
+      "「又……又……」「不但……而且……」「怪不得 / 难怪」で複文表現を豊かにする"
+    ],
+    "grammarIds": ["G16-01", "G16-02", "G16-03", "G16-04", "G16-05"],
+    "referenceUrl": "https://hanyujiaocai.jinkan.kyoto-u.ac.jp/2018shanghai/2018CALL/L16_top.html",
+    "referenceTocUrl": "https://hanyujiaocai.jinkan.kyoto-u.ac.jp/2018shanghai/2018CALL/L16_toc.html",
+    "pronunciationFocus": "複文接続詞のリズムと強調アクセント"
+  },
+  {
+    "id": "L17",
+    "number": 17,
+    "title": "第17課",
+    "topic": "頻度・禁止・存在描写（常常・要/不要・存現文・肯定/当然・关于）",
+    "objectives": [
+      "頻度副詞（常常・经常・总是・有时など）の位置と否定形を整理する",
+      "「要 / 不要」による予定・必要・禁止の表現を使い分けられる",
+      "「場所＋V＋着/了＋不特定名詞」の存現文と「肯定・当然」「关于・对」を習得する"
+    ],
+    "grammarIds": ["G17-01", "G17-02", "G17-03", "G17-04", "G17-05"],
+    "referenceUrl": "https://hanyujiaocai.jinkan.kyoto-u.ac.jp/2018shanghai/2018CALL/L17_top.html",
+    "referenceTocUrl": "https://hanyujiaocai.jinkan.kyoto-u.ac.jp/2018shanghai/2018CALL/L17_toc.html",
+    "pronunciationFocus": "存在表現における軽声「着」「了」の聞き取り"
+  },
+  {
+    "id": "L18",
+    "number": 18,
+    "title": "第18課",
+    "topic": "比例変化・定着・譲歩と目的（越……越・动词+在・尽管・为了）",
+    "objectives": [
+      "「越 A 越 B」で変化の比例関係を表せる",
+      "「動詞＋在＋場所」で動作の結果としての定着位置を表現できる",
+      "譲歩の「尽管……（但是……）」と目的の「为了……」を使える"
+    ],
+    "grammarIds": ["G18-01", "G18-02", "G18-03", "G18-04"],
+    "referenceUrl": "https://hanyujiaocai.jinkan.kyoto-u.ac.jp/2018shanghai/2018CALL/L18_top.html",
+    "referenceTocUrl": "https://hanyujiaocai.jinkan.kyoto-u.ac.jp/2018shanghai/2018CALL/L18_toc.html",
+    "pronunciationFocus": "「为 (wèi / wéi)」の声調使い分け"
+  },
+  {
+    "id": "L19",
+    "number": 19,
+    "title": "第19課",
+    "topic": "既定事実・決意・不定の呼応（才・既然・非……不可・疑問詞呼応）",
+    "objectives": [
+      "副詞「才」で動作の遅さや条件の厳しさを表現し、「就」と区別できる",
+      "「既然……，就……」で相手の事実を踏まえた推論・提案ができる",
+      "「非……不可」と疑問詞の呼応構文（誰……誰……／どこ……どこ……）を使える"
+    ],
+    "grammarIds": ["G19-01", "G19-02", "G19-03", "G19-04"],
+    "referenceUrl": "https://hanyujiaocai.jinkan.kyoto-u.ac.jp/2018shanghai/2018CALL/L19_top.html",
+    "referenceTocUrl": "https://hanyujiaocai.jinkan.kyoto-u.ac.jp/2018shanghai/2018CALL/L19_toc.html",
+    "pronunciationFocus": "反語・強調文の文末イントネーション"
+  },
+  {
+    "id": "L20",
+    "number": 20,
+    "title": "第20課",
+    "topic": "逆接・並行動作・強意の否定（虽然/但是・強調表現II・一边/一边・不得不・连/都）",
+    "objectives": [
+      "「虽然……，但是……」で逆接文を正確に組み立てられる（因为との混同回避）",
+      "「一＋量詞＋名＋也/都＋不/没」（完全否定の強調）と「连……都/也……」を使いこなせる",
+      "「一边……一边……」とやむを得ない状況の「不得不 / 不能不」を使える"
+    ],
+    "grammarIds": ["G20-01", "G20-02", "G20-03", "G20-04", "G20-05"],
+    "referenceUrl": "https://hanyujiaocai.jinkan.kyoto-u.ac.jp/2018shanghai/2018CALL/L20_top.html",
+    "referenceTocUrl": "https://hanyujiaocai.jinkan.kyoto-u.ac.jp/2018shanghai/2018CALL/L20_toc.html",
+    "pronunciationFocus": "多音字「得 (dé / de / děi)」と並列リズム"
+  },
+  {
+    "id": "L21",
+    "number": 21,
+    "title": "第21課",
+    "topic": "無条件・必要十分条件・手順（不管……都/也・只要……就・先……再）",
+    "objectives": [
+      "「不管……都/也……」で条件を問わない帰結を表現できる",
+      "「只要……就……」で十分条件を表せる",
+      "「先……，再……」で動作の順序を明確に示せる"
+    ],
+    "grammarIds": ["G21-01", "G21-02", "G21-03"],
+    "referenceUrl": "https://hanyujiaocai.jinkan.kyoto-u.ac.jp/2018shanghai/2018CALL/L21_top.html",
+    "referenceTocUrl": "https://hanyujiaocai.jinkan.kyoto-u.ac.jp/2018shanghai/2018CALL/L21_toc.html",
+    "pronunciationFocus": "複文接続におけるポーズと声調保持"
+  },
+  {
+    "id": "L22",
+    "number": 22,
+    "title": "第22課",
+    "topic": "兼語文・交互動作・反実仮想（有の兼語文・一会儿/有时・要不是）",
+    "objectives": [
+      "「有＋人/物＋V」の兼語文で不特定の人や物についての叙述ができる",
+      "「一会儿……，一会儿……」と「有时……，有时……」の使い分けができる",
+      "「要不是……，就……」で「もし〜でなかったら」という反実仮想を表現できる"
+    ],
+    "grammarIds": ["G22-01", "G22-02", "G22-03"],
+    "referenceUrl": "https://hanyujiaocai.jinkan.kyoto-u.ac.jp/2018shanghai/2018CALL/L22_top.html",
+    "referenceTocUrl": "https://hanyujiaocai.jinkan.kyoto-u.ac.jp/2018shanghai/2018CALL/L22_toc.html",
+    "pronunciationFocus": "「一会儿 (yíhuìr)」の児化音と変調"
+  }
+]

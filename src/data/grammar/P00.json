@@ -1,0 +1,84 @@
+[
+  {
+    "id": "GP-01",
+    "title": "声調の基本（四声と軽声）",
+    "categoryId": "cat-pronunciation",
+    "lessonId": "P00",
+    "difficulty": 1,
+    "isSupplementary": true,
+    "prerequisites": [],
+    "relatedIds": ["GP-02", "G01-01"],
+    "meaning": "中国語の音節を区別する4つの基本声調（第1声〜第4声）と軽く短く発音する軽声（第5声）を体系的に理解します。",
+    "pattern": "第1声 (ā 高平) / 第2声 (á 上昇) / 第3声 (ǎ 低抑) / 第4声 (à 下降) / 軽声 (a)",
+    "structureSlots": [
+      { "role": "Other", "label": "第1声", "text": "mā (妈)", "pinyin": "高く平ら" },
+      { "role": "Other", "label": "第2声", "text": "má (麻)", "pinyin": "一気に上がる" },
+      { "role": "Other", "label": "第3声", "text": "mǎ (马)", "pinyin": "低く抑える" },
+      { "role": "Other", "label": "第4声", "text": "mà (骂)", "pinyin": "強く下げる" }
+    ],
+    "wordOrderNote": "声調は文構造ではなく個々の音節（漢字）に固有の音の上がり下がりであり、声調が異なると別の意味になります。",
+    "usageConditions": "単語を覚える際は必ず簡体字とピンイン・声調をセットで覚えます。語気助詞や構造助詞、畳語の2音節目などは軽声になります。",
+    "distinctionNotes": "日本語のアクセント（高低の2段階）と異なり、1音節の中で音の高さやカーブが意味を弁別します。",
+    "japaneseLearnerPitfalls": [
+      "第1声を低めに発音して第3声と混同してしまう。",
+      "第3声を常に語尾まで大きく上げようとして不自然になる（実際の発話では低く抑える半3声が基本）。",
+      "第4声の下降が不十分で第1声に聞こえる。"
+    ],
+    "similarDifferences": [
+      {
+        "targetId": "GP-02",
+        "targetName": "声調変調（第3声・「一」「不」）",
+        "difference": "単語本来の声調（本調）に対し、連続発音時に変化するルール（変調）を区別する必要があります。"
+      }
+    ],
+    "examples": [
+      { "id": "EX-GP-01-1", "hanzi": "妈妈叫我喝茶。", "pinyin": "Māma jiào wǒ hē chá.", "ja": "母が私にお茶を飲むように言います。" },
+      { "id": "EX-GP-01-2", "hanzi": "同学买了一张地图。", "pinyin": "Tóngxué mǎi le yì zhāng dìtú.", "ja": "同級生が地図を1枚買いました。" },
+      { "id": "EX-GP-01-3", "hanzi": "请问，图书馆怎么走？", "pinyin": "Qǐngwèn, túshūguǎn zěnme zǒu?", "ja": "すみません、図書館へはどう行きますか。" },
+      { "id": "EX-GP-01-4", "hanzi": "老师每天工作很忙。", "pinyin": "Lǎoshī měitiān gōngzuò hěn máng.", "ja": "先生は毎日仕事がとても忙しいです。" },
+      { "id": "EX-GP-01-5", "hanzi": "桌子上放着两本书。", "pinyin": "Zhuōzi shàng fàng zhe liǎng běn shū.", "ja": "机の上に本が2冊置いてあります。" }
+    ],
+    "referenceUrl": "https://hanyujiaocai.jinkan.kyoto-u.ac.jp/2018shanghai/2018CALL/index.html",
+    "referenceTitle": "教材全体トップ（補足基礎モジュール）"
+  },
+  {
+    "id": "GP-02",
+    "title": "声調変調（第3声連続・「一」「不」の変調）",
+    "categoryId": "cat-pronunciation",
+    "lessonId": "P00",
+    "difficulty": 1,
+    "isSupplementary": true,
+    "prerequisites": ["GP-01"],
+    "relatedIds": ["G01-02", "G04-03"],
+    "meaning": "本来の声調（本調）が、前後に続く音節の声調によって発音上変化する規則です。",
+    "pattern": "3声+3声 → 2声+3声 ／ 不(4声)+4声 → bú ／ 一(1声)+4声 → yí ／ 一+1·2·3声 → yì",
+    "structureSlots": [
+      { "role": "Other", "label": "第3声連続", "text": "nǐ hǎo → ní hǎo", "pinyin": "前の3声が2声化" },
+      { "role": "Neg", "label": "「不」の変調", "text": "bù shì → bú shì", "pinyin": "第4声の前で2声化" },
+      { "role": "Other", "label": "「一」の変調", "text": "yī gè → yí gè / yī tiān → yì tiān", "pinyin": "後続声調で2声/4声化" }
+    ],
+    "wordOrderNote": "ピンイン表記では単語本来の声調を書くのが原則（ただし教材によっては変調後を注記）であるため、本調と実際の発音の区別が重要です。",
+    "usageConditions": "「不」は後ろが第4声のときのみ第2声に変わります。「一」は単独・序数（第一）・番号では第1声のままです。",
+    "distinctionNotes": "本アプリでは単語データの `tones` に本来の声調を保持し、発音練習や解説で変調を明示して混同を防ぎます。",
+    "japaneseLearnerPitfalls": [
+      "「不好 (bù hǎo)」まで第2声「bú」に変調させてしまう誤り（後ろが第3声なので「bù」のまま）。",
+      "「第一 (dì yī)」の「一」を「yí」に変えてしまう誤り（序数は常に第1声）。"
+    ],
+    "similarDifferences": [
+      {
+        "targetId": "GP-01",
+        "targetName": "声調の基本（本調）",
+        "difference": "辞書に載っている本来の声調が本調、連続した会話で変わるのが変調です。"
+      }
+    ],
+    "examples": [
+      { "id": "EX-GP-02-1", "hanzi": "你好，请问你贵姓？", "pinyin": "Nǐ hǎo, qǐngwèn nǐ guìxìng?", "ja": "こんにちは、お名前は何とおっしゃいますか。" },
+      { "id": "EX-GP-02-2", "hanzi": "他不是日本人，是中国人。", "pinyin": "Tā bù shì Rìběnrén, shì Zhōngguórén.", "ja": "彼は日本人ではなく、中国人です。（不是は bú shì と発音）" },
+      { "id": "EX-GP-02-3", "hanzi": "我想喝一杯热茶。", "pinyin": "Wǒ xiǎng hē yì bēi rè chá.", "ja": "私は熱いお茶を1杯飲みたいです。（一杯は yì bēi と発音）" },
+      { "id": "EX-GP-02-4", "hanzi": "这件衣服一点儿也不贵。", "pinyin": "Zhè jiàn yīfu yìdiǎnr yě bú guì.", "ja": "この服は少しも高くありません。（不贵は bú guì と発音）" },
+      { "id": "EX-GP-02-5", "hanzi": "第一课的生词不太难。", "pinyin": "Dì yī kè de shēngcí bú tài nán.", "ja": "第1課の新出単語はあまり難しくありません。" }
+    ],
+    "referenceUrl": "https://hanyujiaocai.jinkan.kyoto-u.ac.jp/2018shanghai/2018CALL/index.html",
+    "referenceTitle": "教材全体トップ（補足基礎モジュール）"
+  }
+]

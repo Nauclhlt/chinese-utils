@@ -1,0 +1,463 @@
+[
+  {
+    "id": "C-G22-01-01",
+    "lessonId": "L22",
+    "minLesson": 22,
+    "grammarIds": ["G22-01"],
+    "difficulty": 1,
+    "japanesePrompt": "突然、後ろから誰かが私の名前を呼ぶのが聞こえました。",
+    "targetGrammarHint": "「有」を用いた兼語文（有人……）",
+    "hints": [
+      "「突然〜が聞こえた」は「忽然听到 (hūrán tīngdào)」。",
+      "「誰かが私の名前を呼ぶ」は「有」の兼語文「有人叫我的名字」で表します。",
+      "骨組み：忽然听到背后有人叫我的名字。"
+    ],
+    "modelAnswer": "忽然听到背后有人叫我的名字。",
+    "acceptableAnswers": [
+      "忽然听到背后有人叫我的名字。",
+      "突然听到身后有人在叫我的名字。",
+      "我忽然听到背后有人叫我的名字。"
+    ],
+    "pinyin": "Hūrán tīngdào bèihòu yǒu rén jiào wǒ de míngzi.",
+    "structureBreakdown": [
+      { "text": "忽然", "role": "Adv", "label": "突然" },
+      { "text": "听到", "role": "V", "label": "知覚動詞" },
+      { "text": "背后", "role": "Loc", "label": "場所" },
+      { "text": "有人", "role": "O", "label": "有＋兼語" },
+      { "text": "叫我的名字", "role": "V", "label": "兼語の動作" }
+    ],
+    "explanation": "「听到」の目的語の中に「背后有人叫我的名字」という「有」の兼語文が埋め込まれています。不特定の「誰か」には必ず「有」を使います。",
+    "commonMistakes": [
+      { "wrong": "忽然听到背后人叫我的名字。", "reason": "不特定の「誰か」を動作主として立てるときは「人」ではなく「有人」にします。" }
+    ]
+  },
+  {
+    "id": "C-G22-01-02",
+    "lessonId": "L22",
+    "minLesson": 22,
+    "grammarIds": ["G22-01"],
+    "difficulty": 1,
+    "japanesePrompt": "私には中国語を流暢に話せる友人が一人います。",
+    "targetGrammarHint": "「我有一个朋友 + VP」",
+    "hints": [
+      "「友人が一人いる」は「我有一个朋友」。",
+      "「的」を挟まずにそのまま「会说流利的汉语」または「汉语说得很流利」を続けます。",
+      "骨組み：我有一个朋友汉语说得很流利。"
+    ],
+    "modelAnswer": "我有一个朋友汉语说得很流利。",
+    "acceptableAnswers": [
+      "我有一个朋友汉语说得很流利。",
+      "我有一位朋友能流利地说汉语。",
+      "我有一个朋友会说流利的汉语。"
+    ],
+    "pinyin": "Wǒ yǒu yí ge péngyou Hànyǔ shuō de hěn liúlì.",
+    "structureBreakdown": [
+      { "text": "我", "role": "S", "label": "主語" },
+      { "text": "有", "role": "V", "label": "所有動詞" },
+      { "text": "一个朋友", "role": "O", "label": "兼語(O兼S)" },
+      { "text": "汉语说得很流利", "role": "P", "label": "兼語への述語" }
+    ],
+    "explanation": "「一个朋友」が「有」の目的語かつ「汉语说得很流利」の主語を兼ねる、典型的な兼語文です。",
+    "commonMistakes": [
+      { "wrong": "我有一个朋友的汉语说得很流利。", "reason": "「的」を入れると所有格「友人の中国語」になって兼語文の構造が変わってしまいます。「的」なしが基本の兼語文です。" }
+    ]
+  },
+  {
+    "id": "C-G22-01-03",
+    "lessonId": "L22",
+    "minLesson": 22,
+    "grammarIds": ["G22-01"],
+    "difficulty": 2,
+    "japanesePrompt": "湖のほとりでは、たくさんの観光客が記念写真を撮っています。",
+    "targetGrammarHint": "「場所 + 有 + 很多人 + 在……」",
+    "hints": [
+      "「湖のほとり」は第22課の「边上」を使い「湖边上」。",
+      "「記念写真を撮る」は「拍照留念 (pāizhào liúniàn)」。",
+      "骨組み：湖边上有很多游客在拍照留念。"
+    ],
+    "modelAnswer": "湖边上有很多游客在拍照留念。",
+    "acceptableAnswers": [
+      "湖边上有很多游客在拍照留念。",
+      "湖边有很多游人正在照相留念。"
+    ],
+    "pinyin": "Hú biānshang yǒu hěn duō yóukè zài pāizhào liúniàn.",
+    "structureBreakdown": [
+      { "text": "湖边上", "role": "Loc", "label": "場所" },
+      { "text": "有", "role": "V", "label": "存在動詞" },
+      { "text": "很多游客", "role": "O", "label": "兼語" },
+      { "text": "在拍照留念", "role": "V", "label": "進行動作" }
+    ],
+    "explanation": "場所を文頭に置き、「有 + 不特定の名詞（很多游客）+ 在〜」で情景を描写します。",
+    "commonMistakes": [
+      { "wrong": "在湖边上很多游客拍照留念。", "reason": "不特定の存在と動作を描写するときは「在〜」ではなく「（場所）+ 有 + 兼語 + VP」にします。" }
+    ]
+  },
+  {
+    "id": "C-G22-01-04",
+    "lessonId": "L22",
+    "minLesson": 22,
+    "grammarIds": ["G22-01"],
+    "difficulty": 2,
+    "japanesePrompt": "その件について知っている人は誰もいません。",
+    "targetGrammarHint": "兼語文の否定「没有 + 人 + VP」",
+    "hints": [
+      "「誰も〜しない」は「没有人 (méiyǒu rén)」を主語（兼語）にします。",
+      "「その件を知っている」は「知道那件事」。",
+      "骨組み：没有人知道那件事。"
+    ],
+    "modelAnswer": "没有人知道那件事。",
+    "acceptableAnswers": [
+      "没有人知道那件事。",
+      "那件事没有人知道。",
+      "关于那件事，没有人了解。"
+    ],
+    "pinyin": "Méiyǒu rén zhīdào nà jiàn shì.",
+    "structureBreakdown": [
+      { "text": "没有", "role": "Neg", "label": "否定存在" },
+      { "text": "人", "role": "O", "label": "兼語" },
+      { "text": "知道那件事", "role": "V", "label": "兼語の述語" }
+    ],
+    "explanation": "「有人……（〜する人がいる）」の否定形は「没有人……（〜する人はいない）」です。",
+    "commonMistakes": [
+      { "wrong": "不有人知道那件事。", "reason": "「有」の否定には必ず「没有」を用い、「不有」とは言いません。" }
+    ]
+  },
+  {
+    "id": "C-G22-01-05",
+    "lessonId": "L22",
+    "minLesson": 22,
+    "grammarIds": ["G22-01"],
+    "difficulty": 2,
+    "japanesePrompt": "今日はまだ終えていない宿題がいくつかあります。",
+    "targetGrammarHint": "「我还有 + 数量・名詞 + 没做完」",
+    "hints": [
+      "「まだ〜がある」は「还有……」。",
+      "「宿題がいくつか」は「几项作业」または「一些作业」。",
+      "骨組み：今天我还有一些作业没做完。"
+    ],
+    "modelAnswer": "今天我还有一些作业没做完。",
+    "acceptableAnswers": [
+      "今天我还有一些作业没做完。",
+      "今天我还有几项作业没有做完。",
+      "我今天还有一些作业没写完。"
+    ],
+    "pinyin": "Jīntiān wǒ hái yǒu yìxiē zuòyè méi zuò wán.",
+    "structureBreakdown": [
+      { "text": "今天", "role": "Time", "label": "時間" },
+      { "text": "我", "role": "S", "label": "主語" },
+      { "text": "还有", "role": "V", "label": "残存所有" },
+      { "text": "一些作业", "role": "O", "label": "兼語" },
+      { "text": "没做完", "role": "V", "label": "兼語への述語" }
+    ],
+    "explanation": "「一些作业」は「有」の目的語であり、同時に「没做完」の対象（意味上の主語）になっています。",
+    "commonMistakes": [
+      { "wrong": "今天我还有没做完的一些作业。", "reason": "「有〜」の兼語文として「还有 + 作业 + 没做完」の語順にする方が中国語として自然で軽快です。" }
+    ]
+  },
+
+  {
+    "id": "C-G22-02-01",
+    "lessonId": "L22",
+    "minLesson": 22,
+    "grammarIds": ["G22-02"],
+    "difficulty": 1,
+    "japanesePrompt": "今日の天気は変わっていて、雨が降ったかと思うと、しばらくして太陽が出ます。",
+    "targetGrammarHint": "交互・反復「一会儿……，一会儿……」",
+    "hints": [
+      "短い間に天気がコロコロ変わるので「一会儿……，一会儿……」を使います。",
+      "「太陽が出る」は「出太阳」。",
+      "骨組み：今天的天气真奇怪，一会儿下雨，一会儿出太阳。"
+    ],
+    "modelAnswer": "今天的天气很奇怪，一会儿下雨，一会儿出太阳。",
+    "acceptableAnswers": [
+      "今天的天气很奇怪，一会儿下雨，一会儿出太阳。",
+      "今天天气真怪，一会儿下雨，一会儿又出太阳了。"
+    ],
+    "pinyin": "Jīntiān de tiānqì hěn qíguài, yīhuìr xià yǔ, yīhuìr chū tàiyáng.",
+    "structureBreakdown": [
+      { "text": "今天的天气很奇怪", "role": "P", "label": "前提評価" },
+      { "text": "一会儿下雨", "role": "V", "label": "変化1" },
+      { "text": "一会儿出太阳", "role": "V", "label": "変化2" }
+    ],
+    "explanation": "短時間で天候が交互に入れ替わる典型的な「一会儿……，一会儿……」の用法です。",
+    "commonMistakes": [
+      { "wrong": "今天的天气一边下雨，一边出太阳。", "reason": "「雨が降ったり日が出たり」は交互の変化なので「一会儿……，一会儿……」が適切です（ただし「天気雨」を特に強調する場合を除く）。" }
+    ]
+  },
+  {
+    "id": "C-G22-02-02",
+    "lessonId": "L22",
+    "minLesson": 22,
+    "grammarIds": ["G22-02"],
+    "difficulty": 2,
+    "japanesePrompt": "彼は迷って立ち止まり、前に進もうかと思えば、引き返そうかと思ったりしていました。",
+    "targetGrammarHint": "「犹豫」＋「一会儿……，一会儿又……」",
+    "hints": [
+      "第22課の語彙「犹豫 (yóuyù)」「回头 (huítóu)」を活かします。",
+      "「前に進む」は「往前走」。",
+      "骨組み：他犹豫着停下来，一会儿想往前走，一会儿又想回头。"
+    ],
+    "modelAnswer": "他犹豫地停下来，一会儿想往前走，一会儿又想回头。",
+    "acceptableAnswers": [
+      "他犹豫地停下来，一会儿想往前走，一会儿又想回头。",
+      "他很犹豫，一会儿想往前走，一会儿又想回头。"
+    ],
+    "pinyin": "Tā yóuyù de tíng xiàlái, yīhuìr xiǎng wǎng qián zǒu, yīhuìr yòu xiǎng huítóu.",
+    "structureBreakdown": [
+      { "text": "他犹豫地停下来", "role": "V", "label": "状況" },
+      { "text": "一会儿想往前走", "role": "V", "label": "心理1" },
+      { "text": "一会儿又想回头", "role": "V", "label": "心理2" }
+    ],
+    "explanation": "2番目の「一会儿」の後ろに「又」を加えると、迷いが繰り返されるニュアンスがより生き生きとします。",
+    "commonMistakes": [
+      { "wrong": "他一边想往前走，一边想回头。", "reason": "迷って気持ちが交互に揺れ動くので「一会儿……，一会儿……」を使います。" }
+    ]
+  },
+  {
+    "id": "C-G22-02-03",
+    "lessonId": "L22",
+    "minLesson": 22,
+    "grammarIds": ["G22-02"],
+    "difficulty": 1,
+    "japanesePrompt": "週末、私は家で小説を読むこともあれば、友達と映画を見に行くこともあります。",
+    "targetGrammarHint": "広い時間の交互「有时……，有时……」",
+    "hints": [
+      "週末ごとの習慣・場合による違いなので「有时……，有时……」を使います。",
+      "主語「我」は「周末」の後ろ、最初の「有时」の前に置きます。",
+      "骨組み：周末，我有时在家看小说，有时跟朋友去看电影。"
+    ],
+    "modelAnswer": "周末，我有时在家看小说，有时跟朋友去看电影。",
+    "acceptableAnswers": [
+      "周末，我有时在家看小说，有时跟朋友去看电影。",
+      "周末我有时候在家读小说，有时候和朋友去看电影。"
+    ],
+    "pinyin": "Zhōumò, wǒ yǒushí zài jiā kàn xiǎoshuō, yǒushí gēn péngyou qù kàn diànyǐng.",
+    "structureBreakdown": [
+      { "text": "周末", "role": "Time", "label": "時間" },
+      { "text": "我", "role": "S", "label": "主語" },
+      { "text": "有时在家看小说", "role": "V", "label": "場合1" },
+      { "text": "有时跟朋友去看电影", "role": "V", "label": "場合2" }
+    ],
+    "explanation": "日によって行動が変わる場合は「一会儿」ではなく「有时（候）……，有时（候）……」を使います。",
+    "commonMistakes": [
+      { "wrong": "周末，我一会儿在家看小说，一会儿跟朋友去看电影。", "reason": "毎週末という広い時間幅での選択には「有时……，有时……」が自然です。" }
+    ]
+  },
+  {
+    "id": "C-G22-02-04",
+    "lessonId": "L22",
+    "minLesson": 22,
+    "grammarIds": ["G22-02"],
+    "difficulty": 2,
+    "japanesePrompt": "空の雲は白く光ったかと思うと、また暗く変わったりしています。",
+    "targetGrammarHint": "「一会儿……，一会儿……」＋「云彩」",
+    "hints": [
+      "「空の雲」は「天上的云彩 (tiānshàng de yúncai)」。",
+      "「白く光る」は「发白 / 变得雪白」、「暗くなる」は「变暗」。",
+      "骨組み：天上的云彩一会儿变得雪白，一会儿又变暗了。"
+    ],
+    "modelAnswer": "天上的云彩一会儿变得雪白，一会儿又变暗了。",
+    "acceptableAnswers": [
+      "天上的云彩一会儿变得雪白，一会儿又变暗了。",
+      "天上的云彩一会儿亮，一会儿暗。"
+    ],
+    "pinyin": "Tiānshàng de yúncai yīhuìr biànde xuěbái, yīhuìr yòu biàn àn le.",
+    "structureBreakdown": [
+      { "text": "天上的云彩", "role": "S", "label": "主語" },
+      { "text": "一会儿变得雪白", "role": "V", "label": "変化1" },
+      { "text": "一会儿又变暗了", "role": "V", "label": "変化2" }
+    ],
+    "explanation": "目の前で起こっている雲の色の移り変わりを「一会儿……，一会儿又……了」で表現しています。",
+    "commonMistakes": [
+      { "wrong": "天上的云彩变得雪白一会儿，变暗一会儿。", "reason": "「一会儿」は述語の前に置いて副詞として使います。" }
+    ]
+  },
+  {
+    "id": "C-G22-02-05",
+    "lessonId": "L22",
+    "minLesson": 22,
+    "grammarIds": ["G22-02"],
+    "difficulty": 2,
+    "japanesePrompt": "中国語を勉強していると、ある時は難しく感じ、ある時はとても面白いと感じます。",
+    "targetGrammarHint": "「有时……，有时……」",
+    "hints": [
+      "「中国語を勉強していると」は「学习汉语的时候」。",
+      "「難しく感じる」は「觉得很难」、「面白く感じる」は「觉得很有意思」。",
+      "骨組み：学习汉语的时候，有时觉得很难，有时觉得很有意思。"
+    ],
+    "modelAnswer": "学习汉语的时候，我有时觉得很难，有时觉得很有意思。",
+    "acceptableAnswers": [
+      "学习汉语的时候，我有时觉得很难，有时觉得很有意思。",
+      "学汉语时，有时候觉得很困难，有时候又觉得十分有趣。"
+    ],
+    "pinyin": "Xuéxí Hànyǔ de shíhou, wǒ yǒushí juéde hěn nán, yǒushí juéde hěn yǒu yìsi.",
+    "structureBreakdown": [
+      { "text": "学习汉语的时候", "role": "Time", "label": "時間・場面" },
+      { "text": "我", "role": "S", "label": "主語" },
+      { "text": "有时觉得很难", "role": "V", "label": "感覚1" },
+      { "text": "有时觉得很有意思", "role": "V", "label": "感覚2" }
+    ],
+    "explanation": "学習の過程で時によって異なる感想を持つことを「有时……，有时……」で対比しています。",
+    "commonMistakes": [
+      { "wrong": "学习汉语的时候，我一边觉得很难，一边觉得很有意思。", "reason": "ある時は難しく、別の時は面白いという対比には「有时……，有时……」が適しています。" }
+    ]
+  },
+
+  {
+    "id": "C-G22-03-01",
+    "lessonId": "L22",
+    "minLesson": 22,
+    "grammarIds": ["G22-03"],
+    "difficulty": 2,
+    "japanesePrompt": "もしあなたの励ましがなかったら、私はとっくに諦めていたでしょう。",
+    "targetGrammarHint": "反実仮想「要不是……，就……」＋「鼓舞」",
+    "hints": [
+      "「もし〜でなかったら」は「要不是 (yàobushì)」。",
+      "「あなたの励まし」は「你的鼓舞（または鼓励）」。「とっくに」は「早就」。",
+      "骨組み：要不是你的鼓舞，我早就放弃了。"
+    ],
+    "modelAnswer": "要不是你的鼓舞，我早就放弃了。",
+    "acceptableAnswers": [
+      "要不是你的鼓舞，我早就放弃了。",
+      "要不是你的鼓励，我早就放弃了。",
+      "如果不是你的鼓舞，我早就放弃了。"
+    ],
+    "pinyin": "Yàobushì nǐ de gǔwǔ, wǒ zǎo jiù fàngqì le.",
+    "structureBreakdown": [
+      { "text": "要不是", "role": "Conj", "label": "反実仮定" },
+      { "text": "你的鼓舞", "role": "O", "label": "事実要因(名詞句)" },
+      { "text": "我", "role": "S", "label": "主語" },
+      { "text": "早就", "role": "Adv", "label": "とっくに" },
+      { "text": "放弃了", "role": "V", "label": "反実の帰結" }
+    ],
+    "explanation": "「要不是」の後ろに名詞句「你的鼓舞」を直接置く簡潔で自然な反実仮想文です。",
+    "commonMistakes": [
+      { "wrong": "要不是没有你的鼓舞，我早就放弃了。", "reason": "「要不是」にすでに否定が含まれているため、直後に「没有」を重ねると意味が逆になります。" }
+    ]
+  },
+  {
+    "id": "C-G22-03-02",
+    "lessonId": "L22",
+    "minLesson": 22,
+    "grammarIds": ["G22-03"],
+    "difficulty": 2,
+    "japanesePrompt": "もし友達が私を助けてくれなかったら、このレポートを時間通りに書き終えられませんでした。",
+    "targetGrammarHint": "「要不是 + 節，就 + 可能補語否定」",
+    "hints": [
+      "「友達が助けてくれる」は「朋友帮我的忙」または「朋友帮助我」。",
+      "「時間通りに書き終えられない」は「不能按时写完」または可能補語「按时写不完」。",
+      "骨組み：要不是朋友帮我的忙，我就不能按时写完这篇报告了。"
+    ],
+    "modelAnswer": "要不是朋友帮助我，我就不能按时写完这篇报告了。",
+    "acceptableAnswers": [
+      "要不是朋友帮助我，我就不能按时写完这篇报告了。",
+      "要不是朋友帮忙，我今天按时写不完这篇报告了。",
+      "要不是朋友帮了我，我肯定按时写不完这份报告。"
+    ],
+    "pinyin": "Yàobushì péngyou bāngzhù wǒ, wǒ jiù bù néng ànshí xiě wán zhè piān bàogào le.",
+    "structureBreakdown": [
+      { "text": "要不是", "role": "Conj", "label": "反実仮定" },
+      { "text": "朋友帮助我", "role": "S", "label": "事実節" },
+      { "text": "我", "role": "S", "label": "主語" },
+      { "text": "就不能", "role": "Adv", "label": "反実否定" },
+      { "text": "按时写完这篇报告了", "role": "V", "label": "結果補語文" }
+    ],
+    "explanation": "「要不是」の後ろに主述節「朋友帮助我」を置き、後件で感謝を込めた反実仮想を述べています。",
+    "commonMistakes": [
+      { "wrong": "要不是朋友帮助我，就我不能按时写完这篇报告。", "reason": "副詞「就」は第2節の主語「我」の後ろに置きます。" }
+    ]
+  },
+  {
+    "id": "C-G22-03-03",
+    "lessonId": "L22",
+    "minLesson": 22,
+    "grammarIds": ["G22-03"],
+    "difficulty": 3,
+    "japanesePrompt": "もしあの日の大雨でなかったら、私たちは頂上で美しい日の出を見られたでしょう。",
+    "targetGrammarHint": "「要不是 + 名詞句，就……」",
+    "hints": [
+      "「あの日の大雨」は「那天的那场大雨」または「那天的大雨」。",
+      "「頂上で美しい日の出を見られる」は「就能在顶峰看到美丽的日出了」。",
+      "骨組み：要不是那天的大雨，我们就能在顶峰看到美丽的日出了。"
+    ],
+    "modelAnswer": "要不是那天的大雨，我们就能在顶峰看到美丽的日出了。",
+    "acceptableAnswers": [
+      "要不是那天的大雨，我们就能在顶峰看到美丽的日出了。",
+      "要不是那天下大雨，我们肯定在山顶看到日出了。"
+    ],
+    "pinyin": "Yàobushì nàtiān de dà yǔ, wǒmen jiù néng zài dǐngfēng kàndào měilì de rìchū le.",
+    "structureBreakdown": [
+      { "text": "要不是", "role": "Conj", "label": "反実仮定" },
+      { "text": "那天的大雨", "role": "O", "label": "要因名詞句" },
+      { "text": "我们", "role": "S", "label": "主語" },
+      { "text": "就能", "role": "Adv", "label": "反実帰結" },
+      { "text": "在顶峰看到美丽的日出了", "role": "V", "label": "達成内容" }
+    ],
+    "explanation": "悪天候などの残念な出来事に対して「それがなかったら良かったのに」と惜しむときにも「要不是……」がよく使われます。",
+    "commonMistakes": [
+      { "wrong": "虽然那天的大雨，我们就看到日出了。", "reason": "事実と反対の仮定には「虽然」ではなく「要不是」を使います。" }
+    ]
+  },
+  {
+    "id": "C-G22-03-04",
+    "lessonId": "L22",
+    "minLesson": 22,
+    "grammarIds": ["G22-03"],
+    "difficulty": 3,
+    "japanesePrompt": "もし周囲の人々から力をもらっていなかったら、彼はそんな決心ができなかったでしょう。",
+    "targetGrammarHint": "「要不是……」＋「汲取力量」「下定决心」",
+    "hints": [
+      "第22課の語彙「汲取力量 (jíqǔ lìliang)」「下定决心 (xiàdìng juéxīn)」を使います。",
+      "「〜から」は「从……身上」。",
+      "骨組み：要不是从大家身上汲取了力量，他不可能下定这样的决心。"
+    ],
+    "modelAnswer": "要不是从大家身上汲取了力量，他不可能下定这样的决心。",
+    "acceptableAnswers": [
+      "要不是从大家身上汲取了力量，他不可能下定这样的决心。",
+      "要不是从别人身上汲取力量，他就不可能下这么大的决心。"
+    ],
+    "pinyin": "Yàobushì cóng dàjiā shēnshang jíqǔ le lìliang, tā bù kěnéng xiàdìng zhèyàng de juéxīn.",
+    "structureBreakdown": [
+      { "text": "要不是", "role": "Conj", "label": "反実仮定" },
+      { "text": "从大家身上汲取了力量", "role": "V", "label": "実際の背景" },
+      { "text": "他", "role": "S", "label": "主語" },
+      { "text": "不可能", "role": "Adv", "label": "不可能推量" },
+      { "text": "下定这样的决心", "role": "V", "label": "反実帰結" }
+    ],
+    "explanation": "後件が「不可能……」などの強い否定推量である場合、「就」を省いて直接「他不可能……」と続けることもあります。",
+    "commonMistakes": [
+      { "wrong": "要不是从大家身上汲取力量了，他下决心。", "reason": "後件は反実仮想の帰結なので「不可能〜」「不会〜」「就〜了」などの推量・仮定表現にします。" }
+    ]
+  },
+  {
+    "id": "C-G22-03-05",
+    "lessonId": "L22",
+    "minLesson": 22,
+    "grammarIds": ["G22-03"],
+    "difficulty": 2,
+    "japanesePrompt": "もしあなたが先ほど注意してくれなかったら、私は今ごろ財布を忘れたまま出かけているところでした。",
+    "targetGrammarHint": "「要不是……，差点儿就……」",
+    "hints": [
+      "「注意してくれる」は「提醒我」。",
+      "「あやうく〜するところだった」は「差点儿就忘了带钱包」。",
+      "骨組み：要不是你刚才提醒我，我差点儿就忘了带钱包出门了。"
+    ],
+    "modelAnswer": "要不是你刚才提醒我，我差点儿就忘了带钱包出门了。",
+    "acceptableAnswers": [
+      "要不是你刚才提醒我，我差点儿就忘了带钱包出门了。",
+      "要不是你刚才提醒我，我肯定忘带钱包就出门了。"
+    ],
+    "pinyin": "Yàobushì nǐ gāngcái tíxǐng wǒ, wǒ chàdiǎnr jiù wàng le dài qiánbāo chūmén le.",
+    "structureBreakdown": [
+      { "text": "要不是", "role": "Conj", "label": "反実仮定" },
+      { "text": "你刚才提醒我", "role": "S", "label": "事実節" },
+      { "text": "我", "role": "S", "label": "主語" },
+      { "text": "差点儿就", "role": "Adv", "label": "もう少しで〜するところ" },
+      { "text": "忘了带钱包出门了", "role": "V", "label": "回避された事態" }
+    ],
+    "explanation": "「差点儿就〜了」は「要不是〜」と非常に相性が良く、「おかげで危うく失敗するところを免れた」という安堵感を表せます。",
+    "commonMistakes": [
+      { "wrong": "要不是你提醒我，我就没带钱包了。", "reason": "「差点儿就忘了带」を入れると「もう少しで忘れるところだった」という日本語のニュアンスがより正確に伝わります。" }
+    ]
+  }
+]

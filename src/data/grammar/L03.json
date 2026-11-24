@@ -1,0 +1,452 @@
+[
+  {
+    "id": "G03-01",
+    "title": "指示代詞（这・那・这儿・那儿・哪儿）",
+    "categoryId": "cat-basic",
+    "lessonId": "L03",
+    "difficulty": 1,
+    "prerequisites": ["G01-02"],
+    "relatedIds": ["G01-01", "G03-03", "G04-04"],
+    "meaning": "話し手との距離に応じて事物や場所を指し示す指示代詞です。事物（これ・あれ）は「这 / 那」、場所（ここ・あそこ・どこ）は「这儿 / 那儿 / 哪儿」（または「这里 / 那里 / 哪里」）を用います。",
+    "pattern": "事物：这 / 那 (+ 是 + 名詞) ｜ 場所：这儿(这里) / 那儿(那里) / 哪儿(哪里)",
+    "structureSlots": [
+      { "role": "S", "label": "近称(ここ/これ)", "text": "这 / 这儿", "pinyin": "zhè / zhèr" },
+      { "role": "S", "label": "遠称(あそこ/あれ)", "text": "那 / 那儿", "pinyin": "nà / nàr" },
+      { "role": "S", "label": "疑問(どこ)", "text": "哪儿 / 哪里", "pinyin": "nǎr / nǎli" }
+    ],
+    "wordOrderNote": "「这」「那」は「这是〜（これは〜です）」「那是〜（あれは〜です）」のように主語として単独で使えるほか、量詞を挟んで名詞を修飾します（第4課で学習）。場所の「这儿・那儿・哪儿」は名詞と同じように主語・目的語（特に動詞「在」の目的語）になります。",
+    "usageConditions": "「这儿 (zhèr)」「那儿 (nàr)」「哪儿 (nǎr)」は主に中国北方（北京など）の口語でよく使われる児化音で、「这里 (zhèlǐ)」「那里 (nàlǐ)」「哪里 (nǎlǐ)」は南方や書き言葉でも広く使われます。意味・文法上の機能は同じです。",
+    "distinctionNotes": "「那儿 (nàr：第4声＝あそこ)」と「哪儿 (nǎr：第3声＝どこ)」は口へんの「口」の有無と声調（4声 vs 3声）で意味が全く変わります。また、「哪儿」を使った疑問文の文末には「吗」を付けません。",
+    "forms": {
+      "affirmative": "这 / 那 + 是 + 名詞 ／ 这儿 / 那儿 + 述語",
+      "negative": "这 / 那 + 不是 + 名詞 ／ 这儿 / 那儿 + 不 + 述語",
+      "interrogative": "这 / 那 + 是 + 名詞 + 吗？ ／ ……在哪儿？"
+    },
+    "japaneseLearnerPitfalls": [
+      "「那（あれ／そこ）」と「哪（どれ／どこ）」の漢字・声調を混同してしまう点（口へんがある「哪 nǎ / nǎr」が疑問詞）。",
+      "「你在哪儿吗？」のように、場所の疑問詞「哪儿」があるのに文末に「吗」を付けてしまう誤り。",
+      "「那儿」と「那里」の混在、あるいは「这儿」を2音節（zhè ér）のように区切って発音してしまう誤り（zhèr は1音節で発音）。"
+    ],
+    "similarDifferences": [
+      {
+        "targetId": "G01-01",
+        "targetName": "人称代詞",
+        "difference": "人称代詞が「人」を指すのに対し、指示代詞は「事物・場所」を指します。ただし「这是王老师（こちらは王先生です）」のように人を紹介するときも「这」を使います。"
+      },
+      {
+        "targetId": "G03-03",
+        "targetName": "動詞 “在”",
+        "difference": "場所を尋ねる定番文型「S + 在 + 哪儿？」では、指示代詞「哪儿 / 这儿 / 那儿」が「在」の目的語として活躍します。"
+      }
+    ],
+    "examples": [
+      {
+        "id": "EX-G03-01-1",
+        "hanzi": "这是汉语书，那是英语书。",
+        "pinyin": "Zhè shì Hànyǔ shū, nà shì Yīngyǔ shū.",
+        "ja": "これは中国語の本で、あれは英語の本です。",
+        "note": "「这」「那」を主語にした基本的な紹介文。",
+        "breakdown": [
+          { "role": "S", "label": "指示代詞", "text": "这", "pinyin": "zhè" },
+          { "role": "V", "label": "判断動詞", "text": "是", "pinyin": "shì" },
+          { "role": "O", "label": "名詞", "text": "汉语书", "pinyin": "Hànyǔ shū" },
+          { "role": "S", "label": "指示代詞", "text": "那", "pinyin": "nà" },
+          { "role": "V", "label": "判断動詞", "text": "是", "pinyin": "shì" },
+          { "role": "O", "label": "名詞", "text": "英语书", "pinyin": "Yīngyǔ shū" }
+        ]
+      },
+      {
+        "id": "EX-G03-01-2",
+        "hanzi": "这儿是第一教学楼。",
+        "pinyin": "Zhèr shì dì yī jiàoxuélóu.",
+        "ja": "ここは第1教育棟（1号館）です。",
+        "note": "場所の近称「这儿」を主語にした例。",
+        "breakdown": [
+          { "role": "S", "label": "場所代詞", "text": "这儿", "pinyin": "zhèr" },
+          { "role": "V", "label": "判断動詞", "text": "是", "pinyin": "shì" },
+          { "role": "O", "label": "名詞", "text": "第一教学楼", "pinyin": "dì yī jiàoxuélóu" }
+        ]
+      },
+      {
+        "id": "EX-G03-01-3",
+        "hanzi": "王老师，这是我的朋友林明。",
+        "pinyin": "Wáng lǎoshī, zhè shì wǒ de péngyou Lín Míng.",
+        "ja": "王先生、こちらは私の友達の林明です。",
+        "note": "人を紹介するときも「这（こちら）」＋「是」を使えます。",
+        "breakdown": [
+          { "role": "S", "label": "指示代詞", "text": "这", "pinyin": "zhè" },
+          { "role": "V", "label": "判断動詞", "text": "是", "pinyin": "shì" },
+          { "role": "Attr", "label": "修飾語", "text": "我的", "pinyin": "wǒ de" },
+          { "role": "O", "label": "名詞(同格)", "text": "朋友林明", "pinyin": "péngyou Lín Míng" }
+        ]
+      },
+      {
+        "id": "EX-G03-01-4",
+        "hanzi": "那儿的风景真漂亮！",
+        "pinyin": "Nàr de fēngjǐng zhēn piàoliang!",
+        "ja": "あそこの景色は本当にきれいですね！",
+        "note": "場所代詞「那儿」＋「的」＋名詞で「あそこの〜」を表します。",
+        "breakdown": [
+          { "role": "Attr", "label": "修飾語", "text": "那儿的", "pinyin": "nàr de" },
+          { "role": "S", "label": "主語", "text": "风景", "pinyin": "fēngjǐng" },
+          { "role": "Adv", "label": "程度副詞", "text": "真", "pinyin": "zhēn" },
+          { "role": "V", "label": "形容詞述語", "text": "漂亮", "pinyin": "piàoliang" }
+        ]
+      },
+      {
+        "id": "EX-G03-01-5",
+        "hanzi": "请问，图书馆在哪儿？",
+        "pinyin": "Qǐngwèn, túshūguǎn zài nǎr?",
+        "ja": "すみません、図書館はどこにありますか。",
+        "note": "疑問詞「哪儿」を使っているため文末に「吗」は付けません。",
+        "breakdown": [
+          { "role": "V", "label": "丁寧表現", "text": "请问", "pinyin": "qǐngwèn" },
+          { "role": "S", "label": "主語", "text": "图书馆", "pinyin": "túshūguǎn" },
+          { "role": "V", "label": "動詞", "text": "在", "pinyin": "zài" },
+          { "role": "Loc", "label": "疑問詞", "text": "哪儿", "pinyin": "nǎr" }
+        ]
+      }
+    ],
+    "referenceUrl": "https://hanyujiaocai.jinkan.kyoto-u.ac.jp/2018shanghai/2018CALL/L3_3.html",
+    "referenceTitle": "文法事項 １．指示代詞"
+  },
+  {
+    "id": "G03-02",
+    "title": "形容詞述語文と連体修飾語",
+    "categoryId": "cat-basic",
+    "lessonId": "L03",
+    "difficulty": 1,
+    "prerequisites": ["G02-01"],
+    "relatedIds": ["G01-02", "G02-01"],
+    "meaning": "中国語では形容詞が「是」を借りずにそのまま述語になります。肯定の平叙文では習慣的に程度副詞「很 (hěn)」などを補います。また、形容詞が名詞の前に置かれて連体修飾語になるときは、音節数や副詞の有無で「的」の要否が変わります。",
+    "pattern": "述語：S + 很/真/特别 + 形容詞 ／ S + 不 + 形容詞 ｜ 修飾：形容詞 + (的) + 名詞",
+    "structureSlots": [
+      { "role": "S", "label": "主語", "text": "风景 / 楼", "pinyin": "fēngjǐng / lóu" },
+      { "role": "Adv", "label": "程度副詞", "text": "很 / 真 / 特别", "pinyin": "hěn / zhēn / tèbié" },
+      { "role": "V", "label": "形容詞述語", "text": "漂亮 / 高", "pinyin": "piàoliang / gāo" }
+    ],
+    "wordOrderNote": "形容詞が述語になるとき、主語の直後に「是」を置かず、「主語＋副詞（很など）＋形容詞」の順に並べます。否定は「不＋形容詞」、疑問は「主語＋形容詞＋吗？」です（否定・疑問では「很」を省くのが標準です）。",
+    "usageConditions": "肯定の平叙文で「很」を置かずに「S + 形容詞」とだけ言うと、「（他と比べて）こちらの方が〜だ」という対比の響きを持ちます。そのため単純な描写には「很」を軽く添えます（この「很」は必ずしも「とても」と強く訳す必要はありません）。「真」「特别」「非常」は実際の強い程度・感嘆を表します。",
+    "distinctionNotes": "連体修飾語として名詞の前に置く場合、①1音節形容詞（好、大、高、新など）が単独で修飾するときは通常「的」を入れず緊密に結びつきます（例：好朋友、大教室）。②2音節形容詞（漂亮、特别など）や、「很・非常」などの副詞を伴う形容詞が修飾するときは原則として「的」を入れます（例：漂亮的风景、很高的楼）。",
+    "forms": {
+      "affirmative": "S + 很 + 形容詞",
+      "negative": "S + 不 + 形容詞",
+      "interrogative": "S + 形容詞 + 吗？"
+    },
+    "japaneseLearnerPitfalls": [
+      "日本語の「〜です」につられて「×这儿的风景是很漂亮」のように「是」を入れてしまう誤り。",
+      "肯定文で「很」を補うのを忘れて「×那座楼高」と不自然に対比的な文にしてしまう点。",
+      "否定文や疑問文にまで習慣の「很」を残して「×风景不很漂亮（部分否定：あまり〜ないの意）」「×那儿很远吗？」と言ってしまう点（単純な疑問・否定は「远吗？」「不远」が基本）。"
+    ],
+    "similarDifferences": [
+      {
+        "targetId": "G01-02",
+        "targetName": "“是”と“不是”（判断文）",
+        "difference": "名詞述語には「是」が必須ですが、形容詞述語には「是」を使いません。"
+      },
+      {
+        "targetId": "G02-01",
+        "targetName": "連体修飾 I “的”",
+        "difference": "名詞・代詞による所有修飾では「的」が基本ですが、形容詞による修飾では「1音節の直接修飾（的なし）」と「2音節/副詞付き（的あり）」の区別があります。"
+      }
+    ],
+    "examples": [
+      {
+        "id": "EX-G03-02-1",
+        "hanzi": "这儿的风景很漂亮。",
+        "pinyin": "Zhèr de fēngjǐng hěn piàoliang.",
+        "ja": "ここの景色はきれいです（とてもきれいです）。",
+        "note": "形容詞述語文では「是」を使わず、肯定文に「很」を添えます。",
+        "breakdown": [
+          { "role": "S", "label": "主語", "text": "这儿的风景", "pinyin": "zhèr de fēngjǐng" },
+          { "role": "Adv", "label": "程度副詞", "text": "很", "pinyin": "hěn" },
+          { "role": "V", "label": "形容詞述語", "text": "漂亮", "pinyin": "piàoliang" }
+        ]
+      },
+      {
+        "id": "EX-G03-02-2",
+        "hanzi": "那儿离这儿不远。",
+        "pinyin": "Nàr lí zhèr bù yuǎn.",
+        "ja": "あそこはここから遠くありません。",
+        "note": "「A 离 B ＋ 不＋形容詞」の否定文。「很」は入れません。",
+        "breakdown": [
+          { "role": "S", "label": "主語", "text": "那儿", "pinyin": "nàr" },
+          { "role": "Prep", "label": "介詞", "text": "离", "pinyin": "lí" },
+          { "role": "Loc", "label": "起点", "text": "这儿", "pinyin": "zhèr" },
+          { "role": "Neg", "label": "否定", "text": "不", "pinyin": "bù" },
+          { "role": "V", "label": "形容詞述語", "text": "远", "pinyin": "yuǎn" }
+        ]
+      },
+      {
+        "id": "EX-G03-02-3",
+        "hanzi": "这儿的建筑特别高！",
+        "pinyin": "Zhèr de jiànzhù tèbié gāo!",
+        "ja": "ここの建物はとりわけ高いですね！",
+        "note": "「特别」「真」などの副詞で感嘆や高い程度を表せます。",
+        "breakdown": [
+          { "role": "S", "label": "主語", "text": "这儿的建筑", "pinyin": "zhèr de jiànzhù" },
+          { "role": "Adv", "label": "副詞", "text": "特别", "pinyin": "tèbié" },
+          { "role": "V", "label": "形容詞述語", "text": "高", "pinyin": "gāo" }
+        ]
+      },
+      {
+        "id": "EX-G03-02-4",
+        "hanzi": "我们学校的大教室很漂亮。",
+        "pinyin": "Wǒmen xuéxiào de dà jiàoshì hěn piàoliang.",
+        "ja": "私たちの学校の大きい教室はきれいです。",
+        "note": "1音節形容詞「大」は「的」なしで名詞「教室」を修飾します。",
+        "breakdown": [
+          { "role": "Attr", "label": "修飾語", "text": "我们学校的", "pinyin": "wǒmen xuéxiào de" },
+          { "role": "Attr", "label": "1音節形容詞", "text": "大", "pinyin": "dà" },
+          { "role": "S", "label": "中心語", "text": "教室", "pinyin": "jiàoshì" },
+          { "role": "Adv", "label": "副詞", "text": "很", "pinyin": "hěn" },
+          { "role": "V", "label": "形容詞述語", "text": "漂亮", "pinyin": "piàoliang" }
+        ]
+      },
+      {
+        "id": "EX-G03-02-5",
+        "hanzi": "他是我很好的朋友。",
+        "pinyin": "Tā shì wǒ hěn hǎo de péngyou.",
+        "ja": "彼は私のとても良い友達です。",
+        "note": "1音節形容詞「好」でも前に程度副詞「很」が付くと「的」が必要になります。",
+        "breakdown": [
+          { "role": "S", "label": "主語", "text": "他", "pinyin": "tā" },
+          { "role": "V", "label": "判断動詞", "text": "是", "pinyin": "shì" },
+          { "role": "Attr", "label": "修飾句", "text": "我很好的", "pinyin": "wǒ hěn hǎo de" },
+          { "role": "O", "label": "中心語", "text": "朋友", "pinyin": "péngyou" }
+        ]
+      }
+    ],
+    "referenceUrl": "https://hanyujiaocai.jinkan.kyoto-u.ac.jp/2018shanghai/2018CALL/L3_4.html",
+    "referenceTitle": "文法事項 ２．形容詞 述語と連体修飾語"
+  },
+  {
+    "id": "G03-03",
+    "title": "動詞 “在”（存在・所在）",
+    "categoryId": "cat-existential",
+    "lessonId": "L03",
+    "difficulty": 1,
+    "prerequisites": ["G03-01"],
+    "relatedIds": ["G03-01", "G03-04", "G04-01", "G04-02"],
+    "meaning": "人・物・建物などが「（ある場所に）いる・ある」という所在を表す動詞です。場所を表す語（場所名詞、这儿/那儿/哪儿、名詞＋方位詞）を必ず目的語に取ります。",
+    "pattern": "肯定：S(人/物) + 在 + 場所 ／ 否定：S + 不在 + 場所 ／ 疑問：S + 在哪儿？",
+    "structureSlots": [
+      { "role": "S", "label": "主語(人/物)", "text": "王老师 / 书 / 教学楼", "pinyin": "Wáng lǎoshī / shū / jiàoxuélóu" },
+      { "role": "Neg", "label": "否定(任意)", "text": "不", "pinyin": "bù" },
+      { "role": "V", "label": "所在動詞", "text": "在", "pinyin": "zài" },
+      { "role": "Loc", "label": "場所", "text": "北京 / 教室里 / 哪儿", "pinyin": "Běijīng / jiàoshì lǐ / nǎr" }
+    ],
+    "wordOrderNote": "日本語の「〜は〜にある／いる」と同じ語順（S＋在＋場所）です。主語が特定の人や物である点に注意してください。",
+    "usageConditions": "「田中さんはどこにいますか（田中在哪儿？）」「私の本は机の上にあります（我的书在桌子上）」のように、既に話題に上っている特定の人や物の位置を述べたり尋ねたりするときに使います。否定には「不」を使い「不在」とします（「×没有在」は使いません）。",
+    "distinctionNotes": "同じ「ある・いる」でも、不特定の名詞の存在（「机の上に本がある」＝所有・存在）を表す場合は第4課で学ぶ「有」を使います（例：在＝特定の主語がどこにあるか ／ 有＝ある場所に何があるか）。",
+    "forms": {
+      "affirmative": "S + 在 + 場所",
+      "negative": "S + 不在 + 場所",
+      "interrogative": "S + 在 + 場所 + 吗？ ／ S + 在哪儿？"
+    },
+    "japaneseLearnerPitfalls": [
+      "「在」の後ろに「桌子上（机の上）」のような場所ではなく、一般のモノ名詞「×我在桌子」をそのまま置いてしまう誤り（モノ名詞には方位詞「上・里」等を付けて場所化する必要がある）。",
+      "否定形を「×他没有在教室」としてしまう誤り（所在の「在」の否定は原則「不在」）。",
+      "「在」と「是」を混同して「×他在是这儿」と両方入れてしまう誤り。"
+    ],
+    "similarDifferences": [
+      {
+        "targetId": "G03-04",
+        "targetName": "方位詞",
+        "difference": "一般の名詞（机・教室・ビルなど）を「在」の目的語にするときは、後ろに方位詞（上・里・旁边など）を補って「場所」を表す必要があります。"
+      },
+      {
+        "targetId": "G04-01",
+        "targetName": "動詞 “有”（所有・存在）",
+        "difference": "「在」は「Sはどこにあるか（主語が既知）」、「有」は「場所に何があるか（主語が場所・存在物が未知）」を表します。"
+      },
+      {
+        "targetId": "G04-02",
+        "targetName": "介詞 “在”",
+        "difference": "第3課の「在」は文の述語動詞（〜にある/いる）ですが、第4課では他の動詞の前で「〜で（〜する）」を表す介詞（前置詞）としての「在」を学びます。"
+      }
+    ],
+    "examples": [
+      {
+        "id": "EX-G03-03-1",
+        "hanzi": "林明在北京，他妹妹在东京。",
+        "pinyin": "Lín Míng zài Běijīng, tā mèimei zài Dōngjīng.",
+        "ja": "林明は北京にいて、彼の妹は東京にいます。",
+        "note": "地名（北京、东京）はそれ自体が場所名詞なので方位詞なしで「在」の後ろに置けます。",
+        "breakdown": [
+          { "role": "S", "label": "主語", "text": "林明", "pinyin": "Lín Míng" },
+          { "role": "V", "label": "所在動詞", "text": "在", "pinyin": "zài" },
+          { "role": "Loc", "label": "場所", "text": "北京", "pinyin": "Běijīng" },
+          { "role": "S", "label": "主語", "text": "他妹妹", "pinyin": "tā mèimei" },
+          { "role": "V", "label": "所在動詞", "text": "在", "pinyin": "zài" },
+          { "role": "Loc", "label": "場所", "text": "东京", "pinyin": "Dōngjīng" }
+        ]
+      },
+      {
+        "id": "EX-G03-03-2",
+        "hanzi": "王老师不在教室里。",
+        "pinyin": "Wáng lǎoshī bú zài jiàoshì lǐ.",
+        "ja": "王先生は教室の中にいません。",
+        "note": "「在」の否定は「不在（発音は bú zài）」。「教室」は「里」を添えて場所を示します。",
+        "breakdown": [
+          { "role": "S", "label": "主語", "text": "王老师", "pinyin": "Wáng lǎoshī" },
+          { "role": "Neg", "label": "否定", "text": "不", "pinyin": "bù" },
+          { "role": "V", "label": "所在動詞", "text": "在", "pinyin": "zài" },
+          { "role": "Loc", "label": "場所", "text": "教室里", "pinyin": "jiàoshì lǐ" }
+        ]
+      },
+      {
+        "id": "EX-G03-03-3",
+        "hanzi": "请问，第一教学楼在哪儿？",
+        "pinyin": "Qǐngwèn, dì yī jiàoxuélóu zài nǎr?",
+        "ja": "すみません、第1教育棟はどこにありますか。",
+        "note": "場所を尋ねる最も代表的な疑問文です。",
+        "breakdown": [
+          { "role": "V", "label": "丁寧表現", "text": "请问", "pinyin": "qǐngwèn" },
+          { "role": "S", "label": "主語", "text": "第一教学楼", "pinyin": "dì yī jiàoxuélóu" },
+          { "role": "V", "label": "所在動詞", "text": "在", "pinyin": "zài" },
+          { "role": "Loc", "label": "疑問詞", "text": "哪儿", "pinyin": "nǎr" }
+        ]
+      },
+      {
+        "id": "EX-G03-03-4",
+        "hanzi": "图书馆在右边，不在左边。",
+        "pinyin": "Túshūguǎn zài yòubian, bú zài zuǒbian.",
+        "ja": "図書館は右側にあり、左側にはありません。",
+        "note": "「右边」「左边」は単独で場所として「在」の後ろに置けます。",
+        "breakdown": [
+          { "role": "S", "label": "主語", "text": "图书馆", "pinyin": "túshūguǎn" },
+          { "role": "V", "label": "所在動詞", "text": "在", "pinyin": "zài" },
+          { "role": "Loc", "label": "方位詞", "text": "右边", "pinyin": "yòubian" },
+          { "role": "Neg", "label": "否定", "text": "不", "pinyin": "bù" },
+          { "role": "V", "label": "所在動詞", "text": "在", "pinyin": "zài" },
+          { "role": "Loc", "label": "方位詞", "text": "左边", "pinyin": "zuǒbian" }
+        ]
+      },
+      {
+        "id": "EX-G03-03-5",
+        "hanzi": "你的同学也在上海吗？",
+        "pinyin": "Nǐ de tóngxué yě zài Shànghǎi ma?",
+        "ja": "あなたのクラスメートも上海にいますか。",
+        "note": "副詞「也」を「在」の前に置き、文末の「吗」で質問します。",
+        "breakdown": [
+          { "role": "S", "label": "主語", "text": "你的同学", "pinyin": "nǐ de tóngxué" },
+          { "role": "Adv", "label": "副詞", "text": "也", "pinyin": "yě" },
+          { "role": "V", "label": "所在動詞", "text": "在", "pinyin": "zài" },
+          { "role": "Loc", "label": "場所", "text": "上海", "pinyin": "Shànghǎi" },
+          { "role": "Aux", "label": "語気助詞", "text": "吗", "pinyin": "ma" }
+        ]
+      }
+    ],
+    "referenceUrl": "https://hanyujiaocai.jinkan.kyoto-u.ac.jp/2018shanghai/2018CALL/L3_5.html",
+    "referenceTitle": "文法事項 ３．動詞 “在”"
+  },
+  {
+    "id": "G03-04",
+    "title": "方位詞（上・下・里・前・后・左边・右边など）",
+    "categoryId": "cat-modifier",
+    "lessonId": "L03",
+    "difficulty": 1,
+    "prerequisites": ["G03-03"],
+    "relatedIds": ["G02-01", "G03-03", "G04-01", "G04-02"],
+    "meaning": "位置や方角を表す名詞（方位詞）です。1文字の単純方位詞（上・下・里・前・后など）と、後ろに「边 / 面」などが付いた合成方位詞（上边/上面・左边・右边・旁边・前面・后面など）があり、他の名詞の後ろに付けて具体的な「場所」を表します。",
+    "pattern": "名詞 + 単純方位詞（桌子上 / 教室里） ／ 名詞 + (的) + 合成方位詞（大楼的右边 / 大学旁边）",
+    "structureSlots": [
+      { "role": "Loc", "label": "基準の名詞", "text": "书 / 教室 / 教学楼", "pinyin": "shū / jiàoshì / jiàoxuélóu" },
+      { "role": "Aux", "label": "的(合成時任意)", "text": "(的)", "pinyin": "(de)" },
+      { "role": "Loc", "label": "方位詞", "text": "上 / 里 / 右边 / 旁边", "pinyin": "shàng / lǐ / yòubian / pángbiān" }
+    ],
+    "wordOrderNote": "日本語の「机の上」「教室の中」と同じ語順（基準となる名詞＋方位詞）です。1文字の単純方位詞を名詞の後ろに置くときは間に「的」を入れません（○桌子上 / ×桌子的上）。合成方位詞の場合は「的」を入れても省略してもかまいません（○大楼的右边 / ○大楼右边）。",
+    "usageConditions": "「桌子上（机の上）」「书包里（カバンの中）」「教学楼前面（教育棟の前）」のように、それ自体は場所名詞ではない一般名詞を「場所」に変えるときに使います。合成方位詞の「右边」「左边」「前面」「后面」などは、単独でも「在右边（右側にある）」のように使えます。",
+    "distinctionNotes": "国名や都市名などの地名（中国、北京、东京など）の後ろには原則として「里」を付けません（○在北京 / ×在北京里）。また「教学楼（ビル・棟）」のような建物の「中」を言うときは「楼里」と言えますが、「大学」や「学校」全体をキャンパス・場所として指すときは「在学校」「在大学」と方位詞なしでも使われます。",
+    "forms": {
+      "affirmative": "S + 在 + 基準名詞 + 方位詞",
+      "negative": "S + 不在 + 基準名詞 + 方位詞",
+      "interrogative": "S + 在 + 基準名詞 + 方位詞 + 吗？"
+    },
+    "japaneseLearnerPitfalls": [
+      "日本語の「机の上」の「の」に引かれて、1文字方位詞の前に「的」を入れて「×桌子的上」「×教室的里」としてしまう誤り。",
+      "地名の後ろに「里」を付けて「×我在东京里」と言ってしまう誤り。",
+      "合成方位詞の2音節目（边 bian / 面 mian）の軽声を強く読んでしまう点（「旁边 pángbiān」は第1声を保つことが多いが、「左边 zuǒbian」「后面 hòumian」などの2音節目は軽声になるのが一般的）。"
+    ],
+    "similarDifferences": [
+      {
+        "targetId": "G02-01",
+        "targetName": "連体修飾 I “的”",
+        "difference": "合成方位詞（左边・前面など）は名詞としての性質が強いため「名词＋的＋合成方位词」にできますが、単純方位詞（上・里）は「的」を挟めません。"
+      },
+      {
+        "targetId": "G03-03",
+        "targetName": "動詞 “在”",
+        "difference": "方位詞と基準名詞を組み合わせた句は「場所」を表すため、動詞「在」の目的語にそのまま入ります。"
+      }
+    ],
+    "examples": [
+      {
+        "id": "EX-G03-04-1",
+        "hanzi": "我的汉语书在桌子上。",
+        "pinyin": "Wǒ de Hànyǔ shū zài zhuōzi shàng.",
+        "ja": "私の中国語の本は机の上にあります。",
+        "note": "単純方位詞「上」の前には「的」を入れません。",
+        "breakdown": [
+          { "role": "S", "label": "主語", "text": "我的汉语书", "pinyin": "wǒ de Hànyǔ shū" },
+          { "role": "V", "label": "所在動詞", "text": "在", "pinyin": "zài" },
+          { "role": "Loc", "label": "場所(名詞+方位)", "text": "桌子上", "pinyin": "zhuōzi shàng" }
+        ]
+      },
+      {
+        "id": "EX-G03-04-2",
+        "hanzi": "学生们在教室里。",
+        "pinyin": "Xuéshengmen dōu zài jiàoshì lǐ.",
+        "ja": "学生たちは教室の中にいます。",
+        "note": "「教室＋里」で「教室の中」を表します。",
+        "breakdown": [
+          { "role": "S", "label": "主語", "text": "学生们", "pinyin": "xuéshengmen" },
+          { "role": "V", "label": "所在動詞", "text": "在", "pinyin": "zài" },
+          { "role": "Loc", "label": "場所(名詞+方位)", "text": "教室里", "pinyin": "jiàoshì lǐ" }
+        ]
+      },
+      {
+        "id": "EX-G03-04-3",
+        "hanzi": "第一楼在图书馆的右边。",
+        "pinyin": "Dì yī lóu zài túshūguǎn de yòubian.",
+        "ja": "1号館は図書館の右側にあります。",
+        "note": "合成方位詞「右边」の前には「的」を置くことができます。",
+        "breakdown": [
+          { "role": "S", "label": "主語", "text": "第一楼", "pinyin": "dì yī lóu" },
+          { "role": "V", "label": "所在動詞", "text": "在", "pinyin": "zài" },
+          { "role": "Loc", "label": "場所", "text": "图书馆的右边", "pinyin": "túshūguǎn de yòubian" }
+        ]
+      },
+      {
+        "id": "EX-G03-04-4",
+        "hanzi": "书店在教学楼旁边。",
+        "pinyin": "Shūdiàn zài jiàoxuélóu pángbiān.",
+        "ja": "書店は教育棟の隣にあります。",
+        "note": "合成方位詞「旁边」の前の「的」は省略することもよくあります。",
+        "breakdown": [
+          { "role": "S", "label": "主語", "text": "书店", "pinyin": "shūdiàn" },
+          { "role": "V", "label": "所在動詞", "text": "在", "pinyin": "zài" },
+          { "role": "Loc", "label": "場所", "text": "教学楼旁边", "pinyin": "jiàoxuélóu pángbiān" }
+        ]
+      },
+      {
+        "id": "EX-G03-04-5",
+        "hanzi": "公园在学校后面，不在学校前面。",
+        "pinyin": "Gōngyuán zài xuéxiào hòumian, bú zài xuéxiào qiánmian.",
+        "ja": "公園は学校の後ろにあり、学校の前にはありません。",
+        "note": "「后面」と「前面」を対比させた所在文。",
+        "breakdown": [
+          { "role": "S", "label": "主語", "text": "公园", "pinyin": "gōngyuán" },
+          { "role": "V", "label": "所在動詞", "text": "在", "pinyin": "zài" },
+          { "role": "Loc", "label": "場所", "text": "学校后面", "pinyin": "xuéxiào hòumian" },
+          { "role": "Neg", "label": "否定", "text": "不", "pinyin": "bù" },
+          { "role": "V", "label": "所在動詞", "text": "在", "pinyin": "zài" },
+          { "role": "Loc", "label": "場所", "text": "学校前面", "pinyin": "xuéxiào qiánmian" }
+        ]
+      }
+    ],
+    "referenceUrl": "https://hanyujiaocai.jinkan.kyoto-u.ac.jp/2018shanghai/2018CALL/L3_6.html",
+    "referenceTitle": "文法事項 ４．方位詞"
+  }
+]

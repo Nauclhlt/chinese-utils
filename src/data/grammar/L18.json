@@ -1,0 +1,340 @@
+[
+  {
+    "id": "G18-01",
+    "title": "“越”……“越”……（比例変化）",
+    "categoryId": "cat-comparison",
+    "lessonId": "L18",
+    "difficulty": 2,
+    "prerequisites": ["G05-04"],
+    "relatedIds": ["G07-01", "G07-04", "G14-05"],
+    "meaning": "時間の経過や動作の反復とともに程度がますます強まる比例変化を表します。「越来越〜（ますます〜になる）」と「越 A 越 B（AすればするほどますますBになる）」の2つの基本パターンがあります。",
+    "pattern": "主語 + 越来越 + 形容詞/心理動詞(+了) ／ 主語1 + 越 + A + (主語2) + 越 + B",
+    "structureSlots": [
+      { "role": "S", "label": "主語", "text": "汉字", "pinyin": "Hànzì" },
+      { "role": "Adv", "label": "比例副詞1", "text": "越", "pinyin": "yuè" },
+      { "role": "V", "label": "動作1", "text": "学", "pinyin": "xué" },
+      { "role": "Adv", "label": "比例副詞2", "text": "越", "pinyin": "yuè" },
+      { "role": "P", "label": "変化結果", "text": "有意思", "pinyin": "yǒuyìsi" }
+    ],
+    "wordOrderNote": "「越来越……」では「越来越」の後ろに形容詞や心理動詞（喜欢・了解など）を置き、通常「了」を伴って変化を示します。「越 A 越 B」では2つの節が同じ主語の場合は2番目の主語を省き、異なる主語の場合はそれぞれ「越」の直前に主語を置きます（例：老师越讲，学生越糊涂）。",
+    "usageConditions": "「越来越……」は時間とともに程度が増す変化（「ますます暖かくなる」「どんどん上手になる」）を表します。「越 A 越 B」はAの進行に比例してBが変化する関係（「走れば走るほど疲れる」「考えれば考えるほど気になる」）を表します。",
+    "distinctionNotes": "「越来越」や「越〜越〜」の後ろの形容詞の前には、「很・非常・真」などの程度副詞を置くことはできません（×越来越很好 → ○越来越好）。ただし「越……越不……」と否定形にすることはできます（例：越说越不明白）。",
+    "forms": {
+      "affirmative": "主語 + 越来越 + 形容詞/心理動詞(+了) ／ 主語 + 越 + V1 + 越 + V2/形容詞",
+      "negative": "主語 + 越来越不 + 形容詞/心理動詞(+了) ／ 主語 + 越 + V1 + 越不 + V2/形容詞",
+      "interrogative": "主語 + 是不是越来越 + 形容詞 + 了？"
+    },
+    "japaneseLearnerPitfalls": [
+      "「越来越」の後ろに「很」を入れてしまう誤り（×天气越来越很热 → ○天气越来越热了）。",
+      "異なる主語の場合に主語の位置を間違える誤り（×越老师讲，越我听不懂 → ○老师越讲，我越听不懂）。",
+      "「ますます」を「越来越」ではなく「非常」だけで済ませてしまい、時間経過や変化のニュアンスが消えてしまう。"
+    ],
+    "similarDifferences": [
+      {
+        "targetId": "G05-04",
+        "targetName": "「比」による比較文",
+        "difference": "「比」はAとBの2者間の静的な差の比較、「越来越 / 越……越……」は時間の経過や行為の進行に伴う動的な変化の比例を表します。"
+      },
+      {
+        "targetId": "G07-04",
+        "targetName": "変化の「了」",
+        "difference": "「越来越……」は状態の変化を表すため、文末に変化の「了」とよく共起します。"
+      }
+    ],
+    "examples": [
+      {
+        "id": "EX-G18-01-1",
+        "hanzi": "进入四月以后，天气越来越暖和了。",
+        "pinyin": "Jìnrù sìyuè yǐhòu, tiānqì yuèláiyuè nuǎnhuo le.",
+        "ja": "4月に入ってから、天気はますます暖かくなってきました。",
+        "breakdown": [
+          { "role": "Time", "label": "時間", "text": "进入四月以后" },
+          { "role": "S", "label": "主語", "text": "天气" },
+          { "role": "Adv", "label": "比例変化", "text": "越来越" },
+          { "role": "P", "label": "形容詞+了", "text": "暖和了" }
+        ]
+      },
+      {
+        "id": "EX-G18-01-2",
+        "hanzi": "他来到中国以后，汉语说得越来越流利了。",
+        "pinyin": "Tā láidào Zhōngguó yǐhòu, Hànyǔ shuō de yuèláiyuè liúlì le.",
+        "ja": "彼は中国へ来てから、中国語を話すのがますます流暢になりました。"
+      },
+      {
+        "id": "EX-G18-01-3",
+        "hanzi": "外面的风越刮越大，我们早点儿回家吧。",
+        "pinyin": "Wàimiàn de fēng yuè guā yuè dà, wǒmen zǎodiǎnr huí jiā ba.",
+        "ja": "外の風は吹けば吹くほど強くなっているので、早めに家へ帰りましょう。"
+      },
+      {
+        "id": "EX-G18-01-4",
+        "hanzi": "这本小说情节很吸引人，我越看越想看。",
+        "pinyin": "Zhè běn xiǎoshuō qíngjié hěn xīyǐn rén, wǒ yuè kàn yuè xiǎng kàn.",
+        "ja": "この小説はストーリーがとても魅力的で、読めば読むほど先が読みたくなります。"
+      },
+      {
+        "id": "EX-G18-01-5",
+        "hanzi": "老师越解释，大家对这个语法越明白了。",
+        "pinyin": "Lǎoshī yuè jiěshì, dàjiā duì zhège yǔfǎ yuè míngbai le.",
+        "ja": "先生が説明すればするほど、皆はこの文法がますますよく分かるようになりました。",
+        "note": "前節と後節で主語が異なるときは、それぞれの「越」の前に主語を置きます。"
+      }
+    ],
+    "referenceUrl": "https://hanyujiaocai.jinkan.kyoto-u.ac.jp/2018shanghai/2018CALL/L18_3.html",
+    "referenceTitle": "第十八課 文法事項 １．“越”…“越”…"
+  },
+  {
+    "id": "G18-02",
+    "title": "動詞＋ “在”（結果補語的な定着位置）",
+    "categoryId": "cat-result-comp",
+    "lessonId": "L18",
+    "difficulty": 2,
+    "prerequisites": ["G03-03", "G09-01"],
+    "relatedIds": ["G04-02", "G09-04", "G17-03"],
+    "meaning": "「住・坐・站・放・写・挂・停」などの動詞の直後に「在＋場所」を置き、その動作の結果として人や物が特定の場所に落ち着く・定着することを表す表現です。",
+    "pattern": "主語 + 動詞 + 在 + 場所詞 ／ 主語 + 把 + 目的語 + 動詞 + 在 + 場所詞",
+    "structureSlots": [
+      { "role": "S", "label": "主語", "text": "他", "pinyin": "Tā" },
+      { "role": "Prep", "label": "把構文", "text": "把行李", "pinyin": "bǎ xíngli" },
+      { "role": "V", "label": "動詞", "text": "放", "pinyin": "fàng" },
+      { "role": "C", "label": "定着補語", "text": "在", "pinyin": "zài" },
+      { "role": "Loc", "label": "定着場所", "text": "房间里", "pinyin": "fángjiān lǐ" }
+    ],
+    "wordOrderNote": "動作が起きた場所（「どこで〜する」）を表す「主語 + 在 + 場所 + 動詞」とは語順が異なり、動作の結果どこに位置づくか（「どこに〜する」）を表すときは「動詞 + 在 + 場所」の順に置きます。目的語を取る他動詞（放・写・挂など）では、「把 + 目的語 + V + 在 + 場所」または目的語を文頭に主題化します。",
+    "usageConditions": "「住（住む）」「坐（座る）」「站（立つ）」「躺（横になる）」などの移動・姿勢動詞、および「放（置く）」「写（書く）」「贴（貼る）」「挂（掛ける）」「停（停める）」など物の定着を表す動詞と結びつきます。",
+    "distinctionNotes": "「在 + 場所 + 動詞」と「動詞 + 在 + 場所」の対比が最重要です。例：「在桌子上写字（机の上で字を書く＝作業場所）」vs「把字写在黑板上（字を黒板に書く＝字が残る場所）」。また「住在北京」は普通「在北京住」とは言いません。",
+    "forms": {
+      "affirmative": "主語 + V + 在 + 場所 ／ 主語 + 把 + O + V + 在 + 場所",
+      "negative": "主語 + 没/不 + V + 在 + 場所 ／ 主語 + 没把 + O + V + 在 + 場所",
+      "interrogative": "主語 + V + 在 + 哪儿？ / 主語 + V + 在 + 場所 + 吗？"
+    },
+    "japaneseLearnerPitfalls": [
+      "「京都に住んでいる」を「×在京都住」としてしまう誤り（定着先の「住」は「住在京都」が標準）。",
+      "「カバンを椅子の上に置く」を「×把包在椅子上放」または「×放在椅子上包」にしてしまう誤り（正しくは「把包放在椅子上」）。",
+      "動作を行う場所（例：在教室里上课）まで「×上课在教室里」と後ろに回してしまう誤り。"
+    ],
+    "similarDifferences": [
+      {
+        "targetId": "G04-02",
+        "targetName": "場所の介詞「在＋場所＋V」",
+        "difference": "「在＋場所＋V」は動作が行われる舞台・場所（〜で〜する）を表し、「V＋在＋場所」は動作の結果として人・物がそこに落ち着く場所（〜に〜する）を表します。"
+      },
+      {
+        "targetId": "G17-03",
+        "targetName": "存現文（場所＋V着＋名詞）",
+        "difference": "「把画挂在墙上（絵を壁に掛ける）」は動作と定着の表現、「墙上挂着一幅画（壁に絵が1枚掛かっている）」はその結果の状態描写です。"
+      }
+    ],
+    "examples": [
+      {
+        "id": "EX-G18-02-1",
+        "hanzi": "姐姐大学毕业以后，一直住在上海。",
+        "pinyin": "Jiějie dàxué bìyè yǐhòu, yìzhí zhù zài Shànghǎi.",
+        "ja": "姉は大学を卒業した後、ずっと上海に住んでいます。",
+        "breakdown": [
+          { "role": "S", "label": "主語", "text": "姐姐" },
+          { "role": "Time", "label": "時期", "text": "大学毕业以后" },
+          { "role": "Adv", "label": "副詞", "text": "一直" },
+          { "role": "V", "label": "動詞", "text": "住" },
+          { "role": "C", "label": "定着補語", "text": "在上海" }
+        ]
+      },
+      {
+        "id": "EX-G18-02-2",
+        "hanzi": "请大家按顺序坐在自己的座位上。",
+        "pinyin": "Qǐng dàjiā àn shùnxù zuò zài zìjǐ de zuòwèi shàng.",
+        "ja": "皆さん、順番通りに自分の席に座ってください。"
+      },
+      {
+        "id": "EX-G18-02-3",
+        "hanzi": "我把刚买的水果放在冰箱里了。",
+        "pinyin": "Wǒ bǎ gāng mǎi de shuǐguǒ fàng zài bīngxiāng lǐ le.",
+        "ja": "私は買ったばかりの果物を冷蔵庫の中に入れました（置きました）。"
+      },
+      {
+        "id": "EX-G18-02-4",
+        "hanzi": "请把你的名字和学号写在答题纸的左上角。",
+        "pinyin": "Qǐng bǎ nǐ de míngzi hé xuéhào xiě zài dátízhǐ de zuǒshàngjiǎo.",
+        "ja": "あなたの名前と学籍番号を解答用紙の左上に書いてください。",
+        "note": "文字が書かれて定着する場所を示すため「写在……」を用います。"
+      },
+      {
+        "id": "EX-G18-02-5",
+        "hanzi": "去年去京都旅游的时候，我们住在鸭川附近的一家宾馆。",
+        "pinyin": "Qùnián qù Jīngdū lǚyóu de shíhou, wǒmen zhù zài Yāchuān fùjìn de yì jiā bīnguǎn.",
+        "ja": "昨年京都へ旅行したとき、私たちは鴨川近くのホテルに泊まりました。"
+      }
+    ],
+    "referenceUrl": "https://hanyujiaocai.jinkan.kyoto-u.ac.jp/2018shanghai/2018CALL/L18_4.html",
+    "referenceTitle": "第十八課 文法事項 ２．動詞＋ “在”"
+  },
+  {
+    "id": "G18-03",
+    "title": "譲歩表現 “尽管”……（但是/还是……）",
+    "categoryId": "cat-complex",
+    "lessonId": "L18",
+    "difficulty": 2,
+    "prerequisites": ["G14-04"],
+    "relatedIds": ["G16-04", "G19-02"],
+    "meaning": "ある事実や不利な条件をいったん認めたうえで、それに反する結果や意志を述べる譲歩構文（「〜だけれども、それでもやはり……」「たとえ〜でも、……」）です。",
+    "pattern": "尽管 + 譲歩の事実，但是 / 可是 / 然而 / 还是 + 帰結",
+    "structureSlots": [
+      { "role": "Conj", "label": "譲歩接続詞", "text": "尽管", "pinyin": "Jǐnguǎn" },
+      { "role": "S", "label": "前節", "text": "外面下着大雨", "pinyin": "wàimiàn xià zhe dàyǔ" },
+      { "role": "Conj", "label": "逆接", "text": "但是", "pinyin": "dànshì" },
+      { "role": "S", "label": "主語", "text": "他", "pinyin": "tā" },
+      { "role": "Adv", "label": "強調", "text": "还是", "pinyin": "háishi" },
+      { "role": "V", "label": "後節", "text": "按时赶到了", "pinyin": "ànshí gǎndào le" }
+    ],
+    "wordOrderNote": "「尽管」は前節の主語の前にも後ろにも置けます。前後で主語が同じ場合、後ろの節の主語を省略するか「但是」の後に置きます。また「但是」の代わりに「可是」を用いたり、「还是（それでもやはり）」だけで受けたりすることも非常に多いです。",
+    "usageConditions": "書き言葉・やや改まった話し言葉の両方で使われ、「虽然……但是……」よりも譲歩のトーン（それでもなお、という対比）を強く出したいときに適しています。また「尽管」の後ろには通常「既成の事実」を置きます。",
+    "distinctionNotes": "「尽管」と「虽然」はどちらも逆接・譲歩ですが、「尽管」は後節に「还是」を伴うことが多く、「但是」を省略して「尽管……，还是……」の形でも極めて自然です。なお「尽管」には別に副詞として「遠慮なく〜しなさい（例：尽管问）」という用法もあります。",
+    "forms": {
+      "affirmative": "尽管 + 節1，(但是 / 可是) + 節2 / 还是 + 節2",
+      "negative": "尽管 + 否定節1，但是/还是 + 節2"
+    },
+    "japaneseLearnerPitfalls": [
+      "「尽管」の後ろに「所以」を呼応させてしまう誤り（×尽管很累，所以我还在学习 → ○尽管很累，但是我还在学习）。",
+      "日本語の「〜にもかかわらず」を直訳して「尽管」の後に名詞だけを置いてしまう誤り（×尽管大雨 → ○尽管下着大雨）。「尽管」の後ろは原則として節（主語＋述語、または形容詞句）を置きます。",
+      "第3声連続の変調に注意：「尽管 (jǐnguǎn)」は発音上「jínguǎn」のように前が第2声化します（表記の本調は jǐnguǎn）。"
+    ],
+    "similarDifferences": [
+      {
+        "targetId": "G14-04",
+        "targetName": "因果「因为……所以……」",
+        "difference": "「因为……所以……」は順接の因果関係、「尽管……但是/还是……」は逆接・譲歩の関係です。"
+      },
+      {
+        "targetId": "G19-02",
+        "targetName": "「既然……，就……」",
+        "difference": "「既然」は既定の事実から自然な推論を導くのに対し、「尽管」は既定の事実に逆らう・予想に反する帰結を導きます。"
+      }
+    ],
+    "examples": [
+      {
+        "id": "EX-G18-03-1",
+        "hanzi": "尽管今天的风很大，但是我们还是去公园散步了。",
+        "pinyin": "Jǐnguǎn jīntiān de fēng hěn dà, dànshì wǒmen háishi qù gōngyuán sànbù le.",
+        "ja": "今日は風がとても強いけれども、それでも私たちは公園へ散歩に行きました。",
+        "breakdown": [
+          { "role": "Conj", "label": "譲歩", "text": "尽管" },
+          { "role": "Other", "label": "前節", "text": "今天的风很大" },
+          { "role": "Conj", "label": "逆接", "text": "但是" },
+          { "role": "S", "label": "主語", "text": "我们" },
+          { "role": "Adv", "label": "副詞", "text": "还是" },
+          { "role": "V", "label": "後節", "text": "去公园散步了" }
+        ]
+      },
+      {
+        "id": "EX-G18-03-2",
+        "hanzi": "尽管这道菜做起来很麻烦，妈妈还是每周做一次。",
+        "pinyin": "Jǐnguǎn zhè dào cài zuò qǐlái hěn máfan, māma háishi měi zhōu zuò yí cì.",
+        "ja": "この料理は作るのにとても手間がかかるけれど、母はそれでも毎週1回作ります。"
+      },
+      {
+        "id": "EX-G18-03-3",
+        "hanzi": "尽管他来日本才半年，日语却说得相当自然。",
+        "pinyin": "Jǐnguǎn tā lái Rìběn cái bàn nián, Rìyǔ què shuō de xiāngdāng zìrán.",
+        "ja": "彼は日本に来てまだ半年しか経っていないのに、日本語は驚くほど自然に話します。"
+      },
+      {
+        "id": "EX-G18-03-4",
+        "hanzi": "尽管这双鞋价格有点儿高，我还是决定买下来。",
+        "pinyin": "Jǐnguǎn zhè shuāng xié jiàgé yǒudiǎnr gāo, wǒ háishi juédìng mǎi xiàlái.",
+        "ja": "この靴は値段が少し高いけれど、私はやはり買うことに決めました。"
+      },
+      {
+        "id": "EX-G18-03-5",
+        "hanzi": "尽管大家反复提醒过他，他还是把这件事忘了。",
+        "pinyin": "Jǐnguǎn dàjiā fǎnfù tíxǐng guo tā, tā háishi bǎ zhè jiàn shì wàng le.",
+        "ja": "みんなが何度も彼に注意したのに、彼はやはりこのことを忘れてしまいました。"
+      }
+    ],
+    "referenceUrl": "https://hanyujiaocai.jinkan.kyoto-u.ac.jp/2018shanghai/2018CALL/L18_5.html",
+    "referenceTitle": "第十八課 文法事項 ３． “尽管”……"
+  },
+  {
+    "id": "G18-04",
+    "title": "目的の介詞 “为了”……",
+    "categoryId": "cat-preposition",
+    "lessonId": "L18",
+    "difficulty": 2,
+    "prerequisites": ["G04-02"],
+    "relatedIds": ["G05-05", "G14-04", "G17-05"],
+    "meaning": "動作や行為の「目的・目標（〜のために・〜することを目的として）」を表す介詞です。目的語には名詞句だけでなく動詞フレーズや節も取ることができます。",
+    "pattern": "为了 + 目的（名詞/動詞フレーズ），主語 + 述語 ／ 行為 + 是为了 + 目的",
+    "structureSlots": [
+      { "role": "Prep", "label": "介詞", "text": "为了", "pinyin": "Wèile" },
+      { "role": "O", "label": "目的", "text": "考上理想的大学", "pinyin": "kǎoshàng lǐxiǎng de dàxué" },
+      { "role": "S", "label": "主語", "text": "他", "pinyin": "tā" },
+      { "role": "Adv", "label": "副詞", "text": "每天都", "pinyin": "měitiān dōu" },
+      { "role": "V", "label": "行動", "text": "努力复习", "pinyin": "nǔlì fùxí" }
+    ],
+    "wordOrderNote": "「为了……」は通常、文頭（主語の前）または主語の直後に置いて「目的→行動」の順に並べます。ただし「AをするのはBのためだ」と目的そのものを強調・説明するときは、「主語 + 行為，是为了 + 目的」のように「是」の後（述語位置）に置くこともできます。",
+    "usageConditions": "「家族のために（为了家人）」「健康を保つために（为了保持健康）」「試合に勝つために（为了赢得比赛）」など、名詞・動詞句のいずれを後ろに置いても目的を表せます。なお「为了」の「为」は第4声（wèi）で発音します。",
+    "distinctionNotes": "「因为（すでに起きた原因・理由）」と「为了（これから達成したい目的）」の区別が非常に重要です。例えば「雨が降ったから休む」は原因なので「因为下雨」であり、「×为了下雨」とは言えません。逆に「合格するために勉強する」は目的なので「为了及格」であり、「因为及格」とは言えません。",
+    "forms": {
+      "affirmative": "为了 + 目的，主語 + 述語 ／ 主語 + 行为 + 是为了 + 目的",
+      "negative": "为了不 + 動詞（〜しないために），主語 + 述語"
+    },
+    "japaneseLearnerPitfalls": [
+      "原因と目的を混同して「原因」に「为了」を使ってしまう誤り（×为了生病，我没去上课 → ○因为生病，我没去上课）。",
+      "「〜しないために」を「×不为了……」と否定してしまう誤り（「为了不迟到」のように「为了」の後ろを否定する）。",
+      "「为」の声調を第2声（wéi）と誤読する誤り（目的の「为了」は第4声 wèile）。"
+    ],
+    "similarDifferences": [
+      {
+        "targetId": "G14-04",
+        "targetName": "原因の「因为」",
+        "difference": "「因为」は客観的な原因・根拠（すでに起こったこと）、「为了」は意図・目的（達成したいこと）を表します。"
+      },
+      {
+        "targetId": "G04-02",
+        "targetName": "介詞「给 / 为」",
+        "difference": "「为（wèi）」単独は「〜のために（奉仕・受益者：我为你高兴）」を主に表し、「为了（wèile）」は明確な目標・目的（〜するために）を表します。"
+      }
+    ],
+    "examples": [
+      {
+        "id": "EX-G18-04-1",
+        "hanzi": "为了提高汉语水平，她每天坚持朗读课文。",
+        "pinyin": "Wèile tígāo Hànyǔ shuǐpíng, tā měitiān jiānchí lǎngdú kèwén.",
+        "ja": "中国語のレベルを上げるために、彼女は毎日欠かさず本文を音読しています。",
+        "breakdown": [
+          { "role": "Prep", "label": "目的句", "text": "为了提高汉语水平" },
+          { "role": "S", "label": "主語", "text": "她" },
+          { "role": "Time", "label": "時間", "text": "每天" },
+          { "role": "V", "label": "行動", "text": "坚持朗读课文" }
+        ]
+      },
+      {
+        "id": "EX-G18-04-2",
+        "hanzi": "为了不迟到，他比平时早二十分钟出了门。",
+        "pinyin": "Wèile bù chídào, tā bǐ píngshí zǎo èrshí fēnzhōng chū le mén.",
+        "ja": "遅刻しないために、彼は普段より20分早く家を出ました。",
+        "note": "「〜しないために」は「为了不 + V」となります。"
+      },
+      {
+        "id": "EX-G18-04-3",
+        "hanzi": "父母辛苦工作，都是为了孩子的未来。",
+        "pinyin": "Fùmǔ xīnkǔ gōngzuò, dōu shì wèile háizi de wèilái.",
+        "ja": "両親が苦労して働くのは、すべて子どもの未来のためです。",
+        "note": "目的を焦点化して説明するときは「……是为了 + 目的」の語順になります。"
+      },
+      {
+        "id": "EX-G18-04-4",
+        "hanzi": "我们早点儿出发，是为了避开早高峰的堵车。",
+        "pinyin": "Wǒmen zǎodiǎnr chūfā, shì wèile bìkāi zǎogāofēng de dǔchē.",
+        "ja": "私たちが早めに出発するのは、朝のラッシュアワーの渋滞を避けるためです。"
+      },
+      {
+        "id": "EX-G18-04-5",
+        "hanzi": "为了庆祝奶奶八十大寿，全家人都回老家了。",
+        "pinyin": "Wèile qìngzhù nǎinai bāshí dàshòu, quánjiārén dōu huí lǎojiā le.",
+        "ja": "祖母の80歳のお祝いのために、家族全員が故郷へ帰りました。"
+      }
+    ],
+    "referenceUrl": "https://hanyujiaocai.jinkan.kyoto-u.ac.jp/2018shanghai/2018CALL/L18_6.html",
+    "referenceTitle": "第十八課 文法事項 ４． “为了”……"
+  }
+]

@@ -1,0 +1,345 @@
+[
+  {
+    "id": "G01-01",
+    "title": "人称代詞",
+    "categoryId": "cat-basic",
+    "lessonId": "L01",
+    "difficulty": 1,
+    "prerequisites": [],
+    "relatedIds": ["GP-01", "G01-02", "G01-03", "G02-01"],
+    "meaning": "「私」「あなた」「彼／彼女」やその複数形など、人や事物を指し示す基本の代詞です。中国語では格変化（主格・目的格などの形の変化）がなく、主語でも目的語でも同じ形を使います。",
+    "pattern": "単数：我 / 你 / 您 / 他 / 她 / 它 ｜ 複数：我们 / 咱们 / 你们 / 他们 / 她们",
+    "structureSlots": [
+      { "role": "S", "label": "1人称", "text": "我 / 我们", "pinyin": "wǒ / wǒmen" },
+      { "role": "S", "label": "2人称", "text": "你 / 您 / 你们", "pinyin": "nǐ / nín / nǐmen" },
+      { "role": "S", "label": "3人称", "text": "他 / 她 / 他们", "pinyin": "tā / tā / tāmen" }
+    ],
+    "wordOrderNote": "日本語の「私は／私を／私に」のように助詞を伴って形が変わることはなく、文中の位置（動詞の前＝主語、動詞の後＝目的語）で役割が決まります。",
+    "usageConditions": "目上の人や初対面の相手には「你 (nǐ)」の代わりに敬称「您 (nín)」を使います。複数は原則として後ろに軽声の「们 (men)」を付けます。話し手と聞き手の両方を含む「私たち」には「咱们 (zánmen)」も使われます。",
+    "distinctionNotes": "「他」「她」「它」はいずれも発音が同じ tā（第1声）です。話し言葉では男女を区別せず、書き言葉の漢字で「彼（他）」「彼女（她）」「それ（它）」を区別します。男女混合の複数形には「他们」を使います。",
+    "forms": {
+      "affirmative": "我 / 你 / 您 / 他 / 她 + 述語",
+      "negative": "主語(人称代詞) + 不 + 述語",
+      "interrogative": "主語(人称代詞) + 述語 + 吗？"
+    },
+    "japaneseLearnerPitfalls": [
+      "敬称「您」に「们」を付けて「×您们」と書いてしまう誤り（複数で敬意を表すときは「各位」「大家」や「你们各位」などを使う）。",
+      "「たち（们）」を使うべき複数場面で単数のままにしてしまったり、逆に「×三个同学们」のように具体的な人数・数量の後ろに「们」を付けてしまう誤り。",
+      "「我」「你」を続けて読むとき（例：「你我」）に、日本語と同じように「我々」感覚で「们」を落としたり変調（第3声＋第3声）を忘れる点。"
+    ],
+    "similarDifferences": [
+      {
+        "targetId": "GP-01",
+        "targetName": "声調の基本（轻声を含む）",
+        "difference": "複数接尾辞「们 (men)」は常に軽声（第5声）で短く軽く発音します。"
+      },
+      {
+        "targetId": "G02-01",
+        "targetName": "連体修飾 I “的”",
+        "difference": "「私たちの」「彼の」のように所有を表すときは、人称代詞の後ろに「的」を付けて修飾語にします。"
+      }
+    ],
+    "examples": [
+      {
+        "id": "EX-G01-01-1",
+        "hanzi": "我是田中。",
+        "pinyin": "Wǒ shì Tiánzhōng.",
+        "ja": "私は田中です。",
+        "note": "1人称単数「我」を主語にした自己紹介。",
+        "breakdown": [
+          { "role": "S", "label": "主語", "text": "我", "pinyin": "wǒ" },
+          { "role": "V", "label": "判断動詞", "text": "是", "pinyin": "shì" },
+          { "role": "O", "label": "目的語", "text": "田中", "pinyin": "Tiánzhōng" }
+        ]
+      },
+      {
+        "id": "EX-G01-01-2",
+        "hanzi": "您好，请多关照。",
+        "pinyin": "Nín hǎo, qǐng duō guānzhào.",
+        "ja": "こんにちは、どうぞよろしくお願いいたします。",
+        "note": "目上の人や初対面の相手には「你」ではなく「您」を用います。",
+        "breakdown": [
+          { "role": "S", "label": "敬称", "text": "您", "pinyin": "nín" },
+          { "role": "C", "label": "挨拶", "text": "好", "pinyin": "hǎo" },
+          { "role": "V", "label": "依頼", "text": "请", "pinyin": "qǐng" },
+          { "role": "Adv", "label": "副詞", "text": "多", "pinyin": "duō" },
+          { "role": "V", "label": "動詞", "text": "关照", "pinyin": "guānzhào" }
+        ]
+      },
+      {
+        "id": "EX-G01-01-3",
+        "hanzi": "我们欢迎你们来北京。",
+        "pinyin": "Wǒmen huānyíng nǐmen lái Běijīng.",
+        "ja": "私たちはあなたたちが北京へ来るのを歓迎します。",
+        "note": "「我们」が主語、「你们」が「欢迎」の目的語であり、格変化しません。",
+        "breakdown": [
+          { "role": "S", "label": "主語", "text": "我们", "pinyin": "wǒmen" },
+          { "role": "V", "label": "動詞", "text": "欢迎", "pinyin": "huānyíng" },
+          { "role": "O", "label": "目的語", "text": "你们", "pinyin": "nǐmen" },
+          { "role": "V", "label": "動詞", "text": "来", "pinyin": "lái" },
+          { "role": "Loc", "label": "場所", "text": "北京", "pinyin": "Běijīng" }
+        ]
+      },
+      {
+        "id": "EX-G01-01-4",
+        "hanzi": "他叫李明，她叫王丽。",
+        "pinyin": "Tā jiào Lǐ Míng, tā jiào Wáng Lì.",
+        "ja": "彼は李明といい、彼女は王麗といいます。",
+        "note": "「他」と「她」は発音が同じ tā ですが、書き分けます。",
+        "breakdown": [
+          { "role": "S", "label": "主語(男性)", "text": "他", "pinyin": "tā" },
+          { "role": "V", "label": "動詞", "text": "叫", "pinyin": "jiào" },
+          { "role": "O", "label": "氏名", "text": "李明", "pinyin": "Lǐ Míng" },
+          { "role": "S", "label": "主語(女性)", "text": "她", "pinyin": "tā" },
+          { "role": "V", "label": "動詞", "text": "叫", "pinyin": "jiào" },
+          { "role": "O", "label": "氏名", "text": "王丽", "pinyin": "Wáng Lì" }
+        ]
+      },
+      {
+        "id": "EX-G01-01-5",
+        "hanzi": "他们都是留学生，谢谢他们。",
+        "pinyin": "Tāmen shì liúxuéshēng, xièxie tāmen.",
+        "ja": "彼らは留学生です。彼らに感謝します。",
+        "note": "「他们」は男女を含む複数の3人称にも使われます。",
+        "breakdown": [
+          { "role": "S", "label": "主語", "text": "他们", "pinyin": "tāmen" },
+          { "role": "V", "label": "判断動詞", "text": "是", "pinyin": "shì" },
+          { "role": "O", "label": "目的語", "text": "留学生", "pinyin": "liúxuéshēng" },
+          { "role": "V", "label": "動詞", "text": "谢谢", "pinyin": "xièxie" },
+          { "role": "O", "label": "目的語", "text": "他们", "pinyin": "tāmen" }
+        ]
+      }
+    ],
+    "referenceUrl": "https://hanyujiaocai.jinkan.kyoto-u.ac.jp/2018shanghai/2018CALL/L1_3.html",
+    "referenceTitle": "文法事項 １．人称代詞"
+  },
+  {
+    "id": "G01-02",
+    "title": "“是”と“不是”（判断文）",
+    "categoryId": "cat-basic",
+    "lessonId": "L01",
+    "difficulty": 1,
+    "prerequisites": ["G01-01"],
+    "relatedIds": ["GP-02", "G01-01", "G01-03", "G02-02"],
+    "meaning": "「A は B である」という身分・属性・国籍・職業などのイコール関係を表す基本構文です。否定は「是」の直前に否定副詞「不」を置いて「不是（〜ではない）」とします。",
+    "pattern": "肯定：S + 是 + 名詞(句) ／ 否定：S + 不是 + 名詞(句)",
+    "structureSlots": [
+      { "role": "S", "label": "主語", "text": "我 / 他", "pinyin": "wǒ / tā" },
+      { "role": "Neg", "label": "否定(任意)", "text": "不", "pinyin": "bù" },
+      { "role": "V", "label": "判断動詞", "text": "是", "pinyin": "shì" },
+      { "role": "O", "label": "名詞述語", "text": "日本人 / 留学生", "pinyin": "Rìběnrén / liúxuéshēng" }
+    ],
+    "wordOrderNote": "中国語では日本語と異なり、述語である「是」が主語と目的語（名詞）の間に置かれます。否定の「不」は必ず「是」の直前に置きます。",
+    "usageConditions": "主語と目的語が「同じもの・同じ属性（A = B）」であるときに使います。後ろには原則として名詞や代詞が来ます。",
+    "distinctionNotes": "日本語の「〜です」につられて形容詞の前に「是」を置く（×我是高 / ×她是漂亮）のは典型的な誤りです。形容詞が述語になるときは「是」を使いません（第3課で学習）。また、発音上「不是」は後ろの「shì」が第4声なので「bú shì」と第2声＋第4声に変調します。",
+    "forms": {
+      "affirmative": "S + 是 + O",
+      "negative": "S + 不是 + O",
+      "interrogative": "S + 是 + O + 吗？（第2課で詳述）"
+    },
+    "japaneseLearnerPitfalls": [
+      "「彼女は親切です／きれいです」のように形容詞を述語にする場面で「×她是好」と「是」を入れてしまう誤り。",
+      "「不是」の発音を本来の声調のまま「bù shì」と読んでしまう点（実際は第2声＋第4声の bú shì に変調する）。",
+      "「ではない」の語順を誤って「×是不」としてしまう誤り。"
+    ],
+    "similarDifferences": [
+      {
+        "targetId": "GP-02",
+        "targetName": "声調変調（一・不）",
+        "difference": "「不」は単独では第4声（bù）ですが、第4声の「是 (shì)」の前では第2声（bú）に変わります。"
+      },
+      {
+        "targetId": "G01-03",
+        "targetName": "動詞述語文の基本語順",
+        "difference": "「是」も広義の動詞（判断動詞）であり、S + V + O の語順に従います。"
+      }
+    ],
+    "examples": [
+      {
+        "id": "EX-G01-02-1",
+        "hanzi": "我是日本人。",
+        "pinyin": "Wǒ shì Rìběnrén.",
+        "ja": "私は日本人です。",
+        "note": "国籍を表す基本の肯定判断文。",
+        "breakdown": [
+          { "role": "S", "label": "主語", "text": "我", "pinyin": "wǒ" },
+          { "role": "V", "label": "判断動詞", "text": "是", "pinyin": "shì" },
+          { "role": "O", "label": "名詞", "text": "日本人", "pinyin": "Rìběnrén" }
+        ]
+      },
+      {
+        "id": "EX-G01-02-2",
+        "hanzi": "他不是中国人，是日本人。",
+        "pinyin": "Tā bù shì Zhōngguórén, shì Rìběnrén.",
+        "ja": "彼は中国人ではなく、日本人です。",
+        "note": "「不是」の発音は bú shì と変調します（表記は本調の bù shì）。",
+        "breakdown": [
+          { "role": "S", "label": "主語", "text": "他", "pinyin": "tā" },
+          { "role": "Neg", "label": "否定", "text": "不", "pinyin": "bù" },
+          { "role": "V", "label": "判断動詞", "text": "是", "pinyin": "shì" },
+          { "role": "O", "label": "名詞", "text": "中国人", "pinyin": "Zhōngguórén" },
+          { "role": "V", "label": "判断動詞", "text": "是", "pinyin": "shì" },
+          { "role": "O", "label": "名詞", "text": "日本人", "pinyin": "Rìběnrén" }
+        ]
+      },
+      {
+        "id": "EX-G01-02-3",
+        "hanzi": "李小姐不是记者。",
+        "pinyin": "Lǐ xiǎojie bù shì jìzhě.",
+        "ja": "李さんは記者ではありません。",
+        "note": "「姓＋小姐」で「〜さん（未婚・若い女性への丁寧な呼びかけ）」を表します。",
+        "breakdown": [
+          { "role": "S", "label": "主語", "text": "李小姐", "pinyin": "Lǐ xiǎojie" },
+          { "role": "Neg", "label": "否定", "text": "不", "pinyin": "bù" },
+          { "role": "V", "label": "判断動詞", "text": "是", "pinyin": "shì" },
+          { "role": "O", "label": "名詞", "text": "记者", "pinyin": "jìzhě" }
+        ]
+      },
+      {
+        "id": "EX-G01-02-4",
+        "hanzi": "我们是大学生。",
+        "pinyin": "Wǒmen shì dàxuéshēng.",
+        "ja": "私たちは大学生です。",
+        "note": "中国語では主語が複数でも名詞「大学生」に複数形語尾は付きません。",
+        "breakdown": [
+          { "role": "S", "label": "主語", "text": "我们", "pinyin": "wǒmen" },
+          { "role": "V", "label": "判断動詞", "text": "是", "pinyin": "shì" },
+          { "role": "O", "label": "名詞", "text": "大学生", "pinyin": "dàxuéshēng" }
+        ]
+      },
+      {
+        "id": "EX-G01-02-5",
+        "hanzi": "她不是王小姐，她是张小姐。",
+        "pinyin": "Tā bù shì Wáng xiǎojie, tā shì Zhāng xiǎojie.",
+        "ja": "彼女は王さんではなく、張さんです。",
+        "note": "否定と肯定を並べて訂正する表現。",
+        "breakdown": [
+          { "role": "S", "label": "主語", "text": "她", "pinyin": "tā" },
+          { "role": "Neg", "label": "否定", "text": "不", "pinyin": "bù" },
+          { "role": "V", "label": "判断動詞", "text": "是", "pinyin": "shì" },
+          { "role": "O", "label": "名詞", "text": "王小姐", "pinyin": "Wáng xiǎojie" },
+          { "role": "S", "label": "主語", "text": "她", "pinyin": "tā" },
+          { "role": "V", "label": "判断動詞", "text": "是", "pinyin": "shì" },
+          { "role": "O", "label": "名詞", "text": "张小姐", "pinyin": "Zhāng xiǎojie" }
+        ]
+      }
+    ],
+    "referenceUrl": "https://hanyujiaocai.jinkan.kyoto-u.ac.jp/2018shanghai/2018CALL/L1_4.html",
+    "referenceTitle": "文法事項 ２．“是”“不是”"
+  },
+  {
+    "id": "G01-03",
+    "title": "動詞述語文の基本語順（S+V+O）",
+    "categoryId": "cat-basic",
+    "lessonId": "L01",
+    "difficulty": 1,
+    "prerequisites": ["G01-01"],
+    "relatedIds": ["G01-01", "G01-02", "G02-03", "G02-04"],
+    "meaning": "動作や行為を表す動詞を述語にした、中国語で最も基本的な文型です。日本語（主語＋目的語＋動詞）と異なり、「主語(S) ＋ 動詞(V) ＋ 目的語(O)」の語順をとります。",
+    "pattern": "肯定：S + V + O ／ 否定：S + 不 + V + O",
+    "structureSlots": [
+      { "role": "S", "label": "主語", "text": "我 / 你们", "pinyin": "wǒ / nǐmen" },
+      { "role": "Neg", "label": "否定(任意)", "text": "不", "pinyin": "bù" },
+      { "role": "V", "label": "動詞", "text": "叫 / 姓 / 学习 / 喝", "pinyin": "jiào / xìng / xuéxí / hē" },
+      { "role": "O", "label": "目的語", "text": "佐藤 / 汉语 / 茶", "pinyin": "Zuǒténg / Hànyǔ / chá" }
+    ],
+    "wordOrderNote": "日本語の助詞「を」「に」「へ」にあたる言葉は原則として使わず、動詞のすぐ後ろに目的語（対象や到着地）を置きます。否定の副詞「不」は動詞の直前に置きます。",
+    "usageConditions": "「叫（〜という名前だ）」「姓（苗字が〜である）」「来（〜へ来る）」「学习（〜を学ぶ）」「喝（〜を飲む）」「欢迎（〜を歓迎する）」など一般動詞が中心になります。",
+    "distinctionNotes": "「姓」は後ろに原則として「苗字のみ（1〜2文字）」を取ります（例：我姓山田）。フルネームや下の名前を言うときは「叫」を使います（例：我叫山田太郎）。",
+    "forms": {
+      "affirmative": "S + V + O",
+      "negative": "S + 不 + V + O",
+      "interrogative": "S + V + O + 吗？（第2課で詳述）"
+    },
+    "japaneseLearnerPitfalls": [
+      "日本語の語順に引っ張られて「×我茶喝（私はお茶を飲む）」と目的語を動詞の前に置いてしまう誤り。",
+      "「姓」の後ろにフルネームを置いて「×我姓山本花子」と言ってしまう誤り（フルネームは「叫」を使う）。",
+      "「来北京（北京へ来る）」のように移動動詞が場所目的語を直接取れる場面で、不要な前置詞や助詞を補おうとして迷う点。"
+    ],
+    "similarDifferences": [
+      {
+        "targetId": "G01-02",
+        "targetName": "“是”と“不是”（判断文）",
+        "difference": "「是」はイコール関係のみを表す特殊な動詞ですが、一般の動作動詞も同じく S + V + O の語順に並びます。"
+      },
+      {
+        "targetId": "G02-03",
+        "targetName": "副詞 “也”",
+        "difference": "「也」などの副詞を足すときは、主語(S)と動詞(V)の間（S + 也 + V + O）に入ります。"
+      }
+    ],
+    "examples": [
+      {
+        "id": "EX-G01-03-1",
+        "hanzi": "我姓佐藤，叫佐藤健。",
+        "pinyin": "Wǒ xìng Zuǒténg, jiào Zuǒténg Jiàn.",
+        "ja": "私の姓は佐藤で、佐藤健といいます。",
+        "note": "「姓」の後には苗字、「叫」の後にはフルネームや名前を置きます。",
+        "breakdown": [
+          { "role": "S", "label": "主語", "text": "我", "pinyin": "wǒ" },
+          { "role": "V", "label": "動詞", "text": "姓", "pinyin": "xìng" },
+          { "role": "O", "label": "苗字", "text": "佐藤", "pinyin": "Zuǒténg" },
+          { "role": "V", "label": "動詞", "text": "叫", "pinyin": "jiào" },
+          { "role": "O", "label": "氏名", "text": "佐藤健", "pinyin": "Zuǒténg Jiàn" }
+        ]
+      },
+      {
+        "id": "EX-G01-03-2",
+        "hanzi": "我们学习汉语。",
+        "pinyin": "Wǒmen xuéxí Hànyǔ.",
+        "ja": "私たちは中国語を学びます。",
+        "note": "S（我们）＋ V（学习）＋ O（汉语）の基本語順。",
+        "breakdown": [
+          { "role": "S", "label": "主語", "text": "我们", "pinyin": "wǒmen" },
+          { "role": "V", "label": "動詞", "text": "学习", "pinyin": "xuéxí" },
+          { "role": "O", "label": "目的語", "text": "汉语", "pinyin": "Hànyǔ" }
+        ]
+      },
+      {
+        "id": "EX-G01-03-3",
+        "hanzi": "他不喝咖啡，他喝茶。",
+        "pinyin": "Tā bù hē kāfēi, tā hē chá.",
+        "ja": "彼はコーヒーを飲まず、お茶を飲みます。",
+        "note": "「不」を動詞の前に置いて習慣や意志の否定を表します。",
+        "breakdown": [
+          { "role": "S", "label": "主語", "text": "他", "pinyin": "tā" },
+          { "role": "Neg", "label": "否定", "text": "不", "pinyin": "bù" },
+          { "role": "V", "label": "動詞", "text": "喝", "pinyin": "hē" },
+          { "role": "O", "label": "目的語", "text": "咖啡", "pinyin": "kāfēi" },
+          { "role": "S", "label": "主語", "text": "他", "pinyin": "tā" },
+          { "role": "V", "label": "動詞", "text": "喝", "pinyin": "hē" },
+          { "role": "O", "label": "目的語", "text": "茶", "pinyin": "chá" }
+        ]
+      },
+      {
+        "id": "EX-G01-03-4",
+        "hanzi": "欢迎您来上海。",
+        "pinyin": "Huānyíng nín lái Shànghǎi.",
+        "ja": "上海へようこそお越しくださいました。",
+        "note": "移動を表す動詞「来」は後ろに直接場所目的語「上海」を取ります。",
+        "breakdown": [
+          { "role": "V", "label": "動詞", "text": "欢迎", "pinyin": "huānyíng" },
+          { "role": "O", "label": "目的語", "text": "您", "pinyin": "nín" },
+          { "role": "V", "label": "動詞", "text": "来", "pinyin": "lái" },
+          { "role": "Loc", "label": "場所", "text": "上海", "pinyin": "Shànghǎi" }
+        ]
+      },
+      {
+        "id": "EX-G01-03-5",
+        "hanzi": "请喝茶，谢谢您。",
+        "pinyin": "Qǐng hē chá, xièxie nín.",
+        "ja": "どうぞお茶をお飲みください。ありがとうございます。",
+        "note": "「请＋動詞」で「どうぞ〜してください」という丁寧な勧めになります。",
+        "breakdown": [
+          { "role": "V", "label": "勧誘", "text": "请", "pinyin": "qǐng" },
+          { "role": "V", "label": "動詞", "text": "喝", "pinyin": "hē" },
+          { "role": "O", "label": "目的語", "text": "茶", "pinyin": "chá" },
+          { "role": "V", "label": "動詞", "text": "谢谢", "pinyin": "xièxie" },
+          { "role": "O", "label": "目的語", "text": "您", "pinyin": "nín" }
+        ]
+      }
+    ],
+    "referenceUrl": "https://hanyujiaocai.jinkan.kyoto-u.ac.jp/2018shanghai/2018CALL/L1_5.html",
+    "referenceTitle": "文法事項 ３．動詞述語文"
+  }
+]

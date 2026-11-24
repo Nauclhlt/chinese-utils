@@ -1,0 +1,776 @@
+[
+  {
+    "id": "C-G14-01-01",
+    "lessonId": "L14",
+    "minLesson": 14,
+    "grammarIds": ["G14-01"],
+    "difficulty": 1,
+    "japanesePrompt": "これは私が昨日買った本です。",
+    "targetGrammarHint": "主述文 + 的 + 名詞",
+    "hints": [
+      "「これは〜です」は「这是……」で始めます。",
+      "「私が昨日買った」という主述節を「我昨天买的」として「的」でつなぎます。",
+      "中心名詞「本（书）」を最後に置きます。"
+    ],
+    "modelAnswer": "这是我昨天买的书。",
+    "acceptableAnswers": [
+      "这是我昨天买的书。",
+      "这是我昨天买的那本书。",
+      "这就是我昨天买的书。"
+    ],
+    "pinyin": "Zhè shì wǒ zuótiān mǎi de shū.",
+    "structureBreakdown": [
+      { "text": "这", "role": "S", "label": "主語" },
+      { "text": "是", "role": "V", "label": "動詞" },
+      { "text": "我昨天买", "role": "Attr", "label": "修飾節" },
+      { "text": "的", "role": "P", "label": "構造助詞" },
+      { "text": "书", "role": "O", "label": "中心名詞" }
+    ],
+    "explanation": "節（主語＋時間＋動詞）をそのまま「的」で名詞「书」の前に置く基本の連体修飾文です。",
+    "commonMistakes": [
+      { "wrong": "这是书我昨天买的。", "reason": "中国語の修飾節は英語の関係代名詞節と違い、必ず名詞の前に置きます。" }
+    ]
+  },
+  {
+    "id": "C-G14-01-02",
+    "lessonId": "L14",
+    "minLesson": 14,
+    "grammarIds": ["G14-01"],
+    "difficulty": 2,
+    "japanesePrompt": "友達が私に推薦してくれたあのコンサートはとても素晴らしかったです。",
+    "targetGrammarHint": "[主述節] + 的 + 指示詞・量詞 + 名詞",
+    "hints": [
+      "「友達が私に推薦してくれた」は「朋友给我推荐的」とします。",
+      "「あのコンサート」は「那场音乐会」です。",
+      "「とても素晴らしかった」は「非常精彩」や「很棒」が使えます。"
+    ],
+    "modelAnswer": "朋友给我推荐的那场音乐会非常精彩。",
+    "acceptableAnswers": [
+      "朋友给我推荐的那场音乐会非常精彩。",
+      "我朋友推荐给我的那场音乐会很棒。",
+      "朋友给我介绍的那场音乐会非常精彩。"
+    ],
+    "pinyin": "Péngyou gěi wǒ tuījiàn de nà chǎng yīnyuèhuì fēicháng jīngcǎi.",
+    "structureBreakdown": [
+      { "text": "朋友给我推荐的", "role": "Attr", "label": "修飾節" },
+      { "text": "那场音乐会", "role": "S", "label": "中心名詞句" },
+      { "text": "非常精彩", "role": "P", "label": "形容詞述語" }
+    ],
+    "explanation": "長い連体修飾節が文の主語を作る名詞句を修飾する典型例です。指示詞＋量詞「那场」は「的」の後ろに置きます。",
+    "commonMistakes": [
+      { "wrong": "朋友给我推荐的那场它音乐会非常精彩。", "reason": "修飾を受ける名詞を指す余分な代詞「它」を入れてはいけません。" }
+    ]
+  },
+  {
+    "id": "C-G14-01-03",
+    "lessonId": "L14",
+    "minLesson": 14,
+    "grammarIds": ["G14-01"],
+    "difficulty": 2,
+    "japanesePrompt": "中国語を話すのが上手なあの学生は私のルームメイトです。",
+    "targetGrammarHint": "[動詞句/程度補語] + 的 + 名詞",
+    "hints": [
+      "「中国語を話すのが上手だ」は程度補語を使って「汉语说得很好」と表現できます。",
+      "その後に「的那个学生」を続けて主語にします。",
+      "「私のルームメイトです」は「是我的同屋（室友）」です。"
+    ],
+    "modelAnswer": "汉语说得很好的那个学生是我的同屋。",
+    "acceptableAnswers": [
+      "汉语说得很好的那个学生是我的同屋。",
+      "说汉语说得很好的那个学生是我的室友。",
+      "汉语讲得很好的那位同学是我的同屋。"
+    ],
+    "pinyin": "Hànyǔ shuō de hěn hǎo de nàge xuésheng shì wǒ de tóngwū.",
+    "structureBreakdown": [
+      { "text": "汉语说得很好的", "role": "Attr", "label": "修飾節" },
+      { "text": "那个学生", "role": "S", "label": "中心名詞" },
+      { "text": "是", "role": "V", "label": "動詞" },
+      { "text": "我的同屋", "role": "O", "label": "目的語" }
+    ],
+    "explanation": "中心名詞「那个学生」が修飾節の主語（動作主）に相当する連体修飾です。程度補語を含む節もそのまま「的」の前に置けます。",
+    "commonMistakes": [
+      { "wrong": "那个学生汉语说得很好是我的同屋。", "reason": "「的」がないと名詞句にならず、文が2つ重なってしまいます。" }
+    ]
+  },
+  {
+    "id": "C-G14-01-04",
+    "lessonId": "L14",
+    "minLesson": 14,
+    "grammarIds": ["G14-01"],
+    "difficulty": 2,
+    "japanesePrompt": "私たちがよく行くカフェは大学の南門の近くにあります。",
+    "targetGrammarHint": "我们常去的 + 名詞 + 在……",
+    "hints": [
+      "「私たちがよく行くカフェ」は「我们常去的那家咖啡店（咖啡馆）」とします。",
+      "場所の存在を表す動詞「在」を使います。",
+      "「大学の南門の近く」は「在大学南门附近」です。"
+    ],
+    "modelAnswer": "我们常去的那家咖啡店在大学南门附近。",
+    "acceptableAnswers": [
+      "我们常去的那家咖啡店在大学南门附近。",
+      "我们经常去的咖啡馆在学校南门附近。",
+      "我们常去的那个咖啡馆就在大学南门附近。"
+    ],
+    "pinyin": "Wǒmen cháng qù de nà jiā kāfēidiàn zài dàxué nánmén fùjìn.",
+    "structureBreakdown": [
+      { "text": "我们常去的", "role": "Attr", "label": "修飾節" },
+      { "text": "那家咖啡店", "role": "S", "label": "中心名詞" },
+      { "text": "在", "role": "V", "label": "動詞" },
+      { "text": "大学南门附近", "role": "Loc", "label": "場所目的語" }
+    ],
+    "explanation": "場所名詞「咖啡店」を「我们常去的」で修飾した例です。",
+    "commonMistakes": [
+      { "wrong": "我们常去的在那里咖啡店在大学南门附近。", "reason": "修飾節の中に「在那里」を残してはいけません。" }
+    ]
+  },
+  {
+    "id": "C-G14-01-05",
+    "lessonId": "L14",
+    "minLesson": 14,
+    "grammarIds": ["G14-01"],
+    "difficulty": 3,
+    "japanesePrompt": "あなたが昨日作った料理は本当においしかったです。",
+    "targetGrammarHint": "你昨天做的菜 + 真好吃",
+    "hints": [
+      "「あなたが昨日作った料理」は「你昨天做的菜」です。",
+      "「本当においしかった」は「真好吃」または「特别好吃」で表現します。",
+      "文末に感慨の「啊」や「极了」を添えても自然です。"
+    ],
+    "modelAnswer": "你昨天做的菜真好吃。",
+    "acceptableAnswers": [
+      "你昨天做的菜真好吃。",
+      "昨天你做的菜非常好吃。",
+      "你昨天做的那些菜实在太好吃了。"
+    ],
+    "pinyin": "Nǐ zuótiān zuò de cài zhēn hǎochī.",
+    "structureBreakdown": [
+      { "text": "你昨天做的", "role": "Attr", "label": "修飾節" },
+      { "text": "菜", "role": "S", "label": "中心名詞" },
+      { "text": "真好吃", "role": "P", "label": "形容詞述語" }
+    ],
+    "explanation": "主述節「你昨天做」が「菜」を修飾し、感想を述べる簡潔かつ実用的な文です。",
+    "commonMistakes": [
+      { "wrong": "你昨天做菜真好吃。", "reason": "「你昨天做菜」では「あなたが昨日料理を作る」という文になってしまい、「料理」を指す名詞句になりません。" }
+    ]
+  },
+  {
+    "id": "C-G14-02-01",
+    "lessonId": "L14",
+    "minLesson": 14,
+    "grammarIds": ["G14-02"],
+    "difficulty": 1,
+    "japanesePrompt": "私たちは教室で真剣に本を読んでいます。",
+    "targetGrammarHint": "认真地 + 動詞（看书）",
+    "hints": [
+      "「教室で〜している」は進行の「正在教室里」または「在教室里……着呢」を使えます。",
+      "「真剣に」という連用修飾は「认真地」を動詞の前に置きます。",
+      "「本を読む」は「看书」です。"
+    ],
+    "modelAnswer": "我们在教室里认真地看书呢。",
+    "acceptableAnswers": [
+      "我们在教室里认真地看书呢。",
+      "我们正在教室里认真地看书。",
+      "我们在教室认真地读着书。"
+    ],
+    "pinyin": "Wǒmen zài jiàoshì lǐ rènzhēn de kànshū ne.",
+    "structureBreakdown": [
+      { "text": "我们", "role": "S", "label": "主語" },
+      { "text": "在教室里", "role": "Loc", "label": "場所" },
+      { "text": "认真地", "role": "Adv", "label": "連用修飾" },
+      { "text": "看书", "role": "V", "label": "動詞" },
+      { "text": "呢", "role": "P", "label": "語気助詞" }
+    ],
+    "explanation": "2音節形容詞「认真」に「地」を付けて、動作を行う態度を表しています。",
+    "commonMistakes": [
+      { "wrong": "我们在教室里认真的看书呢。", "reason": "動詞の前で動作を修飾するときは「的」ではなく「地」を使います。" }
+    ]
+  },
+  {
+    "id": "C-G14-02-02",
+    "lessonId": "L14",
+    "minLesson": 14,
+    "grammarIds": ["G14-02"],
+    "difficulty": 1,
+    "japanesePrompt": "みんな楽しそうに歌を歌いました。",
+    "targetGrammarHint": "高兴地 / 开心地 + 唱起歌来（または 唱歌）",
+    "hints": [
+      "「みんな」は主語「大家」を文頭に置きます。",
+      "「楽しそうに」は「高兴地」または「开心地」を動詞の前に置きます。",
+      "「歌を歌った」は「唱了歌」または「唱着歌」で表せます。"
+    ],
+    "modelAnswer": "大家高兴地唱了歌。",
+    "acceptableAnswers": [
+      "大家高兴地唱了歌。",
+      "大家开心地唱了歌。",
+      "大家都高高兴兴地唱着歌。"
+    ],
+    "pinyin": "Dàjiā gāoxìng de chàng le gē.",
+    "structureBreakdown": [
+      { "text": "大家", "role": "S", "label": "主語" },
+      { "text": "高兴地", "role": "Adv", "label": "連用修飾" },
+      { "text": "唱了歌", "role": "V", "label": "動詞句" }
+    ],
+    "explanation": "動詞の直前に「高兴地」を置くことで、「楽しそうに（うれしそうに）」歌う様子を描写します。",
+    "commonMistakes": [
+      { "wrong": "大家高兴得唱起了歌。", "reason": "「得」は動詞の後ろに補語を導く助詞であり、動詞の前では「地」を使います。" }
+    ]
+  },
+  {
+    "id": "C-G14-02-03",
+    "lessonId": "L14",
+    "minLesson": 14,
+    "grammarIds": ["G14-02"],
+    "difficulty": 2,
+    "japanesePrompt": "通りは人が多いので、私たちはゆっくり歩いて行きましょう。",
+    "targetGrammarHint": "慢慢儿地 / 慢慢地 + 走过去",
+    "hints": [
+      "「通りは人が多い」は「街上人很多」または「路上人很多」です。",
+      "1音節形容詞「慢」の連用修飾は重ね型にして「慢慢儿地」または「慢慢地」とします。",
+      "「歩いて行く」は「走过去」や「走吧」を使います。"
+    ],
+    "modelAnswer": "街上人很多，我们慢慢儿地走过去吧。",
+    "acceptableAnswers": [
+      "街上人很多，我们慢慢儿地走过去吧。",
+      "路上人很多，我们慢慢地走吧。",
+      "路人很多，咱们慢慢儿地走吧。"
+    ],
+    "pinyin": "Jiē shàng rén hěn duō, wǒmen mànmānr de zǒu guòqù ba.",
+    "structureBreakdown": [
+      { "text": "街上人很多", "role": "Other", "label": "状況" },
+      { "text": "我们", "role": "S", "label": "主語" },
+      { "text": "慢慢儿地", "role": "Adv", "label": "重ね型連用修飾" },
+      { "text": "走过去吧", "role": "V", "label": "動詞句" }
+    ],
+    "explanation": "1音節形容詞「慢」を単独で「*慢地」とせず、重ね型「慢慢儿地」にして動詞「走」を修飾しています。",
+    "commonMistakes": [
+      { "wrong": "街上人很多，我们慢地走过去吧。", "reason": "1音節形容詞にそのまま「地」を付けることは通常できません。" }
+    ]
+  },
+  {
+    "id": "C-G14-02-04",
+    "lessonId": "L14",
+    "minLesson": 14,
+    "grammarIds": ["G14-02"],
+    "difficulty": 2,
+    "japanesePrompt": "主人はとても親切に私たちを家の中へ迎え入れました。",
+    "targetGrammarHint": "热情地 + 欢迎 / 请……",
+    "hints": [
+      "「親切に」は「热情地」を使います。",
+      "「私たちを家の中へ迎え入れた」は「欢迎我们进屋」や「请我们进家里」と言えます。",
+      "「とても親切に」とする場合は重ね型「热热情情地」や「十分热情地」にすることもできます。"
+    ],
+    "modelAnswer": "主人十分热情地把我们请进了屋里。",
+    "acceptableAnswers": [
+      "主人十分热情地把我们请进了屋里。",
+      "主人热情地欢迎我们进屋。",
+      "主人热情地请我们进了家门。"
+    ],
+    "pinyin": "Zhǔrén shífēn rèqíng de bǎ wǒmen qǐng jìn le wū lǐ.",
+    "structureBreakdown": [
+      { "text": "主人", "role": "S", "label": "主語" },
+      { "text": "十分热情地", "role": "Adv", "label": "連用修飾" },
+      { "text": "把我们请进了屋里", "role": "V", "label": "把構文述語" }
+    ],
+    "explanation": "「把」構文の前にも連用修飾「〜地」を自然に置くことができます。",
+    "commonMistakes": [
+      { "wrong": "主人把我们热情地请了进屋里。", "reason": "「了」は「请进」の後ろに置きます（请进了）。" }
+    ]
+  },
+  {
+    "id": "C-G14-02-05",
+    "lessonId": "L14",
+    "minLesson": 14,
+    "grammarIds": ["G14-02", "G14-01"],
+    "difficulty": 3,
+    "japanesePrompt": "あのとても熱心な先生は、いつも辛抱強く学生の質問に答えてくれます。",
+    "targetGrammarHint": "的（連体修飾）＋ 地（連用修飾）の組み合わせ",
+    "hints": [
+      "「あのとても熱心な先生」は名詞「老师」を修飾するので「那位很热情的老师」と「的」を使います。",
+      "「辛抱強く」は「耐心地」として動詞「回答」の前に置きます。",
+      "「学生の質問に答える」は「回答学生的问题」です。"
+    ],
+    "modelAnswer": "那位很热情的老师总是耐心地回答学生的问题。",
+    "acceptableAnswers": [
+      "那位很热情的老师总是耐心地回答学生的问题。",
+      "那位非常热情的老师常常耐心地回答同学们的问题。",
+      "那位热心的老师一直耐心地解答学生的问题。"
+    ],
+    "pinyin": "Nà wèi hěn rèqíng de lǎoshī zǒngshì nàixīn de huídá xuésheng de wèntí.",
+    "structureBreakdown": [
+      { "text": "那位很热情的老师", "role": "S", "label": "主語（的）" },
+      { "text": "总是", "role": "Adv", "label": "頻度副詞" },
+      { "text": "耐心地", "role": "Adv", "label": "連用修飾（地）" },
+      { "text": "回答", "role": "V", "label": "動詞" },
+      { "text": "学生的问题", "role": "O", "label": "目的語（的）" }
+    ],
+    "explanation": "名詞の前に「的」、動詞の前に「地」という構造助詞の使い分けがはっきり表れる文です。",
+    "commonMistakes": [
+      { "wrong": "那位很热情地老师总是耐心的回答学生的问题。", "reason": "名詞「老师」の前は「的」、動詞「回答」の前は「地」を使います。" }
+    ]
+  },
+  {
+    "id": "C-G14-03-01",
+    "lessonId": "L14",
+    "minLesson": 14,
+    "grammarIds": ["G14-03"],
+    "difficulty": 1,
+    "japanesePrompt": "私の自転車は泥棒に盗まれてしまいました。",
+    "targetGrammarHint": "受事者 + 被 + 行為者 + 偷走了",
+    "hints": [
+      "「私の自転車」は「我的自行车」です。",
+      "受身の「被（または叫・让）」の後ろに行為者「小偷（泥棒）」を置きます。",
+      "「盗まれた」は結果・移動を含めて「偷走了」とします（裸の「偷」だけは不可）。"
+    ],
+    "modelAnswer": "我的自行车被小偷偷走了。",
+    "acceptableAnswers": [
+      "我的自行车被小偷偷走了。",
+      "我的自行车叫小偷偷走了。",
+      "我的自行车让小偷偷走了。"
+    ],
+    "pinyin": "Wǒ de zìxíngchē bèi xiǎotōu tōu zǒu le.",
+    "structureBreakdown": [
+      { "text": "我的自行车", "role": "S", "label": "受事者" },
+      { "text": "被", "role": "Prep", "label": "受身標識" },
+      { "text": "小偷", "role": "O", "label": "行為者" },
+      { "text": "偷走了", "role": "V", "label": "動詞＋補語＋了" }
+    ],
+    "explanation": "被害を表す典型的な「被」構文です。動詞の後ろに結果補語「走」と「了」を補います。",
+    "commonMistakes": [
+      { "wrong": "我的自行车被小偷偷。", "reason": "「被」構文では動詞の後ろに補語や「了」が必要です。" }
+    ]
+  },
+  {
+    "id": "C-G14-03-02",
+    "lessonId": "L14",
+    "minLesson": 14,
+    "grammarIds": ["G14-03"],
+    "difficulty": 2,
+    "japanesePrompt": "机の上のコップが（誰かに）割られてしまいました。",
+    "targetGrammarHint": "行為者を省略した「被 + 動詞 + 結果補語 + 了」",
+    "hints": [
+      "「机の上のコップ」は「桌子上的杯子」として文頭に置きます。",
+      "行為者が不明・不特定のときは「被」の後ろの行為者を省略できます（「叫」「让」は不可）。",
+      "「割れる・壊れる」の結果補語は「打破了」または「打碎了」を使います。"
+    ],
+    "modelAnswer": "桌子上的杯子被打破了。",
+    "acceptableAnswers": [
+      "桌子上的杯子被打破了。",
+      "桌上的杯子被打碎了。",
+      "桌子上的水杯被人打破了。"
+    ],
+    "pinyin": "Zhuōzi shàng de bēizi bèi dǎ pò le.",
+    "structureBreakdown": [
+      { "text": "桌子上的杯子", "role": "S", "label": "受事者" },
+      { "text": "被", "role": "Prep", "label": "受身標識" },
+      { "text": "打破了", "role": "V", "label": "動詞＋結果補語＋了" }
+    ],
+    "explanation": "行為者を明示しない場合、「被」だけを使って「被打破了」と表現できます（この場面で「叫打破了」とは言えません）。",
+    "commonMistakes": [
+      { "wrong": "桌子上的杯子叫打破了。", "reason": "「叫」「让」を使うときは必ず行為者を後ろに置かなければなりません。" }
+    ]
+  },
+  {
+    "id": "C-G14-03-03",
+    "lessonId": "L14",
+    "minLesson": 14,
+    "grammarIds": ["G14-03"],
+    "difficulty": 2,
+    "japanesePrompt": "そのケーキは弟に食べられてしまいましたか？——いいえ、食べられませんでした。",
+    "targetGrammarHint": "受身文の疑問と否定（没被……）",
+    "hints": [
+      "「そのケーキは弟に食べられてしまったか」は「那块蛋糕被弟弟吃掉了吗？」とします。",
+      "疑問文の文末に「吗」を置き、行為者「弟弟」を「被」の後ろに置きます。",
+      "否定するときは、必ず「没」を「被」の前に置きます（没有，没被他吃掉）。"
+    ],
+    "modelAnswer": "那块蛋糕被弟弟吃掉了吗？——没有，没被他吃掉。",
+    "acceptableAnswers": [
+      "那块蛋糕被弟弟吃掉了吗？——没有，没被他吃掉。",
+      "那个蛋糕让弟弟吃了吗？——没有，没被他吃。",
+      "那块蛋糕被弟弟吃光了吗？——没有，没有被吃掉。"
+    ],
+    "pinyin": "Nà kuài dàngāo bèi dìdi chī diào le ma? —— Méiyǒu, méi bèi tā chī diào.",
+    "structureBreakdown": [
+      { "text": "那块蛋糕被弟弟吃掉了吗", "role": "Other", "label": "受身疑問文" },
+      { "text": "没有，", "role": "Neg", "label": "否定応答" },
+      { "text": "没", "role": "Neg", "label": "否定副詞" },
+      { "text": "被他吃掉", "role": "V", "label": "受身否定句" }
+    ],
+    "explanation": "受身文を否定する際は、否定副詞「没」を動詞の前ではなく「被」の直前に置く点が重要です。",
+    "commonMistakes": [
+      { "wrong": "那块蛋糕被弟弟没吃掉。", "reason": "否定の「没」は必ず「被」の前に置きます。" }
+    ]
+  },
+  {
+    "id": "C-G14-03-04",
+    "lessonId": "L14",
+    "minLesson": 14,
+    "grammarIds": ["G14-03"],
+    "difficulty": 2,
+    "japanesePrompt": "私たちはあの素晴らしい公演に深く感動させられました。",
+    "targetGrammarHint": "被 + 原因/行為者 + 深深地感动了",
+    "hints": [
+      "「私たちは」は「我们」です。",
+      "「あの素晴らしい公演に」は受身の「被那场精彩的演出」とします。",
+      "「深く感動させられた」は「深深地感动了」または「感动了」です。"
+    ],
+    "modelAnswer": "我们被那场精彩的演出深深地感动了。",
+    "acceptableAnswers": [
+      "我们被那场精彩的演出深深地感动了。",
+      "我们都被那场精彩的演出感动了。",
+      "我们让那场精彩的演出感动了。"
+    ],
+    "pinyin": "Wǒmen bèi nà chǎng jīngcǎi de yǎnchū shēnshēn de gǎndòng le.",
+    "structureBreakdown": [
+      { "text": "我们", "role": "S", "label": "受事者" },
+      { "text": "被", "role": "Prep", "label": "受身標識" },
+      { "text": "那场精彩的演出", "role": "O", "label": "要因・行為者" },
+      { "text": "深深地", "role": "Adv", "label": "連用修飾" },
+      { "text": "感动了", "role": "V", "label": "動詞＋了" }
+    ],
+    "explanation": "現代中国語では「被……感动了」のようにプラスの感情的影響を表す受身文も非常に一般的です。",
+    "commonMistakes": [
+      { "wrong": "我们把那场精彩的演出感动了。", "reason": "感動した（受けた）側が主語のときは「把」ではなく「被」を使います。" }
+    ]
+  },
+  {
+    "id": "C-G14-03-05",
+    "lessonId": "L14",
+    "minLesson": 14,
+    "grammarIds": ["G14-03"],
+    "difficulty": 3,
+    "japanesePrompt": "私の携帯電話は妹になくされてしまいました。",
+    "targetGrammarHint": "让 / 叫 + 行为者 + 弄丢了",
+    "hints": [
+      "「私の携帯電話」は「我的手机」です。",
+      "口語的に「让」または「叫」を使い、後ろに妹「妹妹」を置きます（もちろん「被」も可）。",
+      "「なくす」は結果補語を含む動詞「弄丢」を使い、文末に「了」を付けます。"
+    ],
+    "modelAnswer": "我的手机叫妹妹弄丢了。",
+    "acceptableAnswers": [
+      "我的手机叫妹妹弄丢了。",
+      "我的手机让妹妹弄丢了。",
+      "我的手机被妹妹弄丢了。"
+    ],
+    "pinyin": "Wǒ de shǒujī jiào mèimei nòngdiū le.",
+    "structureBreakdown": [
+      { "text": "我的手机", "role": "S", "label": "受事者" },
+      { "text": "叫", "role": "Prep", "label": "受身標識（口語）" },
+      { "text": "妹妹", "role": "O", "label": "行為者" },
+      { "text": "弄丢了", "role": "V", "label": "動補動詞＋了" }
+    ],
+    "explanation": "会話では「被」の代わりに「叫」や「让」を好んで使います。行為者「妹妹」が明示されているため自然に成立します。",
+    "commonMistakes": [
+      { "wrong": "我的手机叫弄丢了。", "reason": "「叫 / 让」は行為者を省略できません。" }
+    ]
+  },
+  {
+    "id": "C-G14-04-01",
+    "lessonId": "L14",
+    "minLesson": 14,
+    "grammarIds": ["G14-04"],
+    "difficulty": 1,
+    "japanesePrompt": "今日は雨が降っているので、私は家を出ません。",
+    "targetGrammarHint": "因为……，所以……",
+    "hints": [
+      "「〜なので、……だ」は「因为……，所以……」の基本型を使います。",
+      "原因節は「因为今天下雨」または「因为今天下着雨」です。",
+      "結果節は「所以我不出门了」または「所以我不出去了」とします。"
+    ],
+    "modelAnswer": "因为今天下雨，所以我不出门了。",
+    "acceptableAnswers": [
+      "因为今天下雨，所以我不出门了。",
+      "因为今天下着雨，所以我待在家里不出去了。",
+      "今天下雨，所以我就不出门了。"
+    ],
+    "pinyin": "Yīnwèi jīntiān xiàyǔ, suǒyǐ wǒ bù chūmén le.",
+    "structureBreakdown": [
+      { "text": "因为", "role": "Conj", "label": "原因接続詞" },
+      { "text": "今天下雨", "role": "Other", "label": "原因節" },
+      { "text": "所以", "role": "Conj", "label": "結果接続詞" },
+      { "text": "我不出门了", "role": "Other", "label": "結果節" }
+    ],
+    "explanation": "最も基本的な「因为……，所以……」の因果文です。",
+    "commonMistakes": [
+      { "wrong": "因为今天下雨，但是我不出门了。", "reason": "「因为」と「但是」は論理が矛盾するため一緒に使えません。" }
+    ]
+  },
+  {
+    "id": "C-G14-04-02",
+    "lessonId": "L14",
+    "minLesson": 14,
+    "grammarIds": ["G14-04"],
+    "difficulty": 1,
+    "japanesePrompt": "彼はとても忙しいので、今日のパーティーに参加できません。",
+    "targetGrammarHint": "主語 + 因为……，所以……",
+    "hints": [
+      "主語「他」が前後で共通しているため、「他因为很忙，所以……」と「因为」を主語の後ろに置けます。",
+      "「とても忙しい」は「很忙」または「太忙了」を使います。",
+      "「今日のパーティーに参加できない」は「不能参加今天的聚会」です。"
+    ],
+    "modelAnswer": "他因为很忙，所以不能参加今天的聚会。",
+    "acceptableAnswers": [
+      "他因为很忙，所以不能参加今天的聚会。",
+      "因为他工作很忙，所以参加不了今天的聚会。",
+      "因为他太忙了，所以今天的聚会来不了了。"
+    ],
+    "pinyin": "Tā yīnwèi hěn máng, suǒyǐ bù néng cānjiā jīntiān de jùhuì.",
+    "structureBreakdown": [
+      { "text": "他", "role": "S", "label": "主語" },
+      { "text": "因为", "role": "Conj", "label": "原因接続詞" },
+      { "text": "很忙", "role": "P", "label": "原因述語" },
+      { "text": "所以", "role": "Conj", "label": "結果接続詞" },
+      { "text": "不能参加今天的聚会", "role": "V", "label": "結果節" }
+    ],
+    "explanation": "主語が同じ場合、「主語＋因为……」の語順が非常にすっきりしています。",
+    "commonMistakes": [
+      { "wrong": "他很忙因为，所以不能参加今天的聚会。", "reason": "「因为」は必ず原因の節の前に置きます。" }
+    ]
+  },
+  {
+    "id": "C-G14-04-03",
+    "lessonId": "L14",
+    "minLesson": 14,
+    "grammarIds": ["G14-04"],
+    "difficulty": 2,
+    "japanesePrompt": "交通渋滞のため、電車ではなく地下鉄に乗って行くことにしました。",
+    "targetGrammarHint": "因为 + 原因，所以 + 决定……",
+    "hints": [
+      "「交通渋滞のため」は「因为路上堵车」で表せます。",
+      "後節の接続詞「所以」を置いて結果を導きます。",
+      "「地下鉄に乗って行くことにした」は「决定坐地铁去」と表現できます。"
+    ],
+    "modelAnswer": "因为路上堵车，所以我们决定坐地铁去。",
+    "acceptableAnswers": [
+      "因为路上堵车，所以我们决定坐地铁去。",
+      "因为交通堵塞，所以我决定改坐地铁去。",
+      "因为路上有堵车，所以不坐公交车，改坐地铁去了。"
+    ],
+    "pinyin": "Yīnwèi lùshang dǔchē, suǒyǐ wǒmen juédìng zuò dìtiě qù.",
+    "structureBreakdown": [
+      { "text": "因为路上堵车", "role": "Conj", "label": "原因節" },
+      { "text": "所以", "role": "Conj", "label": "結果接続詞" },
+      { "text": "我们决定坐地铁去", "role": "Other", "label": "結果節" }
+    ],
+    "explanation": "理由「路上堵车」を受けて判断「决定坐地铁去」を導く自然な因果複文です。",
+    "commonMistakes": [
+      { "wrong": "因为交通的问题，所以决定坐地铁去。", "reason": "「决定」の主語が文脈上はっきりしない場合は「我们」などを補うと明確です。" }
+    ]
+  },
+  {
+    "id": "C-G14-04-04",
+    "lessonId": "L14",
+    "minLesson": 14,
+    "grammarIds": ["G14-04"],
+    "difficulty": 2,
+    "japanesePrompt": "私が今日早く来たのは、あなたと大事なことを相談したいからです。",
+    "targetGrammarHint": "……，是因为……",
+    "hints": [
+      "先に結果「我今天来得这么早」または「我今天早点儿来」を述べます。",
+      "理由を後から述べるときは「是因为……」を使います。",
+      "「あなたと大事なことを相談したい」は「想跟你商量一件重要的事」です。"
+    ],
+    "modelAnswer": "我今天来得这么早，是因为想跟你商量一件重要的事。",
+    "acceptableAnswers": [
+      "我今天来得这么早，是因为想跟你商量一件重要的事。",
+      "我今天早来，是因为有重要的事想跟你商量。",
+      "我今天提前来，是因为想和你讨论一件重要的事情。"
+    ],
+    "pinyin": "Wǒ jīntiān lái de zhème zǎo, shì yīnwèi xiǎng gēn nǐ shāngliang yí jiàn zhòngyào de shì.",
+    "structureBreakdown": [
+      { "text": "我今天来得这么早", "role": "Other", "label": "結果" },
+      { "text": "是因为", "role": "Conj", "label": "理由の後出し" },
+      { "text": "想跟你商量一件重要的事", "role": "Other", "label": "原因節" }
+    ],
+    "explanation": "原因を強調して後から述べる「……，是因为……」は日本語の「〜なのは、……だからだ」にぴったり対応します。",
+    "commonMistakes": [
+      { "wrong": "我今天来得这么早，因为是想跟你商量一件事。", "reason": "語順は「因为是」ではなく「是因为」です。" }
+    ]
+  },
+  {
+    "id": "C-G14-04-05",
+    "lessonId": "L14",
+    "minLesson": 14,
+    "grammarIds": ["G14-04", "G14-01"],
+    "difficulty": 3,
+    "japanesePrompt": "あの劇場の音響効果がとても良いので、多くの人が見に行きたいと思っています。",
+    "targetGrammarHint": "因为……，所以……",
+    "hints": [
+      "「あの劇場の音響効果がとても良い」は「那座剧院的音响效果非常好」です。",
+      "因果関係の「因为……，所以……」で原因節と結果節を結びます。",
+      "「多くの人が見に行きたいと思っている」は「很多人都想去那里看演出」で表現します。"
+    ],
+    "modelAnswer": "因为那座剧院的音响效果非常好，所以很多人都想去那里看演出。",
+    "acceptableAnswers": [
+      "因为那座剧院的音响效果非常好，所以很多人都想去那里看演出。",
+      "因为那个剧场的音响效果特别好，所以很多人想去看看。",
+      "那座剧院的音响效果很棒，所以大家都想去听音乐会。"
+    ],
+    "pinyin": "Yīnwèi nà zuò jùyuàn de yīnxiǎng xiàoguǒ fēicháng hǎo, suǒyǐ hěn duō rén dōu xiǎng qù nàlǐ kàn yǎnchū.",
+    "structureBreakdown": [
+      { "text": "因为那座剧院的音响效果非常好", "role": "Conj", "label": "原因節" },
+      { "text": "所以", "role": "Conj", "label": "結果接続詞" },
+      { "text": "很多人都想去那里看演出", "role": "Other", "label": "結果節" }
+    ],
+    "explanation": "L14の語彙「效果」「演出」を「因为……，所以……」で結びつけた総合的な因果文です。",
+    "commonMistakes": [
+      { "wrong": "因为那座剧院的音响效果非常好，所以人都很多想去那里看演出。", "reason": "数量形容詞「很多人」は名詞「人」の前に置きます（很多人）。" }
+    ]
+  },
+  {
+    "id": "C-G14-05-01",
+    "lessonId": "L14",
+    "minLesson": 14,
+    "grammarIds": ["G14-05"],
+    "difficulty": 1,
+    "japanesePrompt": "空が曇ってきました、もうすぐ雨が降りそうです。",
+    "targetGrammarHint": "快……了 / 快要……了",
+    "hints": [
+      "「空が曇ってきた」は「天阴了」または「天阴下来了」です。",
+      "具体的な時間詞がないので「快……了」または「快要……了」を使います。",
+      "「雨が降りそうだ」は「快下雨了」と文末の「了」を忘れずに付けます。"
+    ],
+    "modelAnswer": "天阴了，快下雨了。",
+    "acceptableAnswers": [
+      "天阴了，快下雨了。",
+      "天阴下来了，快要下雨了。",
+      "天变阴了，看来就要下雨了。"
+    ],
+    "pinyin": "Tiān yīn le, kuài xiàyǔ le.",
+    "structureBreakdown": [
+      { "text": "天阴了", "role": "Other", "label": "現在の変化" },
+      { "text": "快", "role": "Adv", "label": "切迫副詞" },
+      { "text": "下雨", "role": "V", "label": "動詞" },
+      { "text": "了", "role": "P", "label": "変化の「了」" }
+    ],
+    "explanation": "目前に迫った現象を表す「快……了」の基本文です。文末の「了」が必須です。",
+    "commonMistakes": [
+      { "wrong": "天阴了，快下雨。", "reason": "「快……了」の文末の「了」を落としてはいけません。" }
+    ]
+  },
+  {
+    "id": "C-G14-05-02",
+    "lessonId": "L14",
+    "minLesson": 14,
+    "grammarIds": ["G14-05"],
+    "difficulty": 2,
+    "japanesePrompt": "来週私たちはもうすぐ北京へ旅行に行きます。",
+    "targetGrammarHint": "具体的時間詞 + 就要……了",
+    "hints": [
+      "「来週」という具体的な時間詞「下周 / 下个星期」があります。",
+      "具体的な時間詞があるため、「快……了」は使わず「就要……了」を使います。",
+      "「北京へ旅行に行く」は「去北京旅行」，文末に「了」を置きます。"
+    ],
+    "modelAnswer": "下周我们就要去北京旅行了。",
+    "acceptableAnswers": [
+      "下周我们就要去北京旅行了。",
+      "下星期我们就要去北京旅游了。",
+      "我们下周就要去北京旅行了。"
+    ],
+    "pinyin": "Xià zhōu wǒmen jiùyào qù Běijīng lǚxíng le.",
+    "structureBreakdown": [
+      { "text": "下周", "role": "Time", "label": "具体的時間詞" },
+      { "text": "我们", "role": "S", "label": "主語" },
+      { "text": "就要", "role": "Adv", "label": "切迫表現" },
+      { "text": "去北京旅行", "role": "V", "label": "連動句" },
+      { "text": "了", "role": "P", "label": "変化の「了」" }
+    ],
+    "explanation": "「下周」のような具体的な未来時間がある場合は「就要……了」を使うのが絶対ルールです。",
+    "commonMistakes": [
+      { "wrong": "下周我们快去北京旅行了。", "reason": "具体的な時間詞「下周」があるときに「快……了」は使えません。" }
+    ]
+  },
+  {
+    "id": "C-G14-05-03",
+    "lessonId": "L14",
+    "minLesson": 14,
+    "grammarIds": ["G14-05"],
+    "difficulty": 2,
+    "japanesePrompt": "もうすぐ8時になります、急いで出かけましょう。",
+    "targetGrammarHint": "快 + 時刻 + 了（または 快到 + 時刻 + 了）",
+    "hints": [
+      "「もうすぐ8時だ」は「快八点了」または「快到八点了」と言います。",
+      "時刻の後ろにも必ず変化の「了」を置きます。",
+      "「急いで出かけましょう」は「我们赶快出门吧」または「快走吧」です。"
+    ],
+    "modelAnswer": "快八点了，我们赶快出门吧。",
+    "acceptableAnswers": [
+      "快八点了，我们赶快出门吧。",
+      "快到八点了，咱们快走吧。",
+      "都快八点了，赶紧出发吧。"
+    ],
+    "pinyin": "Kuài bā diǎn le, wǒmen gǎnkuài chūmén ba.",
+    "structureBreakdown": [
+      { "text": "快八点了", "role": "Time", "label": "時刻の切迫" },
+      { "text": "我们", "role": "S", "label": "主語" },
+      { "text": "赶快", "role": "Adv", "label": "副詞" },
+      { "text": "出门吧", "role": "V", "label": "動詞句" }
+    ],
+    "explanation": "「快＋時刻＋了」で時刻が迫っていることを表す日常会話の必須フレーズです。",
+    "commonMistakes": [
+      { "wrong": "快到八点，我们赶快出门吧。", "reason": "文末に「了」が必要です。" }
+    ]
+  },
+  {
+    "id": "C-G14-05-04",
+    "lessonId": "L14",
+    "minLesson": 14,
+    "grammarIds": ["G14-05"],
+    "difficulty": 2,
+    "japanesePrompt": "新学期がもうすぐ始まるので、新しい教科書を買わなければなりません。",
+    "targetGrammarHint": "快开始了 / 就要开始了 ＋ 得(děi)",
+    "hints": [
+      "「新学期がもうすぐ始まる」は「新学期快开始了」または「新学期就要开始了」です。",
+      "「〜しなければならない」には L13 の「得 (děi)」を使えます。",
+      "「新しい教科書を買う」は「买新课本了」とまとめます。"
+    ],
+    "modelAnswer": "新学期快开始了，我得买新课本了。",
+    "acceptableAnswers": [
+      "新学期快开始了，我得买新课本了。",
+      "新学期就要开始了，我们得去买新教材了。",
+      "快开学了，我得去买新书了。"
+    ],
+    "pinyin": "Xīn xuéqī kuài kāishǐ le, wǒ děi mǎi xīn kèběn le.",
+    "structureBreakdown": [
+      { "text": "新学期快开始了", "role": "Other", "label": "切迫状況" },
+      { "text": "我", "role": "S", "label": "主語" },
+      { "text": "得", "role": "Aux", "label": "助動詞(děi)" },
+      { "text": "买新课本了", "role": "V", "label": "動詞句" }
+    ],
+    "explanation": "切迫表現「快……了」と義務の助動詞「得」を組み合わせた自然な文です。",
+    "commonMistakes": [
+      { "wrong": "新学期快开始，我得买新课本了。", "reason": "「快开始」の後ろに「了」を忘れないようにします。" }
+    ]
+  },
+  {
+    "id": "C-G14-05-05",
+    "lessonId": "L14",
+    "minLesson": 14,
+    "grammarIds": ["G14-05", "G14-04"],
+    "difficulty": 3,
+    "japanesePrompt": "明日もうすぐ卒業式なので、彼女は少し寂しがっています（名残惜しく思っています）。",
+    "targetGrammarHint": "因为 + 明天 + 就要……了，所以……",
+    "hints": [
+      "「明日」という具体的な時間詞があるので「明天就要……了」を使います。",
+      "「卒業式」は「毕业典礼」、あるいは「毕业」だけでも表せます。",
+      "「少し寂しがっている」は「有点儿舍不得」または「心里有点儿难过」が使えます。"
+    ],
+    "modelAnswer": "因为明天就要举行毕业典礼了，所以她心里有点儿难过。",
+    "acceptableAnswers": [
+      "因为明天就要举行毕业典礼了，所以她心里有点儿难过。",
+      "明天就要毕业了，她有点儿舍不得离开大家。",
+      "因为明天就要毕业了，所以她有些舍不得。"
+    ],
+    "pinyin": "Yīnwèi míngtiān jiùyào jǔxíng bìyè diǎnlǐ le, suǒyǐ tā xīnli yǒudiǎnr nánguò.",
+    "structureBreakdown": [
+      { "text": "因为", "role": "Conj", "label": "原因接続詞" },
+      { "text": "明天", "role": "Time", "label": "具体的時間詞" },
+      { "text": "就要举行毕业典礼了", "role": "Other", "label": "切迫節" },
+      { "text": "所以", "role": "Conj", "label": "結果接続詞" },
+      { "text": "她心里有点儿难过", "role": "Other", "label": "結果節" }
+    ],
+    "explanation": "「明天」＋「就要……了」のルールと「因为……，所以……」を正確に組み合わせた文です。",
+    "commonMistakes": [
+      { "wrong": "因为明天快举行毕业典礼了，所以她有点儿难过。", "reason": "「明天」がある文では「快……了」は使えず、「就要……了」にする必要があります。" }
+    ]
+  }
+]

@@ -1,0 +1,608 @@
+[
+  {
+    "id": "C-G19-01-01",
+    "lessonId": "L19",
+    "minLesson": 19,
+    "grammarIds": ["G19-01"],
+    "difficulty": 1,
+    "japanesePrompt": "彼は昨晩11時になってようやく寮に帰りました。",
+    "targetGrammarHint": "遅さを表す「才」を使い、文末に「了」を付けません。",
+    "hints": [
+      "時間「昨天晚上十一点」を主語「他」の後ろに置きます。",
+      "遅さを表す副詞「才」を動詞「回宿舍」の前に置きます。",
+      "「才」の文では文末に「了」を付けないように注意します。"
+    ],
+    "modelAnswer": "他昨天晚上十一点才回宿舍。",
+    "acceptableAnswers": [
+      "他昨天晚上十一点才回宿舍。",
+      "昨天晚上他十一点才回宿舍。",
+      "他昨晚十一点才回到宿舍。"
+    ],
+    "pinyin": "Tā zuótiān wǎnshang shíyī diǎn cái huí sùshè.",
+    "structureBreakdown": [
+      { "text": "他", "role": "S", "label": "主語" },
+      { "text": "昨天晚上十一点", "role": "Time", "label": "時間" },
+      { "text": "才", "role": "Adv", "label": "遅い/やっと" },
+      { "text": "回宿舍", "role": "V", "label": "動詞句" }
+    ],
+    "explanation": "予定より遅い時刻を表す「才」では、過去の出来事であっても文末に完了の「了」を付けないのが原則です。",
+    "commonMistakes": [
+      { "wrong": "他昨天晚上十一点才回宿舍了。", "reason": "時間の遅さを表す「才」の文末には原則「了」を付けません。" }
+    ]
+  },
+  {
+    "id": "C-G19-01-02",
+    "lessonId": "L19",
+    "minLesson": 19,
+    "grammarIds": ["G19-01"],
+    "difficulty": 1,
+    "japanesePrompt": "彼の息子は10歳になってようやく英語を学び始めました。",
+    "targetGrammarHint": "年齢の遅さを表す「十岁才开始……」を使います。",
+    "hints": [
+      "主語は「他儿子」です。",
+      "「10歳になってやっと」は「十岁才」です。",
+      "「英語を学び始める」は「开始学英语」です（文末「了」は付けない）。"
+    ],
+    "modelAnswer": "他儿子十岁才开始学英语。",
+    "acceptableAnswers": [
+      "他儿子十岁才开始学英语。",
+      "他的儿子十岁才开始学习英语。"
+    ],
+    "pinyin": "Tā érzi shí suì cái kāishǐ xué Yīngyǔ.",
+    "structureBreakdown": [
+      { "text": "他儿子", "role": "S", "label": "主語" },
+      { "text": "十岁", "role": "Time", "label": "年齢" },
+      { "text": "才", "role": "Adv", "label": "遅い" },
+      { "text": "开始学英语", "role": "V", "label": "動詞句" }
+    ],
+    "explanation": "「十岁就开始学了（10歳でもう始めた＝早い）」に対し、「十岁才开始学（10歳になってやっと始めた＝遅い）」で対比されます。",
+    "commonMistakes": [
+      { "wrong": "他儿子十岁就开始学英语。", "reason": "「就」を使うと「10歳という早さで」という逆の意味になってしまいます。" }
+    ]
+  },
+  {
+    "id": "C-G19-01-03",
+    "lessonId": "L19",
+    "minLesson": 19,
+    "grammarIds": ["G19-01"],
+    "difficulty": 2,
+    "japanesePrompt": "毎日頑張って練習してこそ初めて、中国語の発音がよくなります。",
+    "targetGrammarHint": "必要条件の「只有……，才……」を使います。",
+    "hints": [
+      "前節の条件は「只有每天认真练习，」です。",
+      "後節の主語は「汉语发音」とし、「才会变好」または「才能标准」とします。",
+      "「只有」の相方は「就」ではなく「才」です。"
+    ],
+    "modelAnswer": "只有每天认真练习，汉语发音才能变好。",
+    "acceptableAnswers": [
+      "只有每天认真练习，汉语发音才能变好。",
+      "只有每天努力练习，才能把汉语发音练好。"
+    ],
+    "pinyin": "Zhǐyǒu měitiān rènzhēn liànxí, Hànyǔ fāyīn cái néng biànhǎo.",
+    "structureBreakdown": [
+      { "text": "只有每天认真练习", "role": "Conj", "label": "必要条件" },
+      { "text": "汉语发音", "role": "S", "label": "主語" },
+      { "text": "才", "role": "Adv", "label": "帰結" },
+      { "text": "能变好", "role": "V", "label": "結果" }
+    ],
+    "explanation": "「只有……，才……」で「毎日練習しない限り上達しない」という唯一の必要条件を示します。",
+    "commonMistakes": [
+      { "wrong": "只有每天认真练习，汉语发音就能变好。", "reason": "「只有」には「就」ではなく必ず「才」を呼応させます。" }
+    ]
+  },
+  {
+    "id": "C-G19-01-04",
+    "lessonId": "L19",
+    "minLesson": 19,
+    "grammarIds": ["G19-01"],
+    "difficulty": 2,
+    "japanesePrompt": "私はこの本をまだ20ページしか読んでいません。",
+    "targetGrammarHint": "数量の少なさを表す「才＋動詞＋了＋数量」を使います。",
+    "hints": [
+      "「この本」は話題として文頭に「这本书」を置きます。",
+      "「まだ20ページしか読んでいない」は「我才看了二十页」です。",
+      "数量の少なさを表すときは動詞の後ろに「了」を置けます。"
+    ],
+    "modelAnswer": "这本书我才看了二十页。",
+    "acceptableAnswers": [
+      "这本书我才看了二十页。",
+      "我才看了这本书的二十页。"
+    ],
+    "pinyin": "Zhè běn shū wǒ cái kàn le èrshí yè.",
+    "structureBreakdown": [
+      { "text": "这本书", "role": "O", "label": "話題(目的語)" },
+      { "text": "我", "role": "S", "label": "主語" },
+      { "text": "才", "role": "Adv", "label": "少ない" },
+      { "text": "看了二十页", "role": "V", "label": "動詞+了+数量" }
+    ],
+    "explanation": "「20ページしか読んでいない」と数量の少なさを示すときは、動詞の直後に「了」＋数量（「看了二十页」）を使うのが自然です。",
+    "commonMistakes": [
+      { "wrong": "这本书我就看了二十页。", "reason": "「たった20ページだけ」という少なさには「就」ではなく「才」を使います。" }
+    ]
+  },
+  {
+    "id": "C-G19-01-05",
+    "lessonId": "L19",
+    "minLesson": 19,
+    "grammarIds": ["G19-01"],
+    "difficulty": 3,
+    "japanesePrompt": "2時間待って、私たちはようやく電車に乗ることができました。",
+    "targetGrammarHint": "「等了两个小时，……才……」の語順で時間を強調します。",
+    "hints": [
+      "「2時間待った」は時量補語「等了两个小时」です。",
+      "「ようやく電車に乗れた」は「才坐上电车」または「才上了车」です。",
+      "文末に「了」は付けません。"
+    ],
+    "modelAnswer": "等了两个小时，我们才坐上电车。",
+    "acceptableAnswers": [
+      "等了两个小时，我们才坐上电车。",
+      "我们等了两个小时，才坐上电车。"
+    ],
+    "pinyin": "Děng le liǎng ge xiǎoshí, wǒmen cái zuòshàng diànchē.",
+    "structureBreakdown": [
+      { "text": "等了两个小时", "role": "Time", "label": "経過時間" },
+      { "text": "我们", "role": "S", "label": "主語" },
+      { "text": "才", "role": "Adv", "label": "やっと" },
+      { "text": "坐上电车", "role": "V", "label": "動詞句" }
+    ],
+    "explanation": "前節で待った長さ（等了两个小时）を示し、後節で「才」＋結果補語「坐上（乗れた）」を文末「了」なしで結びます。",
+    "commonMistakes": [
+      { "wrong": "等了两个小时，我们就坐上电车了。", "reason": "2時間もかかってようやく乗れたという遅さ・苦労には「才」を使います。" }
+    ]
+  },
+
+  {
+    "id": "C-G19-02-01",
+    "lessonId": "L19",
+    "minLesson": 19,
+    "grammarIds": ["G19-02"],
+    "difficulty": 1,
+    "japanesePrompt": "そんなに好きなのなら、もっとたくさん食べてくださいね。",
+    "targetGrammarHint": "「既然……，就……」の提案文です（後節に「所以」を入れない）。",
+    "hints": [
+      "前節は「既然你这么喜欢，」または「既然喜欢，」です。",
+      "後節は「就多吃点儿吧。」とします。",
+      "文末に提案・勧誘の「吧」を置くと自然です。"
+    ],
+    "modelAnswer": "既然喜欢，就多吃点儿吧。",
+    "acceptableAnswers": [
+      "既然喜欢，就多吃点儿吧。",
+      "既然你这么喜欢，就多吃点儿吧。"
+    ],
+    "pinyin": "Jìrán xǐhuan, jiù duō chī diǎnr ba.",
+    "structureBreakdown": [
+      { "text": "既然", "role": "Conj", "label": "既定前提" },
+      { "text": "喜欢", "role": "V", "label": "事実" },
+      { "text": "就", "role": "Adv", "label": "帰結" },
+      { "text": "多吃点儿吧", "role": "V", "label": "提案" }
+    ],
+    "explanation": "相手の好意・好みがすでに分かっている状況で「それなら遠慮なくもっとどうぞ」と勧める典型的な表現です。",
+    "commonMistakes": [
+      { "wrong": "既然喜欢，所以多吃点儿吧。", "reason": "「既然」の後節に「所以」を置くことはできません。" }
+    ]
+  },
+  {
+    "id": "C-G19-02-02",
+    "lessonId": "L19",
+    "minLesson": 19,
+    "grammarIds": ["G19-02"],
+    "difficulty": 1,
+    "japanesePrompt": "あなたは上海へ留学したいと思っているのだから、中国語をしっかり勉強すべきです。",
+    "targetGrammarHint": "「既然……，就应该……」を使います。",
+    "hints": [
+      "「上海へ留学したい」は「想去上海留学」です。",
+      "後節の「〜すべきだ」は「就应该好好儿学习汉语」です。",
+      "「既然你想去上海留学，」から始めます。"
+    ],
+    "modelAnswer": "既然你想去上海留学，就应该好好儿学习汉语。",
+    "acceptableAnswers": [
+      "既然你想去上海留学，就应该好好儿学习汉语。",
+      "既然打算去上海留学，就应该认真学汉语。"
+    ],
+    "pinyin": "Jìrán nǐ xiǎng qù Shànghǎi liúxué, jiù yīnggāi hǎohāor xuéxí Hànyǔ.",
+    "structureBreakdown": [
+      { "text": "既然", "role": "Conj", "label": "前提" },
+      { "text": "你想去上海留学", "role": "Other", "label": "既定の希望" },
+      { "text": "就", "role": "Adv", "label": "帰結" },
+      { "text": "应该好好儿学习汉语", "role": "V", "label": "助言・義務" }
+    ],
+    "explanation": "本人の既定の目標を根拠に、当然すべき行動を「就应该……」で提案・助言する構文です。",
+    "commonMistakes": [
+      { "wrong": "既然你想去上海留学，所以应该好好儿学习汉语。", "reason": "「既然」と「所以」は併用できません。" }
+    ]
+  },
+  {
+    "id": "C-G19-02-03",
+    "lessonId": "L19",
+    "minLesson": 19,
+    "grammarIds": ["G19-02"],
+    "difficulty": 2,
+    "japanesePrompt": "すでに約束した以上、あなたは行かなければなりません。",
+    "targetGrammarHint": "「既然已经……，就得 / 就应该……」を使います。",
+    "hints": [
+      "「約束した」は「答应了」です。",
+      "「すでに〜した以上」は「既然已经答应了」です。",
+      "「行かなければならない」は「就得去」または「就必须去」です。"
+    ],
+    "modelAnswer": "既然已经答应了，你就得去。",
+    "acceptableAnswers": [
+      "既然已经答应了，你就得去。",
+      "你既然已经答应了，就应该去。",
+      "既然已经说好了，你就必须去。"
+    ],
+    "pinyin": "Jìrán yǐjīng dāying le, nǐ jiù děi qù.",
+    "structureBreakdown": [
+      { "text": "既然已经答应了", "role": "Conj", "label": "既定事実" },
+      { "text": "你", "role": "S", "label": "主語" },
+      { "text": "就", "role": "Adv", "label": "帰結" },
+      { "text": "得去", "role": "V", "label": "義務" }
+    ],
+    "explanation": "すでに成立した事実「答应了（約束した）」を突きつけ、当然の帰結として義務を促します。",
+    "commonMistakes": [
+      { "wrong": "如果已经答应了，你就得去。", "reason": "すでに約束したことが確定している事実なので、仮定の「如果」より「既然」が自然です。" }
+    ]
+  },
+  {
+    "id": "C-G19-02-04",
+    "lessonId": "L19",
+    "minLesson": 19,
+    "grammarIds": ["G19-02"],
+    "difficulty": 2,
+    "japanesePrompt": "もう起きてしまったことなのだから、後悔しても何の役に立つでしょうか（立ちません）。",
+    "targetGrammarHint": "L19の語彙「后悔」と「既然……，又有什么用呢？」（反問）を使います。",
+    "hints": [
+      "「もう起きてしまった」は「既然已经发生了」です。",
+      "「後悔する」は「后悔」です。",
+      "「何の役に立つだろうか」は反語表現「又有什么用呢？」を使います。"
+    ],
+    "modelAnswer": "既然已经发生了，后悔又有什么用呢？",
+    "acceptableAnswers": [
+      "既然已经发生了，后悔又有什么用呢？",
+      "既然事情已经发生了，再后悔也没有用。"
+    ],
+    "pinyin": "Jìrán yǐjīng fāshēng le, hòuhuǐ yòu yǒu shénme yòng ne?",
+    "structureBreakdown": [
+      { "text": "既然", "role": "Conj", "label": "既定前提" },
+      { "text": "已经发生了", "role": "Other", "label": "事実" },
+      { "text": "后悔", "role": "S", "label": "主題" },
+      { "text": "又有什么用呢", "role": "P", "label": "反問" }
+    ],
+    "explanation": "「既然……」の後ろで「就」の代わりに反語「又有什么用呢？」を続ける、日常でも文学でも頻出の表現です。",
+    "commonMistakes": [
+      { "wrong": "既然已经发生了，所以后悔没有用。", "reason": "「既然」の後ろに「所以」を入れてはいけません。" }
+    ]
+  },
+  {
+    "id": "C-G19-02-05",
+    "lessonId": "L19",
+    "minLesson": 19,
+    "grammarIds": ["G19-02"],
+    "difficulty": 3,
+    "japanesePrompt": "今外で雨が降っているのだから、私たちはタクシーで駅へ行きましょう。",
+    "targetGrammarHint": "「既然……」と交通手段「坐出租车」を組み合わせます。",
+    "hints": [
+      "「外で雨が降っている」は「外面在下雨」または「外面下着雨」です。",
+      "「タクシーで駅へ行く」は連動文「坐出租车去车站」です。",
+      "「既然外面在下雨，我们就坐出租车去车站吧。」と組み立てます。"
+    ],
+    "modelAnswer": "既然外面在下雨，我们就坐出租车去车站吧。",
+    "acceptableAnswers": [
+      "既然外面在下雨，我们就坐出租车去车站吧。",
+      "既然外面下着雨，我们就打车去车站吧。"
+    ],
+    "pinyin": "Jìrán wàimiàn zài xiàyǔ, wǒmen jiù zuò chūzūchē qù chēzhàn ba.",
+    "structureBreakdown": [
+      { "text": "既然外面在下雨", "role": "Conj", "label": "目の前の事実" },
+      { "text": "我们", "role": "S", "label": "主語" },
+      { "text": "就", "role": "Adv", "label": "帰結" },
+      { "text": "坐出租车去车站吧", "role": "V", "label": "提案" }
+    ],
+    "explanation": "目の前で起きている状況（雨が降っている）を踏まえて、今取るべき行動を提案しています。",
+    "commonMistakes": [
+      { "wrong": "如果外面在下雨，我们就坐出租车去车站吧。", "reason": "今実際に降っている事実を見ている場面では、仮定の「如果」ではなく「既然」を使います。" }
+    ]
+  },
+
+  {
+    "id": "C-G19-03-01",
+    "lessonId": "L19",
+    "minLesson": 19,
+    "grammarIds": ["G19-03"],
+    "difficulty": 2,
+    "japanesePrompt": "この映画はとても面白いと聞いたので、私は絶対に見に行かなければなりません。",
+    "targetGrammarHint": "「听说……，我非……不可」を使います。",
+    "hints": [
+      "「この映画はとても面白いと聞いた」は「听说这部电影很好看」です。",
+      "「見に行く」は「去看」です。",
+      "強い決意は「我非去看不可」または「我非要去看不可」で表します。"
+    ],
+    "modelAnswer": "听说这部电影很好看，我非去看不可。",
+    "acceptableAnswers": [
+      "听说这部电影很好看，我非去看不可。",
+      "听说这部电影非常有意思，我非要去看不可。"
+    ],
+    "pinyin": "Tīngshuō zhè bù diànyǐng hěn hǎokàn, wǒ fēi qù kàn bùkě.",
+    "structureBreakdown": [
+      { "text": "听说这部电影很好看", "role": "Other", "label": "伝聞理由" },
+      { "text": "我", "role": "S", "label": "主語" },
+      { "text": "非", "role": "Neg", "label": "二重否定前" },
+      { "text": "去看", "role": "V", "label": "動詞句" },
+      { "text": "不可", "role": "Neg", "label": "二重否定後" }
+    ],
+    "explanation": "「非……不可」は話し手の「どうしても〜するぞ」という熱い決意を表す二重否定構文です。",
+    "commonMistakes": [
+      { "wrong": "听说这部电影很好看，我非去看。", "reason": "文末の「不可」を落とすと構文として成り立ちません。" }
+    ]
+  },
+  {
+    "id": "C-G19-03-02",
+    "lessonId": "L19",
+    "minLesson": 19,
+    "grammarIds": ["G19-03"],
+    "difficulty": 2,
+    "japanesePrompt": "四川へ行く機会があったら、本場の四川料理を絶対に味わってみなければなりません。",
+    "targetGrammarHint": "L19の語彙「正宗」「尝」と「非……不可」を使います。",
+    "hints": [
+      "「機会があったら」は「有机会去四川」または「如果去四川」です。",
+      "「味わってみる」は「尝尝」または「尝一尝」です。",
+      "「本場の四川料理」は「正宗的四川菜」または「正宗的川菜」です。"
+    ],
+    "modelAnswer": "有机会去四川，非尝尝正宗的四川菜不可。",
+    "acceptableAnswers": [
+      "有机会去四川，非尝尝正宗的四川菜不可。",
+      "有机会去四川的话，我非要尝尝正宗的川菜不可。"
+    ],
+    "pinyin": "Yǒu jīhuì qù Sìchuān, fēi chángchang zhèngzōng de Sìchuāncài bùkě.",
+    "structureBreakdown": [
+      { "text": "有机会去四川", "role": "Time", "label": "機会" },
+      { "text": "非", "role": "Neg", "label": "二重否定前" },
+      { "text": "尝尝正宗的四川菜", "role": "V", "label": "動詞句" },
+      { "text": "不可", "role": "Neg", "label": "二重否定後" }
+    ],
+    "explanation": "「本場の味をぜひとも味わわなくては」という強い期待・決意を表現できます。",
+    "commonMistakes": [
+      { "wrong": "有机会去四川，非不尝正宗的四川菜不可。", "reason": "「非」自体が否定の役割を持つため、後ろの動詞にさらに「不」を入れると意味が逆転・混乱します。" }
+    ]
+  },
+  {
+    "id": "C-G19-03-03",
+    "lessonId": "L19",
+    "minLesson": 19,
+    "grammarIds": ["G19-03"],
+    "difficulty": 2,
+    "japanesePrompt": "父は彼に行くなと言ったのに、彼はどうしても行くと言って聞きません。",
+    "targetGrammarHint": "逆接の「却」と「非去不可」を組み合わせます。",
+    "hints": [
+      "「父は彼に行くなと言った」は「爸爸不让他去」です。",
+      "「それでも彼は」は「他却」で表します。",
+      "「どうしても行く」は「非去不可」または「非要去不可」です。"
+    ],
+    "modelAnswer": "爸爸不让他去，他却非去不可。",
+    "acceptableAnswers": [
+      "爸爸不让他去，他却非去不可。",
+      "爸爸不让他去，可他非要去不可。"
+    ],
+    "pinyin": "Bàba bú ràng tā qù, tā què fēi qù bùkě.",
+    "structureBreakdown": [
+      { "text": "爸爸不让他去", "role": "Other", "label": "制止節" },
+      { "text": "他", "role": "S", "label": "主語" },
+      { "text": "却", "role": "Adv", "label": "逆接" },
+      { "text": "非去不可", "role": "V", "label": "二重否定(強意)" }
+    ],
+    "explanation": "他人の制止に逆らって「どうしても〜する」と意地を張るニュアンスを「却非……不可」で表せます。",
+    "commonMistakes": [
+      { "wrong": "爸爸不让他去，他却不去不可。", "reason": "構文の型は「非 + V + 不可」であり、「×不……不可」にはなりません。" }
+    ]
+  },
+  {
+    "id": "C-G19-03-04",
+    "lessonId": "L19",
+    "minLesson": 19,
+    "grammarIds": ["G19-03"],
+    "difficulty": 3,
+    "japanesePrompt": "この問題を解決するには、経験豊富な李先生に聞かなければなりません。",
+    "targetGrammarHint": "手段の必須条件を「非 + 动词句 + 不可」で表します。",
+    "hints": [
+      "「この問題を解決するには」は「要解决这个问题」です。",
+      "「李先生に聞く」は「问李老师」または「请教李老师」です。",
+      "「非请教经验丰富的李老师不可」のように組み立てます。"
+    ],
+    "modelAnswer": "要解决这个问题，非请教经验丰富的李老师不可。",
+    "acceptableAnswers": [
+      "要解决这个问题，非请教经验丰富的李老师不可。",
+      "想解决这个问题，非问经验丰富的李老师不可。"
+    ],
+    "pinyin": "Yào jiějué zhège wèntí, fēi qǐngjiào jīngyàn fēngfù de Lǐ lǎoshī bùkě.",
+    "structureBreakdown": [
+      { "text": "要解决这个问题", "role": "Other", "label": "目標節" },
+      { "text": "非", "role": "Neg", "label": "二重否定前" },
+      { "text": "请教经验丰富的李老师", "role": "V", "label": "必須行動" },
+      { "text": "不可", "role": "Neg", "label": "二重否定後" }
+    ],
+    "explanation": "主観的な意地だけでなく、「それ以外に解決策がない」という客観的な必須条件も「非……不可」で表せます。",
+    "commonMistakes": [
+      { "wrong": "要解决这个问题，请教李老师不可。", "reason": "前の「非」を省略してはいけません。" }
+    ]
+  },
+  {
+    "id": "C-G19-03-05",
+    "lessonId": "L19",
+    "minLesson": 19,
+    "grammarIds": ["G19-03"],
+    "difficulty": 3,
+    "japanesePrompt": "今年の夏休みには、私はどうしても蘇州へ遊覧に行かなければなりません。",
+    "targetGrammarHint": "L19の語彙「苏州」「游览」と「非……不可」を使います。",
+    "hints": [
+      "「今年の夏休み」は「今年暑假」です。",
+      "「蘇州へ遊覧に行く」は「去苏州游览」です。",
+      "「我非去苏州游览不可」または「我非要去苏州游览一趟不可」とします。"
+    ],
+    "modelAnswer": "今年暑假，我非去苏州游览不可。",
+    "acceptableAnswers": [
+      "今年暑假，我非去苏州游览不可。",
+      "今年暑假，我非要去苏州游览一次不可。"
+    ],
+    "pinyin": "Jīnnián shǔjià, wǒ fēi qù Sūzhōu yóulǎn bùkě.",
+    "structureBreakdown": [
+      { "text": "今年暑假", "role": "Time", "label": "時間" },
+      { "text": "我", "role": "S", "label": "主語" },
+      { "text": "非", "role": "Neg", "label": "二重否定前" },
+      { "text": "去苏州游览", "role": "V", "label": "動詞句" },
+      { "text": "不可", "role": "Neg", "label": "二重否定後" }
+    ],
+    "explanation": "L19のテーマ都市「苏州」と語彙「游览」を使った自然な決意文です。",
+    "commonMistakes": [
+      { "wrong": "今年暑假，我非苏州游览不可。", "reason": "「苏州」へ行く動作動詞「去」を補って「非去苏州游览不可」とします。" }
+    ]
+  },
+
+  {
+    "id": "C-G19-04-01",
+    "lessonId": "L19",
+    "minLesson": 19,
+    "grammarIds": ["G19-04"],
+    "difficulty": 1,
+    "japanesePrompt": "買いたいものがあれば、何でも買っていいですよ。",
+    "targetGrammarHint": "疑問詞「什么」の呼応構文を使います（文末に「吗」を付けない）。",
+    "hints": [
+      "「買いたい」は「想买」です。",
+      "前節：「你想买什么，」とします。",
+      "後節：「就买什么吧。」とします。"
+    ],
+    "modelAnswer": "你想买什么，就买什么吧。",
+    "acceptableAnswers": [
+      "你想买什么，就买什么吧。",
+      "你想买什么就买什么。"
+    ],
+    "pinyin": "Nǐ xiǎng mǎi shénme, jiù mǎi shénme ba.",
+    "structureBreakdown": [
+      { "text": "你", "role": "S", "label": "主語" },
+      { "text": "想买什么", "role": "V", "label": "前節(什么)" },
+      { "text": "就", "role": "Adv", "label": "接続" },
+      { "text": "买什么吧", "role": "V", "label": "後節(什么)" }
+    ],
+    "explanation": "前節の「什么」と後節の「什么」を呼応させ、「何であれ望むものを」という任意の許可を表します。",
+    "commonMistakes": [
+      { "wrong": "你想买什么，就买那个吧。", "reason": "呼応構文では後節を「那个」に変えず、同じ疑問詞「什么」を使います。" }
+    ]
+  },
+  {
+    "id": "C-G19-04-02",
+    "lessonId": "L19",
+    "minLesson": 19,
+    "grammarIds": ["G19-04"],
+    "difficulty": 1,
+    "japanesePrompt": "あなたが暇な時にいつでも、私たちはその時に行きましょう。",
+    "targetGrammarHint": "疑問詞「什么时候」の呼応構文を使います。",
+    "hints": [
+      "「暇な時」は「有空」または「有时间」です。",
+      "「いつ〜なら」は「你什么时候有空，」です。",
+      "後節は「我们就什么时候去吧。」と「什么时候」を揃えます。"
+    ],
+    "modelAnswer": "你什么时候有空，我们就什么时候去吧。",
+    "acceptableAnswers": [
+      "你什么时候有空，我们就什么时候去吧。",
+      "你什么时候有时间，我们就什么时候去。"
+    ],
+    "pinyin": "Nǐ shénme shíhou yǒukòng, wǒmen jiù shénme shíhou qù ba.",
+    "structureBreakdown": [
+      { "text": "你什么时候有空", "role": "Time", "label": "前節(いつ)" },
+      { "text": "我们", "role": "S", "label": "主語" },
+      { "text": "就", "role": "Adv", "label": "接続" },
+      { "text": "什么时候去吧", "role": "V", "label": "後節(いつ)" }
+    ],
+    "explanation": "時間の不定呼応「什么时候……，就什么时候……」により、相手の都合に合わせる柔らかい提案ができます。",
+    "commonMistakes": [
+      { "wrong": "你什么时候有空，我们就那时去吧。", "reason": "「那时」ではなく前節と同じ「什么时候」で呼応させます。" }
+    ]
+  },
+  {
+    "id": "C-G19-04-03",
+    "lessonId": "L19",
+    "minLesson": 19,
+    "grammarIds": ["G19-04"],
+    "difficulty": 2,
+    "japanesePrompt": "誰が先に家に帰っても、その人がご飯を作りましょう。",
+    "targetGrammarHint": "疑問詞「谁」の呼応構文を使います。",
+    "hints": [
+      "「先に家に帰る」は「先回家」です。",
+      "「誰が先に〜なら」は「谁先回家，」です。",
+      "「その人がご飯を作る」は「谁就做饭」です。"
+    ],
+    "modelAnswer": "谁先回家，谁就做饭。",
+    "acceptableAnswers": [
+      "谁先回家，谁就做饭。",
+      "谁先回家，谁就做晚饭吧。"
+    ],
+    "pinyin": "Shéi xiān huí jiā, shéi jiù zuòfàn.",
+    "structureBreakdown": [
+      { "text": "谁", "role": "S", "label": "疑問詞1" },
+      { "text": "先回家", "role": "V", "label": "前節" },
+      { "text": "谁", "role": "S", "label": "呼応疑問詞" },
+      { "text": "就做饭", "role": "V", "label": "後節" }
+    ],
+    "explanation": "主語の位置に疑問詞「谁」を置いて呼応させる、日常のルール決めなどでよく使われる構文です。",
+    "commonMistakes": [
+      { "wrong": "谁先回家，他就做饭。", "reason": "特定の「彼」ではなく不特定の誰かを指すため、「谁……谁就……」にします。" }
+    ]
+  },
+  {
+    "id": "C-G19-04-04",
+    "lessonId": "L19",
+    "minLesson": 19,
+    "grammarIds": ["G19-04"],
+    "difficulty": 2,
+    "japanesePrompt": "彼が私にどこへ行けと言えば、私はそこへ行きます。",
+    "targetGrammarHint": "使役「让」と場所の疑問詞「哪儿」の呼応を使います。",
+    "hints": [
+      "「彼が私に〜に行かせる」は使役の「他让我去……」です。",
+      "場所の疑問詞「哪儿」を前節に置きます：他让我去哪儿，",
+      "後節も同じ「哪儿」で受けます：我就去哪儿。"
+    ],
+    "modelAnswer": "他让我去哪儿，我就去哪儿。",
+    "acceptableAnswers": [
+      "他让我去哪儿，我就去哪儿。",
+      "他让我去哪里，我就去哪里。"
+    ],
+    "pinyin": "Tā ràng wǒ qù nǎr, wǒ jiù qù nǎr.",
+    "structureBreakdown": [
+      { "text": "他让我去哪儿", "role": "Loc", "label": "前節(どこ)" },
+      { "text": "我", "role": "S", "label": "主語" },
+      { "text": "就去哪儿", "role": "V", "label": "後節(どこ)" }
+    ],
+    "explanation": "相手の指示に従ってどこへでも行くことを「哪儿……就……哪儿」で簡潔に表します。",
+    "commonMistakes": [
+      { "wrong": "他让我去哪儿，我就去那儿。", "reason": "呼応構文では「那儿」ではなく「哪儿」を繰り返します。" }
+    ]
+  },
+  {
+    "id": "C-G19-04-05",
+    "lessonId": "L19",
+    "minLesson": 19,
+    "grammarIds": ["G19-04"],
+    "difficulty": 3,
+    "japanesePrompt": "この方法はあなたがどうやるのが一番いいと思うなら、その通りにやりましょう。",
+    "targetGrammarHint": "方法・様態の疑問詞「怎么」の呼応構文を使います。",
+    "hints": [
+      "「あなたがどうやるのが一番いいと思う」は「你觉得怎么做好」または「你觉得应该怎么做」です。",
+      "後節も「怎么」を使って「我们就怎么做吧」とします。",
+      "「就」で前後を結びます。"
+    ],
+    "modelAnswer": "你觉得怎么做好，我们就怎么做吧。",
+    "acceptableAnswers": [
+      "你觉得怎么做好，我们就怎么做吧。",
+      "你觉得应该怎么做，我们就怎么做。"
+    ],
+    "pinyin": "Nǐ juéde zěnme zuò hǎo, wǒmen jiù zěnme zuò ba.",
+    "structureBreakdown": [
+      { "text": "你觉得怎么做好", "role": "Other", "label": "前節(どう)" },
+      { "text": "我们", "role": "S", "label": "主語" },
+      { "text": "就", "role": "Adv", "label": "接続" },
+      { "text": "怎么做吧", "role": "V", "label": "後節(どう)" }
+    ],
+    "explanation": "方法や手段の不定一致は「怎么……，就怎么……」で表現できます。",
+    "commonMistakes": [
+      { "wrong": "你觉得怎么做好，我们就那样做吧。", "reason": "呼応構文では「那样」ではなく同じ「怎么」で受けます。" }
+    ]
+  }
+]

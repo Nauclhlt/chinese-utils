@@ -1,0 +1,456 @@
+[
+  {
+    "id": "G04-01",
+    "title": "動詞 “有”（所有・存在と否定 “没有”）",
+    "categoryId": "cat-existential",
+    "lessonId": "L04",
+    "difficulty": 1,
+    "prerequisites": ["G01-03", "G03-03"],
+    "relatedIds": ["G03-03", "G03-04", "G04-03"],
+    "meaning": "人・組織が物や関係を持つ「所有（〜を持っている・〜がいる）」と、ある場所に不特定の人や物がある「存在（〜に…がある・いる）」を表す基本動詞です。否定には「不」ではなく必ず「没（有）」を使います。",
+    "pattern": "所有：人 + 有/没有 + 物・人 ｜ 存在：場所 + 有/没有 + 物・人",
+    "structureSlots": [
+      { "role": "S", "label": "所有者/場所", "text": "我 / 教室里 / 桌子上", "pinyin": "wǒ / jiàoshì lǐ / zhuōzi shàng" },
+      { "role": "Neg", "label": "否定(任意)", "text": "没", "pinyin": "méi" },
+      { "role": "V", "label": "動詞", "text": "有", "pinyin": "yǒu" },
+      { "role": "O", "label": "対象(物/人)", "text": "相机 / 学生 / 两本书", "pinyin": "xiàngjī / xuésheng / liǎng běn shū" }
+    ],
+    "wordOrderNote": "存在を表すときは「場所詞（〜には）」が主語の位置（文頭）に来て、「場所 + 有 + 存在する物・人」という語順になります。「有」の否定は常に「没有（または省略形の 没）」です。",
+    "usageConditions": "所有では「我有一个哥哥（私には兄が1人いる）」「我没有相机（私はカメラを持っていない）」のように使い、存在では「书店旁边有咖啡店（書店の隣にカフェがある）」のように新しい情報（不特定の人・物）の存在を導入します。",
+    "distinctionNotes": "第3課の動詞「在」と意味は似ていますが視点が逆です。①「在」は「特定の主語がどこにあるか（我的书在桌子上＝私の本は机の上にある）」、②「有」は「ある場所に何があるか（桌子上有一本书＝机の上に本が1冊ある）」。また「不有」という形は存在せず、必ず「没有」を使う点に注意してください。",
+    "forms": {
+      "affirmative": "S + 有 + O",
+      "negative": "S + 没有（没） + O",
+      "interrogative": "S + 有 + O + 吗？ ／ S + 有没有 + O？"
+    },
+    "japaneseLearnerPitfalls": [
+      "他の動詞と同じ感覚で「×我不有相机」と「不」で否定してしまう誤り（正しくは「我没有相机」）。",
+      "存在文で「在」と「有」の語順を混同し、「×桌子上在书」や「×书在桌子上有一本」と書いてしまう誤り（場所＋有＋物 ／ 物＋在＋場所）。",
+      "存在を表す文頭の名詞に方位詞を付け忘れて「×桌子有书」としてしまう誤り（「桌子上」のように場所化が必要）。"
+    ],
+    "similarDifferences": [
+      {
+        "targetId": "G03-03",
+        "targetName": "動詞 “在”（存在・所在）",
+        "difference": "「A 在 B」は「既知のAが場所Bにある」、一方「B 有 A」は「場所Bに不特定のAがある」を表します。否定も「不在」と「没有」で異なります。"
+      },
+      {
+        "targetId": "G04-03",
+        "targetName": "数詞と量詞",
+        "difference": "存在文「場所 + 有 + O」では、「有两本书（本が2冊ある）」のように「数詞＋量詞＋名詞」が目的語によく現れます。"
+      }
+    ],
+    "examples": [
+      {
+        "id": "EX-G04-01-1",
+        "hanzi": "我有相机，他没有相机。",
+        "pinyin": "Wǒ yǒu xiàngjī, tā méiyǒu xiàngjī.",
+        "ja": "私はカメラを持っていますが、彼はカメラを持っていません。",
+        "note": "所有を表す「有」とその否定「没有」（×不有）。",
+        "breakdown": [
+          { "role": "S", "label": "主語", "text": "我", "pinyin": "wǒ" },
+          { "role": "V", "label": "動詞", "text": "有", "pinyin": "yǒu" },
+          { "role": "O", "label": "目的語", "text": "相机", "pinyin": "xiàngjī" },
+          { "role": "S", "label": "主語", "text": "他", "pinyin": "tā" },
+          { "role": "Neg", "label": "否定", "text": "没", "pinyin": "méi" },
+          { "role": "V", "label": "動詞", "text": "有", "pinyin": "yǒu" },
+          { "role": "O", "label": "目的語", "text": "相机", "pinyin": "xiàngjī" }
+        ]
+      },
+      {
+        "id": "EX-G04-01-2",
+        "hanzi": "桌子上有一本汉语书。",
+        "pinyin": "Zhuōzi shàng yǒu yì běn Hànyǔ shū.",
+        "ja": "机の上に中国語の本が1冊あります。",
+        "note": "場所「桌子上」を主語にした存在文。「一」は本調 yī、発音時は第4声 yì。",
+        "breakdown": [
+          { "role": "Loc", "label": "場所(主語)", "text": "桌子上", "pinyin": "zhuōzi shàng" },
+          { "role": "V", "label": "動詞", "text": "有", "pinyin": "yǒu" },
+          { "role": "O", "label": "数量+名詞", "text": "一本汉语书", "pinyin": "yì běn Hànyǔ shū" }
+        ]
+      },
+      {
+        "id": "EX-G04-01-3",
+        "hanzi": "你有中国朋友吗？",
+        "pinyin": "Nǐ yǒu Zhōngguó péngyou ma?",
+        "ja": "あなたは中国人の友達がいますか。",
+        "note": "人脈や家族の有無も「有」で表します。",
+        "breakdown": [
+          { "role": "S", "label": "主語", "text": "你", "pinyin": "nǐ" },
+          { "role": "V", "label": "動詞", "text": "有", "pinyin": "yǒu" },
+          { "role": "O", "label": "目的語", "text": "中国朋友", "pinyin": "Zhōngguó péngyou" },
+          { "role": "Aux", "label": "語気助詞", "text": "吗", "pinyin": "ma" }
+        ]
+      },
+      {
+        "id": "EX-G04-01-4",
+        "hanzi": "教室里没有学生。",
+        "pinyin": "Jiàoshì lǐ méiyǒu xuésheng.",
+        "ja": "教室の中に学生はいません。",
+        "note": "存在の否定も「没有」を使います。",
+        "breakdown": [
+          { "role": "Loc", "label": "場所(主語)", "text": "教室里", "pinyin": "jiàoshì lǐ" },
+          { "role": "Neg", "label": "否定", "text": "没", "pinyin": "méi" },
+          { "role": "V", "label": "動詞", "text": "有", "pinyin": "yǒu" },
+          { "role": "O", "label": "名詞", "text": "学生", "pinyin": "xuésheng" }
+        ]
+      },
+      {
+        "id": "EX-G04-01-5",
+        "hanzi": "学校旁边有一家书店。",
+        "pinyin": "Xuéxiào pángbiān yǒu yì jiā shūdiàn.",
+        "ja": "学校の隣に書店が1軒あります。",
+        "note": "方位詞を伴った場所＋「有」＋数量＋名詞の典型例。",
+        "breakdown": [
+          { "role": "Loc", "label": "場所(主語)", "text": "学校旁边", "pinyin": "xuéxiào pángbiān" },
+          { "role": "V", "label": "動詞", "text": "有", "pinyin": "yǒu" },
+          { "role": "O", "label": "数量+名詞", "text": "一家书店", "pinyin": "yì jiā shūdiàn" }
+        ]
+      }
+    ],
+    "referenceUrl": "https://hanyujiaocai.jinkan.kyoto-u.ac.jp/2018shanghai/2018CALL/L4_3.html",
+    "referenceTitle": "文法事項 １．動詞 “有”"
+  },
+  {
+    "id": "G04-02",
+    "title": "介詞 “在・从・到・给” など",
+    "categoryId": "cat-preposition",
+    "lessonId": "L04",
+    "difficulty": 2,
+    "prerequisites": ["G03-03"],
+    "relatedIds": ["G03-03", "G03-04", "G02-04"],
+    "meaning": "場所・起点・到達点・動作の相手などを表し、後ろに名詞や代詞を伴って「介詞句（前置詞フレーズ）」を作り、動詞を修飾する語です。「在（〜で）」「从（〜から）」「到（〜まで／へ）」「给（〜に／のために）」が代表的です。",
+    "pattern": "S + (副詞/否定) + [介詞 + 名詞/代詞] + 動詞 (+ 目的語)",
+    "structureSlots": [
+      { "role": "S", "label": "主語", "text": "我 / 他", "pinyin": "wǒ / tā" },
+      { "role": "Adv", "label": "否定/副詞", "text": "不 / 也", "pinyin": "bù / yě" },
+      { "role": "Prep", "label": "介詞句", "text": "在教室里 / 从东京 / 给朋友", "pinyin": "zài jiàoshì lǐ / cóng Dōngjīng / gěi péngyou" },
+      { "role": "V", "label": "動詞", "text": "学习 / 来 / 写", "pinyin": "xuéxí / lái / xiě" },
+      { "role": "O", "label": "目的語", "text": "汉语 / 这儿 / 信", "pinyin": "Hànyǔ / zhèr / xìn" }
+    ],
+    "wordOrderNote": "中国語の介詞句は、原則として「主語の後・本動詞の前」に置きます。否定の「不」や副詞「也」「一起」と併用するときは、通常「不 / 也 + 介詞句 + 動詞」のように介詞句の前に置きます。",
+    "usageConditions": "①「在＋場所＋V」：動作が行われる場所（〜で…する）。②「从＋起点＋V」：出発点・起点（〜から…する）。③「到＋到達点＋去/来」：目的地（〜へ行く／来る）。「从 A 到 B」で「AからBまで」。④「给＋人＋V＋O」：動作の受け手や受益者（〜に／〜のために…する）。",
+    "distinctionNotes": "第3課の動詞「在」（他在教室里＝彼は教室にいる）は文の中で唯一の述語動詞ですが、介詞の「在」（他在教室里学习汉语＝彼は教室で中国語を勉強する）は後ろに別の本動詞を伴います。また「到」や「给」も単独で使えば動詞（到着する／あげる）になりますが、後ろに別の動詞を伴うと介詞として働きます。",
+    "forms": {
+      "affirmative": "S + 介詞 + 名詞 + V (+ O)",
+      "negative": "S + 不 + 介詞 + 名詞 + V (+ O)",
+      "interrogative": "S + 介詞 + 名詞 + V (+ O) + 吗？"
+    },
+    "japaneseLearnerPitfalls": [
+      "英語の前置詞句の語順に引っ張られて「×我学习汉语在教室里」のように介詞句を文末に置いてしまう誤り（必ず本動詞「学习」の前に置く）。",
+      "否定の位置を誤って「×我在教室里不学习」と言ってしまう誤り（単純否定は「我不在教室里学习」と介詞の前に「不」を置く）。",
+      "「朋友を撮る／友達に写真を撮ってあげる」の文脈で「给朋友拍照片」の「给＋人」の位置を動詞の後ろに置いて「×拍照片给朋友」としてしまう誤り。"
+    ],
+    "similarDifferences": [
+      {
+        "targetId": "G03-03",
+        "targetName": "動詞 “在”（存在・所在）",
+        "difference": "後ろに別の動詞がなければ「在」は述語動詞（〜にいる）、別の動詞が続けば「在」は動作場所を示す介詞（〜で）になります。"
+      },
+      {
+        "targetId": "G02-04",
+        "targetName": "副詞 “一起”",
+        "difference": "「〜と一緒に…する」を表す介詞「跟 / 和」を併用するときも、介詞句「跟朋友」を動詞（または一起）の前に置きます。"
+      }
+    ],
+    "examples": [
+      {
+        "id": "EX-G04-02-1",
+        "hanzi": "我们在教室里学习汉语。",
+        "pinyin": "Wǒmen zài jiàoshì lǐ xuéxí Hànyǔ.",
+        "ja": "私たちは教室の中で中国語を学びます。",
+        "note": "介詞句「在教室里」が動詞「学习」の前に置かれています。",
+        "breakdown": [
+          { "role": "S", "label": "主語", "text": "我们", "pinyin": "wǒmen" },
+          { "role": "Prep", "label": "介詞句(場所)", "text": "在教室里", "pinyin": "zài jiàoshì lǐ" },
+          { "role": "V", "label": "動詞", "text": "学习", "pinyin": "xuéxí" },
+          { "role": "O", "label": "目的語", "text": "汉语", "pinyin": "Hànyǔ" }
+        ]
+      },
+      {
+        "id": "EX-G04-02-2",
+        "hanzi": "他从上海来东京。",
+        "pinyin": "Tā cóng Shànghǎi lái Dōngjīng.",
+        "ja": "彼は上海から東京へ来ます。",
+        "note": "「从＋起点」を移動動詞「来」の前に置きます。",
+        "breakdown": [
+          { "role": "S", "label": "主語", "text": "他", "pinyin": "tā" },
+          { "role": "Prep", "label": "介詞句(起点)", "text": "从上海", "pinyin": "cóng Shànghǎi" },
+          { "role": "V", "label": "動詞", "text": "来", "pinyin": "lái" },
+          { "role": "Loc", "label": "目的地", "text": "东京", "pinyin": "Dōngjīng" }
+        ]
+      },
+      {
+        "id": "EX-G04-02-3",
+        "hanzi": "我们从这儿到图书馆去。",
+        "pinyin": "Wǒmen cóng zhèr dào túshūguǎn qù.",
+        "ja": "私たちはここから図書館へ行きます。",
+        "note": "「从 A 到 B ＋ 去/来」で出発地と目的地を両方示せます。",
+        "breakdown": [
+          { "role": "S", "label": "主語", "text": "我们", "pinyin": "wǒmen" },
+          { "role": "Prep", "label": "介詞句(起点)", "text": "从这儿", "pinyin": "cóng zhèr" },
+          { "role": "Prep", "label": "介詞句(到達点)", "text": "到图书馆", "pinyin": "dào túshūguǎn" },
+          { "role": "V", "label": "動詞", "text": "去", "pinyin": "qù" }
+        ]
+      },
+      {
+        "id": "EX-G04-02-4",
+        "hanzi": "我给妈妈写信。",
+        "pinyin": "Wǒ gěi māma xiě xìn.",
+        "ja": "私は母に手紙を書きます。",
+        "note": "「给＋相手＋動詞＋目的語」で動作の対象・受益者を示します。",
+        "breakdown": [
+          { "role": "S", "label": "主語", "text": "我", "pinyin": "wǒ" },
+          { "role": "Prep", "label": "介詞句(相手)", "text": "给妈妈", "pinyin": "gěi māma" },
+          { "role": "V", "label": "動詞", "text": "写", "pinyin": "xiě" },
+          { "role": "O", "label": "目的語", "text": "信", "pinyin": "xìn" }
+        ]
+      },
+      {
+        "id": "EX-G04-02-5",
+        "hanzi": "我不在这里喝咖啡，我去朋友那儿喝。",
+        "pinyin": "Wǒ bú zài zhèlǐ hē kāfēi, wǒ qù péngyou nàr hē.",
+        "ja": "私はここでコーヒーを飲まず、友達のところへ行って飲みます。",
+        "note": "否定の「不」は介詞句「在这里」の直前に置きます。",
+        "breakdown": [
+          { "role": "S", "label": "主語", "text": "我", "pinyin": "wǒ" },
+          { "role": "Neg", "label": "否定", "text": "不", "pinyin": "bù" },
+          { "role": "Prep", "label": "介詞句", "text": "在这里", "pinyin": "zài zhèlǐ" },
+          { "role": "V", "label": "動詞", "text": "喝", "pinyin": "hē" },
+          { "role": "O", "label": "目的語", "text": "咖啡", "pinyin": "kāfēi" }
+        ]
+      }
+    ],
+    "referenceUrl": "https://hanyujiaocai.jinkan.kyoto-u.ac.jp/2018shanghai/2018CALL/L4_4.html",
+    "referenceTitle": "文法事項 ２．介詞 “在” など"
+  },
+  {
+    "id": "G04-03",
+    "title": "数詞と量詞（二と两の区別含む）",
+    "categoryId": "cat-quantity",
+    "lessonId": "L04",
+    "difficulty": 1,
+    "prerequisites": ["G04-01"],
+    "relatedIds": ["GP-02", "G04-01", "G03-01"],
+    "meaning": "人や物の数を数えるときの基本構造と、「2」を表す「二 (èr)」と「两 (liǎng)」の使い分けです。中国語では数詞（または指示代詞这/那）と名詞の間に原則として必ず「量詞」を挟みます。",
+    "pattern": "数詞 + 量詞 + 名詞 ／ 这・那 + (数詞) + 量詞 + 名詞",
+    "structureSlots": [
+      { "role": "Attr", "label": "数詞/指示", "text": "一 / 两 / 三 / 这", "pinyin": "yī / liǎng / sān / zhè" },
+      { "role": "Attr", "label": "量詞", "text": "个 / 本 / 张", "pinyin": "gè / běn / zhāng" },
+      { "role": "O", "label": "名詞", "text": "人 / 书 / 照片", "pinyin": "rén / shū / zhàopiàn" }
+    ],
+    "wordOrderNote": "日本語の「本2冊」のような語順はとらず、必ず「数詞＋量詞＋名詞」（两本书）の順に並べます。指示代詞「这」「那」で名詞を直接修飾するときも「这本书（この本）」「那张照片（あの写真）」のように量詞を入れます。",
+    "usageConditions": "①「个 (gè)」：人・時間・一般的な事物に広く使える万能的量詞（例：三个学生、一个相机）。②「本 (běn)」：本・辞書・ノートなどの冊子（例：两本书）。③「张 (zhāng)」：写真・紙・地図・テーブルなど平たい面のあるもの（例：五张照片）。",
+    "distinctionNotes": "【二と两の区別】量詞の直前（および「2時＝两点」「2百/千/万」）で数量「2つ」を表すときは「两 (liǎng)」を使います（○两个人・两本书・两张照片 ／ ×二个人・二本书）。一方、数字そのもの、序数（第二）、小数・分数、十の位や一の位（十二、二十二）には「二 (èr)」を使います。また「一 (yī)」は第4声の前で yí、第1・2・3声の前で yì に変調します。",
+    "forms": {
+      "affirmative": "数詞 + 量詞 + 名詞",
+      "negative": "没有 + 数詞 + 量詞 + 名詞",
+      "interrogative": "有 + 几个 / 几本 + 名詞？（第4課以降は「几」でも尋ねる）"
+    },
+    "japaneseLearnerPitfalls": [
+      "「2冊の本」「2人の学生」を「×二本书」「×二个学生」と「二」を使ってしまう誤り（量詞の前は必ず「两」）。",
+      "量詞を落として「×三学生」「×一相机」と言ってしまう誤り。",
+      "指示代詞「这/那」に量詞を入れ忘れて「×这书很好」と言ってしまう誤り（正しくは「这本书」）。"
+    ],
+    "similarDifferences": [
+      {
+        "targetId": "GP-02",
+        "targetName": "声調変調（一・不）",
+        "difference": "数詞「一」は量詞の前で後ろの声調に応じて変調します（一个 yí gè / 一本 yì běn / 一张 yì zhāng）。序数「第一」では第1声のままです。"
+      },
+      {
+        "targetId": "G04-01",
+        "targetName": "動詞 “有”",
+        "difference": "「我有两张照片」「桌子上有一本书」のように「有」の目的語に数量フレーズが頻繁に登場します。"
+      }
+    ],
+    "examples": [
+      {
+        "id": "EX-G04-03-1",
+        "hanzi": "我有两本汉语书和一本英语书。",
+        "pinyin": "Wǒ yǒu liǎng běn Hànyǔ shū hé yì běn Yīngyǔ shū.",
+        "ja": "私は中国語の本を2冊と英語の本を1冊持っています。",
+        "note": "本を数える量詞は「本」。「2冊」には「两」を使い、「一」は第3声「běn」の前で yì に変調します。",
+        "breakdown": [
+          { "role": "S", "label": "主語", "text": "我", "pinyin": "wǒ" },
+          { "role": "V", "label": "動詞", "text": "有", "pinyin": "yǒu" },
+          { "role": "O", "label": "数量+名詞", "text": "两本汉语书", "pinyin": "liǎng běn Hànyǔ shū" },
+          { "role": "Conj", "label": "接続詞", "text": "和", "pinyin": "hé" },
+          { "role": "O", "label": "数量+名詞", "text": "一本英语书", "pinyin": "yì běn Yīngyǔ shū" }
+        ]
+      },
+      {
+        "id": "EX-G04-03-2",
+        "hanzi": "他拍三张照片。",
+        "pinyin": "Tā pāi sān zhāng zhàopiàn.",
+        "ja": "彼は写真を3枚撮ります。",
+        "note": "写真を数える量詞は「张 (zhāng)」。",
+        "breakdown": [
+          { "role": "S", "label": "主語", "text": "他", "pinyin": "tā" },
+          { "role": "V", "label": "動詞", "text": "拍", "pinyin": "pāi" },
+          { "role": "O", "label": "数量+名詞", "text": "三张照片", "pinyin": "sān zhāng zhàopiàn" }
+        ]
+      },
+      {
+        "id": "EX-G04-03-3",
+        "hanzi": "我们班有四个中国学生和五个日本学生。",
+        "pinyin": "Wǒmen bān yǒu sì gè Zhōngguó xuésheng hé wǔ gè Rìběn xuésheng.",
+        "ja": "私たちのクラスには中国人学生が4人と日本人学生が5人います。",
+        "note": "人を数える汎用的な量詞「个」。「四」「五」＋「个」＋名詞の語順。",
+        "breakdown": [
+          { "role": "Loc", "label": "場所(主語)", "text": "我们班", "pinyin": "wǒmen bān" },
+          { "role": "V", "label": "動詞", "text": "有", "pinyin": "yǒu" },
+          { "role": "O", "label": "数量+名詞", "text": "四个中国学生", "pinyin": "sì gè Zhōngguó xuésheng" },
+          { "role": "Conj", "label": "接続詞", "text": "和", "pinyin": "hé" },
+          { "role": "O", "label": "数量+名詞", "text": "五个日本学生", "pinyin": "wǔ gè Rìběn xuésheng" }
+        ]
+      },
+      {
+        "id": "EX-G04-03-4",
+        "hanzi": "这个相机很好，那张照片很漂亮。",
+        "pinyin": "Zhè gè xiàngjī hěn hǎo, nà zhāng zhàopiàn hěn piàoliang.",
+        "ja": "このカメラはとても良く、あの写真はとてもきれいです。",
+        "note": "「这」「那」で名詞を限定するときも「个」「张」などの量詞を挟みます。",
+        "breakdown": [
+          { "role": "S", "label": "指示+量詞+名詞", "text": "这个相机", "pinyin": "zhè gè xiàngjī" },
+          { "role": "Adv", "label": "副詞", "text": "很", "pinyin": "hěn" },
+          { "role": "V", "label": "形容詞", "text": "好", "pinyin": "hǎo" },
+          { "role": "S", "label": "指示+量詞+名詞", "text": "那张照片", "pinyin": "nà zhāng zhàopiàn" },
+          { "role": "Adv", "label": "副詞", "text": "很", "pinyin": "hěn" },
+          { "role": "V", "label": "形容詞", "text": "漂亮", "pinyin": "piàoliang" }
+        ]
+      },
+      {
+        "id": "EX-G04-03-5",
+        "hanzi": "第二教学楼有两个教室，我有两本书。",
+        "pinyin": "Dì èr jiàoxuélóu yǒu liǎng gè jiàoshì, wǒ yǒu liǎng běn shū.",
+        "ja": "第2教育棟には教室が2つあり、私は本を2冊持っています。",
+        "note": "「第2」という序数は「第二」、数量の「2つ」「2冊」は「两个」「两本」と使い分けます。",
+        "breakdown": [
+          { "role": "Loc", "label": "場所(序数)", "text": "第二教学楼", "pinyin": "dì èr jiàoxuélóu" },
+          { "role": "V", "label": "動詞", "text": "有", "pinyin": "yǒu" },
+          { "role": "O", "label": "数量+名詞", "text": "两个教室", "pinyin": "liǎng gè jiàoshì" },
+          { "role": "S", "label": "主語", "text": "我", "pinyin": "wǒ" },
+          { "role": "V", "label": "動詞", "text": "有", "pinyin": "yǒu" },
+          { "role": "O", "label": "数量+名詞", "text": "两本书", "pinyin": "liǎng běn shū" }
+        ]
+      }
+    ],
+    "referenceUrl": "https://hanyujiaocai.jinkan.kyoto-u.ac.jp/2018shanghai/2018CALL/L4_5.html",
+    "referenceTitle": "文法事項 ３．数詞と量詞"
+  },
+  {
+    "id": "G04-04",
+    "title": "疑問詞（谁・什么・怎么・为什么）",
+    "categoryId": "cat-question",
+    "lessonId": "L04",
+    "difficulty": 1,
+    "prerequisites": ["G02-02"],
+    "relatedIds": ["G02-02", "G03-01"],
+    "meaning": "「誰」「何」「どのように」「なぜ」といった具体的な内容を尋ねる疑問代詞です。中国語では、疑問詞を文頭に移動させるのではなく、「答えが入るはずの位置」にそのまま疑問詞を置いて文を作ります。",
+    "pattern": "主語位置：谁 + V + O？ ／ 目的語位置：S + V + 什么/谁？ ／ 修飾・理由：S + 怎么/为什么 + V？",
+    "structureSlots": [
+      { "role": "S", "label": "主語/疑問", "text": "谁 / 你", "pinyin": "shéi / nǐ" },
+      { "role": "Adv", "label": "方法/理由", "text": "怎么 / 为什么", "pinyin": "zěnme / wèishénme" },
+      { "role": "V", "label": "動詞", "text": "是 / 拍 / 去 / 买", "pinyin": "shì / pāi / qù / mǎi" },
+      { "role": "O", "label": "目的語/疑問", "text": "王老师 / 什么 / 这本书", "pinyin": "Wáng lǎoshī / shénme / zhè běn shū" }
+    ],
+    "wordOrderNote": "①平叙文の語順のまま、尋ねたい部分を疑問詞に置き換えます（例：「他是王老师」→「他是谁？」／「我买词典」→「你买什么？」）。②疑問詞を含む文の末尾には「吗」を絶対に付けません。③「为什么」は主語の前にも後ろにも置けます（你为什么不去？ / 为什么你不去？）。",
+    "usageConditions": "①「谁 (shéi)」：誰（誰の〜＝谁的）。②「什么 (shénme)」：何・どんな（什么＋名詞）。③「怎么 (zěnme)」：どのように（方法・手段、例：怎么去？＝どうやって行きますか／どう書きますか）。④「为什么 (wèishénme)」：なぜ・どうして（理由）。",
+    "distinctionNotes": "「怎么」と「为什么」はどちらも「どうして・なぜ」と訳されることがありますが、動詞の前で「方法・手段（どうやって）」を尋ねるのは「怎么」、理由を真正面から尋ねるのが「为什么」です（「怎么不〜？」で「どうして〜しないの？（驚き・問い詰め）」という用法もあります）。",
+    "forms": {
+      "affirmative": "（応答は疑問詞の部分に具体的な語句を入れてそのままの語順で答える）",
+      "negative": "S + 为什么 + 不/没 + V？",
+      "interrogative": "疑问词疑問文（文末に「吗」を付けない）"
+    },
+    "japaneseLearnerPitfalls": [
+      "疑問詞がある文の最後に癖で「吗」を付けてしまう誤り（×你买什么吗？ → ○你买什么？）。",
+      "英語の Wh- 疑問文のように、目的語の「什么」を文頭に移動させて「×什么你买？」と言ってしまう誤り（○你买什么？）。",
+      "「谁」の「的（誰の〜）」を忘れて「×这是谁相机？」と書いてしまう誤り（○这是谁的相机？）。"
+    ],
+    "similarDifferences": [
+      {
+        "targetId": "G02-02",
+        "targetName": "語気助詞 “吗” と “呢”",
+        "difference": "「吗」は Yes/No 疑問文専用です。疑問詞（谁・什么・哪儿・怎么・为什么）を使う疑問文には「吗」を併用しません。"
+      },
+      {
+        "targetId": "G03-01",
+        "targetName": "指示代詞（哪儿を含む）",
+        "difference": "第3課の「哪儿（どこ）」も疑問代詞の一種であり、同じく「答えの位置に置く」「吗を付けない」ルールに従います。"
+      }
+    ],
+    "examples": [
+      {
+        "id": "EX-G04-04-1",
+        "hanzi": "他是谁？这是谁的相机？",
+        "pinyin": "Tā shì shéi? Zhè shì shéi de xiàngjī?",
+        "ja": "彼は誰ですか。これは誰のカメラですか。",
+        "note": "「谁」は目的語の位置（他是谁）、所有を表すときは「谁的＋名詞」になります。",
+        "breakdown": [
+          { "role": "S", "label": "主語", "text": "他", "pinyin": "tā" },
+          { "role": "V", "label": "判断動詞", "text": "是", "pinyin": "shì" },
+          { "role": "O", "label": "疑問詞", "text": "谁", "pinyin": "shéi" },
+          { "role": "S", "label": "指示代詞", "text": "这", "pinyin": "zhè" },
+          { "role": "V", "label": "判断動詞", "text": "是", "pinyin": "shì" },
+          { "role": "Attr", "label": "誰の", "text": "谁的", "pinyin": "shéi de" },
+          { "role": "O", "label": "名詞", "text": "相机", "pinyin": "xiàngjī" }
+        ]
+      },
+      {
+        "id": "EX-G04-04-2",
+        "hanzi": "你买什么书？我买汉语书。",
+        "pinyin": "Nǐ mǎi shénme shū? Wǒ mǎi Hànyǔ shū.",
+        "ja": "あなたは何の本を買いますか。私は中国語の本を買います。",
+        "note": "「什么＋名詞」で「何の〜」を尋ねます。答えの位置が同じ語順になる点に注目してください。",
+        "breakdown": [
+          { "role": "S", "label": "主語", "text": "你", "pinyin": "nǐ" },
+          { "role": "V", "label": "動詞", "text": "买", "pinyin": "mǎi" },
+          { "role": "Attr", "label": "疑問詞", "text": "什么", "pinyin": "shénme" },
+          { "role": "O", "label": "名詞", "text": "书", "pinyin": "shū" }
+        ]
+      },
+      {
+        "id": "EX-G04-04-3",
+        "hanzi": "请问，图书馆怎么走？",
+        "pinyin": "Qǐngwèn, túshūguǎn zěnme zǒu?",
+        "ja": "すみません、図書館へはどう行きますか。",
+        "note": "「怎么＋動詞」で動作の方法や行き方を尋ねます。",
+        "breakdown": [
+          { "role": "V", "label": "丁寧表現", "text": "请问", "pinyin": "qǐngwèn" },
+          { "role": "S", "label": "話題(目的地)", "text": "图书馆", "pinyin": "túshūguǎn" },
+          { "role": "Adv", "label": "疑問詞(方法)", "text": "怎么", "pinyin": "zěnme" },
+          { "role": "V", "label": "動詞", "text": "走", "pinyin": "zǒu" }
+        ]
+      },
+      {
+        "id": "EX-G04-04-4",
+        "hanzi": "你为什么不喝咖啡？",
+        "pinyin": "Nǐ wèishénme bù hē kāfēi?",
+        "ja": "あなたはなぜコーヒーを飲まないのですか。",
+        "note": "「为什么」を主語の後ろ・否定の「不」の前に置いて理由を尋ねます。",
+        "breakdown": [
+          { "role": "S", "label": "主語", "text": "你", "pinyin": "nǐ" },
+          { "role": "Adv", "label": "疑問詞(理由)", "text": "为什么", "pinyin": "wèishénme" },
+          { "role": "Neg", "label": "否定", "text": "不", "pinyin": "bù" },
+          { "role": "V", "label": "動詞", "text": "喝", "pinyin": "hē" },
+          { "role": "O", "label": "目的語", "text": "咖啡", "pinyin": "kāfēi" }
+        ]
+      },
+      {
+        "id": "EX-G04-04-5",
+        "hanzi": "谁有我的照片？",
+        "pinyin": "Shéi yǒu wǒ de zhàopiàn?",
+        "ja": "誰が私の写真を持っていますか。",
+        "note": "主語を尋ねる場合も、そのまま主語の位置に「谁」を置きます。",
+        "breakdown": [
+          { "role": "S", "label": "疑問詞(主語)", "text": "谁", "pinyin": "shéi" },
+          { "role": "V", "label": "動詞", "text": "有", "pinyin": "yǒu" },
+          { "role": "O", "label": "目的語", "text": "我的照片", "pinyin": "wǒ de zhàopiàn" }
+        ]
+      }
+    ],
+    "referenceUrl": "https://hanyujiaocai.jinkan.kyoto-u.ac.jp/2018shanghai/2018CALL/L4_6.html",
+    "referenceTitle": "文法事項 ４．疑問詞 “谁”,“什么”,“怎么”, “为什么”"
+  }
+]

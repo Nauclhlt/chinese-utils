@@ -1,0 +1,592 @@
+[
+  {
+    "id": "C-G08-01-01",
+    "lessonId": "L08",
+    "minLesson": 8,
+    "grammarIds": ["G08-01"],
+    "difficulty": 1,
+    "japanesePrompt": "今は2時半です。",
+    "targetGrammarHint": "「两点半」（2時は「两点」）",
+    "hints": [
+      "枠組み：现在 + 两点半。",
+      "語彙：今(xiànzài) / 2時(liǎng diǎn) / 半(bàn)",
+      "時刻の2時は「二点」ではなく必ず「两点」を使います。"
+    ],
+    "modelAnswer": "现在两点半。",
+    "acceptableAnswers": [
+      "现在是两点半。",
+      "现在两点三十分。",
+      "现在两点半了。"
+    ],
+    "pinyin": "Xiànzài liǎng diǎn bàn.",
+    "structureBreakdown": [
+      { "text": "现在", "role": "S", "label": "主語(時間)" },
+      { "text": "两点半", "role": "P", "label": "時刻述語" }
+    ],
+    "explanation": "「2時」は「两点」、30分は「半」で表します。また時刻は「是」なしの名詞述語文で述べられます。",
+    "commonMistakes": [
+      { "wrong": "现在二点半。", "reason": "時刻の2時は「二点」ではなく「两点」と言います。" }
+    ]
+  },
+  {
+    "id": "C-G08-01-02",
+    "lessonId": "L08",
+    "minLesson": 8,
+    "grammarIds": ["G08-01"],
+    "difficulty": 2,
+    "japanesePrompt": "博物館は午後5時15分に閉館します。",
+    "targetGrammarHint": "「点 + 一刻」（15分）",
+    "hints": [
+      "枠組み：博物馆 + 下午五点一刻 + 关门。",
+      "語彙：博物館(bówùguǎn) / 午後(xiàwǔ) / 15分(yí kè) / 閉まる(guānmén)",
+      "15分は「一刻」（または「十五分」）と表します。"
+    ],
+    "modelAnswer": "博物馆下午五点一刻关门。",
+    "acceptableAnswers": [
+      "博物馆下午五点十五分关门。",
+      "下午五点一刻博物馆关门。"
+    ],
+    "pinyin": "Bówùguǎn xiàwǔ wǔ diǎn yí kè guānmén.",
+    "structureBreakdown": [
+      { "text": "博物馆", "role": "S", "label": "主語" },
+      { "text": "下午五点一刻", "role": "Time", "label": "時間詞(大→小)" },
+      { "text": "关门", "role": "V", "label": "動詞" }
+    ],
+    "explanation": "時間帯「下午」＋時刻「五点一刻」を動詞「关门」の前に置きます。",
+    "commonMistakes": [
+      { "wrong": "博物馆关门下午五点一刻。", "reason": "時間詞は動詞「关门」の前に置きます。" }
+    ]
+  },
+  {
+    "id": "C-G08-01-03",
+    "lessonId": "L08",
+    "minLesson": 8,
+    "grammarIds": ["G08-01"],
+    "difficulty": 2,
+    "japanesePrompt": "今は1時55分（2時5分前）です。",
+    "targetGrammarHint": "「差 + 分数 + 次の時刻」",
+    "hints": [
+      "枠組み：现在 + 差五分两点。",
+      "語彙：〜前(chà) / 5分(wǔ fēn) / 2時(liǎng diǎn)",
+      "「差」を使った言い方「差五分两点」で作ってみましょう。"
+    ],
+    "modelAnswer": "现在差五分两点。",
+    "acceptableAnswers": [
+      "现在一点五十五分。",
+      "现在是差五分两点。",
+      "现在一点五十五。"
+    ],
+    "pinyin": "Xiànzài chà wǔ fēn liǎng diǎn.",
+    "structureBreakdown": [
+      { "text": "现在", "role": "S", "label": "主語" },
+      { "text": "差五分两点", "role": "P", "label": "時刻述語(差〜分〜点)" }
+    ],
+    "explanation": "45分〜59分は「差＋足りない分数＋次の時刻」と表すのが中国語らしい表現です。",
+    "commonMistakes": [
+      { "wrong": "现在差五分一点。", "reason": "「差」の後ろには「これから迎える次の時刻（ここでは两点）」を置きます。" }
+    ]
+  },
+  {
+    "id": "C-G08-01-04",
+    "lessonId": "L08",
+    "minLesson": 8,
+    "grammarIds": ["G08-01"],
+    "difficulty": 2,
+    "japanesePrompt": "今日は9月8日（話し言葉）、水曜日です。",
+    "targetGrammarHint": "「月 + 号 + 星期〜」の語順",
+    "hints": [
+      "枠組み：今天 + 九月八号，星期三。",
+      "語彙：9月(jiǔ yuè) / 8日(bā hào) / 水曜日(xīngqīsān)",
+      "大きい単位から「月 → 号 → 星期」の順に並べます。"
+    ],
+    "modelAnswer": "今天九月八号，星期三。",
+    "acceptableAnswers": [
+      "今天是九月八号，星期三。",
+      "今天九月八号星期三。"
+    ],
+    "pinyin": "Jīntiān jiǔ yuè bā hào, xīngqīsān.",
+    "structureBreakdown": [
+      { "text": "今天", "role": "S", "label": "主語" },
+      { "text": "九月八号，星期三", "role": "P", "label": "日付・曜日述語" }
+    ],
+    "explanation": "話し言葉の日付は「号」を使い、曜日「星期三」を後ろに続けます。",
+    "commonMistakes": [
+      { "wrong": "今天星期三，九月八号。", "reason": "中国語では「月 → 日 → 曜日」と大きい単位から順に並べます。" }
+    ]
+  },
+  {
+    "id": "C-G08-01-05",
+    "lessonId": "L08",
+    "minLesson": 8,
+    "grammarIds": ["G08-01"],
+    "difficulty": 2,
+    "japanesePrompt": "列車は明日の朝7時05分に出発します。",
+    "targetGrammarHint": "1桁分の前の「零」（七点零五分）",
+    "hints": [
+      "枠組み：火车 + 明天早上七点零五分 + 出发。",
+      "語彙：列車(huǒchē) / 明日の朝(míngtiān zǎoshang) / 出発する(chūfā)",
+      "05分のように1桁の分を表すときは「点」と「分」の間に「零」を入れます。"
+    ],
+    "modelAnswer": "火车明天早上七点零五分出发。",
+    "acceptableAnswers": [
+      "明天早上七点零五分火车出发。"
+    ],
+    "pinyin": "Huǒchē míngtiān zǎoshang qī diǎn líng wǔ fēn chūfā.",
+    "structureBreakdown": [
+      { "text": "火车", "role": "S", "label": "主語" },
+      { "text": "明天早上七点零五分", "role": "Time", "label": "時間詞" },
+      { "text": "出发", "role": "V", "label": "動詞" }
+    ],
+    "explanation": "01〜09分を言うときは「七点零五分」のように「零 (líng)」を補います。",
+    "commonMistakes": [
+      { "wrong": "火车明天早上七点五分出发。", "reason": "1桁の分の前には「零」を入れるのが標準です。" }
+    ]
+  },
+
+  {
+    "id": "C-G08-02-01",
+    "lessonId": "L08",
+    "minLesson": 8,
+    "grammarIds": ["G08-02"],
+    "difficulty": 1,
+    "japanesePrompt": "明日は日曜日です。（「是」を使わない名詞述語文で）",
+    "targetGrammarHint": "名詞述語文の基本形",
+    "hints": [
+      "枠組み：明天 + 星期天。",
+      "語彙：明日(míngtiān) / 日曜日(xīngqītiān / xīngqīrì)",
+      "日曜日は「星期七」ではなく「星期天」または「星期日」を使います。"
+    ],
+    "modelAnswer": "明天星期天。",
+    "acceptableAnswers": [
+      "明天星期日。"
+    ],
+    "pinyin": "Míngtiān xīngqītiān.",
+    "structureBreakdown": [
+      { "text": "明天", "role": "S", "label": "主語" },
+      { "text": "星期天", "role": "P", "label": "名詞述語" }
+    ],
+    "explanation": "曜日や日付を述べる肯定文では「是」を省いた名詞述語文が最も自然です。",
+    "commonMistakes": [
+      { "wrong": "明天星期七。", "reason": "日曜日は「星期天」または「星期日」と言います。" }
+    ]
+  },
+  {
+    "id": "C-G08-02-02",
+    "lessonId": "L08",
+    "minLesson": 8,
+    "grammarIds": ["G08-02"],
+    "difficulty": 1,
+    "japanesePrompt": "明日は月曜日ではありません、火曜日です。",
+    "targetGrammarHint": "名詞述語文の否定「不是」",
+    "hints": [
+      "枠組み：明天 + 不是 + 星期一，是 + 星期二。",
+      "語彙：月曜日(xīngqīyī) / 火曜日(xīngqī'èr)",
+      "名詞述語文を否定するときは必ず「不是」を補います。"
+    ],
+    "modelAnswer": "明天不是星期一，是星期二。",
+    "acceptableAnswers": [
+      "明天不是星期一，明天是星期二。"
+    ],
+    "pinyin": "Míngtiān bú shì xīngqīyī, shì xīngqī'èr.",
+    "structureBreakdown": [
+      { "text": "明天", "role": "S", "label": "主語" },
+      { "text": "不是", "role": "Neg", "label": "否定＋是" },
+      { "text": "星期一", "role": "O", "label": "名詞" },
+      { "text": "是星期二", "role": "V", "label": "訂正の節" }
+    ],
+    "explanation": "肯定では省ける「是」も、否定文では絶対に省略できず「不是」にする必要があります。",
+    "commonMistakes": [
+      { "wrong": "明天不星期一。", "reason": "「不」だけで名詞を否定することはできません。必ず「不是」を補います。" }
+    ]
+  },
+  {
+    "id": "C-G08-02-03",
+    "lessonId": "L08",
+    "minLesson": 8,
+    "grammarIds": ["G08-02"],
+    "difficulty": 1,
+    "japanesePrompt": "彼は今年20歳になりました。（「是」なしで）",
+    "targetGrammarHint": "年齢の名詞述語文 + 「了」",
+    "hints": [
+      "枠組み：他 + 今年 + 二十岁 + 了。",
+      "語彙：今年(jīnnián) / 20歳(èrshí suì)",
+      "年齢を述べるときは「是」を入れず、文末に「了」を付けます。"
+    ],
+    "modelAnswer": "他今年二十岁了。",
+    "acceptableAnswers": [
+      "今年他二十岁了。",
+      "他今年二十岁。"
+    ],
+    "pinyin": "Tā jīnnián èrshí suì le.",
+    "structureBreakdown": [
+      { "text": "他", "role": "S", "label": "主語" },
+      { "text": "今年", "role": "Time", "label": "時間詞" },
+      { "text": "二十岁", "role": "P", "label": "年齢述語" },
+      { "text": "了", "role": "P", "label": "変化・到達の了" }
+    ],
+    "explanation": "年齢は「是」を置かずに「二十岁了」のように名詞述語文で表すのが標準です。",
+    "commonMistakes": [
+      { "wrong": "他今年有二十岁。", "reason": "中国語の年齢表現では通常「有」も「是」も付けません。" }
+    ]
+  },
+  {
+    "id": "C-G08-02-04",
+    "lessonId": "L08",
+    "minLesson": 8,
+    "grammarIds": ["G08-02"],
+    "difficulty": 2,
+    "japanesePrompt": "李先生はどこの出身ですか。— 北京出身です。（「是」なしで）",
+    "targetGrammarHint": "出身地の名詞述語文",
+    "hints": [
+      "枠組み：李老师 + 哪里人？ — 他 + 北京人。",
+      "語彙：どこ(nǎlǐ / nǎr) / 〜の人(……rén)",
+      "「哪里人」や「北京人」をそのまま述語にします。"
+    ],
+    "modelAnswer": "李老师哪里人？ — 他北京人。",
+    "acceptableAnswers": [
+      "李老师哪儿人？ — 他北京人。",
+      "李老师是哪里人？ — 他是北京人。"
+    ],
+    "pinyin": "Lǐ lǎoshī nǎlǐ rén? — Tā Běijīngrén.",
+    "structureBreakdown": [
+      { "text": "李老师", "role": "S", "label": "主語" },
+      { "text": "哪里人", "role": "P", "label": "名詞述語(疑問)" },
+      { "text": "他", "role": "S", "label": "主語" },
+      { "text": "北京人", "role": "P", "label": "名詞述語" }
+    ],
+    "explanation": "出身地を尋ねたり答えたりする文は「是」を省いた名詞述語文がよく使われます。",
+    "commonMistakes": [
+      { "wrong": "李老师什么地方？", "reason": "「どこの出身か」を尋ねる際は「哪里人（哪儿人）」を使います。" }
+    ]
+  },
+  {
+    "id": "C-G08-02-05",
+    "lessonId": "L08",
+    "minLesson": 8,
+    "grammarIds": ["G08-02"],
+    "difficulty": 2,
+    "japanesePrompt": "おじいさん、今年おいくつになられましたか。（高齢者への丁寧な尋ね方で）",
+    "targetGrammarHint": "高齢者への年齢の質問「您多大年纪了？」",
+    "hints": [
+      "枠組み：爷爷，您 + 今年 + 多大年纪 + 了？",
+      "語彙：おじいさん(yéye) / あなた(nín) / おいくつ(duō dà niánjì)",
+      "敬称「您」を使い、子ども向けの「几岁」は使わないようにします。"
+    ],
+    "modelAnswer": "爷爷，您今年多大年纪了？",
+    "acceptableAnswers": [
+      "爷爷，今年您多大年纪了？"
+    ],
+    "pinyin": "Yéye, nín jīnnián duō dà niánjì le?",
+    "structureBreakdown": [
+      { "text": "爷爷", "role": "Other", "label": "呼びかけ" },
+      { "text": "您", "role": "S", "label": "主語(敬称)" },
+      { "text": "今年", "role": "Time", "label": "時間詞" },
+      { "text": "多大年纪", "role": "P", "label": "年齢質問述語" },
+      { "text": "了", "role": "P", "label": "語気助詞" }
+    ],
+    "explanation": "高齢者に対しては「您多大年纪了？」と尋ねるのが礼儀正しい表現です。",
+    "commonMistakes": [
+      { "wrong": "爷爷，您今年几岁了？", "reason": "「几岁」は小さな子ども専用の尋ね方なので、目上の人や高齢者には不適切です。" }
+    ]
+  },
+
+  {
+    "id": "C-G08-03-01",
+    "lessonId": "L08",
+    "minLesson": 8,
+    "grammarIds": ["G08-03"],
+    "difficulty": 1,
+    "japanesePrompt": "私たちの寮は設備（条件）がとても良いです。",
+    "targetGrammarHint": "主述述語文の基本形",
+    "hints": [
+      "枠組み：我们宿舍 + 条件 + 很 + 好。",
+      "語彙：寮(sùshè) / 設備・条件(tiáojiàn)",
+      "大主語「我们宿舍」と小主語「条件」の間に「的」を入れずに作ります。"
+    ],
+    "modelAnswer": "我们宿舍条件很好。",
+    "acceptableAnswers": [
+      "我们的宿舍条件很好。"
+    ],
+    "pinyin": "Wǒmen sùshè tiáojiàn hěn hǎo.",
+    "structureBreakdown": [
+      { "text": "我们宿舍", "role": "S", "label": "大主語" },
+      { "text": "条件", "role": "S", "label": "小主語" },
+      { "text": "很", "role": "Adv", "label": "程度副詞" },
+      { "text": "好", "role": "P", "label": "形容詞述語" }
+    ],
+    "explanation": "「私たち（の）寮は、設備がとても良い」という典型的な主述述語文です。",
+    "commonMistakes": [
+      { "wrong": "我们宿舍条件好。", "reason": "形容詞述語「好」の前に程度副詞「很」を補う必要があります。" }
+    ]
+  },
+  {
+    "id": "C-G08-03-02",
+    "lessonId": "L08",
+    "minLesson": 8,
+    "grammarIds": ["G08-03"],
+    "difficulty": 1,
+    "japanesePrompt": "最近、兄は仕事が特に忙しいです。",
+    "targetGrammarHint": "「時間詞 + 大主語 + 小主語 + 特别 + 形容詞」",
+    "hints": [
+      "枠組み：最近 + 哥哥 + 工作 + 特别 + 忙。",
+      "語彙：最近(zuìjìn) / 仕事(gōngzuò) / 特に(tèbié) / 忙しい(máng)",
+      "「最近」を文頭（または「哥哥」の後ろ）に置き、「工作特别忙」と続けます。"
+    ],
+    "modelAnswer": "最近哥哥工作特别忙。",
+    "acceptableAnswers": [
+      "哥哥最近工作特别忙。",
+      "最近我哥哥工作特别忙。"
+    ],
+    "pinyin": "Zuìjìn gēge gōngzuò tèbié máng.",
+    "structureBreakdown": [
+      { "text": "最近", "role": "Time", "label": "時間詞" },
+      { "text": "哥哥", "role": "S", "label": "大主語" },
+      { "text": "工作", "role": "S", "label": "小主語" },
+      { "text": "特别", "role": "Adv", "label": "程度副詞" },
+      { "text": "忙", "role": "P", "label": "形容詞述語" }
+    ],
+    "explanation": "「哥哥（大主語）＋工作（小主語）＋特别忙（述語）」の語順で、日本語の「兄は仕事が忙しい」にぴったり対応します。",
+    "commonMistakes": [
+      { "wrong": "最近哥哥特别工作忙。", "reason": "程度副詞「特别」は小主語「工作」の後ろ・形容詞「忙」の前に置きます。" }
+    ]
+  },
+  {
+    "id": "C-G08-03-03",
+    "lessonId": "L08",
+    "minLesson": 8,
+    "grammarIds": ["G08-03"],
+    "difficulty": 2,
+    "japanesePrompt": "このレストランは中華料理が非常に有名です。",
+    "targetGrammarHint": "「店 + 料理 + 非常有名」の主述述語文",
+    "hints": [
+      "枠組み：这家餐厅 + 中餐 + 非常有名。",
+      "語彙：レストラン(cāntīng / 量詞: 家) / 中華料理(zhōngcān) / 有名(yǒumíng)",
+      "「这家餐厅」と「中餐」の間に「有」などを挟まず並べます。"
+    ],
+    "modelAnswer": "这家餐厅中餐非常有名。",
+    "acceptableAnswers": [
+      "这个餐厅中餐非常有名。",
+      "这家餐厅中餐很有名。"
+    ],
+    "pinyin": "Zhè jiā cāntīng zhōngcān fēicháng yǒumíng.",
+    "structureBreakdown": [
+      { "text": "这家餐厅", "role": "S", "label": "大主語" },
+      { "text": "中餐", "role": "S", "label": "小主語" },
+      { "text": "非常", "role": "Adv", "label": "程度副詞" },
+      { "text": "有名", "role": "P", "label": "形容詞述語" }
+    ],
+    "explanation": "店舗を大主語、看板メニューを小主語にする定番の主述述語文です。",
+    "commonMistakes": [
+      { "wrong": "这家餐厅有中餐非常有名。", "reason": "「有」を入れると構造が崩れます。大主語と小主語を直接並べます。" }
+    ]
+  },
+  {
+    "id": "C-G08-03-04",
+    "lessonId": "L08",
+    "minLesson": 8,
+    "grammarIds": ["G08-03"],
+    "difficulty": 2,
+    "japanesePrompt": "あの博物館は展示品がとても興味深いです（面白いです）。",
+    "targetGrammarHint": "「大主語 + 小主語 + 很有意思」",
+    "hints": [
+      "枠組み：那个博物馆 + 展品 + 很 + 有意思。",
+      "語彙：博物館(bówùguǎn) / 展示品(zhǎnpǐn) / 興味深い(yǒu yìsi)",
+      "「有意思」の前にも「很」を置けます。"
+    ],
+    "modelAnswer": "那个博物馆展品很有意思。",
+    "acceptableAnswers": [
+      "那个博物馆的展品很有意思。"
+    ],
+    "pinyin": "Nàge bówùguǎn zhǎnpǐn hěn yǒu yìsi.",
+    "structureBreakdown": [
+      { "text": "那个博物馆", "role": "S", "label": "大主語" },
+      { "text": "展品", "role": "S", "label": "小主語" },
+      { "text": "很", "role": "Adv", "label": "程度副詞" },
+      { "text": "有意思", "role": "P", "label": "述語" }
+    ],
+    "explanation": "「那个博物馆（テーマ）は、展品（内容）が、很有意思（面白い）」という主述述語文です。",
+    "commonMistakes": [
+      { "wrong": "那个博物馆很有意思展品。", "reason": "小主語「展品」は述語「很有意思」の前に置きます。" }
+    ]
+  },
+  {
+    "id": "C-G08-03-05",
+    "lessonId": "L08",
+    "minLesson": 8,
+    "grammarIds": ["G08-03"],
+    "difficulty": 2,
+    "japanesePrompt": "祖父は最近、体調（体）があまり良くありません。",
+    "targetGrammarHint": "主述述語文の否定「大主語 + 小主語 + 不太好」",
+    "hints": [
+      "枠組み：爷爷 + 最近 + 身体 + 不太好。",
+      "語彙：祖父(yéye) / 体(shēntǐ) / あまり良くない(bú tài hǎo)",
+      "否定「不太」は小主語「身体」の後ろ・述語「好」の前に置きます。"
+    ],
+    "modelAnswer": "爷爷最近身体不太好。",
+    "acceptableAnswers": [
+      "最近爷爷身体不太好。"
+    ],
+    "pinyin": "Yéye zuìjìn shēntǐ bú tài hǎo.",
+    "structureBreakdown": [
+      { "text": "爷爷", "role": "S", "label": "大主語" },
+      { "text": "最近", "role": "Time", "label": "時間詞" },
+      { "text": "身体", "role": "S", "label": "小主語" },
+      { "text": "不太好", "role": "P", "label": "否定述語" }
+    ],
+    "explanation": "健康状態を述べるときによく使う「人＋身体＋〜」の主述述語文で、否定語は「身体」の後ろに置きます。",
+    "commonMistakes": [
+      { "wrong": "爷爷最近不太身体好。", "reason": "否定「不太」は「身体」の前に置くことはできません。" }
+    ]
+  },
+
+  {
+    "id": "C-G08-04-01",
+    "lessonId": "L08",
+    "minLesson": 8,
+    "grammarIds": ["G08-04"],
+    "difficulty": 1,
+    "japanesePrompt": "私は喉が渇いたので、お茶を少し飲みたいです。",
+    "targetGrammarHint": "「动词 + 一点儿 + 名词」",
+    "hints": [
+      "枠組み：我 + 渴了，想 + 喝 + 一点儿 + 茶。",
+      "語彙：喉が渇く(kě) / 少しの(yìdiǎnr) / お茶(chá)",
+      "名詞「茶」の前に「一点儿」を置きます。"
+    ],
+    "modelAnswer": "我渴了，想喝一点儿茶。",
+    "acceptableAnswers": [
+      "我渴了，想喝点儿茶。"
+    ],
+    "pinyin": "Wǒ kě le, xiǎng hē yìdiǎnr chá.",
+    "structureBreakdown": [
+      { "text": "我渴了", "role": "Other", "label": "理由(変化)" },
+      { "text": "想", "role": "Aux", "label": "願望" },
+      { "text": "喝", "role": "V", "label": "動詞" },
+      { "text": "一点儿", "role": "Attr", "label": "不定数量" },
+      { "text": "茶", "role": "O", "label": "名詞" }
+    ],
+    "explanation": "飲食物などの不定の少量は「動詞＋(一)点儿＋名詞」の語順で表します。",
+    "commonMistakes": [
+      { "wrong": "我想喝茶一下。", "reason": "お茶の少量は「一下」ではなく「一点儿」を使い、名詞「茶」の前に置きます。" }
+    ]
+  },
+  {
+    "id": "C-G08-04-02",
+    "lessonId": "L08",
+    "minLesson": 8,
+    "grammarIds": ["G08-04"],
+    "difficulty": 1,
+    "japanesePrompt": "今日はちょっと寒いですね。",
+    "targetGrammarHint": "「有一点儿 + 形容詞」",
+    "hints": [
+      "枠組み：今天 + 有一点儿 + 冷。",
+      "語彙：ちょっと〜だ(yǒu yìdiǎnr / yǒudiǎnr) / 寒い(lěng)",
+      "好ましくない状態「ちょっと寒い」は形容詞の前に「有一点儿」を置きます。"
+    ],
+    "modelAnswer": "今天有一点儿冷。",
+    "acceptableAnswers": [
+      "今天有点儿冷。",
+      "今天有一点儿冷啊。"
+    ],
+    "pinyin": "Jīntiān yǒu yìdiǎnr lěng.",
+    "structureBreakdown": [
+      { "text": "今天", "role": "S", "label": "主語" },
+      { "text": "有一点儿", "role": "Adv", "label": "程度副詞句" },
+      { "text": "冷", "role": "P", "label": "形容詞述語" }
+    ],
+    "explanation": "「少し寒い」は形容詞「冷」の前に「有一点儿（または有点儿）」を置きます。",
+    "commonMistakes": [
+      { "wrong": "今天冷一点儿。", "reason": "「冷一点儿」は「もう少し寒くなって／（何かより）少し寒い」という意味になり、文脈が合いません。" }
+    ]
+  },
+  {
+    "id": "C-G08-04-03",
+    "lessonId": "L08",
+    "minLesson": 8,
+    "grammarIds": ["G08-04"],
+    "difficulty": 2,
+    "japanesePrompt": "時間がありません、もう少し早く食べましょう。",
+    "targetGrammarHint": "「形容詞 + 一点儿 + 動詞」",
+    "hints": [
+      "枠組み：没时间了，快一点儿 + 吃 + 吧。",
+      "語彙：時間がない(méi shíjiān le) / 早く(kuài) / 食べる(chī)",
+      "促し・要望の「もう少し早く」は「快一点儿」と形容詞の後ろに「一点儿」を置きます。"
+    ],
+    "modelAnswer": "没时间了，快一点儿吃吧。",
+    "acceptableAnswers": [
+      "没有时间了，快一点儿吃吧。",
+      "没时间了，快点儿吃吧。"
+    ],
+    "pinyin": "Méi shíjiān le, kuài yìdiǎnr chī ba.",
+    "structureBreakdown": [
+      { "text": "没时间了", "role": "Other", "label": "状況の変化" },
+      { "text": "快一点儿", "role": "Adv", "label": "形容詞＋一点儿" },
+      { "text": "吃", "role": "V", "label": "動詞" },
+      { "text": "吧", "role": "P", "label": "語気助詞" }
+    ],
+    "explanation": "「もう少し〜して」と相手に促すときは「形容詞＋(一)点儿＋動詞」の形にします。",
+    "commonMistakes": [
+      { "wrong": "有一点儿快吃吧。", "reason": "「有一点儿快」は「ちょっと速すぎる」という評価になってしまいます。" }
+    ]
+  },
+  {
+    "id": "C-G08-04-04",
+    "lessonId": "L08",
+    "minLesson": 8,
+    "grammarIds": ["G08-04"],
+    "difficulty": 2,
+    "japanesePrompt": "今日の夜、あなたはもう少し早く家に帰ってくださいね。",
+    "targetGrammarHint": "「早一点儿 + 动词」",
+    "hints": [
+      "枠組み：今天晚上 + 你 + 早一点儿 + 回家 + 吧。",
+      "語彙：今夜(jīntiān wǎnshang) / 早く(zǎo) / 家に帰る(huí jiā)",
+      "「早一点儿」を動詞句「回家」の前に置きます。"
+    ],
+    "modelAnswer": "今天晚上你早一点儿回家吧。",
+    "acceptableAnswers": [
+      "今天晚上你早点儿回家吧。",
+      "你今天晚上早一点儿回家吧。"
+    ],
+    "pinyin": "Jīntiān wǎnshang nǐ zǎo yìdiǎnr huí jiā ba.",
+    "structureBreakdown": [
+      { "text": "今天晚上", "role": "Time", "label": "時間詞" },
+      { "text": "你", "role": "S", "label": "主語" },
+      { "text": "早一点儿", "role": "Adv", "label": "形容詞＋一点儿" },
+      { "text": "回家", "role": "V", "label": "動詞句" },
+      { "text": "吧", "role": "P", "label": "語気助詞" }
+    ],
+    "explanation": "「早一点儿回家」で「（普段より）少し早く帰る」という要望・提案になります。",
+    "commonMistakes": [
+      { "wrong": "今天晚上你回家早一点儿吧。", "reason": "「早一点儿」は連用修飾語として動詞「回家」の前に置きます。" }
+    ]
+  },
+  {
+    "id": "C-G08-04-05",
+    "lessonId": "L08",
+    "minLesson": 8,
+    "grammarIds": ["G08-04"],
+    "difficulty": 2,
+    "japanesePrompt": "私は少しも疲れていません。",
+    "targetGrammarHint": "全面否定「一点儿也 + 不 + 形容詞」",
+    "hints": [
+      "枠組み：我 + 一点儿 + 也 + 不 + 累。",
+      "語彙：少しも〜ない(yìdiǎnr yě bù) / 疲れる(lèi)",
+      "「一点儿也」の後ろに「不累」を続けます。"
+    ],
+    "modelAnswer": "我一点儿也不累。",
+    "acceptableAnswers": [
+      "我一点儿都不累。"
+    ],
+    "pinyin": "Wǒ yìdiǎnr yě bú lèi.",
+    "structureBreakdown": [
+      { "text": "我", "role": "S", "label": "主語" },
+      { "text": "一点儿", "role": "Adv", "label": "強調副詞" },
+      { "text": "也", "role": "Adv", "label": "副詞" },
+      { "text": "不", "role": "Neg", "label": "否定副詞" },
+      { "text": "累", "role": "P", "label": "形容詞述語" }
+    ],
+    "explanation": "「一点儿也（または都）＋不＋形容詞」は「少しも〜ない」を表す非常に実用的な全面否定文です。",
+    "commonMistakes": [
+      { "wrong": "我不一点儿累。", "reason": "「一点儿」は「也/都＋不」よりも前に置きます。" }
+    ]
+  }
+]

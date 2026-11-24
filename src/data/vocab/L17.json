@@ -1,0 +1,423 @@
+[
+  {
+    "id": "V17-001",
+    "hanzi": "常常",
+    "pinyin": "chángcháng",
+    "tones": [2, 2],
+    "meaningJa": "よく、しばしば",
+    "pos": "副詞",
+    "usage": "高い頻度で動作や状態が起こることを表す。主語の後ろ・述語の前に置く。否定は「不常」。",
+    "example": {
+      "hanzi": "我周末常常去体育馆打羽毛球。",
+      "pinyin": "Wǒ zhōumò chángcháng qù tǐyùguǎn dǎ yǔmáoqiú.",
+      "ja": "私は週末によく体育館へバドミントンをしに行きます。"
+    },
+    "lessonId": "L17",
+    "minLesson": 17,
+    "source": "textbook-scope",
+    "grammarIds": ["G17-01"],
+    "synonyms": ["经常"],
+    "antonyms": ["很少"]
+  },
+  {
+    "id": "V17-002",
+    "hanzi": "经常",
+    "pinyin": "jīngcháng",
+    "tones": [1, 2],
+    "meaningJa": "よく、常に、しばしば",
+    "pos": "副詞・形容詞",
+    "usage": "「常常」とほぼ同じ頻度を表すが、規則的な反復や書き言葉にも使いやすい。否定は「不经常」。",
+    "example": {
+      "hanzi": "他每天早上经常喝一杯热牛奶。",
+      "pinyin": "Tā měitiān zǎoshang jīngcháng hē yì bēi rè niúnǎi.",
+      "ja": "彼は毎朝よく温かい牛乳を1杯飲みます。"
+    },
+    "lessonId": "L17",
+    "minLesson": 17,
+    "source": "textbook-scope",
+    "grammarIds": ["G17-01"],
+    "synonyms": ["常常"],
+    "antonyms": ["偶尔"]
+  },
+  {
+    "id": "V17-003",
+    "hanzi": "总是",
+    "pinyin": "zǒngshì",
+    "tones": [3, 4],
+    "meaningJa": "いつも、常に（例外なく）",
+    "pos": "副詞",
+    "usage": "例外なく繰り返される習慣や状態を表す。否定は「不总是（いつも〜というわけではない）」。",
+    "example": {
+      "hanzi": "他上课总是坐在第一排认真听讲。",
+      "pinyin": "Tā shàngkè zǒngshì zuò zài dì yī pái rènzhēn tīngjiǎng.",
+      "ja": "彼は授業中いつも最前列に座って真剣に講義を聞いています。"
+    },
+    "lessonId": "L17",
+    "minLesson": 17,
+    "source": "textbook-scope",
+    "grammarIds": ["G17-01"],
+    "related": ["常常", "往往"]
+  },
+  {
+    "id": "V17-004",
+    "hanzi": "往往",
+    "pinyin": "wǎngwǎng",
+    "tones": [3, 3],
+    "meaningJa": "往々にして、大抵、〜しがちだ",
+    "pos": "副詞",
+    "usage": "ある条件のもとで見られる一般的傾向やこれまでの経験に基づく反復を表す。発音時は第3声の連続により前の音節が第2声のように変化する。",
+    "example": {
+      "hanzi": "冬天早上往往比较冷，出门要多穿点儿。",
+      "pinyin": "Dōngtiān zǎoshang wǎngwǎng bǐjiào lěng, chūmén yào duō chuān diǎnr.",
+      "ja": "冬の朝は往々にしてかなり寒いので、外出時は厚着をする必要があります。"
+    },
+    "lessonId": "L17",
+    "minLesson": 17,
+    "source": "textbook-scope",
+    "grammarIds": ["G17-01"],
+    "synonyms": ["常常"]
+  },
+  {
+    "id": "V17-005",
+    "hanzi": "有时候",
+    "pinyin": "yǒushíhou",
+    "tones": [3, 2, 5],
+    "meaningJa": "時々、ある時は",
+    "pos": "副詞・時間詞",
+    "usage": "主語の前にも後ろにも置ける。「有时」と略すこともできる。",
+    "example": {
+      "hanzi": "有时候我们会在食堂一起吃晚饭。",
+      "pinyin": "Yǒushíhou wǒmen huì zài shítáng yìqǐ chī wǎnfàn.",
+      "ja": "時々、私たちは食堂で一緒に夕飯を食べることがあります。"
+    },
+    "lessonId": "L17",
+    "minLesson": 17,
+    "source": "textbook-scope",
+    "grammarIds": ["G17-01"],
+    "synonyms": ["有时"],
+    "antonyms": ["总是"]
+  },
+  {
+    "id": "V17-006",
+    "hanzi": "难得",
+    "pinyin": "nándé",
+    "tones": [2, 2],
+    "meaningJa": "めったにない、珍しく、せっかく〜する",
+    "pos": "形容詞・副詞",
+    "usage": "機会が得難いこと、また「めったにない機会に〜する」を表す。",
+    "example": {
+      "hanzi": "大家难得聚在一起，今天好好聊一聊吧。",
+      "pinyin": "Dàjiā nándé jù zài yìqǐ, jīntiān hǎohāo liáo yi liáo ba.",
+      "ja": "みんながせっかく一堂に会したのですから、今日はゆっくりおしゃべりしましょう。"
+    },
+    "lessonId": "L17",
+    "minLesson": 17,
+    "source": "textbook-scope",
+    "grammarIds": ["G17-01"],
+    "antonyms": ["常常"]
+  },
+  {
+    "id": "V17-007",
+    "hanzi": "来到",
+    "pinyin": "láidào",
+    "tones": [2, 4],
+    "meaningJa": "（ある場所に）やって来る、訪れる",
+    "pos": "動詞",
+    "usage": "動詞「来」＋結果補語「到」。後ろに必ず到着先の場所名詞を伴う。",
+    "example": {
+      "hanzi": "许多游客专门来到西湖边欣赏春天的景色。",
+      "pinyin": "Xǔduō yóukè zhuānmén láidào Xīhú biān xīnshǎng chūntiān de jǐngsè.",
+      "ja": "多くの観光客が春の景色を楽しむためにわざわざ西湖のほとりにやって来ます。"
+    },
+    "lessonId": "L17",
+    "minLesson": 17,
+    "source": "textbook-scope",
+    "grammarIds": ["G09-01", "G17-03"],
+    "related": ["到达"]
+  },
+  {
+    "id": "V17-008",
+    "hanzi": "希望",
+    "pinyin": "xīwàng",
+    "tones": [1, 4],
+    "meaningJa": "望む、希望する／希望",
+    "pos": "動詞・名詞",
+    "usage": "「希望＋節」で「〜することを望む」を表す。自分だけでなく他者への希望にも使える（例：我希望你早点儿来）。",
+    "example": {
+      "hanzi": "我希望明年夏天能去上海参加交流活动。",
+      "pinyin": "Wǒ xīwàng míngnián xiàtiān néng qù Shànghǎi cānjiā jiāoliú huódòng.",
+      "ja": "私は来年の夏に上海へ交流活動に参加しに行けることを望んでいます。"
+    },
+    "lessonId": "L17",
+    "minLesson": 17,
+    "source": "textbook-scope",
+    "grammarIds": ["G17-02"],
+    "related": ["想"]
+  },
+  {
+    "id": "V17-009",
+    "hanzi": "露出",
+    "pinyin": "lùchū",
+    "tones": [4, 1],
+    "meaningJa": "（表情や一部を）見せる、表す、露出する",
+    "pos": "動詞",
+    "usage": "「露出笑容（笑顔を見せる）」「露出水面（水面から顔を出す）」のように結果補語「出」を伴う形。",
+    "example": {
+      "hanzi": "听到这个好消息，他脸上露出了开心的笑容。",
+      "pinyin": "Tīngdào zhège hǎo xiāoxi, tā liǎn shàng lùchū le kāixīn de xiàoróng.",
+      "ja": "この良い知らせを聞いて、彼の顔に嬉しそうな笑顔が浮かびました。"
+    },
+    "lessonId": "L17",
+    "minLesson": 17,
+    "source": "textbook-scope",
+    "grammarIds": ["G09-01", "G17-03"]
+  },
+  {
+    "id": "V17-010",
+    "hanzi": "肚子",
+    "pinyin": "dùzi",
+    "tones": [4, 5],
+    "meaningJa": "おなか、腹部",
+    "pos": "名詞",
+    "usage": "「肚子饿了（おなかが空いた）」「肚子疼（おなかが痛い）」など日常会話で頻出。",
+    "example": {
+      "hanzi": "已经一点了，我的肚子有点儿饿了。",
+      "pinyin": "Yǐjīng yī diǎn le, wǒ de dùzi yǒudiǎnr è le.",
+      "ja": "もう1時になり、私は少しおなかが空きました。"
+    },
+    "lessonId": "L17",
+    "minLesson": 17,
+    "source": "textbook-scope",
+    "grammarIds": ["G08-03"]
+  },
+  {
+    "id": "V17-011",
+    "hanzi": "开心",
+    "pinyin": "kāixīn",
+    "tones": [1, 1],
+    "meaningJa": "嬉しい、楽しい、愉快だ",
+    "pos": "形容詞",
+    "usage": "「很开心（とても嬉しい）」「玩得很开心（とても楽しく遊ぶ）」のように述語や補語に用いる。",
+    "example": {
+      "hanzi": "和老同学见面，我们聊得特别开心。",
+      "pinyin": "Hé lǎo tóngxué jiànmiàn, wǒmen liáo de tèbié kāixīn.",
+      "ja": "旧友に会って、私たちはとても楽しく語り合いました。"
+    },
+    "lessonId": "L17",
+    "minLesson": 17,
+    "source": "textbook-scope",
+    "grammarIds": ["G12-03"],
+    "synonyms": ["高兴", "快乐"],
+    "antonyms": ["难过"]
+  },
+  {
+    "id": "V17-012",
+    "hanzi": "肯定",
+    "pinyin": "kěndìng",
+    "tones": [3, 4],
+    "meaningJa": "きっと、間違いなく／肯定する／確かな",
+    "pos": "副詞・動詞・形容詞",
+    "usage": "副詞として主語の後ろに置き、強い確信を表す。動詞として「認める・肯定する」の意味もある。",
+    "example": {
+      "hanzi": "按照这个天气预报，明天肯定是个大晴天。",
+      "pinyin": "Ànzhào zhège tiānqì yùbào, míngtiān kěndìng shì ge dà qíngtiān.",
+      "ja": "この天気予報によれば、明日は間違いなく快晴になります。"
+    },
+    "lessonId": "L17",
+    "minLesson": 17,
+    "source": "textbook-scope",
+    "grammarIds": ["G17-04"],
+    "synonyms": ["一定"],
+    "antonyms": ["否定"]
+  },
+  {
+    "id": "V17-013",
+    "hanzi": "当然",
+    "pinyin": "dāngrán",
+    "tones": [1, 2],
+    "meaningJa": "当然（だ）、もちろん",
+    "pos": "副詞・形容詞",
+    "usage": "道理からして当たり前であることを表す。返事として単独で「当然！（もちろんです）」とも言う。",
+    "example": {
+      "hanzi": "你愿意帮我的忙吗？——当然没问题！",
+      "pinyin": "Nǐ yuànyi bāng wǒ de máng ma? —— Dāngrán méi wèntí!",
+      "ja": "手伝ってくれますか。——もちろん問題ありません！"
+    },
+    "lessonId": "L17",
+    "minLesson": 17,
+    "source": "textbook-scope",
+    "grammarIds": ["G17-04"],
+    "related": ["肯定"]
+  },
+  {
+    "id": "V17-014",
+    "hanzi": "也许",
+    "pinyin": "yěxǔ",
+    "tones": [3, 3],
+    "meaningJa": "たぶん、もしかすると、〜かもしれない",
+    "pos": "副詞",
+    "usage": "話し手の控えめな推量を表す。主語の前・後ろ両方に置ける。第3声連続のため発音上は前の音節が第2声のように変化する。",
+    "example": {
+      "hanzi": "今天路上堵车，她也许会迟到十分钟。",
+      "pinyin": "Jīntiān lù shàng dǔchē, tā yěxǔ huì chídào shí fēnzhōng.",
+      "ja": "今日は道が渋滞しているので、彼女は10分ほど遅れるかもしれません。"
+    },
+    "lessonId": "L17",
+    "minLesson": 17,
+    "source": "textbook-scope",
+    "grammarIds": ["G17-04"],
+    "synonyms": ["可能", "大概"]
+  },
+  {
+    "id": "V17-015",
+    "hanzi": "刻",
+    "pinyin": "kè",
+    "tones": [4],
+    "meaningJa": "刻む、彫る／15分（時刻）／瞬間",
+    "pos": "動詞・量詞・名詞",
+    "usage": "動詞では木や石に彫る意味（例：刻着字）。時間表現では「一刻（15分）」「三刻（45分）」として使う。",
+    "example": {
+      "hanzi": "那块石碑上刻着古老的汉字。",
+      "pinyin": "Nà kuài shíbēi shàng kè zhe gǔlǎo de Hànzì.",
+      "ja": "あの石碑の上には古い漢字が刻まれています。"
+    },
+    "lessonId": "L17",
+    "minLesson": 17,
+    "source": "textbook-scope",
+    "grammarIds": ["G17-03"]
+  },
+  {
+    "id": "V17-016",
+    "hanzi": "奇怪",
+    "pinyin": "qíguài",
+    "tones": [2, 4],
+    "meaningJa": "奇妙だ、不思議だ、変だ",
+    "pos": "形容詞・動詞",
+    "usage": "「真奇怪（本当に変だ）」「感到奇怪（不思議に思う）」のように使う。",
+    "example": {
+      "hanzi": "真奇怪，桌子上刚才还放着一串钥匙呢。",
+      "pinyin": "Zhēn qíguài, zhuōzi shàng gāngcái hái fàng zhe yí chuàn yàoshi ne.",
+      "ja": "本当に不思議ですね、机の上にさっきまで鍵の束が置いてあったのに。"
+    },
+    "lessonId": "L17",
+    "minLesson": 17,
+    "source": "textbook-scope",
+    "grammarIds": ["G17-03"]
+  },
+  {
+    "id": "V17-017",
+    "hanzi": "传说",
+    "pinyin": "chuánshuō",
+    "tones": [2, 1],
+    "meaningJa": "伝説、言い伝え／伝えられるところによると",
+    "pos": "名詞・動詞",
+    "usage": "民間の伝説や神話などの名詞。量詞は「个 (gè)」。",
+    "example": {
+      "hanzi": "关于这座古塔，当地流传着一个动人的传说。",
+      "pinyin": "Guānyú zhè zuò gǔtǎ, dāngdì liúchuán zhe yí ge dòngrén de chuánshuō.",
+      "ja": "この古い塔については、地元に感動的な伝説が伝わっています。"
+    },
+    "lessonId": "L17",
+    "minLesson": 17,
+    "source": "textbook-scope",
+    "grammarIds": ["G17-03", "G17-05"],
+    "measureWord": "个",
+    "related": ["故事"]
+  },
+  {
+    "id": "V17-018",
+    "hanzi": "故事",
+    "pinyin": "gùshi",
+    "tones": [4, 5],
+    "meaningJa": "物語、話、エピソード",
+    "pos": "名詞",
+    "usage": "「讲故事（話をする・物語を語る）」「听故事（話を聞く）」。量詞は「个 (gè)」。",
+    "example": {
+      "hanzi": "爷爷常常给孙子讲他年轻时的故事。",
+      "pinyin": "Yéye chángcháng gěi sūnzi jiǎng tā niánqīng shí de gùshi.",
+      "ja": "祖父はよく孫に若い頃の話を語って聞かせます。"
+    },
+    "lessonId": "L17",
+    "minLesson": 17,
+    "source": "textbook-scope",
+    "grammarIds": ["G17-01"],
+    "measureWord": "个",
+    "related": ["传说"]
+  },
+  {
+    "id": "V17-019",
+    "hanzi": "爱情",
+    "pinyin": "àiqíng",
+    "tones": [4, 2],
+    "meaningJa": "愛情、恋愛の情",
+    "pos": "名詞",
+    "usage": "男女間の愛情を表す抽象名詞。「爱情故事（ラブストーリー）」のように連体修飾でもよく使う。",
+    "example": {
+      "hanzi": "这部电影讲述了一个感人的爱情故事。",
+      "pinyin": "Zhè bù diànyǐng jiǎngshù le yí ge gǎnrén de àiqíng gùshi.",
+      "ja": "この映画は感動的なラブストーリーを描いています。"
+    },
+    "lessonId": "L17",
+    "minLesson": 17,
+    "source": "textbook-scope",
+    "grammarIds": ["G17-05"],
+    "related": ["感情"]
+  },
+  {
+    "id": "V17-020",
+    "hanzi": "关于",
+    "pinyin": "guānyú",
+    "tones": [1, 2],
+    "meaningJa": "〜について、〜に関して",
+    "pos": "介詞",
+    "usage": "話題を提示するときは文頭（主語の前）に置く。また「关于〜的＋名詞」の形で連体修飾を作る。",
+    "example": {
+      "hanzi": "关于下周的实地考察，老师已经发了通知。",
+      "pinyin": "Guānyú xià zhōu de shídì kǎochá, lǎoshī yǐjīng fā le tōngzhī.",
+      "ja": "来週のフィールドワークについて、先生はすでにお知らせを出しました。"
+    },
+    "lessonId": "L17",
+    "minLesson": 17,
+    "source": "textbook-scope",
+    "grammarIds": ["G17-05"],
+    "related": ["对于"]
+  },
+  {
+    "id": "V17-021",
+    "hanzi": "课题",
+    "pinyin": "kètí",
+    "tones": [4, 2],
+    "meaningJa": "研究課題、テーマ",
+    "pos": "名詞",
+    "usage": "学術研究や議論のテーマを指す。「研究课题（研究課題）」。量詞は「个 (gè)」。",
+    "example": {
+      "hanzi": "这个学期我们小组选了一个很有意思的课题。",
+      "pinyin": "Zhège xuéqī wǒmen xiǎozǔ xuǎn le yí ge hěn yǒuyìsi de kètí.",
+      "ja": "今学期、私たちのグループはとても興味深い課題を選びました。"
+    },
+    "lessonId": "L17",
+    "minLesson": 17,
+    "source": "textbook-scope",
+    "grammarIds": ["G17-05"],
+    "measureWord": "个"
+  },
+  {
+    "id": "V17-022",
+    "hanzi": "由于",
+    "pinyin": "yóuyú",
+    "tones": [2, 2],
+    "meaningJa": "〜が原因で、〜により",
+    "pos": "介詞・接続詞",
+    "usage": "やや改まった文章や説明で原因・理由を表す。「因为」より書き言葉的。",
+    "example": {
+      "hanzi": "由于设备故障，今天的演示暂时取消。",
+      "pinyin": "Yóuyú shèbèi gùzhàng, jīntiān de yǎnshì zànshí qǔxiāo.",
+      "ja": "機材の故障により、本日のデモンストレーションは一時中止となりました。"
+    },
+    "lessonId": "L17",
+    "minLesson": 17,
+    "source": "textbook-scope",
+    "grammarIds": ["G17-05"],
+    "synonyms": ["因为"]
+  }
+]

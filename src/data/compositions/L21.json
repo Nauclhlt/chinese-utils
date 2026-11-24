@@ -1,0 +1,468 @@
+[
+  {
+    "id": "C-G21-01-01",
+    "lessonId": "L21",
+    "minLesson": 21,
+    "grammarIds": ["G21-01"],
+    "difficulty": 1,
+    "japanesePrompt": "明日雨が降ろうと降るまいと、私たちは予定通り出発します。",
+    "targetGrammarHint": "無条件複文「不管……，都/也……」",
+    "hints": [
+      "「雨が降ろうと降るまいと」は正反疑問の形「下不下雨」を使います。",
+      "後件に必ず「都」または「也」を置きます。",
+      "骨組み：不管明天下不下雨，我们都按计划出发。"
+    ],
+    "modelAnswer": "不管明天下不下雨，我们都按计划出发。",
+    "acceptableAnswers": [
+      "不管明天下不下雨，我们都按计划出发。",
+      "无论明天下不下雨，我们都要按原计划出发。",
+      "不管明天是否下雨，我们都照常出发。"
+    ],
+    "pinyin": "Bùguǎn míngtiān xià bu xià yǔ, wǒmen dōu àn jìhuà chūfā.",
+    "structureBreakdown": [
+      { "text": "不管", "role": "Conj", "label": "無条件" },
+      { "text": "明天下不下雨", "role": "V", "label": "正反選択" },
+      { "text": "我们", "role": "S", "label": "主語" },
+      { "text": "都", "role": "Adv", "label": "総括" },
+      { "text": "按计划出发", "role": "V", "label": "帰結" }
+    ],
+    "explanation": "「不管」の後ろは単なる「下雨」ではなく、正反選択「下不下雨」のように選択肢を含める必要があります。",
+    "commonMistakes": [
+      { "wrong": "不管明天下雨，我们都按计划出发。", "reason": "「不管」の後ろに単一の肯定形を置くことはできません。「下不下雨」または「是否下雨」にします。" }
+    ]
+  },
+  {
+    "id": "C-G21-01-02",
+    "lessonId": "L21",
+    "minLesson": 21,
+    "grammarIds": ["G21-01"],
+    "difficulty": 2,
+    "japanesePrompt": "どんな困難に出会っても、私たちは互いに励まし合います。",
+    "targetGrammarHint": "「不管 + 疑问词……，都……」＋「互相鼓励」",
+    "hints": [
+      "「どんな困難に出会っても」は「不管遇到什么困难」。",
+      "「互いに励まし合う」は第21課の「互相鼓励 (hùxiāng gǔlì)」。",
+      "骨組み：不管遇到什么困难，我们都互相鼓励。"
+    ],
+    "modelAnswer": "不管遇到什么困难，我们都互相鼓励。",
+    "acceptableAnswers": [
+      "不管遇到什么困难，我们都互相鼓励。",
+      "无论遇到什么困难，我们都要互相鼓励。",
+      "不管遇到什么样的困难，大家都会互相鼓励。"
+    ],
+    "pinyin": "Bùguǎn yùdào shénme kùnnan, wǒmen dōu hùxiāng gǔlì.",
+    "structureBreakdown": [
+      { "text": "不管", "role": "Conj", "label": "無条件" },
+      { "text": "遇到什么困难", "role": "V", "label": "疑問詞を含む前件" },
+      { "text": "我们", "role": "S", "label": "主語" },
+      { "text": "都", "role": "Adv", "label": "総括" },
+      { "text": "互相鼓励", "role": "V", "label": "帰結" }
+    ],
+    "explanation": "疑問詞「什么」を「不管」の節に入れることで「いかなる困難であっても」という無条件を表します。",
+    "commonMistakes": [
+      { "wrong": "不管遇到什么困难，但是我们互相鼓励。", "reason": "「不管」の後件に「但是」は使わず、副詞「都」または「也」を使います。" }
+    ]
+  },
+  {
+    "id": "C-G21-01-03",
+    "lessonId": "L21",
+    "minLesson": 21,
+    "grammarIds": ["G21-01"],
+    "difficulty": 2,
+    "japanesePrompt": "山道がどれほど険しくても、あのお年寄りは決して諦めません。",
+    "targetGrammarHint": "「不管 + ……多么 + Adj，都……」",
+    "hints": [
+      "「どれほど険しくても」は「不管山路多么险峻」。",
+      "「あのお年寄り」は「那位老人」。「諦めない」は「不放弃」。",
+      "骨組み：不管山路多么险峻，那位老人都不会放弃。"
+    ],
+    "modelAnswer": "不管山路多么险峻，那位老人都不会放弃。",
+    "acceptableAnswers": [
+      "不管山路多么险峻，那位老人都不会放弃。",
+      "无论山路多险峻，那位老人都绝不放弃。",
+      "不管山路有多么险峻，那位老人也不放弃。"
+    ],
+    "pinyin": "Bùguǎn shānlù duōme xiǎnjùn, nà wèi lǎorén dōu bú huì fàngqì.",
+    "structureBreakdown": [
+      { "text": "不管", "role": "Conj", "label": "無条件" },
+      { "text": "山路多么险峻", "role": "P", "label": "程度疑問節" },
+      { "text": "那位老人", "role": "S", "label": "主語" },
+      { "text": "都", "role": "Adv", "label": "総括" },
+      { "text": "不会放弃", "role": "V", "label": "否定帰結" }
+    ],
+    "explanation": "「多(么) + 形容詞」は「不管」節の内部で「どれほど〜でも」を表す定番表現です。",
+    "commonMistakes": [
+      { "wrong": "不管山路很险峻，那位老人都不会放弃。", "reason": "「很险峻」は確定表現なので、「不管」の後ろには「多么险峻」または「险峻不险峻」を使います。" }
+    ]
+  },
+  {
+    "id": "C-G21-01-04",
+    "lessonId": "L21",
+    "minLesson": 21,
+    "grammarIds": ["G21-01"],
+    "difficulty": 2,
+    "japanesePrompt": "この仕事は誰が担当しても、同じように良い結果が出せます。",
+    "targetGrammarHint": "「不管 + 谁……，都……」",
+    "hints": [
+      "「誰が担当しても」は「不管谁来负责」。",
+      "「同じように〜だ」は「都一样（能〜）」。",
+      "骨組み：这项工作不管谁来负责，都能取得一样好的结果。"
+    ],
+    "modelAnswer": "这项工作不管谁来负责，都能做出一样好的结果。",
+    "acceptableAnswers": [
+      "这项工作不管谁来负责，都能做出一样好的结果。",
+      "不管谁负责这项工作，结果都一样好。",
+      "这项工作无论谁来承担，都能取得很好的结果。"
+    ],
+    "pinyin": "Zhè xiàng gōngzuò bùguǎn shéi lái fùzé, dōu néng zuòchū yíyàng hǎo de jiéguǒ.",
+    "structureBreakdown": [
+      { "text": "这项工作", "role": "O", "label": "話題" },
+      { "text": "不管谁来负责", "role": "S", "label": "不定条件" },
+      { "text": "都", "role": "Adv", "label": "総括" },
+      { "text": "能做出一样好的结果", "role": "V", "label": "帰結" }
+    ],
+    "explanation": "共通の話題「这项工作」を文頭に提示し、その後に「不管谁来负责，都……」と続けると自然です。",
+    "commonMistakes": [
+      { "wrong": "这项工作不管谁负责，一样好的结果能做出。", "reason": "「都」が抜けているうえ、目的語「一样好的结果」は動詞「做出」の後ろに置きます。" }
+    ]
+  },
+  {
+    "id": "C-G21-01-05",
+    "lessonId": "L21",
+    "minLesson": 21,
+    "grammarIds": ["G21-01"],
+    "difficulty": 2,
+    "japanesePrompt": "電車で行こうと自転車で行こうと、図書館まで20分かかります。",
+    "targetGrammarHint": "「不管 + A 还是 B，都……」",
+    "hints": [
+      "「電車で行く」は「坐电车去」、「自転車で行く」は「骑自行车去」。",
+      "2つの選択肢を「还是」で結びます。",
+      "骨組み：不管坐电车还是骑自行车，去图书馆都需要二十分钟。"
+    ],
+    "modelAnswer": "不管坐电车去还是骑自行车去，到图书馆都需要二十分钟。",
+    "acceptableAnswers": [
+      "不管坐电车去还是骑自行车去，到图书馆都需要二十分钟。",
+      "不管坐电车还是骑自行车，去图书馆都要花二十分钟。",
+      "无论坐电车还是骑车，到图书馆都得二十分钟。"
+    ],
+    "pinyin": "Bùguǎn zuò diànchē qù háishi qí zìxíngchē qù, dào túshūguǎn dōu xūyào èrshí fēnzhōng.",
+    "structureBreakdown": [
+      { "text": "不管", "role": "Conj", "label": "無条件" },
+      { "text": "坐电车去还是骑自行车去", "role": "V", "label": "A还是B選択" },
+      { "text": "到图书馆", "role": "V", "label": "主題行動" },
+      { "text": "都", "role": "Adv", "label": "総括" },
+      { "text": "需要二十分钟", "role": "V", "label": "所要時間" }
+    ],
+    "explanation": "「A 还是 B」を選択節として「不管」に組み込み、「都」でまとめます。",
+    "commonMistakes": [
+      { "wrong": "不管坐电车和骑自行车，去图书馆都需要二十分钟。", "reason": "選択を表すには「和」ではなく「还是」を使います。" }
+    ]
+  },
+
+  {
+    "id": "C-G21-02-01",
+    "lessonId": "L21",
+    "minLesson": 21,
+    "grammarIds": ["G21-02"],
+    "difficulty": 1,
+    "japanesePrompt": "毎日努力を続けさえすれば、きっと頂上に登ることができます。",
+    "targetGrammarHint": "十分条件「只要……，就……」",
+    "hints": [
+      "「〜しさえすれば」は「只要 (zhǐyào)」。",
+      "第21課の語彙「坚持努力」「顶峰」を使います。",
+      "骨組み：只要坚持努力，就一定能登上顶峰。"
+    ],
+    "modelAnswer": "只要每天坚持努力，就一定能爬上顶峰。",
+    "acceptableAnswers": [
+      "只要每天坚持努力，就一定能爬上顶峰。",
+      "只要每天努力坚持，就一定能登上顶峰。",
+      "你只要每天坚持努力，就肯定能爬到山顶。"
+    ],
+    "pinyin": "Zhǐyào měitiān jiānchí nǔlì, jiù yídìng néng páshàng dǐngfēng.",
+    "structureBreakdown": [
+      { "text": "只要", "role": "Conj", "label": "十分条件" },
+      { "text": "每天坚持努力", "role": "V", "label": "条件節" },
+      { "text": "就", "role": "Adv", "label": "呼応" },
+      { "text": "一定能爬上顶峰", "role": "V", "label": "帰結節" }
+    ],
+    "explanation": "十分条件「只要」の後ろには「就」を呼応させます。「一定能」で確実性を表します。",
+    "commonMistakes": [
+      { "wrong": "只要每天坚持努力，才一定能爬上顶峰。", "reason": "「只要」と呼応するのは「才」ではなく「就」です（「才」は「只有」と呼応）。" }
+    ]
+  },
+  {
+    "id": "C-G21-02-02",
+    "lessonId": "L21",
+    "minLesson": 21,
+    "grammarIds": ["G21-02"],
+    "difficulty": 1,
+    "japanesePrompt": "天気が晴れさえすれば、私たちは美しい日の出を見ることができます。",
+    "targetGrammarHint": "「只要……，就……」＋「日出」",
+    "hints": [
+      "「天気が晴れる」は「天气晴朗 (tiānqì qínglǎng)」または「是晴天」。",
+      "「日の出を見る」は「看到美丽的日出」。",
+      "骨組み：只要天气晴朗，我们就能看到美丽的日出。"
+    ],
+    "modelAnswer": "只要天气晴朗，我们就能看到美丽的日出。",
+    "acceptableAnswers": [
+      "只要天气晴朗，我们就能看到美丽的日出。",
+      "只要是晴天，我们就可以看到美丽的日出。",
+      "只要天气好，我们就能看见漂亮的日出。"
+    ],
+    "pinyin": "Zhǐyào tiānqì qínglǎng, wǒmen jiù néng kàndào měilì de rìchū.",
+    "structureBreakdown": [
+      { "text": "只要", "role": "Conj", "label": "十分条件" },
+      { "text": "天气晴朗", "role": "P", "label": "条件主述" },
+      { "text": "我们", "role": "S", "label": "主語2" },
+      { "text": "就", "role": "Adv", "label": "呼応" },
+      { "text": "能看到美丽的日出", "role": "V", "label": "帰結" }
+    ],
+    "explanation": "前後節で主語が異なる（天气／我们）ため、第2節の「我们」の後ろに「就」を置きます。",
+    "commonMistakes": [
+      { "wrong": "只要天气晴朗，就我们能看到美丽的日出。", "reason": "「就」は副詞なので主語「我们」の前に置くことはできません。" }
+    ]
+  },
+  {
+    "id": "C-G21-02-03",
+    "lessonId": "L21",
+    "minLesson": 21,
+    "grammarIds": ["G21-02"],
+    "difficulty": 2,
+    "japanesePrompt": "あなたが自分のやりたいことをやり続けさえすれば、いつか成功します。",
+    "targetGrammarHint": "「只要……，就……」＋「成功」",
+    "hints": [
+      "「やりたいこと（憧れていること）」は「向往的事情」または「自己想做的事」。",
+      "「いつか」は「总有一天 (zǒng yǒu yì tiān)」。",
+      "骨組み：你只要坚持做自己向往的事情，总有一天就会成功。"
+    ],
+    "modelAnswer": "你只要坚持做自己向往的事情，总有一天就会成功。",
+    "acceptableAnswers": [
+      "你只要坚持做自己向往的事情，总有一天就会成功。",
+      "只要你坚持做自己想做的事，将来就一定会成功。"
+    ],
+    "pinyin": "Nǐ zhǐyào jiānchí zuò zìjǐ xiàngwǎng de shìqing, zǒng yǒu yì tiān jiù huì chénggōng.",
+    "structureBreakdown": [
+      { "text": "你", "role": "S", "label": "主語" },
+      { "text": "只要", "role": "Conj", "label": "十分条件" },
+      { "text": "坚持做自己向往的事情", "role": "V", "label": "条件動作" },
+      { "text": "总有一天", "role": "Time", "label": "いつか" },
+      { "text": "就会成功", "role": "V", "label": "帰結" }
+    ],
+    "explanation": "同主語「你」なので「只要」の前に置けます。「总有一天」は「就」の前に配置します。",
+    "commonMistakes": [
+      { "wrong": "如果只要你坚持做，就一定会成功。", "reason": "「如果」と「只要」を同じ節に重ねて使うことはできません。" }
+    ]
+  },
+  {
+    "id": "C-G21-02-04",
+    "lessonId": "L21",
+    "minLesson": 21,
+    "grammarIds": ["G21-02"],
+    "difficulty": 2,
+    "japanesePrompt": "時間が遅すぎさえしなければ、駅まで歩いて帰ることができます。",
+    "targetGrammarHint": "否定を含む十分条件「只要不……，就……」",
+    "hints": [
+      "「時間が遅すぎない」は「时间不太晚」。",
+      "「駅まで歩いて帰る」は「走回车站」または「步行去车站」。",
+      "骨組み：只要时间不太晚，我们就能走回车站。"
+    ],
+    "modelAnswer": "只要时间不太晚，我就能走回车站。",
+    "acceptableAnswers": [
+      "只要时间不太晚，我就能走回车站。",
+      "只要不太晚，我就可以步行回车站。"
+    ],
+    "pinyin": "Zhǐyào shíjiān bú tài wǎn, wǒ jiù néng zǒu huí chēzhàn.",
+    "structureBreakdown": [
+      { "text": "只要", "role": "Conj", "label": "十分条件" },
+      { "text": "时间不太晚", "role": "P", "label": "否定条件" },
+      { "text": "我", "role": "S", "label": "主語" },
+      { "text": "就", "role": "Adv", "label": "呼応" },
+      { "text": "能走回车站", "role": "V", "label": "帰結" }
+    ],
+    "explanation": "否定を含めて「〜でさえなければ」と言うときも「只要不〜，就〜」の形で表せます。",
+    "commonMistakes": [
+      { "wrong": "只要时间不太晚，我才走回车站。", "reason": "「只要」には「就」を呼応させます。" }
+    ]
+  },
+  {
+    "id": "C-G21-02-05",
+    "lessonId": "L21",
+    "minLesson": 21,
+    "grammarIds": ["G21-02"],
+    "difficulty": 2,
+    "japanesePrompt": "みんなで助け合いさえすれば、どんなに難しい問題も解決できます。",
+    "targetGrammarHint": "「只要……，就……」＋「互相帮助」",
+    "hints": [
+      "「互いに助け合う」は「互相帮助」。",
+      "「どんなに難しい問題も」は「再难的问题也……」と置けます。",
+      "骨組み：只要大家互相帮助，再难的问题就都能解决。"
+    ],
+    "modelAnswer": "只要大家互相帮助，多难的问题就都能解决。",
+    "acceptableAnswers": [
+      "只要大家互相帮助，多难的问题就都能解决。",
+      "只要大家互相帮助，再难的问题也能解决。",
+      "只要大家互相帮忙，什么问题就都能解决。"
+    ],
+    "pinyin": "Zhǐyào dàjiā hùxiāng bāngzhù, duō nán de wèntí jiù dōu néng jiějué.",
+    "structureBreakdown": [
+      { "text": "只要", "role": "Conj", "label": "十分条件" },
+      { "text": "大家互相帮助", "role": "S", "label": "条件節" },
+      { "text": "多难的问题", "role": "O", "label": "前置目的語" },
+      { "text": "就都能解决", "role": "V", "label": "帰結" }
+    ],
+    "explanation": "後件で「多难的问题」を強調し「就都能解决」と受ける自然な文です。",
+    "commonMistakes": [
+      { "wrong": "只要互相帮助大家，问题就解决。", "reason": "「大家」は「互相帮助」の主語なので前に置きます。" }
+    ]
+  },
+
+  {
+    "id": "C-G21-03-01",
+    "lessonId": "L21",
+    "minLesson": 21,
+    "grammarIds": ["G21-03"],
+    "difficulty": 1,
+    "japanesePrompt": "私たちはまずここで少し休んでから、また山を登りましょう。",
+    "targetGrammarHint": "動作の順序「先……，再……」",
+    "hints": [
+      "主語「我们」の後ろに「先……，再……」を置きます。",
+      "「ここで少し休む」は「在这儿休息一会儿」。",
+      "骨組み：我们先在这儿休息一会儿，再继续爬山吧。"
+    ],
+    "modelAnswer": "我们先在这儿休息一会儿，再继续爬山吧。",
+    "acceptableAnswers": [
+      "我们先在这儿休息一会儿，再继续爬山吧。",
+      "我们先在这里休息一下，然后再爬山吧。",
+      "我们先休息一会儿，再接着爬山吧。"
+    ],
+    "pinyin": "Wǒmen xiān zài zhèr xiūxi yīhuìr, zài jìxù páshān ba.",
+    "structureBreakdown": [
+      { "text": "我们", "role": "S", "label": "主語" },
+      { "text": "先", "role": "Adv", "label": "順序1" },
+      { "text": "在这儿休息一会儿", "role": "V", "label": "動作1" },
+      { "text": "再", "role": "Adv", "label": "順序2" },
+      { "text": "继续爬山吧", "role": "V", "label": "動作2" }
+    ],
+    "explanation": "介詞句「在这儿」は「先」の後ろ・動詞「休息」の前に置きます。",
+    "commonMistakes": [
+      { "wrong": "先我们在这儿休息一会儿，再继续爬山吧。", "reason": "「先」は副詞なので主語「我们」の前に置けません。" }
+    ]
+  },
+  {
+    "id": "C-G21-03-02",
+    "lessonId": "L21",
+    "minLesson": 21,
+    "grammarIds": ["G21-03"],
+    "difficulty": 1,
+    "japanesePrompt": "先に手を洗ってから、朝ご飯を食べてください。",
+    "targetGrammarHint": "命令・依頼＋「先……，再……」",
+    "hints": [
+      "依頼の「请（你）」の後ろに「先洗手，再吃早饭」を続けます。",
+      "「手を洗う」は「洗手（または洗洗手）」。",
+      "骨組み：请先洗手，再吃早饭。"
+    ],
+    "modelAnswer": "请先洗手，再吃早饭。",
+    "acceptableAnswers": [
+      "请先洗手，再吃早饭。",
+      "请你先洗洗手，再吃早饭。",
+      "你先洗手，再吃早餐吧。"
+    ],
+    "pinyin": "Qǐng xiān xǐshǒu, zài chī zǎofàn.",
+    "structureBreakdown": [
+      { "text": "请", "role": "V", "label": "依頼" },
+      { "text": "先洗手", "role": "V", "label": "動作1" },
+      { "text": "再吃早饭", "role": "V", "label": "動作2" }
+    ],
+    "explanation": "2番目の動作（食事）は1番目の動作（手洗い）が終わってから行うことを「先……，再……」で明確に指示します。",
+    "commonMistakes": [
+      { "wrong": "先请洗手，再吃早饭。", "reason": "依頼の「请」を文頭に置き、「先」は動詞の前に置きます。" }
+    ]
+  },
+  {
+    "id": "C-G21-03-03",
+    "lessonId": "L21",
+    "minLesson": 21,
+    "grammarIds": ["G21-03"],
+    "difficulty": 2,
+    "japanesePrompt": "新しい言葉を学ぶときは、まず発音を確認してから、意味を覚えます。",
+    "targetGrammarHint": "一般的な手順「先……，再……」",
+    "hints": [
+      "「新しい言葉を学ぶとき」は「学新词的时候」。",
+      "「発音を確認する」は「确认发音」または「先听发音」。",
+      "骨組み：学新词的时候，先确认发音，再记意思。"
+    ],
+    "modelAnswer": "学新词的时候，先确认发音，再记意思。",
+    "acceptableAnswers": [
+      "学新词的时候，先确认发音，再记意思。",
+      "学习生词的时候，要先看拼音和发音，再背意思。"
+    ],
+    "pinyin": "Xué xīncí de shíhou, xiān quèrèn fāyīn, zài jì yìsi.",
+    "structureBreakdown": [
+      { "text": "学新词的时候", "role": "Time", "label": "時間・場面" },
+      { "text": "先确认发音", "role": "V", "label": "手順1" },
+      { "text": "再记意思", "role": "V", "label": "手順2" }
+    ],
+    "explanation": "学習方法などの一般的な手順を説明するときも「先……，再……」が非常に便利です。",
+    "commonMistakes": [
+      { "wrong": "学新词的时候，一边确认发音，一边记意思。", "reason": "順序を示したいので「一边」ではなく「先……，再……」を使います。" }
+    ]
+  },
+  {
+    "id": "C-G21-03-04",
+    "lessonId": "L21",
+    "minLesson": 21,
+    "grammarIds": ["G21-03"],
+    "difficulty": 2,
+    "japanesePrompt": "まず地図で山道を調べてから、出発するかどうか決めましょう。",
+    "targetGrammarHint": "「先把……，再……」",
+    "hints": [
+      "「地図で山道を調べる」は「在地图上查一下山路」。",
+      "「出発するかどうか」は正反疑問の間接疑問「要不要出发 / 出不出发」。",
+      "骨組み：我们先在地图上查一下山路，再决定要不要出发。"
+    ],
+    "modelAnswer": "我们先在地图上查一下山路，再决定要不要出发。",
+    "acceptableAnswers": [
+      "我们先在地图上查一下山路，再决定要不要出发。",
+      "我们先看看地图上的山路，再决定是否出发。"
+    ],
+    "pinyin": "Wǒmen xiān zài dìtú shàng chá yíxià shānlù, zài juédìng yào bu yào chūfā.",
+    "structureBreakdown": [
+      { "text": "我们", "role": "S", "label": "主語" },
+      { "text": "先在地图上查一下山路", "role": "V", "label": "動作1" },
+      { "text": "再决定要不要出发", "role": "V", "label": "動作2" }
+    ],
+    "explanation": "「决定」の目的語に正反形式「要不要出发」を置いた自然な文です。",
+    "commonMistakes": [
+      { "wrong": "我们先在地图上查一下山路，再决定出发吗？", "reason": "「〜するかどうか決める」は間接疑問なので文末に「吗」を付けず「要不要出发」にします。" }
+    ]
+  },
+  {
+    "id": "C-G21-03-05",
+    "lessonId": "L21",
+    "minLesson": 21,
+    "grammarIds": ["G21-03"],
+    "difficulty": 2,
+    "japanesePrompt": "私はまず寮へ帰って荷物を置いてから、友達と晩ご飯を食べに行きます。",
+    "targetGrammarHint": "「先 + 連動文1，再 + 連動文2」",
+    "hints": [
+      "「寮へ帰って荷物を置く」は連動文「回宿舍放行李」。",
+      "「友達と晩ご飯を食べに行く」は「跟朋友去吃晚饭」。",
+      "骨組み：我先回宿舍放行李，再跟朋友去吃晚饭。"
+    ],
+    "modelAnswer": "我先回宿舍放行李，再跟朋友去吃晚饭。",
+    "acceptableAnswers": [
+      "我先回宿舍放行李，再跟朋友去吃晚饭。",
+      "我打算先回宿舍放东西，再去和朋友吃晚饭。"
+    ],
+    "pinyin": "Wǒ xiān huí sùshè fàng xíngli, zài gēn péngyou qù chī wǎnfàn.",
+    "structureBreakdown": [
+      { "text": "我", "role": "S", "label": "主語" },
+      { "text": "先回宿舍放行李", "role": "V", "label": "動作1(連動)" },
+      { "text": "再跟朋友去吃晚饭", "role": "V", "label": "動作2(介詞＋連動)" }
+    ],
+    "explanation": "各節の中に連動文「回宿舍放行李」「去吃晚饭」が入っていますが、順序の「先」「再」は各節の最初の動詞の前に置きます。",
+    "commonMistakes": [
+      { "wrong": "我回宿舍先放行李，跟朋友再去吃晚饭。", "reason": "「先」は「回宿舍」の前に、「再」は「跟朋友去吃晚饭」の前に置くのが自然です。" }
+    ]
+  }
+]

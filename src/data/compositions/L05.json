@@ -1,0 +1,783 @@
+[
+  {
+    "id": "C-G05-01-01",
+    "lessonId": "L05",
+    "minLesson": 5,
+    "grammarIds": ["G05-01"],
+    "difficulty": 1,
+    "japanesePrompt": "彼は今、電話をかけているところです。",
+    "targetGrammarHint": "進行表現「正在……呢」",
+    "hints": [
+      "枠組み：主語 + 正在 + 動詞 + 目的語 + 呢",
+      "語彙：彼(tā) / 電話をかける(dǎ diànhuà)",
+      "「正在」は動詞「打」の前に置き、文末に「呢」を添えます。"
+    ],
+    "modelAnswer": "他正在打电话呢。",
+    "acceptableAnswers": [
+      "他在打电话呢。",
+      "他正打电话呢。",
+      "他正在打电话。",
+      "他在打电话。"
+    ],
+    "pinyin": "Tā zhèngzài dǎ diànhuà ne.",
+    "structureBreakdown": [
+      { "text": "他", "role": "S", "label": "主語" },
+      { "text": "正在", "role": "Adv", "label": "進行副詞" },
+      { "text": "打", "role": "V", "label": "動詞" },
+      { "text": "电话", "role": "O", "label": "目的語" },
+      { "text": "呢", "role": "P", "label": "語気助詞" }
+    ],
+    "explanation": "動作が進行中であることを表すため、動詞「打」の前に「正在（または在・正）」を置き、文末に進行の語気助詞「呢」を加えます。",
+    "commonMistakes": [
+      { "wrong": "他打电话正在呢。", "reason": "「正在」は動詞句の前（主語と動詞の間）に置きます。動詞の後ろには置けません。" },
+      { "wrong": "他正在打着电话呢。", "reason": "進行は「正在＋V」だけで表せるため、初級段階では「着」を重複させる必要はありません。" }
+    ]
+  },
+  {
+    "id": "C-G05-01-02",
+    "lessonId": "L05",
+    "minLesson": 5,
+    "grammarIds": ["G05-01"],
+    "difficulty": 1,
+    "japanesePrompt": "あなたは今、何をしているのですか。",
+    "targetGrammarHint": "進行の疑問文「在 + 做什么 / 干什么 + 呢？」",
+    "hints": [
+      "枠組み：主語 + 在 + 動詞 + 什么 + 呢？",
+      "語彙：する(zuò / gàn) / 何(shénme)",
+      "疑問詞「什么」があるので文末に「吗」は付けず、「呢」で結びます。"
+    ],
+    "modelAnswer": "你在做什么呢？",
+    "acceptableAnswers": [
+      "你在干什么呢？",
+      "你正在做什么呢？",
+      "你正在干什么呢？",
+      "你在做什么？",
+      "你在干什么？"
+    ],
+    "pinyin": "Nǐ zài zuò shénme ne?",
+    "structureBreakdown": [
+      { "text": "你", "role": "S", "label": "主語" },
+      { "text": "在", "role": "Adv", "label": "進行副詞" },
+      { "text": "做", "role": "V", "label": "動詞" },
+      { "text": "什么", "role": "O", "label": "疑問詞目的語" },
+      { "text": "呢", "role": "P", "label": "語気助詞" }
+    ],
+    "explanation": "「你在做什么呢？」または口語の「你在干什么呢？」は相手の現在の行動を尋ねる定番の表現です。",
+    "commonMistakes": [
+      { "wrong": "你在做什么吗？", "reason": "疑問詞「什么」を含む文には文末の「吗」を付けません。" }
+    ]
+  },
+  {
+    "id": "C-G05-01-03",
+    "lessonId": "L05",
+    "minLesson": 5,
+    "grammarIds": ["G05-01"],
+    "difficulty": 2,
+    "japanesePrompt": "妹は今、図書館で本を読んでいるところです。",
+    "targetGrammarHint": "「正在 + 場所 + 動詞 + (呢)」",
+    "hints": [
+      "枠組み：主語 + 正在 + 場所 + 動詞 + 目的語 + 呢",
+      "語彙：妹(mèimei) / 図書館(túshūguǎn) / 本を読む(kànshū)",
+      "場所「图书馆」の前には「在」を重ねず、「正在图书馆」とします。"
+    ],
+    "modelAnswer": "妹妹正在图书馆看书呢。",
+    "acceptableAnswers": [
+      "妹妹在图书馆看书呢。",
+      "妹妹正在图书馆看书。",
+      "妹妹在图书馆看书。"
+    ],
+    "pinyin": "Mèimei zhèngzài túshūguǎn kànshū ne.",
+    "structureBreakdown": [
+      { "text": "妹妹", "role": "S", "label": "主語" },
+      { "text": "正在", "role": "Adv", "label": "進行副詞" },
+      { "text": "图书馆", "role": "Loc", "label": "場所" },
+      { "text": "看书", "role": "V", "label": "動詞＋目的語" },
+      { "text": "呢", "role": "P", "label": "語気助詞" }
+    ],
+    "explanation": "進行表現と場所句を組み合わせるときは、「正在＋場所＋動詞」とすることで「在」が2回続くのを避けます。",
+    "commonMistakes": [
+      { "wrong": "妹妹正在在图书馆看书呢。", "reason": "「正在」の後ろにさらに介詞「在」を重ねて「正在在」とするのは誤りです。" }
+    ]
+  },
+  {
+    "id": "C-G05-01-04",
+    "lessonId": "L05",
+    "minLesson": 5,
+    "grammarIds": ["G05-01"],
+    "difficulty": 2,
+    "japanesePrompt": "私はテレビを見ているのではなく、宿題をしています。",
+    "targetGrammarHint": "進行の否定「没(有)在……」と肯定「在……」",
+    "hints": [
+      "枠組み：我 + 没在 + V1 + O1，我 + 在 + V2 + O2。",
+      "語彙：テレビを見る(kàn diànshì) / 宿題をする(zuò zuòyè / xiě zuòyè)",
+      "進行の否定は「不在」ではなく「没在」を使います。"
+    ],
+    "modelAnswer": "我没在看电视，我在写作业呢。",
+    "acceptableAnswers": [
+      "我没有在看电视，我在写作业呢。",
+      "我没在看电视，我在做作业呢。",
+      "我没在看电视，我正在写作业呢。",
+      "我没在看电视，我在写作业。"
+    ],
+    "pinyin": "Wǒ méi zài kàn diànshì, wǒ zài xiě zuòyè ne.",
+    "structureBreakdown": [
+      { "text": "我", "role": "S", "label": "主語" },
+      { "text": "没在", "role": "Neg", "label": "進行の否定" },
+      { "text": "看电视", "role": "V", "label": "動詞句" },
+      { "text": "我", "role": "S", "label": "主語" },
+      { "text": "在", "role": "Adv", "label": "進行副詞" },
+      { "text": "写作业", "role": "V", "label": "動詞句" },
+      { "text": "呢", "role": "P", "label": "語気助詞" }
+    ],
+    "explanation": "進行中の否定には「没(有)在＋動詞」を用います。後半で実際に行っている動作を「在……呢」で対比させます。",
+    "commonMistakes": [
+      { "wrong": "我不在看电视。", "reason": "「不在」は通常「（その場所に）いない」という意味になり、進行の否定には「没在」を使います。" }
+    ]
+  },
+  {
+    "id": "C-G05-01-05",
+    "lessonId": "L05",
+    "minLesson": 5,
+    "grammarIds": ["G05-01"],
+    "difficulty": 2,
+    "japanesePrompt": "先生は今、教室で中国語を教えていますか。",
+    "targetGrammarHint": "進行の諾否疑問文「正在……吗？」",
+    "hints": [
+      "枠組み：老师 + 正在 + 教室 + 教汉语 + 吗？",
+      "語彙：教える(jiāo) / 教室(jiàoshì) / 中国語(Hànyǔ)",
+      "疑問文では文末に「吗」を置き、「正在教室」のように「在」を重ねません。"
+    ],
+    "modelAnswer": "老师正在教室教汉语吗？",
+    "acceptableAnswers": [
+      "老师在教室教汉语吗？",
+      "老师现在正在教室教汉语吗？",
+      "老师现在在教室教汉语吗？"
+    ],
+    "pinyin": "Lǎoshī zhèngzài jiàoshì jiāo Hànyǔ ma?",
+    "structureBreakdown": [
+      { "text": "老师", "role": "S", "label": "主語" },
+      { "text": "正在", "role": "Adv", "label": "進行副詞" },
+      { "text": "教室", "role": "Loc", "label": "場所" },
+      { "text": "教", "role": "V", "label": "動詞" },
+      { "text": "汉语", "role": "O", "label": "目的語" },
+      { "text": "吗", "role": "P", "label": "疑問助詞" }
+    ],
+    "explanation": "諾否疑問文では文末の「呢」の代わりに「吗」を用います。場所「教室」と進行「正在」が組み合わさる語順に注意しましょう。",
+    "commonMistakes": [
+      { "wrong": "老师正在教室教汉语呢吗？", "reason": "同じ文末に「呢」と「吗」を重ねてはいけません。" }
+    ]
+  },
+
+  {
+    "id": "C-G05-02-01",
+    "lessonId": "L05",
+    "minLesson": 5,
+    "grammarIds": ["G05-02"],
+    "difficulty": 1,
+    "japanesePrompt": "私は今日の午後、学校へ行きません。",
+    "targetGrammarHint": "時間詞「今天下午」の位置と否定",
+    "hints": [
+      "枠組み：主語 + 時間詞 + 否定 + 動詞 + 目的語",
+      "語彙：今日(jīntiān) / 午後(xiàwǔ) / 学校(xuéxiào)",
+      "時間詞は「大→小」の順に「今天下午」と並べ、文頭または「我」の直後に置きます。"
+    ],
+    "modelAnswer": "我今天下午不去学校。",
+    "acceptableAnswers": [
+      "今天下午我不去学校。"
+    ],
+    "pinyin": "Wǒ jīntiān xiàwǔ bú qù xuéxiào.",
+    "structureBreakdown": [
+      { "text": "我", "role": "S", "label": "主語" },
+      { "text": "今天下午", "role": "Time", "label": "時間詞(大→小)" },
+      { "text": "不", "role": "Neg", "label": "否定副詞" },
+      { "text": "去", "role": "V", "label": "動詞" },
+      { "text": "学校", "role": "O", "label": "目的語" }
+    ],
+    "explanation": "「今日の午後」は大きい単位「今天」＋小さい単位「下午」で「今天下午」となります。時間詞は動詞の前（主語の前か後）に置きます。",
+    "commonMistakes": [
+      { "wrong": "我不去学校今天下午。", "reason": "中国語では時点を表す時間詞を文末（動詞の後）に置くことはできません。" }
+    ]
+  },
+  {
+    "id": "C-G05-02-02",
+    "lessonId": "L05",
+    "minLesson": 5,
+    "grammarIds": ["G05-02"],
+    "difficulty": 1,
+    "japanesePrompt": "あなたはいつ上海へ行きますか。",
+    "targetGrammarHint": "時間の疑問詞「什么时候」",
+    "hints": [
+      "枠組み：主語 + 什么时候 + 動詞 + 場所？",
+      "語彙：いつ(shénme shíhou) / 行く(qù) / 上海(Shànghǎi)",
+      "「什么时候」は主語の後ろ（動詞の前）に置き、文末に「吗」は付けません。"
+    ],
+    "modelAnswer": "你什么时候去上海？",
+    "acceptableAnswers": [
+      "什么时候你去上海？"
+    ],
+    "pinyin": "Nǐ shénme shíhou qù Shànghǎi?",
+    "structureBreakdown": [
+      { "text": "你", "role": "S", "label": "主語" },
+      { "text": "什么时候", "role": "Time", "label": "時間疑問詞" },
+      { "text": "去", "role": "V", "label": "動詞" },
+      { "text": "上海", "role": "O", "label": "目的語" }
+    ],
+    "explanation": "時点を尋ねる「什么时候」は肯定文の時間詞と同じ位置に置きます。通常「主語＋什么时候＋動詞」の順がよく使われます。",
+    "commonMistakes": [
+      { "wrong": "你去上海什么时候？", "reason": "「什么时候」を文末に置くことはできません。" },
+      { "wrong": "你什么时候去上海吗？", "reason": "疑問詞「什么时候」があるので文末の「吗」は不要です。" }
+    ]
+  },
+  {
+    "id": "C-G05-02-03",
+    "lessonId": "L05",
+    "minLesson": 5,
+    "grammarIds": ["G05-02"],
+    "difficulty": 2,
+    "japanesePrompt": "私は毎晩、母に電話をかけます。",
+    "targetGrammarHint": "習慣の時間詞「每天晚上」と介詞「给」",
+    "hints": [
+      "枠組み：我 + 每天晚上 + 给 + 妈妈 + 打电话。",
+      "語彙：毎日(měitiān) / 夜(wǎnshang) / 電話をかける(gěi ... dǎ diànhuà)",
+      "「每天」には量詞「个」を付けません。時間詞は介詞句「给妈妈」の前に置きます。"
+    ],
+    "modelAnswer": "我每天晚上给妈妈打电话。",
+    "acceptableAnswers": [
+      "每天晚上我给妈妈打电话。"
+    ],
+    "pinyin": "Wǒ měitiān wǎnshang gěi māma dǎ diànhuà.",
+    "structureBreakdown": [
+      { "text": "我", "role": "S", "label": "主語" },
+      { "text": "每天晚上", "role": "Time", "label": "時間詞" },
+      { "text": "给妈妈", "role": "Prep", "label": "対象(介詞句)" },
+      { "text": "打电话", "role": "V", "label": "動詞＋目的語" }
+    ],
+    "explanation": "「毎日」は「每天」（「每个天」とは言わない）で、その後に時間帯「晚上」を続けます。介詞句「给妈妈」は動詞「打电话」の前に置きます。",
+    "commonMistakes": [
+      { "wrong": "我每个天晚上给妈妈打电话。", "reason": "「天」には量詞「个」を付けません。" }
+    ]
+  },
+  {
+    "id": "C-G05-02-04",
+    "lessonId": "L05",
+    "minLesson": 5,
+    "grammarIds": ["G05-02"],
+    "difficulty": 2,
+    "japanesePrompt": "来週の午前中、私たちは先生と一緒に大学へ行きます。",
+    "targetGrammarHint": "「下个星期」と「上午」、場所の語順",
+    "hints": [
+      "枠組み：时间词 + 主語 + 跟老师 + 一起 + 去 + 大学。",
+      "語彙：来週(xià ge xīngqī) / 午前(shàngwǔ) / 一緒に(yìqǐ)",
+      "「星期」には量詞「个」を使い、「下个星期」とします。"
+    ],
+    "modelAnswer": "下个星期上午我们和老师一起去大学。",
+    "acceptableAnswers": [
+      "下个星期上午我们跟老师一起去大学。",
+      "我们下个星期上午和老师一起去大学。",
+      "我们下个星期上午跟老师一起去大学。"
+    ],
+    "pinyin": "Xià ge xīngqī shàngwǔ wǒmen hé lǎoshī yìqǐ qù dàxué.",
+    "structureBreakdown": [
+      { "text": "下个星期上午", "role": "Time", "label": "時間詞" },
+      { "text": "我们", "role": "S", "label": "主語" },
+      { "text": "和老师", "role": "Prep", "label": "共同対象" },
+      { "text": "一起", "role": "Adv", "label": "副詞" },
+      { "text": "去", "role": "V", "label": "動詞" },
+      { "text": "大学", "role": "O", "label": "目的語" }
+    ],
+    "explanation": "「来週の午前中」は「下个星期（大）＋上午（小）」の順に並べます。「誰々と一緒に」は「和 / 跟……一起」と表します。",
+    "commonMistakes": [
+      { "wrong": "上午下个星期我们一起去大学。", "reason": "時間詞は必ず大きい単位から小さい単位へ並べます。" }
+    ]
+  },
+  {
+    "id": "C-G05-02-05",
+    "lessonId": "L05",
+    "minLesson": 5,
+    "grammarIds": ["G05-02"],
+    "difficulty": 2,
+    "japanesePrompt": "兄は昨年東京にいて、今年は京都にいます。",
+    "targetGrammarHint": "時間詞「去年」「今年」と存在の「在」",
+    "hints": [
+      "枠組み：去年 + 哥哥 + 在东京，今年 + 在京都。",
+      "語彙：昨年(qùnián) / 今年(jīnnián) / 東京(Dōngjīng) / 京都(Jīngdū)",
+      "「去年」「今年」を主語の前または後ろに置いて対比させます。"
+    ],
+    "modelAnswer": "哥哥去年在东京，今年在京都。",
+    "acceptableAnswers": [
+      "去年哥哥在东京，今年在京都。",
+      "去年哥哥在东京，今年哥哥在京都。"
+    ],
+    "pinyin": "Gēge qùnián zài Dōngjīng, jīnnián zài Jīngdū.",
+    "structureBreakdown": [
+      { "text": "哥哥", "role": "S", "label": "主語" },
+      { "text": "去年", "role": "Time", "label": "時間詞" },
+      { "text": "在东京", "role": "V", "label": "所在述語" },
+      { "text": "今年", "role": "Time", "label": "時間詞" },
+      { "text": "在京都", "role": "V", "label": "所在述語" }
+    ],
+    "explanation": "「去年」「今年」には量詞も「在」も付けず、そのまま動詞「在（〜にいる）」の前に置きます。",
+    "commonMistakes": [
+      { "wrong": "哥哥在去年在东京。", "reason": "時間詞「去年」の前に介詞「在」を付けることはできません。" }
+    ]
+  },
+
+  {
+    "id": "C-G05-03-01",
+    "lessonId": "L05",
+    "minLesson": 5,
+    "grammarIds": ["G05-03"],
+    "difficulty": 1,
+    "japanesePrompt": "あなたは中国人ですか、それとも日本人ですか。",
+    "targetGrammarHint": "選択疑問文「是 A，还是 B？」",
+    "hints": [
+      "枠組み：你 + 是 + A，还是 + B？",
+      "語彙：中国人(Zhōngguórén) / 日本人(Rìběnrén) / それとも(háishi)",
+      "文末に「吗」は絶対に付けません。"
+    ],
+    "modelAnswer": "你是中国人，还是日本人？",
+    "acceptableAnswers": [
+      "你是中国人还是日本人？",
+      "你是中国人，还是是日本人？"
+    ],
+    "pinyin": "Nǐ shì Zhōngguórén, háishi Rìběnrén?",
+    "structureBreakdown": [
+      { "text": "你", "role": "S", "label": "主語" },
+      { "text": "是", "role": "V", "label": "動詞" },
+      { "text": "中国人", "role": "O", "label": "選択肢A" },
+      { "text": "还是", "role": "Conj", "label": "選択接続詞" },
+      { "text": "日本人", "role": "O", "label": "選択肢B" }
+    ],
+    "explanation": "「是」の選択疑問文では2つ目の「是」を省略し、「你是 A，还是 B？」と言うのが最も自然です。",
+    "commonMistakes": [
+      { "wrong": "你是中国人，还是日本人吗？", "reason": "選択疑問文の文末に「吗」を付けてはいけません。" }
+    ]
+  },
+  {
+    "id": "C-G05-03-02",
+    "lessonId": "L05",
+    "minLesson": 5,
+    "grammarIds": ["G05-03"],
+    "difficulty": 1,
+    "japanesePrompt": "あなたは緑茶を飲みますか、それともコーヒーを飲みますか。",
+    "targetGrammarHint": "動詞の反復を含む「V O1，还是 V O2？」",
+    "hints": [
+      "枠組み：你 + 喝 + 绿茶，还是 + 喝 + 咖啡？",
+      "語彙：緑茶(lǜchá) / コーヒー(kāfēi) / 飲む(hē)",
+      "「是」以外の一般動詞では「还是」の後ろでも動詞「喝」を繰り返します。"
+    ],
+    "modelAnswer": "你喝绿茶，还是喝咖啡？",
+    "acceptableAnswers": [
+      "你喝绿茶还是喝咖啡？",
+      "你喝绿茶，还是咖啡？"
+    ],
+    "pinyin": "Nǐ hē lǜchá, háishi hē kāfēi?",
+    "structureBreakdown": [
+      { "text": "你", "role": "S", "label": "主語" },
+      { "text": "喝", "role": "V", "label": "動詞" },
+      { "text": "绿茶", "role": "O", "label": "選択肢A" },
+      { "text": "还是", "role": "Conj", "label": "選択接続詞" },
+      { "text": "喝", "role": "V", "label": "動詞(反復)" },
+      { "text": "咖啡", "role": "O", "label": "選択肢B" }
+    ],
+    "explanation": "「喝〜，还是喝〜？」のように動詞を繰り返すことでバランスのよい選択疑問文になります。",
+    "commonMistakes": [
+      { "wrong": "你喝绿茶或者喝咖啡？", "reason": "「或者」は平叙文専用であり、疑問文では「还是」を使います。" }
+    ]
+  },
+  {
+    "id": "C-G05-03-03",
+    "lessonId": "L05",
+    "minLesson": 5,
+    "grammarIds": ["G05-03"],
+    "difficulty": 2,
+    "japanesePrompt": "私たちは今日行きますか、それとも明日行きますか。",
+    "targetGrammarHint": "時間詞を選択肢にした「还是」",
+    "hints": [
+      "枠組み：我们 + 今天去，还是 + 明天去？",
+      "語彙：今日(jīntiān) / 明日(míngtiān) / 行く(qù)",
+      "2つの「去」の両方に「今天」「明天」をそれぞれ前に置きます。"
+    ],
+    "modelAnswer": "我们今天去，还是明天去？",
+    "acceptableAnswers": [
+      "我们今天去还是明天去？"
+    ],
+    "pinyin": "Wǒmen jīntiān qù, háishi míngtiān qù?",
+    "structureBreakdown": [
+      { "text": "我们", "role": "S", "label": "主語" },
+      { "text": "今天去", "role": "V", "label": "選択肢A" },
+      { "text": "还是", "role": "Conj", "label": "選択接続詞" },
+      { "text": "明天去", "role": "V", "label": "選択肢B" }
+    ],
+    "explanation": "時期を問う選択疑問文では「今天去，还是明天去？」のように「時間詞＋動詞」を対比させます。",
+    "commonMistakes": [
+      { "wrong": "我们去今天，还是明天？", "reason": "時間詞「今天」「明天」は動詞「去」の前に置く必要があります。" }
+    ]
+  },
+  {
+    "id": "C-G05-03-04",
+    "lessonId": "L05",
+    "minLesson": 5,
+    "grammarIds": ["G05-03", "G05-05"],
+    "difficulty": 2,
+    "japanesePrompt": "彼は地下鉄に乗って学校へ行きますか、それとも路線バスに乗って行きますか。",
+    "targetGrammarHint": "連動文と選択疑問文の組み合わせ",
+    "hints": [
+      "枠組み：他 + 坐地铁去学校，还是 + 坐公共汽车去？",
+      "語彙：地下鉄(dìtiě) / 路線バス(gōnggòng qìchē) / 乗る(zuò)",
+      "2つ目の選択肢では「学校」を省略して「坐公共汽车去？」とすっきりさせられます。"
+    ],
+    "modelAnswer": "他坐地铁去学校，还是坐公共汽车去？",
+    "acceptableAnswers": [
+      "他坐地铁去学校，还是坐公共汽车去学校？",
+      "他坐地铁去学校还是坐公共汽车去？"
+    ],
+    "pinyin": "Tā zuò dìtiě qù xuéxiào, háishi zuò gōnggòng qìchē qù?",
+    "structureBreakdown": [
+      { "text": "他", "role": "S", "label": "主語" },
+      { "text": "坐地铁去学校", "role": "V", "label": "選択肢A(連動文)" },
+      { "text": "还是", "role": "Conj", "label": "選択接続詞" },
+      { "text": "坐公共汽车去", "role": "V", "label": "選択肢B" }
+    ],
+    "explanation": "交通手段を尋ねる選択疑問文です。文末に「吗」を付けないよう注意します。",
+    "commonMistakes": [
+      { "wrong": "他坐地铁去学校，还是坐公共汽车去吗？", "reason": "「还是」の文末に「吗」は不要です。" }
+    ]
+  },
+  {
+    "id": "C-G05-03-05",
+    "lessonId": "L05",
+    "minLesson": 5,
+    "grammarIds": ["G05-03"],
+    "difficulty": 2,
+    "japanesePrompt": "その辞書はあなたのものですか、それとも李さんのものですか。",
+    "targetGrammarHint": "「的」を使った所有の選択疑問文",
+    "hints": [
+      "枠組み：那本词典 + 是 + 你的，还是 + 小李的？",
+      "語彙：辞書(cídiǎn) / 冊(běn) / 李さん(Xiǎo Lǐ / Lǐ xiānsheng)",
+      "「〜のもの」は「你的」「小李的」のように「的」を付けて名詞化します。"
+    ],
+    "modelAnswer": "那本词典是你的，还是小李的？",
+    "acceptableAnswers": [
+      "那本词典是你的还是小李的？",
+      "那本词典是你的，还是李小姐的？"
+    ],
+    "pinyin": "Nà běn cídiǎn shì nǐ de, háishi Xiǎo Lǐ de?",
+    "structureBreakdown": [
+      { "text": "那本词典", "role": "S", "label": "主語" },
+      { "text": "是", "role": "V", "label": "動詞" },
+      { "text": "你的", "role": "O", "label": "選択肢A" },
+      { "text": "还是", "role": "Conj", "label": "選択接続詞" },
+      { "text": "小李的", "role": "O", "label": "選択肢B" }
+    ],
+    "explanation": "所有を表す「的」の後ろの名詞（词典）を省略し、「你的」「小李的」を選択肢として対比しています。",
+    "commonMistakes": [
+      { "wrong": "那本词典是你，还是小李？", "reason": "「的」を省くと「辞書はあなたか李さんか」という意味になってしまいます。" }
+    ]
+  },
+
+  {
+    "id": "C-G05-04-01",
+    "lessonId": "L05",
+    "minLesson": 5,
+    "grammarIds": ["G05-04"],
+    "difficulty": 1,
+    "japanesePrompt": "今日は昨日より暖かいです。",
+    "targetGrammarHint": "基本の比較文「A 比 B + 形容詞」",
+    "hints": [
+      "枠組み：今天 + 比 + 昨天 + 暖和。",
+      "語彙：今日(jīntiān) / 昨日(zuótiān) / 暖かい(nuǎnhuo)",
+      "「暖和」の前に「很」を付けてはいけません。"
+    ],
+    "modelAnswer": "今天比昨天暖和。",
+    "acceptableAnswers": [
+      "今天的天气比昨天暖和。"
+    ],
+    "pinyin": "Jīntiān bǐ zuótiān nuǎnhuo.",
+    "structureBreakdown": [
+      { "text": "今天", "role": "S", "label": "比較対象A" },
+      { "text": "比", "role": "Prep", "label": "比較介詞" },
+      { "text": "昨天", "role": "O", "label": "基準B" },
+      { "text": "暖和", "role": "P", "label": "形容詞述語" }
+    ],
+    "explanation": "「A 比 B + 形容詞」の基本文型です。通常の形容詞述語文と違い、「很」を付けないのがルールです。",
+    "commonMistakes": [
+      { "wrong": "今天比昨天很暖和。", "reason": "「比」構文の形容詞の前には「很・非常」などの程度副詞を置けません。" }
+    ]
+  },
+  {
+    "id": "C-G05-04-02",
+    "lessonId": "L05",
+    "minLesson": 5,
+    "grammarIds": ["G05-04"],
+    "difficulty": 2,
+    "japanesePrompt": "上海の冬は北京の冬ほど寒くありません。",
+    "targetGrammarHint": "否定比較「A 没有 B + 形容詞」",
+    "hints": [
+      "枠組み：上海的冬天 + 没有 + 北京的冬天 + 冷。",
+      "語彙：冬(dōngtiān) / 寒い(lěng)",
+      "「〜ほど…ではない」には「比」ではなく「没有」を使います。"
+    ],
+    "modelAnswer": "上海的冬天没有北京的冬天冷。",
+    "acceptableAnswers": [
+      "上海的冬天没有北京冷。",
+      "上海的冬天没有北京的冬天那么冷。",
+      "上海的冬天没有北京那么冷。"
+    ],
+    "pinyin": "Shànghǎi de dōngtiān méiyǒu Běijīng de dōngtiān lěng.",
+    "structureBreakdown": [
+      { "text": "上海的冬天", "role": "S", "label": "比較対象A" },
+      { "text": "没有", "role": "Neg", "label": "否定比較" },
+      { "text": "北京的冬天", "role": "O", "label": "基準B" },
+      { "text": "冷", "role": "P", "label": "形容詞述語" }
+    ],
+    "explanation": "「A 没有 B + 形容詞」は「AはBほど〜ではない」という否定比較を表します。第7課で学ぶ「那么」を「冷」の前に補うこともよくあります。",
+    "commonMistakes": [
+      { "wrong": "上海的冬天比北京的冬天不冷。", "reason": "否定比較に「比……不〜」は使わず、「没有」を使います。" }
+    ]
+  },
+  {
+    "id": "C-G05-04-03",
+    "lessonId": "L05",
+    "minLesson": 5,
+    "grammarIds": ["G05-04"],
+    "difficulty": 2,
+    "japanesePrompt": "地下鉄は路線バスよりずっと便利です。",
+    "targetGrammarHint": "差を強調する比較文「比……形容詞 + 得多」",
+    "hints": [
+      "枠組み：地铁 + 比 + 公共汽车 + 方便 + 得多。",
+      "語彙：地下鉄(dìtiě) / 路線バス(gōnggòng qìchē) / 便利だ(fāngbiàn)",
+      "「ずっと」は形容詞の前に「很」を置くのではなく、後ろに「得多」または「多了」を置きます。"
+    ],
+    "modelAnswer": "地铁比公共汽车方便得多。",
+    "acceptableAnswers": [
+      "地铁比公共汽车方便多了。",
+      "坐地铁比坐公共汽车方便得多。",
+      "坐地铁比坐公共汽车方便多了。"
+    ],
+    "pinyin": "Dìtiě bǐ gōnggòng qìchē fāngbiàn de duō.",
+    "structureBreakdown": [
+      { "text": "地铁", "role": "S", "label": "比較対象A" },
+      { "text": "比", "role": "Prep", "label": "比較介詞" },
+      { "text": "公共汽车", "role": "O", "label": "基準B" },
+      { "text": "方便", "role": "P", "label": "形容詞述語" },
+      { "text": "得多", "role": "C", "label": "差の補語" }
+    ],
+    "explanation": "比較で大きな差を表すときは、形容詞の後ろに「得多」または「多了」を添えます。",
+    "commonMistakes": [
+      { "wrong": "地铁比公共汽车很方便。", "reason": "「很」ではなく形容詞の後ろに「得多 / 多了」を使います。" }
+    ]
+  },
+  {
+    "id": "C-G05-04-04",
+    "lessonId": "L05",
+    "minLesson": 5,
+    "grammarIds": ["G05-04"],
+    "difficulty": 2,
+    "japanesePrompt": "兄は私より4歳年上です。",
+    "targetGrammarHint": "具体的な数量差を含む比較「比……大 + 数量」",
+    "hints": [
+      "枠組み：哥哥 + 比 + 我 + 大 + 四岁。",
+      "語彙：兄(gēge) / 年上(dà) / 4歳(sì suì)",
+      "具体的な数値「四岁」も形容詞「大」の後ろに置きます。"
+    ],
+    "modelAnswer": "哥哥比我大四岁。",
+    "acceptableAnswers": [
+      "我哥哥比我大四岁。"
+    ],
+    "pinyin": "Gēge bǐ wǒ dà sì suì.",
+    "structureBreakdown": [
+      { "text": "哥哥", "role": "S", "label": "比較対象A" },
+      { "text": "比", "role": "Prep", "label": "比較介詞" },
+      { "text": "我", "role": "O", "label": "基準B" },
+      { "text": "大", "role": "P", "label": "形容詞述語" },
+      { "text": "四岁", "role": "C", "label": "差(数量)" }
+    ],
+    "explanation": "年齢が「上」は「大」、「下」は「小」を使い、差の「四岁」を形容詞の後ろに置きます。",
+    "commonMistakes": [
+      { "wrong": "哥哥比我四岁大。", "reason": "数量差「四岁」を形容詞の前に置くことはできません。" }
+    ]
+  },
+  {
+    "id": "C-G05-04-05",
+    "lessonId": "L05",
+    "minLesson": 5,
+    "grammarIds": ["G05-04"],
+    "difficulty": 2,
+    "japanesePrompt": "このビルはあのビルより少し高いです。",
+    "targetGrammarHint": "わずかな差を表す「比……形容詞 + 一点儿」",
+    "hints": [
+      "枠組み：这座楼 + 比 + 那座楼 + 高 + 一点儿。",
+      "語彙：ビル・建物(lóu) / 高い(gāo) / 少し(yìdiǎnr)",
+      "「一点儿」は形容詞「高」の後ろに置きます。"
+    ],
+    "modelAnswer": "这座楼比那座楼高一点儿。",
+    "acceptableAnswers": [
+      "这个楼比那个楼高一点儿。",
+      "这栋楼比那栋楼高一点儿。"
+    ],
+    "pinyin": "Zhè zuò lóu bǐ nà zuò lóu gāo yìdiǎnr.",
+    "structureBreakdown": [
+      { "text": "这座楼", "role": "S", "label": "比較対象A" },
+      { "text": "比", "role": "Prep", "label": "比較介詞" },
+      { "text": "那座楼", "role": "O", "label": "基準B" },
+      { "text": "高", "role": "P", "label": "形容詞述語" },
+      { "text": "一点儿", "role": "C", "label": "差(わずか)" }
+    ],
+    "explanation": "わずかな差を表すときは形容詞の後ろに「一点儿」を置きます。建物の量詞には「座」「栋」「个」などが使えます。",
+    "commonMistakes": [
+      { "wrong": "这座楼比那座楼一点儿高。", "reason": "「一点儿」を形容詞の前に置くと意味が通じなくなります。" }
+    ]
+  },
+
+  {
+    "id": "C-G05-05-01",
+    "lessonId": "L05",
+    "minLesson": 5,
+    "grammarIds": ["G05-05"],
+    "difficulty": 1,
+    "japanesePrompt": "私は大学へ授業を受けに行きます。",
+    "targetGrammarHint": "移動＋目的の連動文「去 + 場所 + 動詞」",
+    "hints": [
+      "枠組み：我 + 去 + 大学 + 上课。",
+      "語彙：大学(dàxué) / 授業を受ける(shàngkè)",
+      "必ず「移動（去大学）」が先、「目的（上课）」が後になります。"
+    ],
+    "modelAnswer": "我去大学上课。",
+    "acceptableAnswers": [
+      "我去学校上课。"
+    ],
+    "pinyin": "Wǒ qù dàxué shàngkè.",
+    "structureBreakdown": [
+      { "text": "我", "role": "S", "label": "主語" },
+      { "text": "去", "role": "V", "label": "V1(移動)" },
+      { "text": "大学", "role": "O", "label": "O1(目的地)" },
+      { "text": "上课", "role": "V", "label": "V2(目的)" }
+    ],
+    "explanation": "「去＋場所＋動詞」の最も基本的な連動文です。",
+    "commonMistakes": [
+      { "wrong": "我上课去大学。", "reason": "日本語の「授業を受けに大学へ」に引かれて目的を前に出さないでください。" }
+    ]
+  },
+  {
+    "id": "C-G05-05-02",
+    "lessonId": "L05",
+    "minLesson": 5,
+    "grammarIds": ["G05-05"],
+    "difficulty": 1,
+    "japanesePrompt": "彼は地下鉄に乗って会社へ行きます。",
+    "targetGrammarHint": "交通手段の連動文「坐 + 乗り物 + 去 + 場所」",
+    "hints": [
+      "枠組み：他 + 坐 + 地铁 + 去 + 公司。",
+      "語彙：地下鉄(dìtiě) / 乗る(zuò) / 会社(gōngsī)",
+      "交通手段「坐地铁」を移動「去公司」の前に置きます。"
+    ],
+    "modelAnswer": "他坐地铁去公司。",
+    "acceptableAnswers": [],
+    "pinyin": "Tā zuò dìtiě qù gōngsī.",
+    "structureBreakdown": [
+      { "text": "他", "role": "S", "label": "主語" },
+      { "text": "坐", "role": "V", "label": "V1(手段)" },
+      { "text": "地铁", "role": "O", "label": "O1(乗り物)" },
+      { "text": "去", "role": "V", "label": "V2(移動)" },
+      { "text": "公司", "role": "O", "label": "O2(目的地)" }
+    ],
+    "explanation": "手段（地下鉄に乗る）が移動（会社へ行く）に先行するため、「坐地铁去公司」の語順になります。",
+    "commonMistakes": [
+      { "wrong": "他在地铁去公司。", "reason": "「〜で」に引きずられて介詞「在」を使うのは誤りです。動詞「坐」を使います。" },
+      { "wrong": "他去公司坐地铁。", "reason": "この語順だと「会社に行って（そこで）地下鉄に乗る」という逆の意味になってしまいます。" }
+    ]
+  },
+  {
+    "id": "C-G05-05-03",
+    "lessonId": "L05",
+    "minLesson": 5,
+    "grammarIds": ["G05-05"],
+    "difficulty": 2,
+    "japanesePrompt": "姉は毎日自転車に乗って図書館へ勉強しに行きます。",
+    "targetGrammarHint": "「時間詞 + 手段 + 移動 + 目的」の連動文",
+    "hints": [
+      "枠組み：姐姐 + 每天 + 骑自行车 + 去图书馆 + 学习。",
+      "語彙：毎日(měitiān) / 自転車に乗る(qí zìxíngchē) / 図書館(túshūguǎn) / 勉強する(xuéxí)",
+      "自転車に乗るのは「坐」ではなく「骑」を使います。"
+    ],
+    "modelAnswer": "姐姐每天骑自行车去图书馆学习。",
+    "acceptableAnswers": [
+      "每天姐姐骑自行车去图书馆学习。",
+      "姐姐每天骑自行车去图书馆看书。"
+    ],
+    "pinyin": "Jiějie měitiān qí zìxíngchē qù túshūguǎn xuéxí.",
+    "structureBreakdown": [
+      { "text": "姐姐", "role": "S", "label": "主語" },
+      { "text": "每天", "role": "Time", "label": "時間詞" },
+      { "text": "骑自行车", "role": "V", "label": "V1(手段)" },
+      { "text": "去图书馆", "role": "V", "label": "V2(移動)" },
+      { "text": "学习", "role": "V", "label": "V3(目的)" }
+    ],
+    "explanation": "手段「骑自行车」→ 移動「去图书馆」→ 目的「学习」の順に並べる3連続の連動文です。",
+    "commonMistakes": [
+      { "wrong": "姐姐每天坐自行车去图书馆学习。", "reason": "自転車はまたがって乗る乗り物なので「坐」ではなく「骑」を使います。" }
+    ]
+  },
+  {
+    "id": "C-G05-05-04",
+    "lessonId": "L05",
+    "minLesson": 5,
+    "grammarIds": ["G05-05"],
+    "difficulty": 2,
+    "japanesePrompt": "今日の夜、私たちは公園へ散歩に行きません。",
+    "targetGrammarHint": "連動文の否定「时间词 + 主语 + 不 + 去 + 场所 + 散步」",
+    "hints": [
+      "枠組み：今天晚上 + 我们 + 不 + 去公园 + 散步。",
+      "語彙：今夜(jīntiān wǎnshang) / 公園(gōngyuán) / 散歩する(sànbù)",
+      "否定の「不」は最初の動詞「去」の前に置きます。"
+    ],
+    "modelAnswer": "今天晚上我们不去公园散步。",
+    "acceptableAnswers": [
+      "我们今天晚上不去公园散步。"
+    ],
+    "pinyin": "Jīntiān wǎnshang wǒmen bú qù gōngyuán sànbù.",
+    "structureBreakdown": [
+      { "text": "今天晚上", "role": "Time", "label": "時間詞" },
+      { "text": "我们", "role": "S", "label": "主語" },
+      { "text": "不", "role": "Neg", "label": "否定副詞" },
+      { "text": "去公园", "role": "V", "label": "V1(移動)" },
+      { "text": "散步", "role": "V", "label": "V2(目的)" }
+    ],
+    "explanation": "連動文を否定する際は、否定副詞「不」を先頭の動詞（ここでは「去」）の直前に置きます。",
+    "commonMistakes": [
+      { "wrong": "今天晚上我们去公园不散步。", "reason": "否定の「不」はV2ではなくV1の前に置きます。" }
+    ]
+  },
+  {
+    "id": "C-G05-05-05",
+    "lessonId": "L05",
+    "minLesson": 5,
+    "grammarIds": ["G05-05"],
+    "difficulty": 2,
+    "japanesePrompt": "友達が今日、私の家へ写真を撮り に来ます。",
+    "targetGrammarHint": "「来 + 場所 + 動詞句」の連動文",
+    "hints": [
+      "枠組み：朋友 + 今天 + 来我家 + 拍照。",
+      "語彙：友達(péngyou) / 私の家(wǒ jiā) / 写真を撮る(pāizhào / pāi zhàopiàn)",
+      "「来る」という移動が先、「写真を撮る」が後になります。"
+    ],
+    "modelAnswer": "朋友今天来我家拍照。",
+    "acceptableAnswers": [
+      "今天朋友来我家拍照。",
+      "朋友今天来我家拍照片。",
+      "今天朋友来我家拍照片。"
+    ],
+    "pinyin": "Péngyou jīntiān lái wǒ jiā pāizhào.",
+    "structureBreakdown": [
+      { "text": "朋友", "role": "S", "label": "主語" },
+      { "text": "今天", "role": "Time", "label": "時間詞" },
+      { "text": "来我家", "role": "V", "label": "V1(移動)" },
+      { "text": "拍照", "role": "V", "label": "V2(目的)" }
+    ],
+    "explanation": "「来（来る）」を用いた目的を表す連動文です。時間詞「今天」は「朋友」の前でも後ろでも構いません。",
+    "commonMistakes": [
+      { "wrong": "朋友今天拍照来我家。", "reason": "目的を移動の前に置くことはできません。" }
+    ]
+  }
+]

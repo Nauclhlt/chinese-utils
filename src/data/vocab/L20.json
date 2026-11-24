@@ -1,0 +1,456 @@
+[
+  {
+    "id": "V20-001",
+    "hanzi": "更加",
+    "pinyin": "gèngjiā",
+    "tones": [4, 1],
+    "meaningJa": "いっそう・さらに",
+    "pos": "副詞",
+    "usage": "「更」の2音節形で、形容詞や心理動詞の前に置き「以前や他と比べてさらに〜だ」と強調する。",
+    "example": {
+      "hanzi": "练习了几次以后，他的发音变得更加自然了。",
+      "pinyin": "Liànxí le jǐ cì yǐhòu, tā de fāyīn biànde gèngjiā zìrán le.",
+      "ja": "何度か練習した後、彼の発音はいっそう自然になりました。"
+    },
+    "lessonId": "L20",
+    "minLesson": 20,
+    "source": "textbook-scope",
+    "grammarIds": ["G20-01"],
+    "synonyms": ["更"]
+  },
+  {
+    "id": "V20-002",
+    "hanzi": "有着",
+    "pinyin": "yǒuzhe",
+    "tones": [3, 5],
+    "meaningJa": "（〜を）有している・備えている",
+    "pos": "動詞",
+    "usage": "「有」に持続の「着」が付き、歴史・影響力・特徴・関係などを備え持っていることを表す（やや書き言葉的）。",
+    "example": {
+      "hanzi": "这座古城有着悠久的历史和独特的文化。",
+      "pinyin": "Zhè zuò gǔchéng yǒuzhe yōujiǔ de lìshǐ hé dútè de wénhuà.",
+      "ja": "この古い都市は長い歴史と独自の文化を有しています。"
+    },
+    "lessonId": "L20",
+    "minLesson": 20,
+    "source": "textbook-scope",
+    "grammarIds": ["G10-01", "G20-01"]
+  },
+  {
+    "id": "V20-003",
+    "hanzi": "语言",
+    "pinyin": "yǔyán",
+    "tones": [3, 2],
+    "meaningJa": "言語・言葉",
+    "pos": "名詞",
+    "usage": "話し言葉・書き言葉を含む「言語」全般を指す。量詞は「门 (mén)」または「种 (zhǒng)」。",
+    "example": {
+      "hanzi": "虽然语言不同，但是音乐能把大家联系在一起。",
+      "pinyin": "Suīrán yǔyán bùtóng, dànshì yīnyuè néng bǎ dàjiā liánxì zài yìqǐ.",
+      "ja": "言語は異なりますが、音楽は人々を結びつけることができます。"
+    },
+    "lessonId": "L20",
+    "minLesson": 20,
+    "source": "textbook-scope",
+    "grammarIds": ["G20-01"],
+    "measureWord": "门 / 种",
+    "related": ["汉语", "日语"]
+  },
+  {
+    "id": "V20-004",
+    "hanzi": "别说",
+    "pinyin": "biéshuō",
+    "tones": [2, 1],
+    "meaningJa": "〜は言うまでもなく・〜どころか",
+    "pos": "接続詞",
+    "usage": "「别说 A，连 B 都……」の形で用い、「Aはもちろんのこと、Bでさえ〜だ」と段階的な強調を表す。",
+    "example": {
+      "hanzi": "别说写论文了，他连简单的日常句子都还没写清楚。",
+      "pinyin": "Biéshuō xiě lùnwén le, tā lián jiǎndān de rìcháng jùzi dōu hái méi xiě qīngchu.",
+      "ja": "論文を書くどころか、彼は簡単な日常の文さえまだはっきり書けていません。"
+    },
+    "lessonId": "L20",
+    "minLesson": 20,
+    "source": "textbook-scope",
+    "grammarIds": ["G20-05"],
+    "related": ["连"]
+  },
+  {
+    "id": "V20-005",
+    "hanzi": "表演",
+    "pinyin": "biǎoyǎn",
+    "tones": [3, 3],
+    "meaningJa": "演じる・パフォーマンスする／演技・公演",
+    "pos": "動詞・名詞",
+    "usage": "劇・音楽・ダンスなどを人前で披露すること。名詞として「精彩的表演（素晴らしい演技）」のようにも使う。第3声連続のため発音上は biáoyǎn になる。",
+    "example": {
+      "hanzi": "台上演员们的表演非常精彩，观众不停地鼓掌。",
+      "pinyin": "Táishàng yǎnyuánmen de biǎoyǎn fēicháng jīngcǎi, guānzhòng bùtíng de gǔzhǎng.",
+      "ja": "舞台上の俳優たちの演技はとても素晴らしく、観客は絶えず拍手しました。"
+    },
+    "lessonId": "L20",
+    "minLesson": 20,
+    "source": "textbook-scope",
+    "grammarIds": ["G20-01"],
+    "measureWord": "场 / 个",
+    "synonyms": ["演出"]
+  },
+  {
+    "id": "V20-006",
+    "hanzi": "深深",
+    "pinyin": "shēnshēn",
+    "tones": [1, 1],
+    "meaningJa": "深く・しみじみと",
+    "pos": "副詞",
+    "usage": "形容詞「深」の重ね型から副詞化した語で、「深深（地）+ 动词（吸引・感动・怀念など）」の形で心理的な深さを表す。",
+    "example": {
+      "hanzi": "这部电影的故事深深打动了每一位观众。",
+      "pinyin": "Zhè bù diànyǐng de gùshi shēnshēn dǎdòng le měi yí wèi guānzhòng.",
+      "ja": "この映画の物語はすべての観客の心を深く打ちました。"
+    },
+    "lessonId": "L20",
+    "minLesson": 20,
+    "source": "textbook-scope",
+    "grammarIds": ["G14-02", "G20-04"]
+  },
+  {
+    "id": "V20-007",
+    "hanzi": "吸引",
+    "pinyin": "xīyǐn",
+    "tones": [1, 3],
+    "meaningJa": "引きつける・魅了する",
+    "pos": "動詞",
+    "usage": "「吸引 + 目的語（人・目光・注意力）」の形で、関心を強く惹きつけることを表す。",
+    "example": {
+      "hanzi": "虽然门票很贵，但展览的内容依然吸引了大批游客。",
+      "pinyin": "Suīrán ménpiào hěn guì, dàn zhǎnlǎn de nèiróng yīrán xīyǐn le dàpī yóukè.",
+      "ja": "入場券は高かったですが、展覧会の内容はやはり大勢の観光客を引きつけました。"
+    },
+    "lessonId": "L20",
+    "minLesson": 20,
+    "source": "textbook-scope",
+    "grammarIds": ["G20-01"]
+  },
+  {
+    "id": "V20-008",
+    "hanzi": "怀念",
+    "pinyin": "huáiniàn",
+    "tones": [2, 4],
+    "meaningJa": "懐かしむ・偲ぶ",
+    "pos": "動詞",
+    "usage": "過去の人・場所・出来事を思い起こして愛惜・懐古する。程度副詞「很・非常」で修飾できる。",
+    "example": {
+      "hanzi": "毕业这么多年了，我还是很怀念大学时代的同学们。",
+      "pinyin": "Bìyè zhème duō nián le, wǒ háishi hěn huáiniàn dàxué shídài de tóngxuémen.",
+      "ja": "卒業してこんなに年月が経ちましたが、私はやはり大学時代の同級生たちがとても懐かしいです。"
+    },
+    "lessonId": "L20",
+    "minLesson": 20,
+    "source": "textbook-scope",
+    "grammarIds": ["G20-01"],
+    "synonyms": ["想念"]
+  },
+  {
+    "id": "V20-009",
+    "hanzi": "死去",
+    "pinyin": "sǐqù",
+    "tones": [3, 4],
+    "meaningJa": "亡くなる・死んでいく",
+    "pos": "動詞",
+    "usage": "「死」に「去」が付いた語で、亡くなった事実や連体修飾「死去的……」の形でよく用いられる。",
+    "example": {
+      "hanzi": "老奶奶去世后，家人们都非常怀念死去的亲人。",
+      "pinyin": "Lǎonǎinai qùshì hòu, jiārénmen dōu fēicháng huáiniàn sǐqù de qīnrén.",
+      "ja": "お婆さんが亡くなった後、家族はみんな亡き肉親をとても偲んでいます。"
+    },
+    "lessonId": "L20",
+    "minLesson": 20,
+    "source": "textbook-scope",
+    "grammarIds": ["G14-01", "G20-04"],
+    "synonyms": ["去世"]
+  },
+  {
+    "id": "V20-010",
+    "hanzi": "悲痛",
+    "pinyin": "bēitòng",
+    "tones": [1, 4],
+    "meaningJa": "悲痛な・ひどく悲しむ",
+    "pos": "形容詞",
+    "usage": "深い悲しみや心の痛みを表す。連体修飾「悲痛的心情」や述語「感到非常悲痛」として用いる。",
+    "example": {
+      "hanzi": "听到这个不幸的消息，大家的心情都十分悲痛。",
+      "pinyin": "Tīngdào zhège búxìng de xiāoxi, dàjiā de xīnqíng dōu shífēn bēitòng.",
+      "ja": "この不幸な知らせを聞いて、みんなの気持ちはとても悲痛でした。"
+    },
+    "lessonId": "L20",
+    "minLesson": 20,
+    "source": "textbook-scope",
+    "grammarIds": ["G20-04"],
+    "synonyms": ["难过", "伤心"],
+    "antonyms": ["高兴", "愉快"]
+  },
+  {
+    "id": "V20-011",
+    "hanzi": "感动",
+    "pinyin": "gǎndòng",
+    "tones": [3, 4],
+    "meaningJa": "感動する・感動させる",
+    "pos": "動詞・形容詞",
+    "usage": "「感到很感动（とても感動する）」のように自動詞的に使うほか、「这件事感动了所有人」のように他動詞的にも使う。",
+    "example": {
+      "hanzi": "听了这位老师的故事，在场的学生不能不感动。",
+      "pinyin": "Tīng le zhè wèi lǎoshī de gùshi, zàichǎng de xuésheng bùnéngbù gǎndòng.",
+      "ja": "この先生の話を聞いて、その場にいた学生たちは感動しないわけにはいきませんでした。"
+    },
+    "lessonId": "L20",
+    "minLesson": 20,
+    "source": "textbook-scope",
+    "grammarIds": ["G20-04"]
+  },
+  {
+    "id": "V20-012",
+    "hanzi": "掉",
+    "pinyin": "diào",
+    "tones": [4],
+    "meaningJa": "落ちる・こぼれる・落とす",
+    "pos": "動詞",
+    "usage": "涙・葉・物などが落ちることを表すほか、結果補語（「忘掉」「丢掉」など）としてもよく使う。",
+    "example": {
+      "hanzi": "看到感人的那一幕，他忍不住掉下了眼泪。",
+      "pinyin": "Kàndào gǎnrén de nà yí mù, tā rěnbuzhù diào xià le yǎnlèi.",
+      "ja": "感動的なその一幕を見て、彼はこらえきれず涙をこぼしました。"
+    },
+    "lessonId": "L20",
+    "minLesson": 20,
+    "source": "textbook-scope",
+    "grammarIds": ["G20-03"],
+    "related": ["眼泪"]
+  },
+  {
+    "id": "V20-013",
+    "hanzi": "眼泪",
+    "pinyin": "yǎnlèi",
+    "tones": [3, 4],
+    "meaningJa": "涙",
+    "pos": "名詞",
+    "usage": "「掉眼泪（涙を流す）」「流眼泪（涙を流す）」「擦眼泪（涙を拭く）」のコロケーションで用いる。",
+    "example": {
+      "hanzi": "她一边笑着，一边擦去脸上的眼泪。",
+      "pinyin": "Tā yìbiān xiào zhe, yìbiān cāqù liǎnshang de yǎnlèi.",
+      "ja": "彼女は笑いながら、顔の涙を拭いました。"
+    },
+    "lessonId": "L20",
+    "minLesson": 20,
+    "source": "textbook-scope",
+    "grammarIds": ["G20-03"],
+    "measureWord": "滴",
+    "related": ["掉"]
+  },
+  {
+    "id": "V20-014",
+    "hanzi": "不知不觉",
+    "pinyin": "bù zhī bù jué",
+    "tones": [4, 1, 4, 2],
+    "meaningJa": "知らず知らずのうちに・いつの間にか",
+    "pos": "成語・副詞",
+    "usage": "気づかないうちに時間や変化が進んでいる様子を表す4字成語。「不知不觉地 + V」または「不知不觉就 + V」の形で使う。",
+    "example": {
+      "hanzi": "我们一边聊天一边喝茶，不知不觉就到了晚上九点。",
+      "pinyin": "Wǒmen yìbiān liáotiān yìbiān hē chá, bù zhī bù jué jiù dào le wǎnshang jiǔ diǎn.",
+      "ja": "おしゃべりをしながらお茶を飲んでいたら、いつの間にか夜9時になっていました。"
+    },
+    "lessonId": "L20",
+    "minLesson": 20,
+    "source": "textbook-scope",
+    "grammarIds": ["G20-03"]
+  },
+  {
+    "id": "V20-015",
+    "hanzi": "结束",
+    "pinyin": "jiéshù",
+    "tones": [2, 4],
+    "meaningJa": "終わる・終了する",
+    "pos": "動詞",
+    "usage": "会議・公演・授業・活動などが終わることを表す。「……结束以后（〜が終わった後）」「结束工作（仕事を終える）」。",
+    "example": {
+      "hanzi": "考试刚刚结束，同学们就讨论起刚才的题目。",
+      "pinyin": "Kǎoshì gānggāng jiéshù, tóngxuémen jiù tǎolùn qǐ gāngcái de tímù.",
+      "ja": "試験が終わるやいなや、同級生たちはさっきの問題について話し始めました。"
+    },
+    "lessonId": "L20",
+    "minLesson": 20,
+    "source": "textbook-scope",
+    "grammarIds": ["G20-02"],
+    "antonyms": ["开始"]
+  },
+  {
+    "id": "V20-016",
+    "hanzi": "回答",
+    "pinyin": "huídá",
+    "tones": [2, 2],
+    "meaningJa": "答える・返事をする／回答",
+    "pos": "動詞・名詞",
+    "usage": "質問に対して答える。「回答问题（質問に答える）」「一个字也没回答（一文字も答えなかった）」。",
+    "example": {
+      "hanzi": "连最简单的第一道问题他也没有回答出来。",
+      "pinyin": "Lián zuì jiǎndān de dì yī dào wèntí tā yě méiyǒu huídá chūlái.",
+      "ja": "一番簡単な第1問でさえ、彼は答えることができませんでした。"
+    },
+    "lessonId": "L20",
+    "minLesson": 20,
+    "source": "textbook-scope",
+    "grammarIds": ["G20-02", "G20-05"],
+    "antonyms": ["问", "提问"]
+  },
+  {
+    "id": "V20-017",
+    "hanzi": "精彩",
+    "pinyin": "jīngcǎi",
+    "tones": [1, 3],
+    "meaningJa": "素晴らしい・見事だ",
+    "pos": "形容詞",
+    "usage": "演技・試合・スピーチ・文章などの出来栄えが非常に優れて見応え・聞き応えがあるときに使う。",
+    "example": {
+      "hanzi": "虽然排练时间很短，但他们的演出依然非常精彩。",
+      "pinyin": "Suīrán páiliàn shíjiān hěn duǎn, dàn tāmen de yǎnchū yīrán fēicháng jīngcǎi.",
+      "ja": "リハーサルの時間は短かったのですが、彼らの公演はやはり非常に素晴らしいものでした。"
+    },
+    "lessonId": "L20",
+    "minLesson": 20,
+    "source": "textbook-scope",
+    "grammarIds": ["G20-01"],
+    "related": ["表演"]
+  },
+  {
+    "id": "V20-018",
+    "hanzi": "路上",
+    "pinyin": "lùshang",
+    "tones": [4, 5],
+    "meaningJa": "道中・途中・路上",
+    "pos": "方位詞・名詞",
+    "usage": "「回家的路上（帰宅の途中）」「在路上（途中で・道の上で）」のように移動の途中を表す。「上」は軽声。",
+    "example": {
+      "hanzi": "上学的路上，我一边听中文录音，一边记单词。",
+      "pinyin": "Shàngxué de lùshang, wǒ yìbiān tīng Zhōngwén lùyīn, yìbiān jì dāncí.",
+      "ja": "通学の途中、私は中国語の音声を聴きながら単語を覚えました。"
+    },
+    "lessonId": "L20",
+    "minLesson": 20,
+    "source": "textbook-scope",
+    "grammarIds": ["G20-03"]
+  },
+  {
+    "id": "V20-019",
+    "hanzi": "魅力",
+    "pinyin": "mèilì",
+    "tones": [4, 4],
+    "meaningJa": "魅力",
+    "pos": "名詞",
+    "usage": "人・芸術・文化などが持つ人を惹きつける力。「有魅力（魅力がある）」「文化的魅力」。",
+    "example": {
+      "hanzi": "了解中国历史以后，我更加感受到汉语的魅力。",
+      "pinyin": "Liǎojiě Zhōngguó lìshǐ yǐhòu, wǒ gèngjiā gǎnshòudào Hànyǔ de mèilì.",
+      "ja": "中国の歴史を理解してから、私は中国語の魅力をいっそう感じるようになりました。"
+    },
+    "lessonId": "L20",
+    "minLesson": 20,
+    "source": "textbook-scope",
+    "grammarIds": ["G20-01", "G20-04"],
+    "related": ["吸引"]
+  },
+  {
+    "id": "V20-020",
+    "hanzi": "虽然",
+    "pinyin": "suīrán",
+    "tones": [1, 2],
+    "meaningJa": "〜けれども・〜ではあるが",
+    "pos": "接続詞",
+    "usage": "逆接複文の前件を導き、通常後件で「但是 / 可是 / 不过」と呼応する。",
+    "example": {
+      "hanzi": "虽然今天的任务有点儿多，但是我们都能按时完成。",
+      "pinyin": "Suīrán jīntiān de rènwu yǒudiǎnr duō, dànshì wǒmen dōu néng ànshí wánchéng.",
+      "ja": "今日の課題は少し多いですが、私たちはみんな時間通りに終えられます。"
+    },
+    "lessonId": "L20",
+    "minLesson": 20,
+    "source": "textbook-scope",
+    "grammarIds": ["G20-01"],
+    "related": ["但是"]
+  },
+  {
+    "id": "V20-021",
+    "hanzi": "但是",
+    "pinyin": "dànshì",
+    "tones": [4, 4],
+    "meaningJa": "しかし・だが",
+    "pos": "接続詞",
+    "usage": "「虽然」と呼応して逆接の後件を導くほか、単独で文頭において前の文に逆接する用法もある。",
+    "example": {
+      "hanzi": "我本来想去书店，但是外面下大雨，只好留在家里。",
+      "pinyin": "Wǒ běnlái xiǎng qù shūdiàn, dànshì wàimiàn xià dà yǔ, zhǐhǎo liú zài jiā lǐ.",
+      "ja": "私はもともと本屋へ行きたかったのですが、外は大雨が降っていたので家にいるしかありませんでした。"
+    },
+    "lessonId": "L20",
+    "minLesson": 20,
+    "source": "textbook-scope",
+    "grammarIds": ["G20-01"],
+    "synonyms": ["可是", "不过"],
+    "related": ["虽然"]
+  },
+  {
+    "id": "V20-022",
+    "hanzi": "一边",
+    "pinyin": "yībiān",
+    "tones": [1, 1],
+    "meaningJa": "〜しながら（並行動作）",
+    "pos": "副詞",
+    "usage": "「一边……，一边……」の形で2つの同時並行動作を表す。本来の声調は第1声だが、後ろが第1声の「biān」なので発音上は「yìbiān」に変調する。",
+    "example": {
+      "hanzi": "晚饭后，爷爷一边喝茶一边看报纸。",
+      "pinyin": "Wǎnfàn hòu, yéye yìbiān hē chá yìbiān kàn bàozhǐ.",
+      "ja": "夕食後、祖父はお茶を飲みながら新聞を読みます。"
+    },
+    "lessonId": "L20",
+    "minLesson": 20,
+    "source": "textbook-scope",
+    "grammarIds": ["G20-03"]
+  },
+  {
+    "id": "V20-023",
+    "hanzi": "不得不",
+    "pinyin": "bù dé bù",
+    "tones": [4, 2, 4],
+    "meaningJa": "〜せざるを得ない・やむを得ず〜する",
+    "pos": "副詞的熟語",
+    "usage": "二重否定により「不本意・制約のためにそうせざるを得ない」ことを表す。後ろに動詞句を続ける。",
+    "example": {
+      "hanzi": "因为明天要早起赶飞机，我今晚不得不早点休息。",
+      "pinyin": "Yīnwèi míngtiān yào zǎoqǐ gǎn fēijī, wǒ jīnwǎn bùdébù zǎodiǎn xiūxi.",
+      "ja": "明日は早起きして飛行機に乗らなければならないので、今夜は早めに休まざるを得ません。"
+    },
+    "lessonId": "L20",
+    "minLesson": 20,
+    "source": "textbook-scope",
+    "grammarIds": ["G20-04"],
+    "synonyms": ["不能不"]
+  },
+  {
+    "id": "V20-024",
+    "hanzi": "连",
+    "pinyin": "lián",
+    "tones": [2],
+    "meaningJa": "〜さえ・〜までも",
+    "pos": "介詞・副詞",
+    "usage": "「连 + 対象 + 都 / 也 + 述語」の形で極端な例を取り立てて強調する。",
+    "example": {
+      "hanzi": "他急着出门，连钥匙都忘在桌上了。",
+      "pinyin": "Tā jí zhe chūmén, lián yàoshi dōu wàng zài zhuō shàng le.",
+      "ja": "彼は急いで出かけて、鍵さえ机の上に忘れてしまいました。"
+    },
+    "lessonId": "L20",
+    "minLesson": 20,
+    "source": "textbook-scope",
+    "grammarIds": ["G20-05"],
+    "related": ["别说"]
+  }
+]

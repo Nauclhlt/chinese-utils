@@ -1,0 +1,568 @@
+[
+  {
+    "id": "C-G02-01-01",
+    "lessonId": "L02",
+    "minLesson": 2,
+    "grammarIds": ["G02-01"],
+    "difficulty": 1,
+    "japanesePrompt": "彼は私の友達です。",
+    "targetGrammarHint": "人称代詞「我」に「的」を付けて「私の友達」を作ります。",
+    "hints": [
+      "「他＋是＋私の＋友達」の語順にします。",
+      "友達は「朋友 (péngyou)」、の は「的 (de)」です。",
+      "他是（　）朋友。"
+    ],
+    "modelAnswer": "他是我的朋友。",
+    "acceptableAnswers": ["他是我的朋友"],
+    "pinyin": "Tā shì wǒ de péngyou.",
+    "structureBreakdown": [
+      { "text": "他", "role": "S", "label": "主語" },
+      { "text": "是", "role": "V", "label": "判断動詞" },
+      { "text": "我的", "role": "Attr", "label": "修飾語" },
+      { "text": "朋友", "role": "O", "label": "名詞" }
+    ],
+    "explanation": "親族（爸爸・妈妈など）と異なり、一般的な「朋友」や所有物を修飾するときは「的」を付けるのが標準です。",
+    "commonMistakes": [
+      { "wrong": "他是我朋友。", "reason": "会話では省略されることもありますが、基本の連体修飾としては「我的朋友」と「的」を入れるのが確実です。" }
+    ]
+  },
+  {
+    "id": "C-G02-01-02",
+    "lessonId": "L02",
+    "minLesson": 2,
+    "grammarIds": ["G02-01"],
+    "difficulty": 1,
+    "japanesePrompt": "王先生は私たちの大学の先生です。",
+    "targetGrammarHint": "所属組織「我们大学」では前の「的」を省略し、後ろの「的」を残します。",
+    "hints": [
+      "「王先生＋是＋私たちの大学の＋先生」の語順です。",
+      "「我们大学」の後ろに「的」を置いて「老师」を修飾します。",
+      "王老师是（　）老师。"
+    ],
+    "modelAnswer": "王老师是我们大学的老师。",
+    "acceptableAnswers": [
+      "王老师是我们大学的老师",
+      "王老师是我们的大学的老师。",
+      "王老师是我们的大学的老师"
+    ],
+    "pinyin": "Wáng lǎoshī shì wǒmen dàxué de lǎoshī.",
+    "structureBreakdown": [
+      { "text": "王老师", "role": "S", "label": "主語" },
+      { "text": "是", "role": "V", "label": "判断動詞" },
+      { "text": "我们大学的", "role": "Attr", "label": "修飾語" },
+      { "text": "老师", "role": "O", "label": "名詞" }
+    ],
+    "explanation": "「的」が連続するのを避けるため、また「大学」は自分が所属する機関であるため、「我们」の後ろの「的」を省略するのが自然です。",
+    "commonMistakes": [
+      { "wrong": "王老师是我们的大学老师。", "reason": "「我们大学的老师」と「大学」の後ろに「的」を置く方が所有・所属関係が明確になります。" }
+    ]
+  },
+  {
+    "id": "C-G02-01-03",
+    "lessonId": "L02",
+    "minLesson": 2,
+    "grammarIds": ["G02-01"],
+    "difficulty": 2,
+    "japanesePrompt": "中国語の本は私のものです。",
+    "targetGrammarHint": "「的」の後ろの名詞（书）を省略して「我的（私のもの）」とします。",
+    "hints": [
+      "「中国語の本＋是＋私のもの」の語順にします。",
+      "中国語の本は「汉语书 (Hànyǔ shū)」、私のものは「我的 (wǒ de)」です。",
+      "汉语书是（　）。"
+    ],
+    "modelAnswer": "汉语书是我的。",
+    "acceptableAnswers": ["汉语书是我的", "中文书是我的。", "中文书是我的"],
+    "pinyin": "Hànyǔ shū shì wǒ de.",
+    "structureBreakdown": [
+      { "text": "汉语书", "role": "S", "label": "主語" },
+      { "text": "是", "role": "V", "label": "判断動詞" },
+      { "text": "我的", "role": "O", "label": "的構文(私のもの)" }
+    ],
+    "explanation": "主語で「书」が出ているため、述語側の「我的书」から「书」を省略して「我的」だけで「私のもの」を表せます。",
+    "commonMistakes": [
+      { "wrong": "汉语书是我。", "reason": "「的」を落とすと「本＝私（人間）」というおかしな意味になってしまいます。" }
+    ]
+  },
+  {
+    "id": "C-G02-01-04",
+    "lessonId": "L02",
+    "minLesson": 2,
+    "grammarIds": ["G02-01"],
+    "difficulty": 2,
+    "japanesePrompt": "私の兄は先生ではありません。",
+    "targetGrammarHint": "親族の前での「的」の省略と、否定「不是」を組み合わせます。",
+    "hints": [
+      "「我哥哥＋不是＋先生」の語順にします。",
+      "兄は「哥哥 (gēge)」、先生は「老师 (lǎoshī)」です。",
+      "（　）不是老师。"
+    ],
+    "modelAnswer": "我哥哥不是老师。",
+    "acceptableAnswers": ["我哥哥不是老师", "我的哥哥不是老师。", "我的哥哥不是老师"],
+    "pinyin": "Wǒ gēge bù shì lǎoshī.",
+    "structureBreakdown": [
+      { "text": "我哥哥", "role": "S", "label": "主語" },
+      { "text": "不是", "role": "V", "label": "否定判断" },
+      { "text": "老师", "role": "O", "label": "名詞" }
+    ],
+    "explanation": "親族名詞（爸爸、妈妈、哥哥、姐姐など）は話し手と不可分な関係にあるため、通常「我」の後の「的」を省いて「我哥哥」と言います。",
+    "commonMistakes": [
+      { "wrong": "我哥哥是不老师。", "reason": "否定の「不」は「是」の前に置きます。" }
+    ]
+  },
+  {
+    "id": "C-G02-01-05",
+    "lessonId": "L02",
+    "minLesson": 2,
+    "grammarIds": ["G02-01"],
+    "difficulty": 2,
+    "japanesePrompt": "私の妹は張先生の本を読みます。",
+    "targetGrammarHint": "「我妹妹（的省略）」と「张老师的书（的所有）」を使い分けます。",
+    "hints": [
+      "「我妹妹＋動詞（読む）＋張先生の＋本」の語順です。",
+      "読むは「看 (kàn)」、本は「书 (shū)」です。",
+      "我妹妹看（　）。"
+    ],
+    "modelAnswer": "我妹妹看张老师的书。",
+    "acceptableAnswers": ["我妹妹看张老师的书", "我的妹妹看张老师的书。"],
+    "pinyin": "Wǒ mèimei kàn Zhāng lǎoshī de shū.",
+    "structureBreakdown": [
+      { "text": "我妹妹", "role": "S", "label": "主語" },
+      { "text": "看", "role": "V", "label": "動詞" },
+      { "text": "张老师的", "role": "Attr", "label": "修飾語" },
+      { "text": "书", "role": "O", "label": "目的語" }
+    ],
+    "explanation": "親族「我妹妹」では「的」を省略し、物の所有「张老师的书」では「的」をしっかり入れると自然な文になります。",
+    "commonMistakes": [
+      { "wrong": "我妹妹看书张老师的。", "reason": "修飾語「张老师的」は必ず名詞「书」の前に置きます。" }
+    ]
+  },
+  {
+    "id": "C-G02-02-01",
+    "lessonId": "L02",
+    "minLesson": 2,
+    "grammarIds": ["G02-02"],
+    "difficulty": 1,
+    "japanesePrompt": "あなたは留学生ですか。",
+    "targetGrammarHint": "平叙文の文末に語気助詞「吗」を付けます。",
+    "hints": [
+      "「你是留学生」の最後に「吗」を付けます。",
+      "留学生は「留学生 (liúxuéshēng)」です。",
+      "你是留学生（　）？"
+    ],
+    "modelAnswer": "你是留学生吗？",
+    "acceptableAnswers": ["你是留学生吗", "您是留学生吗？", "您是留学生吗"],
+    "pinyin": "Nǐ shì liúxuéshēng ma?",
+    "structureBreakdown": [
+      { "text": "你", "role": "S", "label": "主語" },
+      { "text": "是", "role": "V", "label": "判断動詞" },
+      { "text": "留学生", "role": "O", "label": "名詞" },
+      { "text": "吗", "role": "Aux", "label": "語気助詞" }
+    ],
+    "explanation": "中国語の Yes/No 疑問文は語順を変えず、平叙文の文末に軽声の「吗」を置くだけで作れます。",
+    "commonMistakes": [
+      { "wrong": "是你留学生吗？", "reason": "英語のように主語と動詞を倒置させる必要はありません。" }
+    ]
+  },
+  {
+    "id": "C-G02-02-02",
+    "lessonId": "L02",
+    "minLesson": 2,
+    "grammarIds": ["G02-02"],
+    "difficulty": 1,
+    "japanesePrompt": "私は日本人です。あなたは？",
+    "targetGrammarHint": "前半は「是」構文、後半は問い返しの「呢」を使います。",
+    "hints": [
+      "「我是日本人，」に続けて「あなた＋呢？」を置きます。",
+      "問い返しには「吗」ではなく「呢 (ne)」を使います。",
+      "我是日本人，（　）？"
+    ],
+    "modelAnswer": "我是日本人，你呢？",
+    "acceptableAnswers": ["我是日本人，你呢", "我是日本人,你呢？", "我是日本人，您呢？"],
+    "pinyin": "Wǒ shì Rìběnrén, nǐ ne?",
+    "structureBreakdown": [
+      { "text": "我", "role": "S", "label": "主語" },
+      { "text": "是", "role": "V", "label": "判断動詞" },
+      { "text": "日本人", "role": "O", "label": "名詞" },
+      { "text": "你", "role": "S", "label": "対象" },
+      { "text": "呢", "role": "Aux", "label": "語気助詞" }
+    ],
+    "explanation": "「你呢？」は直前の「我是日本人」を受けて「あなたの国籍は何ですか／あなたも日本人ですか」と尋ねる自然な省略疑問です。",
+    "commonMistakes": [
+      { "wrong": "我是日本人，你吗？", "reason": "代詞の後ろに「吗」だけを付けて「あなたは？」と聞くことはできません。" }
+    ]
+  },
+  {
+    "id": "C-G02-02-03",
+    "lessonId": "L02",
+    "minLesson": 2,
+    "grammarIds": ["G02-02"],
+    "difficulty": 1,
+    "japanesePrompt": "陳さんはコーヒーを飲みますか。（陳さん＝男性）",
+    "targetGrammarHint": "動詞述語文＋「吗」を使います。",
+    "hints": [
+      "「陈先生＋喝＋咖啡＋吗？」の語順です。",
+      "コーヒーは「咖啡 (kāfēi)」です。",
+      "陈先生喝咖啡（　）？"
+    ],
+    "modelAnswer": "陈先生喝咖啡吗？",
+    "acceptableAnswers": ["陈先生喝咖啡吗"],
+    "pinyin": "Chén xiānsheng hē kāfēi ma?",
+    "structureBreakdown": [
+      { "text": "陈先生", "role": "S", "label": "主語" },
+      { "text": "喝", "role": "V", "label": "動詞" },
+      { "text": "咖啡", "role": "O", "label": "目的語" },
+      { "text": "吗", "role": "Aux", "label": "語気助詞" }
+    ],
+    "explanation": "一般動詞の疑問文も「是」の文と同じく、文末に「吗」を付けるだけです。",
+    "commonMistakes": [
+      { "wrong": "陈先生喝吗咖啡？", "reason": "「吗」は必ず文末に置きます。" }
+    ]
+  },
+  {
+    "id": "C-G02-02-04",
+    "lessonId": "L02",
+    "minLesson": 2,
+    "grammarIds": ["G02-02", "G02-01"],
+    "difficulty": 2,
+    "japanesePrompt": "彼女はあなたのクラスメートですか。",
+    "targetGrammarHint": "「的」による修飾と「吗」疑問文を組み合わせます。",
+    "hints": [
+      "「她＋是＋你的＋同学＋吗？」の語順です。",
+      "クラスメートは「同学 (tóngxué)」です。",
+      "她是（　）吗？"
+    ],
+    "modelAnswer": "她是你的同学吗？",
+    "acceptableAnswers": ["她是你的同学吗", "她是你同学吗？", "她是你同学吗"],
+    "pinyin": "Tā shì nǐ de tóngxué ma?",
+    "structureBreakdown": [
+      { "text": "她", "role": "S", "label": "主語" },
+      { "text": "是", "role": "V", "label": "判断動詞" },
+      { "text": "你的", "role": "Attr", "label": "修飾語" },
+      { "text": "同学", "role": "O", "label": "名詞" },
+      { "text": "吗", "role": "Aux", "label": "語気助詞" }
+    ],
+    "explanation": "「你的同学」で「あなたのクラスメート」を表し、文末に「吗」を付けて尋ねます。",
+    "commonMistakes": [
+      { "wrong": "她是你的同学呢？", "reason": "初出の Yes/No の質問では「呢」ではなく「吗」を使います。" }
+    ]
+  },
+  {
+    "id": "C-G02-02-05",
+    "lessonId": "L02",
+    "minLesson": 2,
+    "grammarIds": ["G02-02"],
+    "difficulty": 2,
+    "japanesePrompt": "私はお茶を飲みます。彼のお姉さんは（どうですか）？",
+    "targetGrammarHint": "「我喝茶」に続けて「他姐姐呢？」と問い返します。",
+    "hints": [
+      "前半は「我＋喝＋茶」、後半は「他姐姐＋呢？」です。",
+      "お姉さんは「姐姐 (jiějie)」です（親族なので「的」省略が自然）。",
+      "我喝茶，（　）？"
+    ],
+    "modelAnswer": "我喝茶，他姐姐呢？",
+    "acceptableAnswers": [
+      "我喝茶，他姐姐呢",
+      "我喝茶，他的姐姐呢？",
+      "我喝茶,他姐姐呢？"
+    ],
+    "pinyin": "Wǒ hē chá, tā jiějie ne?",
+    "structureBreakdown": [
+      { "text": "我", "role": "S", "label": "主語" },
+      { "text": "喝", "role": "V", "label": "動詞" },
+      { "text": "茶", "role": "O", "label": "目的語" },
+      { "text": "他姐姐", "role": "S", "label": "対象" },
+      { "text": "呢", "role": "Aux", "label": "語気助詞" }
+    ],
+    "explanation": "「他姐姐呢？」とすることで「彼のお姉さんはお茶を飲みますか（それとも何を飲みますか）」と自然に話題を向けられます。",
+    "commonMistakes": [
+      { "wrong": "我喝茶，他姐姐吗？", "reason": "名詞句だけで問い返す場合は「吗」ではなく「呢」を使います。" }
+    ]
+  },
+  {
+    "id": "C-G02-03-01",
+    "lessonId": "L02",
+    "minLesson": 2,
+    "grammarIds": ["G02-03"],
+    "difficulty": 1,
+    "japanesePrompt": "私も大学生です。",
+    "targetGrammarHint": "副詞「也」を主語「我」と述語「是」の間に置きます。",
+    "hints": [
+      "「我＋也＋是＋大学生」の語順です。",
+      "「也 (yě)」は必ず動詞「是」の直前に置きます。",
+      "我（　）大学生。"
+    ],
+    "modelAnswer": "我也是大学生。",
+    "acceptableAnswers": ["我也是大学生"],
+    "pinyin": "Wǒ yě shì dàxuéshēng.",
+    "structureBreakdown": [
+      { "text": "我", "role": "S", "label": "主語" },
+      { "text": "也", "role": "Adv", "label": "副詞" },
+      { "text": "是", "role": "V", "label": "判断動詞" },
+      { "text": "大学生", "role": "O", "label": "名詞" }
+    ],
+    "explanation": "日本語の「私も」は「私」の直後に「も」が付きますが、中国語でも語順上は「我」の後・述語「是」の前に入るため「我也是〜」となります。",
+    "commonMistakes": [
+      { "wrong": "也我是大学生。", "reason": "「也」を文頭（主語の前）に置くことはできません。" }
+    ]
+  },
+  {
+    "id": "C-G02-03-02",
+    "lessonId": "L02",
+    "minLesson": 2,
+    "grammarIds": ["G02-03"],
+    "difficulty": 1,
+    "japanesePrompt": "彼女も先生ではありません。",
+    "targetGrammarHint": "否定文では「也＋不＋述語」の語順になります。",
+    "hints": [
+      "「她＋也＋不是＋老师」の順です。",
+      "「不」と「也」が重なるときは「也」が先、「不」が後です。",
+      "她（　）老师。"
+    ],
+    "modelAnswer": "她也不是老师。",
+    "acceptableAnswers": ["她也不是老师"],
+    "pinyin": "Tā yě bù shì lǎoshī.",
+    "structureBreakdown": [
+      { "text": "她", "role": "S", "label": "主語" },
+      { "text": "也", "role": "Adv", "label": "副詞" },
+      { "text": "不是", "role": "V", "label": "否定判断" },
+      { "text": "老师", "role": "O", "label": "名詞" }
+    ],
+    "explanation": "「〜も〜ない」は常に「S + 也 + 不 + 述語」の順になります。",
+    "commonMistakes": [
+      { "wrong": "她不也是老师。", "reason": "「不」を「也」の前に置く語順は誤りです。" }
+    ]
+  },
+  {
+    "id": "C-G02-03-03",
+    "lessonId": "L02",
+    "minLesson": 2,
+    "grammarIds": ["G02-03"],
+    "difficulty": 2,
+    "japanesePrompt": "私は中国語を学び、日本語も学びます。",
+    "targetGrammarHint": "目的語が追加される場合も「也」は動詞の前に置きます。",
+    "hints": [
+      "「我学习汉语，也学习日语。」の構成です。",
+      "「日本語も」だからといって「日语也」とはせず、「也学习日语」とします。",
+      "我学习汉语，（　）。"
+    ],
+    "modelAnswer": "我学习汉语，也学习日语。",
+    "acceptableAnswers": [
+      "我学习汉语，也学习日语",
+      "我学习汉语，我也学习日语。",
+      "我学汉语，也学日语。",
+      "我学习汉语,也学习日语。"
+    ],
+    "pinyin": "Wǒ xuéxí Hànyǔ, yě xuéxí Rìyǔ.",
+    "structureBreakdown": [
+      { "text": "我", "role": "S", "label": "主語" },
+      { "text": "学习", "role": "V", "label": "動詞" },
+      { "text": "汉语", "role": "O", "label": "目的語" },
+      { "text": "也", "role": "Adv", "label": "副詞" },
+      { "text": "学习", "role": "V", "label": "動詞" },
+      { "text": "日语", "role": "O", "label": "目的語" }
+    ],
+    "explanation": "同じ主語が続く後半では「我」を省略できます。「也」は必ず2つ目の動詞「学习」の前に置きます。",
+    "commonMistakes": [
+      { "wrong": "我学习汉语，学习日语也。", "reason": "「也」を文末に置くことはできません。" }
+    ]
+  },
+  {
+    "id": "C-G02-03-04",
+    "lessonId": "L02",
+    "minLesson": 2,
+    "grammarIds": ["G02-03", "G02-02"],
+    "difficulty": 2,
+    "japanesePrompt": "あなたの弟さんもコーヒーを飲みますか。",
+    "targetGrammarHint": "親族「你弟弟」＋「也」＋動詞句＋「吗」の語順です。",
+    "hints": [
+      "「你弟弟＋也＋喝＋咖啡＋吗？」に並べます。",
+      "弟は「弟弟 (dìdi)」、コーヒーは「咖啡 (kāfēi)」です。",
+      "你弟弟（　）喝咖啡吗？"
+    ],
+    "modelAnswer": "你弟弟也喝咖啡吗？",
+    "acceptableAnswers": ["你弟弟也喝咖啡吗", "你的弟弟也喝咖啡吗？"],
+    "pinyin": "Nǐ dìdi yě hē kāfēi ma?",
+    "structureBreakdown": [
+      { "text": "你弟弟", "role": "S", "label": "主語" },
+      { "text": "也", "role": "Adv", "label": "副詞" },
+      { "text": "喝", "role": "V", "label": "動詞" },
+      { "text": "咖啡", "role": "O", "label": "目的語" },
+      { "text": "吗", "role": "Aux", "label": "語気助詞" }
+    ],
+    "explanation": "疑問文であっても、副詞「也」の位置は主語の後・動詞の前で変わりません。",
+    "commonMistakes": [
+      { "wrong": "你弟弟喝也咖啡吗？", "reason": "「也」は動詞と目的語の間には入りません。" }
+    ]
+  },
+  {
+    "id": "C-G02-03-05",
+    "lessonId": "L02",
+    "minLesson": 2,
+    "grammarIds": ["G02-03"],
+    "difficulty": 2,
+    "japanesePrompt": "彼はお茶を飲まず、私もお茶を飲みません。",
+    "targetGrammarHint": "「不喝茶」と「也不喝茶」を対比させます。",
+    "hints": [
+      "前半は「他不喝茶，」、後半は「我也＋不喝茶」です。",
+      "「也不喝」の語順を守りましょう。",
+      "他不喝茶，（　）。"
+    ],
+    "modelAnswer": "他不喝茶，我也不喝茶。",
+    "acceptableAnswers": ["他不喝茶，我也不喝茶", "他不喝茶,我也不喝茶。"],
+    "pinyin": "Tā bù hē chá, wǒ yě bù hē chá.",
+    "structureBreakdown": [
+      { "text": "他", "role": "S", "label": "主語" },
+      { "text": "不", "role": "Neg", "label": "否定" },
+      { "text": "喝", "role": "V", "label": "動詞" },
+      { "text": "茶", "role": "O", "label": "目的語" },
+      { "text": "我", "role": "S", "label": "主語" },
+      { "text": "也", "role": "Adv", "label": "副詞" },
+      { "text": "不", "role": "Neg", "label": "否定" },
+      { "text": "喝", "role": "V", "label": "動詞" },
+      { "text": "茶", "role": "O", "label": "目的語" }
+    ],
+    "explanation": "主語が異なるため後半でも「我」を明示し、「我也不喝茶」とします。",
+    "commonMistakes": [
+      { "wrong": "他不喝茶，我不也喝茶。", "reason": "「不」は「也」の後ろに置きます。" }
+    ]
+  },
+  {
+    "id": "C-G02-04-01",
+    "lessonId": "L02",
+    "minLesson": 2,
+    "grammarIds": ["G02-04"],
+    "difficulty": 1,
+    "japanesePrompt": "私たちは一緒に学校へ行きます。",
+    "targetGrammarHint": "複数主語「我们」＋「一起」＋動詞「去」＋「学校」の語順です。",
+    "hints": [
+      "「我们＋一起＋去＋学校」に並べます。",
+      "「一起」の本調は yīqǐ（発音時は yìqǐ）、学校は「学校 (xuéxiào)」です。",
+      "我们（　）学校。"
+    ],
+    "modelAnswer": "我们一起去学校。",
+    "acceptableAnswers": ["我们一起去学校"],
+    "pinyin": "Wǒmen yìqǐ qù xuéxiào.",
+    "structureBreakdown": [
+      { "text": "我们", "role": "S", "label": "主語" },
+      { "text": "一起", "role": "Adv", "label": "副詞" },
+      { "text": "去", "role": "V", "label": "動詞" },
+      { "text": "学校", "role": "Loc", "label": "場所" }
+    ],
+    "explanation": "副詞「一起」は主語の後、動詞「去」の直前に置きます。",
+    "commonMistakes": [
+      { "wrong": "我们去学校一起。", "reason": "「一起」を文末に置くことはできません。" }
+    ]
+  },
+  {
+    "id": "C-G02-04-02",
+    "lessonId": "L02",
+    "minLesson": 2,
+    "grammarIds": ["G02-04", "G02-02"],
+    "difficulty": 1,
+    "japanesePrompt": "あなたたちは一緒に映画を見ますか。",
+    "targetGrammarHint": "「你们＋一起＋看电影＋吗？」の語順です。",
+    "hints": [
+      "「你们＋一起＋見る＋映画＋吗？」を作ります。",
+      "映画を見るは「看电影 (kàn diànyǐng)」です。",
+      "你们一起（　）吗？"
+    ],
+    "modelAnswer": "你们一起看电影吗？",
+    "acceptableAnswers": ["你们一起看电影吗"],
+    "pinyin": "Nǐmen yìqǐ kàn diànyǐng ma?",
+    "structureBreakdown": [
+      { "text": "你们", "role": "S", "label": "主語" },
+      { "text": "一起", "role": "Adv", "label": "副詞" },
+      { "text": "看", "role": "V", "label": "動詞" },
+      { "text": "电影", "role": "O", "label": "目的語" },
+      { "text": "吗", "role": "Aux", "label": "語気助詞" }
+    ],
+    "explanation": "複数主語「你们」の後に「一起」を置き、文末の「吗」で質問します。",
+    "commonMistakes": [
+      { "wrong": "一起你们看电影吗？", "reason": "「一起」は主語の後ろに置きます。" }
+    ]
+  },
+  {
+    "id": "C-G02-04-03",
+    "lessonId": "L02",
+    "minLesson": 2,
+    "grammarIds": ["G02-04"],
+    "difficulty": 2,
+    "japanesePrompt": "彼らは一緒にはお茶を飲みません。",
+    "targetGrammarHint": "「不＋一起＋動詞」の否定語順を使います。",
+    "hints": [
+      "「他们＋不＋一起＋喝茶」の語順です。",
+      "「不」は「一起」の前に置きます。",
+      "他们（　）喝茶。"
+    ],
+    "modelAnswer": "他们不一起喝茶。",
+    "acceptableAnswers": ["他们不一起喝茶"],
+    "pinyin": "Tāmen bù yìqǐ hē chá.",
+    "structureBreakdown": [
+      { "text": "他们", "role": "S", "label": "主語" },
+      { "text": "不", "role": "Neg", "label": "否定" },
+      { "text": "一起", "role": "Adv", "label": "副詞" },
+      { "text": "喝", "role": "V", "label": "動詞" },
+      { "text": "茶", "role": "O", "label": "目的語" }
+    ],
+    "explanation": "「一緒には〜しない」という場合は、否定副詞「不」を「一起」の前に置きます。",
+    "commonMistakes": [
+      { "wrong": "他们一起不喝茶。", "reason": "「不」は「一起」の直前に置くのが原則です。" }
+    ]
+  },
+  {
+    "id": "C-G02-04-04",
+    "lessonId": "L02",
+    "minLesson": 2,
+    "grammarIds": ["G02-04", "G02-03"],
+    "difficulty": 2,
+    "japanesePrompt": "私たちも一緒に中国語を学びます。",
+    "targetGrammarHint": "「也」と「一起」を併用するときは「也＋一起＋動詞」の順にします。",
+    "hints": [
+      "「我们＋也＋一起＋学习汉语」の語順です。",
+      "「也」が先、「一起」が後です。",
+      "我们（　）学习汉语。"
+    ],
+    "modelAnswer": "我们也一起学习汉语。",
+    "acceptableAnswers": ["我们也一起学习汉语", "我们也一起学汉语。"],
+    "pinyin": "Wǒmen yě yìqǐ xuéxí Hànyǔ.",
+    "structureBreakdown": [
+      { "text": "我们", "role": "S", "label": "主語" },
+      { "text": "也", "role": "Adv", "label": "副詞" },
+      { "text": "一起", "role": "Adv", "label": "副詞" },
+      { "text": "学习", "role": "V", "label": "動詞" },
+      { "text": "汉语", "role": "O", "label": "目的語" }
+    ],
+    "explanation": "副詞が複数並ぶときは「也」が前、「一起」が後ろになります。",
+    "commonMistakes": [
+      { "wrong": "我们一起也学习汉语。", "reason": "「也」は「一起」の前に置きます。" }
+    ]
+  },
+  {
+    "id": "C-G02-04-05",
+    "lessonId": "L02",
+    "minLesson": 2,
+    "grammarIds": ["G02-04"],
+    "difficulty": 2,
+    "japanesePrompt": "どうぞ皆さんご一緒にコーヒーをお飲みください。",
+    "targetGrammarHint": "「请＋你们＋一起＋喝咖啡」の語順です。",
+    "hints": [
+      "「请＋你们＋一起＋喝咖啡」と並べます。",
+      "「请 (qǐng)」を文頭に置きます。",
+      "请（　）喝咖啡。"
+    ],
+    "modelAnswer": "请你们一起喝咖啡。",
+    "acceptableAnswers": ["请你们一起喝咖啡"],
+    "pinyin": "Qǐng nǐmen yìqǐ hē kāfēi.",
+    "structureBreakdown": [
+      { "text": "请", "role": "V", "label": "勧誘" },
+      { "text": "你们", "role": "O", "label": "対象" },
+      { "text": "一起", "role": "Adv", "label": "副詞" },
+      { "text": "喝", "role": "V", "label": "動詞" },
+      { "text": "咖啡", "role": "O", "label": "目的語" }
+    ],
+    "explanation": "「请＋相手＋一起＋動詞」で「どうぞ一緒に〜してください」と複数人を促す表現になります。",
+    "commonMistakes": [
+      { "wrong": "请一起你们喝咖啡。", "reason": "「一起」は「你们」の後ろ・動詞「喝」の前に置きます。" }
+    ]
+  }
+]

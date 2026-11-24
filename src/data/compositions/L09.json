@@ -1,0 +1,682 @@
+[
+  {
+    "id": "C-G09-01-01",
+    "lessonId": "L09",
+    "minLesson": 9,
+    "grammarIds": ["G09-01"],
+    "difficulty": 1,
+    "japanesePrompt": "私は今日のレポートをすでに書き終えました。",
+    "targetGrammarHint": "「書く」に結果補語「完」を付けて「書き終える」を表します。",
+    "hints": [
+      "「書き終える」は「写（書く）＋ 完（終わる）」の結果補語を使います。",
+      "「すでに」は「已经」、「レポート」は「报告 (bàogào)」を使います。",
+      "主語 ＋ 已经 ＋ 写完 ＋ 了 ＋ 今日のレポート"
+    ],
+    "modelAnswer": "我已经写完了今天的报告。",
+    "acceptableAnswers": [
+      "我已经写完了今天的报告。",
+      "我已经写完了今天的报告",
+      "今天的报告我已经写完了。",
+      "今天的报告我已经写完了"
+    ],
+    "pinyin": "Wǒ yǐjīng xiě wán le jīntiān de bàogào.",
+    "structureBreakdown": [
+      { "text": "我", "role": "S", "label": "主語" },
+      { "text": "已经", "role": "Adv", "label": "副詞" },
+      { "text": "写", "role": "V", "label": "動詞" },
+      { "text": "完", "role": "C", "label": "結果補語" },
+      { "text": "了", "role": "Aux", "label": "完了" },
+      { "text": "今天的报告", "role": "O", "label": "目的語" }
+    ],
+    "explanation": "動詞「写」の直後に結果補語「完」を置き、さらに完了の「了」を続けます。「写完了」の間に「了」を挟まない点が重要です。",
+    "commonMistakes": [
+      { "wrong": "我已经写了完今天的报告。", "reason": "動詞と結果補語の間に「了」を割り込ませることはできません。" },
+      { "wrong": "我已经写今天的报告完了。", "reason": "結果補語は目的語の後ろではなく動詞の直後に置きます。" }
+    ]
+  },
+  {
+    "id": "C-G09-01-02",
+    "lessonId": "L09",
+    "minLesson": 9,
+    "grammarIds": ["G09-01"],
+    "difficulty": 1,
+    "japanesePrompt": "すみません、さっきの質問ははっきり聞こえませんでした。",
+    "targetGrammarHint": "否定の結果補語「没 + 听 + 清楚」を使います。",
+    "hints": [
+      "「聞いてはっきり分かる・聞こえる」は「听清楚」で表します。",
+      "過去の未達成の否定には「没（有）」を使い、「了」は付けません。",
+      "不好意思，さっきの質問（刚才的问题） ＋ 我 ＋ 没听清楚"
+    ],
+    "modelAnswer": "不好意思，刚才的问题我没听清楚。",
+    "acceptableAnswers": [
+      "不好意思，刚才的问题我没听清楚。",
+      "不好意思，刚才的问题我没听清楚",
+      "对不起，我没听清楚刚才的问题。",
+      "不好意思，我没听清楚刚才的问题。"
+    ],
+    "pinyin": "Bù hǎoyìsi, gāngcái de wèntí wǒ méi tīng qīngchu.",
+    "structureBreakdown": [
+      { "text": "不好意思", "role": "Other", "label": "挨拶・謝罪" },
+      { "text": "刚才的问题", "role": "O", "label": "前置目的語" },
+      { "text": "我", "role": "S", "label": "主語" },
+      { "text": "没", "role": "Neg", "label": "否定" },
+      { "text": "听", "role": "V", "label": "動詞" },
+      { "text": "清楚", "role": "C", "label": "結果補語" }
+    ],
+    "explanation": "結果補語「听清楚」の否定は「没听清楚」です。話題となる目的語「刚才的问题」を文頭に立てると自然な中国語になります。",
+    "commonMistakes": [
+      { "wrong": "我没听清楚了刚才的问题。", "reason": "「没」で否定するときは完了の「了」を付けません。" },
+      { "wrong": "我不听清楚刚才的问题。", "reason": "過去の出来事の未達成には「不」ではなく「没」を使います。" }
+    ]
+  },
+  {
+    "id": "C-G09-01-03",
+    "lessonId": "L09",
+    "minLesson": 9,
+    "grammarIds": ["G09-01"],
+    "difficulty": 2,
+    "japanesePrompt": "あなたはその駅で切符を買えましたか（買うことができましたか）？",
+    "targetGrammarHint": "結果補語「买到」と疑問文の組み合わせを使います。",
+    "hints": [
+      "「首尾よく買う・手に入れる」は結果補語「到」を使って「买到」にします。",
+      "「その駅で」は介詞句「在那个车站」を動詞の前に置きます。",
+      "你 ＋ 在那个车站 ＋ 买到 ＋ 票 ＋ 了吗？"
+    ],
+    "modelAnswer": "你在那个车站买到票了吗？",
+    "acceptableAnswers": [
+      "你在那个车站买到票了吗？",
+      "你在那个车站买到票了吗",
+      "你在那个车站买到车票了吗？",
+      "你在那个车站买到票了没有？"
+    ],
+    "pinyin": "Nǐ zài nàge chēzhàn mǎi dào piào le ma?",
+    "structureBreakdown": [
+      { "text": "你", "role": "S", "label": "主語" },
+      { "text": "在那个车站", "role": "Loc", "label": "場所(介詞句)" },
+      { "text": "买", "role": "V", "label": "動詞" },
+      { "text": "到", "role": "C", "label": "結果補語" },
+      { "text": "票", "role": "O", "label": "目的語" },
+      { "text": "了吗？", "role": "Aux", "label": "完了+疑問" }
+    ],
+    "explanation": "「买到」は「買うという行為の結果、切符を手に入れた」という達成を表します。場所を表す介詞句「在那个车站」は主語の後ろ・動詞の前に置きます。",
+    "commonMistakes": [
+      { "wrong": "你买到票在那个车站了吗？", "reason": "動作が行われた場所「在＋場所」は動詞の前に置きます。" },
+      { "wrong": "你买了到票吗？", "reason": "「了」を動詞と結果補語の間に置くことはできません。" }
+    ]
+  },
+  {
+    "id": "C-G09-01-04",
+    "lessonId": "L09",
+    "minLesson": 9,
+    "grammarIds": ["G09-01"],
+    "difficulty": 2,
+    "japanesePrompt": "彼は漢字を一つ書き間違えてしまいました。",
+    "targetGrammarHint": "結果補語「错（間違える）」を「写」の後ろに置きます。",
+    "hints": [
+      "「書き間違える」は「写 ＋ 错」を使います。",
+      "「一つ（1文字）」は「一个汉字」で表します。",
+      "他 ＋ 写错了 ＋ 一个汉字"
+    ],
+    "modelAnswer": "他写错了一个汉字。",
+    "acceptableAnswers": [
+      "他写错了一个汉字。",
+      "他写错了一个汉字",
+      "他写错了一个字。",
+      "他写错了一个字"
+    ],
+    "pinyin": "Tā xiě cuò le yí ge Hànzì.",
+    "structureBreakdown": [
+      { "text": "他", "role": "S", "label": "主語" },
+      { "text": "写", "role": "V", "label": "動詞" },
+      { "text": "错", "role": "C", "label": "結果補語" },
+      { "text": "了", "role": "Aux", "label": "完了" },
+      { "text": "一个汉字", "role": "O", "label": "目的語" }
+    ],
+    "explanation": "形容詞「错」を動詞「写」の直後に置いて結果補語「写错（書き間違える）」を作ります。数量詞を伴う目的語の前に「了」を置きます。",
+    "commonMistakes": [
+      { "wrong": "他写了一个汉字错了。", "reason": "結果補語「错」は目的語の後ろではなく動詞「写」の直後に置きます。" }
+    ]
+  },
+  {
+    "id": "C-G09-01-05",
+    "lessonId": "L09",
+    "minLesson": 9,
+    "grammarIds": ["G09-01"],
+    "difficulty": 2,
+    "japanesePrompt": "昼ごはんはもうできあがりました。みんなで一緒に食べましょう。",
+    "targetGrammarHint": "準備完了の結果補語「好」と提案の「吧」を組み合わせます。",
+    "hints": [
+      "「作り終える・できあがる」は「做好了」を使います。",
+      "「みんなで一緒に」は「大家一起」、「〜しましょう」は文末に「吧」を置きます。",
+      "午饭 ＋ 已经做好了，大家 ＋ 一起吃吧。"
+    ],
+    "modelAnswer": "午饭已经做好了，大家一起吃吧。",
+    "acceptableAnswers": [
+      "午饭已经做好了，大家一起吃吧。",
+      "午饭已经做好了，大家一起吃吧",
+      "中饭已经做好了，大家一起吃吧。",
+      "午饭做好了，我们大家一起吃吧。"
+    ],
+    "pinyin": "Wǔfàn yǐjīng zuò hǎo le, dàjiā yìqǐ chī ba.",
+    "structureBreakdown": [
+      { "text": "午饭", "role": "S", "label": "主語(対象)" },
+      { "text": "已经", "role": "Adv", "label": "副詞" },
+      { "text": "做好了", "role": "V", "label": "動詞+結果補語+了" },
+      { "text": "大家", "role": "S", "label": "主語" },
+      { "text": "一起", "role": "Adv", "label": "副詞" },
+      { "text": "吃吧", "role": "V", "label": "動詞+語気助詞" }
+    ],
+    "explanation": "「好」を結果補語に使うと「準備・製作が望ましい状態に完了した」ことを表せます。受動的な意味になる無生物主語（午饭）とも自然につながります。",
+    "commonMistakes": [
+      { "wrong": "午饭已经做完了。", "reason": "文法的には誤りではありませんが、「料理が準備できた」という意味では「做好了」のほうが自然です。" }
+    ]
+  },
+
+  {
+    "id": "C-G09-02-01",
+    "lessonId": "L09",
+    "minLesson": 9,
+    "grammarIds": ["G09-02"],
+    "difficulty": 1,
+    "japanesePrompt": "私は以前、あの老舗の茶館へ行ったことがあります。",
+    "targetGrammarHint": "経験のアスペクト助詞「过」を動詞の直後に置きます。",
+    "hints": [
+      "「行ったことがある」は「去 ＋ 过」を使います。",
+      "「茶館」は「茶馆 (cháguǎn)」、量詞は「家」です。",
+      "我 ＋ 以前 ＋ 去过 ＋ 那家老茶馆。"
+    ],
+    "modelAnswer": "我以前去过那家老茶馆。",
+    "acceptableAnswers": [
+      "我以前去过那家老茶馆。",
+      "我以前去过那家老茶馆",
+      "以前我去过那家老茶馆。",
+      "我以前去过那家茶馆。"
+    ],
+    "pinyin": "Wǒ yǐqián qù guo nà jiā lǎo cháguǎn.",
+    "structureBreakdown": [
+      { "text": "我", "role": "S", "label": "主語" },
+      { "text": "以前", "role": "Time", "label": "時間詞" },
+      { "text": "去", "role": "V", "label": "動詞" },
+      { "text": "过", "role": "Aux", "label": "経験助詞" },
+      { "text": "那家老茶馆", "role": "O", "label": "目的語" }
+    ],
+    "explanation": "過去の経験を表すときは「V + 过 + O」の形を使います。時間詞「以前」は主語の前にも後ろにも置けます。",
+    "commonMistakes": [
+      { "wrong": "我以前去了那家老茶馆。", "reason": "「去了」は過去の完了であり、「〜したことがある」という経験には「去过」を使います。" },
+      { "wrong": "我以前去那家老茶馆过。", "reason": "「过」は目的語の後ろではなく動詞「去」の直後に置きます。" }
+    ]
+  },
+  {
+    "id": "C-G09-02-02",
+    "lessonId": "L09",
+    "minLesson": 9,
+    "grammarIds": ["G09-02"],
+    "difficulty": 1,
+    "japanesePrompt": "私はこれまで一度も北京ダックを食べたことがありません。",
+    "targetGrammarHint": "経験の否定「从来没 + V + 过」を使います。",
+    "hints": [
+      "「これまで〜したことがない」は「从来没（有） + V + 过」を使います。",
+      "「北京ダック」は「北京烤鸭 (Běijīng kǎoyā)」です。",
+      "我 ＋ 从来没 ＋ 吃过 ＋ 北京烤鸭。"
+    ],
+    "modelAnswer": "我从来没吃过北京烤鸭。",
+    "acceptableAnswers": [
+      "我从来没吃过北京烤鸭。",
+      "我从来没吃过北京烤鸭",
+      "我从来没有吃过北京烤鸭。",
+      "我以前没吃过北京烤鸭。"
+    ],
+    "pinyin": "Wǒ cónglái méi chī guo Běijīng kǎoyā.",
+    "structureBreakdown": [
+      { "text": "我", "role": "S", "label": "主語" },
+      { "text": "从来", "role": "Adv", "label": "副詞" },
+      { "text": "没", "role": "Neg", "label": "否定" },
+      { "text": "吃", "role": "V", "label": "動詞" },
+      { "text": "过", "role": "Aux", "label": "経験助詞" },
+      { "text": "北京烤鸭", "role": "O", "label": "目的語" }
+    ],
+    "explanation": "「过」の否定形は「没（有） + V + 过」となり、「过」を落とさず残す点が完了の「了」と異なります。",
+    "commonMistakes": [
+      { "wrong": "我从来没吃北京烤鸭。", "reason": "「过」を落とすと経験の否定ではなく単なる未実行の意味になってしまいます。" },
+      { "wrong": "我从来不吃过北京烤鸭。", "reason": "経験の否定に「不」は使えません。" }
+    ]
+  },
+  {
+    "id": "C-G09-02-03",
+    "lessonId": "L09",
+    "minLesson": 9,
+    "grammarIds": ["G09-02"],
+    "difficulty": 2,
+    "japanesePrompt": "あなたはこの博物館を見学したことがありますか？",
+    "targetGrammarHint": "「V + 过 + O + 吗？」または「……没有？」を使います。",
+    "hints": [
+      "「見学する」は「参观 (cānguān)」、「博物館」は「博物馆 (bówùguǎn)」です。",
+      "動詞の後ろに「过」を置き、文末に「吗」または「没有」を付けます。",
+      "你 ＋ 参观过 ＋ 这座博物馆 ＋ 吗？"
+    ],
+    "modelAnswer": "你参观过这座博物馆吗？",
+    "acceptableAnswers": [
+      "你参观过这座博物馆吗？",
+      "你参观过这座博物馆吗",
+      "你参观过这家博物馆吗？",
+      "你参观过这座博物馆没有？"
+    ],
+    "pinyin": "Nǐ cānguān guo zhè zuò bówùguǎn ma?",
+    "structureBreakdown": [
+      { "text": "你", "role": "S", "label": "主語" },
+      { "text": "参观", "role": "V", "label": "動詞" },
+      { "text": "过", "role": "Aux", "label": "経験助詞" },
+      { "text": "这座博物馆", "role": "O", "label": "目的語" },
+      { "text": "吗？", "role": "Aux", "label": "疑問助詞" }
+    ],
+    "explanation": "経験の有無を尋ねるときは「V + 过 + O + 吗？」または「V + 过 + O + 没有？」の形を使います。",
+    "commonMistakes": [
+      { "wrong": "你参观了这座博物馆过吗？", "reason": "「了」と「过」は同時に使わず、「过」も目的語の前に置きます。" }
+    ]
+  },
+  {
+    "id": "C-G09-02-04",
+    "lessonId": "L09",
+    "minLesson": 9,
+    "grammarIds": ["G09-02"],
+    "difficulty": 2,
+    "japanesePrompt": "私は大学1年生のときに一度中国語スピーチコンテストに参加したことがあります。",
+    "targetGrammarHint": "経験「过」と回数「一次」の語順に注意します。",
+    "hints": [
+      "「参加する」は「参加 (cānjiā)」、「スピーチコンテスト」は「演讲比赛 (yǎnjiǎng bǐsài)」です。",
+      "回数詞「一次」は「过」の後ろ、目的語の前に置きます。",
+      "我 ＋ 上大一的时候 ＋ 参加过 ＋ 一次 ＋ 汉语演讲比赛。"
+    ],
+    "modelAnswer": "我上大一的时候参加过一次汉语演讲比赛。",
+    "acceptableAnswers": [
+      "我上大一的时候参加过一次汉语演讲比赛。",
+      "我上大一的时候参加过一次汉语演讲比赛",
+      "我大学一年级的时候参加过一次汉语演讲比赛。",
+      "上大一的时候我参加过一次中文演讲比赛。"
+    ],
+    "pinyin": "Wǒ shàng dàyī de shíhou cānjiā guo yí cì Hànyǔ yǎnjiǎng bǐsài.",
+    "structureBreakdown": [
+      { "text": "我", "role": "S", "label": "主語" },
+      { "text": "上大一的时候", "role": "Time", "label": "時間" },
+      { "text": "参加", "role": "V", "label": "動詞" },
+      { "text": "过", "role": "Aux", "label": "経験助詞" },
+      { "text": "一次", "role": "C", "label": "回数" },
+      { "text": "汉语演讲比赛", "role": "O", "label": "目的語" }
+    ],
+    "explanation": "経験の回数（一次・两次など）を明示する場合、語順は必ず「V + 过 + 回数 + 目的語」となります。",
+    "commonMistakes": [
+      { "wrong": "我参加一次过汉语演讲比赛。", "reason": "「过」は必ず動詞の直後に置き、回数はその後に続けます。" },
+      { "wrong": "我参加过汉语演讲比赛一次。", "reason": "一般名詞が目的語のとき、回数は目的語の前に置くのが標準語順です。" }
+    ]
+  },
+  {
+    "id": "C-G09-02-05",
+    "lessonId": "L09",
+    "minLesson": 9,
+    "grammarIds": ["G09-02"],
+    "difficulty": 2,
+    "japanesePrompt": "彼は以前、有名なレストランでアルバイトをしたことがあります。",
+    "targetGrammarHint": "離合動詞「打工」に経験の「过」を挟みます。",
+    "hints": [
+      "「アルバイトをする」は離合動詞「打工 (dǎgōng)」を使います。",
+      "「过」は「打」の後ろ、「工」の前に挟んで「打过工」にします。",
+      "他 ＋ 以前 ＋ 在一家有名的饭店 ＋ 打过工。"
+    ],
+    "modelAnswer": "他以前在一家有名的饭店打过工。",
+    "acceptableAnswers": [
+      "他以前在一家有名的饭店打过工。",
+      "他以前在一家有名的饭店打过工",
+      "以前他在一家很有名的餐厅打过工。",
+      "他以前在一家有名的餐厅打过工。"
+    ],
+    "pinyin": "Tā yǐqián zài yì jiā yǒumíng de fàndiàn dǎ guo gōng.",
+    "structureBreakdown": [
+      { "text": "他", "role": "S", "label": "主語" },
+      { "text": "以前", "role": "Time", "label": "時間" },
+      { "text": "在一家有名的饭店", "role": "Loc", "label": "場所(介詞句)" },
+      { "text": "打过工", "role": "V", "label": "離合動詞+过" }
+    ],
+    "explanation": "「打工」は「打（動詞）＋工（目的語）」から成る離合動詞であるため、アスペクト助詞「过」は間に挟んで「打过工」とします。",
+    "commonMistakes": [
+      { "wrong": "他以前在一家有名的饭店打工过。", "reason": "離合動詞の後ろに「过」を付けるのではなく、動詞要素「打」の直後に挟みます。" }
+    ]
+  },
+
+  {
+    "id": "C-G09-03-01",
+    "lessonId": "L09",
+    "minLesson": 9,
+    "grammarIds": ["G09-03"],
+    "difficulty": 1,
+    "japanesePrompt": "明日は日曜日じゃないですか？どうして早起きする必要があるんですか。",
+    "targetGrammarHint": "反問構文「不是……吗？」を使います。",
+    "hints": [
+      "「〜じゃないですか」は「不是……吗？」で表します。",
+      "「早起きする」は「早起 (zǎoqǐ)」を使います。",
+      "明天 ＋ 不是 ＋ 星期天 ＋ 吗？为什么 ＋ 要早起？"
+    ],
+    "modelAnswer": "明天不是星期天吗？为什么要早起？",
+    "acceptableAnswers": [
+      "明天不是星期天吗？为什么要早起？",
+      "明天不是星期天吗？为什么要早起",
+      "明天不是星期日吗？为什么要早起呢？",
+      "明天不是周日吗？为什么要早起？"
+    ],
+    "pinyin": "Míngtiān bú shì xīngqītiān ma? Wèishénme yào zǎoqǐ?",
+    "structureBreakdown": [
+      { "text": "明天", "role": "S", "label": "主語" },
+      { "text": "不是", "role": "Neg", "label": "反問枠" },
+      { "text": "星期天", "role": "P", "label": "述語" },
+      { "text": "吗？", "role": "Aux", "label": "疑問助詞" },
+      { "text": "为什么要早起？", "role": "P", "label": "疑問文" }
+    ],
+    "explanation": "明らかな事実（明日は日曜日であること）を前提として相手に確認・問いかけるため、「不是……吗？」の反問文を使います。",
+    "commonMistakes": [
+      { "wrong": "明天不是星期天呢？", "reason": "反問表現の文末助詞は「吗」であり、「呢」にはできません。" }
+    ]
+  },
+  {
+    "id": "C-G09-03-02",
+    "lessonId": "L09",
+    "minLesson": 9,
+    "grammarIds": ["G09-03"],
+    "difficulty": 2,
+    "japanesePrompt": "あなた、中国茶がとても好きだったんじゃないですか？どうして飲まないんですか。",
+    "targetGrammarHint": "形容詞・心理動詞述語にも「不是……吗？」が使えます。",
+    "hints": [
+      "「〜好きだったじゃないですか」は「不是 ＋ 很喜欢…… ＋ 吗？」の形にします。",
+      "「どうして〜しないのですか」は「怎么不……呢？」または「为什么不……？」を使います。",
+      "你 ＋ 不是 ＋ 很喜欢喝中国茶 ＋ 吗？怎么不喝？"
+    ],
+    "modelAnswer": "你不是很喜欢喝中国茶吗？怎么不喝？",
+    "acceptableAnswers": [
+      "你不是很喜欢喝中国茶吗？怎么不喝？",
+      "你不是很喜欢喝中国茶吗？怎么不喝",
+      "你不是很喜欢中国茶吗？为什么不喝呢？",
+      "你不是喜欢喝中国茶吗？怎么不喝啊？"
+    ],
+    "pinyin": "Nǐ bú shì hěn xǐhuan hē Zhōngguó chá ma? Zěnme bù hē?",
+    "structureBreakdown": [
+      { "text": "你", "role": "S", "label": "主語" },
+      { "text": "不是", "role": "Neg", "label": "反問枠" },
+      { "text": "很喜欢喝中国茶", "role": "P", "label": "述語句" },
+      { "text": "吗？", "role": "Aux", "label": "疑問助詞" },
+      { "text": "怎么不喝？", "role": "P", "label": "問いかけ" }
+    ],
+    "explanation": "動詞述語（喜欢）であっても反問文では「不是」を述語の前に置き、文末に「吗」を付けます。",
+    "commonMistakes": [
+      { "wrong": "你不很喜欢喝中国茶吗？", "reason": "「不」だけでは単なる否定疑問になり、「〜だったじゃないか」という反問のニュアンスが出ません。" }
+    ]
+  },
+  {
+    "id": "C-G09-03-03",
+    "lessonId": "L09",
+    "minLesson": 9,
+    "grammarIds": ["G09-03"],
+    "difficulty": 2,
+    "japanesePrompt": "さっき「今日は私がおごる」って言っていたじゃないですか！",
+    "targetGrammarHint": "「你不是说……吗？」で相手の発言を引用して念押しします。",
+    "hints": [
+      "「〜と言っていたじゃないですか」は「你不是说……吗？」を使います。",
+      "「おごる」は「请客 (qǐngkè)」を使います。",
+      "你 ＋ 不是说 ＋ 今天你请客 ＋ 吗？"
+    ],
+    "modelAnswer": "你不是说今天你请客吗？",
+    "acceptableAnswers": [
+      "你不是说今天你请客吗？",
+      "你不是说今天你请客吗",
+      "你刚才不是说今天你请客吗？",
+      "你不是说今天我请客吗？"
+    ],
+    "pinyin": "Nǐ bú shì shuō jīntiān nǐ qǐngkè ma?",
+    "structureBreakdown": [
+      { "text": "你", "role": "S", "label": "主語" },
+      { "text": "不是", "role": "Neg", "label": "反問枠" },
+      { "text": "说", "role": "V", "label": "動詞" },
+      { "text": "今天你请客", "role": "O", "label": "引用節" },
+      { "text": "吗？", "role": "Aux", "label": "疑問助詞" }
+    ],
+    "explanation": "中国語では間接話法になるため、相手が「我请客」と言った内容を引用するとき、話し手から見た主語「你（あなた）」に変えて「说今天你请客」とします。",
+    "commonMistakes": [
+      { "wrong": "你不是说今天我请客吗？", "reason": "そのまま「我」を使うと「今日おごるのは私（話し手）だと言った」という意味になってしまいます。" }
+    ]
+  },
+  {
+    "id": "C-G09-03-04",
+    "lessonId": "L09",
+    "minLesson": 9,
+    "grammarIds": ["G09-03", "G09-02"],
+    "difficulty": 2,
+    "japanesePrompt": "あなたは以前、その街へ行ったことがあるんじゃありませんか？",
+    "targetGrammarHint": "反問「不是……吗？」と経験「过」を組み合わせます。",
+    "hints": [
+      "「行ったことがある」は「去过」を使います。",
+      "時間詞「以前」の後ろに「不是」、文末に「吗」を置きます。",
+      "你 ＋ 以前 ＋ 不是 ＋ 去过那个城市 ＋ 吗？"
+    ],
+    "modelAnswer": "你以前不是去过那个城市吗？",
+    "acceptableAnswers": [
+      "你以前不是去过那个城市吗？",
+      "你以前不是去过那个城市吗",
+      "你不是以前去过那个城市吗？",
+      "你以前不是去过那座城市吗？"
+    ],
+    "pinyin": "Nǐ yǐqián bú shì qù guo nàge chéngshì ma?",
+    "structureBreakdown": [
+      { "text": "你", "role": "S", "label": "主語" },
+      { "text": "以前", "role": "Time", "label": "時間詞" },
+      { "text": "不是", "role": "Neg", "label": "反問枠" },
+      { "text": "去过", "role": "V", "label": "動詞+过" },
+      { "text": "那个城市", "role": "O", "label": "目的語" },
+      { "text": "吗？", "role": "Aux", "label": "疑問助詞" }
+    ],
+    "explanation": "反問表現の中に経験の「去过」を組み込むことで、相手の過去の経験を確認しながら会話を続けることができます。",
+    "commonMistakes": [
+      { "wrong": "你以前没去过那个城市吗？", "reason": "「没……吗？」は「行かなかったのですか？」という否定質問になり、「行ったことがあるはずだよね」という反問の意図とずれます。" }
+    ]
+  },
+  {
+    "id": "C-G09-03-05",
+    "lessonId": "L09",
+    "minLesson": 9,
+    "grammarIds": ["G09-03"],
+    "difficulty": 2,
+    "japanesePrompt": "外は今雨が降っているじゃないですか。傘を持っていきましょう。",
+    "targetGrammarHint": "進行表現と反問「不是……吗？」を組み合わせます。",
+    "hints": [
+      "「今〜している」は「正在……」または「在下雨」を使います。",
+      "「傘を持っていく」は「带伞」または「把伞带上」を使います。",
+      "外边 ＋ 不是 ＋ 在下雨 ＋ 吗？我们 ＋ 带伞吧。"
+    ],
+    "modelAnswer": "外边不是在下雨吗？我们带把伞吧。",
+    "acceptableAnswers": [
+      "外边不是在下雨吗？我们带把伞吧。",
+      "外边不是在下雨吗？我们带把伞吧",
+      "外面不是正在下雨吗？我们带伞走吧。",
+      "外面不是在下雨吗？快把伞带上吧。"
+    ],
+    "pinyin": "Wàibian bú shì zài xià yǔ ma? Wǒmen dài bǎ sǎn ba.",
+    "structureBreakdown": [
+      { "text": "外边", "role": "Loc", "label": "場所主語" },
+      { "text": "不是", "role": "Neg", "label": "反問枠" },
+      { "text": "在下雨", "role": "V", "label": "進行+動詞" },
+      { "text": "吗？", "role": "Aux", "label": "疑問助詞" },
+      { "text": "我们带把伞吧", "role": "P", "label": "提案文" }
+    ],
+    "explanation": "目の前の明白な状況（雨が降っていること）を指摘して注意を促す場面でも「不是……吗？」が非常によく使われます。",
+    "commonMistakes": [
+      { "wrong": "外边不是下雨吧？", "reason": "反問表現の文末には「吧」ではなく「吗」を使います。" }
+    ]
+  },
+
+  {
+    "id": "C-G09-04-01",
+    "lessonId": "L09",
+    "minLesson": 9,
+    "grammarIds": ["G09-04"],
+    "difficulty": 1,
+    "japanesePrompt": "スーツケースをドアの横に置いてください。",
+    "targetGrammarHint": "「把 + 目的語 + 放在 + 場所」の語順を使います。",
+    "hints": [
+      "「〜してください」は文頭に「请」を置きます。",
+      "「スーツケース」は「行李箱 (xínglixiāng)」または「箱子」、「ドアの横」は「门旁边」です。",
+      "请 ＋ 把 ＋ 行李箱 ＋ 放在 ＋ 门旁边。"
+    ],
+    "modelAnswer": "请把行李箱放在门旁边。",
+    "acceptableAnswers": [
+      "请把行李箱放在门旁边。",
+      "请把行李箱放在门旁边",
+      "请把箱子放在门旁边。",
+      "请您把行李放在门口旁边。"
+    ],
+    "pinyin": "Qǐng bǎ xínglixiāng fàng zài mén pángbiān.",
+    "structureBreakdown": [
+      { "text": "请", "role": "V", "label": "依頼" },
+      { "text": "把", "role": "Prep", "label": "把" },
+      { "text": "行李箱", "role": "O", "label": "処置対象" },
+      { "text": "放", "role": "V", "label": "動詞" },
+      { "text": "在门旁边", "role": "Loc", "label": "定着先" }
+    ],
+    "explanation": "物の移動先を指定する文では「把 + 物 + 放在 + 場所」が最も自然で標準的な語順です。",
+    "commonMistakes": [
+      { "wrong": "请放行李箱在门旁边。", "reason": "「放在＋場所」が動詞の後ろに続くとき、目的語を「把」で前に出す必要があります。" }
+    ]
+  },
+  {
+    "id": "C-G09-04-02",
+    "lessonId": "L09",
+    "minLesson": 9,
+    "grammarIds": ["G09-04", "G09-01"],
+    "difficulty": 2,
+    "japanesePrompt": "彼はすでに今日の宿題をやり終えました。",
+    "targetGrammarHint": "「把」構文と結果補語「做完」を組み合わせます。",
+    "hints": [
+      "「すでに」は「已经」を使い、「把」の前に置きます。",
+      "「宿題」は「作业 (zuòyè)」、「やり終える」は「做完」です。",
+      "他 ＋ 已经 ＋ 把今天的作业 ＋ 做完了。"
+    ],
+    "modelAnswer": "他已经把今天的作业做完了。",
+    "acceptableAnswers": [
+      "他已经把今天的作业做完了。",
+      "他已经把今天的作业做完了",
+      "他已经把今天的作业写完了。"
+    ],
+    "pinyin": "Tā yǐjīng bǎ jīntiān de zuòyè zuò wán le.",
+    "structureBreakdown": [
+      { "text": "他", "role": "S", "label": "主語" },
+      { "text": "已经", "role": "Adv", "label": "副詞" },
+      { "text": "把", "role": "Prep", "label": "把" },
+      { "text": "今天的作业", "role": "O", "label": "対象" },
+      { "text": "做完", "role": "V", "label": "動詞+結果補語" },
+      { "text": "了", "role": "Aux", "label": "完了" }
+    ],
+    "explanation": "特定の宿題（今天的作业）を完全に片付けたことを強調する「把」構文です。副詞「已经」は「把」の前に置きます。",
+    "commonMistakes": [
+      { "wrong": "他把今天的作业已经做完了。", "reason": "副詞「已经」は原則として「把」の前に置きます。" },
+      { "wrong": "他已经把今天的作业做了完。", "reason": "動詞「做」と結果補語「完」の間に「了」を挟めません。" }
+    ]
+  },
+  {
+    "id": "C-G09-04-03",
+    "lessonId": "L09",
+    "minLesson": 9,
+    "grammarIds": ["G09-04"],
+    "difficulty": 2,
+    "japanesePrompt": "私は昨日借りた傘をまだクラスメートに返していません。",
+    "targetGrammarHint": "「把」構文の否定「还没 + 把 + O + 还给……」を使います。",
+    "hints": [
+      "否定副詞「还没」は必ず「把」の前に置きます。",
+      "「〜に返す」は「还给 + 人」を使い、否定なので「了」は付けません。",
+      "我 ＋ 还没 ＋ 把昨天借的雨伞 ＋ 还给同学。"
+    ],
+    "modelAnswer": "我还没把昨天借的雨伞还给同学。",
+    "acceptableAnswers": [
+      "我还没把昨天借的雨伞还给同学。",
+      "我还没把昨天借的雨伞还给同学",
+      "我还没有把昨天借的伞还给同学。",
+      "我还没把昨天借的伞还给同学们。"
+    ],
+    "pinyin": "Wǒ hái méi bǎ zuótiān jiè de yǔsǎn huán gěi tóngxué.",
+    "structureBreakdown": [
+      { "text": "我", "role": "S", "label": "主語" },
+      { "text": "还没", "role": "Neg", "label": "副詞+否定" },
+      { "text": "把", "role": "Prep", "label": "把" },
+      { "text": "昨天借的雨伞", "role": "O", "label": "対象" },
+      { "text": "还", "role": "V", "label": "動詞" },
+      { "text": "给同学", "role": "C", "label": "相手(介詞句)" }
+    ],
+    "explanation": "「把」構文を否定する「没（有）」は必ず「把」の前に置きます。「借（借りる）」と「还（huán＝返す）」の使い分けにも注意しましょう。",
+    "commonMistakes": [
+      { "wrong": "我把昨天借的雨伞还没还给同学。", "reason": "否定詞「没」を「把」の後ろに置くことはできません。" },
+      { "wrong": "我还没把昨天借的雨伞还给同学了。", "reason": "「还没〜」の未実現の否定には完了の「了」を付けません。" }
+    ]
+  },
+  {
+    "id": "C-G09-04-04",
+    "lessonId": "L09",
+    "minLesson": 9,
+    "grammarIds": ["G09-04"],
+    "difficulty": 2,
+    "japanesePrompt": "すみません、あなたの住所を紙に書いていただけますか。",
+    "targetGrammarHint": "「把 + 住所 + 写在 + 紙の上」を使います。",
+    "hints": [
+      "「住所」は「地址 (dìzhǐ)」、「紙の上に」は「在纸上 (zài zhǐ shàng)」です。",
+      "「〜していただけますか」は「能……吗？」または「请……」を使います。",
+      "请问，您能 ＋ 把您的地址 ＋ 写在纸上 ＋ 吗？"
+    ],
+    "modelAnswer": "请问，您能把您的地址写在纸上吗？",
+    "acceptableAnswers": [
+      "请问，您能把您的地址写在纸上吗？",
+      "请问，您能把您的地址写在纸上吗",
+      "请把您的地址写在这张纸上。",
+      "请问，你可以把你的地址写在纸上吗？"
+    ],
+    "pinyin": "Qǐngwèn, nín néng bǎ nín de dìzhǐ xiě zài zhǐ shàng ma?",
+    "structureBreakdown": [
+      { "text": "请问", "role": "Other", "label": "前置き" },
+      { "text": "您", "role": "S", "label": "主語" },
+      { "text": "能", "role": "Aux", "label": "助動詞" },
+      { "text": "把", "role": "Prep", "label": "把" },
+      { "text": "您的地址", "role": "O", "label": "対象" },
+      { "text": "写在纸上", "role": "V", "label": "動詞+定着先" },
+      { "text": "吗？", "role": "Aux", "label": "疑問助詞" }
+    ],
+    "explanation": "助動詞「能」は「把」の前に置き、動詞「写」の後ろに「在纸上」を続けて書き留める場所を示します。",
+    "commonMistakes": [
+      { "wrong": "您把您的地址能写在纸上吗？", "reason": "助動詞「能」は「把」の前に置く必要があります。" }
+    ]
+  },
+  {
+    "id": "C-G09-04-05",
+    "lessonId": "L09",
+    "minLesson": 9,
+    "grammarIds": ["G09-04", "G09-01"],
+    "difficulty": 3,
+    "japanesePrompt": "彼はうっかりコーヒーをテーブルの上にこぼしてしまいましたが、すぐにきれいに拭きました。",
+    "targetGrammarHint": "後半で「把 + 桌子 + 擦干净 + 了」を使います。",
+    "hints": [
+      "「こぼす」は「洒 (sǎ)」、「テーブル」は「桌子」です。",
+      "「きれいに拭く」は結果補語を使って「擦干净 (cā gānjìng)」で表します。",
+      "他不小心把咖啡洒在桌子上了，不过很快就把桌子擦干净了。"
+    ],
+    "modelAnswer": "他不小心把咖啡洒在桌子上了，不过很快就把桌子擦干净了。",
+    "acceptableAnswers": [
+      "他不小心把咖啡洒在桌子上了，不过很快就把桌子擦干净了。",
+      "他不小心把咖啡洒在桌子上了，不过很快就把桌子擦干净了",
+      "他把咖啡洒在桌子上了，不过马上把桌子擦干净了。"
+    ],
+    "pinyin": "Tā bù xiǎoxīn bǎ kāfēi sǎ zài zhuōzi shàng le, búguò hěn kuài jiù bǎ zhuōzi cā gānjìng le.",
+    "structureBreakdown": [
+      { "text": "他", "role": "S", "label": "主語" },
+      { "text": "不小心", "role": "Adv", "label": "副詞句" },
+      { "text": "把咖啡洒在桌子上了", "role": "P", "label": "把構文1" },
+      { "text": "不过", "role": "Conj", "label": "接続詞" },
+      { "text": "很快就", "role": "Adv", "label": "副詞" },
+      { "text": "把桌子擦干净了", "role": "P", "label": "把構文2" }
+    ],
+    "explanation": "前半・後半ともに「把」構文を使った文です。後半では「すぐ〜した」を表す副詞「很快就」を「把」の前に置いています。",
+    "commonMistakes": [
+      { "wrong": "不过把桌子很快就擦干净了。", "reason": "副詞「很快就」は「把」の前に置きます。" }
+    ]
+  }
+]

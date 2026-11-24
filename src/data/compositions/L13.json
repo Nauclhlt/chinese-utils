@@ -1,0 +1,644 @@
+[
+  {
+    "id": "C-G13-01-01",
+    "lessonId": "L13",
+    "minLesson": 13,
+    "grammarIds": ["G13-01"],
+    "difficulty": 1,
+    "japanesePrompt": "もし明日時間があれば、一緒に図書館へ行きましょう。",
+    "targetGrammarHint": "如果 / 要是……(的话)，……就……（または提案の「吧」）",
+    "hints": [
+      "文頭に仮定の接続詞「如果」または「要是」を置きます。",
+      "「時間がある」は「有时间」または「有空」を使い、末尾に「的话」を添えても構いません。",
+      "「一緒に〜しましょう」は「我们一起去图书馆吧」のように「吧」で提案します。"
+    ],
+    "modelAnswer": "如果你明天有空的话，我们一起去图书馆吧。",
+    "acceptableAnswers": [
+      "如果你明天有空的话，我们一起去图书馆吧。",
+      "如果明天你有空的话，我们一起去图书馆吧。",
+      "要是你明天有时间，我们一起去图书馆吧。",
+      "如果你明天有时间，我们就一起去图书馆吧。"
+    ],
+    "pinyin": "Rúguǒ nǐ míngtiān yǒu kòng de huà, wǒmen yìqǐ qù túshūguǎn ba.",
+    "structureBreakdown": [
+      { "text": "如果", "role": "Conj", "label": "接続詞" },
+      { "text": "你明天有空", "role": "Other", "label": "仮定節" },
+      { "text": "的话", "role": "P", "label": "仮定標識" },
+      { "text": "我们一起", "role": "S", "label": "主語・副詞" },
+      { "text": "去图书馆", "role": "V", "label": "連動句" },
+      { "text": "吧", "role": "P", "label": "語気助詞" }
+    ],
+    "explanation": "仮定条件を表す「如果……的话」に、提案の語気助詞「吧」を続けて自然な誘いの文を作ります。",
+    "commonMistakes": [
+      { "wrong": "如果明天你有空的话，就我们一起去图书馆吧。", "reason": "「就」は主語「我们」の後ろに置く必要があります（我们就……）。" },
+      { "wrong": "你明天有空如果，我们一起去图书馆吧。", "reason": "「如果」は仮定節の前（主語の前または後ろ）に置きます。" }
+    ]
+  },
+  {
+    "id": "C-G13-01-02",
+    "lessonId": "L13",
+    "minLesson": 13,
+    "grammarIds": ["G13-01", "G06-02"],
+    "difficulty": 2,
+    "japanesePrompt": "もし明日の天気が良くなければ、私は出かけません。",
+    "targetGrammarHint": "要是……，主語 + 就 + 否定形",
+    "hints": [
+      "仮定節は「要是明天天气不好」とします。",
+      "帰結節では主語「我」を先に置き、その直後に「就」を置きます。",
+      "「出かけない」は「不出门」または「不去（外面）了」と表現します。"
+    ],
+    "modelAnswer": "要是明天天气不好，我就不出门了。",
+    "acceptableAnswers": [
+      "要是明天天气不好，我就不出门了。",
+      "如果明天天气不好的话，我就不出门了。",
+      "明天天气不好的话，我就不出去了。"
+    ],
+    "pinyin": "Yàoshi míngtiān tiānqì bù hǎo, wǒ jiù bù chūmén le.",
+    "structureBreakdown": [
+      { "text": "要是", "role": "Conj", "label": "接続詞" },
+      { "text": "明天天气不好", "role": "Other", "label": "仮定節" },
+      { "text": "我", "role": "S", "label": "主語" },
+      { "text": "就", "role": "Adv", "label": "副詞" },
+      { "text": "不出门了", "role": "V", "label": "否定述語" }
+    ],
+    "explanation": "口語的な「要是」と帰結の「就」を組み合わせた文です。主語「我」の後ろに「就」を置くのがポイントです。",
+    "commonMistakes": [
+      { "wrong": "要是明天天气不好，就我不出门了。", "reason": "副詞「就」を主語「我」の前に置くことはできません。" }
+    ]
+  },
+  {
+    "id": "C-G13-01-03",
+    "lessonId": "L13",
+    "minLesson": 13,
+    "grammarIds": ["G13-01"],
+    "difficulty": 2,
+    "japanesePrompt": "もしこのデザインが気に入らないなら、別のものを買いましょう。",
+    "targetGrammarHint": "如果……的话，就……",
+    "hints": [
+      "「このデザインが気に入らない／好きではない」は「不喜欢这个设计」とします。",
+      "「別のものを買う」は「买别的」または「换一个别的买」と表せます。",
+      "帰結節の「就」を主語「我们」の後ろに置きます。"
+    ],
+    "modelAnswer": "如果你不喜欢这个设计的话，我们就买别的吧。",
+    "acceptableAnswers": [
+      "如果你不喜欢这个设计的话，我们就买别的吧。",
+      "要是你不喜欢这个设计，我们就买别的吧。",
+      "如果不喜欢这个设计的话，我们就换一个吧。"
+    ],
+    "pinyin": "Rúguǒ nǐ bù xǐhuan zhège shèjì de huà, wǒmen jiù mǎi biéde ba.",
+    "structureBreakdown": [
+      { "text": "如果", "role": "Conj", "label": "接続詞" },
+      { "text": "你不喜欢这个设计", "role": "Other", "label": "仮定節" },
+      { "text": "的话", "role": "P", "label": "仮定標識" },
+      { "text": "我们", "role": "S", "label": "主語" },
+      { "text": "就", "role": "Adv", "label": "副詞" },
+      { "text": "买别的吧", "role": "V", "label": "述語句" }
+    ],
+    "explanation": "仮定節に否定を含めた条件文です。「别的（ほかのもの）」を使うと簡潔に表現できます。",
+    "commonMistakes": [
+      { "wrong": "如果你不喜欢这个设计，就买别的吧我们。", "reason": "主語は「就」の前に置きます。" }
+    ]
+  },
+  {
+    "id": "C-G13-01-04",
+    "lessonId": "L13",
+    "minLesson": 13,
+    "grammarIds": ["G13-01", "G10-04"],
+    "difficulty": 2,
+    "japanesePrompt": "もし電車で行くなら、30分で着くことができます。",
+    "targetGrammarHint": "（如果）……的话，……就……",
+    "hints": [
+      "「電車で行く」は「坐电车去」または「坐地铁去」を使います。",
+      "「30分で」は時間の起点・所要時間として「三十分钟就……」と表現できます。",
+      "「着くことができる」は「能到」または「就能到了」とします。"
+    ],
+    "modelAnswer": "如果坐电车去的话，三十分钟就能到了。",
+    "acceptableAnswers": [
+      "如果坐电车去的话，三十分钟就能到了。",
+      "要是坐电车去，三十分钟就能到。",
+      "坐电车去的话，半个小时就能到了。"
+    ],
+    "pinyin": "Rúguǒ zuò diànchē qù de huà, sānshí fēnzhōng jiù néng dào le.",
+    "structureBreakdown": [
+      { "text": "如果", "role": "Conj", "label": "接続詞" },
+      { "text": "坐电车去", "role": "V", "label": "仮定節" },
+      { "text": "的话", "role": "P", "label": "仮定標識" },
+      { "text": "三十分钟", "role": "Time", "label": "時間量" },
+      { "text": "就", "role": "Adv", "label": "副詞" },
+      { "text": "能到了", "role": "V", "label": "可能述語" }
+    ],
+    "explanation": "仮定条件の中で「時間量＋就＋能到」を使い、短い時間・順調な到着を表現しています。",
+    "commonMistakes": [
+      { "wrong": "如果坐电车去的话，在三十分钟能到。", "reason": "所要時間「30分で」に介詞「在」は不要で、副詞「就」で短さを表します。" }
+    ]
+  },
+  {
+    "id": "C-G13-01-05",
+    "lessonId": "L13",
+    "minLesson": 13,
+    "grammarIds": ["G13-01", "G07-04"],
+    "difficulty": 3,
+    "japanesePrompt": "もしみんながもう昼ご飯を食べてしまったなら、私たちはすぐに出発しましょう。",
+    "targetGrammarHint": "如果 + S + 已经 + V + 了……，就……",
+    "hints": [
+      "仮定節の中で「〜してしまったなら」を表すには「已经……了」を使います。",
+      "「昼ご飯を食べ終える」は「吃完午饭了」または「吃过午饭了」で表せます。",
+      "「すぐに出発する」は「马上出发」です。"
+    ],
+    "modelAnswer": "如果大家都已经吃完午饭了，我们就马上出发吧。",
+    "acceptableAnswers": [
+      "如果大家都已经吃完午饭了，我们就马上出发吧。",
+      "要是大家都吃过午饭了，我们就立刻出发吧。",
+      "大家都吃完午饭了的话，我们就马上出发吧。"
+    ],
+    "pinyin": "Rúguǒ dàjiā dōu yǐjīng chī wán wǔfàn le, wǒmen jiù mǎshàng chūfā ba.",
+    "structureBreakdown": [
+      { "text": "如果", "role": "Conj", "label": "接続詞" },
+      { "text": "大家都已经吃完午饭了", "role": "Other", "label": "仮定の完了節" },
+      { "text": "我们", "role": "S", "label": "主語" },
+      { "text": "就", "role": "Adv", "label": "副詞" },
+      { "text": "马上出发吧", "role": "V", "label": "述語句" }
+    ],
+    "explanation": "仮定条件の成立・完了を前提とするときは「如果……已经……了」の形を用います。",
+    "commonMistakes": [
+      { "wrong": "如果大家吃午饭了了，就马上出发吧。", "reason": "「了」を重複させず、「吃完……了」または「吃过……了」とします。" }
+    ]
+  },
+  {
+    "id": "C-G13-02-01",
+    "lessonId": "L13",
+    "minLesson": 13,
+    "grammarIds": ["G13-02"],
+    "difficulty": 1,
+    "japanesePrompt": "この服をちょっと試着してみてください。",
+    "targetGrammarHint": "動詞の重ね型（试 / 试试 / 试一试）",
+    "hints": [
+      "「試す・試着する」は「试」または「穿」を使います。",
+      "1音節動詞「试」を重ねて「试试」または「试一试」にします。",
+      "「〜してみてください」は文末に「吧」を添えると柔らかくなります。"
+    ],
+    "modelAnswer": "你试试这件衣服吧。",
+    "acceptableAnswers": [
+      "你试试这件衣服吧。",
+      "你试一试这件衣服吧。",
+      "请试穿一下这件衣服吧。",
+      "这件衣服你试试吧。"
+    ],
+    "pinyin": "Nǐ shìshi zhè jiàn yīfu ba.",
+    "structureBreakdown": [
+      { "text": "你", "role": "S", "label": "主語" },
+      { "text": "试试", "role": "V", "label": "動詞重ね型" },
+      { "text": "这件衣服", "role": "O", "label": "目的語" },
+      { "text": "吧", "role": "P", "label": "語気助詞" }
+    ],
+    "explanation": "1音節動詞「试」を重ねて「试试」とすることで、相手に気楽に試すよう勧める表現になります。",
+    "commonMistakes": [
+      { "wrong": "你试试一下这件衣服吧。", "reason": "動詞重ね型と「一下」は同時に使えません。" }
+    ]
+  },
+  {
+    "id": "C-G13-02-02",
+    "lessonId": "L13",
+    "minLesson": 13,
+    "grammarIds": ["G13-02"],
+    "difficulty": 1,
+    "japanesePrompt": "私たちは少し休んでから話しましょう。",
+    "targetGrammarHint": "2音節動詞の重ね型 ABAB（休息休息）",
+    "hints": [
+      "「休む」は2音節動詞「休息」を使います。",
+      "2音節動詞の重ね型は ABAB 型なので「休息休息」になります。",
+      "「それから話す」は「再说」や「再聊」を使えます。"
+    ],
+    "modelAnswer": "我们先休息休息再说吧。",
+    "acceptableAnswers": [
+      "我们先休息休息再说吧。",
+      "我们休息休息再谈吧。",
+      "先休息休息再说吧。"
+    ],
+    "pinyin": "Wǒmen xiān xiūxi xiūxi zài shuō ba.",
+    "structureBreakdown": [
+      { "text": "我们", "role": "S", "label": "主語" },
+      { "text": "先", "role": "Adv", "label": "副詞" },
+      { "text": "休息休息", "role": "V", "label": "動詞重ね型(ABAB)" },
+      { "text": "再说", "role": "V", "label": "後続動作" },
+      { "text": "吧", "role": "P", "label": "語気助詞" }
+    ],
+    "explanation": "2音節動詞「休息」は「休息休息」と ABAB 型に重ねます。AABB 型（*休休息息）にしないよう注意します。",
+    "commonMistakes": [
+      { "wrong": "我们先休休息息再说吧。", "reason": "2音節動詞の重ね型は AABB ではなく ABAB（休息休息）です。" }
+    ]
+  },
+  {
+    "id": "C-G13-02-03",
+    "lessonId": "L13",
+    "minLesson": 13,
+    "grammarIds": ["G13-02"],
+    "difficulty": 2,
+    "japanesePrompt": "食事の後、私たちは公園をちょっと散歩しました。",
+    "targetGrammarHint": "離合動詞の重ね型 AAB（散散步）＋「了」",
+    "hints": [
+      "「食事の後」は「吃完饭以后」または「饭后」を使います。",
+      "「散歩する」は離合動詞「散步」なので、重ね型は「散散步」または「散了散步」になります。",
+      "過去に行われた動作なので「了」を適切な位置（散了散步 / 散散步……）に置きます。"
+    ],
+    "modelAnswer": "吃完饭以后，我们在公园里散了散步。",
+    "acceptableAnswers": [
+      "吃完饭以后，我们在公园里散了散步。",
+      "饭后，我们在公园里散了散步。",
+      "吃完饭以后，我们去公园散了散步。"
+    ],
+    "pinyin": "Chī wán fàn yǐhòu, wǒmen zài gōngyuán lǐ sàn le sàn bù.",
+    "structureBreakdown": [
+      { "text": "吃完饭以后", "role": "Time", "label": "時間節" },
+      { "text": "我们", "role": "S", "label": "主語" },
+      { "text": "在公园里", "role": "Loc", "label": "場所" },
+      { "text": "散了散步", "role": "V", "label": "離合動詞過去重ね型" }
+    ],
+    "explanation": "離合動詞「散步」は「散（動詞）＋步（目的語）」なので、動詞の「散」だけを重ね、過去の軽い動作は「散了散步」とします。",
+    "commonMistakes": [
+      { "wrong": "吃完饭以后，我们在公园里散步散步了。", "reason": "離合動詞は「散步散步」ではなく「散（了）散步」と重ねます。" }
+    ]
+  },
+  {
+    "id": "C-G13-02-04",
+    "lessonId": "L13",
+    "minLesson": 13,
+    "grammarIds": ["G13-02"],
+    "difficulty": 2,
+    "japanesePrompt": "先生はさっき私の作文をちょっとチェックしてくれました。",
+    "targetGrammarHint": "2音節動詞の過去重ね型 AB了AB（检查了检查）",
+    "hints": [
+      "「さっき」は「刚才」を使います。",
+      "「チェックする」は「检查」、過去の軽い動作なので「检查了检查」とします。",
+      "「〜してくれた」のニュアンスで「帮我」を入れても自然です。"
+    ],
+    "modelAnswer": "刚才老师帮我检查了检查作文。",
+    "acceptableAnswers": [
+      "刚才老师帮我检查了检查作文。",
+      "老师刚才检查了检查我的作文。",
+      "刚才老师替我检查了检查作文。"
+    ],
+    "pinyin": "Gāngcái lǎoshī bāng wǒ jiǎnchá le jiǎnchá zuòwén.",
+    "structureBreakdown": [
+      { "text": "刚才", "role": "Time", "label": "時間" },
+      { "text": "老师", "role": "S", "label": "主語" },
+      { "text": "帮我", "role": "Prep", "label": "介詞句" },
+      { "text": "检查了检查", "role": "V", "label": "動詞過去重ね型" },
+      { "text": "作文", "role": "O", "label": "目的語" }
+    ],
+    "explanation": "2音節動詞の過去における軽い動作は「AB了AB」の形（检查了检查）で表します。",
+    "commonMistakes": [
+      { "wrong": "刚才老师帮我检查检查了作文。", "reason": "重ね型の完了は「ABAB了」ではなく「AB了AB」にするのが標準的です。" }
+    ]
+  },
+  {
+    "id": "C-G13-02-05",
+    "lessonId": "L13",
+    "minLesson": 13,
+    "grammarIds": ["G13-02", "G13-01"],
+    "difficulty": 3,
+    "japanesePrompt": "もし意見があれば、私たちが一緒にこの案を少し話し合いましょう。",
+    "targetGrammarHint": "如果……，……讨论讨论",
+    "hints": [
+      "「もし意見があれば」は「如果有意见的话」で表します。",
+      "「この案を話し合う」は「讨论讨论这个方案」と ABAB 型にします。",
+      "最後に提案の「吧」を付けます。"
+    ],
+    "modelAnswer": "如果有意见的话，我们一起讨论讨论这个方案吧。",
+    "acceptableAnswers": [
+      "如果有意见的话，我们一起讨论讨论这个方案吧。",
+      "要是大家有意见，我们一起讨论讨论这个方案吧。",
+      "如果你有意见的话，我们就一起商量商量这个方案吧。"
+    ],
+    "pinyin": "Rúguǒ yǒu yìjian de huà, wǒmen yìqǐ tǎolùn tǎolùn zhège fāng'àn ba.",
+    "structureBreakdown": [
+      { "text": "如果有意见的话", "role": "Conj", "label": "仮定節" },
+      { "text": "我们一起", "role": "S", "label": "主語・副詞" },
+      { "text": "讨论讨论", "role": "V", "label": "動詞重ね型" },
+      { "text": "这个方案", "role": "O", "label": "目的語" },
+      { "text": "吧", "role": "P", "label": "語気助詞" }
+    ],
+    "explanation": "仮定表現と2音節動詞の重ね型を組み合わせた、実務・ゼミでもよく使われる表現です。",
+    "commonMistakes": [
+      { "wrong": "如果有意见的话，我们一起讨讨论论这个方案吧。", "reason": "「讨论」の重ね型は「讨讨论论」ではなく「讨论讨论」です。" }
+    ]
+  },
+  {
+    "id": "C-G13-03-01",
+    "lessonId": "L13",
+    "minLesson": 13,
+    "grammarIds": ["G13-03"],
+    "difficulty": 1,
+    "japanesePrompt": "すみません、もう一度ゆっくり言っていただけますか。",
+    "targetGrammarHint": "再 + 動詞 + 回数（再说一遍）",
+    "hints": [
+      "「すみません」は「对不起」または「不好意思」を使います。",
+      "「もう一度言う」は未実現の反復なので「再说一遍」を使います。",
+      "「ゆっくり」は「慢一点儿」を後ろまたは前に添えて「请您再慢一点儿说一遍，好吗？」／「请您再说一遍，慢一点儿好吗？」のように言えます。"
+    ],
+    "modelAnswer": "不好意思，请您再慢一点儿说一遍，好吗？",
+    "acceptableAnswers": [
+      "不好意思，请您再慢一点儿说一遍，好吗？",
+      "对不起，您能再说一遍吗？",
+      "不好意思，请您再说一遍，说慢一点儿好吗？"
+    ],
+    "pinyin": "Bù hǎoyìsi, qǐng nín zài màn yìdiǎnr shuō yí biàn, hǎo ma?",
+    "structureBreakdown": [
+      { "text": "不好意思", "role": "Other", "label": "挨拶" },
+      { "text": "请您", "role": "V", "label": "依頼" },
+      { "text": "再", "role": "Adv", "label": "副詞" },
+      { "text": "慢一点儿", "role": "Adv", "label": "修飾" },
+      { "text": "说一遍", "role": "V", "label": "動詞・回数" },
+      { "text": "好吗", "role": "P", "label": "確認" }
+    ],
+    "explanation": "これから相手にもう一度言ってもらうお願いなので、「又」ではなく「再」を用います。",
+    "commonMistakes": [
+      { "wrong": "请您又说一遍好吗？", "reason": "これからの反復の依頼には「又」ではなく「再」を使います。" }
+    ]
+  },
+  {
+    "id": "C-G13-03-02",
+    "lessonId": "L13",
+    "minLesson": 13,
+    "grammarIds": ["G13-03"],
+    "difficulty": 1,
+    "japanesePrompt": "まず手を洗ってから、それからご飯を食べましょう。",
+    "targetGrammarHint": "先……，再……",
+    "hints": [
+      "順序を表す「先……，再……」の構文を使います。",
+      "「手を洗う」は「洗手」、「ご飯を食べる」は「吃饭」です。",
+      "「〜しましょう」は文末に「吧」を付けます。"
+    ],
+    "modelAnswer": "我们先洗手，再吃饭吧。",
+    "acceptableAnswers": [
+      "我们先洗手，再吃饭吧。",
+      "先洗手，再吃饭吧。",
+      "我们先把手洗了，再吃饭吧。"
+    ],
+    "pinyin": "Wǒmen xiān xǐshǒu, zài chīfàn ba.",
+    "structureBreakdown": [
+      { "text": "我们", "role": "S", "label": "主語" },
+      { "text": "先", "role": "Adv", "label": "先行副詞" },
+      { "text": "洗手", "role": "V", "label": "動作1" },
+      { "text": "再", "role": "Adv", "label": "順序副詞" },
+      { "text": "吃饭吧", "role": "V", "label": "動作2" }
+    ],
+    "explanation": "「先 A，再 B」は2つの動作の時間的前後関係を明確にする最も基本的な構文です。",
+    "commonMistakes": [
+      { "wrong": "我们洗手先，吃饭再吧。", "reason": "「先」と「再」は副詞なので必ず動詞の前に置きます。" }
+    ]
+  },
+  {
+    "id": "C-G13-03-03",
+    "lessonId": "L13",
+    "minLesson": 13,
+    "grammarIds": ["G13-03"],
+    "difficulty": 2,
+    "japanesePrompt": "この音楽はとても素晴らしいので、私は明日また聴きに来たいです。",
+    "targetGrammarHint": "想 + 時間詞 + 再 + 動詞（または 時間詞 + 想 + 再 + 動詞）",
+    "hints": [
+      "「素晴らしい」は「很精彩」または「太好听了」を使います。",
+      "「また聴きに来たい」は助動詞「想」の後ろに「再」を置いて「想再来听」とします。",
+      "「明日」は「想」の前、または「想」の後ろ・「再」の前に置きます。"
+    ],
+    "modelAnswer": "这场音乐会太好听了，我明天还想再来听。",
+    "acceptableAnswers": [
+      "这场音乐会太好听了，我明天还想再来听。",
+      "这个音乐很精彩，我想明天再来听。",
+      "这首曲子太好听了，我明天想再来听。"
+    ],
+    "pinyin": "Zhè chǎng yīnyuèhuì tài hǎotīng le, wǒ míngtiān hái xiǎng zài lái tīng.",
+    "structureBreakdown": [
+      { "text": "这场音乐会太好听了", "role": "Other", "label": "前提" },
+      { "text": "我明天", "role": "S", "label": "主語・時間" },
+      { "text": "还想", "role": "Aux", "label": "副詞・助動詞" },
+      { "text": "再", "role": "Adv", "label": "反復副詞" },
+      { "text": "来听", "role": "V", "label": "連動句" }
+    ],
+    "explanation": "助動詞「想」がある文で反復の「再」を使う場合、「再」は「想」の後ろ・主動詞の前に置きます。",
+    "commonMistakes": [
+      { "wrong": "我明天再想来听。", "reason": "「また〜したい」と言うときは「再」を「想」の後ろに置いて「想再来听」とします。" }
+    ]
+  },
+  {
+    "id": "C-G13-03-04",
+    "lessonId": "L13",
+    "minLesson": 13,
+    "grammarIds": ["G13-03"],
+    "difficulty": 2,
+    "japanesePrompt": "あと5分待ちましょう、もうすぐ彼が来るかもしれません。",
+    "targetGrammarHint": "再 + 動詞 + 時間量（再等五分钟）",
+    "hints": [
+      "「あと5分待つ」は数量の追加なので「再等五分钟」とします。",
+      "「〜かもしれません」は推量の「可能」や文末の「吧」で表せます。",
+      "「彼が来る」は「他马上就来了」や「他可能快来了」が使えます。"
+    ],
+    "modelAnswer": "我们再等五分钟吧，他可能快来了。",
+    "acceptableAnswers": [
+      "我们再等五分钟吧，他可能快来了。",
+      "再等五分钟吧，他也许马上就来了。",
+      "我们再等五分钟看看吧，他快来了。"
+    ],
+    "pinyin": "Wǒmen zài děng wǔ fēnzhōng ba, tā kěnéng kuài lái le.",
+    "structureBreakdown": [
+      { "text": "我们", "role": "S", "label": "主語" },
+      { "text": "再", "role": "Adv", "label": "追加副詞" },
+      { "text": "等", "role": "V", "label": "動詞" },
+      { "text": "五分钟", "role": "C", "label": "時量補語" },
+      { "text": "吧", "role": "P", "label": "語気助詞" }
+    ],
+    "explanation": "「再＋動詞＋時間量」で「さらに〜だけ動作を続ける」という追加の表現になります。",
+    "commonMistakes": [
+      { "wrong": "我们等再五分钟吧。", "reason": "「再」は動詞「等」の前に置きます。" }
+    ]
+  },
+  {
+    "id": "C-G13-03-05",
+    "lessonId": "L13",
+    "minLesson": 13,
+    "grammarIds": ["G13-03", "G13-02"],
+    "difficulty": 3,
+    "japanesePrompt": "まずはこの建築のスタイルをよく見てから、それから設計のアイデアを話し合いましょう。",
+    "targetGrammarHint": "先 + V重ね型，然后再 + 動詞句",
+    "hints": [
+      "「よく見る／ちょっと見てみる」は「仔细看看」とします。",
+      "「設計のアイデア」は「设计想法」または「设计方案」が使えます。",
+      "「先……，然后再……」の接続で2つの節を結びます。"
+    ],
+    "modelAnswer": "我们先仔细看看这座建筑的风格，然后再讨论设计方案吧。",
+    "acceptableAnswers": [
+      "我们先仔细看看这座建筑的风格，然后再讨论设计方案吧。",
+      "先看看这座建筑的风格，然后再讨论讨论设计想法吧。",
+      "我们先看看这个建筑风格，然后再商量设计方案吧。"
+    ],
+    "pinyin": "Wǒmen xiān zǐxì kànkan zhè zuò jiànzhù de fēnggé, ránhòu zài tǎolùn shèjì fāng'àn ba.",
+    "structureBreakdown": [
+      { "text": "我们", "role": "S", "label": "主語" },
+      { "text": "先", "role": "Adv", "label": "副詞" },
+      { "text": "仔细看看这座建筑的风格", "role": "V", "label": "動詞重ね型句" },
+      { "text": "然后再", "role": "Conj", "label": "順序接続" },
+      { "text": "讨论设计方案吧", "role": "V", "label": "後続動作" }
+    ],
+    "explanation": "「先……，然后再……」に動詞重ね型「看看」を組み合わせ、丁寧で自然な進行・提案を作っています。",
+    "commonMistakes": [
+      { "wrong": "我们先仔细看看这座建筑的风格，再然后讨论设计方案吧。", "reason": "語順は「再然后」ではなく「然后再」です。" }
+    ]
+  },
+  {
+    "id": "C-G13-04-01",
+    "lessonId": "L13",
+    "minLesson": 13,
+    "grammarIds": ["G13-04"],
+    "difficulty": 1,
+    "japanesePrompt": "もう9時なので、私はすぐに出発しなければなりません。",
+    "targetGrammarHint": "助動詞「得 (děi)」",
+    "hints": [
+      "「もう9時だ」は「已经九点了」または「九点了」とします。",
+      "現実的な必要性を表す「〜しなければならない」には「得 (děi)」を使います。",
+      "「すぐに出発する」は「马上出发」です。"
+    ],
+    "modelAnswer": "已经九点了，我得马上出发了。",
+    "acceptableAnswers": [
+      "已经九点了，我得马上出发了。",
+      "九点了，我得立刻出发。",
+      "现在九点了，我得赶紧出发了。"
+    ],
+    "pinyin": "Yǐjīng jiǔ diǎn le, wǒ děi mǎshàng chūfā le.",
+    "structureBreakdown": [
+      { "text": "已经九点了", "role": "Time", "label": "状況" },
+      { "text": "我", "role": "S", "label": "主語" },
+      { "text": "得", "role": "Aux", "label": "助動詞(děi)" },
+      { "text": "马上出发了", "role": "V", "label": "動詞句" }
+    ],
+    "explanation": "時刻が迫っているという客観的状況から生じる義務には、口語で「得 (děi)」がよく使われます。",
+    "commonMistakes": [
+      { "wrong": "已经九点了，我不得马上出发了。", "reason": "肯定の必要性に「不得」は使えません。" }
+    ]
+  },
+  {
+    "id": "C-G13-04-02",
+    "lessonId": "L13",
+    "minLesson": 13,
+    "grammarIds": ["G13-04"],
+    "difficulty": 1,
+    "japanesePrompt": "学生は毎日授業を復習すべきです。",
+    "targetGrammarHint": "助動詞「应该」",
+    "hints": [
+      "道理・常識に基づく「〜すべきだ」には「应该」を使います。",
+      "「毎日」は「每天」、動詞句の前に置きます。",
+      "「授業を復習する」は「复习功课」または「复习课」です。"
+    ],
+    "modelAnswer": "学生每天都应该复习功课。",
+    "acceptableAnswers": [
+      "学生每天都应该复习功课。",
+      "学生应该每天复习功课。",
+      "作为学生，应该每天复习课程。"
+    ],
+    "pinyin": "Xuéshēng měitiān dōu yīnggāi fùxí gōngkè.",
+    "structureBreakdown": [
+      { "text": "学生", "role": "S", "label": "主語" },
+      { "text": "每天都", "role": "Time", "label": "時間・総括" },
+      { "text": "应该", "role": "Aux", "label": "助動詞" },
+      { "text": "复习功课", "role": "V", "label": "動詞句" }
+    ],
+    "explanation": "学生としての当然の心がけ・道理を述べる文なので「应该」が最適です。",
+    "commonMistakes": [
+      { "wrong": "学生应该每天要复习功课。", "reason": "「应该」と「要」を同じ意味で重ねるのは不自然です。" }
+    ]
+  },
+  {
+    "id": "C-G13-04-03",
+    "lessonId": "L13",
+    "minLesson": 13,
+    "grammarIds": ["G13-04"],
+    "difficulty": 2,
+    "japanesePrompt": "明日は休みなので、あなたはそんなに早く起きる必要はありません。",
+    "targetGrammarHint": "「得」の否定相当「不用 / 不必」",
+    "hints": [
+      "「休みだ」は「休息」または「放假」で表せます。",
+      "「〜する必要はない」は「不用」または「不必」を使います（「*不得」は不可）。",
+      "「そんなに早く起きる」は「起那么早」または「那么早起床」です。"
+    ],
+    "modelAnswer": "明天放假，你不用起那么早。",
+    "acceptableAnswers": [
+      "明天放假，你不用起那么早。",
+      "明天休息，你不必这么早起床。",
+      "明天不上班，你不用起得这么早。"
+    ],
+    "pinyin": "Míngtiān fàngjià, nǐ bùyòng qǐ nàme zǎo.",
+    "structureBreakdown": [
+      { "text": "明天放假", "role": "Other", "label": "理由" },
+      { "text": "你", "role": "S", "label": "主語" },
+      { "text": "不用", "role": "Neg", "label": "否定（不要）" },
+      { "text": "起那么早", "role": "V", "label": "動詞句" }
+    ],
+    "explanation": "「〜しなくてよい」という必要性の否定には「不用」または「不必」を用います。",
+    "commonMistakes": [
+      { "wrong": "明天放假，你不得起那么早。", "reason": "「得 (děi)」の否定に「不得」は使えません。" }
+    ]
+  },
+  {
+    "id": "C-G13-04-04",
+    "lessonId": "L13",
+    "minLesson": 13,
+    "grammarIds": ["G13-04"],
+    "difficulty": 2,
+    "japanesePrompt": "こんな遅くにコーヒーを飲むべきではありませんよ、眠れなくなります。",
+    "targetGrammarHint": "不应该 + 動詞句",
+    "hints": [
+      "「〜すべきではない」は「不应该」を使います。",
+      "「こんな遅くに」は「这么晚」で表します。",
+      "「眠れなくなる」は可能補語を使って「会睡不着（的）」または「睡不着觉」と言えます。"
+    ],
+    "modelAnswer": "这么晚了，你不应该喝咖啡，不然睡不着。",
+    "acceptableAnswers": [
+      "这么晚了，你不应该喝咖啡，不然睡不着。",
+      "你不应该这么晚还喝咖啡，要不然睡不着觉。",
+      "这么晚不应该喝咖啡，睡不着觉的。"
+    ],
+    "pinyin": "Zhème wǎn le, nǐ bù yīnggāi hē kāfēi, bùrán shuì bu zháo.",
+    "structureBreakdown": [
+      { "text": "这么晚了", "role": "Time", "label": "状況" },
+      { "text": "你", "role": "S", "label": "主語" },
+      { "text": "不应该", "role": "Neg", "label": "助動詞否定" },
+      { "text": "喝咖啡", "role": "V", "label": "動詞句" },
+      { "text": "不然睡不着", "role": "Other", "label": "結果" }
+    ],
+    "explanation": "「不应该」で助言・忠告としての否定を表し、可能補語「睡不着」で眠れないことを補っています。",
+    "commonMistakes": [
+      { "wrong": "你不用这么晚喝咖啡。", "reason": "「不用」は「しなくてよい」で、「〜すべきでない（忠告）」には「不应该」を使います。" }
+    ]
+  },
+  {
+    "id": "C-G13-04-05",
+    "lessonId": "L13",
+    "minLesson": 13,
+    "grammarIds": ["G13-04", "G13-01", "G13-03"],
+    "difficulty": 3,
+    "japanesePrompt": "もし空港へ行くなら、少なくとも2時間前には家を出なければなりません。",
+    "targetGrammarHint": "如果……的话，就得……",
+    "hints": [
+      "「もし空港へ行くなら」は「如果去机场的话」とします。",
+      "「少なくとも2時間前」は「至少提前两个小时」または「最起码提前两小时」です。",
+      "帰結節は「就得……」で必要性を表します。"
+    ],
+    "modelAnswer": "如果去机场的话，至少得提前两个小时出门。",
+    "acceptableAnswers": [
+      "如果去机场的话，至少得提前两个小时出门。",
+      "要是去机场，你至少得提前两小时离开家。",
+      "如果去机场的话，就得提前两个小时出发。"
+    ],
+    "pinyin": "Rúguǒ qù jīchǎng de huà, zhìshǎo děi tíqián liǎng gè xiǎoshí chūmén.",
+    "structureBreakdown": [
+      { "text": "如果去机场的话", "role": "Conj", "label": "仮定節" },
+      { "text": "至少", "role": "Adv", "label": "副詞" },
+      { "text": "得", "role": "Aux", "label": "助動詞(děi)" },
+      { "text": "提前两个小时", "role": "Time", "label": "時間表現" },
+      { "text": "出门", "role": "V", "label": "動詞" }
+    ],
+    "explanation": "仮定条件「如果……的话」と必須の「得 (děi)」を自然に組み合わせた実用的な文です。",
+    "commonMistakes": [
+      { "wrong": "如果去机场的话，得至少提前两个小时出门。", "reason": "副詞「至少」は助動詞「得」の前に置くのがより自然です。" }
+    ]
+  }
+]

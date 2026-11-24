@@ -1,0 +1,396 @@
+[
+  {
+    "id": "V18-001",
+    "hanzi": "游玩",
+    "pinyin": "yóuwán",
+    "tones": [2, 2],
+    "meaningJa": "遊覧する、遊び歩く、観光して楽しむ",
+    "pos": "動詞",
+    "usage": "観光地や公園などを巡って楽しむことを指す。「去西湖游玩（西湖へ遊びに行く）」。",
+    "example": {
+      "hanzi": "国庆节期间，很多家庭去风景名胜区游玩。",
+      "pinyin": "Guóqìngjié qījiān, hěn duō jiātíng qù fēngjǐng míngshèngqū yóuwán.",
+      "ja": "国慶節の期間中、多くの家族が名勝地へ遊びに行きます。"
+    },
+    "lessonId": "L18",
+    "minLesson": 18,
+    "source": "textbook-scope",
+    "grammarIds": ["G18-02"],
+    "synonyms": ["旅游", "游览"]
+  },
+  {
+    "id": "V18-002",
+    "hanzi": "年轻",
+    "pinyin": "niánqīng",
+    "tones": [2, 1],
+    "meaningJa": "若い、年が若い",
+    "pos": "形容詞",
+    "usage": "年齢や気持ちの若さを表す。「年轻的时候（若い頃）」「很年轻（とても若い）」。",
+    "example": {
+      "hanzi": "老师看起来非常年轻，真有活力。",
+      "pinyin": "Lǎoshī kàn qǐlái fēicháng niánqīng, zhēn yǒu huólì.",
+      "ja": "先生はとても若く見えて、本当にエネルギッシュです。"
+    },
+    "lessonId": "L18",
+    "minLesson": 18,
+    "source": "textbook-scope",
+    "grammarIds": ["G18-01"],
+    "antonyms": ["年老"]
+  },
+  {
+    "id": "V18-003",
+    "hanzi": "后来",
+    "pinyin": "hòulái",
+    "tones": [4, 2],
+    "meaningJa": "その後、のちに（過去のある時点より後）",
+    "pos": "時間詞",
+    "usage": "過去の話の中で「そのあとで」を表す。これから先の未来（現在から見て今後）には「以后」を使い、「后来」は使わない。",
+    "example": {
+      "hanzi": "他们大学毕业以后分开了，后来又在同一家公司相遇了。",
+      "pinyin": "Tāmen dàxué bìyè yǐhòu fēnkāi le, hòulái yòu zài tóng yì jiā gōngsī xiāngyù le.",
+      "ja": "彼らは大学卒業後に別々になりましたが、その後また同じ会社で再会しました。"
+    },
+    "lessonId": "L18",
+    "minLesson": 18,
+    "source": "textbook-scope",
+    "grammarIds": ["G18-02"],
+    "antonyms": ["起初"],
+    "related": ["然后", "以后"]
+  },
+  {
+    "id": "V18-004",
+    "hanzi": "感情",
+    "pinyin": "gǎnqíng",
+    "tones": [3, 2],
+    "meaningJa": "感情、気持ち／（人と人との）情愛・仲",
+    "pos": "名詞",
+    "usage": "「感情很好（仲がとても良い）」「培养感情（親交を深める）」。",
+    "example": {
+      "hanzi": "他们认识十多年了，彼此之间的感情越深厚。",
+      "pinyin": "Tāmen rènshi shí duō nián le, bǐcǐ zhījiān de gǎnqíng yuè shēnhòu.",
+      "ja": "彼らは知り合って10年以上になり、お互いの絆がますます深まっています。"
+    },
+    "lessonId": "L18",
+    "minLesson": 18,
+    "source": "textbook-scope",
+    "grammarIds": ["G18-01"],
+    "related": ["爱情"]
+  },
+  {
+    "id": "V18-005",
+    "hanzi": "夫妻",
+    "pinyin": "fūqī",
+    "tones": [1, 1],
+    "meaningJa": "夫婦、夫妻",
+    "pos": "名詞",
+    "usage": "「一对夫妻（一組の夫婦）」「老夫妻（老夫婦）」。",
+    "example": {
+      "hanzi": "这对年轻夫妻为了工作搬到了广州。",
+      "pinyin": "Zhè duì niánqīng fūqī wèile gōngzuò bān dào le Guǎngzhōu.",
+      "ja": "この若い夫婦は仕事のために広州へ引っ越しました。"
+    },
+    "lessonId": "L18",
+    "minLesson": 18,
+    "source": "textbook-scope",
+    "grammarIds": ["G18-04"],
+    "measureWord": "对"
+  },
+  {
+    "id": "V18-006",
+    "hanzi": "反对",
+    "pinyin": "fǎnduì",
+    "tones": [3, 4],
+    "meaningJa": "反対する",
+    "pos": "動詞",
+    "usage": "「反对这个意见（この意見に反対する）」。目的語を直接後ろに取れる。",
+    "example": {
+      "hanzi": "尽管父母一开始反对，他还是坚持了自己的选择。",
+      "pinyin": "Jǐnguǎn fùmǔ yì kāishǐ fǎnduì, tā háishi jiānchí le zìjǐ de xuǎnzé.",
+      "ja": "両親が最初反対したにもかかわらず、彼はやはり自分の選択を貫きました。"
+    },
+    "lessonId": "L18",
+    "minLesson": 18,
+    "source": "textbook-scope",
+    "grammarIds": ["G18-03"],
+    "antonyms": ["赞成", "支持"]
+  },
+  {
+    "id": "V18-007",
+    "hanzi": "结合",
+    "pinyin": "jiéhé",
+    "tones": [2, 2],
+    "meaningJa": "結びつく、結合する、結婚する",
+    "pos": "動詞",
+    "usage": "物事の組み合わせ（「理论与实践相结合」）や男女の結びつきに用いる。",
+    "example": {
+      "hanzi": "把传统工艺和现代设计结合起来，效果越来越好了。",
+      "pinyin": "Bǎ chuántǒng gōngyì hé xiàndài shèjì jiéhé qǐlái, xiàoguǒ yuèláiyuè hǎo le.",
+      "ja": "伝統工芸と現代デザインを組み合わせると、効果がますます良くなりました。"
+    },
+    "lessonId": "L18",
+    "minLesson": 18,
+    "source": "textbook-scope",
+    "grammarIds": ["G18-01"],
+    "antonyms": ["拆散"]
+  },
+  {
+    "id": "V18-008",
+    "hanzi": "想要",
+    "pinyin": "xiǎngyào",
+    "tones": [3, 4],
+    "meaningJa": "〜したいと思う、〜を欲しがる",
+    "pos": "助動詞・動詞",
+    "usage": "「想」より欲しい・したいという気持ちが少しはっきりしている表現。",
+    "example": {
+      "hanzi": "为了实现梦想，他比谁都更想要得到这个机会。",
+      "pinyin": "Wèile shíxiàn mèngxiǎng, tā bǐ shéi dōu gèng xiǎngyào dédào zhège jīhuì.",
+      "ja": "夢を実現するために、彼は誰よりもこの機会を手に入れたいと思っていました。"
+    },
+    "lessonId": "L18",
+    "minLesson": 18,
+    "source": "textbook-scope",
+    "grammarIds": ["G18-04"],
+    "synonyms": ["希望", "想"]
+  },
+  {
+    "id": "V18-009",
+    "hanzi": "拆散",
+    "pinyin": "chāisàn",
+    "tones": [1, 4],
+    "meaningJa": "引き裂く、別れさせる、ばらばらにする",
+    "pos": "動詞",
+    "usage": "夫婦や仲間の絆を強制的に引き離すときに使う動補構造動詞。よく「把」構文と併用される。",
+    "example": {
+      "hanzi": "无论遇到什么困难，都无法把他们一家人拆散。",
+      "pinyin": "Wúlùn yùdào shénme kùnnan, dōu wúfǎ bǎ tāmen yìjiārén chāisàn.",
+      "ja": "どんな困難に出会っても、彼ら家族を引き裂くことはできません。"
+    },
+    "lessonId": "L18",
+    "minLesson": 18,
+    "source": "textbook-scope",
+    "grammarIds": ["G09-04"],
+    "antonyms": ["结合"]
+  },
+  {
+    "id": "V18-010",
+    "hanzi": "身份",
+    "pinyin": "shēnfèn",
+    "tones": [1, 4],
+    "meaningJa": "身分、立場、身元",
+    "pos": "名詞",
+    "usage": "「学生身份（学生の身分）」「隐藏身份（正体を隠す）」「身份证（身分証明書）」。",
+    "example": {
+      "hanzi": "进入实验楼以前，请先登记自己的身份信息。",
+      "pinyin": "Jìnrù shíyànlóu yǐqián, qǐng xiān dēngjì zìjǐ de shēnfèn xìnxī.",
+      "ja": "実験棟に入る前に、まず自分の身分情報を登録してください。"
+    },
+    "lessonId": "L18",
+    "minLesson": 18,
+    "source": "textbook-scope",
+    "grammarIds": ["G18-04"]
+  },
+  {
+    "id": "V18-011",
+    "hanzi": "偷偷",
+    "pinyin": "tōutōu",
+    "tones": [1, 1],
+    "meaningJa": "こっそり、ひそかに、内緒で",
+    "pos": "副詞",
+    "usage": "人に知られないようにそっと行動する様子。「偷偷地＋動詞」の形でよく使う。",
+    "example": {
+      "hanzi": "妹妹为了给妈妈一个惊喜，偷偷地在房间里画贺卡。",
+      "pinyin": "Mèimei wèile gěi māma yí ge jīngxǐ, tōutōu de zài fángjiān lǐ huà hèkǎ.",
+      "ja": "妹は母を驚かせるために、部屋の中でこっそりお祝いカードを描いていました。"
+    },
+    "lessonId": "L18",
+    "minLesson": 18,
+    "source": "textbook-scope",
+    "grammarIds": ["G14-02", "G18-04"]
+  },
+  {
+    "id": "V18-012",
+    "hanzi": "然后",
+    "pinyin": "ránhòu",
+    "tones": [2, 4],
+    "meaningJa": "それから、そのあと",
+    "pos": "接続詞",
+    "usage": "時系列の連続した動作（「先……，然后……」＝まず〜して、それから…する）をつなぐ。",
+    "example": {
+      "hanzi": "我们先把作业写完，然后再一起去打球吧。",
+      "pinyin": "Wǒmen xiān bǎ zuòyè xiěwán, ránhòu zài yìqǐ qù dǎqiú ba.",
+      "ja": "私たちはまず宿題を書き終えて、それから一緒に球技をしに行きましょう。"
+    },
+    "lessonId": "L18",
+    "minLesson": 18,
+    "source": "textbook-scope",
+    "grammarIds": ["G13-03"],
+    "related": ["后来", "接着"]
+  },
+  {
+    "id": "V18-013",
+    "hanzi": "救",
+    "pinyin": "jiù",
+    "tones": [4],
+    "meaningJa": "救う、助ける",
+    "pos": "動詞",
+    "usage": "危険や危機から命・人を助ける。「救人（人を救う）」「救出（救い出す）」。",
+    "example": {
+      "hanzi": "为了救那个落水的孩子，他毫不犹豫地跳进了河里。",
+      "pinyin": "Wèile jiù nàge luòshuǐ de háizi, tā háobù yóuyù de tiào jìn le hé lǐ.",
+      "ja": "その川に落ちた子どもを救うため、彼はためらわずに川へ飛び込みました。"
+    },
+    "lessonId": "L18",
+    "minLesson": 18,
+    "source": "textbook-scope",
+    "grammarIds": ["G18-04"],
+    "synonyms": ["挽救"]
+  },
+  {
+    "id": "V18-014",
+    "hanzi": "不得已",
+    "pinyin": "bùdéyǐ",
+    "tones": [4, 2, 3],
+    "meaningJa": "やむを得ず、仕方がなく",
+    "pos": "形容詞・動詞",
+    "usage": "他に方法がなく仕方なく〜する。「万不得已（万やむを得ない）」。",
+    "example": {
+      "hanzi": "因为家里突然有急事，他不得已才提前回国了。",
+      "pinyin": "Yīnwèi jiālǐ tūrán yǒu jíshì, tā bùdéyǐ cái tíqián huíguó le.",
+      "ja": "実家に突然急用ができたため、彼はやむを得ず予定より早く帰国しました。"
+    },
+    "lessonId": "L18",
+    "minLesson": 18,
+    "source": "textbook-scope",
+    "grammarIds": ["G14-04"]
+  },
+  {
+    "id": "V18-015",
+    "hanzi": "最后",
+    "pinyin": "zuìhòu",
+    "tones": [4, 4],
+    "meaningJa": "最後（に）、とうとう、ついに",
+    "pos": "時間詞・名詞",
+    "usage": "順序の最後や物事の最終的な結末を表す。「最后一名（最下位）」「在最后（最後に）」。",
+    "example": {
+      "hanzi": "尽管中间遇到了很多困难，他们最后还是成功了。",
+      "pinyin": "Jǐnguǎn zhōngjiān yùdào le hěn duō kùnnan, tāmen zuìhòu háishi chénggōng le.",
+      "ja": "途中で多くの困難に出会ったにもかかわらず、彼らは最後にはやはり成功しました。"
+    },
+    "lessonId": "L18",
+    "minLesson": 18,
+    "source": "textbook-scope",
+    "grammarIds": ["G18-03"],
+    "antonyms": ["最初", "起初"]
+  },
+  {
+    "id": "V18-016",
+    "hanzi": "打败",
+    "pinyin": "dǎbài",
+    "tones": [3, 4],
+    "meaningJa": "打ち負かす、負かす",
+    "pos": "動詞",
+    "usage": "試合・戦いなどで相手を負かす動補構造動詞。受け身の「被〜打败」でも頻出。",
+    "example": {
+      "hanzi": "我们校队在决赛中打败了去年冠军，赢得了胜利。",
+      "pinyin": "Wǒmen xiàoduì zài juésài zhōng dǎbài le qùnián guànjūn, yíngdé le shènglì.",
+      "ja": "私たちの学校チームは決勝戦で昨年の王者を打ち負かし、勝利を勝ち取りました。"
+    },
+    "lessonId": "L18",
+    "minLesson": 18,
+    "source": "textbook-scope",
+    "grammarIds": ["G09-01", "G14-03"],
+    "synonyms": ["战胜"]
+  },
+  {
+    "id": "V18-017",
+    "hanzi": "越来越",
+    "pinyin": "yuèláiyuè",
+    "tones": [4, 2, 4],
+    "meaningJa": "ますます、だんだん〜になる",
+    "pos": "副詞",
+    "usage": "後ろに形容詞や心理動詞を置き、時間の経過に伴う程度の増加を表す。形容詞前に「很」は置かない。",
+    "example": {
+      "hanzi": "随着练习次数增加，他的发音越来越标准了。",
+      "pinyin": "Suízhe liànxí cìshù zēngjiā, tā de fāyīn yuèláiyuè biāozhǔn le.",
+      "ja": "練習回数が増えるにつれ、彼の発音はますます標準的になってきました。"
+    },
+    "lessonId": "L18",
+    "minLesson": 18,
+    "source": "textbook-scope",
+    "grammarIds": ["G18-01"]
+  },
+  {
+    "id": "V18-018",
+    "hanzi": "尽管",
+    "pinyin": "jǐnguǎn",
+    "tones": [3, 3],
+    "meaningJa": "〜にもかかわらず、たとえ〜でも",
+    "pos": "接続詞",
+    "usage": "譲歩を表す接続詞で、後ろの節に「但是 / 可是 / 还是」を伴うことが多い。第3声連続のため発音上は「jínguǎn」と変調する。",
+    "example": {
+      "hanzi": "尽管路程很远，我们还是决定步行过去。",
+      "pinyin": "Jǐnguǎn lùchéng hěn yuǎn, wǒmen háishi juédìng bùxíng guòqù.",
+      "ja": "道のりがとても遠いにもかかわらず、私たちはやはり歩いて行くことにしました。"
+    },
+    "lessonId": "L18",
+    "minLesson": 18,
+    "source": "textbook-scope",
+    "grammarIds": ["G18-03"],
+    "synonyms": ["虽然"]
+  },
+  {
+    "id": "V18-019",
+    "hanzi": "但是",
+    "pinyin": "dànshì",
+    "tones": [4, 4],
+    "meaningJa": "しかし、だが、けれども",
+    "pos": "接続詞",
+    "usage": "「尽管……」「虽然……」の後ろ節で逆接を導く最も標準的な接続詞。",
+    "example": {
+      "hanzi": "尽管天气预报说有雨，但是下午居然出太阳了。",
+      "pinyin": "Jǐnguǎn tiānqì yùbào shuō yǒu yǔ, dànshì xiàwǔ jūrán chū tàiyáng le.",
+      "ja": "天気予報では雨と言っていましたが、午後はなんと太陽が出ました。"
+    },
+    "lessonId": "L18",
+    "minLesson": 18,
+    "source": "textbook-scope",
+    "grammarIds": ["G18-03"],
+    "synonyms": ["可是", "不过"]
+  },
+  {
+    "id": "V18-020",
+    "hanzi": "为了",
+    "pinyin": "wèile",
+    "tones": [4, 5],
+    "meaningJa": "〜のために、〜することを目的として",
+    "pos": "介詞",
+    "usage": "名詞や動詞句を後ろに取って目的を表す。「为」は第4声（wèi）で発音する。",
+    "example": {
+      "hanzi": "为了迎接新学期，同学们一起打扫了教室。",
+      "pinyin": "Wèile yíngjiē xīn xuéqī, tóngxuémen yìqǐ dǎsǎo le jiàoshì.",
+      "ja": "新学期を迎えるために、クラスメートたちは一緒に教室を掃除しました。"
+    },
+    "lessonId": "L18",
+    "minLesson": 18,
+    "source": "textbook-scope",
+    "grammarIds": ["G18-04"]
+  },
+  {
+    "id": "V18-021",
+    "hanzi": "修养",
+    "pinyin": "xiūyǎng",
+    "tones": [1, 3],
+    "meaningJa": "教養、たしなみ、品性",
+    "pos": "名詞",
+    "usage": "学識や人柄の洗練された様子を指す。「提高修养（教養を高める）」「很有修养（とても教養がある）」。",
+    "example": {
+      "hanzi": "多读优秀的文学作品，有助于提高个人修养。",
+      "pinyin": "Duō dú yōuxiù de wénxué zuòpǐn, yǒuzhùyú tígāo gèrén xiūyǎng.",
+      "ja": "優れた文学作品を多く読むことは、個人の教養を高めるのに役立ちます。"
+    },
+    "lessonId": "L18",
+    "minLesson": 18,
+    "source": "textbook-scope",
+    "grammarIds": ["G18-04"]
+  }
+]

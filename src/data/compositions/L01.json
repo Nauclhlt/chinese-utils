@@ -1,0 +1,454 @@
+[
+  {
+    "id": "C-G01-01-01",
+    "lessonId": "L01",
+    "minLesson": 1,
+    "grammarIds": ["G01-01", "G01-02"],
+    "difficulty": 1,
+    "japanesePrompt": "こんにちは（目上の人に）、私は高橋です。",
+    "targetGrammarHint": "目上の人への敬称「您」と、1人称「我」＋「是」または「姓」を使います。",
+    "hints": [
+      "挨拶は「代詞＋好」、自己紹介は「我＋是/姓＋高橋」の語順です。",
+      "目上の人への「あなた」は「您 (nín)」、高橋は「高桥 (Gāoqiáo)」と書きます。",
+      "您好，我（　）高桥。"
+    ],
+    "modelAnswer": "您好，我是高桥。",
+    "acceptableAnswers": [
+      "您好，我是高桥",
+      "您好，我姓高桥。",
+      "您好，我姓高桥",
+      "您好,我是高桥。",
+      "您好,我姓高桥。"
+    ],
+    "pinyin": "Nín hǎo, wǒ shì Gāoqiáo.",
+    "structureBreakdown": [
+      { "text": "您好", "role": "Other", "label": "挨拶(敬称)" },
+      { "text": "我", "role": "S", "label": "主語" },
+      { "text": "是", "role": "V", "label": "判断動詞" },
+      { "text": "高桥", "role": "O", "label": "氏名" }
+    ],
+    "explanation": "初対面や目上の人には「你」ではなく「您 (nín)」を使い、「您好」と挨拶します。姓だけ名乗る場合は「我是高桥」でも「我姓高桥」でも自然です。",
+    "commonMistakes": [
+      { "wrong": "你好，我是高桥。", "reason": "文法的には正しいですが、指定の「目上の人に」という条件では敬称「您」を使うのが適切です。" },
+      { "wrong": "您们好，我是高桥。", "reason": "1人に対して「您们」は使えません（そもそも「您们」という語は原則使いません）。" }
+    ]
+  },
+  {
+    "id": "C-G01-01-02",
+    "lessonId": "L01",
+    "minLesson": 1,
+    "grammarIds": ["G01-01", "G01-03"],
+    "difficulty": 1,
+    "japanesePrompt": "私たちはあなたたちが東京へ来るのを歓迎します。",
+    "targetGrammarHint": "複数代詞「我们」「你们」と「欢迎＋人＋来＋場所」を使います。",
+    "hints": [
+      "「主語＋欢迎＋目的語（人）＋来＋場所」の語順になります。",
+      "「私たち」は「我们 (wǒmen)」、「あなたたち」は「你们 (nǐmen)」、「東京」は「东京 (Dōngjīng)」です。",
+      "我们欢迎（　）来东京。"
+    ],
+    "modelAnswer": "我们欢迎你们来东京。",
+    "acceptableAnswers": ["我们欢迎你们来东京"],
+    "pinyin": "Wǒmen huānyíng nǐmen lái Dōngjīng.",
+    "structureBreakdown": [
+      { "text": "我们", "role": "S", "label": "主語" },
+      { "text": "欢迎", "role": "V", "label": "動詞" },
+      { "text": "你们", "role": "O", "label": "目的語" },
+      { "text": "来", "role": "V", "label": "動詞" },
+      { "text": "东京", "role": "Loc", "label": "場所" }
+    ],
+    "explanation": "「你们」は「欢迎」の目的語でありつつ「来」の意味上の主語になります。中国語では「你们」の形は主語・目的語で変化しません。",
+    "commonMistakes": [
+      { "wrong": "我们欢迎您们来东京。", "reason": "敬称「您」に「们」を付けて「您们」とすることはできません。" },
+      { "wrong": "我们你们来东京欢迎。", "reason": "動詞「欢迎」を文末に置く日本語の語順に引っ張られた誤りです。" }
+    ]
+  },
+  {
+    "id": "C-G01-01-03",
+    "lessonId": "L01",
+    "minLesson": 1,
+    "grammarIds": ["G01-01", "G01-03"],
+    "difficulty": 1,
+    "japanesePrompt": "彼は李明といい、彼女は王麗といいます。",
+    "targetGrammarHint": "「他」と「她」の書き分けと、名前を言う動詞「叫」を使います。",
+    "hints": [
+      "「他＋叫＋名前，她＋叫＋名前」の並立文にします。",
+      "「李明 (Lǐ Míng)」「王丽 (Wáng Lì)」と「叫 (jiào)」を使います。",
+      "他叫李明，（　）叫王丽。"
+    ],
+    "modelAnswer": "他叫李明，她叫王丽。",
+    "acceptableAnswers": ["他叫李明，她叫王丽", "他叫李明,她叫王丽。"],
+    "pinyin": "Tā jiào Lǐ Míng, tā jiào Wáng Lì.",
+    "structureBreakdown": [
+      { "text": "他", "role": "S", "label": "主語(男)" },
+      { "text": "叫", "role": "V", "label": "動詞" },
+      { "text": "李明", "role": "O", "label": "氏名" },
+      { "text": "她", "role": "S", "label": "主語(女)" },
+      { "text": "叫", "role": "V", "label": "動詞" },
+      { "text": "王丽", "role": "O", "label": "氏名" }
+    ],
+    "explanation": "「他」と「她」は発音が同じ tā ですが、書き言葉では性別に応じて漢字を明確に区別します。",
+    "commonMistakes": [
+      { "wrong": "他姓李明，她姓王丽。", "reason": "フルネームを後ろに置くときは「姓」ではなく「叫」を使います。" }
+    ]
+  },
+  {
+    "id": "C-G01-01-04",
+    "lessonId": "L01",
+    "minLesson": 1,
+    "grammarIds": ["G01-01", "G01-02"],
+    "difficulty": 2,
+    "japanesePrompt": "彼女たちは大学生です。",
+    "targetGrammarHint": "女性のみの複数代詞「她们」と判断動詞「是」を使います。",
+    "hints": [
+      "「主語（彼女たち）＋是＋大学生」の語順です。",
+      "女性複数は「她们 (tāmen)」、大学生は「大学生 (dàxuéshēng)」です。",
+      "（　）是大学生。"
+    ],
+    "modelAnswer": "她们是大学生。",
+    "acceptableAnswers": ["她们是大学生"],
+    "pinyin": "Tāmen shì dàxuéshēng.",
+    "structureBreakdown": [
+      { "text": "她们", "role": "S", "label": "主語(女性複数)" },
+      { "text": "是", "role": "V", "label": "判断動詞" },
+      { "text": "大学生", "role": "O", "label": "名詞" }
+    ],
+    "explanation": "「她们」で女性複数であることを示します。後ろの名詞「大学生」には「们」を付けない点に注意してください。",
+    "commonMistakes": [
+      { "wrong": "她们是大学生们。", "reason": "普通名詞「大学生」を複数にするために「们」を付ける必要はありません。" }
+    ]
+  },
+  {
+    "id": "C-G01-01-05",
+    "lessonId": "L01",
+    "minLesson": 1,
+    "grammarIds": ["G01-01", "G01-03"],
+    "difficulty": 2,
+    "japanesePrompt": "皆さん（あなたたち）に感謝します。どうぞよろしくお願いいたします。",
+    "targetGrammarHint": "「谢谢＋你们」と決まり文句「请多关照」を組み合わせます。",
+    "hints": [
+      "前半は「谢谢＋目的語」、後半は「请多关照」を続けます。",
+      "「あなたたち」は「你们 (nǐmen)」、「感謝する」は「谢谢 (xièxie)」です。",
+      "谢谢（　），请多关照。"
+    ],
+    "modelAnswer": "谢谢你们，请多关照。",
+    "acceptableAnswers": ["谢谢你们，请多关照", "谢谢你们,请多关照。"],
+    "pinyin": "Xièxie nǐmen, qǐng duō guānzhào.",
+    "structureBreakdown": [
+      { "text": "谢谢", "role": "V", "label": "動詞" },
+      { "text": "你们", "role": "O", "label": "目的語" },
+      { "text": "请", "role": "V", "label": "勧誘" },
+      { "text": "多", "role": "Adv", "label": "副詞" },
+      { "text": "关照", "role": "V", "label": "動詞" }
+    ],
+    "explanation": "「谢谢」は後ろに直接人称代詞を目的語として取ります。「请多关照」は初対面の挨拶の定番表現です。",
+    "commonMistakes": [
+      { "wrong": "谢谢您们，请多关照。", "reason": "「您们」という複数敬称は使えません。" }
+    ]
+  },
+  {
+    "id": "C-G01-02-01",
+    "lessonId": "L01",
+    "minLesson": 1,
+    "grammarIds": ["G01-02"],
+    "difficulty": 1,
+    "japanesePrompt": "私は日本人です。",
+    "targetGrammarHint": "判断動詞「是」の基本構文「S + 是 + 名詞」を使います。",
+    "hints": [
+      "「私＋である＋日本人」の語順に並べます。",
+      "「我 (wǒ)」「是 (shì)」「日本人 (Rìběnrén)」を使います。",
+      "我是（　）。"
+    ],
+    "modelAnswer": "我是日本人。",
+    "acceptableAnswers": ["我是日本人"],
+    "pinyin": "Wǒ shì Rìběnrén.",
+    "structureBreakdown": [
+      { "text": "我", "role": "S", "label": "主語" },
+      { "text": "是", "role": "V", "label": "判断動詞" },
+      { "text": "日本人", "role": "O", "label": "名詞" }
+    ],
+    "explanation": "国籍や身分を表す最も基本的な「是」構文です。",
+    "commonMistakes": [
+      { "wrong": "我日本人是。", "reason": "動詞「是」は目的語の前に置きます。" }
+    ]
+  },
+  {
+    "id": "C-G01-02-02",
+    "lessonId": "L01",
+    "minLesson": 1,
+    "grammarIds": ["G01-02"],
+    "difficulty": 1,
+    "japanesePrompt": "彼は中国人ではありません。",
+    "targetGrammarHint": "「是」の否定「不是」を使います。",
+    "hints": [
+      "「主語＋不是＋名詞」の語順です。",
+      "否定副詞「不 (bù)」を「是 (shì)」の直前に置きます。",
+      "他（　）中国人。"
+    ],
+    "modelAnswer": "他不是中国人。",
+    "acceptableAnswers": ["他不是中国人"],
+    "pinyin": "Tā bù shì Zhōngguórén.",
+    "structureBreakdown": [
+      { "text": "他", "role": "S", "label": "主語" },
+      { "text": "不", "role": "Neg", "label": "否定" },
+      { "text": "是", "role": "V", "label": "判断動詞" },
+      { "text": "中国人", "role": "O", "label": "名詞" }
+    ],
+    "explanation": "「不是」は発音上 bú shì と変調しますが、ピンイン表記は本調の bù shì と書くのが基本です。",
+    "commonMistakes": [
+      { "wrong": "他是不中国人。", "reason": "「不」は必ず述語「是」の前に置きます。" },
+      { "wrong": "他没有是中国人。", "reason": "「是」の否定には「没」ではなく「不」を使います。" }
+    ]
+  },
+  {
+    "id": "C-G01-02-03",
+    "lessonId": "L01",
+    "minLesson": 1,
+    "grammarIds": ["G01-02"],
+    "difficulty": 2,
+    "japanesePrompt": "王さんは記者ではなく、大学生です。",
+    "targetGrammarHint": "「不是 A，是 B」の対比表現を使います（王さん＝王小姐）。",
+    "hints": [
+      "「主語＋不是＋記者，是＋大学生」の形にします。",
+      "王さん（女性）は「王小姐」、記者は「记者 (jìzhě)」、大学生は「大学生 (dàxuéshēng)」です。",
+      "王小姐不是记者，（　）。"
+    ],
+    "modelAnswer": "王小姐不是记者，是大学生。",
+    "acceptableAnswers": [
+      "王小姐不是记者，是大学生",
+      "王小姐不是记者，她是大学生。",
+      "王小姐不是记者,是大学生。",
+      "王先生不是记者，是大学生。"
+    ],
+    "pinyin": "Wáng xiǎojie bù shì jìzhě, shì dàxuéshēng.",
+    "structureBreakdown": [
+      { "text": "王小姐", "role": "S", "label": "主語" },
+      { "text": "不是", "role": "V", "label": "否定判断" },
+      { "text": "记者", "role": "O", "label": "名詞" },
+      { "text": "是", "role": "V", "label": "判断動詞" },
+      { "text": "大学生", "role": "O", "label": "名詞" }
+    ],
+    "explanation": "前の節で主語「王小姐」が出ているため、後半の「是大学生」の前では主語を省略するのが自然です（繰り返しても誤りではありません）。",
+    "commonMistakes": [
+      { "wrong": "王小姐是不记者，是大学生。", "reason": "否定の「不」は「是」の前に置きます。" }
+    ]
+  },
+  {
+    "id": "C-G01-02-04",
+    "lessonId": "L01",
+    "minLesson": 1,
+    "grammarIds": ["G01-02"],
+    "difficulty": 2,
+    "japanesePrompt": "私たちは留学生ではありません。",
+    "targetGrammarHint": "複数代詞「我们」と「不是」を組み合わせます。",
+    "hints": [
+      "「我们＋不是＋名詞」の語順です。",
+      "留学生は「留学生 (liúxuéshēng)」です。",
+      "我们（　）留学生。"
+    ],
+    "modelAnswer": "我们不是留学生。",
+    "acceptableAnswers": ["我们不是留学生"],
+    "pinyin": "Wǒmen bù shì liúxuéshēng.",
+    "structureBreakdown": [
+      { "text": "我们", "role": "S", "label": "主語" },
+      { "text": "不是", "role": "V", "label": "否定判断" },
+      { "text": "留学生", "role": "O", "label": "名詞" }
+    ],
+    "explanation": "主語が複数（我们）でも、「是」「不是」や名詞「留学生」の形は一切変わりません。",
+    "commonMistakes": [
+      { "wrong": "我们不是留学生们。", "reason": "「们」は人や人称代詞を複数にするときに使いますが、一般の名詞述語「留学生」には付けません。" }
+    ]
+  },
+  {
+    "id": "C-G01-02-05",
+    "lessonId": "L01",
+    "minLesson": 1,
+    "grammarIds": ["G01-02"],
+    "difficulty": 2,
+    "japanesePrompt": "彼女は張さんではなく、陳さんです。（どちらも女性）",
+    "targetGrammarHint": "「姓＋小姐」と「不是 A，是 B」を使います。",
+    "hints": [
+      "「她＋不是＋張さん，是＋陳さん」の構成にします。",
+      "張さんは「张小姐 (Zhāng xiǎojie)」、陳さんは「陈小姐 (Chén xiǎojie)」です。",
+      "她不是张小姐，（　）。"
+    ],
+    "modelAnswer": "她不是张小姐，是陈小姐。",
+    "acceptableAnswers": [
+      "她不是张小姐，是陈小姐",
+      "她不是张小姐，她是陈小姐。",
+      "她不是张小姐,是陈小姐。"
+    ],
+    "pinyin": "Tā bù shì Zhāng xiǎojie, shì Chén xiǎojie.",
+    "structureBreakdown": [
+      { "text": "她", "role": "S", "label": "主語" },
+      { "text": "不是", "role": "V", "label": "否定判断" },
+      { "text": "张小姐", "role": "O", "label": "名詞" },
+      { "text": "是", "role": "V", "label": "判断動詞" },
+      { "text": "陈小姐", "role": "O", "label": "名詞" }
+    ],
+    "explanation": "「姓＋小姐」を「是 / 不是」の目的語に置くことで人物の取り違えを訂正できます。",
+    "commonMistakes": [
+      { "wrong": "她不是张小姐，不陈小姐。", "reason": "後半は肯定なので「是」を補います。" }
+    ]
+  },
+  {
+    "id": "C-G01-03-01",
+    "lessonId": "L01",
+    "minLesson": 1,
+    "grammarIds": ["G01-03"],
+    "difficulty": 1,
+    "japanesePrompt": "私の姓は田中です。田中健といいます。",
+    "targetGrammarHint": "「姓＋苗字」と「叫＋フルネーム」を使い分けます。",
+    "hints": [
+      "前半で「我姓〜」、後半で「叫〜」を使います。",
+      "田中は「田中 (Tiánzhōng)」、田中健は「田中健 (Tiánzhōng Jiàn)」です。",
+      "我（　）田中，（　）田中健。"
+    ],
+    "modelAnswer": "我姓田中，叫田中健。",
+    "acceptableAnswers": [
+      "我姓田中，叫田中健",
+      "我姓田中，我叫田中健。",
+      "我姓田中,叫田中健。"
+    ],
+    "pinyin": "Wǒ xìng Tiánzhōng, jiào Tiánzhōng Jiàn.",
+    "structureBreakdown": [
+      { "text": "我", "role": "S", "label": "主語" },
+      { "text": "姓", "role": "V", "label": "動詞" },
+      { "text": "田中", "role": "O", "label": "苗字" },
+      { "text": "叫", "role": "V", "label": "動詞" },
+      { "text": "田中健", "role": "O", "label": "氏名" }
+    ],
+    "explanation": "「姓」の後には苗字だけ、「叫」の後にはフルネーム（または下の名前）を置くのが中国語の基本ルールです。",
+    "commonMistakes": [
+      { "wrong": "我姓田中健。", "reason": "「姓」の後ろにフルネームは置けません。「我叫田中健」とします。" }
+    ]
+  },
+  {
+    "id": "C-G01-03-02",
+    "lessonId": "L01",
+    "minLesson": 1,
+    "grammarIds": ["G01-03"],
+    "difficulty": 1,
+    "japanesePrompt": "私たちは中国語を学びます。",
+    "targetGrammarHint": "S + V + O の語順で「学/学习」を使います。",
+    "hints": [
+      "「主語＋動詞（学ぶ）＋目的語（中国語）」の順です。",
+      "学ぶは「学习 (xuéxí)」、中国語は「汉语 (Hànyǔ)」または「中文 (Zhōngwén)」です。",
+      "我们（　）汉语。"
+    ],
+    "modelAnswer": "我们学习汉语。",
+    "acceptableAnswers": [
+      "我们学习汉语",
+      "我们学汉语。",
+      "我们学汉语",
+      "我们学习中文。",
+      "我们学中文。"
+    ],
+    "pinyin": "Wǒmen xuéxí Hànyǔ.",
+    "structureBreakdown": [
+      { "text": "我们", "role": "S", "label": "主語" },
+      { "text": "学习", "role": "V", "label": "動詞" },
+      { "text": "汉语", "role": "O", "label": "目的語" }
+    ],
+    "explanation": "日本語の「を」にあたる助詞は不要で、動詞「学习」の直後に目的語「汉语」を置きます。",
+    "commonMistakes": [
+      { "wrong": "我们汉语学习。", "reason": "目的語を動詞の前に置くSOV語順は誤りです。" }
+    ]
+  },
+  {
+    "id": "C-G01-03-03",
+    "lessonId": "L01",
+    "minLesson": 1,
+    "grammarIds": ["G01-03"],
+    "difficulty": 2,
+    "japanesePrompt": "彼はコーヒーを飲まず、お茶を飲みます。",
+    "targetGrammarHint": "否定「S + 不 + V + O」と肯定「S + V + O」を並べます。",
+    "hints": [
+      "「他＋不＋喝＋コーヒー，他＋喝＋お茶」の語順です。",
+      "飲むは「喝 (hē)」、コーヒーは「咖啡 (kāfēi)」、お茶は「茶 (chá)」です。",
+      "他不喝咖啡，（　）。"
+    ],
+    "modelAnswer": "他不喝咖啡，他喝茶。",
+    "acceptableAnswers": [
+      "他不喝咖啡，他喝茶",
+      "他不喝咖啡，喝茶。",
+      "他不喝咖啡,他喝茶。"
+    ],
+    "pinyin": "Tā bù hē kāfēi, tā hē chá.",
+    "structureBreakdown": [
+      { "text": "他", "role": "S", "label": "主語" },
+      { "text": "不", "role": "Neg", "label": "否定" },
+      { "text": "喝", "role": "V", "label": "動詞" },
+      { "text": "咖啡", "role": "O", "label": "目的語" },
+      { "text": "他", "role": "S", "label": "主語" },
+      { "text": "喝", "role": "V", "label": "動詞" },
+      { "text": "茶", "role": "O", "label": "目的語" }
+    ],
+    "explanation": "動詞の否定には直前に「不」を置きます。習慣的な好みや選択を否定・対比する基本表現です。",
+    "commonMistakes": [
+      { "wrong": "他喝不咖啡，喝茶。", "reason": "「不」は動詞の前に置きます。" }
+    ]
+  },
+  {
+    "id": "C-G01-03-04",
+    "lessonId": "L01",
+    "minLesson": 1,
+    "grammarIds": ["G01-03"],
+    "difficulty": 1,
+    "japanesePrompt": "どうぞお茶をお飲みください。ありがとうございます。",
+    "targetGrammarHint": "「请＋動詞＋目的語」の勧め表現と「谢谢」を使います。",
+    "hints": [
+      "「请＋喝＋茶，谢谢」の語順です。",
+      "どうぞは「请 (qǐng)」、ありがとうは「谢谢 (xièxie)」です。",
+      "（　）喝茶，谢谢。"
+    ],
+    "modelAnswer": "请喝茶，谢谢。",
+    "acceptableAnswers": [
+      "请喝茶，谢谢",
+      "请喝茶，谢谢您。",
+      "请喝茶,谢谢。"
+    ],
+    "pinyin": "Qǐng hē chá, xièxie.",
+    "structureBreakdown": [
+      { "text": "请", "role": "V", "label": "勧誘" },
+      { "text": "喝", "role": "V", "label": "動詞" },
+      { "text": "茶", "role": "O", "label": "目的語" },
+      { "text": "谢谢", "role": "V", "label": "動詞" }
+    ],
+    "explanation": "「请＋動詞（＋目的語）」で「どうぞ〜してください」という丁寧な勧めになります。",
+    "commonMistakes": [
+      { "wrong": "喝茶请，谢谢。", "reason": "「请」は動詞句の先頭に置きます。" }
+    ]
+  },
+  {
+    "id": "C-G01-03-05",
+    "lessonId": "L01",
+    "minLesson": 1,
+    "grammarIds": ["G01-03"],
+    "difficulty": 2,
+    "japanesePrompt": "北京へようこそお越しくださいました（北京へ来るのを歓迎します）。",
+    "targetGrammarHint": "「欢迎＋(您)＋来＋場所」の語順を使います。",
+    "hints": [
+      "「欢迎＋您（省略可）＋来＋北京」の語順です。",
+      "来るは「来 (lái)」、北京は「北京 (Běijīng)」です。",
+      "欢迎（　）来北京。"
+    ],
+    "modelAnswer": "欢迎您来北京。",
+    "acceptableAnswers": [
+      "欢迎您来北京",
+      "欢迎来北京。",
+      "欢迎来北京",
+      "欢迎你来北京。"
+    ],
+    "pinyin": "Huānyíng nín lái Běijīng.",
+    "structureBreakdown": [
+      { "text": "欢迎", "role": "V", "label": "動詞" },
+      { "text": "您", "role": "O", "label": "目的語" },
+      { "text": "来", "role": "V", "label": "動詞" },
+      { "text": "北京", "role": "Loc", "label": "場所" }
+    ],
+    "explanation": "移動動詞「来」は前置詞なしで直接場所（北京）を後ろに続けます。",
+    "commonMistakes": [
+      { "wrong": "北京欢迎您来。", "reason": "「北京が歓迎する」という擬人法（例：北京欢迎你）はありますが、「〜へ来るのを歓迎する」は「欢迎您来北京」です。" }
+    ]
+  }
+]

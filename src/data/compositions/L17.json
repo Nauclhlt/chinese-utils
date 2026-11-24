@@ -1,0 +1,780 @@
+[
+  {
+    "id": "C-G17-01-01",
+    "lessonId": "L17",
+    "minLesson": 17,
+    "grammarIds": ["G17-01"],
+    "difficulty": 1,
+    "japanesePrompt": "私は週末によく図書館へ行って本を読みます。",
+    "targetGrammarHint": "頻度副詞「常常」または「经常」を主語の後ろに置きます。",
+    "hints": [
+      "時間詞「周末」を文頭または主語の後ろに置き、主語「我」を続けます。",
+      "頻度副詞「常常」は動詞句の前に置きます。",
+      "「図書館へ行って本を読む」は連動文「去图书馆看书」です。"
+    ],
+    "modelAnswer": "周末我常常去图书馆看书。",
+    "acceptableAnswers": [
+      "周末我常常去图书馆看书。",
+      "我周末常常去图书馆看书。",
+      "周末我经常去图书馆看书。",
+      "我周末经常去图书馆看书。"
+    ],
+    "pinyin": "Zhōumò wǒ chángcháng qù túshūguǎn kànshū.",
+    "structureBreakdown": [
+      { "text": "周末", "role": "Time", "label": "時間" },
+      { "text": "我", "role": "S", "label": "主語" },
+      { "text": "常常", "role": "Adv", "label": "頻度副詞" },
+      { "text": "去图书馆看书", "role": "V", "label": "連動文" }
+    ],
+    "explanation": "頻度副詞「常常 / 经常」は主語の後ろ・述語の前に置きます。時間詞「周末」は文頭でも主語の直後でも構いません。",
+    "commonMistakes": [
+      { "wrong": "常常我周末去图书馆看书。", "reason": "「常常」は主語「我」の前に置くことができません。" },
+      { "wrong": "我周末去图书馆常常看书。", "reason": "頻度副詞は連動文全体の動詞の前（「去」の前）に置きます。" }
+    ]
+  },
+  {
+    "id": "C-G17-01-02",
+    "lessonId": "L17",
+    "minLesson": 17,
+    "grammarIds": ["G17-01"],
+    "difficulty": 1,
+    "japanesePrompt": "彼はあまり映画館へ行きません。",
+    "targetGrammarHint": "「常常」の否定形は「不常」を使います。",
+    "hints": [
+      "主語は「他」、述語は「去电影院」です。",
+      "「あまり〜しない」は「不常」または「不经常」を使います。",
+      "「×不常常」は不自然なため避けましょう。"
+    ],
+    "modelAnswer": "他不常去电影院。",
+    "acceptableAnswers": [
+      "他不常去电影院。",
+      "他不经常去电影院。",
+      "他很少去电影院。"
+    ],
+    "pinyin": "Tā bù cháng qù diànyǐngyuàn.",
+    "structureBreakdown": [
+      { "text": "他", "role": "S", "label": "主語" },
+      { "text": "不常", "role": "Adv", "label": "否定頻度" },
+      { "text": "去", "role": "V", "label": "動詞" },
+      { "text": "电影院", "role": "O", "label": "目的語" }
+    ],
+    "explanation": "「常常」の否定形は「不常」（「常」の1音節にする）または「不经常」「很少」を用いるのが自然です。",
+    "commonMistakes": [
+      { "wrong": "他不常常去电影院。", "reason": "中国語では「常常」を直接「不」で否定した「不常常」は通常使いません。" },
+      { "wrong": "他没常去电影院。", "reason": "習慣・頻度の否定には「没」ではなく「不」を使います。" }
+    ]
+  },
+  {
+    "id": "C-G17-01-03",
+    "lessonId": "L17",
+    "minLesson": 17,
+    "grammarIds": ["G17-01"],
+    "difficulty": 2,
+    "japanesePrompt": "弟はいつも寝る前に携帯電話を見ます。",
+    "targetGrammarHint": "毎回例外なくすることを表す「总是」を使います。",
+    "hints": [
+      "「いつも（毎回必ず）」には「总是」を使います。",
+      "「寝る前」は「睡觉以前」または「睡前」です。",
+      "「主語 + 总是 + 時間フレーズ + 动词」または「时间 + 主语 + 总是 + 动词」の語順にします。"
+    ],
+    "modelAnswer": "弟弟睡觉以前总是看手机。",
+    "acceptableAnswers": [
+      "弟弟睡觉以前总是看手机。",
+      "弟弟睡前总是看手机。",
+      "睡觉以前弟弟总是看手机。"
+    ],
+    "pinyin": "Dìdi shuìjiào yǐqián zǒngshì kàn shǒujī.",
+    "structureBreakdown": [
+      { "text": "弟弟", "role": "S", "label": "主語" },
+      { "text": "睡觉以前", "role": "Time", "label": "時間" },
+      { "text": "总是", "role": "Adv", "label": "頻度副詞" },
+      { "text": "看手机", "role": "V", "label": "動詞句" }
+    ],
+    "explanation": "「总是」は例外なく毎回行われる行為を表し、家族の習慣やちょっと気になる癖を述べる際によく使われます。",
+    "commonMistakes": [
+      { "wrong": "总是弟弟睡觉以前看手机。", "reason": "「总是」は文頭に置けず、必ず主語の後ろに置きます。" }
+    ]
+  },
+  {
+    "id": "C-G17-01-04",
+    "lessonId": "L17",
+    "minLesson": 17,
+    "grammarIds": ["G17-01"],
+    "difficulty": 2,
+    "japanesePrompt": "金曜日の夜、このレストランは大抵とても混雑しています。",
+    "targetGrammarHint": "条件・経験に基づく一般的傾向「往往」を使います。",
+    "hints": [
+      "「金曜日の夜」は「星期五晚上」または「每周五晚上」です。",
+      "「大抵・往々にして」には「往往」を使います。",
+      "「とても混雑している」は「人很多」や「很挤」で表せます。"
+    ],
+    "modelAnswer": "星期五晚上，这家餐厅人往往很多。",
+    "acceptableAnswers": [
+      "星期五晚上，这家餐厅人往往很多。",
+      "每周五晚上，这家餐厅往往很挤。",
+      "星期五晚上，这家饭店往往人很多。"
+    ],
+    "pinyin": "Xīngqīwǔ wǎnshang, zhè jiā cāntīng rén wǎngwǎng hěn duō.",
+    "structureBreakdown": [
+      { "text": "星期五晚上", "role": "Time", "label": "条件・時間" },
+      { "text": "这家餐厅人", "role": "S", "label": "主語" },
+      { "text": "往往", "role": "Adv", "label": "頻度副詞" },
+      { "text": "很多", "role": "P", "label": "述語" }
+    ],
+    "explanation": "「金曜の夜」という特定条件のもとでの一般的傾向なので「往往」がぴったり合います。",
+    "commonMistakes": [
+      { "wrong": "明天星期五晚上，这家餐厅往往人很多。", "reason": "特定の1回限りの未来（明日）には「往往」は使えません。" }
+    ]
+  },
+  {
+    "id": "C-G17-01-05",
+    "lessonId": "L17",
+    "minLesson": 17,
+    "grammarIds": ["G17-01"],
+    "difficulty": 2,
+    "japanesePrompt": "時々、私は友達とカフェでおしゃべりをします。",
+    "targetGrammarHint": "「有时候」は文頭にも主語の後ろにも置けます。",
+    "hints": [
+      "「時々」は「有时候」または「有时」を使います。",
+      "「友達と〜する」は介詞「和朋友」または「跟朋友」を使います。",
+      "「カフェで」は「在咖啡店」、「おしゃべりをする」は「聊天」です。"
+    ],
+    "modelAnswer": "有时候我和朋友在咖啡店聊天。",
+    "acceptableAnswers": [
+      "有时候我和朋友在咖啡店聊天。",
+      "我有时候和朋友在咖啡店聊天。",
+      "有时我跟朋友在咖啡馆聊天。"
+    ],
+    "pinyin": "Yǒushíhou wǒ hé péngyou zài kāfēidiàn liáotiān.",
+    "structureBreakdown": [
+      { "text": "有时候", "role": "Time", "label": "頻度・時間" },
+      { "text": "我", "role": "S", "label": "主語" },
+      { "text": "和朋友", "role": "Prep", "label": "相手" },
+      { "text": "在咖啡店", "role": "Loc", "label": "場所" },
+      { "text": "聊天", "role": "V", "label": "動詞" }
+    ],
+    "explanation": "「有时候」は名詞的な時間詞と同じく、文頭にも主語の後ろにも置くことができます。",
+    "commonMistakes": [
+      { "wrong": "我聊天有时候在咖啡店和朋友。", "reason": "中国語では場所や相手の介詞句を動詞「聊天」の後ろに置けません。" }
+    ]
+  },
+
+  {
+    "id": "C-G17-02-01",
+    "lessonId": "L17",
+    "minLesson": 17,
+    "grammarIds": ["G17-02"],
+    "difficulty": 1,
+    "japanesePrompt": "ここで写真を撮らないでください。",
+    "targetGrammarHint": "禁止の「不要」を使います。",
+    "hints": [
+      "丁寧な禁止にするため文頭に「请」を置きます。",
+      "「〜しないで」は「不要（または别）」を使います。",
+      "場所「在这儿 / 在这里」は動詞「拍照」の前に置きます。"
+    ],
+    "modelAnswer": "请不要在这儿拍照。",
+    "acceptableAnswers": [
+      "请不要在这儿拍照。",
+      "请不要在这里拍照。",
+      "请别在这儿拍照。",
+      "不要在这里照相。"
+    ],
+    "pinyin": "Qǐng búyào zài zhèr pāizhào.",
+    "structureBreakdown": [
+      { "text": "请", "role": "Other", "label": "丁寧語" },
+      { "text": "不要", "role": "Neg", "label": "禁止" },
+      { "text": "在这儿", "role": "Loc", "label": "場所" },
+      { "text": "拍照", "role": "V", "label": "動詞" }
+    ],
+    "explanation": "「不要＋状況語＋動詞」の語順で禁止を表します。発音上「不要」の「不」は第2声（búyào）に変わりますが、本調は第4声（bù）です。",
+    "commonMistakes": [
+      { "wrong": "请在这儿不要拍照。", "reason": "禁止の「不要」は通常介詞句「在这儿」の前に置きます。" },
+      { "wrong": "请不用在这儿拍照。", "reason": "「不用」は「撮る必要がない（しなくてよい）」という意味になり、禁止になりません。" }
+    ]
+  },
+  {
+    "id": "C-G17-02-02",
+    "lessonId": "L17",
+    "minLesson": 17,
+    "grammarIds": ["G17-02"],
+    "difficulty": 1,
+    "japanesePrompt": "教室に入ったら、みんな静かにしなければなりません。",
+    "targetGrammarHint": "義務・必要の助動詞「要」を使います。",
+    "hints": [
+      "「教室に入ったら」は「进了教室以后」や「进入教室以后」で表します。",
+      "「みんな」は「大家」、義務の助動詞は「要」です。",
+      "「静かにする」は「保持安静」または「安静一点儿」です。"
+    ],
+    "modelAnswer": "进了教室以后，大家要保持安静。",
+    "acceptableAnswers": [
+      "进了教室以后，大家要保持安静。",
+      "进入教室以后，大家要保持安静。",
+      "进教室以后，大家要安静一点儿。"
+    ],
+    "pinyin": "Jìn le jiàoshì yǐhòu, dàjiā yào bǎochí ānjìng.",
+    "structureBreakdown": [
+      { "text": "进了教室以后", "role": "Time", "label": "場面" },
+      { "text": "大家", "role": "S", "label": "主語" },
+      { "text": "要", "role": "Aux", "label": "義務・必要" },
+      { "text": "保持安静", "role": "V", "label": "動詞句" }
+    ],
+    "explanation": "ルールやマナーとして「〜する必要がある・しなければならない」と言うときに助動詞「要」を用います。",
+    "commonMistakes": [
+      { "wrong": "大家想保持安静。", "reason": "「想」は個人の願望（〜したい）であり、ルール上の義務には「要」を使います。" }
+    ]
+  },
+  {
+    "id": "C-G17-02-03",
+    "lessonId": "L17",
+    "minLesson": 17,
+    "grammarIds": ["G17-02"],
+    "difficulty": 2,
+    "japanesePrompt": "明日の午前中は授業がないので、早く起きる必要はありません。",
+    "targetGrammarHint": "不必要は「不要」ではなく「不用」を使います。",
+    "hints": [
+      "「明日の午前中は授業がない」は「明天上午没有课」です。",
+      "「〜する必要はない」は「不用」または「不必」です。",
+      "「早く起きる」は「早起」または「那么早起床」です。"
+    ],
+    "modelAnswer": "明天上午没有课，不用那么早起床。",
+    "acceptableAnswers": [
+      "明天上午没有课，不用那么早起床。",
+      "明天上午没课，不用早起。",
+      "明天上午没有课，不必这么早起床。"
+    ],
+    "pinyin": "Míngtiān shàngwǔ méiyǒu kè, búyòng nàme zǎo qǐchuáng.",
+    "structureBreakdown": [
+      { "text": "明天上午没有课", "role": "Other", "label": "理由節" },
+      { "text": "不用", "role": "Neg", "label": "不必要" },
+      { "text": "那么早", "role": "Adv", "label": "程度" },
+      { "text": "起床", "role": "V", "label": "動詞" }
+    ],
+    "explanation": "「〜しなくてよい（必要がない）」を表すには「不用（búyòng）」を使います。ここで「不要」を使うと「起きてはいけない」という禁止になってしまいます。",
+    "commonMistakes": [
+      { "wrong": "明天上午没有课，不要那么早起床。", "reason": "「不要」は禁止（起きてはダメ）の意味になってしまうため誤りです。" }
+    ]
+  },
+  {
+    "id": "C-G17-02-04",
+    "lessonId": "L17",
+    "minLesson": 17,
+    "grammarIds": ["G17-02"],
+    "difficulty": 2,
+    "japanesePrompt": "来週、姉は東京へ出張に行くことになっています。",
+    "targetGrammarHint": "近い予定を表す「就要……了」または「要……了」を使います。",
+    "hints": [
+      "「来週」は「下周」または「下星期」、「姉」は「姐姐」です。",
+      "差し迫った予定には「就要……了」を使います。",
+      "「東京へ出張に行く」は「去东京出差」です。"
+    ],
+    "modelAnswer": "下周姐姐就要去东京出差了。",
+    "acceptableAnswers": [
+      "下周姐姐就要去东京出差了。",
+      "姐姐下周就要去东京出差了。",
+      "下星期姐姐要去东京出差了。"
+    ],
+    "pinyin": "Xià zhōu jiějie jiù yào qù Dōngjīng chūchāi le.",
+    "structureBreakdown": [
+      { "text": "下周", "role": "Time", "label": "時間" },
+      { "text": "姐姐", "role": "S", "label": "主語" },
+      { "text": "就要", "role": "Aux", "label": "間近の予定" },
+      { "text": "去东京出差", "role": "V", "label": "連動文" },
+      { "text": "了", "role": "P", "label": "文末助詞" }
+    ],
+    "explanation": "助動詞「要」に「就」と文末の「了」を合わせた「就要……了」は、近い将来の予定・実現が目前に迫っていることを表します。",
+    "commonMistakes": [
+      { "wrong": "下周姐姐要去东京出差。", "reason": "予定の決定・迫っているニュアンスを出すには文末に「了」を伴うのが自然です。" }
+    ]
+  },
+  {
+    "id": "C-G17-02-05",
+    "lessonId": "L17",
+    "minLesson": 17,
+    "grammarIds": ["G17-02", "G09-04"],
+    "difficulty": 3,
+    "japanesePrompt": "忘れないように、カバンの中にパスポートを入れておかなければなりません（忘れないでください）。",
+    "targetGrammarHint": "禁止の「不要忘记」と「把」構文または「要记得」を使います。",
+    "hints": [
+      "「〜を忘れないで」は「不要忘记……」または「别忘了……」です。",
+      "「パスポートをカバンに入れる」は「把护照放进包里」や「把护照放在包里」と表現できます。",
+      "前半「你要记得……」や「不要忘了……」でつなぎます。"
+    ],
+    "modelAnswer": "不要忘记把护照放在包里。",
+    "acceptableAnswers": [
+      "不要忘记把护照放在包里。",
+      "别忘了把护照放进包里。",
+      "要记得把护照放在包里。"
+    ],
+    "pinyin": "Búyào wàngjì bǎ hùzhào fàng zài bāo lǐ.",
+    "structureBreakdown": [
+      { "text": "不要", "role": "Neg", "label": "禁止" },
+      { "text": "忘记", "role": "V", "label": "動詞" },
+      { "text": "把护照放在包里", "role": "O", "label": "目的語節" }
+    ],
+    "explanation": "「不要忘记……（忘れないでください）」の後ろに「把」構文の目的語節を続けた応用文です。",
+    "commonMistakes": [
+      { "wrong": "把护照不要忘记放在包里。", "reason": "禁止の「不要」は動詞「忘记」の前に置きます。" }
+    ]
+  },
+
+  {
+    "id": "C-G17-03-01",
+    "lessonId": "L17",
+    "minLesson": 17,
+    "grammarIds": ["G17-03"],
+    "difficulty": 1,
+    "japanesePrompt": "机の上に中国語の本が3冊置いてあります。",
+    "targetGrammarHint": "存現文「場所＋動詞＋着＋不特定名詞」を使います（先頭に「在」を付けない）。",
+    "hints": [
+      "主語の位置に場所「桌子上」を置きます（「在」は不要）。",
+      "「置いてある」は「放着」を使います。",
+      "「3冊の中国語の本」は「三本中文书」または「三本汉语书」です。"
+    ],
+    "modelAnswer": "桌子上放着三本汉语书。",
+    "acceptableAnswers": [
+      "桌子上放着三本汉语书。",
+      "桌子上放着三本中文书。",
+      "桌子上摆着三本汉语书。"
+    ],
+    "pinyin": "Zhuōzi shàng fàng zhe sān běn Hànyǔ shū.",
+    "structureBreakdown": [
+      { "text": "桌子上", "role": "Loc", "label": "場所" },
+      { "text": "放", "role": "V", "label": "動詞" },
+      { "text": "着", "role": "Aux", "label": "持続" },
+      { "text": "三本汉语书", "role": "O", "label": "不特定名詞" }
+    ],
+    "explanation": "場所詞「桌子上」を主語位置に置き、動作の結果の持続「放着」＋不特定名詞「三本汉语书」を並べます。",
+    "commonMistakes": [
+      { "wrong": "在桌子上放着三本汉语书。", "reason": "存現文の主語となる場所詞の前に「在」は付けません。" },
+      { "wrong": "三本汉语书在桌子上放着。", "reason": "「三本汉语书」は不特定の名詞なので、主語ではなく動詞の後ろに置くのが自然です。" }
+    ]
+  },
+  {
+    "id": "C-G17-03-02",
+    "lessonId": "L17",
+    "minLesson": 17,
+    "grammarIds": ["G17-03"],
+    "difficulty": 1,
+    "japanesePrompt": "壁に1枚の地図が掛けてあります。",
+    "targetGrammarHint": "「掛かっている」は「挂着」を使います。",
+    "hints": [
+      "「壁に」は場所名詞＋方位詞「墙上」です。",
+      "「掛けてある」は「挂着」です。",
+      "「1枚の地図」は量詞「张」を使って「一张地图」にします。"
+    ],
+    "modelAnswer": "墙上挂着一张地图。",
+    "acceptableAnswers": [
+      "墙上挂着一张地图。"
+    ],
+    "pinyin": "Qiáng shàng guà zhe yì zhāng dìtú.",
+    "structureBreakdown": [
+      { "text": "墙上", "role": "Loc", "label": "場所" },
+      { "text": "挂", "role": "V", "label": "動詞" },
+      { "text": "着", "role": "Aux", "label": "持続" },
+      { "text": "一张地图", "role": "O", "label": "不特定名詞" }
+    ],
+    "explanation": "壁面に平面のものが掛かっている状態を描写する典型的な静的存現文です。",
+    "commonMistakes": [
+      { "wrong": "在墙上挂着一张地图。", "reason": "場所詞に「在」を付けないのが存現文のルールです。" },
+      { "wrong": "墙上挂了一张地图。", "reason": "目の前に掛かっている状態の描写には「了」ではなく「着」を使います。" }
+    ]
+  },
+  {
+    "id": "C-G17-03-03",
+    "lessonId": "L17",
+    "minLesson": 17,
+    "grammarIds": ["G17-03"],
+    "difficulty": 2,
+    "japanesePrompt": "門の前にたくさんの学生が立っています。",
+    "targetGrammarHint": "「立っている」は「站着」を使います。",
+    "hints": [
+      "「門の前に」は「门口」または「门前」です。",
+      "「立っている」は「站着」です。",
+      "「たくさんの学生」は「很多学生」です。"
+    ],
+    "modelAnswer": "门口站着很多学生。",
+    "acceptableAnswers": [
+      "门口站着很多学生。",
+      "门前站着很多学生。",
+      "门口站着许多学生。"
+    ],
+    "pinyin": "Ménkǒu zhàn zhe hěn duō xuésheng.",
+    "structureBreakdown": [
+      { "text": "门口", "role": "Loc", "label": "場所" },
+      { "text": "站", "role": "V", "label": "動詞" },
+      { "text": "着", "role": "Aux", "label": "持続" },
+      { "text": "很多学生", "role": "O", "label": "不特定名詞" }
+    ],
+    "explanation": "人を表す不特定名詞「很多学生」が一定の場所で立っている・座っている状態も存現文で自然に描写できます。",
+    "commonMistakes": [
+      { "wrong": "在门口站着很多学生。", "reason": "存現文の場所詞には「在」を付けません。" }
+    ]
+  },
+  {
+    "id": "C-G17-03-04",
+    "lessonId": "L17",
+    "minLesson": 17,
+    "grammarIds": ["G17-03", "G15-04"],
+    "difficulty": 2,
+    "japanesePrompt": "遠くから1台の白い車が走ってきました。",
+    "targetGrammarHint": "出現・移動を表す存現文「場所＋動詞＋方向補語＋了＋不特定名詞」を使います。",
+    "hints": [
+      "「遠くから」に当たる場所の起点は「远处」を先頭に置きます。",
+      "「走ってくる」は「开过来」とし、完了の「了」を付けます。",
+      "「1台の白い車」は「一辆白色的车」または「一辆白车」です。"
+    ],
+    "modelAnswer": "远处开过来了一辆白色的车。",
+    "acceptableAnswers": [
+      "远处开过来了一辆白色的车。",
+      "远处开过来一辆白色的车。",
+      "远处开过来了一辆白车。"
+    ],
+    "pinyin": "Yuǎnchù kāi guòlái le yí liàng báisè de chē.",
+    "structureBreakdown": [
+      { "text": "远处", "role": "Loc", "label": "場所" },
+      { "text": "开过来", "role": "V", "label": "動詞+方向補語" },
+      { "text": "了", "role": "Aux", "label": "実現" },
+      { "text": "一辆白色的车", "role": "O", "label": "不特定名詞" }
+    ],
+    "explanation": "「走ってくる」「歩いてくる」といった出現・接近の存現文では、「着」ではなく「動詞＋方向補語＋（了）」を用います。",
+    "commonMistakes": [
+      { "wrong": "从远处开着一辆白色的车。", "reason": "「开着」は運転状態を指すため、出現の存現文では方向補語「开过来（了）」を使います。" }
+    ]
+  },
+  {
+    "id": "C-G17-03-05",
+    "lessonId": "L17",
+    "minLesson": 17,
+    "grammarIds": ["G17-03"],
+    "difficulty": 3,
+    "japanesePrompt": "その石の上にはいくつか古い漢字が刻まれています。",
+    "targetGrammarHint": "語彙「刻」を使った静的存現文です。",
+    "hints": [
+      "「その石の上」は「那块石头上」です。",
+      "「刻まれている」は「刻着」です。",
+      "「いくつか古い漢字」は「几个古老的汉字」です。"
+    ],
+    "modelAnswer": "那块石头上刻着几个古老的汉字。",
+    "acceptableAnswers": [
+      "那块石头上刻着几个古老的汉字。",
+      "那块石头上刻着一些古老的汉字。"
+    ],
+    "pinyin": "Nà kuài shítou shàng kè zhe jǐ ge gǔlǎo de Hànzì.",
+    "structureBreakdown": [
+      { "text": "那块石头上", "role": "Loc", "label": "場所" },
+      { "text": "刻", "role": "V", "label": "動詞" },
+      { "text": "着", "role": "Aux", "label": "持続" },
+      { "text": "几个古老的汉字", "role": "O", "label": "不特定名詞" }
+    ],
+    "explanation": "動作（刻む）の結果がそのまま表面に状態として残っていることを「刻着」で表します。",
+    "commonMistakes": [
+      { "wrong": "在那块石头上刻着几个古老的汉字。", "reason": "存現文では先頭の場所詞に「在」を付けません。" }
+    ]
+  },
+
+  {
+    "id": "C-G17-04-01",
+    "lessonId": "L17",
+    "minLesson": 17,
+    "grammarIds": ["G17-04"],
+    "difficulty": 1,
+    "japanesePrompt": "彼はきっと明日来ますよ。",
+    "targetGrammarHint": "確信を表す「肯定」と推量の「会」を使います。",
+    "hints": [
+      "「きっと」には「肯定」を使います。",
+      "「明日来るだろう」は「明天会来的」と助動詞「会」＋文末「的」がよく合います。",
+      "語順：主語＋時間＋肯定＋会＋来（的）。"
+    ],
+    "modelAnswer": "他明天肯定会来的。",
+    "acceptableAnswers": [
+      "他明天肯定会来的。",
+      "他明天肯定会来。",
+      "明天他肯定会来的。"
+    ],
+    "pinyin": "Tā míngtiān kěndìng huì lái de.",
+    "structureBreakdown": [
+      { "text": "他", "role": "S", "label": "主語" },
+      { "text": "明天", "role": "Time", "label": "時間" },
+      { "text": "肯定", "role": "Adv", "label": "確信" },
+      { "text": "会来的", "role": "V", "label": "助動詞+動詞" }
+    ],
+    "explanation": "未来のことに対する強い確信は「肯定 + 会 + 動詞 (+ 的)」で表すと非常に自然な中国語になります。",
+    "commonMistakes": [
+      { "wrong": "肯定他明天会来的。", "reason": "「肯定」は通常文頭（主語の前）ではなく、主語の後ろに置きます。" }
+    ]
+  },
+  {
+    "id": "C-G17-04-02",
+    "lessonId": "L17",
+    "minLesson": 17,
+    "grammarIds": ["G17-04"],
+    "difficulty": 1,
+    "japanesePrompt": "友達が困っているのですから、私は当然手伝います。",
+    "targetGrammarHint": "道理からして当然であることを表す「当然」を使います。",
+    "hints": [
+      "「友達が困っている」は「朋友遇到困难了」や「朋友有困难」で表せます。",
+      "「当然〜する」は「当然要……」です。",
+      "「手伝う」は「帮忙」または「帮他」です。"
+    ],
+    "modelAnswer": "朋友有困难，我当然要帮忙。",
+    "acceptableAnswers": [
+      "朋友有困难，我当然要帮忙。",
+      "朋友遇到困难了，我当然要帮他。"
+    ],
+    "pinyin": "Péngyou yǒu kùnnan, wǒ dāngrán yào bāngmáng.",
+    "structureBreakdown": [
+      { "text": "朋友有困难", "role": "Other", "label": "前提節" },
+      { "text": "我", "role": "S", "label": "主語" },
+      { "text": "当然", "role": "Adv", "label": "当然" },
+      { "text": "要帮忙", "role": "V", "label": "助動詞+動詞" }
+    ],
+    "explanation": "「当然」は論理や常識から考えて当然であることを表し、助動詞「要」「应该」とよく共起します。",
+    "commonMistakes": [
+      { "wrong": "我帮忙当然要。", "reason": "「当然」は動詞句の前（助動詞の前）に置きます。" }
+    ]
+  },
+  {
+    "id": "C-G17-04-03",
+    "lessonId": "L17",
+    "minLesson": 17,
+    "grammarIds": ["G17-04"],
+    "difficulty": 2,
+    "japanesePrompt": "たぶん彼はまだこの知らせを知らないでしょう。",
+    "targetGrammarHint": "控えめな推量「也许」の後に否定形を置きます。",
+    "hints": [
+      "「たぶん・もしかすると」は「也许」を使います。",
+      "「まだ〜ない」は「还不知道」または「还不知道呢」です。",
+      "「也许」は主語の前に置いても後ろに置いても構いません。"
+    ],
+    "modelAnswer": "也许他还不知道这个消息。",
+    "acceptableAnswers": [
+      "也许他还不知道这个消息。",
+      "他也许还不知道这个消息。"
+    ],
+    "pinyin": "Yěxǔ tā hái bù zhīdào zhège xiāoxi.",
+    "structureBreakdown": [
+      { "text": "也许", "role": "Adv", "label": "推量" },
+      { "text": "他", "role": "S", "label": "主語" },
+      { "text": "还", "role": "Adv", "label": "副詞" },
+      { "text": "不知道", "role": "Neg", "label": "否定動詞" },
+      { "text": "这个消息", "role": "O", "label": "目的語" }
+    ],
+    "explanation": "「也许」は否定と組み合わせるとき必ず「也许 + 不/没〜」の語順になります。",
+    "commonMistakes": [
+      { "wrong": "他不也许还知道这个消息。", "reason": "「×不也许」とは言えません。否定は「也许」の後ろに置きます。" }
+    ]
+  },
+  {
+    "id": "C-G17-04-04",
+    "lessonId": "L17",
+    "minLesson": 17,
+    "grammarIds": ["G17-04"],
+    "difficulty": 2,
+    "japanesePrompt": "彼女はもうすぐ留学から帰国するので、きっととても嬉しいはずです。",
+    "targetGrammarHint": "「肯定」と語彙「开心」を組み合わせます。",
+    "hints": [
+      "「もうすぐ留学から帰国する」は「快留学回来了」や「快要回国了」で表せます。",
+      "「きっと〜だ」は「肯定」です。",
+      "「とても嬉しい」は「很开心」または「非常高兴」です。"
+    ],
+    "modelAnswer": "她快要回国了，现在肯定很开心。",
+    "acceptableAnswers": [
+      "她快要回国了，现在肯定很开心。",
+      "她快留学回来了，肯定非常高兴。"
+    ],
+    "pinyin": "Tā kuàiyào huíguó le, xiànzài kěndìng hěn kāixīn.",
+    "structureBreakdown": [
+      { "text": "她快要回国了", "role": "Other", "label": "前提節" },
+      { "text": "现在", "role": "Time", "label": "時間" },
+      { "text": "肯定", "role": "Adv", "label": "確信" },
+      { "text": "很开心", "role": "P", "label": "形容詞述語" }
+    ],
+    "explanation": "形容詞述語「很开心」の前に「肯定」を置いて、間違いなくそうであるという確信を示します。",
+    "commonMistakes": [
+      { "wrong": "她肯定很开心快要回国了。", "reason": "因果・時間の流れに合わせて「快要回国了，肯定很开心」と節を分けます。" }
+    ]
+  },
+  {
+    "id": "C-G17-04-05",
+    "lessonId": "L17",
+    "minLesson": 17,
+    "grammarIds": ["G17-04", "G16-01"],
+    "difficulty": 2,
+    "japanesePrompt": "外は風が吹いているので、午後は雨が降るかもしれません。",
+    "targetGrammarHint": "客観的な可能性「可能会」を使います。",
+    "hints": [
+      "「外は風が吹いている」は「外面在刮风」または「外面刮风了」です。",
+      "「〜かもしれない」は「可能会」または「也许会」です。",
+      "「雨が降る」は「下雨」です。"
+    ],
+    "modelAnswer": "外面在刮风，下午可能会下雨。",
+    "acceptableAnswers": [
+      "外面在刮风，下午可能会下雨。",
+      "外面刮风了，下午可能会下雨。",
+      "外面在刮风，下午也许会下雨。"
+    ],
+    "pinyin": "Wàimiàn zài guāfēng, xiàwǔ kěnéng huì xià yǔ.",
+    "structureBreakdown": [
+      { "text": "外面在刮风", "role": "Other", "label": "根拠節" },
+      { "text": "下午", "role": "Time", "label": "時間" },
+      { "text": "可能", "role": "Adv", "label": "可能性" },
+      { "text": "会下雨", "role": "V", "label": "助動詞+動詞" }
+    ],
+    "explanation": "「可能」は50%前後の客観的な可能性を示し、「会」と組み合わせることで将来の予測を自然に述べられます。",
+    "commonMistakes": [
+      { "wrong": "下午肯定下雨也许。", "reason": "確信の「肯定」と推量の「也许」は同じ文で併用できません。" }
+    ]
+  },
+
+  {
+    "id": "C-G17-05-01",
+    "lessonId": "L17",
+    "minLesson": 17,
+    "grammarIds": ["G17-05"],
+    "difficulty": 1,
+    "japanesePrompt": "この問題について、私たちはもう少し話し合う必要があります。",
+    "targetGrammarHint": "「关于＋話題」を文頭に置きます。",
+    "hints": [
+      "「この問題について」は「关于这个问题」として文頭に置きます。",
+      "「もう少し話し合う必要がある」は「还要讨论一下」や「还需要再讨论讨论」です。",
+      "主語「我们」は「关于……」の後ろに置きます。"
+    ],
+    "modelAnswer": "关于这个问题，我们还要讨论一下。",
+    "acceptableAnswers": [
+      "关于这个问题，我们还要讨论一下。",
+      "关于这个问题，我们还需要再讨论讨论。"
+    ],
+    "pinyin": "Guānyú zhège wèntí, wǒmen hái yào tǎolùn yíxià.",
+    "structureBreakdown": [
+      { "text": "关于这个问题", "role": "Prep", "label": "話題提示" },
+      { "text": "我们", "role": "S", "label": "主語" },
+      { "text": "还", "role": "Adv", "label": "副詞" },
+      { "text": "要讨论一下", "role": "V", "label": "助動詞+動詞" }
+    ],
+    "explanation": "「关于……」で話題を文頭に提示し、コンマの後ろで主語と述語を続けます。",
+    "commonMistakes": [
+      { "wrong": "我们关于这个问题还要讨论一下。", "reason": "「关于」の句は主語の前に置くのが原則です。" }
+    ]
+  },
+  {
+    "id": "C-G17-05-02",
+    "lessonId": "L17",
+    "minLesson": 17,
+    "grammarIds": ["G17-05"],
+    "difficulty": 1,
+    "japanesePrompt": "私は中国の食文化に関する本を読んでいます。",
+    "targetGrammarHint": "連体修飾「关于……的＋名詞」を使います。",
+    "hints": [
+      "「読んでいる」は進行の「正在看」を使います。",
+      "「中国の食文化に関する本」は「关于中国饮食文化的书」です。",
+      "「关于〜」の後ろに必ず「的」を入れて名詞につなぎます。"
+    ],
+    "modelAnswer": "我正在看一本关于中国饮食文化的书。",
+    "acceptableAnswers": [
+      "我正在看一本关于中国饮食文化的书。",
+      "我在看关于中国饮食文化的书。"
+    ],
+    "pinyin": "Wǒ zhèngzài kàn yì běn guānyú Zhōngguó yǐnshí wénhuà de shū.",
+    "structureBreakdown": [
+      { "text": "我", "role": "S", "label": "主語" },
+      { "text": "正在看", "role": "V", "label": "進行+動詞" },
+      { "text": "一本关于中国饮食文化的书", "role": "O", "label": "目的語句" }
+    ],
+    "explanation": "「关于〜的＋名詞」は「〜に関する…」という非常に使用頻度の高い連体修飾構造です。",
+    "commonMistakes": [
+      { "wrong": "我正在看一本关于中国饮食文化书。", "reason": "「关于〜」と名詞の間には必ず構造助詞「的」が必要です。" }
+    ]
+  },
+  {
+    "id": "C-G17-05-03",
+    "lessonId": "L17",
+    "minLesson": 17,
+    "grammarIds": ["G17-05"],
+    "difficulty": 2,
+    "japanesePrompt": "その計画に対して、私は自分の意見があります。",
+    "targetGrammarHint": "対象への立場・見解を表す「对于」または「对」を使います。",
+    "hints": [
+      "「その計画に対して」は「对于那个计划」または「对那个计划」です。",
+      "「自分の意見がある」は「有自己的看法」または「有自己的意见」です。",
+      "「对于」は文頭でも主語の後ろでも使えます。"
+    ],
+    "modelAnswer": "对于那个计划，我有自己的意见。",
+    "acceptableAnswers": [
+      "对于那个计划，我有自己的意见。",
+      "我对那个计划有自己的意见。",
+      "对于那个计划，我有自己的看法。"
+    ],
+    "pinyin": "Duìyú nàge jìhuà, wǒ yǒu zìjǐ de yìjian.",
+    "structureBreakdown": [
+      { "text": "对于那个计划", "role": "Prep", "label": "対象" },
+      { "text": "我", "role": "S", "label": "主語" },
+      { "text": "有", "role": "V", "label": "動詞" },
+      { "text": "自己的意见", "role": "O", "label": "目的語" }
+    ],
+    "explanation": "「对于」は意見・態度・評価が向けられる対象（「〜に対して」）を明確に示します。",
+    "commonMistakes": [
+      { "wrong": "我关于那个计划有自己的意见。", "reason": "主語の後ろに置く場合は「关于」ではなく「对 / 对于」を使います。" }
+    ]
+  },
+  {
+    "id": "C-G17-05-04",
+    "lessonId": "L17",
+    "minLesson": 17,
+    "grammarIds": ["G17-05"],
+    "difficulty": 2,
+    "japanesePrompt": "台風が来たことにより、今日の電車はすべて運休になりました。",
+    "targetGrammarHint": "書き言葉的な理由「由于」を使います。",
+    "hints": [
+      "「〜により・〜が原因で」は「由于」を使います。",
+      "「台風が来た」は「台风来了」または「台风的影响」です。",
+      "「すべて運休になった」は「都停运了」で表せます。"
+    ],
+    "modelAnswer": "由于台风来了，今天的电车都停运了。",
+    "acceptableAnswers": [
+      "由于台风来了，今天的电车都停运了。",
+      "由于台风的影响，今天的电车都停开。"
+    ],
+    "pinyin": "Yóuyú táifēng lái le, jīntiān de diànchē dōu tíngyùn le.",
+    "structureBreakdown": [
+      { "text": "由于台风来了", "role": "Prep", "label": "原因節" },
+      { "text": "今天的电车", "role": "S", "label": "主語" },
+      { "text": "都", "role": "Adv", "label": "範囲" },
+      { "text": "停运了", "role": "V", "label": "動詞+了" }
+    ],
+    "explanation": "天気・交通・公式の連絡など改まった理由説明では「由于……」が非常によく使われます。",
+    "commonMistakes": [
+      { "wrong": "关于台风来了，今天的电车都停运了。", "reason": "「关于」は話題提示であり、原因・理由を表すことはできません。" }
+    ]
+  },
+  {
+    "id": "C-G17-05-05",
+    "lessonId": "L17",
+    "minLesson": 17,
+    "grammarIds": ["G17-05"],
+    "difficulty": 3,
+    "japanesePrompt": "この古い建物の伝説について、おじいさんは私たちにたくさんの話を聞かせてくれました。",
+    "targetGrammarHint": "「关于……」と「给＋人＋讲故事」を組み合わせます。",
+    "hints": [
+      "「この古い建物の伝説について」は「关于这座古建筑的传说」です。",
+      "「私たちに〜を聞かせる」は介詞「给我们」を動詞「讲」の前に置きます。",
+      "「たくさんの話」は「很多故事」です。"
+    ],
+    "modelAnswer": "关于这座古建筑的传说，爷爷给我们讲了很多故事。",
+    "acceptableAnswers": [
+      "关于这座古建筑的传说，爷爷给我们讲了很多故事。",
+      "关于这座老建筑的传说，爷爷给我们讲了许多故事。"
+    ],
+    "pinyin": "Guānyú zhè zuò gǔjiànzhù de chuánshuō, yéye gěi wǒmen jiǎng le hěn duō gùshi.",
+    "structureBreakdown": [
+      { "text": "关于这座古建筑的传说", "role": "Prep", "label": "話題提示" },
+      { "text": "爷爷", "role": "S", "label": "主語" },
+      { "text": "给我们", "role": "Prep", "label": "対象" },
+      { "text": "讲了", "role": "V", "label": "動詞+了" },
+      { "text": "很多故事", "role": "O", "label": "目的語" }
+    ],
+    "explanation": "文頭の「关于……」でテーマを示し、後半で「主語＋给＋相手＋讲了＋目的語」につなぐ自然な複文構造です。",
+    "commonMistakes": [
+      { "wrong": "爷爷关于这座古建筑的传说给我们讲了很多故事。", "reason": "「关于……」は主語「爷爷」の前に置くのが原則です。" }
+    ]
+  }
+]
