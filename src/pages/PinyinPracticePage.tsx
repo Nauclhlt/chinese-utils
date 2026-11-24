@@ -1,6 +1,6 @@
 import React, { useMemo, useState } from 'react';
 import { Volume2 } from 'lucide-react';
-import { pronunciationData, vocabulary } from '../data';
+import { lessons, pronunciationData, vocabulary } from '../data';
 import { useApp } from '../context/AppContext';
 import { filterByScope } from '../utils/scope';
 import {
@@ -11,7 +11,9 @@ import {
   splitPinyinSyllables,
 } from '../utils/pinyin';
 import { speakChinese } from '../utils/speech';
+import { createShuffleSeed, shuffleWithSeed } from '../utils/shuffle';
 import { ColoredPinyin } from '../components/ChineseText';
+import { OrderControls } from '../components/OrderControls';
 
 type PinyinMode =
   | 'input-pinyin'
@@ -22,6 +24,8 @@ type PinyinMode =
   | 'similar-pairs'
   | 'audio-tone'
   | 'sandhi-guide';
+
+type PinyinScopeMode = 'scope' | 'upTo' | 'customLessons' | 'single' | 'all';
 
 const MODES: { id: PinyinMode; label: string }[] = [
   { id: 'input-pinyin', label: '1. 漢字→ピンイン入力' },
@@ -39,21 +43,19 @@ export const PinyinPracticePage: React.FC = () => {
   const [mode, setMode] = useState<PinyinMode>('input-pinyin');
   const [idx, setIdx] = useState(0);
 
+  const [scopeMode, setScopeMode] = useState<PinyinScopeMode>('scope');
+  const [upToN, setUpToN] = useState(userState.scope.upToLesson);
+  const [customLessons, setCustomLessons] = useState<string[]>(['L01']);
+  const [singleLesson, setSingleLesson] = useState<string>('L01');
+
+  const [randomOrder, setRandomOrder] = useState(false);
+  const [shuffleSeed, setShuffleSeed] = useState(() => createShuffleSeed());
+
   const [pinyinInput, setPinyinInput] = useState('');
   const [selectedChoice, setSelectedChoice] = useState('');
   const [toneSelections, setToneSelections] = useState<number[]>([]);
   const [submitted, setSubmitted] = useState(false);
   const [isCorrect, setIsCorrect] = useState(false);
-
-  const scopedVocab = useMemo(() => filterByScope(vocabulary, userState.scope), [userState.scope]);
-  const singleOrMulti = scopedVocab.length > 0 ? scopedVocab : vocabulary;
-  const currentVocab = singleOrMulti[idx % singleOrMulti.length];
-
-  const pairDrills = useMemo(() => {
-    const scoped = filterByScope(pronunciationData.pairDrills, userState.scope);
-    return scoped.length > 0 ? scoped : pronunciationData.pairDrills;
-  }, [userState.scope]);
-  const currentPair = pairDrills[idx % pairDrills.length];
 
   const resetQuestion = (nextIdx: number) => {
     setIdx(nextIdx);
@@ -64,6 +66,55 @@ export const PinyinPracticePage: React.FC = () => {
     setIsCorrect(false);
   };
 
+  const applyScopeFilter = <T extends { lessonId: string | null; minLesson?: number }>(items: T[]): T[] => {
+    if (scopeMode === 'all') return items;
+    if (scopeMode === 'scope') return filterByScope(items, userState.scope);
+    if (scopeMode === 'upTo') {
+      return filterByScope(items, { mode: 'upTo', upToLesson: upToN, selectedLessons: [] });
+    }
+    if (scopeMode === 'single') {
+      return items.filter((item) => item.lessonId === singleLesson);
+    }
+    return items.filter((item) => item.lessonId !== null && customLessons.includes(item.lessonId));
+  };
+
+  const baseVocabPool = useMemo(
+    () => applyScopeFilter(vocabulary),
+    [scopeMode, userState.scope, upToN, singleLesson, customLessons]
+  );
+
+  const vocabPool = useMemo(
+    () => (randomOrder ? shuffleWithSeed(baseVocabPool, shuffleSeed) : baseVocabPool),
+    [baseVocabPool, randomOrder, shuffleSeed]
+  );
+
+  const basePairDrills = useMemo(
+    () => applyScopeFilter(pronunciationData.pairDrills),
+    [scopeMode, userState.scope, upToN, singleLesson, customLessons]
+  );
+
+  const pairDrills = useMemo(
+    () => (randomOrder ? shuffleWithSeed(basePairDrills, shuffleSeed) : basePairDrills),
+    [basePairDrills, randomOrder, shuffleSeed]
+  );
+
+  const singleToneList = useMemo(() => {
+    const ones = vocabPool.filter((v) => v.tones.length === 1);
+    return ones.length > 0 ? ones : vocabPool;
+  }, [vocabPool]);
+
+  const currentVocab = vocabPool.length > 0 ? vocabPool[idx % vocabPool.length] : undefined;
+  const currentPair = pairDrills.length > 0 ? pairDrills[idx % pairDrills.length] : undefined;
+  const singleToneVocab =
+    singleToneList.length > 0 ? singleToneList[idx % singleToneList.length] : undefined;
+
+  const activePoolLength =
+    mode === 'similar-pairs'
+      ? pairDrills.length
+      : mode === 'audio-tone'
+      ? singleToneList.length
+      : vocabPool.length;
+
   // Generate deterministic distractors for multiple choice modes
   const mcChoices = useMemo(() => {
     if (!currentVocab) return [];
@@ -71,15 +122,17 @@ export const PinyinPracticePage: React.FC = () => {
     const correct = currentVocab.pinyin;
     const variants = new Set<string>([correct]);
     for (let t = 1; t <= 4; t++) {
-      const mod = syls.map((s, sIdx) =>
-        sIdx === 0 ? applyToneMark(s.base, t as 1 | 2 | 3 | 4) : s.marked
-      ).join(' ');
+      const mod = syls
+        .map((s, sIdx) => (sIdx === 0 ? applyToneMark(s.base, t as 1 | 2 | 3 | 4) : s.marked))
+        .join(' ');
       variants.add(mod);
     }
     if (syls.length > 1) {
-      const mod2 = syls.map((s, sIdx) =>
-        sIdx === 1 ? applyToneMark(s.base, ((s.tone % 4) + 1) as 1 | 2 | 3 | 4) : s.marked
-      ).join(' ');
+      const mod2 = syls
+        .map((s, sIdx) =>
+          sIdx === 1 ? applyToneMark(s.base, ((s.tone % 4) + 1) as 1 | 2 | 3 | 4) : s.marked
+        )
+        .join(' ');
       variants.add(mod2);
     }
     return Array.from(variants).slice(0, 4).sort((a, b) => a.localeCompare(b));
@@ -87,59 +140,72 @@ export const PinyinPracticePage: React.FC = () => {
 
   const hanziChoices = useMemo(() => {
     if (!currentVocab) return [];
-    const pool = singleOrMulti.filter((v) => v.id !== currentVocab.id);
-    const distractors = pool.slice(0, 3).map((v) => v.hanzi);
+    const pool = vocabPool.filter((v) => v.id !== currentVocab.id);
+    const fallback = pool.length >= 3 ? pool : vocabulary.filter((v) => v.id !== currentVocab.id);
+    const distractors = fallback.slice(0, 3).map((v) => v.hanzi);
     return [currentVocab.hanzi, ...distractors].sort((a, b) => a.localeCompare(b));
-  }, [currentVocab, singleOrMulti]);
+  }, [currentVocab, vocabPool]);
 
   const syllableList = useMemo(
     () => (currentVocab ? splitPinyinSyllables(currentVocab.pinyin).map(parseSyllable) : []),
     [currentVocab]
   );
 
-  const singleToneVocab = useMemo(() => {
-    const ones = singleOrMulti.filter((v) => v.tones.length === 1);
-    return (ones.length > 0 ? ones : singleOrMulti)[idx % Math.max(1, ones.length || singleOrMulti.length)];
-  }, [singleOrMulti, idx]);
+  const toggleLessonChip = (id: string) => {
+    setCustomLessons((prev) => (prev.includes(id) ? prev.filter((x) => x !== id) : [...prev, id]));
+    resetQuestion(0);
+  };
 
   const handleSubmit = () => {
-    if (!currentVocab) return;
+    if (mode === 'similar-pairs' && !currentPair) return;
+    if (mode === 'audio-tone' && !singleToneVocab) return;
+    if (mode !== 'similar-pairs' && mode !== 'audio-tone' && !currentVocab) return;
+
     let ok = false;
     let userAns = '';
 
-    if (mode === 'input-pinyin') {
+    if (mode === 'input-pinyin' && currentVocab) {
       ok = isPinyinEquivalent(pinyinInput, currentVocab.pinyin);
       userAns = pinyinInput;
-    } else if (mode === 'pinyin-mc') {
+    } else if (mode === 'pinyin-mc' && currentVocab) {
       ok = isPinyinEquivalent(selectedChoice, currentVocab.pinyin);
       userAns = selectedChoice;
-    } else if (mode === 'pinyin-to-hanzi') {
+    } else if (mode === 'pinyin-to-hanzi' && currentVocab) {
       ok = selectedChoice === currentVocab.hanzi;
       userAns = selectedChoice;
-    } else if (mode === 'select-tones' || mode === 'mark-tones') {
+    } else if ((mode === 'select-tones' || mode === 'mark-tones') && currentVocab) {
       ok =
         syllableList.length > 0 &&
         syllableList.every((s, i) => toneSelections[i] === s.tone);
       userAns = toneSelections.join('-');
-    } else if (mode === 'similar-pairs') {
+    } else if (mode === 'similar-pairs' && currentPair) {
       ok = selectedChoice === currentPair.target;
       userAns = selectedChoice;
-    } else if (mode === 'audio-tone') {
+    } else if (mode === 'audio-tone' && singleToneVocab) {
       ok = Number(selectedChoice) === singleToneVocab.tones[0];
       userAns = selectedChoice;
     }
 
     setIsCorrect(ok);
     setSubmitted(true);
+    const targetItem =
+      mode === 'similar-pairs'
+        ? currentPair!
+        : mode === 'audio-tone'
+        ? singleToneVocab!
+        : currentVocab!;
+
     recordAnswer({
-      itemId: mode === 'similar-pairs' ? currentPair.id : currentVocab.id,
+      itemId: targetItem.id,
       itemKind: 'pinyin',
-      lessonId: currentVocab.lessonId ?? 'L01',
-      grammarIds: currentVocab.grammarIds,
+      lessonId: targetItem.lessonId ?? 'L01',
+      grammarIds: 'grammarIds' in targetItem ? targetItem.grammarIds : ['GP-01'],
       correct: ok,
       userAnswer: userAns,
     });
   };
+
+  const activeVocab = mode === 'audio-tone' ? singleToneVocab : currentVocab;
 
   return (
     <div className="stack-lg">
@@ -150,7 +216,7 @@ export const PinyinPracticePage: React.FC = () => {
         </p>
       </div>
 
-      <div className="card">
+      <div className="card stack-md">
         <div className="row-wrap">
           {MODES.map((m) => (
             <button
@@ -167,6 +233,129 @@ export const PinyinPracticePage: React.FC = () => {
             </button>
           ))}
         </div>
+
+        {mode !== 'sandhi-guide' && (
+          <div className="stack-sm" style={{ borderTop: '1px solid var(--border)', paddingTop: 12 }}>
+            <div className="grid-2">
+              <div className="row-wrap">
+                <label htmlFor="pinyin-scope-mode" style={{ fontSize: '0.86rem', fontWeight: 600 }}>
+                  出題範囲:
+                </label>
+                <select
+                  id="pinyin-scope-mode"
+                  className="select"
+                  aria-label="ピンイン出題範囲"
+                  style={{ maxWidth: 260 }}
+                  value={scopeMode}
+                  onChange={(e) => {
+                    setScopeMode(e.target.value as PinyinScopeMode);
+                    resetQuestion(0);
+                  }}
+                >
+                  <option value="scope">現在の学習範囲設定に従う</option>
+                  <option value="upTo">第1課〜第N課まで</option>
+                  <option value="single">特定の1課のみ</option>
+                  <option value="customLessons">任意の課を組み合わせ</option>
+                  <option value="all">全課・補足語彙すべて</option>
+                </select>
+
+                {scopeMode === 'single' && (
+                  <select
+                    className="select"
+                    aria-label="対象課を選択"
+                    style={{ maxWidth: 160 }}
+                    value={singleLesson}
+                    onChange={(e) => {
+                      setSingleLesson(e.target.value);
+                      resetQuestion(0);
+                    }}
+                  >
+                    {lessons.map((l) => (
+                      <option key={l.id} value={l.id}>
+                        {l.title}
+                      </option>
+                    ))}
+                  </select>
+                )}
+              </div>
+
+              <div className="row-between">
+                <OrderControls
+                  randomOrder={randomOrder}
+                  onToggleRandom={() => {
+                    setRandomOrder((prev) => {
+                      const next = !prev;
+                      if (next) setShuffleSeed(createShuffleSeed());
+                      return next;
+                    });
+                    resetQuestion(0);
+                  }}
+                  onReshuffle={() => {
+                    setShuffleSeed(createShuffleSeed());
+                    resetQuestion(0);
+                  }}
+                />
+                <div className="row-wrap">
+                  <span className="badge" data-testid="pinyin-pool-count">
+                    対象 {activePoolLength} 件
+                  </span>
+                  {activePoolLength > 0 && (
+                    <>
+                      <button
+                        type="button"
+                        className="btn btn-sm"
+                        onClick={() =>
+                          resetQuestion((idx - 1 + activePoolLength) % activePoolLength)
+                        }
+                      >
+                        前へ
+                      </button>
+                      <button
+                        type="button"
+                        className="btn btn-sm"
+                        onClick={() => resetQuestion((idx + 1) % activePoolLength)}
+                      >
+                        次へ
+                      </button>
+                    </>
+                  )}
+                </div>
+              </div>
+            </div>
+
+            {scopeMode === 'upTo' && (
+              <div className="row-wrap">
+                <label htmlFor="pinyin-upto">第1課〜第{upToN}課まで:</label>
+                <input
+                  id="pinyin-upto"
+                  type="range"
+                  min={1}
+                  max={22}
+                  value={upToN}
+                  onChange={(e) => {
+                    setUpToN(Number(e.target.value));
+                    resetQuestion(0);
+                  }}
+                />
+              </div>
+            )}
+
+            {scopeMode === 'customLessons' && (
+              <div className="row-wrap">
+                {lessons.map((l) => (
+                  <button
+                    key={l.id}
+                    type="button"
+                    className={`btn btn-sm ${customLessons.includes(l.id) ? 'btn-primary' : ''}`}
+                    onClick={() => toggleLessonChip(l.id)}
+                  >
+                    {l.title}
+                  </button>
+                ))}
+              </div>
+            )}
+          </div>
+        )}
       </div>
 
       {mode === 'sandhi-guide' ? (
@@ -211,16 +400,24 @@ export const PinyinPracticePage: React.FC = () => {
             </div>
           ))}
         </div>
+      ) : activePoolLength === 0 ? (
+        <div className="card">
+          選択した範囲に該当する問題がありません。学習範囲を広げるか、別の課を選択してください。
+        </div>
       ) : (
         <div className="card stack-md" data-testid="pinyin-drill-card">
           <div className="row-between">
             <span className="badge badge-accent">
-              {mode === 'similar-pairs' ? currentPair.lessonId : currentVocab.lessonId ?? '補足'}
+              {mode === 'similar-pairs'
+                ? currentPair?.lessonId
+                : activeVocab?.lessonId ?? '補足'}
             </span>
-            <span className="badge">第 {idx + 1} 問</span>
+            <span className="badge">
+              第 {(idx % activePoolLength) + 1} / {activePoolLength} 問
+            </span>
           </div>
 
-          {mode === 'input-pinyin' && (
+          {mode === 'input-pinyin' && currentVocab && (
             <div className="stack-md">
               <div className="row-between">
                 <div>
@@ -250,7 +447,7 @@ export const PinyinPracticePage: React.FC = () => {
             </div>
           )}
 
-          {mode === 'pinyin-mc' && (
+          {mode === 'pinyin-mc' && currentVocab && (
             <div className="stack-md">
               <div>
                 <div className="zh-xl" lang="zh-Hans">{currentVocab.hanzi}</div>
@@ -272,7 +469,7 @@ export const PinyinPracticePage: React.FC = () => {
             </div>
           )}
 
-          {(mode === 'select-tones' || mode === 'mark-tones') && (
+          {(mode === 'select-tones' || mode === 'mark-tones') && currentVocab && (
             <div className="stack-md">
               <div>
                 <div className="zh-xl" lang="zh-Hans">{currentVocab.hanzi}</div>
@@ -317,7 +514,7 @@ export const PinyinPracticePage: React.FC = () => {
             </div>
           )}
 
-          {mode === 'pinyin-to-hanzi' && (
+          {mode === 'pinyin-to-hanzi' && currentVocab && (
             <div className="stack-md">
               <div>
                 <div style={{ fontSize: '1.5rem', fontWeight: 700 }}>
@@ -341,7 +538,7 @@ export const PinyinPracticePage: React.FC = () => {
             </div>
           )}
 
-          {mode === 'similar-pairs' && (
+          {mode === 'similar-pairs' && currentPair && (
             <div className="stack-md">
               <div style={{ fontWeight: 600 }}>{currentPair.prompt}</div>
               <div className="grid-2">
@@ -367,7 +564,7 @@ export const PinyinPracticePage: React.FC = () => {
             </div>
           )}
 
-          {mode === 'audio-tone' && (
+          {mode === 'audio-tone' && singleToneVocab && (
             <div className="stack-md">
               <div className="row-wrap">
                 <button
@@ -404,7 +601,11 @@ export const PinyinPracticePage: React.FC = () => {
                 判定する
               </button>
             ) : (
-              <button type="button" className="btn btn-primary" onClick={() => resetQuestion(idx + 1)}>
+              <button
+                type="button"
+                className="btn btn-primary"
+                onClick={() => resetQuestion((idx + 1) % activePoolLength)}
+              >
                 次の問題へ
               </button>
             )}
@@ -413,25 +614,25 @@ export const PinyinPracticePage: React.FC = () => {
           {submitted && (
             <div className={`banner ${isCorrect ? 'banner-success' : 'banner-danger'} stack-sm`}>
               <strong>{isCorrect ? '正解です！' : '不正解です'}</strong>
-              {mode === 'similar-pairs' ? (
+              {mode === 'similar-pairs' && currentPair ? (
                 <p style={{ margin: 0 }}>{currentPair.explanation}</p>
-              ) : (
+              ) : activeVocab ? (
                 <>
                   <div>
                     正解:{' '}
                     <span className="zh-md" lang="zh-Hans" style={{ marginRight: 8 }}>
-                      {mode === 'audio-tone' ? singleToneVocab.hanzi : currentVocab.hanzi}
+                      {activeVocab.hanzi}
                     </span>
-                    <strong>{mode === 'audio-tone' ? singleToneVocab.pinyin : currentVocab.pinyin}</strong>
-                    （声調: {(mode === 'audio-tone' ? singleToneVocab.tones : currentVocab.tones).join('-')}）
+                    <strong>{activeVocab.pinyin}</strong>
+                    （声調: {activeVocab.tones.join('-')}）
                   </div>
-                  {describeToneSandhi(currentVocab.hanzi, currentVocab.pinyin) && (
+                  {describeToneSandhi(activeVocab.hanzi, activeVocab.pinyin) && (
                     <div style={{ fontSize: '0.86rem' }}>
-                      <strong>変調注意:</strong> {describeToneSandhi(currentVocab.hanzi, currentVocab.pinyin)}
+                      <strong>変調注意:</strong> {describeToneSandhi(activeVocab.hanzi, activeVocab.pinyin)}
                     </div>
                   )}
                 </>
-              )}
+              ) : null}
             </div>
           )}
         </div>

@@ -43,24 +43,35 @@ test.describe('Chinese Learning App E2E', () => {
     await expect(page.locator('table.data-table tbody tr').first()).toContainText('••••');
     await page.getByRole('button', { name: /ピンインを隠す/ }).click();
 
-    // 5. Flashcards
+    // 5. Flashcards (including random order toggle)
     await page.getByRole('link', { name: 'フラッシュカード' }).click();
     await expect(page.getByRole('heading', { name: /フラッシュカード/ })).toBeVisible();
+    await page.getByTestId('random-order-toggle').click();
+    await expect(page.getByTestId('reshuffle-btn')).toBeVisible();
     await page.getByRole('button', { name: /答えを見る/ }).click();
     await page.getByRole('button', { name: /3\. 覚えた/ }).click();
 
-    // 6. Pinyin input (numbered pinyin accepted identically to tone marks)
+    // 6. Pinyin input (scope selection, random order, and numbered pinyin equivalence)
     await page.getByRole('link', { name: 'ピンイン・声調練習' }).click();
     await expect(page.getByRole('heading', { name: 'ピンイン・声調練習' })).toBeVisible();
+    await page.getByLabel('ピンイン出題範囲').selectOption('single');
+    await page.getByLabel('対象課を選択').selectOption('L02');
+    await expect(page.getByTestId('pinyin-pool-count')).toContainText('22');
+    await expect(page.getByTestId('pinyin-drill-card')).toContainText('L02');
+    await page.getByTestId('random-order-toggle').click();
+    await expect(page.getByTestId('reshuffle-btn')).toBeVisible();
+    await page.getByTestId('reshuffle-btn').click();
     const hanziText = await page.getByTestId('pinyin-drill-card').locator('.zh-xl').innerText();
     expect(hanziText.length).toBeGreaterThan(0);
     await page.getByPlaceholder(/ni3 hao3/).fill('ni3');
     await page.getByRole('button', { name: '判定する' }).click();
     await expect(page.getByTestId('pinyin-drill-card').locator('.banner')).toBeVisible();
 
-    // 7. Grammar exercises (multiple choice & word-order)
+    // 7. Grammar exercises (multiple choice, word-order & random order toggle)
     await page.getByRole('link', { name: '文法練習問題' }).click();
     await expect(page.getByRole('heading', { name: '文法練習問題' })).toBeVisible();
+    await page.getByTestId('random-order-toggle').click();
+    await expect(page.getByTestId('reshuffle-btn')).toBeVisible();
     await page.getByLabel('問題形式').selectOption('multiple-choice');
     const firstChoice = page.locator('.choice-btn').first();
     await firstChoice.click();
@@ -76,9 +87,11 @@ test.describe('Chinese Learning App E2E', () => {
     await page.getByRole('button', { name: '解答を確認する' }).click();
     await expect(page.locator('[data-testid^="exercise-card-"] .banner')).toBeVisible();
 
-    // 8. Chinese composition practice & model comparison
+    // 8. Chinese composition practice, random order & model comparison
     await page.getByRole('link', { name: '中国語作文練習' }).click();
     await expect(page.getByRole('heading', { name: '中国語作文練習' })).toBeVisible();
+    await page.getByTestId('random-order-toggle').click();
+    await expect(page.getByTestId('reshuffle-btn')).toBeVisible();
     await page.locator('#comp-input').fill('我是学生。');
     await page.getByRole('button', { name: '模範解答と比較・保存する' }).click();
     await expect(page.getByText('模範解答', { exact: true })).toBeVisible();

@@ -4,14 +4,18 @@ import { Bookmark, RotateCcw } from 'lucide-react';
 import { compositions, exerciseMap, exercises, grammarMap, vocabulary } from '../data';
 import { useApp } from '../context/AppContext';
 import { isDueForReview, sortByReviewPriority } from '../utils/srs';
+import { createShuffleSeed, shuffleWithSeed } from '../utils/shuffle';
 import { ExerciseCard } from '../components/ExerciseCard';
+import { OrderControls } from '../components/OrderControls';
 
 export const ReviewPage: React.FC = () => {
   const { userState } = useApp();
   const [tab, setTab] = useState<'weak' | 'srs' | 'bookmarks' | 'history'>('weak');
   const [weakIdx, setWeakIdx] = useState(0);
+  const [weakRandom, setWeakRandom] = useState(false);
+  const [weakSeed, setWeakSeed] = useState(() => createShuffleSeed());
 
-  const weakExercises = useMemo(() => {
+  const baseWeakExercises = useMemo(() => {
     const wrongIds = Array.from(
       new Set(userState.answerHistory.filter((h) => !h.correct).map((h) => h.itemId))
     );
@@ -20,6 +24,11 @@ export const ReviewPage: React.FC = () => {
       .filter((x): x is NonNullable<typeof x> => Boolean(x));
     return list.length > 0 ? list : sortByReviewPriority(exercises, userState.srs).slice(0, 15);
   }, [userState.answerHistory, userState.srs]);
+
+  const weakExercises = useMemo(
+    () => (weakRandom ? shuffleWithSeed(baseWeakExercises, weakSeed) : baseWeakExercises),
+    [baseWeakExercises, weakRandom, weakSeed]
+  );
 
   const dueVocab = useMemo(
     () =>
@@ -84,9 +93,26 @@ export const ReviewPage: React.FC = () => {
           {weakExercises.length > 0 && (
             <>
               <div className="row-between">
-                <span>
-                  苦手演習 {(weakIdx % weakExercises.length) + 1} / {weakExercises.length}
-                </span>
+                <div className="row-wrap">
+                  <span>
+                    苦手演習 {(weakIdx % weakExercises.length) + 1} / {weakExercises.length}
+                  </span>
+                  <OrderControls
+                    randomOrder={weakRandom}
+                    onToggleRandom={() => {
+                      setWeakRandom((prev) => {
+                        const next = !prev;
+                        if (next) setWeakSeed(createShuffleSeed());
+                        return next;
+                      });
+                      setWeakIdx(0);
+                    }}
+                    onReshuffle={() => {
+                      setWeakSeed(createShuffleSeed());
+                      setWeakIdx(0);
+                    }}
+                  />
+                </div>
                 <button
                   type="button"
                   className="btn btn-sm"

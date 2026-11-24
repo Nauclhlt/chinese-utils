@@ -5,7 +5,9 @@ import { useApp } from '../context/AppContext';
 import { filterByScope } from '../utils/scope';
 import { sortByReviewPriority } from '../utils/srs';
 import { speakChinese } from '../utils/speech';
+import { createShuffleSeed, shuffleWithSeed } from '../utils/shuffle';
 import { ColoredPinyin } from '../components/ChineseText';
+import { OrderControls } from '../components/OrderControls';
 import type { SrsRating } from '../types/user';
 
 type Direction =
@@ -29,6 +31,8 @@ export const FlashcardsPage: React.FC = () => {
   const { userState, rateSrsItem, recordAnswer, speechSupport } = useApp();
   const [direction, setDirection] = useState<Direction>('zh-to-ja');
   const [onlyFav, setOnlyFav] = useState(false);
+  const [randomOrder, setRandomOrder] = useState(false);
+  const [shuffleSeed, setShuffleSeed] = useState(() => createShuffleSeed());
   const [flipped, setFlipped] = useState(false);
   const [index, setIndex] = useState(0);
   const [reviewedCount, setReviewedCount] = useState(0);
@@ -38,8 +42,8 @@ export const FlashcardsPage: React.FC = () => {
     if (onlyFav) {
       base = base.filter((v) => userState.favoritesVocab.includes(v.id));
     }
-    return sortByReviewPriority(base, userState.srs);
-  }, [userState.scope, onlyFav, userState.favoritesVocab, userState.srs]);
+    return randomOrder ? shuffleWithSeed(base, shuffleSeed) : sortByReviewPriority(base, userState.srs);
+  }, [userState.scope, onlyFav, userState.favoritesVocab, userState.srs, randomOrder, shuffleSeed]);
 
   const current = deck[index % Math.max(1, deck.length)];
 
@@ -163,13 +167,31 @@ export const FlashcardsPage: React.FC = () => {
               </button>
             ))}
           </div>
-          <button
-            type="button"
-            className={`btn btn-sm ${onlyFav ? 'btn-soft' : ''}`}
-            onClick={() => setOnlyFav((x) => !x)}
-          >
-            お気に入りのみ
-          </button>
+          <div className="row-wrap">
+            <OrderControls
+              randomOrder={randomOrder}
+              sequentialLabel="SRS優先"
+              onToggleRandom={() => {
+                setRandomOrder((prev) => {
+                  const next = !prev;
+                  if (next) setShuffleSeed(createShuffleSeed());
+                  return next;
+                });
+                setIndex(0);
+              }}
+              onReshuffle={() => {
+                setShuffleSeed(createShuffleSeed());
+                setIndex(0);
+              }}
+            />
+            <button
+              type="button"
+              className={`btn btn-sm ${onlyFav ? 'btn-soft' : ''}`}
+              onClick={() => setOnlyFav((x) => !x)}
+            >
+              お気に入りのみ
+            </button>
+          </div>
         </div>
       </div>
 

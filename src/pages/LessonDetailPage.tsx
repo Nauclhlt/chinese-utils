@@ -11,6 +11,8 @@ import {
 import { useApp } from '../context/AppContext';
 import { ChineseSentenceBlock, ColoredPinyin, SpeakButton } from '../components/ChineseText';
 import { ExerciseCard } from '../components/ExerciseCard';
+import { OrderControls } from '../components/OrderControls';
+import { createShuffleSeed, shuffleWithSeed } from '../utils/shuffle';
 
 export const LessonDetailPage: React.FC = () => {
   const { lessonId = 'L01' } = useParams();
@@ -20,13 +22,25 @@ export const LessonDetailPage: React.FC = () => {
   const [activeTab, setActiveTab] = useState<'overview' | 'vocab' | 'practice' | 'quiz'>('overview');
   const [practiceIdx, setPracticeIdx] = useState(0);
   const [quizIdx, setQuizIdx] = useState(0);
+  const [practiceRandom, setPracticeRandom] = useState(false);
+  const [practiceSeed, setPracticeSeed] = useState(() => createShuffleSeed());
+  const [quizRandom, setQuizRandom] = useState(false);
+  const [quizSeed, setQuizSeed] = useState(() => createShuffleSeed());
 
   const lessonGrammar = useMemo(() => getGrammarByLesson(lessonId), [lessonId]);
   const lessonVocab = useMemo(() => getVocabByLesson(lessonId), [lessonId]);
-  const lessonExercises = useMemo(() => getExercisesByLesson(lessonId), [lessonId]);
+  const rawLessonExercises = useMemo(() => getExercisesByLesson(lessonId), [lessonId]);
+  const lessonExercises = useMemo(
+    () => (practiceRandom ? shuffleWithSeed(rawLessonExercises, practiceSeed) : rawLessonExercises),
+    [rawLessonExercises, practiceRandom, practiceSeed]
+  );
+  const rawComprehensiveQuiz = useMemo(
+    () => rawLessonExercises.filter((e) => e.isLessonComprehensive),
+    [rawLessonExercises]
+  );
   const comprehensiveQuiz = useMemo(
-    () => lessonExercises.filter((e) => e.isLessonComprehensive),
-    [lessonExercises]
+    () => (quizRandom ? shuffleWithSeed(rawComprehensiveQuiz, quizSeed) : rawComprehensiveQuiz),
+    [rawComprehensiveQuiz, quizRandom, quizSeed]
   );
   const lessonCompositions = useMemo(
     () => compositions.filter((c) => c.lessonId === lessonId),
@@ -213,9 +227,26 @@ export const LessonDetailPage: React.FC = () => {
       {activeTab === 'practice' && lessonExercises.length > 0 && (
         <div className="stack-md">
           <div className="row-between">
-            <span>
-              問題 {practiceIdx + 1} / {lessonExercises.length}
-            </span>
+            <div className="row-wrap">
+              <span>
+                問題 {practiceIdx + 1} / {lessonExercises.length}
+              </span>
+              <OrderControls
+                randomOrder={practiceRandom}
+                onToggleRandom={() => {
+                  setPracticeRandom((prev) => {
+                    const next = !prev;
+                    if (next) setPracticeSeed(createShuffleSeed());
+                    return next;
+                  });
+                  setPracticeIdx(0);
+                }}
+                onReshuffle={() => {
+                  setPracticeSeed(createShuffleSeed());
+                  setPracticeIdx(0);
+                }}
+              />
+            </div>
             <div className="row-wrap">
               <button
                 type="button"
@@ -251,9 +282,26 @@ export const LessonDetailPage: React.FC = () => {
           ) : (
             <>
               <div className="row-between">
-                <strong>
-                  確認テスト: {quizIdx + 1} / {comprehensiveQuiz.length} 問
-                </strong>
+                <div className="row-wrap">
+                  <strong>
+                    確認テスト: {quizIdx + 1} / {comprehensiveQuiz.length} 問
+                  </strong>
+                  <OrderControls
+                    randomOrder={quizRandom}
+                    onToggleRandom={() => {
+                      setQuizRandom((prev) => {
+                        const next = !prev;
+                        if (next) setQuizSeed(createShuffleSeed());
+                        return next;
+                      });
+                      setQuizIdx(0);
+                    }}
+                    onReshuffle={() => {
+                      setQuizSeed(createShuffleSeed());
+                      setQuizIdx(0);
+                    }}
+                  />
+                </div>
                 <div className="row-wrap">
                   {comprehensiveQuiz.map((q, idx) => (
                     <button

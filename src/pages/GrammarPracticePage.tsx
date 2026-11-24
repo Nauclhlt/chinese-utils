@@ -5,7 +5,9 @@ import { exercises, grammarPoints, lessons } from '../data';
 import { useApp } from '../context/AppContext';
 import type { ExerciseItem, ExerciseType } from '../types/curriculum';
 import { filterByScope } from '../utils/scope';
+import { createShuffleSeed, shuffleWithSeed } from '../utils/shuffle';
 import { ExerciseCard, exerciseTypeLabel } from '../components/ExerciseCard';
+import { OrderControls } from '../components/OrderControls';
 
 export const GrammarPracticePage: React.FC = () => {
   const [searchParams] = useSearchParams();
@@ -16,6 +18,8 @@ export const GrammarPracticePage: React.FC = () => {
   const [typeFilter, setTypeFilter] = useState<'all' | ExerciseType>('all');
   const [difficultyFilter, setDifficultyFilter] = useState<string>('all');
   const [onlyWeak, setOnlyWeak] = useState(false);
+  const [randomOrder, setRandomOrder] = useState(false);
+  const [shuffleSeed, setShuffleSeed] = useState(() => createShuffleSeed());
   const [idx, setIdx] = useState(0);
 
   const [showCustomForm, setShowCustomForm] = useState(false);
@@ -46,7 +50,7 @@ export const GrammarPracticePage: React.FC = () => {
     return [...customList, ...exercises];
   }, [userState.customExercises]);
 
-  const pool = useMemo(() => {
+  const filteredPool = useMemo(() => {
     const scopedSet = new Set(filterByScope(allExercises, userState.scope).map((e) => e.id));
     return allExercises.filter((e) => {
       if (lessonFilter === 'scope' && !scopedSet.has(e.id)) return false;
@@ -58,6 +62,11 @@ export const GrammarPracticePage: React.FC = () => {
       return true;
     });
   }, [allExercises, userState.scope, lessonFilter, grammarFilter, typeFilter, difficultyFilter, onlyWeak, wrongIdSet]);
+
+  const pool = useMemo(
+    () => (randomOrder ? shuffleWithSeed(filteredPool, shuffleSeed) : filteredPool),
+    [filteredPool, randomOrder, shuffleSeed]
+  );
 
   const current = pool[idx % Math.max(1, pool.length)];
 
@@ -145,9 +154,26 @@ export const GrammarPracticePage: React.FC = () => {
         </div>
 
         <div className="row-between">
-          <button type="button" className={`btn btn-sm ${onlyWeak ? 'btn-soft' : ''}`} onClick={() => { setOnlyWeak((x) => !x); setIdx(0); }}>
-            過去に間違えた問題のみ ({wrongIdSet.size})
-          </button>
+          <div className="row-wrap">
+            <button type="button" className={`btn btn-sm ${onlyWeak ? 'btn-soft' : ''}`} onClick={() => { setOnlyWeak((x) => !x); setIdx(0); }}>
+              過去に間違えた問題のみ ({wrongIdSet.size})
+            </button>
+            <OrderControls
+              randomOrder={randomOrder}
+              onToggleRandom={() => {
+                setRandomOrder((prev) => {
+                  const next = !prev;
+                  if (next) setShuffleSeed(createShuffleSeed());
+                  return next;
+                });
+                setIdx(0);
+              }}
+              onReshuffle={() => {
+                setShuffleSeed(createShuffleSeed());
+                setIdx(0);
+              }}
+            />
+          </div>
           <div className="row-wrap">
             <span className="badge">{pool.length} 問該当</span>
             {pool.length > 0 && (

@@ -5,18 +5,22 @@ import { useApp } from '../context/AppContext';
 import { filterByScope } from '../utils/scope';
 import { speakChinese } from '../utils/speech';
 import { normalizeChineseAnswer } from '../utils/diff';
+import { createShuffleSeed, shuffleWithSeed } from '../utils/shuffle';
 import { ColoredPinyin } from '../components/ChineseText';
+import { OrderControls } from '../components/OrderControls';
 
 export const ListeningPage: React.FC = () => {
   const { userState, updateSettings, speechSupport, recordAnswer } = useApp();
   const [mode, setMode] = useState<'dictation' | 'meaning'>('dictation');
+  const [randomOrder, setRandomOrder] = useState(false);
+  const [shuffleSeed, setShuffleSeed] = useState(() => createShuffleSeed());
   const [idx, setIdx] = useState(0);
   const [dictInput, setDictInput] = useState('');
   const [selectedMeaning, setSelectedMeaning] = useState('');
   const [submitted, setSubmitted] = useState(false);
   const [isCorrect, setIsCorrect] = useState(false);
 
-  const items = useMemo(() => {
+  const baseItems = useMemo(() => {
     const scopedVocab = filterByScope(vocabulary, userState.scope);
     const list: { id: string; hanzi: string; pinyin: string; ja: string; lessonId: string; grammarIds: string[] }[] = [];
     for (const v of scopedVocab) {
@@ -45,6 +49,11 @@ export const ListeningPage: React.FC = () => {
     }
     return list;
   }, [userState.scope]);
+
+  const items = useMemo(
+    () => (randomOrder ? shuffleWithSeed(baseItems, shuffleSeed) : baseItems),
+    [baseItems, randomOrder, shuffleSeed]
+  );
 
   const current = items[idx % Math.max(1, items.length)];
 
@@ -118,21 +127,44 @@ export const ListeningPage: React.FC = () => {
         </div>
       ) : (
         <>
-          <div className="row-wrap">
-            <button
-              type="button"
-              className={`btn btn-sm ${mode === 'dictation' ? 'btn-primary' : ''}`}
-              onClick={() => { setMode('dictation'); setSubmitted(false); }}
-            >
-              ディクテーション（中国語入力）
-            </button>
-            <button
-              type="button"
-              className={`btn btn-sm ${mode === 'meaning' ? 'btn-primary' : ''}`}
-              onClick={() => { setMode('meaning'); setSubmitted(false); }}
-            >
-              音声を聞いて意味を選ぶ
-            </button>
+          <div className="row-between">
+            <div className="row-wrap">
+              <button
+                type="button"
+                className={`btn btn-sm ${mode === 'dictation' ? 'btn-primary' : ''}`}
+                onClick={() => { setMode('dictation'); setSubmitted(false); }}
+              >
+                ディクテーション（中国語入力）
+              </button>
+              <button
+                type="button"
+                className={`btn btn-sm ${mode === 'meaning' ? 'btn-primary' : ''}`}
+                onClick={() => { setMode('meaning'); setSubmitted(false); }}
+              >
+                音声を聞いて意味を選ぶ
+              </button>
+            </div>
+            <OrderControls
+              randomOrder={randomOrder}
+              onToggleRandom={() => {
+                setRandomOrder((prev) => {
+                  const next = !prev;
+                  if (next) setShuffleSeed(createShuffleSeed());
+                  return next;
+                });
+                setIdx(0);
+                setDictInput('');
+                setSelectedMeaning('');
+                setSubmitted(false);
+              }}
+              onReshuffle={() => {
+                setShuffleSeed(createShuffleSeed());
+                setIdx(0);
+                setDictInput('');
+                setSelectedMeaning('');
+                setSubmitted(false);
+              }}
+            />
           </div>
 
           {current && (

@@ -6,8 +6,10 @@ import { useApp } from '../context/AppContext';
 import type { CompositionSelfScore } from '../types/user';
 import { filterByScope } from '../utils/scope';
 import { computeCharDiff, matchesAcceptableChinese } from '../utils/diff';
+import { createShuffleSeed, shuffleWithSeed } from '../utils/shuffle';
 import { ColoredPinyin, SpeakButton } from '../components/ChineseText';
 import { StructureDiagram } from '../components/StructureDiagram';
+import { OrderControls } from '../components/OrderControls';
 
 export const CompositionPracticePage: React.FC = () => {
   const [searchParams] = useSearchParams();
@@ -24,6 +26,8 @@ export const CompositionPracticePage: React.FC = () => {
   const [difficultyFilter, setDifficultyFilter] = useState<string>('all');
   const [statusFilter, setStatusFilter] = useState<'all' | 'wrong' | 'unanswered' | 'low-mastery'>('all');
   const [examModeHideHint, setExamModeHideHint] = useState(false);
+  const [randomOrder, setRandomOrder] = useState(false);
+  const [shuffleSeed, setShuffleSeed] = useState(() => createShuffleSeed());
 
   const [idx, setIdx] = useState(0);
   const [userInput, setUserInput] = useState('');
@@ -45,7 +49,7 @@ export const CompositionPracticePage: React.FC = () => {
     }
   }, [searchParams]);
 
-  const pool = useMemo(() => {
+  const filteredPool = useMemo(() => {
     let base = compositions;
     if (scopeMode === 'scope') {
       base = filterByScope(compositions, userState.scope);
@@ -84,6 +88,11 @@ export const CompositionPracticePage: React.FC = () => {
     difficultyFilter,
     statusFilter,
   ]);
+
+  const pool = useMemo(
+    () => (randomOrder ? shuffleWithSeed(filteredPool, shuffleSeed) : filteredPool),
+    [filteredPool, randomOrder, shuffleSeed]
+  );
 
   const current = pool[idx % Math.max(1, pool.length)];
 
@@ -271,7 +280,24 @@ export const CompositionPracticePage: React.FC = () => {
         )}
 
         <div className="row-between">
-          <span className="badge">{pool.length} 問</span>
+          <div className="row-wrap">
+            <span className="badge">{pool.length} 問</span>
+            <OrderControls
+              randomOrder={randomOrder}
+              onToggleRandom={() => {
+                setRandomOrder((prev) => {
+                  const next = !prev;
+                  if (next) setShuffleSeed(createShuffleSeed());
+                  return next;
+                });
+                setIdx(0);
+              }}
+              onReshuffle={() => {
+                setShuffleSeed(createShuffleSeed());
+                setIdx(0);
+              }}
+            />
+          </div>
           {pool.length > 0 && (
             <div className="row-wrap">
               <button type="button" className="btn btn-sm" onClick={() => setIdx((i) => (i - 1 + pool.length) % pool.length)}>
