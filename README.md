@@ -122,6 +122,10 @@ npm run test:e2e
    npm run check
    ```
 
+## デザインガイドライン
+
+UI トークン・ボーダー整理・タイポグラフィ・レイアウト設計方針は [docs/DESIGN_GUIDELINES.md](./docs/DESIGN_GUIDELINES.md) にまとめています。
+
 ---
 
 ## トラブルシューティング

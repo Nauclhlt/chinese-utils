@@ -118,37 +118,35 @@ export const VocabPage: React.FC = () => {
 
   return (
     <div className="stack-lg">
-      <div className="row-between">
+      <header className="page-header">
         <div>
-          <h2 style={{ margin: 0 }}>単語帳・語彙データベース</h2>
-          <p style={{ margin: '4px 0 0', color: 'var(--text-muted)', fontSize: '0.92rem' }}>
-            教材の学習範囲に沿った独自解説・独自例文付き語彙データです。教材未確認語は「補足語彙」として区別しています。
-          </p>
+          <h2 className="page-title">単語帳・語彙データベース</h2>
+          <p className="page-subtitle">教材語彙・補足語彙（{filtered.length}語表示中）</p>
         </div>
         <div className="row-wrap">
           <button
             type="button"
-            className="btn btn-sm"
+            className="btn btn-sm btn-ghost"
             onClick={() => downloadText('chinese-vocab.csv', exportVocabToCsv(filtered), 'text/csv;charset=utf-8')}
           >
             <Download size={14} /> CSV出力
           </button>
           <button
             type="button"
-            className="btn btn-sm"
+            className="btn btn-sm btn-ghost"
             onClick={() => downloadText('chinese-anki.tsv', exportVocabToAnkiTsv(filtered), 'text/tab-separated-values;charset=utf-8')}
           >
-            <Download size={14} /> Anki用TSV出力
+            <Download size={14} /> Anki TSV
           </button>
           <button type="button" className="btn btn-sm btn-primary" onClick={() => setShowAddForm((s) => !s)}>
             <Plus size={14} /> 独自単語を登録
           </button>
         </div>
-      </div>
+      </header>
 
       {showAddForm && (
         <form onSubmit={handleAddCustom} className="card stack-md">
-          <h3 style={{ margin: 0 }}>独自単語の追加</h3>
+          <h3 className="section-heading">独自単語の追加</h3>
           <div className="grid-4">
             <input
               className="input"
@@ -179,12 +177,12 @@ export const VocabPage: React.FC = () => {
           </div>
           <div className="row-wrap">
             <button type="submit" className="btn btn-primary btn-sm">登録する</button>
-            <button type="button" className="btn btn-sm" onClick={() => setShowAddForm(false)}>キャンセル</button>
+            <button type="button" className="btn btn-ghost btn-sm" onClick={() => setShowAddForm(false)}>キャンセル</button>
           </div>
         </form>
       )}
 
-      <div className="card stack-md">
+      <div className="stack-sm">
         <div className="grid-4">
           <input
             type="search"
@@ -222,20 +220,20 @@ export const VocabPage: React.FC = () => {
 
         <div className="row-between">
           <div className="row-wrap">
-            <button type="button" className={`btn btn-sm ${onlyFav ? 'btn-soft' : ''}`} onClick={() => setOnlyFav((x) => !x)}>
+            <button type="button" className={`btn btn-sm ${onlyFav ? 'btn-soft' : 'btn-ghost'}`} onClick={() => setOnlyFav((x) => !x)}>
               <Star size={14} /> お気に入りのみ
             </button>
-            <button type="button" className={`btn btn-sm ${hideHanzi ? 'btn-soft' : ''}`} onClick={() => setHideHanzi((x) => !x)}>
+            <button type="button" className={`btn btn-sm ${hideHanzi ? 'btn-soft' : 'btn-ghost'}`} onClick={() => setHideHanzi((x) => !x)}>
               {hideHanzi ? <EyeOff size={14} /> : <Eye size={14} />} 中国語を隠す
             </button>
-            <button type="button" className={`btn btn-sm ${hidePinyin ? 'btn-soft' : ''}`} onClick={() => setHidePinyin((x) => !x)}>
+            <button type="button" className={`btn btn-sm ${hidePinyin ? 'btn-soft' : 'btn-ghost'}`} onClick={() => setHidePinyin((x) => !x)}>
               {hidePinyin ? <EyeOff size={14} /> : <Eye size={14} />} ピンインを隠す
             </button>
-            <button type="button" className={`btn btn-sm ${hideJa ? 'btn-soft' : ''}`} onClick={() => setHideJa((x) => !x)}>
+            <button type="button" className={`btn btn-sm ${hideJa ? 'btn-soft' : 'btn-ghost'}`} onClick={() => setHideJa((x) => !x)}>
               {hideJa ? <EyeOff size={14} /> : <Eye size={14} />} 日本語訳を隠す
             </button>
           </div>
-          <span className="badge">{filtered.length} 語表示</span>
+          <span className="badge num-tabular">{filtered.length} 語</span>
         </div>
       </div>
 
@@ -281,9 +279,9 @@ export const VocabPage: React.FC = () => {
                   </td>
                   <td>{hideJa ? '••••' : v.meaningJa}</td>
                   <td>{v.pos}</td>
-                  <td onClick={(e) => e.stopPropagation()}>
-                    <div className="row-wrap">
-                      <span className="badge">{mastery}%</span>
+                  <td onClick={(e) => e.stopPropagation()} style={{ whiteSpace: 'nowrap' }}>
+                    <div className="row" style={{ gap: 6, flexWrap: 'nowrap' }}>
+                      <span className="badge num-tabular">{mastery}%</span>
                       <button
                         type="button"
                         className="btn btn-sm"
@@ -294,12 +292,12 @@ export const VocabPage: React.FC = () => {
                       </button>
                     </div>
                   </td>
-                  <td onClick={(e) => e.stopPropagation()}>
-                    <div className="row-wrap">
+                  <td onClick={(e) => e.stopPropagation()} style={{ whiteSpace: 'nowrap' }}>
+                    <div className="row" style={{ gap: 4, flexWrap: 'nowrap' }}>
                       <SpeakButton text={v.hanzi} />
                       <button
                         type="button"
-                        className={`btn btn-sm ${fav ? 'btn-soft' : ''}`}
+                        className={`btn btn-sm ${fav ? 'btn-soft' : 'btn-ghost'}`}
                         aria-label="お気に入り"
                         onClick={() => toggleFavoriteVocab(v.id)}
                       >

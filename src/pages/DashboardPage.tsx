@@ -1,11 +1,12 @@
 import React, { useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowRight, BookOpen, CheckCircle2, Clock, Flame, SlidersHorizontal, Target } from 'lucide-react';
+import { ArrowRight, ChevronRight, SlidersHorizontal } from 'lucide-react';
 import { compositions, exercises, grammarMap, grammarPoints, lessons, vocabulary } from '../data';
 import { useApp } from '../context/AppContext';
 import { filterByScope, formatScopeSummary } from '../utils/scope';
 import { isDueForReview } from '../utils/srs';
 import { ScopeSelectorModal } from '../components/ScopeSelectorModal';
+import { ProgressBar } from '../components/ui';
 
 export const DashboardPage: React.FC = () => {
   const { userState, setScope } = useApp();
@@ -56,212 +57,189 @@ export const DashboardPage: React.FC = () => {
 
   const studyMinutes = Math.round(userState.studySecondsTotal / 60);
   const primaryGrammarCount = grammarPoints.filter((g) => !g.isSupplementary).length;
-  const studiedPrimaryCount = userState.studiedGrammarIds.filter((id) => !grammarMap.get(id)?.isSupplementary).length;
+  const studiedPrimaryCount = userState.studiedGrammarIds.filter(
+    (id) => !grammarMap.get(id)?.isSupplementary
+  ).length;
+
+  const lessonPct = lessons.length
+    ? Math.round((userState.completedLessons.length / lessons.length) * 100)
+    : 0;
+  const grammarPct = primaryGrammarCount
+    ? Math.round((studiedPrimaryCount / primaryGrammarCount) * 100)
+    : 0;
+  const vocabPct = scopedVocab.length
+    ? Math.round((masteredVocabCount / scopedVocab.length) * 100)
+    : 0;
 
   return (
     <div className="stack-lg">
-      {/* First-time / quick scope banner */}
-      <section className="card stack-md">
-        <div className="row-between">
-          <div>
-            <h2 style={{ margin: 0, fontSize: '1.35rem' }}>学習ダッシュボード</h2>
-            <p style={{ margin: '4px 0 0', color: 'var(--text-muted)', fontSize: '0.92rem' }}>
-              京都大学中国語CALL教材の学習体系に沿って、理解・暗記・演習・作文を一元管理できます。
-            </p>
-          </div>
+      {/* Header (open typographic header, no card frame) */}
+      <header className="page-header">
+        <div>
+          <h2 className="page-title">学習ダッシュボード</h2>
+          <p className="page-subtitle">現在の範囲: {formatScopeSummary(userState.scope)}</p>
+        </div>
+        <div className="row-wrap">
+          <button
+            type="button"
+            className="btn btn-sm"
+            onClick={() => setScopeModalOpen(true)}
+          >
+            <SlidersHorizontal size={14} />
+            範囲設定
+          </button>
+          {userState.settings.lastVisitedPath && userState.settings.lastVisitedPath !== '/' && (
+            <Link to={userState.settings.lastVisitedPath} className="btn btn-sm btn-primary">
+              {userState.settings.lastVisitedLabel} を続ける <ArrowRight size={14} />
+            </Link>
+          )}
+        </div>
+      </header>
+
+      {/* Initial setup prompt — only visible before user configures scope */}
+      {!userState.settings.scopeConfigured && (
+        <div className="banner banner-info row-between">
+          <span>
+            <strong>初期設定:</strong> 授業の進度に合わせて出題・復習範囲を選択できます。
+          </span>
           <div className="row-wrap">
-            <button
-              type="button"
-              className="btn btn-soft"
-              onClick={() => setScopeModalOpen(true)}
-            >
-              <SlidersHorizontal size={16} />
-              学習範囲を変更 ({formatScopeSummary(userState.scope)})
-            </button>
-            {userState.settings.lastVisitedPath && userState.settings.lastVisitedPath !== '/' && (
-              <Link to={userState.settings.lastVisitedPath} className="btn btn-primary">
-                前回の続きへ ({userState.settings.lastVisitedLabel}) <ArrowRight size={15} />
-              </Link>
-            )}
+            {[4, 8, 14, 22].map((n) => (
+              <button
+                key={n}
+                type="button"
+                className="btn btn-sm btn-soft"
+                onClick={() =>
+                  setScope({
+                    mode: 'upTo',
+                    upToLesson: n,
+                    selectedLessons: lessons.slice(0, n).map((l) => l.id),
+                  })
+                }
+              >
+                第{n}課まで
+              </button>
+            ))}
           </div>
         </div>
+      )}
 
-        {!userState.settings.scopeConfigured && (
-          <div className="banner banner-info row-between">
-            <span>
-              <strong>初期設定:</strong> 現在の授業進度に合わせて学習範囲を設定すると、未習事項を除外して効率よく復習できます。
+      {/* Unified Stat Strip (no bordered stat card grid) */}
+      <section className="stat-strip" aria-label="学習統計サマリー">
+        <div className="stat-item">
+          <span className="stat-label">学習済みの課</span>
+          <div className="stat-value">
+            {userState.completedLessons.length}{' '}
+            <span style={{ fontSize: '0.92rem', fontWeight: 500, color: 'var(--text-tertiary)' }}>
+              / {lessons.length} 課
             </span>
-            <div className="row-wrap">
-              {[4, 8, 14, 22].map((n) => (
-                <button
-                  key={n}
-                  type="button"
-                  className="btn btn-sm btn-soft"
-                  onClick={() =>
-                    setScope({
-                      mode: 'upTo',
-                      upToLesson: n,
-                      selectedLessons: lessons.slice(0, n).map((l) => l.id),
-                    })
-                  }
-                >
-                  第{n}課まで
-                </button>
-              ))}
-            </div>
           </div>
-        )}
-      </section>
-
-      {/* Summary metrics */}
-      <section className="grid-4">
-        <div className="card stack-sm">
-          <div className="row-between" style={{ color: 'var(--text-muted)', fontSize: '0.85rem' }}>
-            <span>学習済みの課</span>
-            <BookOpen size={16} />
-          </div>
-          <div style={{ fontSize: '1.6rem', fontWeight: 700 }}>
-            {userState.completedLessons.length} / {lessons.length} 課
-          </div>
-          <div className="progress-track">
-            <div
-              className="progress-fill"
-              style={{ width: `${Math.round((userState.completedLessons.length / lessons.length) * 100)}%` }}
-            />
-          </div>
+          <ProgressBar percent={lessonPct} label="課の進捗" />
         </div>
 
-        <div className="card stack-sm">
-          <div className="row-between" style={{ color: 'var(--text-muted)', fontSize: '0.85rem' }}>
-            <span>学習済み文法事項</span>
-            <CheckCircle2 size={16} />
+        <div className="stat-item">
+          <span className="stat-label">学習済み文法</span>
+          <div className="stat-value">
+            {studiedPrimaryCount}{' '}
+            <span style={{ fontSize: '0.92rem', fontWeight: 500, color: 'var(--text-tertiary)' }}>
+              / {primaryGrammarCount}
+            </span>
           </div>
-          <div style={{ fontSize: '1.6rem', fontWeight: 700 }}>
-            {studiedPrimaryCount} / {primaryGrammarCount} 項目
-          </div>
-          <div className="progress-track">
-            <div
-              className="progress-fill"
-              style={{
-                width: `${primaryGrammarCount ? Math.round((studiedPrimaryCount / primaryGrammarCount) * 100) : 0}%`,
-              }}
-            />
-          </div>
+          <ProgressBar percent={grammarPct} label="文法の進捗" />
         </div>
 
-        <div className="card stack-sm">
-          <div className="row-between" style={{ color: 'var(--text-muted)', fontSize: '0.85rem' }}>
-            <span>単語の習熟度 (範囲内)</span>
-            <Target size={16} />
+        <div className="stat-item">
+          <span className="stat-label">範囲内の語彙習熟</span>
+          <div className="stat-value">
+            {masteredVocabCount}{' '}
+            <span style={{ fontSize: '0.92rem', fontWeight: 500, color: 'var(--text-tertiary)' }}>
+              / {scopedVocab.length} 語
+            </span>
           </div>
-          <div style={{ fontSize: '1.6rem', fontWeight: 700 }}>
-            {masteredVocabCount} / {scopedVocab.length} 語
-          </div>
-          <div className="progress-track">
-            <div
-              className="progress-fill"
-              style={{
-                width: `${scopedVocab.length ? Math.round((masteredVocabCount / scopedVocab.length) * 100) : 0}%`,
-              }}
-            />
-          </div>
+          <ProgressBar percent={vocabPct} label="語彙の習熟度" />
         </div>
 
-        <div className="card stack-sm">
-          <div className="row-between" style={{ color: 'var(--text-muted)', fontSize: '0.85rem' }}>
-            <span>本日の復習・累計時間</span>
-            <Clock size={16} />
+        <div className="stat-item">
+          <span className="stat-label">復習待ち・累計時間</span>
+          <div className="stat-value">
+            {dueVocabCount + recentWrong.length}{' '}
+            <span style={{ fontSize: '0.92rem', fontWeight: 500, color: 'var(--text-tertiary)' }}>
+              件 ・ {studyMinutes} 分
+            </span>
           </div>
-          <div style={{ fontSize: '1.6rem', fontWeight: 700 }}>
-            {dueVocabCount + recentWrong.length} 件 / {studyMinutes} 分
-          </div>
-          <div style={{ fontSize: '0.82rem', color: 'var(--text-light)' }}>
-            回答数 {userState.answerHistory.length} 問 / 作文 {userState.compositionHistory.length} 問
+          <div className="stat-meta num-tabular">
+            演習 {userState.answerHistory.length} / 作文 {userState.compositionHistory.length}
           </div>
         </div>
       </section>
 
-      {/* Recommended & Quick Launch */}
+      {/* Recommended & Recent Mistakes (clean clickable hairline rows) */}
       <section className="grid-2">
-        <div className="card stack-md">
-          <h3 style={{ margin: 0, display: 'flex', alignItems: 'center', gap: 8 }}>
-            <Flame size={18} color="var(--accent)" /> おすすめの次の学習内容
-          </h3>
-          <div className="stack-sm">
+        <div className="stack-sm">
+          <h3 className="section-heading">次のステップ</h3>
+          <div className="list-group">
             {recommendedNext.nextLesson && (
-              <div className="card-subtle row-between">
-                <div>
-                  <div style={{ fontWeight: 600 }}>
-                    次の未完了課: {recommendedNext.nextLesson.title}
+              <Link to={`/lessons/${recommendedNext.nextLesson.id}`} className="list-row">
+                <div style={{ minWidth: 0 }}>
+                  <div style={{ fontWeight: 600, fontSize: '0.92rem' }}>
+                    {recommendedNext.nextLesson.title}
                   </div>
-                  <div style={{ fontSize: '0.85rem', color: 'var(--text-muted)' }}>
+                  <div style={{ fontSize: '0.82rem', color: 'var(--text-secondary)' }}>
                     {recommendedNext.nextLesson.topic}
                   </div>
                 </div>
-                <Link to={`/lessons/${recommendedNext.nextLesson.id}`} className="btn btn-sm btn-primary">
-                  学習する
-                </Link>
-              </div>
+                <ChevronRight size={16} color="var(--text-tertiary)" />
+              </Link>
             )}
             {recommendedNext.unstudiedGrammar && (
-              <div className="card-subtle row-between">
-                <div>
-                  <div style={{ fontWeight: 600 }}>
-                    未確認の文法: {recommendedNext.unstudiedGrammar.title}
+              <Link to={`/grammar/${recommendedNext.unstudiedGrammar.id}`} className="list-row">
+                <div style={{ minWidth: 0 }}>
+                  <div style={{ fontWeight: 600, fontSize: '0.92rem' }}>
+                    未確認文法: {recommendedNext.unstudiedGrammar.title}
                   </div>
-                  <div style={{ fontSize: '0.85rem', color: 'var(--text-muted)' }}>
+                  <div style={{ fontSize: '0.82rem', color: 'var(--text-secondary)' }} lang="zh-Hans">
                     {recommendedNext.unstudiedGrammar.pattern}
                   </div>
                 </div>
-                <Link
-                  to={`/grammar/${recommendedNext.unstudiedGrammar.id}`}
-                  className="btn btn-sm btn-soft"
-                >
-                  解説を見る
-                </Link>
-              </div>
+                <ChevronRight size={16} color="var(--text-tertiary)" />
+              </Link>
             )}
-            <div className="card-subtle row-between">
+            <Link to="/practice/composition" className="list-row">
               <div>
-                <div style={{ fontWeight: 600 }}>範囲内の演習コンテンツ</div>
-                <div style={{ fontSize: '0.85rem', color: 'var(--text-muted)' }}>
-                  練習問題 {scopedExercises.length} 問・中国語作文 {scopedCompositions.length} 問・語彙 {scopedVocab.length} 語
+                <div style={{ fontWeight: 600, fontSize: '0.92rem' }}>中国語作文・演習に挑戦</div>
+                <div style={{ fontSize: '0.82rem', color: 'var(--text-secondary)' }}>
+                  練習 {scopedExercises.length}問 ・ 作文 {scopedCompositions.length}問 ・ 語彙 {scopedVocab.length}語
                 </div>
               </div>
-              <Link to="/practice/composition" className="btn btn-sm btn-soft">
-                作文に挑戦
-              </Link>
-            </div>
+              <ChevronRight size={16} color="var(--text-tertiary)" />
+            </Link>
           </div>
         </div>
 
-        <div className="card stack-md">
+        <div className="stack-sm">
           <div className="row-between">
-            <h3 style={{ margin: 0 }}>最近間違えた問題・復習対象</h3>
-            <Link to="/review" style={{ fontSize: '0.86rem' }}>
-              すべて見る →
+            <h3 className="section-heading">最近の誤答・復習候補</h3>
+            <Link to="/review" style={{ fontSize: '0.82rem' }}>
+              一覧へ <ArrowRight size={12} style={{ verticalAlign: 'middle' }} />
             </Link>
           </div>
           {recentWrong.length === 0 ? (
-            <div className="card-subtle" style={{ color: 'var(--text-muted)', fontSize: '0.9rem' }}>
-              最近の間違いはまだありません。練習問題やフラッシュカードに取り組むとここに復習候補が表示されます。
+            <div className="card-subtle" style={{ color: 'var(--text-secondary)', fontSize: '0.88rem' }}>
+              最近の間違いはありません。練習問題やフラッシュカードに取り組むと復習候補が記録されます。
             </div>
           ) : (
-            <div className="stack-sm">
+            <div className="list-group">
               {recentWrong.map((item) => (
-                <div key={item.id} className="card-subtle row-between">
-                  <div>
+                <Link key={item.id} to="/review" className="list-row">
+                  <div style={{ minWidth: 0 }}>
                     <div style={{ fontSize: '0.88rem', fontWeight: 600 }}>
                       {item.lessonId} / {item.grammarIds.map((g) => grammarMap.get(g)?.title ?? g).join(', ')}
                     </div>
-                    <div style={{ fontSize: '0.8rem', color: 'var(--text-light)' }}>
-                      あなたの回答: {item.userAnswer || '(未入力)'}
+                    <div style={{ fontSize: '0.8rem', color: 'var(--text-tertiary)' }}>
+                      回答: {item.userAnswer || '(未入力)'}
                     </div>
                   </div>
-                  <Link to="/review" className="btn btn-sm">
-                    復習する
-                  </Link>
-                </div>
+                  <ChevronRight size={16} color="var(--text-tertiary)" />
+                </Link>
               ))}
             </div>
           )}
@@ -269,43 +247,47 @@ export const DashboardPage: React.FC = () => {
       </section>
 
       {/* Recent history */}
-      <section className="card stack-md">
+      <section className="doc-section stack-sm">
         <div className="row-between">
-          <h3 style={{ margin: 0 }}>直近の学習履歴</h3>
-          <span className="badge">全 {userState.answerHistory.length + userState.compositionHistory.length} 件</span>
+          <h3 className="section-heading">直近の学習履歴</h3>
+          <span className="badge num-tabular">
+            全 {userState.answerHistory.length + userState.compositionHistory.length} 件
+          </span>
         </div>
         {userState.answerHistory.length === 0 && userState.compositionHistory.length === 0 ? (
-          <p style={{ margin: 0, color: 'var(--text-muted)', fontSize: '0.9rem' }}>
-            まだ学習履歴がありません。まずは「課別学習」や「単語帳」「文法練習」から始めましょう。
+          <p style={{ margin: 0, color: 'var(--text-secondary)', fontSize: '0.88rem' }}>
+            学習履歴はまだありません。「課別学習」や「単語帳」から学習を始められます。
           </p>
         ) : (
-          <div className="table-wrap">
-            <table className="data-table">
-              <thead>
-                <tr>
-                  <th>日時</th>
-                  <th>種別</th>
-                  <th>課</th>
-                  <th>入力内容</th>
-                  <th>結果</th>
-                </tr>
-              </thead>
-              <tbody>
-                {userState.answerHistory.slice(0, 8).map((h) => (
-                  <tr key={h.id}>
-                    <td>{new Date(h.timestamp).toLocaleString('ja-JP')}</td>
-                    <td>{h.itemKind}</td>
-                    <td>{h.lessonId}</td>
-                    <td lang="zh-Hans">{h.userAnswer}</td>
-                    <td>
-                      <span className={`badge ${h.correct ? 'badge-success' : 'badge-danger'}`}>
-                        {h.correct ? '正解' : '誤答'}
-                      </span>
-                    </td>
+          <div className="card" style={{ padding: 0, overflow: 'hidden' }}>
+            <div className="table-wrap">
+              <table className="data-table">
+                <thead>
+                  <tr>
+                    <th>日時</th>
+                    <th>種別</th>
+                    <th>課</th>
+                    <th>入力内容</th>
+                    <th>結果</th>
                   </tr>
-                ))}
-              </tbody>
-            </table>
+                </thead>
+                <tbody>
+                  {userState.answerHistory.slice(0, 8).map((h) => (
+                    <tr key={h.id}>
+                      <td className="num-tabular">{new Date(h.timestamp).toLocaleString('ja-JP')}</td>
+                      <td>{h.itemKind}</td>
+                      <td>{h.lessonId}</td>
+                      <td lang="zh-Hans">{h.userAnswer}</td>
+                      <td>
+                        <span className={`badge ${h.correct ? 'badge-success' : 'badge-danger'}`}>
+                          {h.correct ? '正解' : '誤答'}
+                        </span>
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
           </div>
         )}
       </section>

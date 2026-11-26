@@ -40,6 +40,7 @@ import { AnnotationSidePanel } from '../components/AnnotationSidePanel';
 import { ReaderPracticePanel } from '../components/ReaderPracticePanel';
 import { useApp } from '../../context/AppContext';
 import { speakChinese, stopSpeaking } from '../../utils/speech';
+import { Switch } from '../../components/ui';
 import type {
   BackgroundNote,
   GlossaryEntry,
@@ -359,56 +360,55 @@ export const LiteratureReaderPage: React.FC = () => {
       data-testid="literature-reader-page"
       onClick={() => setActivePopup(null)}
     >
-      {/* Top Toolbar */}
-      <div className="card stack-sm" onClick={(e) => e.stopPropagation()}>
+      {/* Quiet Top Reading Bar */}
+      <div className="reader-topbar" onClick={(e) => e.stopPropagation()}>
         <div className="row-between" style={{ flexWrap: 'wrap', gap: 10 }}>
           <div className="row-wrap" style={{ gap: 8 }}>
-            <Link to="/reader" className="btn btn-sm">
+            <Link to="/reader" className="btn btn-ghost btn-sm">
               <ArrowLeft size={14} /> 本棚へ
             </Link>
             <strong className="zh-md" lang={work.metadata.script}>
               {work.metadata.titleZh}
             </strong>
-            <span className="badge badge-accent">
-              第{currentChapter.number}章 / {work.chapters.length}章 (進捗{' '}
-              {Math.round(((chapterIndex + 1) / work.chapters.length) * 100)}%)
+            <span className="badge badge-accent num-tabular">
+              第{currentChapter.number}章 / {work.chapters.length} ({Math.round(((chapterIndex + 1) / work.chapters.length) * 100)}%)
             </span>
           </div>
 
-          <div className="row-wrap" style={{ gap: 6 }}>
+          <div className="row-wrap" style={{ gap: 4 }}>
             <button
               type="button"
-              className={`btn btn-sm ${drawerTab === 'toc' ? 'btn-primary' : ''}`}
+              className={`btn btn-sm ${drawerTab === 'toc' ? 'btn-soft' : 'btn-ghost'}`}
               onClick={() => setDrawerTab((d) => (d === 'toc' ? 'none' : 'toc'))}
             >
               <BookOpen size={14} /> 目次・しおり
             </button>
             <button
               type="button"
-              className={`btn btn-sm ${drawerTab === 'info' ? 'btn-primary' : ''}`}
+              className={`btn btn-sm ${drawerTab === 'info' ? 'btn-soft' : 'btn-ghost'}`}
               onClick={() => setDrawerTab((d) => (d === 'info' ? 'none' : 'info'))}
               data-testid="reader-info-btn"
             >
-              <Info size={14} /> 背景・人物・語彙
+              <Info size={14} /> 背景・人物
             </button>
             <button
               type="button"
-              className={`btn btn-sm ${drawerTab === 'search' ? 'btn-primary' : ''}`}
+              className={`btn btn-sm ${drawerTab === 'search' ? 'btn-soft' : 'btn-ghost'}`}
               onClick={() => setDrawerTab((d) => (d === 'search' ? 'none' : 'search'))}
             >
               <Search size={14} /> 検索
             </button>
             <button
               type="button"
-              className={`btn btn-sm ${drawerTab === 'practice' ? 'btn-primary' : ''}`}
+              className={`btn btn-sm ${drawerTab === 'practice' ? 'btn-soft' : 'btn-ghost'}`}
               onClick={() => setDrawerTab((d) => (d === 'practice' ? 'none' : 'practice'))}
               data-testid="reader-practice-toggle"
             >
-              演習ツール
+              演習
             </button>
             <button
               type="button"
-              className={`btn btn-sm ${drawerTab === 'settings' ? 'btn-primary' : ''}`}
+              className={`btn btn-sm ${drawerTab === 'settings' ? 'btn-soft' : 'btn-ghost'}`}
               onClick={() => setDrawerTab((d) => (d === 'settings' ? 'none' : 'settings'))}
               data-testid="reader-settings-btn"
             >
@@ -416,7 +416,7 @@ export const LiteratureReaderPage: React.FC = () => {
             </button>
             <button
               type="button"
-              className="btn btn-sm"
+              className="btn btn-ghost btn-sm"
               onClick={() =>
                 setReaderState((prev) => ({
                   ...prev,
@@ -424,6 +424,7 @@ export const LiteratureReaderPage: React.FC = () => {
                 }))
               }
               title="集中読書モード切替"
+              aria-label="集中読書モード切替"
               data-testid="reader-focus-toggle"
             >
               {settings.focusMode ? <Minimize2 size={14} /> : <Maximize2 size={14} />}
@@ -431,14 +432,14 @@ export const LiteratureReaderPage: React.FC = () => {
           </div>
         </div>
 
-        {/* Display modes + quick layer toggles */}
+        {/* Display modes + clean Switch toggles */}
         <div className="row-between" style={{ flexWrap: 'wrap', gap: 10 }}>
-          <div className="row-wrap" style={{ gap: 6 }} role="group" aria-label="表示モード">
+          <div className="row-wrap" style={{ gap: 4 }} role="group" aria-label="表示モード">
             {modeLabels.map((m) => (
               <button
                 key={m.id}
                 type="button"
-                className={`btn btn-sm ${settings.displayMode === m.id ? 'btn-primary' : ''}`}
+                className={`btn btn-sm ${settings.displayMode === m.id ? 'btn-primary' : 'btn-ghost'}`}
                 onClick={() =>
                   setReaderState((prev) => ({
                     ...prev,
@@ -452,49 +453,47 @@ export const LiteratureReaderPage: React.FC = () => {
             ))}
           </div>
 
-          <div className="row-wrap" style={{ gap: 6 }}>
-            <button
-              type="button"
-              className={`btn btn-sm ${settings.showPinyin ? 'btn-soft' : ''}`}
-              onClick={() =>
+          <div className="row-wrap" style={{ gap: 12 }}>
+            <Switch
+              checked={settings.showPinyin}
+              onChange={(checked) =>
                 setReaderState((prev) => ({
                   ...prev,
-                  settings: { ...prev.settings, showPinyin: !prev.settings.showPinyin },
+                  settings: { ...prev.settings, showPinyin: checked },
                 }))
               }
-              data-testid="reader-toggle-pinyin"
-            >
-              ピンイン {settings.showPinyin ? 'ON' : 'OFF'}
-            </button>
-            <button
-              type="button"
-              className={`btn btn-sm ${settings.showTranslation ? 'btn-soft' : ''}`}
-              onClick={() =>
+              label="ピンイン"
+              testId="reader-toggle-pinyin"
+            />
+            <Switch
+              checked={settings.showTranslation}
+              onChange={(checked) =>
                 setReaderState((prev) => ({
                   ...prev,
-                  settings: { ...prev.settings, showTranslation: !prev.settings.showTranslation },
+                  settings: { ...prev.settings, showTranslation: checked },
                 }))
               }
-              data-testid="reader-toggle-translation"
-            >
-              日本語訳 {settings.showTranslation ? 'ON' : 'OFF'}
-            </button>
-            {(['light', 'sepia', 'dark'] as ReaderTheme[]).map((t) => (
-              <button
-                key={t}
-                type="button"
-                className={`btn btn-sm ${settings.theme === t ? 'btn-primary' : ''}`}
-                onClick={() =>
-                  setReaderState((prev) => ({
-                    ...prev,
-                    settings: { ...prev.settings, theme: t },
-                  }))
-                }
-                data-testid={`reader-theme-${t}`}
-              >
-                {t === 'light' ? 'ライト' : t === 'sepia' ? 'セピア' : 'ダーク'}
-              </button>
-            ))}
+              label="日本語訳"
+              testId="reader-toggle-translation"
+            />
+            <div className="row" style={{ gap: 2 }}>
+              {(['light', 'sepia', 'dark'] as ReaderTheme[]).map((t) => (
+                <button
+                  key={t}
+                  type="button"
+                  className={`btn btn-sm ${settings.theme === t ? 'btn-soft' : 'btn-ghost'}`}
+                  onClick={() =>
+                    setReaderState((prev) => ({
+                      ...prev,
+                      settings: { ...prev.settings, theme: t },
+                    }))
+                  }
+                  data-testid={`reader-theme-${t}`}
+                >
+                  {t === 'light' ? 'ライト' : t === 'sepia' ? 'セピア' : 'ダーク'}
+                </button>
+              ))}
+            </div>
           </div>
         </div>
 
@@ -1026,10 +1025,10 @@ export const LiteratureReaderPage: React.FC = () => {
                       })}
                     </div>
 
-                    <div className="row" style={{ gap: 4, flexShrink: 0, opacity: 0.78 }} onClick={(e) => e.stopPropagation()}>
+                    <div className="reader-sentence-actions" onClick={(e) => e.stopPropagation()}>
                       <button
                         type="button"
-                        className="btn btn-sm"
+                        className="btn btn-ghost btn-sm"
                         style={{ padding: '3px 6px' }}
                         title="この文を読み上げ"
                         onClick={() => {
@@ -1044,7 +1043,7 @@ export const LiteratureReaderPage: React.FC = () => {
                       </button>
                       <button
                         type="button"
-                        className="btn btn-sm"
+                        className="btn btn-ghost btn-sm"
                         style={{ padding: '3px 6px' }}
                         title="しおりに追加/解除"
                         data-testid={`bookmark-btn-${sentence.id}`}
@@ -1067,7 +1066,7 @@ export const LiteratureReaderPage: React.FC = () => {
                       </button>
                       <button
                         type="button"
-                        className="btn btn-sm"
+                        className="btn btn-ghost btn-sm"
                         style={{ padding: '3px 6px' }}
                         title="お気に入りの文として保存"
                         onClick={() => {
@@ -1089,7 +1088,7 @@ export const LiteratureReaderPage: React.FC = () => {
                       </button>
                       <button
                         type="button"
-                        className="btn btn-sm"
+                        className="btn btn-ghost btn-sm"
                         style={{ padding: '3px 6px' }}
                         title="文をコピー（選択範囲優先）"
                         onClick={() => void copyText(sentence.text)}

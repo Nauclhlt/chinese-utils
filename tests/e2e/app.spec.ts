@@ -10,6 +10,7 @@ test.describe('Chinese Learning App E2E', () => {
     // 1. Open under GitHub Pages subpath simulation
     await page.goto(BASE_URL);
     await expect(page.getByRole('heading', { name: '学習ダッシュボード' })).toBeVisible();
+    await page.screenshot({ path: 'test-results/screenshots/ui-dashboard.png' });
 
     // Configure scope to Lesson 14 via topbar modal
     await page.getByTestId('scope-trigger').click();
@@ -21,7 +22,8 @@ test.describe('Chinese Learning App E2E', () => {
     // 2. Lesson learning
     await page.getByRole('link', { name: '課別学習 (全22課)' }).click();
     await expect(page.getByRole('heading', { name: '課別学習（全22課）' })).toBeVisible();
-    await page.getByRole('link', { name: 'この課を学習する' }).first().click();
+    await page.screenshot({ path: 'test-results/screenshots/ui-lessons.png' });
+    await page.getByTestId('lesson-link-L01').click();
     await expect(page.getByRole('heading', { name: /第1課/ })).toBeVisible();
     await page.getByRole('button', { name: '学習完了にする' }).click();
     await expect(page.getByRole('button', { name: '学習済み' })).toBeVisible();
@@ -33,10 +35,12 @@ test.describe('Chinese Learning App E2E', () => {
     await expect(page.locator('a[href*="/grammar/G01-02"]').first()).toBeVisible();
     await page.locator('a[href*="/grammar/G01-02"]').first().click();
     await expect(page.getByText('語順の説明:')).toBeVisible();
+    await page.screenshot({ path: 'test-results/screenshots/ui-grammar-detail.png' });
 
     // 4. Vocabulary search & column toggle
     await page.getByRole('link', { name: '単語帳' }).click();
     await expect(page.getByRole('heading', { name: '単語帳・語彙データベース' })).toBeVisible();
+    await page.screenshot({ path: 'test-results/screenshots/ui-vocab.png' });
     await page.getByPlaceholder('簡体字・ピンイン・日本語訳を検索...').fill('你');
     await expect(page.locator('table.data-table tbody tr').first()).toBeVisible();
     await page.getByRole('button', { name: /ピンインを隠す/ }).click();
@@ -111,6 +115,7 @@ test.describe('Chinese Learning App E2E', () => {
     // 11. Settings export / import flow
     await page.getByRole('link', { name: '設定・データ管理' }).click();
     await expect(page.getByRole('heading', { name: '設定・データ管理' })).toBeVisible();
+    await page.screenshot({ path: 'test-results/screenshots/ui-settings.png' });
     await page.locator('#import-json-textarea').fill('{"version":1,"scope":{"mode":"upTo","upToLesson":8,"selectedLessons":[]}}');
     await page.getByTestId('import-json-trigger').click();
     await expect(page.getByTestId('import-confirm-box')).toBeVisible();
@@ -122,6 +127,7 @@ test.describe('Chinese Learning App E2E', () => {
     await page.setViewportSize({ width: 390, height: 844 });
     await page.goto(BASE_URL);
     await expect(page.getByRole('heading', { name: '学習ダッシュボード' })).toBeVisible();
+    await page.screenshot({ path: 'test-results/screenshots/ui-mobile-dashboard.png' });
     await page.getByRole('button', { name: 'メニューを開く' }).click();
     await page.getByRole('link', { name: '単語帳' }).click();
     await expect(page.getByRole('heading', { name: '単語帳・語彙データベース' })).toBeVisible();

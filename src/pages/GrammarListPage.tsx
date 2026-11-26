@@ -1,9 +1,10 @@
 import React, { useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Bookmark, Printer, Search } from 'lucide-react';
+import { Bookmark, ChevronRight, Printer, Search } from 'lucide-react';
 import { categories, categoryMap, grammarPoints, lessons } from '../data';
 import { useApp } from '../context/AppContext';
 import { SpeakButton } from '../components/ChineseText';
+import { Tabs } from '../components/ui';
 
 export const GrammarListPage: React.FC = () => {
   const { userState, toggleBookmarkGrammar } = useApp();
@@ -60,37 +61,31 @@ export const GrammarListPage: React.FC = () => {
 
   return (
     <div className="stack-lg">
-      <div className="row-between">
+      <header className="page-header">
         <div>
-          <h2 style={{ margin: 0 }}>文法辞典・例文検索</h2>
-          <p style={{ margin: '4px 0 0', color: 'var(--text-muted)', fontSize: '0.92rem' }}>
-            全 {grammarPoints.length} 項目の文法を分類別・課別・日本語/中国語/ピンインで横断検索できます。
-          </p>
+          <h2 className="page-title">文法辞典・例文検索</h2>
+          <p className="page-subtitle">全 {grammarPoints.length} 項目</p>
         </div>
         <div className="row-wrap">
-          <Link to="/comparisons" className="btn btn-sm btn-soft">
-            類似表現の比較
-          </Link>
-          <Link to="/grammar-map" className="btn btn-sm btn-soft">
-            学習マップ
-          </Link>
-          <Link to="/print/grammar" className="btn btn-sm">
-            <Printer size={14} /> 印刷用まとめ
+          <Link to="/comparisons" className="btn btn-sm">類似表現の比較</Link>
+          <Link to="/grammar-map" className="btn btn-sm">学習マップ</Link>
+          <Link to="/print/grammar" className="btn btn-ghost btn-sm">
+            <Printer size={14} /> 印刷用
           </Link>
         </div>
-      </div>
+      </header>
 
-      <div className="card stack-md">
+      <div className="stack-md">
         <div className="grid-3">
           <div style={{ position: 'relative' }}>
             <Search
-              size={16}
-              style={{ position: 'absolute', left: 10, top: 12, color: 'var(--text-light)' }}
+              size={15}
+              style={{ position: 'absolute', left: 10, top: 11, color: 'var(--text-tertiary)' }}
             />
             <input
               type="search"
               className="input"
-              style={{ paddingLeft: 34 }}
+              style={{ paddingLeft: 32 }}
               placeholder="文法名・中国語・ピンイン・日本語訳を検索..."
               value={query}
               onChange={(e) => setQuery(e.target.value)}
@@ -104,9 +99,7 @@ export const GrammarListPage: React.FC = () => {
           >
             <option value="all">すべての文法分類</option>
             {categories.map((c) => (
-              <option key={c.id} value={c.id}>
-                {c.name}
-              </option>
+              <option key={c.id} value={c.id}>{c.name}</option>
             ))}
           </select>
           <select
@@ -118,57 +111,40 @@ export const GrammarListPage: React.FC = () => {
             <option value="all">すべての課</option>
             <option value="P00">P00（基礎発音・補足）</option>
             {lessons.map((l) => (
-              <option key={l.id} value={l.id}>
-                {l.title}: {l.topic}
-              </option>
+              <option key={l.id} value={l.id}>{l.title}: {l.topic}</option>
             ))}
           </select>
         </div>
 
         <div className="row-between">
-          <div className="row-wrap">
-            <button
-              type="button"
-              className={`btn btn-sm ${viewMode === 'category' ? 'btn-primary' : ''}`}
-              onClick={() => setViewMode('category')}
-            >
-              分類別表示
-            </button>
-            <button
-              type="button"
-              className={`btn btn-sm ${viewMode === 'lesson' ? 'btn-primary' : ''}`}
-              onClick={() => setViewMode('lesson')}
-            >
-              課順表示
-            </button>
-            <button
-              type="button"
-              className={`btn btn-sm ${viewMode === 'examples' ? 'btn-primary' : ''}`}
-              onClick={() => setViewMode('examples')}
-            >
-              中国語例文検索 ({matchingExamples.length}件)
-            </button>
-          </div>
-          <span className="badge">{filteredGrammar.length} 項目ヒット</span>
+          <Tabs
+            activeId={viewMode}
+            onChange={(id) => setViewMode(id as typeof viewMode)}
+            ariaLabel="表示形式"
+            items={[
+              { id: 'category', label: '分類別' },
+              { id: 'lesson', label: '課順' },
+              { id: 'examples', label: `例文検索 (${matchingExamples.length})` },
+            ]}
+          />
+          <span className="badge num-tabular">{filteredGrammar.length} 項目</span>
         </div>
       </div>
 
       {viewMode === 'examples' ? (
-        <div className="stack-sm">
+        <div className="list-group">
           {matchingExamples.slice(0, 80).map((ex) => (
-            <div key={ex.id} className="card row-between">
-              <div className="stack-sm">
+            <div key={ex.id} className="list-row">
+              <div className="stack-xs" style={{ flex: 1 }}>
                 <div className="row-wrap">
                   <span className="badge">{ex.lessonId}</span>
-                  <Link to={`/grammar/${ex.grammarId}`} style={{ fontSize: '0.86rem', fontWeight: 600 }}>
+                  <Link to={`/grammar/${ex.grammarId}`} style={{ fontSize: '0.84rem', fontWeight: 600 }}>
                     {ex.grammarTitle}
                   </Link>
                 </div>
-                <div className="zh-md" lang="zh-Hans">
-                  {ex.hanzi}
-                </div>
+                <div className="zh-md" lang="zh-Hans">{ex.hanzi}</div>
                 <div className="pinyin-text">{ex.pinyin}</div>
-                <div style={{ color: 'var(--text-muted)', fontSize: '0.9rem' }}>{ex.ja}</div>
+                <div style={{ color: 'var(--text-secondary)', fontSize: '0.88rem' }}>{ex.ja}</div>
               </div>
               <SpeakButton text={ex.hanzi} />
             </div>
@@ -202,53 +178,54 @@ export const GrammarListPage: React.FC = () => {
           ).map((grp) => (
             <section key={grp.key} className="stack-sm">
               <div>
-                <h3 style={{ margin: 0 }}>{grp.heading}</h3>
+                <h3 className="section-heading">{grp.heading}</h3>
                 {grp.sub && (
-                  <p style={{ margin: '2px 0 0', fontSize: '0.84rem', color: 'var(--text-light)' }}>
+                  <p style={{ margin: '2px 0 0', fontSize: '0.82rem', color: 'var(--text-tertiary)' }}>
                     {grp.sub}
                   </p>
                 )}
               </div>
-              <div className="grid-2">
+              <div className="list-group">
                 {grp.items.map((g) => {
                   const bookmarked = userState.bookmarkedGrammar.includes(g.id);
                   return (
-                    <div key={g.id} className="card stack-sm">
-                      <div className="row-between">
-                        <div className="row-wrap">
-                          <span className="badge badge-accent">{g.lessonId}</span>
-                          <span className="badge">{categoryMap.get(g.categoryId)?.name}</span>
-                          {g.isSupplementary && <span className="badge badge-warning">発展/補足</span>}
-                        </div>
-                        <button
-                          type="button"
-                          className={`btn btn-sm ${bookmarked ? 'btn-soft' : ''}`}
-                          aria-label="ブックマーク"
-                          onClick={() => toggleBookmarkGrammar(g.id)}
-                        >
-                          <Bookmark size={14} />
-                        </button>
-                      </div>
+                    <div key={g.id} className="list-row">
                       <Link
                         to={`/grammar/${g.id}`}
-                        style={{ fontSize: '1.05rem', fontWeight: 700, color: 'var(--text)' }}
+                        style={{
+                          flex: 1,
+                          minWidth: 0,
+                          display: 'flex',
+                          alignItems: 'center',
+                          justifyContent: 'space-between',
+                          gap: 12,
+                          color: 'inherit',
+                          textDecoration: 'none',
+                        }}
                       >
-                        {g.title}
+                        <div style={{ minWidth: 0 }}>
+                          <div className="row-wrap" style={{ gap: 8 }}>
+                            <span className="badge badge-accent">{g.lessonId}</span>
+                            <strong style={{ fontSize: '0.96rem' }}>{g.title}</strong>
+                            <span className="zh-md" lang="zh-Hans" style={{ color: 'var(--accent)', fontSize: '0.94rem' }}>
+                              {g.pattern}
+                            </span>
+                            {g.isSupplementary && <span className="badge badge-warning">補足</span>}
+                          </div>
+                          <div style={{ fontSize: '0.84rem', color: 'var(--text-secondary)', marginTop: 2 }}>
+                            {g.meaning} ・ 例文 {g.examples.length}件 ({categoryMap.get(g.categoryId)?.name})
+                          </div>
+                        </div>
+                        <ChevronRight size={16} color="var(--text-tertiary)" style={{ flexShrink: 0 }} />
                       </Link>
-                      <div className="zh-md" lang="zh-Hans" style={{ color: 'var(--accent)' }}>
-                        {g.pattern}
-                      </div>
-                      <p style={{ margin: 0, fontSize: '0.88rem', color: 'var(--text-muted)' }}>
-                        {g.meaning}
-                      </p>
-                      <div className="row-between" style={{ marginTop: 4 }}>
-                        <span style={{ fontSize: '0.8rem', color: 'var(--text-light)' }}>
-                          独自例文 {g.examples.length}件
-                        </span>
-                        <Link to={`/grammar/${g.id}`} className="btn btn-sm btn-soft">
-                          詳細・例文・練習へ →
-                        </Link>
-                      </div>
+                      <button
+                        type="button"
+                        className={`btn btn-sm ${bookmarked ? 'btn-soft' : 'btn-ghost'}`}
+                        aria-label="ブックマーク"
+                        onClick={() => toggleBookmarkGrammar(g.id)}
+                      >
+                        <Bookmark size={14} fill={bookmarked ? 'currentColor' : 'none'} />
+                      </button>
                     </div>
                   );
                 })}

@@ -1,6 +1,6 @@
 import React, { useMemo } from 'react';
 import { Link } from 'react-router-dom';
-import { BookHeart, Bug, Music, Puzzle, Trophy } from 'lucide-react';
+import { BookHeart, Bug, Music, Puzzle } from 'lucide-react';
 import { loadGamesState } from '../games/core/gameStorage';
 import {
   grammarCorrectionQuestions,
@@ -18,19 +18,12 @@ export const GamesHubPage: React.FC = () => {
 
   return (
     <div className="stack-lg">
-      <div className="card stack-sm">
-        <div className="row-between">
-          <div>
-            <h2 style={{ margin: 0 }}>中国語ゲームセンター</h2>
-            <p style={{ margin: '4px 0 0', color: 'var(--text-muted)', fontSize: '0.92rem' }}>
-              独立したゲームとしての楽しさと操作感を追求した4種類の中国語ゲームです。プレイ結果は学習履歴・SRS復習と連携します。
-            </p>
-          </div>
-          <span className="badge badge-accent">
-            <Trophy size={14} /> 完全静的・オフライン対応
-          </span>
+      <header className="page-header">
+        <div>
+          <h2 className="page-title">中国語ゲームセンター</h2>
+          <p className="page-subtitle">独立したゲーム体験とSRS・学習履歴の連携（全4タイトル・オフライン対応）</p>
         </div>
-      </div>
+      </header>
 
       <div className="grid-2">
         {/* 1. Visual Novel */}

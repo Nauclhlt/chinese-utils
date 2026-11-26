@@ -1,0 +1,135 @@
+:root {
+  /* Surfaces */
+  --bg-canvas: #f7f7f5;
+  --bg-sidebar: #f2f2ef;
+  --bg-surface: #ffffff;
+  --bg-subtle: #f3f3ef;
+  --bg-hover: #eaeae4;
+  --bg-active: #e2e8f6;
+
+  /* Backward-compatible aliases */
+  --bg: var(--bg-canvas);
+  --surface: var(--bg-surface);
+  --surface-subtle: var(--bg-subtle);
+  --surface-hover: var(--bg-hover);
+
+  /* Typography */
+  --text-primary: #18181b;
+  --text-secondary: #52525b;
+  --text-tertiary: #71717a;
+  --text: var(--text-primary);
+  --text-muted: var(--text-secondary);
+  --text-light: var(--text-tertiary);
+
+  /* Accent (reserved for primary actions, active nav/tabs, focus) */
+  --accent: #2563eb;
+  --accent-hover: #1d4ed8;
+  --accent-soft: #eef3fe;
+  --accent-border: #bfdbfe;
+
+  /* Semantic colors */
+  --success: #047857;
+  --success-soft: #ecfdf5;
+  --warning: #b45309;
+  --warning-soft: #fffbeb;
+  --danger: #b91c1c;
+  --danger-soft: #fef2f2;
+
+  /* Chinese Tone Indicators */
+  --tone1: #2563eb;
+  --tone2: #047857;
+  --tone3: #7c3aed;
+  --tone4: #dc2626;
+  --tone5: #71717a;
+
+  /* Hairlines & Control Borders */
+  --border-subtle: rgba(24, 24, 27, 0.08);
+  --border-control: rgba(24, 24, 27, 0.16);
+  --border: var(--border-subtle);
+  --border-strong: var(--border-control);
+
+  /* Radii */
+  --radius-xs: 4px;
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-full: 9999px;
+  --radius: var(--radius-md);
+
+  /* Shadows (strictly for elevated overlays: popovers, drawers, modals) */
+  --shadow-none: none;
+  --shadow-xs: 0 1px 2px rgba(15, 23, 42, 0.04);
+  --shadow-popover: 0 8px 24px rgba(15, 23, 42, 0.12), 0 1px 3px rgba(15, 23, 42, 0.06);
+  --shadow-modal: 0 16px 40px rgba(15, 23, 42, 0.16), 0 2px 6px rgba(15, 23, 42, 0.08);
+  --shadow-panel: -8px 0 32px rgba(15, 23, 42, 0.12);
+  --shadow-sm: var(--shadow-none);
+  --shadow-md: var(--shadow-modal);
+
+  /* Spacing scale */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+
+  /* Typography scale & stacks */
+  --text-xs: 0.75rem;
+  --text-sm: 0.85rem;
+  --text-base: 0.94rem;
+  --text-md: 1.05rem;
+  --text-lg: 1.25rem;
+  --text-xl: 1.55rem;
+  --font-ja: 'Hiragino Kaku Gothic ProN', 'Yu Gothic UI', 'Meiryo', system-ui, -apple-system, sans-serif;
+  --font-zh-hans: 'PingFang SC', 'Microsoft YaHei UI', 'Microsoft YaHei', 'Noto Sans SC', sans-serif;
+  --font-zh-hant: 'PingFang TC', 'Microsoft JhengHei', 'Noto Sans TC', 'Heiti TC', serif;
+  --font-zh-serif: 'Noto Serif SC', 'Songti SC', 'SimSun', 'Yu Mincho', Georgia, serif;
+  --font-zh: var(--font-zh-hans);
+
+  /* Transitions & Z-layers */
+  --ease-fast: 120ms cubic-bezier(0.2, 0, 0, 1);
+  --z-topbar: 20;
+  --z-sidebar: 30;
+  --z-modal: 60;
+  --z-focus: 90;
+  --z-popover: 120;
+  --z-drawer: 130;
+}
+
+[data-theme='dark'] {
+  --bg-canvas: #0d1117;
+  --bg-sidebar: #111620;
+  --bg-surface: #161d2b;
+  --bg-subtle: #1d2638;
+  --bg-hover: #243046;
+  --bg-active: rgba(59, 130, 246, 0.18);
+
+  --text-primary: #f1f5f9;
+  --text-secondary: #cbd5e1;
+  --text-tertiary: #94a3b8;
+
+  --accent: #60a5fa;
+  --accent-hover: #93c5fd;
+  --accent-soft: rgba(59, 130, 246, 0.14);
+  --accent-border: rgba(96, 165, 250, 0.34);
+
+  --success: #34d399;
+  --success-soft: rgba(16, 185, 129, 0.14);
+  --warning: #fbbf24;
+  --warning-soft: rgba(245, 158, 11, 0.14);
+  --danger: #f87171;
+  --danger-soft: rgba(239, 68, 68, 0.14);
+
+  --tone1: #60a5fa;
+  --tone2: #34d399;
+  --tone3: #a78bfa;
+  --tone4: #f87171;
+  --tone5: #94a3b8;
+
+  --border-subtle: rgba(255, 255, 255, 0.08);
+  --border-control: rgba(255, 255, 255, 0.16);
+  --shadow-xs: none;
+  --shadow-popover: 0 12px 28px rgba(0, 0, 0, 0.45);
+  --shadow-modal: 0 18px 44px rgba(0, 0, 0, 0.55);
+  --shadow-panel: -8px 0 32px rgba(0, 0, 0, 0.5);
+}

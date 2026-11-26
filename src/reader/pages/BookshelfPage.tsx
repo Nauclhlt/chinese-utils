@@ -238,44 +238,43 @@ export const BookshelfPage: React.FC = () => {
 
   return (
     <div className="stack-lg" data-testid="bookshelf-page">
-      <div className="card row-between" style={{ flexWrap: 'wrap', gap: 12 }}>
+      <header className="page-header row-between" style={{ flexWrap: 'wrap', gap: 12 }}>
         <div>
-          <h2 style={{ margin: 0 }}>注釈付き中国語文学リーダー・本棚</h2>
-          <p style={{ margin: '4px 0 0', color: 'var(--text-muted)', fontSize: '0.92rem' }}>
-            現代中国語の文学作品を読みながら、語彙・文法・表現・文化的背景を直感的に参照できます（完全静的・ローカル保存対応）。
+          <h1 className="page-title">注釈付き中国語文学リーダー・本棚</h1>
+          <p className="page-subtitle">
+            現代中国語の文学作品を読みながら、語彙・文法・表現・文化的背景を直感的に参照できます。
           </p>
         </div>
         <div className="row-wrap" style={{ gap: 8 }}>
-          <span className="badge badge-accent">収録・登録作品 {allEntries.length}作</span>
+          <span className="pill-meta">収録・登録作品 {allEntries.length}作</span>
           {localEntries.length > 0 && (
             <button type="button" className="btn btn-sm btn-soft" onClick={() => void handleBackupAll()}>
               <Download size={14} /> ローカル作品をバックアップ
             </button>
           )}
         </div>
-      </div>
+      </header>
 
       {toast && (
-        <div className="card-subtle" style={{ borderLeft: '4px solid var(--success)' }} data-testid="bookshelf-toast">
+        <div className="banner banner-success" data-testid="bookshelf-toast">
           {toast}
         </div>
       )}
 
       {/* Search / Filter / Sort */}
-      <div className="card stack-sm">
-        <div className="row-wrap" style={{ gap: 10 }}>
-          <div style={{ flex: '1 1 240px', position: 'relative' }}>
-            <Search size={15} style={{ position: 'absolute', left: 10, top: 11, color: 'var(--text-muted)' }} />
-            <input
-              type="search"
-              className="input"
-              style={{ paddingLeft: 32, width: '100%' }}
-              placeholder="タイトル・著者・あらすじで検索..."
-              value={search}
-              onChange={(e) => setSearch(e.target.value)}
-              data-testid="bookshelf-search"
-            />
-          </div>
+      <div className="row-wrap" style={{ gap: 10 }}>
+        <div style={{ flex: '1 1 240px', position: 'relative' }}>
+          <Search size={15} style={{ position: 'absolute', left: 10, top: 11, color: 'var(--text-muted)' }} />
+          <input
+            type="search"
+            className="input"
+            style={{ paddingLeft: 32, width: '100%' }}
+            placeholder="タイトル・著者・あらすじで検索..."
+            value={search}
+            onChange={(e) => setSearch(e.target.value)}
+            data-testid="bookshelf-search"
+          />
+        </div>
           <select
             className="select"
             value={genreFilter}
@@ -310,7 +309,6 @@ export const BookshelfPage: React.FC = () => {
             <option value="chars">文字数順</option>
             <option value="progress">進捗順</option>
           </select>
-        </div>
       </div>
 
       {/* Bookshelf Grid */}

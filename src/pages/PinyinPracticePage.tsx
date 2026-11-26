@@ -208,21 +208,22 @@ export const PinyinPracticePage: React.FC = () => {
   const activeVocab = mode === 'audio-tone' ? singleToneVocab : currentVocab;
 
   return (
-    <div className="stack-lg">
-      <div>
-        <h2 style={{ margin: 0 }}>ピンイン・声調練習</h2>
-        <p style={{ margin: '4px 0 0', color: 'var(--text-muted)', fontSize: '0.92rem' }}>
-          声調記号（nǐ hǎo）と数字表記（ni3 hao3 / lv4 / lu:4 / 軽声5）のどちらでも入力・判定できます。
-        </p>
-      </div>
+    <div className="stack-lg" style={{ maxWidth: 860 }}>
+      <header className="page-header">
+        <div>
+          <h2 className="page-title">ピンイン・声調練習</h2>
+          <p className="page-subtitle">声調記号（nǐ hǎo）・数字（ni3 hao3 / lv4 / lu:4 / 軽声5）対応</p>
+        </div>
+      </header>
 
-      <div className="card stack-md">
-        <div className="row-wrap">
+      <div className="tabs-bar" role="tablist" aria-label="練習モード">
           {MODES.map((m) => (
             <button
               key={m.id}
               type="button"
-              className={`btn btn-sm ${mode === m.id ? 'btn-primary' : ''}`}
+              role="tab"
+              aria-selected={mode === m.id}
+              className={`tab-btn ${mode === m.id ? 'active' : ''}`}
               disabled={m.id === 'audio-tone' && !speechSupport.supported}
               onClick={() => {
                 setMode(m.id);
@@ -235,7 +236,7 @@ export const PinyinPracticePage: React.FC = () => {
         </div>
 
         {mode !== 'sandhi-guide' && (
-          <div className="stack-sm" style={{ borderTop: '1px solid var(--border)', paddingTop: 12 }}>
+          <div className="stack-sm" style={{ paddingTop: 12 }}>
             <div className="grid-2">
               <div className="row-wrap">
                 <label htmlFor="pinyin-scope-mode" style={{ fontSize: '0.86rem', fontWeight: 600 }}>
@@ -356,7 +357,6 @@ export const PinyinPracticePage: React.FC = () => {
             )}
           </div>
         )}
-      </div>
 
       {mode === 'sandhi-guide' ? (
         <div className="stack-md">

@@ -141,18 +141,16 @@ export const FlashcardsPage: React.FC = () => {
   };
 
   return (
-    <div className="stack-lg">
-      <div className="row-between">
+    <div className="stack-lg" style={{ maxWidth: 820 }}>
+      <header className="page-header">
         <div>
-          <h2 style={{ margin: 0 }}>フラッシュカード（間隔反復SRS）</h2>
-          <p style={{ margin: '4px 0 0', color: 'var(--text-muted)', fontSize: '0.92rem' }}>
-            習熟度と復習間隔に応じて苦手な単語・忘却時期の単語を優先出題します（Spaceで反転 / 1〜4で評価）。
-          </p>
+          <h2 className="page-title">フラッシュカード（SRS）</h2>
+          <p className="page-subtitle">Spaceで反転 / 1〜4キーで評価</p>
         </div>
-        <span className="badge badge-accent">今回復習: {reviewedCount} 語 / デッキ {deck.length} 語</span>
-      </div>
+        <span className="badge badge-accent num-tabular">今回 {reviewedCount} 語 / デッキ {deck.length} 語</span>
+      </header>
 
-      <div className="card stack-sm">
+      <div className="stack-sm">
         <div className="row-between">
           <div className="row-wrap">
             {DIRECTIONS.map((d) => (

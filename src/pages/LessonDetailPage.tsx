@@ -13,6 +13,7 @@ import { ChineseSentenceBlock, ColoredPinyin, SpeakButton } from '../components/
 import { ExerciseCard } from '../components/ExerciseCard';
 import { OrderControls } from '../components/OrderControls';
 import { createShuffleSeed, shuffleWithSeed } from '../utils/shuffle';
+import { Tabs } from '../components/ui';
 
 export const LessonDetailPage: React.FC = () => {
   const { lessonId = 'L01' } = useParams();
@@ -62,118 +63,92 @@ export const LessonDetailPage: React.FC = () => {
 
   return (
     <div className="stack-lg">
-      <div className="card stack-md">
-        <div className="row-between">
-          <Link to="/lessons" className="btn btn-sm">
-            <ArrowLeft size={14} /> 課一覧
-          </Link>
-          <div className="row-wrap">
-            <a
-              href={lesson.referenceUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn btn-sm"
-            >
-              原典（京都大学CALL教材） <ExternalLink size={13} />
-            </a>
-            <button
-              type="button"
-              className={`btn btn-sm ${isDone ? 'btn-primary' : ''}`}
-              onClick={() => toggleLessonCompleted(lesson.id)}
-            >
-              <CheckCircle2 size={14} /> {isDone ? '学習済み' : '学習完了にする'}
-            </button>
-          </div>
-        </div>
-
-        <div>
-          <div className="row-wrap">
-            <span className="badge badge-accent">{lesson.id}</span>
-            <h2 style={{ margin: 0 }}>{lesson.title}: {lesson.topic}</h2>
-          </div>
-          {lesson.pronunciationFocus && (
-            <p style={{ margin: '6px 0 0', fontSize: '0.88rem', color: 'var(--text-muted)' }}>
-              <strong>発音・声調のポイント:</strong> {lesson.pronunciationFocus}
-            </p>
-          )}
-        </div>
-
-        <div className="card-subtle stack-sm">
-          <strong>学習目標</strong>
-          <ul style={{ margin: 0, paddingLeft: 20 }}>
-            {lesson.objectives.map((obj, idx) => (
-              <li key={idx}>{obj}</li>
-            ))}
-          </ul>
-        </div>
-
+      <div className="row-between">
+        <Link to="/lessons" className="btn btn-ghost btn-sm">
+          <ArrowLeft size={14} /> 課一覧
+        </Link>
         <div className="row-wrap">
-          <button
-            type="button"
-            className={`btn btn-sm ${activeTab === 'overview' ? 'btn-primary' : ''}`}
-            onClick={() => setActiveTab('overview')}
-          >
-            文法・独自例文 ({lessonGrammar.length})
-          </button>
-          <button
-            type="button"
-            className={`btn btn-sm ${activeTab === 'vocab' ? 'btn-primary' : ''}`}
-            onClick={() => setActiveTab('vocab')}
-          >
-            関連語彙 ({lessonVocab.length})
-          </button>
-          <button
-            type="button"
-            className={`btn btn-sm ${activeTab === 'practice' ? 'btn-primary' : ''}`}
-            onClick={() => setActiveTab('practice')}
-          >
-            課内練習問題 ({lessonExercises.length})
-          </button>
-          <button
-            type="button"
-            className={`btn btn-sm ${activeTab === 'quiz' ? 'btn-primary' : ''}`}
-            onClick={() => setActiveTab('quiz')}
-          >
-            確認テスト ({comprehensiveQuiz.length})
-          </button>
           <Link to={`/practice/composition?lesson=${lesson.id}`} className="btn btn-sm btn-soft">
-            この課の中国語作文 ({lessonCompositions.length})
+            この課の作文 ({lessonCompositions.length})
           </Link>
+          <a
+            href={lesson.referenceUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn btn-ghost btn-sm"
+          >
+            原典CALL教材 <ExternalLink size={13} />
+          </a>
+          <button
+            type="button"
+            className={`btn btn-sm ${isDone ? 'btn-primary' : ''}`}
+            onClick={() => toggleLessonCompleted(lesson.id)}
+          >
+            <CheckCircle2 size={14} /> {isDone ? '学習済み' : '学習完了にする'}
+          </button>
         </div>
       </div>
 
+      <header className="stack-sm">
+        <div className="row-wrap" style={{ gap: 10 }}>
+          <span className="badge badge-accent">{lesson.id}</span>
+          <h2 className="page-title">{lesson.title}: {lesson.topic}</h2>
+        </div>
+        {lesson.pronunciationFocus && (
+          <p className="page-subtitle">
+            <strong>発音・声調:</strong> {lesson.pronunciationFocus}
+          </p>
+        )}
+        <ul style={{ margin: '4px 0 0', paddingLeft: 20, fontSize: '0.9rem', color: 'var(--text-secondary)' }}>
+          {lesson.objectives.map((obj, idx) => (
+            <li key={idx}>{obj}</li>
+          ))}
+        </ul>
+      </header>
+
+      <Tabs
+        activeId={activeTab}
+        onChange={(id) => setActiveTab(id as typeof activeTab)}
+        ariaLabel="課別学習セクション"
+        items={[
+          { id: 'overview', label: `文法・例文 (${lessonGrammar.length})` },
+          { id: 'vocab', label: `関連語彙 (${lessonVocab.length})` },
+          { id: 'practice', label: `課内練習 (${lessonExercises.length})` },
+          { id: 'quiz', label: `確認テスト (${comprehensiveQuiz.length})` },
+        ]}
+      />
+
       {activeTab === 'overview' && (
-        <div className="stack-md">
-          {lessonGrammar.map((g) => (
-            <div key={g.id} className="card stack-md">
+        <div className="stack-lg">
+          {lessonGrammar.map((g, gi) => (
+            <article key={g.id} className={gi === 0 ? 'stack-sm' : 'doc-section stack-sm'}>
               <div className="row-between">
-                <div>
-                  <span className="badge badge-accent" style={{ marginRight: 8 }}>
-                    {g.id}
-                  </span>
-                  <strong style={{ fontSize: '1.1rem' }}>{g.title}</strong>
-                </div>
                 <div className="row-wrap">
-                  <Link to={`/grammar/${g.id}`} className="btn btn-sm btn-primary">
-                    詳細解説ページへ
-                  </Link>
+                  <span className="badge badge-accent">{g.id}</span>
+                  <h3 className="section-heading" style={{ fontSize: '1.1rem' }}>{g.title}</h3>
                 </div>
+                <Link to={`/grammar/${g.id}`} className="btn btn-ghost btn-sm">
+                  詳細解説 →
+                </Link>
               </div>
-              <p style={{ margin: 0 }}>{g.meaning}</p>
+              <p style={{ margin: 0, color: 'var(--text-secondary)' }}>{g.meaning}</p>
               <div className="card-subtle">
-                <strong>基本構文:</strong>{' '}
-                <span lang="zh-Hans" className="zh-md">
+                <span style={{ fontSize: '0.78rem', color: 'var(--text-tertiary)', marginRight: 8 }}>構文</span>
+                <span lang="zh-Hans" className="zh-md" style={{ fontWeight: 600 }}>
                   {g.pattern}
                 </span>
               </div>
-              <div className="grid-2">
+              <div className="grid-2" style={{ gap: 12 }}>
                 {g.examples.slice(0, 2).map((ex) => (
-                  <div key={ex.id} className="card-subtle">
+                  <div
+                    key={ex.id}
+                    style={{ padding: '6px 12px', borderLeft: '2px solid var(--border-subtle)' }}
+                  >
                     <ChineseSentenceBlock hanzi={ex.hanzi} pinyin={ex.pinyin} ja={ex.ja} />
                   </div>
                 ))}
               </div>
-            </div>
+            </article>
           ))}
         </div>
       )}

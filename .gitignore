@@ -3,5 +3,6 @@ dist/
 .cache/
 playwright-report/
 test-results/
+private/
 *.local
 *.tsbuildinfo

@@ -113,13 +113,13 @@ export const ExamPage: React.FC = () => {
   }, [phase, examQuestions, answers]);
 
   return (
-    <div className="stack-lg">
-      <div>
-        <h2 style={{ margin: 0 }}>総合テスト・試験対策モード</h2>
-        <p style={{ margin: '4px 0 0', color: 'var(--text-muted)', fontSize: '0.92rem' }}>
-          学習範囲内の複数形式からテストを生成し、問題形式別・文法事項別の弱点分析と復習を行います。
-        </p>
-      </div>
+    <div className="stack-lg" style={{ maxWidth: 860 }}>
+      <header className="page-header">
+        <div>
+          <h2 className="page-title">総合テスト・試験対策モード</h2>
+          <p className="page-subtitle">問題形式別・文法別テストの生成と弱点分析</p>
+        </div>
+      </header>
 
       {phase === 'setup' && (
         <div className="card stack-md" data-testid="exam-setup">

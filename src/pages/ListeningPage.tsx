@@ -93,17 +93,15 @@ export const ListeningPage: React.FC = () => {
   };
 
   return (
-    <div className="stack-lg">
-      <div className="row-between">
+    <div className="stack-lg" style={{ maxWidth: 820 }}>
+      <header className="page-header">
         <div>
-          <h2 style={{ margin: 0 }}>音声・リスニング練習</h2>
-          <p style={{ margin: '4px 0 0', color: 'var(--text-muted)', fontSize: '0.92rem' }}>
-            Web Speech API を用いてサーバーレスで中国語例文を読み上げ、ディクテーションと意味選択を練習できます。
-          </p>
+          <h2 className="page-title">音声・リスニング練習</h2>
+          <p className="page-subtitle">中国語例文のディクテーションと意味選択</p>
         </div>
         <div className="row-wrap">
-          <label htmlFor="speech-rate" style={{ fontSize: '0.86rem' }}>
-            再生速度: {userState.settings.speechRate.toFixed(1)}x
+          <label htmlFor="speech-rate" style={{ fontSize: '0.84rem', color: 'var(--text-secondary)' }}>
+            速度 {userState.settings.speechRate.toFixed(1)}x
           </label>
           <input
             id="speech-rate"
@@ -115,7 +113,7 @@ export const ListeningPage: React.FC = () => {
             onChange={(e) => updateSettings({ speechRate: Number(e.target.value) })}
           />
         </div>
-      </div>
+      </header>
 
       {!speechSupport.supported ? (
         <div className="banner banner-danger stack-sm" data-testid="speech-unavailable-banner">

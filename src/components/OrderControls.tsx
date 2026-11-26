@@ -1,5 +1,6 @@
 import React from 'react';
-import { RefreshCw, Shuffle } from 'lucide-react';
+import { RefreshCw } from 'lucide-react';
+import { Switch } from './ui';
 
 interface OrderControlsProps {
   randomOrder: boolean;
@@ -13,29 +14,27 @@ export const OrderControls: React.FC<OrderControlsProps> = ({
   randomOrder,
   onToggleRandom,
   onReshuffle,
-  sequentialLabel = '順番通り',
-  randomLabel = 'ランダム',
+  randomLabel = 'ランダム出題',
 }) => {
   return (
     <div className="row-wrap">
-      <button
-        type="button"
-        className={`btn btn-sm ${randomOrder ? 'btn-primary' : ''}`}
-        onClick={onToggleRandom}
-        data-testid="random-order-toggle"
-      >
-        <Shuffle size={14} />
-        <span>出題順: {randomOrder ? randomLabel : sequentialLabel}</span>
-      </button>
+      <Switch
+        checked={randomOrder}
+        onChange={() => onToggleRandom()}
+        label={randomLabel}
+        testId="random-order-toggle"
+        ariaLabel="出題順のランダム切り替え"
+      />
       {randomOrder && (
         <button
           type="button"
-          className="btn btn-sm btn-soft"
+          className="btn btn-ghost btn-sm"
           onClick={onReshuffle}
           data-testid="reshuffle-btn"
+          title="並び順をシャッフルし直す"
         >
-          <RefreshCw size={14} />
-          <span>シャッフルし直す</span>
+          <RefreshCw size={13} />
+          <span>再シャッフル</span>
         </button>
       )}
     </div>

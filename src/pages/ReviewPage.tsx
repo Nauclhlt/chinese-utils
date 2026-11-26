@@ -7,6 +7,7 @@ import { isDueForReview, sortByReviewPriority } from '../utils/srs';
 import { createShuffleSeed, shuffleWithSeed } from '../utils/shuffle';
 import { ExerciseCard } from '../components/ExerciseCard';
 import { OrderControls } from '../components/OrderControls';
+import { Tabs } from '../components/ui';
 import {
   loadReaderState,
   removeReaderGrammarFromReview,
@@ -57,61 +58,33 @@ export const ReviewPage: React.FC = () => {
 
   return (
     <div className="stack-lg">
-      <div>
-        <h2 style={{ margin: 0 }}>復習・苦手問題集・学習履歴</h2>
-        <p style={{ margin: '4px 0 0', color: 'var(--text-muted)', fontSize: '0.92rem' }}>
-          過去に間違えた問題、間隔反復の復習予定、ブックマーク・学習メモ、回答・作文履歴をまとめて確認できます。
-        </p>
-      </div>
+      <header className="page-header">
+        <div>
+          <h2 className="page-title">復習・苦手問題集・学習履歴</h2>
+          <p className="page-subtitle">誤答問題、SRS復習キュー、ノベル・文学リーダー登録項目を一元管理</p>
+        </div>
+      </header>
 
-      <div className="row-wrap">
-        <button
-          type="button"
-          className={`btn btn-sm ${tab === 'weak' ? 'btn-primary' : ''}`}
-          onClick={() => setTab('weak')}
-        >
-          苦手問題集 ({weakExercises.length})
-        </button>
-        <button
-          type="button"
-          className={`btn btn-sm ${tab === 'srs' ? 'btn-primary' : ''}`}
-          onClick={() => setTab('srs')}
-        >
-          復習スケジュール ({dueVocab.length}語期限到来)
-        </button>
-        <button
-          type="button"
-          className={`btn btn-sm ${tab === 'novel' ? 'btn-primary' : ''}`}
-          onClick={() => setTab('novel')}
-        >
-          ノベル登録語彙 ({userState.novelVocabReview.length})
-        </button>
-        <button
-          type="button"
-          className={`btn btn-sm ${tab === 'reader' ? 'btn-primary' : ''}`}
-          onClick={() => {
-            setReaderState(loadReaderState());
-            setTab('reader');
-          }}
-          data-testid="review-tab-reader"
-        >
-          文学リーダー復習 ({readerState.vocabReview.length + readerState.grammarReview.length})
-        </button>
-        <button
-          type="button"
-          className={`btn btn-sm ${tab === 'bookmarks' ? 'btn-primary' : ''}`}
-          onClick={() => setTab('bookmarks')}
-        >
-          ブックマーク・メモ ({userState.bookmarkedGrammar.length})
-        </button>
-        <button
-          type="button"
-          className={`btn btn-sm ${tab === 'history' ? 'btn-primary' : ''}`}
-          onClick={() => setTab('history')}
-        >
-          回答・作文履歴
-        </button>
-      </div>
+      <Tabs
+        activeId={tab}
+        onChange={(next) => {
+          if (next === 'reader') setReaderState(loadReaderState());
+          setTab(next as typeof tab);
+        }}
+        ariaLabel="復習カテゴリ"
+        items={[
+          { id: 'weak', label: `苦手問題 (${weakExercises.length})` },
+          { id: 'srs', label: `SRS復習 (${dueVocab.length})` },
+          { id: 'novel', label: `ノベル語彙 (${userState.novelVocabReview.length})`, testId: 'review-tab-novel' },
+          {
+            id: 'reader',
+            label: `文学リーダー復習 (${readerState.vocabReview.length + readerState.grammarReview.length})`,
+            testId: 'review-tab-reader',
+          },
+          { id: 'bookmarks', label: `ブックマーク・メモ (${userState.bookmarkedGrammar.length})` },
+          { id: 'history', label: '回答・作文履歴' },
+        ]}
+      />
 
       {tab === 'weak' && (
         <div className="stack-md">

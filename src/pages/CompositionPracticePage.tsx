@@ -150,13 +150,11 @@ export const CompositionPracticePage: React.FC = () => {
   };
 
   return (
-    <div className="stack-lg">
-      <div className="row-between">
+    <div className="stack-lg" style={{ maxWidth: 880 }}>
+      <header className="page-header">
         <div>
-          <h2 style={{ margin: 0 }}>中国語作文練習</h2>
-          <p style={{ margin: '4px 0 0', color: 'var(--text-muted)', fontSize: '0.92rem' }}>
-            日本語から中国語への翻訳・指定文法作文を練習し、模範解答・許容解答との差分比較と自己採点が行えます。
-          </p>
+          <h2 className="page-title">中国語作文練習</h2>
+          <p className="page-subtitle">翻訳・指定文法作文、差分比較、自己採点</p>
         </div>
         <button
           type="button"
@@ -166,7 +164,7 @@ export const CompositionPracticePage: React.FC = () => {
           {examModeHideHint ? <EyeOff size={14} /> : <Eye size={14} />}
           {examModeHideHint ? '試験対策モード（指定文法非表示）' : '通常モード（使用文法表示）'}
         </button>
-      </div>
+      </header>
 
       {/* Filters */}
       <div className="card stack-md">

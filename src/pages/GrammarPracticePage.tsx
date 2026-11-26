@@ -92,39 +92,37 @@ export const GrammarPracticePage: React.FC = () => {
   };
 
   return (
-    <div className="stack-lg">
-      <div className="row-between">
+    <div className="stack-lg" style={{ maxWidth: 860 }}>
+      <header className="page-header">
         <div>
-          <h2 style={{ margin: 0 }}>文法練習問題</h2>
-          <p style={{ margin: '4px 0 0', color: 'var(--text-muted)', fontSize: '0.92rem' }}>
-            穴埋め・選択・語順整序・誤文訂正・正誤判定・類似表現の使い分け・応用問題に連続して取り組めます。
-          </p>
+          <h2 className="page-title">文法練習問題</h2>
+          <p className="page-subtitle">選択・穴埋め・語順整序・誤文訂正・使い分け</p>
         </div>
         <div className="row-wrap">
           <Link to="/practice/composition" className="btn btn-sm btn-soft">
-            指定文法での作文練習へ →
+            中国語作文へ
           </Link>
-          <button type="button" className="btn btn-sm btn-primary" onClick={() => setShowCustomForm((s) => !s)}>
-            <Plus size={14} /> 独自問題を登録
+          <button type="button" className="btn btn-sm" onClick={() => setShowCustomForm((s) => !s)}>
+            <Plus size={14} /> 独自問題登録
           </button>
         </div>
-      </div>
+      </header>
 
       {showCustomForm && (
         <form onSubmit={handleAddCustom} className="card stack-md">
-          <h3 style={{ margin: 0 }}>ユーザー独自問題の追加</h3>
+          <h3 className="section-heading">ユーザー独自問題の追加</h3>
           <input className="input" placeholder="問題文" value={cPrompt} onChange={(e) => setCPrompt(e.target.value)} required />
           <input className="input" placeholder="選択肢（カンマ区切り、記述式なら空欄）" value={cChoices} onChange={(e) => setCChoices(e.target.value)} />
           <input className="input" placeholder="正解" value={cAnswer} onChange={(e) => setCAnswer(e.target.value)} required />
           <input className="input" placeholder="解説" value={cExp} onChange={(e) => setCExp(e.target.value)} />
           <div className="row-wrap">
             <button type="submit" className="btn btn-primary btn-sm">追加</button>
-            <button type="button" className="btn btn-sm" onClick={() => setShowCustomForm(false)}>キャンセル</button>
+            <button type="button" className="btn btn-ghost btn-sm" onClick={() => setShowCustomForm(false)}>キャンセル</button>
           </div>
         </form>
       )}
 
-      <div className="card stack-md">
+      <div className="stack-sm">
         <div className="grid-4">
           <select className="select" aria-label="課・範囲" value={lessonFilter} onChange={(e) => { setLessonFilter(e.target.value); setIdx(0); }}>
             <option value="scope">現在の学習範囲内</option>

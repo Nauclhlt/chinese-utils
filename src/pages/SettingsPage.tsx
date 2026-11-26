@@ -3,6 +3,7 @@ import { Download, RotateCcw, Upload } from 'lucide-react';
 import { useApp } from '../context/AppContext';
 import { formatScopeSummary } from '../utils/scope';
 import { ScopeSelectorModal } from '../components/ScopeSelectorModal';
+import { Switch } from '../components/ui';
 
 export const SettingsPage: React.FC = () => {
   const { userState, updateSettings, importUserStateJson, resetUserState } = useApp();
@@ -46,76 +47,99 @@ export const SettingsPage: React.FC = () => {
   };
 
   return (
-    <div className="stack-lg">
-      <div>
-        <h2 style={{ margin: 0 }}>設定・データ管理</h2>
-        <p style={{ margin: '4px 0 0', color: 'var(--text-muted)', fontSize: '0.92rem' }}>
-          学習範囲・表示設定・学習データのJSONバックアップ（エクスポート/インポート）を管理します。
-        </p>
-      </div>
+    <div className="stack-lg" style={{ maxWidth: 820 }}>
+      <header className="page-header">
+        <div>
+          <h2 className="page-title">設定・データ管理</h2>
+          <p className="page-subtitle">学習範囲・表示設定・JSONバックアップ</p>
+        </div>
+      </header>
 
-      <div className="card stack-md">
-        <h3 style={{ margin: 0 }}>表示・学習設定</h3>
-        <div className="row-between">
-          <div>
-            <strong>現在の学習範囲:</strong> {formatScopeSummary(userState.scope)}
+      <section className="stack-xs">
+        <h3 className="section-heading">表示・学習設定</h3>
+        <div className="card" style={{ padding: '4px 18px' }}>
+          <div className="setting-row">
+            <div>
+              <div style={{ fontWeight: 500 }}>学習範囲</div>
+              <div style={{ fontSize: '0.82rem', color: 'var(--text-tertiary)' }}>
+                {formatScopeSummary(userState.scope)}
+              </div>
+            </div>
+            <button type="button" className="btn btn-sm" onClick={() => setScopeOpen(true)}>
+              変更
+            </button>
           </div>
-          <button type="button" className="btn btn-soft" onClick={() => setScopeOpen(true)}>
-            学習範囲を変更
-          </button>
-        </div>
 
-        <div className="grid-3">
-          <label className="card-subtle" style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
-            <input
-              type="checkbox"
+          <div className="setting-row">
+            <div>
+              <div style={{ fontWeight: 500 }}>例文のピンイン</div>
+              <div style={{ fontSize: '0.82rem', color: 'var(--text-tertiary)' }}>
+                課別・文法解説の例文にピンインを併記
+              </div>
+            </div>
+            <Switch
               checked={userState.settings.showPinyin}
-              onChange={(e) => updateSettings({ showPinyin: e.target.checked })}
+              onChange={(checked) => updateSettings({ showPinyin: checked })}
+              label=""
+              ariaLabel="例文にピンインを表示する"
             />
-            <span>例文にピンインを表示する</span>
-          </label>
-          <label className="card-subtle" style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
-            <input
-              type="checkbox"
-              checked={userState.settings.toneColors}
-              onChange={(e) => updateSettings({ toneColors: e.target.checked })}
-            />
-            <span>ピンインを声調別に色分けする</span>
-          </label>
-          <label className="card-subtle" style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
-            <input
-              type="checkbox"
-              checked={userState.settings.theme === 'dark'}
-              onChange={(e) => updateSettings({ theme: e.target.checked ? 'dark' : 'light' })}
-            />
-            <span>ダークモードを有効にする</span>
-          </label>
-        </div>
-      </div>
+          </div>
 
-      <div className="card stack-md">
-        <h3 style={{ margin: 0 }}>学習データのエクスポート / インポート（JSON）</h3>
-        <p style={{ margin: 0, fontSize: '0.9rem', color: 'var(--text-muted)' }}>
-          すべての回答履歴・作文記録・SRS習熟度・メモ・お気に入りを端末外へバックアップできます。
-        </p>
+          <div className="setting-row">
+            <div>
+              <div style={{ fontWeight: 500 }}>声調の色分け</div>
+              <div style={{ fontSize: '0.82rem', color: 'var(--text-tertiary)' }}>
+                第1〜4声・軽声を色分け表示
+              </div>
+            </div>
+            <Switch
+              checked={userState.settings.toneColors}
+              onChange={(checked) => updateSettings({ toneColors: checked })}
+              label=""
+              ariaLabel="ピンインを声調別に色分けする"
+            />
+          </div>
+
+          <div className="setting-row">
+            <div>
+              <div style={{ fontWeight: 500 }}>ダークテーマ</div>
+              <div style={{ fontSize: '0.82rem', color: 'var(--text-tertiary)' }}>
+                画面全体の配色を暗色表示に切り替え
+              </div>
+            </div>
+            <Switch
+              checked={userState.settings.theme === 'dark'}
+              onChange={(checked) => updateSettings({ theme: checked ? 'dark' : 'light' })}
+              label=""
+              ariaLabel="ダークモードを有効にする"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section className="doc-section stack-md">
+        <div>
+          <h3 className="section-heading">JSONバックアップ（エクスポート / インポート）</h3>
+          <p className="page-subtitle">回答履歴・作文記録・SRS習熟度・メモ・お気に入りを端末外へ保存できます。</p>
+        </div>
 
         <div className="row-wrap">
           <button type="button" className="btn btn-primary" onClick={handleExportJson} data-testid="export-json-btn">
-            <Download size={16} /> 学習データをJSONエクスポート
+            <Download size={15} /> JSONエクスポート
           </button>
           <label className="btn" style={{ cursor: 'pointer' }}>
-            <Upload size={16} /> JSONファイルから読み込む
+            <Upload size={15} /> ファイルから読み込む
             <input type="file" accept=".json,application/json" style={{ display: 'none' }} onChange={handleFileUpload} />
           </label>
         </div>
 
         <div className="stack-sm">
-          <label htmlFor="import-json-textarea" style={{ fontSize: '0.88rem', fontWeight: 600 }}>
-            またはバックアップJSONを直接貼り付けてインポート
+          <label htmlFor="import-json-textarea" style={{ fontSize: '0.86rem', fontWeight: 600 }}>
+            JSONテキストを貼り付けて復元
           </label>
           <textarea
             id="import-json-textarea"
-            rows={5}
+            rows={4}
             className="textarea"
             placeholder='{"version": 1, "scope": ...}'
             value={importText}
@@ -138,7 +162,7 @@ export const SettingsPage: React.FC = () => {
           <div className="banner banner-warning stack-sm" data-testid="import-confirm-box">
             <strong>既存データの上書き確認</strong>
             <p style={{ margin: 0 }}>
-              インポートを実行すると、現在の学習履歴・設定が読み込んだデータで上書きされます。よろしいですか？
+              現在の学習履歴・設定が読み込んだデータで上書きされます。よろしいですか？
             </p>
             <div className="row-wrap">
               <button
@@ -149,7 +173,7 @@ export const SettingsPage: React.FC = () => {
               >
                 上書きしてインポートする
               </button>
-              <button type="button" className="btn btn-sm" onClick={() => setPendingOverwriteJson(null)}>
+              <button type="button" className="btn btn-ghost btn-sm" onClick={() => setPendingOverwriteJson(null)}>
                 キャンセル
               </button>
             </div>
@@ -161,14 +185,14 @@ export const SettingsPage: React.FC = () => {
             {statusMsg.text}
           </div>
         )}
-      </div>
+      </section>
 
-      <div className="card stack-sm">
-        <h3 style={{ margin: 0, color: 'var(--danger)' }}>データ初期化</h3>
-        <p style={{ margin: 0, fontSize: '0.88rem', color: 'var(--text-muted)' }}>
-          端末内の学習履歴をすべて削除し、初期状態に戻します。
-        </p>
-        <div>
+      <section className="doc-section stack-sm">
+        <h3 className="section-heading" style={{ color: 'var(--danger)' }}>データ初期化</h3>
+        <div className="row-between">
+          <span style={{ fontSize: '0.86rem', color: 'var(--text-secondary)' }}>
+            端末内の学習履歴をすべて削除し、初期状態に戻します。
+          </span>
           <button
             type="button"
             className="btn btn-danger btn-sm"
@@ -179,10 +203,10 @@ export const SettingsPage: React.FC = () => {
               }
             }}
           >
-            <RotateCcw size={14} /> 学習データをリセット
+            <RotateCcw size={14} /> データをリセット
           </button>
         </div>
-      </div>
+      </section>
 
       <ScopeSelectorModal open={scopeOpen} onClose={() => setScopeOpen(false)} />
     </div>

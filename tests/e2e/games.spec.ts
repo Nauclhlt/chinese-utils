@@ -68,7 +68,7 @@ test.describe('4 Games Playtest E2E', () => {
 
     // 5. Verify Novel vocab integration in ReviewPage
     await page.getByRole('link', { name: '復習・苦手・履歴' }).click();
-    await page.getByRole('button', { name: /ノベル登録語彙/ }).click();
+    await page.getByTestId('review-tab-novel').click();
     await expect(page.locator('table.data-table tbody tr').first()).toBeVisible();
   });
 

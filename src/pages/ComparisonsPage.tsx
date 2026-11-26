@@ -9,12 +9,12 @@ export const ComparisonsPage: React.FC = () => {
 
   return (
     <div className="stack-lg">
-      <div>
-        <h2 style={{ margin: 0 }}>類似文法・紛らわしい表現の比較</h2>
-        <p style={{ margin: '4px 0 0', color: 'var(--text-muted)', fontSize: '0.92rem' }}>
-          日本語母語話者が混同しやすい重要表現を、意味・否定形・使用条件・独自例文で横並び比較できます。
-        </p>
-      </div>
+      <header className="page-header">
+        <div>
+          <h2 className="page-title">類似文法・紛らわしい表現の比較</h2>
+          <p className="page-subtitle">意味・否定形・使用条件・例文による横並び整理</p>
+        </div>
+      </header>
 
       <div className="row-wrap">
         {comparisons.map((cmp) => (
@@ -25,12 +25,12 @@ export const ComparisonsPage: React.FC = () => {
       </div>
 
       <div className="stack-lg">
-        {comparisons.map((cmp) => (
-          <section key={cmp.id} id={cmp.id} className="card stack-md">
+        {comparisons.map((cmp, ci) => (
+          <section key={cmp.id} id={cmp.id} className={ci === 0 ? 'stack-md' : 'doc-section stack-md'}>
             <div className="row-between">
               <div className="row-wrap">
-                <h3 style={{ margin: 0 }}>{cmp.title}</h3>
-                {cmp.isSupplementary && <span className="badge badge-warning">発展解説含む</span>}
+                <h3 className="section-heading" style={{ fontSize: '1.12rem' }}>{cmp.title}</h3>
+                {cmp.isSupplementary && <span className="badge badge-warning">発展解説</span>}
               </div>
               <div className="row-wrap">
                 {cmp.grammarIds.map((gid) => (
@@ -40,9 +40,10 @@ export const ComparisonsPage: React.FC = () => {
                 ))}
               </div>
             </div>
-            <p style={{ margin: 0, color: 'var(--text-muted)' }}>{cmp.summary}</p>
+            <p style={{ margin: 0, color: 'var(--text-secondary)', fontSize: '0.92rem' }}>{cmp.summary}</p>
 
-            <div className="table-wrap">
+            <div className="card" style={{ padding: 0, overflow: 'hidden' }}>
+              <div className="table-wrap">
               <table className="data-table">
                 <thead>
                   <tr>
@@ -85,6 +86,7 @@ export const ComparisonsPage: React.FC = () => {
                   ))}
                 </tbody>
               </table>
+              </div>
             </div>
 
             <div className="card-subtle stack-sm">

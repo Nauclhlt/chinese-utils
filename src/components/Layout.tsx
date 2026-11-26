@@ -25,6 +25,7 @@ import {
 import { useApp } from '../context/AppContext';
 import { formatScopeSummary } from '../utils/scope';
 import { ScopeSelectorModal } from './ScopeSelectorModal';
+import { Switch } from './ui';
 
 const NAV_GROUPS = [
   {
@@ -162,31 +163,28 @@ export const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) =>
           </div>
 
           <div className="topbar-right">
-            <button
-              type="button"
-              className={`btn btn-sm ${userState.settings.showPinyin ? 'btn-soft' : ''}`}
-              onClick={() => updateSettings({ showPinyin: !userState.settings.showPinyin })}
-              title="ピンイン表示の切り替え"
-            >
-              ピンイン: {userState.settings.showPinyin ? '表示' : '非表示'}
-            </button>
+            <Switch
+              checked={userState.settings.showPinyin}
+              onChange={(checked) => updateSettings({ showPinyin: checked })}
+              label="ピンイン"
+              ariaLabel="ピンイン表示"
+            />
+
+            <Switch
+              checked={userState.settings.toneColors}
+              onChange={(checked) => updateSettings({ toneColors: checked })}
+              label="声調色"
+              ariaLabel="声調色分け"
+            />
 
             <button
               type="button"
-              className={`btn btn-sm ${userState.settings.toneColors ? 'btn-soft' : ''}`}
-              onClick={() => updateSettings({ toneColors: !userState.settings.toneColors })}
-              title="声調別色分けの切り替え"
-            >
-              声調色: {userState.settings.toneColors ? 'ON' : 'OFF'}
-            </button>
-
-            <button
-              type="button"
-              className="btn btn-sm"
+              className="btn btn-ghost btn-sm"
               onClick={() =>
                 updateSettings({ theme: userState.settings.theme === 'light' ? 'dark' : 'light' })
               }
               aria-label="テーマ切り替え"
+              title={userState.settings.theme === 'light' ? 'ダークモードへ切り替え' : 'ライトモードへ切り替え'}
             >
               {userState.settings.theme === 'light' ? <Moon size={15} /> : <Sun size={15} />}
               <span>{userState.settings.theme === 'light' ? 'ダーク' : 'ライト'}</span>

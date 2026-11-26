@@ -42,12 +42,12 @@ export const GrammarMapPage: React.FC = () => {
 
   return (
     <div className="stack-lg">
-      <div>
-        <h2 style={{ margin: 0 }}>文法前提関係・学習マップ</h2>
-        <p style={{ margin: '4px 0 0', color: 'var(--text-muted)', fontSize: '0.92rem' }}>
-          どの文法がどの基礎文法の土台の上に成り立っているかを階層別に表示します。ノードをクリックすると依存関係を確認できます。
-        </p>
-      </div>
+      <header className="page-header">
+        <div>
+          <h2 className="page-title">文法前提関係・学習マップ</h2>
+          <p className="page-subtitle">基礎から発展への依存関係を階層別に確認</p>
+        </div>
+      </header>
 
       {selected && (
         <div className="card stack-md">
