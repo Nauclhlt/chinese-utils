@@ -1,0 +1,546 @@
+[
+  {
+    "id": "GC-S08-01",
+    "stageId": "stage08",
+    "type": "spot",
+    "difficulty": 1,
+    "grammarIds": ["G13-02"],
+    "lessonId": "L13",
+    "promptJa": "誤っている箇所をタップしてください。（意味：この問題は大事なことなので、みんなでよく話し合いましょう。）",
+    "tokens": ["这个", "问题", "很", "重要", "，", "大家", "讨讨论论", "吧", "。"],
+    "sentenceZh": "这个问题很重要，大家讨讨论论吧。",
+    "errorIndices": [6],
+    "correctedSentence": "这个问题很重要，大家讨论讨论吧。",
+    "acceptableSentences": [
+      "这个问题很重要，大家讨论讨论吧。",
+      "这个问题很重要，大家讨论一下吧。"
+    ],
+    "pinyin": "Zhège wèntí hěn zhòngyào, dàjiā tǎolùn tǎolun ba.",
+    "explanation": "2音節動詞の重ね型は形容詞の AABB 型ではなく、ABAB 型になります。「讨论」の重ね型は「讨论讨论」です。",
+    "pitfallNote": "形容詞（高高兴兴）は AABB 型、2音節動詞（讨论讨论・休息休息）は ABAB 型になる区別をしっかり押さえましょう。"
+  },
+  {
+    "id": "GC-S08-02",
+    "stageId": "stage08",
+    "type": "spot",
+    "difficulty": 2,
+    "grammarIds": ["G13-02"],
+    "lessonId": "L13",
+    "promptJa": "誤っている箇所をタップしてください。（意味：食後に公園を少し散歩しましょう。）",
+    "tokens": ["晚饭", "以后", "，", "我们", "去", "公园", "散步散步", "吧", "。"],
+    "sentenceZh": "晚饭以后，我们去公园散步散步吧。",
+    "errorIndices": [6],
+    "correctedSentence": "晚饭以后，我们去公园散散步吧。",
+    "acceptableSentences": [
+      "晚饭以后，我们去公园散散步吧。",
+      "晚饭以后，我们去公园散步吧。",
+      "晚饭后，我们去公园散散步吧。"
+    ],
+    "pinyin": "Wǎnfàn yǐhòu, wǒmen qù gōngyuán sànsanbù ba.",
+    "explanation": "「散步（散歩する）」は「散（動詞）＋步（目的語）」の離合動詞なので、重ね型にするときは動詞部分のみを重ねて「散散步」とします。",
+    "pitfallNote": "「见面（见见面）」「聊天（聊聊天）」「散步（散散步）」などの離合動詞は AAB 型になり、ABAB 型にはしません。"
+  },
+  {
+    "id": "GC-S08-03",
+    "stageId": "stage08",
+    "type": "spot",
+    "difficulty": 2,
+    "grammarIds": ["G14-03"],
+    "lessonId": "L14",
+    "promptJa": "誤っている箇所をタップしてください。（意味：大切な傘を誰かに持っていかれてしまいました。）",
+    "tokens": ["我", "的", "雨伞", "叫", "拿走", "了", "。"],
+    "sentenceZh": "我的雨伞叫拿走了。",
+    "errorIndices": [3],
+    "correctedSentence": "我的雨伞被人拿走了。",
+    "acceptableSentences": [
+      "我的雨伞被人拿走了。",
+      "我的雨伞被拿走了。",
+      "我的雨伞叫别人拿走了。"
+    ],
+    "pinyin": "Wǒ de yǔsǎn bèi rén ná zǒu le.",
+    "explanation": "受身文で「叫」や「让」を使う場合、後ろに行為者（人・别人など）を省略することはできません。行為者を言わないときは「被」を使います。",
+    "pitfallNote": "「被」だけは行為者を省略できますが、「叫」「让」の後ろには必ず行為者を置く必要があります。"
+  },
+  {
+    "id": "GC-S08-04",
+    "stageId": "stage08",
+    "type": "spot",
+    "difficulty": 2,
+    "grammarIds": ["G14-05"],
+    "lessonId": "L14",
+    "promptJa": "誤っている箇所をタップしてください。（意味：来週の木曜日にはもう夏休みが始まります。）",
+    "tokens": ["下", "星期四", "快", "放", "暑假", "了", "。"],
+    "sentenceZh": "下星期四快放暑假了。",
+    "errorIndices": [2],
+    "correctedSentence": "下星期四就要放暑假了。",
+    "acceptableSentences": [
+      "下星期四就要放暑假了。",
+      "下周四就要放暑假了。",
+      "下星期四要放暑假了。"
+    ],
+    "pinyin": "Xià xīngqīsì jiù yào fàng shǔjià le.",
+    "explanation": "「下星期四」のように具体的な時間が明示されている文では「快……了」は使えず、「就要……了」を使います。",
+    "pitfallNote": "「快……了」は特定の時間詞を伴わずに「もうすぐ〜だ」と言うときに使い、具体的な日時・時刻があるときは「就要……了」を使います。"
+  },
+  {
+    "id": "GC-S08-05",
+    "stageId": "stage08",
+    "type": "replace",
+    "difficulty": 1,
+    "grammarIds": ["G13-03"],
+    "lessonId": "L13",
+    "promptJa": "誤っている語句を正しい表現に置き換えてください。（意味：昨日私はまたそのパン屋へ行きました。）",
+    "tokens": ["昨天", "我", "再", "去", "了", "那家", "面包店", "。"],
+    "sentenceZh": "昨天我再去了那家面包店。",
+    "errorIndices": [2],
+    "choices": ["又", "还", "就", "才"],
+    "correctedSentence": "昨天我又去了那家面包店。",
+    "acceptableSentences": [
+      "昨天我又去了那家面包店。"
+    ],
+    "pinyin": "Zuótiān wǒ yòu qù le nà jiā miànbāodiàn.",
+    "explanation": "すでに起きた過去の動作の繰り返しを表すときは「再」ではなく「又」を使います。「再」はこれから起きる未実現の反復専用です。",
+    "pitfallNote": "日本語の「また」をそのまま「再」と覚えると、過去文でも「再」を使ってしまう誤りが起こりやすいです。"
+  },
+  {
+    "id": "GC-S08-06",
+    "stageId": "stage08",
+    "type": "replace",
+    "difficulty": 2,
+    "grammarIds": ["G13-04"],
+    "lessonId": "L13",
+    "promptJa": "誤っている語句を正しい表現に置き換えてください。（意味：明日は日曜日なので、早起きしなくてよいです。）",
+    "tokens": ["明天", "是", "星期天", "，", "我", "不得", "早起", "。"],
+    "sentenceZh": "明天是星期天，我不得早起。",
+    "errorIndices": [5],
+    "choices": ["不用", "不能", "不会", "不敢"],
+    "correctedSentence": "明天是星期天，我不用早起。",
+    "acceptableSentences": [
+      "明天是星期天，我不用早起。",
+      "明天是星期天，我不必早起。"
+    ],
+    "pinyin": "Míngtiān shì xīngqītiān, wǒ búyòng zǎoqǐ.",
+    "explanation": "助動詞「得 (děi)（〜しなければならない）」の否定（〜しなくてよい）は「*不得」ではなく「不用」または「不必」を使います。",
+    "pitfallNote": "「得」の前に「不」を付けた「不得」は「〜してはいけない（禁止）」などの書き言葉になり、「しなくてよい」という意味にはなりません。"
+  },
+  {
+    "id": "GC-S08-07",
+    "stageId": "stage08",
+    "type": "replace",
+    "difficulty": 1,
+    "grammarIds": ["G14-02"],
+    "lessonId": "L14",
+    "promptJa": "誤っている語句を正しい表現に置き換えてください。（意味：彼女はうれしそうにみんなに手を振りました。）",
+    "tokens": ["她", "高高兴兴", "的", "向", "大家", "挥手", "。"],
+    "sentenceZh": "她高高兴兴的向大家挥手。",
+    "errorIndices": [2],
+    "choices": ["地", "得", "着", "了"],
+    "correctedSentence": "她高高兴兴地向大家挥手。",
+    "acceptableSentences": [
+      "她高高兴兴地向大家挥手。"
+    ],
+    "pinyin": "Tā gāogāoxìngxìng de xiàng dàjiā huīshǒu.",
+    "explanation": "形容詞重ね型「高高兴兴」で後ろの動詞フレーズ（向大家挥手）を修飾する連用修飾語には、「的」ではなく「地」を使います。",
+    "pitfallNote": "「的」は名詞の前、「地」は動詞・述語の前、「得」は動詞の後ろ（補語）と役割を明確に区別しましょう。"
+  },
+  {
+    "id": "GC-S08-08",
+    "stageId": "stage08",
+    "type": "replace",
+    "difficulty": 2,
+    "grammarIds": ["G14-04"],
+    "lessonId": "L14",
+    "promptJa": "誤っている語句を正しい表現に置き換えてください。（意味：道が混んでいたので、バスが15分遅れました。）",
+    "tokens": ["因为", "路上", "堵车", "，", "但是", "公交车", "晚点", "了", "十五分钟", "。"],
+    "sentenceZh": "因为路上堵车，但是公交车晚点了十五分钟。",
+    "errorIndices": [4],
+    "choices": ["所以", "可是", "而且", "于是"],
+    "correctedSentence": "因为路上堵车，所以公交车晚点了十五分钟。",
+    "acceptableSentences": [
+      "因为路上堵车，所以公交车晚点了十五分钟。",
+      "因为路上堵车，公交车晚点了十五分钟。"
+    ],
+    "pinyin": "Yīnwèi lùshang dǔchē, suǒyǐ gōngjiāochē wǎndiǎn le shíwǔ fēnzhōng.",
+    "explanation": "原因を表す「因为」と呼応して結果を導くのは逆接の「但是」ではなく、因果の「所以」です。",
+    "pitfallNote": "「因为……，所以……（因果）」と「虽然……，但是……（逆接）」を混同しないようにしましょう。"
+  },
+  {
+    "id": "GC-S08-09",
+    "stageId": "stage08",
+    "type": "delete",
+    "difficulty": 2,
+    "grammarIds": ["G13-02"],
+    "lessonId": "L13",
+    "promptJa": "不要な語句を1つ削除してください。（意味：このコートを試着してみてもいいですか。）",
+    "tokens": ["我", "可以", "试试", "一下", "这件", "大衣", "吗", "？"],
+    "sentenceZh": "我可以试试一下这件大衣吗？",
+    "errorIndices": [3],
+    "correctedSentence": "我可以试试这件大衣吗？",
+    "acceptableSentences": [
+      "我可以试试这件大衣吗？",
+      "我可以试一下这件大衣吗？"
+    ],
+    "pinyin": "Wǒ kěyǐ shìshi zhè jiàn dàyī ma?",
+    "explanation": "動詞の重ね型（试试）と「一下」はどちらも「ちょっと〜してみる」という軽い試みを表すため、同じ動詞に両方重ねて使うことはできません。",
+    "pitfallNote": "「试试」か「试一下」のどちらか一方のみを使います。「试试一下」は重複エラーです。"
+  },
+  {
+    "id": "GC-S08-10",
+    "stageId": "stage08",
+    "type": "delete",
+    "difficulty": 2,
+    "grammarIds": ["G14-01"],
+    "lessonId": "L14",
+    "promptJa": "不要な語句を1つ削除してください。（意味：私が昨日借りてきたその小説はとても面白いです。）",
+    "tokens": ["我", "昨天", "借来", "的", "它", "那本", "小说", "很", "有意思", "。"],
+    "sentenceZh": "我昨天借来的它那本小说很有意思。",
+    "errorIndices": [4],
+    "correctedSentence": "我昨天借来的那本小说很有意思。",
+    "acceptableSentences": [
+      "我昨天借来的那本小说很有意思。"
+    ],
+    "pinyin": "Wǒ zuótiān jièlái de nà běn xiǎoshuō hěn yǒuyìsi.",
+    "explanation": "連体修飾節（我昨天借来的）の後ろに名詞（那本小说）が続くとき、間に余分な代名詞「它」を残してはいけません。",
+    "pitfallNote": "修飾される名詞が後続するため、「它」などの代名詞を重複して入れるのは非文法的です。"
+  },
+  {
+    "id": "GC-S08-11",
+    "stageId": "stage08",
+    "type": "delete",
+    "difficulty": 2,
+    "grammarIds": ["G13-04"],
+    "lessonId": "L13",
+    "promptJa": "不要な語句を1つ削除してください。（意味：私たちは約束の時間を守るべきです。）",
+    "tokens": ["我们", "应该", "要", "遵守", "约定", "的", "时间", "。"],
+    "sentenceZh": "我们应该要遵守约定的时间。",
+    "errorIndices": [2],
+    "correctedSentence": "我们应该遵守约定的时间。",
+    "acceptableSentences": [
+      "我们应该遵守约定的时间。"
+    ],
+    "pinyin": "Wǒmen yīnggāi zūnshǒu yuēdìng de shíjiān.",
+    "explanation": "助動詞「应该」の直後に「要」を重ねる必要はなく、冗長な表現になります。標準語では「应该＋動詞」と簡潔に言います。",
+    "pitfallNote": "「应该要」は話し言葉で稀に耳にすることがあっても、標準文法としては「应该」単独で使うのが基本です。"
+  },
+  {
+    "id": "GC-S08-12",
+    "stageId": "stage08",
+    "type": "insert",
+    "difficulty": 1,
+    "grammarIds": ["G14-01"],
+    "lessonId": "L14",
+    "promptJa": "文中の適切な位置に脱落している語句を挿入してください。（意味：お母さんが作った肉じゃがは絶品です。）",
+    "tokens": ["妈妈", "做", "红烧肉", "真", "香", "啊", "！"],
+    "sentenceZh": "妈妈做红烧肉真香啊！",
+    "insertIndex": 2,
+    "choices": ["的", "地", "得", "了"],
+    "correctedSentence": "妈妈做的红烧肉真香啊！",
+    "acceptableSentences": [
+      "妈妈做的红烧肉真香啊！"
+    ],
+    "pinyin": "Māma zuò de hóngshāoròu zhēn xiāng a!",
+    "explanation": "主述句「妈妈做」で後ろの名詞「红烧肉」を修飾する連体修飾では、必ず間に「的」を入れて「妈妈做的红烧肉」とします。",
+    "pitfallNote": "主述文が名詞を修飾するときに「的」を落とすと、文の区切りが分からず誤文になってしまいます。"
+  },
+  {
+    "id": "GC-S08-13",
+    "stageId": "stage08",
+    "type": "insert",
+    "difficulty": 2,
+    "grammarIds": ["G14-03"],
+    "lessonId": "L14",
+    "promptJa": "文中の適切な位置に脱落している語句を挿入してください。（意味：机の上の書類は風で床に吹き落とされてしまいました。）",
+    "tokens": ["桌上", "的", "文件", "被", "风", "吹", "到", "地上", "。"],
+    "sentenceZh": "桌上的文件被风吹到地上。",
+    "insertIndex": 8,
+    "choices": ["了", "着", "的", "得"],
+    "correctedSentence": "桌上的文件被风吹到地上了。",
+    "acceptableSentences": [
+      "桌上的文件被风吹到地上了。"
+    ],
+    "pinyin": "Zhuōshang de wénjiàn bèi fēng chuī dào dìshang le.",
+    "explanation": "「被」構文は動作の結果・完了を表すため、動詞フレーズの末尾（吹到地上）に完了・変化を表す「了」を補う必要があります。",
+    "pitfallNote": "受身文では裸の動詞だけで文を終えることはできず、補語や「了」を伴うのが基本原則です。"
+  },
+  {
+    "id": "GC-S08-14",
+    "stageId": "stage08",
+    "type": "insert",
+    "difficulty": 2,
+    "grammarIds": ["G14-05"],
+    "lessonId": "L14",
+    "promptJa": "文中の適切な位置に脱落している語句を挿入してください。（意味：電車がもうすぐ発車しますよ、急いで乗りましょう。）",
+    "tokens": ["列车", "快", "开", "，", "快", "上车", "吧", "。"],
+    "sentenceZh": "列车快开，快上车吧。",
+    "insertIndex": 3,
+    "choices": ["了", "的", "着", "过"],
+    "correctedSentence": "列车快开了，快上车吧。",
+    "acceptableSentences": [
+      "列车快开了，快上车吧。",
+      "列车快要开了，快上车吧。"
+    ],
+    "pinyin": "Lièchē kuài kāi le, kuài shàngchē ba.",
+    "explanation": "切迫を表す「快……了」構文は、文末・節末の「了」とセットで使います。「了」が抜けると切迫の意味が成立しません。",
+    "pitfallNote": "「快……了」「就要……了」は必ず文末の「了」と組み合わせて使います。"
+  },
+  {
+    "id": "GC-S08-15",
+    "stageId": "stage08",
+    "type": "reorder",
+    "difficulty": 2,
+    "grammarIds": ["G13-01"],
+    "lessonId": "L13",
+    "promptJa": "語順を正しく並べ替えてください。（意味：もし明日台風が来たら、遠足は中止になります。）",
+    "tokens": ["如果", "明天", "刮", "台风", "，", "就", "活动", "取消", "。"],
+    "sentenceZh": "如果明天刮台风，就活动取消。",
+    "correctedSentence": "如果明天刮台风，活动就取消。",
+    "acceptableSentences": [
+      "如果明天刮台风，活动就取消。",
+      "如果明天刮台风，活动就取消了。"
+    ],
+    "pinyin": "Rúguǒ míngtiān guā táifēng, huódòng jiù qǔxiāo.",
+    "explanation": "仮定文「如果……，就……」において、後節に主語（活动）があるとき、副詞「就」は主語の後ろ・動詞の前に置きます。",
+    "pitfallNote": "英語の then や日本語の「そうしたら」の感覚で「就」を主語の前に置かないようにしましょう。"
+  },
+  {
+    "id": "GC-S08-16",
+    "stageId": "stage08",
+    "type": "reorder",
+    "difficulty": 2,
+    "grammarIds": ["G13-03"],
+    "lessonId": "L13",
+    "promptJa": "語順を正しく並べ替えてください。（意味：来週もう一度あなたの家に遊びに行きたいです。）",
+    "tokens": ["下周", "我", "再", "想", "去", "你家", "玩", "一次", "。"],
+    "sentenceZh": "下周我再想去你家玩一次。",
+    "correctedSentence": "下周我想再去你家玩一次。",
+    "acceptableSentences": [
+      "下周我想再去你家玩一次。",
+      "我下周想再去你家玩一次。"
+    ],
+    "pinyin": "Xià zhōu wǒ xiǎng zài qù nǐjiā wán yí cì.",
+    "explanation": "「再」が修飾するのは「思う（想）」ではなく「もう一度遊びに行く（再去）」なので、助動詞「想」の後ろに「再」を置きます。",
+    "pitfallNote": "「再想」は「もう一度考え直す」という意味になり、「もう一度〜したい」は必ず「想再〜」となります。"
+  },
+  {
+    "id": "GC-S08-17",
+    "stageId": "stage08",
+    "type": "reorder",
+    "difficulty": 2,
+    "grammarIds": ["G14-03"],
+    "lessonId": "L14",
+    "promptJa": "語順を正しく並べ替えてください。（意味：私のカメラは弟に壊されませんでした。）",
+    "tokens": ["我", "的", "相机", "被", "弟弟", "没", "弄坏", "。"],
+    "sentenceZh": "我的相机被弟弟没弄坏。",
+    "correctedSentence": "我的相机没被弟弟弄坏。",
+    "acceptableSentences": [
+      "我的相机没被弟弟弄坏。",
+      "我的相机没有被弟弟弄坏。"
+    ],
+    "pinyin": "Wǒ de xiàngjī méi bèi dìdi nònghuài.",
+    "explanation": "「被」構文を否定するときは、否定副詞「没（有）」を動詞の前ではなく必ず「被」の前に置きます。",
+    "pitfallNote": "否定語や助動詞・時間詞はすべて「被」の前に置くのが受身文のルールです。"
+  },
+  {
+    "id": "GC-S08-18",
+    "stageId": "stage08",
+    "type": "reorder",
+    "difficulty": 2,
+    "grammarIds": ["G13-01"],
+    "lessonId": "L13",
+    "promptJa": "語順を正しく並べ替えてください。（意味：もし質問があれば、いつでも私に聞いてください。）",
+    "tokens": ["要是", "的", "话", "有", "问题", "，", "随时", "问", "我", "。"],
+    "sentenceZh": "要是的话有问题，随时问我。",
+    "correctedSentence": "要是有问题的话，随时问我。",
+    "acceptableSentences": [
+      "要是有问题的话，随时问我。",
+      "要是有问题，随时问我。"
+    ],
+    "pinyin": "Yàoshi yǒu wèntí de huà, suíshí wèn wǒ.",
+    "explanation": "「的话」は仮定節の末尾（有问题的话）に置いて仮定を締めくくる語です。「要是的话」と前に置くことはできません。",
+    "pitfallNote": "「如果 / 要是＋仮定の内容＋的话」の枠組みで覚えましょう。"
+  },
+  {
+    "id": "GC-S08-19",
+    "stageId": "stage08",
+    "type": "rewrite",
+    "difficulty": 3,
+    "grammarIds": ["G14-02"],
+    "lessonId": "L14",
+    "promptJa": "誤りを直して自然な中国語文に書き換えてください。（意味：おじいさんはゆっくりと階段を下りていきました。）",
+    "tokens": ["爷爷", "慢", "地", "走下", "楼梯", "去", "。"],
+    "sentenceZh": "爷爷慢地走下楼梯去。",
+    "correctedSentence": "爷爷慢慢地走下楼梯去。",
+    "acceptableSentences": [
+      "爷爷慢慢地走下楼梯去。",
+      "爷爷慢慢儿地走下楼梯去。",
+      "爷爷慢慢地走下了楼梯。"
+    ],
+    "pinyin": "Yéye mànmān de zǒuxià lóutī qù.",
+    "explanation": "1音節形容詞「慢」をそのまま「慢地」と連用修飾にすることはできません。2音節に重ね型（慢慢地 / 慢慢儿地）にして使います。",
+    "pitfallNote": "「快・慢・早・认真」のうち、1音節形容詞「快」「慢」などを「地」の前で使うときは必ず「快快地」「慢慢地」のように重ね型にします。"
+  },
+  {
+    "id": "GC-S08-20",
+    "stageId": "stage08",
+    "type": "rewrite",
+    "difficulty": 3,
+    "grammarIds": ["G14-04"],
+    "lessonId": "L14",
+    "promptJa": "語順と構文の誤りを直して正しい文に書き換えてください。（意味：昨日熱が出たので、サッカーの試合には参加できませんでした。）",
+    "tokens": ["我", "昨天", "发烧", "了", "因为", "，", "所以", "没", "参加", "足球", "比赛", "。"],
+    "sentenceZh": "我昨天发烧了因为，所以没参加足球比赛。",
+    "correctedSentence": "因为我昨天发烧了，所以没参加足球比赛。",
+    "acceptableSentences": [
+      "因为我昨天发烧了，所以没参加足球比赛。",
+      "我因为昨天发烧了，所以没参加足球比赛。",
+      "昨天因为我发烧了，所以没参加足球比赛。"
+    ],
+    "pinyin": "Yīnwèi wǒ zuótiān fāshāo le, suǒyǐ méi cānjiā zúqiú bǐsài.",
+    "explanation": "「因为」は接続詞であり、日本語の「〜だから」のように節の末尾に置くことはできません。原因節の冒頭（または主語の後ろ）に置きます。",
+    "pitfallNote": "「〜だから」の語順に引っ張られて「〜因为」と後ろに置かないよう注意しましょう。"
+  },
+  {
+    "id": "GC-S08-21",
+    "stageId": "stage08",
+    "type": "rewrite",
+    "difficulty": 3,
+    "grammarIds": ["G13-02"],
+    "lessonId": "L13",
+    "promptJa": "文法の衝突を解消して正しい文に書き換えてください。（意味：父は今、新聞に目を通しているところです。）",
+    "tokens": ["爸爸", "正在", "看看", "报纸", "呢", "。"],
+    "sentenceZh": "爸爸正在看看报纸呢。",
+    "correctedSentence": "爸爸正在看报纸呢。",
+    "acceptableSentences": [
+      "爸爸正在看报纸呢。",
+      "爸爸在看报纸呢。",
+      "爸爸正看报纸呢。"
+    ],
+    "pinyin": "Bàba zhèngzài kàn bàozhǐ ne.",
+    "explanation": "動詞の重ね型（看看）は「ちょっと〜する」という短い動作や試みを表すため、動作の進行を表す「正在……呢」とは同時に使えません。",
+    "pitfallNote": "進行中であることを表すときは重ね型を使わず、通常の動詞「看」にします。"
+  },
+  {
+    "id": "GC-S08-22",
+    "stageId": "stage08",
+    "type": "judge",
+    "difficulty": 2,
+    "grammarIds": ["G14-01", "G14-02"],
+    "lessonId": "L14",
+    "promptJa": "次の中国語文が文法的に正しいか判定してください。（意味：私たちが準備した発表が、先生に真剣に聴いてもらえました。）",
+    "tokens": ["老师", "认真", "地", "听", "了", "我们", "准备", "的", "报告", "。"],
+    "sentenceZh": "老师认真地听了我们准备的报告。",
+    "choices": ["正しい", "誤りがある"],
+    "correctedSentence": "老师认真地听了我们准备的报告。",
+    "acceptableSentences": [
+      "老师认真地听了我们准备的报告。"
+    ],
+    "isAlreadyCorrect": true,
+    "pinyin": "Lǎoshī rènzhēn de tīng le wǒmen zhǔnbèi de bàogào.",
+    "explanation": "この文は正しい文です。動詞「听」を修飾する2音節形容詞「认真」の後ろには「地」、名詞「报告」を修飾する節「我们准备」の後ろには「的」が正しく使われています。",
+    "pitfallNote": "「的」と「地」が1つの文に両方出てきても、修飾先が名詞（的）か動詞（地）かを冷静に確認しましょう。"
+  },
+  {
+    "id": "GC-S08-23",
+    "stageId": "stage08",
+    "type": "judge",
+    "difficulty": 2,
+    "grammarIds": ["G13-03"],
+    "lessonId": "L13",
+    "promptJa": "次の中国語文が文法的に正しいか判定してください。（意味：来年の秋に、私たちはまた京都へ紅葉を見に行きましょう。）",
+    "tokens": ["明年", "秋天", "我们", "再", "去", "京都", "看", "红叶", "吧", "。"],
+    "sentenceZh": "明年秋天我们再去京都看红叶吧。",
+    "choices": ["正しい", "誤りがある"],
+    "correctedSentence": "明年秋天我们再去京都看红叶吧。",
+    "acceptableSentences": [
+      "明年秋天我们再去京都看红叶吧。"
+    ],
+    "isAlreadyCorrect": true,
+    "pinyin": "Míngnián qiūtiān wǒmen zài qù Jīngdū kàn hóngyè ba.",
+    "explanation": "この文は正しい文です。「明年秋天」という未来の反復に対して「再」が正しく使われており、時間詞と主語の後ろに「再」が置かれる語順も完璧です。",
+    "pitfallNote": "時間詞「明年秋天」は「再」の前に置き、「*再明年秋天」としないのが正しい語順です。"
+  },
+  {
+    "id": "GC-S08-24",
+    "stageId": "stage08",
+    "type": "judge",
+    "difficulty": 2,
+    "grammarIds": ["G14-03"],
+    "lessonId": "L14",
+    "promptJa": "次の中国語文が文法的に正しいか判定してください。（意味：冷蔵庫のケーキは妹に全部食べられてしまいました。）",
+    "tokens": ["冰箱", "里", "的", "蛋糕", "被", "妹妹", "吃", "。"],
+    "sentenceZh": "冰箱里的蛋糕被妹妹吃。",
+    "errorIndices": [6],
+    "choices": ["正しい", "誤りがある"],
+    "correctedSentence": "冰箱里的蛋糕被妹妹吃光了。",
+    "acceptableSentences": [
+      "冰箱里的蛋糕被妹妹吃光了。",
+      "冰箱里的蛋糕被妹妹吃完了。",
+      "冰箱里的蛋糕被妹妹吃了。",
+      "冰箱里的蛋糕被妹妹吃掉了。"
+    ],
+    "isAlreadyCorrect": false,
+    "pinyin": "Bīngxiāng lǐ de dàngāo bèi mèimei chī guāng le.",
+    "explanation": "誤りがあります。「被」構文の動詞は裸のまま（吃）で文を終えることができず、「吃光了」「吃完了」「吃掉了」「吃了」のように補語や「了」が必要です。",
+    "pitfallNote": "受身文を見たら、動詞の後ろに結果補語や「了」がしっかり付いているか確認する癖をつけましょう。"
+  },
+  {
+    "id": "GC-S08-25",
+    "stageId": "stage08",
+    "type": "multi-error",
+    "difficulty": 3,
+    "grammarIds": ["G13-01", "G13-03"],
+    "lessonId": "L13",
+    "promptJa": "2か所の誤りを見つけて正しく直してください。（意味：もし明日天気がよければ、私たちはもう一度その美術館へ行きます。）",
+    "tokens": ["如果", "明天", "天气", "好", "，", "就", "我们", "又", "去", "那家", "美术馆", "。"],
+    "sentenceZh": "如果明天天气好，就我们又去那家美术馆。",
+    "errorIndices": [5, 7],
+    "correctedSentence": "如果明天天气好，我们就再去那家美术馆。",
+    "acceptableSentences": [
+      "如果明天天气好，我们就再去那家美术馆。",
+      "如果明天天气好的话，我们就再去那家美术馆。"
+    ],
+    "pinyin": "Rúguǒ míngtiān tiānqì hǎo, wǒmen jiù zài qù nà jiā měishùguǎn.",
+    "explanation": "①仮定文の後節に主語「我们」があるため、「就」は主語の後ろ（我们就）に置きます。②「明日」という未実現の反復なので「又」ではなく「再」を使います。",
+    "pitfallNote": "「S2＋就＋V」の語順と、未来の反復に「再」を使う2つのルールを同時に確認しましょう。"
+  },
+  {
+    "id": "GC-S08-26",
+    "stageId": "stage08",
+    "type": "multi-error",
+    "difficulty": 3,
+    "grammarIds": ["G14-01", "G14-02"],
+    "lessonId": "L14",
+    "promptJa": "2か所の誤りを見つけて正しく直してください。（意味：昨日買ったその辞書を、彼は丁寧に机の上に置きました。）",
+    "tokens": ["他", "仔细", "的", "把", "昨天", "买", "地", "词典", "放", "在", "桌上", "。"],
+    "sentenceZh": "他仔细的把昨天买地词典放在桌上。",
+    "errorIndices": [2, 6],
+    "correctedSentence": "他仔细地把昨天买的词典放在桌上。",
+    "acceptableSentences": [
+      "他仔细地把昨天买的词典放在桌上。",
+      "他把昨天买的词典仔细地放在桌上。"
+    ],
+    "pinyin": "Tā zǐxì de bǎ zuótiān mǎi de cídiǎn fàng zài zhuōshang.",
+    "explanation": "①「仔细（丁寧に）」は後ろの動詞句（把……放在桌上）を修飾するため「地」を使います。②「昨天买」は名詞「词典」を修飾するため「的」を使います。",
+    "pitfallNote": "「的」と「地」が入れ替わってしまう典型的な混同です。後ろに来るのが名詞か動詞かで判断しましょう。"
+  },
+  {
+    "id": "GC-S08-27",
+    "stageId": "stage08",
+    "type": "multi-error",
+    "difficulty": 3,
+    "grammarIds": ["G13-02", "G14-03"],
+    "lessonId": "L14",
+    "promptJa": "2か所の誤りを見つけて正しく直してください。（意味：部屋が弟に散らかされたので、ちょっと片付けなければなりません。）",
+    "tokens": ["屋子", "被", "弟弟", "弄乱", "，", "我", "得", "收拾收拾", "一下", "。"],
+    "sentenceZh": "屋子被弟弟弄乱，我得收拾收拾一下。",
+    "errorIndices": [3, 8],
+    "correctedSentence": "屋子被弟弟弄乱了，我得收拾收拾。",
+    "acceptableSentences": [
+      "屋子被弟弟弄乱了，我得收拾收拾。",
+      "屋子被弟弟弄乱了，我得收拾一下。"
+    ],
+    "pinyin": "Wūzi bèi dìdi nòngluàn le, wǒ děi shōushi shōushi.",
+    "explanation": "①「被」構文の末尾には完了・変化の「了」を補って「弄乱了」とします。②「收拾」は2音節動詞の重ね型「收拾收拾」にするか「收拾一下」のどちらかにします。",
+    "pitfallNote": "受身文の「了」の脱落防止と、2音節動詞重ね型（ABAB）の正確な形をマスターしましょう。"
+  }
+]

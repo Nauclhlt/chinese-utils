@@ -1,0 +1,65 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://kyoto-call-chinese-learning/schemas/work.schema.json",
+  "title": "LiteratureWork",
+  "type": "object",
+  "required": ["schemaVersion", "metadata", "characters", "backgroundNotes", "glossary", "chapters"],
+  "properties": {
+    "schemaVersion": { "type": "string", "const": "1.0.0" },
+    "metadata": {
+      "type": "object",
+      "required": [
+        "id",
+        "titleZh",
+        "titlePinyin",
+        "titleJa",
+        "author",
+        "script",
+        "genres",
+        "synopsis",
+        "estimatedDifficulty",
+        "difficultyBasis",
+        "charCount",
+        "chapterCount",
+        "rights",
+        "createdAt",
+        "updatedAt"
+      ],
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-_]{1,64}$" },
+        "titleZh": { "type": "string", "minLength": 1 },
+        "titlePinyin": { "type": "string", "minLength": 1 },
+        "titleJa": { "type": "string", "minLength": 1 },
+        "subtitle": { "type": "string" },
+        "author": { "type": "string", "minLength": 1 },
+        "authorNote": { "type": "string" },
+        "script": { "type": "string", "enum": ["zh-Hans", "zh-Hant"] },
+        "genres": { "type": "array", "minItems": 1, "items": { "type": "string" } },
+        "synopsis": { "type": "string", "minLength": 1 },
+        "coverImage": { "type": "string" },
+        "coverAlt": { "type": "string" },
+        "estimatedDifficulty": { "type": "string", "minLength": 1 },
+        "difficultyBasis": { "type": "string", "minLength": 1 },
+        "charCount": { "type": "integer", "minimum": 1 },
+        "chapterCount": { "type": "integer", "minimum": 1 },
+        "rights": {
+          "type": "object",
+          "required": ["status", "notice", "redistributableInRepo"],
+          "properties": {
+            "status": { "type": "string", "enum": ["original", "public-domain", "licensed", "personal-local"] },
+            "notice": { "type": "string", "minLength": 1 },
+            "redistributableInRepo": { "type": "boolean" }
+          }
+        },
+        "createdAt": { "type": "string" },
+        "updatedAt": { "type": "string" }
+      }
+    },
+    "characters": { "type": "array" },
+    "backgroundNotes": { "type": "array" },
+    "timeline": { "type": "array" },
+    "glossary": { "type": "array", "minItems": 1 },
+    "chapters": { "type": "array", "minItems": 1 },
+    "practiceItems": { "type": "array" }
+  }
+}

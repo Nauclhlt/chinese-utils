@@ -1,0 +1,544 @@
+[
+  {
+    "id": "GC-S09-01",
+    "stageId": "stage09",
+    "type": "spot",
+    "difficulty": 2,
+    "grammarIds": ["G15-04"],
+    "lessonId": "L15",
+    "promptJa": "誤っている箇所をタップしてください。（意味：子供たちは大急ぎで運動場へ走り出していきました。）",
+    "tokens": ["孩子们", "急忙", "跑出去", "操场", "玩儿", "了", "。"],
+    "sentenceZh": "孩子们急忙跑出去操场玩儿了。",
+    "errorIndices": [2],
+    "correctedSentence": "孩子们急忙跑出操场去玩儿了。",
+    "acceptableSentences": [
+      "孩子们急忙跑出操场去玩儿了。",
+      "孩子们急忙跑出操场玩儿去了。"
+    ],
+    "pinyin": "Háizimen jímáng pǎo chū cāochǎng qù wánr le.",
+    "explanation": "複合方向補語（跑＋出去）が場所目的語（操场）をとるとき、場所詞は「出」と「去」の間に挟んで「跑出操场去」とします。",
+    "pitfallNote": "「*跑出去操场」のように「去 / 来」の後ろに場所目的語を置くことはできません。"
+  },
+  {
+    "id": "GC-S09-02",
+    "stageId": "stage09",
+    "type": "spot",
+    "difficulty": 2,
+    "grammarIds": ["G15-03"],
+    "lessonId": "L15",
+    "promptJa": "誤っている箇所をタップしてください。（意味：彼は部屋に入ってきても一言もしゃべりませんでした。）",
+    "tokens": ["他", "进屋", "以后", "，", "都", "没", "说", "什么", "。"],
+    "sentenceZh": "他进屋以后，都没说什么。",
+    "errorIndices": [7],
+    "correctedSentence": "他进屋以后，什么都没说。",
+    "acceptableSentences": [
+      "他进屋以后，什么都没说。",
+      "他进屋以后，什么也没说。"
+    ],
+    "pinyin": "Tā jìnwū yǐhòu, shénme dōu méi shuō.",
+    "explanation": "「什么＋都/也＋不/没＋V」で全面否定を表すとき、疑問詞「什么」は目的語であっても必ず「都 / 也」の前に置きます。",
+    "pitfallNote": "「*都没说什么」では全称否定の意味にならず不自然になります。疑問詞を動詞の前に出すのが鉄則です。"
+  },
+  {
+    "id": "GC-S09-03",
+    "stageId": "stage09",
+    "type": "spot",
+    "difficulty": 2,
+    "grammarIds": ["G16-03"],
+    "lessonId": "L16",
+    "promptJa": "誤っている箇所をタップしてください。（意味：このノートパソコンは軽くてとても薄いです。）",
+    "tokens": ["这台", "笔记本", "电脑", "又", "轻", "又", "很", "薄", "。"],
+    "sentenceZh": "这台笔记本电脑又轻又很薄。",
+    "errorIndices": [6],
+    "correctedSentence": "这台笔记本电脑又轻又薄。",
+    "acceptableSentences": [
+      "这台笔记本电脑又轻又薄。",
+      "这台电脑又轻又薄。"
+    ],
+    "pinyin": "Zhè tái bǐjìběn diànnǎo yòu qīng yòu báo.",
+    "explanation": "「又 A 又 B」の並立構文では、A や B の形容詞の前に程度副詞「很」を付けません。「又轻又薄」とします。",
+    "pitfallNote": "「又……又……」の枠組み自体が十分性を帯びているため、「很」を入れると不自然になります。"
+  },
+  {
+    "id": "GC-S09-04",
+    "stageId": "stage09",
+    "type": "spot",
+    "difficulty": 2,
+    "grammarIds": ["G16-05"],
+    "lessonId": "L16",
+    "promptJa": "誤っている箇所をタップしてください。（意味：外で強い風が吹いている。どうりで部屋の中がこんなに寒いわけだ。）",
+    "tokens": ["外面", "刮", "大风", "呢", "，", "怪不得", "屋里", "昨天", "那么", "冷", "。"],
+    "sentenceZh": "外面刮大风呢，怪不得屋里昨天那么冷。",
+    "errorIndices": [7],
+    "correctedSentence": "外面刮大风呢，怪不得屋里现在那么冷。",
+    "acceptableSentences": [
+      "外面刮大风呢，怪不得屋里现在那么冷。",
+      "外面刮大风呢，怪不得屋里那么冷。"
+    ],
+    "pinyin": "Wàimiàn guā dàfēng ne, guàibude wūlǐ xiànzài nàme lěng.",
+    "explanation": "前件「外面刮大风呢（今外で強風が吹いている）」と現在の様子「那么冷」に対して、過去の「昨天」が紛れ込んで時間が噛み合っていません。",
+    "pitfallNote": "「怪不得」は目の前の事実や既知の現象に対して原因に納得する表現なので、前後の時間関係が一致している必要があります。"
+  },
+  {
+    "id": "GC-S09-05",
+    "stageId": "stage09",
+    "type": "replace",
+    "difficulty": 2,
+    "grammarIds": ["G15-02"],
+    "lessonId": "L15",
+    "promptJa": "誤っている語句を正しい表現に置き換えてください。（意味：日本語のほかに、私は中国語と韓国語も学んでいます。）",
+    "tokens": ["除了", "日语", "以外", "，", "我", "都", "学", "汉语", "和", "韩语", "。"],
+    "sentenceZh": "除了日语以外，我都学汉语和韩语。",
+    "errorIndices": [5],
+    "choices": ["还", "全", "才", "就"],
+    "correctedSentence": "除了日语以外，我还学汉语和韩语。",
+    "acceptableSentences": [
+      "除了日语以外，我还学汉语和韩语。",
+      "除了日语以外，我也学汉语和韩语。",
+      "除了日语之外，我还学汉语和韩语。"
+    ],
+    "pinyin": "Chúle Rìyǔ yǐwài, wǒ hái xué Hànyǔ hé Hányǔ.",
+    "explanation": "「除了……以外」で「〜のほかに（追加）」を表す場合、後半の節には「都」ではなく「还」または「也」を使います。",
+    "pitfallNote": "除外（「〜を除いてみな」）なら「都」、追加（「〜のほかに〜も」）なら「还 / 也」と呼応語を明確に分けます。"
+  },
+  {
+    "id": "GC-S09-06",
+    "stageId": "stage09",
+    "type": "replace",
+    "difficulty": 2,
+    "grammarIds": ["G15-04"],
+    "lessonId": "L15",
+    "promptJa": "誤っている語句を正しい表現に置き換えてください。（意味：授業のベルが鳴ったので、みんな席から立ち上がりました。）",
+    "tokens": ["上课", "铃", "响", "了", "，", "大家", "都", "站", "起去", "了", "。"],
+    "sentenceZh": "上课铃响了，大家都站起去了。",
+    "errorIndices": [8],
+    "choices": ["起来", "下来", "出来", "过来"],
+    "correctedSentence": "上课铃响了，大家都站起来了。",
+    "acceptableSentences": [
+      "上课铃响了，大家都站起来了。"
+    ],
+    "pinyin": "Shàngkè líng xiǎng le, dàjiā dōu zhàn qǐlái le.",
+    "explanation": "方向動詞「起」と組み合わさるのは常に「来（起来）」のみです。「*起去」という複合方向補語は存在しません。",
+    "pitfallNote": "「上・下・进・出・回・过」は来/去の両方と結びつきますが、「起」だけは「起来」しかありません。"
+  },
+  {
+    "id": "GC-S09-07",
+    "stageId": "stage09",
+    "type": "replace",
+    "difficulty": 2,
+    "grammarIds": ["G16-01"],
+    "lessonId": "L16",
+    "promptJa": "誤っている語句を正しい表現に置き換えてください。（意味：今夜は用事があるので、飲み会に参加できません。）",
+    "tokens": ["今晚", "我", "有", "事", "，", "所以", "不会", "参加", "聚会", "了", "。"],
+    "sentenceZh": "今晚我有事，所以不会参加聚会了。",
+    "errorIndices": [6],
+    "choices": ["不能", "不要", "不用", "没会"],
+    "correctedSentence": "今晚我有事，所以不能参加聚会了。",
+    "acceptableSentences": [
+      "今晚我有事，所以不能参加聚会了。",
+      "今晚我有事，所以去不了聚会了。"
+    ],
+    "pinyin": "Jīnwǎn wǒ yǒu shì, suǒyǐ bù néng cānjiā jùhuì le.",
+    "explanation": "「用事があって参加できない」という客観的条件による不可能を表すには「不能」を使います。「不会」は能力の欠如や「〜しないだろう」という推量になります。",
+    "pitfallNote": "「行けない・できない（事情により）」は「不能」、「泳げない（技能がない）」は「不会」と使い分けます。"
+  },
+  {
+    "id": "GC-S09-08",
+    "stageId": "stage09",
+    "type": "replace",
+    "difficulty": 2,
+    "grammarIds": ["G16-02"],
+    "lessonId": "L16",
+    "promptJa": "誤っている語句を正しい表現に置き換えてください。（意味：コーチは私たちに毎日3キロ走るよう指示しました。）",
+    "tokens": ["教练", "使", "我们", "每天", "跑", "三", "公里", "。"],
+    "sentenceZh": "教练使我们每天跑三公里。",
+    "errorIndices": [1],
+    "choices": ["让", "给", "把", "跟"],
+    "correctedSentence": "教练让我们每天跑三公里。",
+    "acceptableSentences": [
+      "教练让我们每天跑三公里。",
+      "教练叫我们每天跑三公里。"
+    ],
+    "pinyin": "Jiàoliàn ràng wǒmen měitiān pǎo sān gōnglǐ.",
+    "explanation": "人に対して具体的な動作を指示・依頼する使役文では「让」または「叫」を使います。「使」は主に感情・変化の原因を表すときに用います。",
+    "pitfallNote": "「使」は「这件事使我很高兴（この事は私を喜ばせた）」のような心理・状態の誘発に使い、具体的な命令・許可には「让 / 叫」を使います。"
+  },
+  {
+    "id": "GC-S09-09",
+    "stageId": "stage09",
+    "type": "delete",
+    "difficulty": 1,
+    "grammarIds": ["G15-01"],
+    "lessonId": "L15",
+    "promptJa": "不要な語句を1つ削除してください。（意味：空が暗くなってきたので、どうやら雨が降りそうです。）",
+    "tokens": ["天", "阴", "下来", "了", "，", "很", "好像", "要", "下雨", "了", "。"],
+    "sentenceZh": "天阴下来了，很好像要下雨了。",
+    "errorIndices": [5],
+    "correctedSentence": "天阴下来了，好像要下雨了。",
+    "acceptableSentences": [
+      "天阴下来了，好像要下雨了。"
+    ],
+    "pinyin": "Tiān yīn xiàlái le, hǎoxiàng yào xiàyǔ le.",
+    "explanation": "推量の「好像（どうやら〜のようだ）」の前に程度副詞「很」を付けることはできません（「*很好像」は誤用）。",
+    "pitfallNote": "「很像（とても似ている）」は言えますが、「好像」の前には「很」を付けないので混同しないようにしましょう。"
+  },
+  {
+    "id": "GC-S09-10",
+    "stageId": "stage09",
+    "type": "delete",
+    "difficulty": 2,
+    "grammarIds": ["G16-05"],
+    "lessonId": "L16",
+    "promptJa": "不要な語句を1つ削除してください。（意味：道が工事中なので、どうりでこんなに渋滞しているわけだ。）",
+    "tokens": ["原来", "前面", "在", "修路", "，", "怪不得", "所以", "这么", "堵车", "。"],
+    "sentenceZh": "原来前面在修路，怪不得所以这么堵车。",
+    "errorIndices": [6],
+    "correctedSentence": "原来前面在修路，怪不得这么堵车。",
+    "acceptableSentences": [
+      "原来前面在修路，怪不得这么堵车。"
+    ],
+    "pinyin": "Yuánlái qiánmiàn zài xiūlù, guàibude zhème dǔchē.",
+    "explanation": "「怪不得（どうりで〜なわけだ）」自体に因果の納得が含まれているため、「所以」や「因为」を重複して使う必要はありません。",
+    "pitfallNote": "「怪不得」を見たら、余分な「因为」や「所以」が混ざっていないか確認しましょう。"
+  },
+  {
+    "id": "GC-S09-11",
+    "stageId": "stage09",
+    "type": "delete",
+    "difficulty": 2,
+    "grammarIds": ["G15-03"],
+    "lessonId": "L15",
+    "promptJa": "不要な語句を1つ削除してください。（意味：この件については、クラスのだれもがみな知っています。）",
+    "tokens": ["这件", "事", "，", "班", "里", "谁", "都", "知道", "吗", "。"],
+    "sentenceZh": "这件事，班里谁都知道吗。",
+    "errorIndices": [8],
+    "correctedSentence": "这件事，班里谁都知道。",
+    "acceptableSentences": [
+      "这件事，班里谁都知道。"
+    ],
+    "pinyin": "Zhè jiàn shì, bān lǐ shéi dōu zhīdào.",
+    "explanation": "「谁都〜（誰でもみな〜）」は疑問文ではなく平叙文（全称肯定）なので、文末に疑問の助詞「吗」は不要です。",
+    "pitfallNote": "疑問詞「谁・什么」が入っていても、「都 / 也」と呼応する強調構文は平叙文になります。"
+  },
+  {
+    "id": "GC-S09-12",
+    "stageId": "stage09",
+    "type": "insert",
+    "difficulty": 2,
+    "grammarIds": ["G15-02"],
+    "lessonId": "L15",
+    "promptJa": "文中の適切な位置に脱落している語句を挿入してください。（意味：月曜日を除いて、他の日はみな空きがあります。）",
+    "tokens": ["除了", "星期一", "，", "别的", "时间", "我", "都", "有空", "。"],
+    "sentenceZh": "除了星期一，别的时间我都有空。",
+    "insertIndex": 2,
+    "choices": ["以外", "以前", "以后", "以上"],
+    "correctedSentence": "除了星期一以外，别的时间我都有空。",
+    "acceptableSentences": [
+      "除了星期一以外，别的时间我都有空。",
+      "除了星期一之外，别的时间我都有空。",
+      "除了星期一，别的时间我都有空。"
+    ],
+    "pinyin": "Chúle xīngqīyī yǐwài, biéde shíjiān wǒ dōu yǒukòng.",
+    "explanation": "「除了……以外 / 之外」で「〜を除いて」という例外の範囲を明確にする表現です。（口語では省略することもありますが、正式には「以外 / 之外」を補います。）",
+    "pitfallNote": "「以外 / 之外」を「除了」の前に置くことはできず、必ず「除了＋X＋以外」の順になります。"
+  },
+  {
+    "id": "GC-S09-13",
+    "stageId": "stage09",
+    "type": "insert",
+    "difficulty": 2,
+    "grammarIds": ["G16-04"],
+    "lessonId": "L16",
+    "promptJa": "文中の適切な位置に脱落している語句を挿入してください。（意味：このレストランは美味しいだけでなく、値段も安いです。）",
+    "tokens": ["这家", "饭馆", "不但", "菜", "好吃", "，", "价钱", "也", "很", "便宜", "。"],
+    "sentenceZh": "这家饭馆不但菜好吃，价钱也很便宜。",
+    "insertIndex": 6,
+    "choices": ["而且", "可是", "所以", "虽然"],
+    "correctedSentence": "这家饭馆不但菜好吃，而且价钱也很便宜。",
+    "acceptableSentences": [
+      "这家饭馆不但菜好吃，而且价钱也很便宜。"
+    ],
+    "pinyin": "Zhè jiā fànguǎn búdàn cài hǎochī, érqiě jiàqian yě hěn piányi.",
+    "explanation": "「不但……，而且……」は累加複文の定番セットです。前節に「不但」があるときは後節の冒頭に「而且」を補います。",
+    "pitfallNote": "「而且」は接続詞なので、後節の主語（价钱）の前に置きます。"
+  },
+  {
+    "id": "GC-S09-14",
+    "stageId": "stage09",
+    "type": "insert",
+    "difficulty": 2,
+    "grammarIds": ["G15-01"],
+    "lessonId": "L15",
+    "promptJa": "文中の適切な位置に脱落している語句を挿入してください。（意味：この雲はまるで綿菓子のように見えます。）",
+    "tokens": ["这朵", "云", "像", "棉花糖", "，", "真", "可爱", "！"],
+    "sentenceZh": "这朵云像棉花糖，真可爱！",
+    "insertIndex": 4,
+    "choices": ["一样", "一起", "一点", "一下"],
+    "correctedSentence": "这朵云像棉花糖一样，真可爱！",
+    "acceptableSentences": [
+      "这朵云像棉花糖一样，真可爱！",
+      "这朵云像棉花糖似的，真可爱！",
+      "这朵云好像棉花糖一样，真可爱！"
+    ],
+    "pinyin": "Zhè duǒ yún xiàng miánhuatáng yíyàng, zhēn kě'ài!",
+    "explanation": "比喩の「像 A 一样（まるで A のようだ）」では、文末・節末に「一样」または「似的」を添えると比喩の響きが自然で豊かになります。",
+    "pitfallNote": "「像……一样」は比喩、「跟……一样」は同等比較と区別して使いましょう。"
+  },
+  {
+    "id": "GC-S09-15",
+    "stageId": "stage09",
+    "type": "reorder",
+    "difficulty": 2,
+    "grammarIds": ["G16-04"],
+    "lessonId": "L16",
+    "promptJa": "語順を正しく並べ替えてください。（意味：彼女は歌が上手なだけでなく、ピアノも弾けます。）",
+    "tokens": ["不但", "她", "唱", "歌", "好听", "，", "而且", "还", "会", "弹", "钢琴", "。"],
+    "sentenceZh": "不但她唱歌好听，而且还会弹钢琴。",
+    "correctedSentence": "她不但唱歌好听，而且还会弹钢琴。",
+    "acceptableSentences": [
+      "她不但唱歌好听，而且还会弹钢琴。",
+      "她不但唱歌唱得好听，而且还会弹钢琴。"
+    ],
+    "pinyin": "Tā búdàn chàng gē hǎotīng, érqiě hái huì tán gāngqín.",
+    "explanation": "前後節の主語が同じ（她）ときは、主語を「不但」の前に出して「她不但……，而且……」とするのが正しい語順です。",
+    "pitfallNote": "同主語なら「S＋不但……，而且……」、異主語なら「不但＋S1……，而且＋S2……」と位置が入れ替わります。"
+  },
+  {
+    "id": "GC-S09-16",
+    "stageId": "stage09",
+    "type": "reorder",
+    "difficulty": 2,
+    "grammarIds": ["G16-04"],
+    "lessonId": "L16",
+    "promptJa": "語順を正しく並べ替えてください。（意味：先生だけでなく、学生たちもこの提案に賛成しています。）",
+    "tokens": ["老师", "不但", "同意", "，", "而且", "同学们", "也", "赞成", "。"],
+    "sentenceZh": "老师不但同意，而且同学们也赞成。",
+    "correctedSentence": "不但老师同意，而且同学们也赞成。",
+    "acceptableSentences": [
+      "不但老师同意，而且同学们也赞成。"
+    ],
+    "pinyin": "Búdàn lǎoshī tóngyì, érqiě tóngxuémen yě zànchéng.",
+    "explanation": "前後節の主語が異なる（老师 と 同学们）場合は、最初の主語の前に「不但」を置いて「不但＋S1……，而且＋S2……」とします。",
+    "pitfallNote": "主語が2つあるときは「S1＋不但」にすると後節の主語と釣り合わなくなります。"
+  },
+  {
+    "id": "GC-S09-17",
+    "stageId": "stage09",
+    "type": "reorder",
+    "difficulty": 2,
+    "grammarIds": ["G15-02"],
+    "lessonId": "L15",
+    "promptJa": "語順を正しく並べ替えてください。（意味：水泳のほかに、私はテニスもよくします。）",
+    "tokens": ["游泳", "除了", "以外", "，", "我", "也", "常", "打", "网球", "。"],
+    "sentenceZh": "游泳除了以外，我也常打网球。",
+    "correctedSentence": "除了游泳以外，我也常打网球。",
+    "acceptableSentences": [
+      "除了游泳以外，我也常打网球。",
+      "除了游泳之外，我也常打网球。"
+    ],
+    "pinyin": "Chúle yóuyǒng yǐwài, wǒ yě cháng dǎ wǎngqiú.",
+    "explanation": "「除了」は前置詞的に例外・追加対象の前に置くため、必ず「除了＋対象＋以外」の語順になります。",
+    "pitfallNote": "「除了」を後ろに回さず、対象を「除了……以外」でサンドイッチにします。"
+  },
+  {
+    "id": "GC-S09-18",
+    "stageId": "stage09",
+    "type": "reorder",
+    "difficulty": 2,
+    "grammarIds": ["G16-02"],
+    "lessonId": "L16",
+    "promptJa": "語順を正しく並べ替えてください。（意味：医者は父にしばらくお酒を飲まないよう言いました。）",
+    "tokens": ["医生", "让", "爸爸", "这几天", "喝", "酒", "别", "。"],
+    "sentenceZh": "医生让爸爸这几天喝酒别。",
+    "correctedSentence": "医生让爸爸这几天别喝酒。",
+    "acceptableSentences": [
+      "医生让爸爸这几天别喝酒。",
+      "医生让爸爸这几天不要喝酒。"
+    ],
+    "pinyin": "Yīshēng ràng bàba zhè jǐ tiān bié hējiǔ.",
+    "explanation": "否定・禁止を表す副詞「别」は動詞（喝酒）の前に置きます。「让＋対象＋别＋V」の語順です。",
+    "pitfallNote": "「不让＋対象＋V（〜させない）」と「让＋対象＋别/不＋V（〜しないようにさせる）」の違いも覚えておきましょう。"
+  },
+  {
+    "id": "GC-S09-19",
+    "stageId": "stage09",
+    "type": "rewrite",
+    "difficulty": 3,
+    "grammarIds": ["G15-01"],
+    "lessonId": "L15",
+    "promptJa": "誤りを直して自然な中国語文に書き換えてください。（意味：この犬はオオカミにはまったく似ていません。）",
+    "tokens": ["这只", "小狗", "不", "好像", "狼", "。"],
+    "sentenceZh": "这只小狗不好像狼。",
+    "correctedSentence": "这只小狗不像狼。",
+    "acceptableSentences": [
+      "这只小狗不像狼。",
+      "这只小狗一点儿也不像狼。"
+    ],
+    "pinyin": "Zhè zhī xiǎogǒu bú xiàng láng.",
+    "explanation": "「似ている」の否定は「*不好像」とは言わず、「不像」を使います。「好像」自体は直接「不」で否定しません。",
+    "pitfallNote": "推量の否定を言いたいときは「好像不 / 好像没……」と「好像」の後ろを否定します。"
+  },
+  {
+    "id": "GC-S09-20",
+    "stageId": "stage09",
+    "type": "rewrite",
+    "difficulty": 3,
+    "grammarIds": ["G16-03"],
+    "lessonId": "L16",
+    "promptJa": "論理的な矛盾を直して自然な文に書き換えてください。（意味：この鞄はデザインはきれいですが、値段が少し高いです。）",
+    "tokens": ["这个", "包", "又", "漂亮", "又", "贵", "。"],
+    "sentenceZh": "这个包又漂亮又贵。",
+    "correctedSentence": "这个包虽然漂亮，但是有点儿贵。",
+    "acceptableSentences": [
+      "这个包虽然漂亮，但是有点儿贵。",
+      "这个包很漂亮，但是有点儿贵。",
+      "这个包很漂亮，就是有点儿贵。",
+      "这个包漂亮是漂亮，但是有点儿贵。"
+    ],
+    "pinyin": "Zhège bāo suīrán piàoliang, dànshì yǒudiǎnr guì.",
+    "explanation": "「又……又……」はプラス同士・マイナス同士のように同じ方向の評価を並べるときに使います。長所（漂亮）と短所（贵）を並べるには逆接（虽然……，但是……）が自然です。",
+    "pitfallNote": "プラスとマイナスの性質が同居するときは「又……又……」ではなく逆接表現を使いましょう。"
+  },
+  {
+    "id": "GC-S09-21",
+    "stageId": "stage09",
+    "type": "rewrite",
+    "difficulty": 3,
+    "grammarIds": ["G15-04"],
+    "lessonId": "L15",
+    "promptJa": "文の誤りを直して自然な中国語文に書き換えてください。（意味：どんなに難しくても、私たちは最後までやり抜きます。）",
+    "tokens": ["不管", "多", "难", "，", "我们", "都", "要", "坚持", "出去", "。"],
+    "sentenceZh": "不管多难，我们都要坚持出去。",
+    "correctedSentence": "不管多难，我们都要坚持下去。",
+    "acceptableSentences": [
+      "不管多难，我们都要坚持下去。"
+    ],
+    "pinyin": "Bùguǎn duō nán, wǒmen dōu yào jiānchí xiàqù.",
+    "explanation": "複合方向補語の派生義として「〜し続ける」を表すときは「〜下去（坚持下去）」を使います。「出去」は文字通り外へ出る意味になってしまいます。",
+    "pitfallNote": "「想起来（思い出す）」「看出来（見抜く）」「坚持下去（やり続ける）」など複合方向補語の派生義を正確に区別しましょう。"
+  },
+  {
+    "id": "GC-S09-22",
+    "stageId": "stage09",
+    "type": "judge",
+    "difficulty": 2,
+    "grammarIds": ["G15-04"],
+    "lessonId": "L15",
+    "promptJa": "次の中国語文が文法的に正しいか判定してください。（意味：急に大事な用事を思い出しました。）",
+    "tokens": ["我", "突然", "想", "起来", "一", "件", "重要", "的", "事", "。"],
+    "sentenceZh": "我突然想起来一件重要的事。",
+    "choices": ["正しい", "誤りがある"],
+    "correctedSentence": "我突然想起来一件重要的事。",
+    "acceptableSentences": [
+      "我突然想起来一件重要的事。",
+      "我突然想起一件重要的事来。"
+    ],
+    "isAlreadyCorrect": true,
+    "pinyin": "Wǒ tūrán xiǎng qǐlái yí jiàn zhòngyào de shì.",
+    "explanation": "この文は正しい文です。事物目的語（一件重要的事）をとる場合、「想起来＋目的語」と「想起＋目的語＋来」のどちらも文法的であり自然です。",
+    "pitfallNote": "場所目的語は必ず「来/去」の前に置きますが、事物目的語は「起来」の後ろに置いても問題ありません。"
+  },
+  {
+    "id": "GC-S09-23",
+    "stageId": "stage09",
+    "type": "judge",
+    "difficulty": 2,
+    "grammarIds": ["G15-03"],
+    "lessonId": "L15",
+    "promptJa": "次の中国語文が文法的に正しいか判定してください。（意味：日曜日はどこへも行きたくありません。）",
+    "tokens": ["星期天", "我", "哪儿", "也", "想", "去", "。"],
+    "sentenceZh": "星期天我哪儿也想去。",
+    "errorIndices": [4],
+    "choices": ["正しい", "誤りがある"],
+    "correctedSentence": "星期天我哪儿也不想去。",
+    "acceptableSentences": [
+      "星期天我哪儿也不想去。",
+      "星期天我哪儿都不想去。"
+    ],
+    "isAlreadyCorrect": false,
+    "pinyin": "Xīngqītiān wǒ nǎr yě bù xiǎng qù.",
+    "explanation": "誤りがあります。「疑問詞＋也＋V」は否定文専用で、「どこへも行きたい（肯定）」は「哪儿都想去」と「都」を使います。否定（行きたくない）なら「哪儿也不想去」とします。",
+    "pitfallNote": "「也」は否定文（〜も〜ない）にしか使えません。肯定の全称（「どこへでも〜」）には必ず「都」を使います。"
+  },
+  {
+    "id": "GC-S09-24",
+    "stageId": "stage09",
+    "type": "judge",
+    "difficulty": 2,
+    "grammarIds": ["G16-01"],
+    "lessonId": "L16",
+    "promptJa": "次の中国語文が文法的に正しいか判定してください。（意味：ここは禁煙なので、タバコを吸ってはいけません。）",
+    "tokens": ["这儿", "禁止", "吸烟", "，", "你", "不会", "在", "这儿", "抽烟", "。"],
+    "sentenceZh": "这儿禁止吸烟，你不会在这儿抽烟。",
+    "errorIndices": [5],
+    "choices": ["正しい", "誤りがある"],
+    "correctedSentence": "这儿禁止吸烟，你不能在这儿抽烟。",
+    "acceptableSentences": [
+      "这儿禁止吸烟，你不能在这儿抽烟。",
+      "这儿禁止吸烟，你不可以在这儿抽烟。"
+    ],
+    "isAlreadyCorrect": false,
+    "pinyin": "Zhèr jìnzhǐ xīyān, nǐ bù néng zài zhèr chōuyān.",
+    "explanation": "誤りがあります。ルール上の禁止・不許可を表すときは「不会」ではなく「不能」または「不可以」を使います。",
+    "pitfallNote": "許可の否定は「不能 / 不可以」であり、「不会」は「能力がない・〜しないだろう」という意味になります。"
+  },
+  {
+    "id": "GC-S09-25",
+    "stageId": "stage09",
+    "type": "multi-error",
+    "difficulty": 3,
+    "grammarIds": ["G15-02", "G16-04"],
+    "lessonId": "L15",
+    "promptJa": "2か所の誤りを見つけて正しく直してください。（意味：英語のほかに、彼はスペイン語も話せるし、フランス語も話せます。）",
+    "tokens": ["除了", "英语", "以外", "，", "不但", "他", "会", "说", "西班牙语", "，", "而且", "也", "说", "法语", "。"],
+    "sentenceZh": "除了英语以外，不但他会说西班牙语，而且也说法语。",
+    "errorIndices": [4, 12],
+    "correctedSentence": "除了英语以外，他不但会说西班牙语，而且也会说法语。",
+    "acceptableSentences": [
+      "除了英语以外，他不但会说西班牙语，而且也会说法语。",
+      "除了英语以外，他不但会说西班牙语，而且还会说法语。"
+    ],
+    "pinyin": "Chúle Yīngyǔ yǐwài, tā búdàn huì shuō Xībānyáyǔ, érqiě yě huì shuō Fǎyǔ.",
+    "explanation": "①前後節の主語が同じ「他」なので「他不但……」の語順にします。②後節でも習得技能「〜できる」を表すため「会」を補い「而且也会说……」とします。",
+    "pitfallNote": "同主語の「不但……，而且……」では主語を「不但」の前に出す点と、助動詞の対応に気をつけましょう。"
+  },
+  {
+    "id": "GC-S09-26",
+    "stageId": "stage09",
+    "type": "multi-error",
+    "difficulty": 3,
+    "grammarIds": ["G15-03", "G16-03"],
+    "lessonId": "L15",
+    "promptJa": "2か所の誤りを見つけて正しく直してください。（意味：この店の料理は安くて美味しく、誰でもみなここで食べたがります。）",
+    "tokens": ["这家", "店", "的", "菜", "又", "很", "便宜", "又", "好吃", "，", "谁", "也", "想", "来", "吃", "。"],
+    "sentenceZh": "这家店的菜又很便宜又好吃，谁也想来吃。",
+    "errorIndices": [5, 11],
+    "correctedSentence": "这家店的菜又便宜又好吃，谁都想来吃。",
+    "acceptableSentences": [
+      "这家店的菜又便宜又好吃，谁都想来吃。"
+    ],
+    "pinyin": "Zhè jiā diàn de cài yòu piányi yòu hǎochī, shéi dōu xiǎng lái chī.",
+    "explanation": "①「又……又……」の中に程度副詞「很」は入れないため削除します。②肯定文の「誰でもみな」は「谁也」ではなく「谁都」を使います。",
+    "pitfallNote": "「又……又……」に「很」を入れないことと、肯定全称は「都」（否定なら「都/也」）という2点を押さえましょう。"
+  },
+  {
+    "id": "GC-S09-27",
+    "stageId": "stage09",
+    "type": "multi-error",
+    "difficulty": 3,
+    "grammarIds": ["G16-02", "G16-05"],
+    "lessonId": "L16",
+    "promptJa": "2か所の誤りを見つけて正しく直してください。（意味：先生が私たちに宿題を3回書き直させた。どうりで手がこんなに痛いわけだ。）",
+    "tokens": ["老师", "使", "我们", "把", "作业", "抄", "三", "遍", "，", "怪不得", "所以", "手", "这么", "疼", "。"],
+    "sentenceZh": "老师使我们把作业抄三遍，怪不得所以手这么疼。",
+    "errorIndices": [1, 10],
+    "correctedSentence": "老师让我们把作业抄三遍，怪不得手这么疼。",
+    "acceptableSentences": [
+      "老师让我们把作业抄三遍，怪不得手这么疼。",
+      "老师叫我们把作业抄三遍，怪不得手这么疼。"
+    ],
+    "pinyin": "Lǎoshī ràng wǒmen bǎ zuòyè chāo sān biàn, guàibude shǒu zhème téng.",
+    "explanation": "①具体的な作業を命じる使役には「使」ではなく「让 / 叫」を使います。②「怪不得」の後ろに「所以」は不要なので削除します。",
+    "pitfallNote": "使役動詞の使い分け（让/叫 vs 使）と、「怪不得」に因果接続詞を重ねないルールを同時に確認できます。"
+  }
+]

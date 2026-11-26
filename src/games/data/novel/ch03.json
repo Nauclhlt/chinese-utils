@@ -1,0 +1,3702 @@
+{
+  "id": "ch03",
+  "number": 3,
+  "titleZh": "停电夜的残响",
+  "titleJa": "停電の夜の残響",
+  "synopsis": "嵐の夕方、旧天文台の図書室で星図を整理していた林澄と蘇晩星は、突然の落雷と停電に見舞われる。懐中電灯の淡い光の下、晩星は幼い頃に失った姉との記憶、雨の夜にだけ視えてしまう「光の残響」、そして8月に治療のためこの街を離れる予定であることを静かに打ち明ける。",
+  "startLineId": "ch03_01",
+  "lines": [
+    {
+      "id": "ch03_01",
+      "chapterId": "ch03",
+      "speaker": "",
+      "speakerId": "narrator",
+      "textZh": "傍晚的风突然急了起来，雨点啪啪地敲打着旧天文台的高窗。",
+      "pinyin": "Bàngwǎn de fēng tūrán jí le qǐlái, yǔdiǎn pāpā de qiāodǎ zhe jiù tiānwéntái de gāochuāng.",
+      "textJa": "夕暮れの風が急に強まり、雨粒が旧天文台の高い窓をぱちぱちと叩き始めた。",
+      "background": "observatory_rain",
+      "cg": null,
+      "characters": [
+        {
+          "characterId": "wanxing",
+          "expression": "neutral",
+          "position": "center"
+        }
+      ],
+      "bgm": "emotional",
+      "ambient": "rain",
+      "sfx": "none",
+      "transition": "fade",
+      "tokens": [
+        {
+          "word": "傍晚",
+          "pinyin": "bàngwǎn",
+          "pos": "名詞",
+          "meaningJa": "夕方・夕暮れ",
+          "contextualNote": "日が沈みかける時間帯を指す。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "突然",
+          "pinyin": "tūrán",
+          "pos": "副詞",
+          "meaningJa": "突然・急に",
+          "contextualNote": "天候の急変を表している。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "雨点",
+          "pinyin": "yǔdiǎn",
+          "pos": "名詞",
+          "meaningJa": "雨粒",
+          "contextualNote": "一粒一粒の雨のしずく。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "敲打",
+          "pinyin": "qiāodǎ",
+          "pos": "動詞",
+          "meaningJa": "叩く・打ちつける",
+          "contextualNote": "雨がガラスを激しく打つ描写。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "天文台",
+          "pinyin": "tiānwéntái",
+          "pos": "名詞",
+          "meaningJa": "天文台",
+          "contextualNote": "物語の主な舞台である古い施設。",
+          "source": "novel-extra"
+        }
+      ],
+      "grammarNotes": [
+        {
+          "pattern": "形容词 + 起来",
+          "title": "「〜起来」：状態の変化の始まり",
+          "explanation": "「急了起来」で「急に強くなってきた」という状態の変化・開始を表します。"
+        }
+      ],
+      "nextLineId": "ch03_02"
+    },
+    {
+      "id": "ch03_02",
+      "chapterId": "ch03",
+      "speaker": "",
+      "speakerId": "narrator",
+      "textZh": "屋里的台灯映着泛黄的星图，我正把最后几册档案归回木架。",
+      "pinyin": "Wūli de táidēng yìng zhe fànhuáng de xīngtú, wǒ zhèng bǎ zuìhòu jǐ cè dàng'àn guīhuí mùjià.",
+      "textJa": "室内の電気スタンドが黄ばんだ星図を照らすなか、私は最後の数冊の資料を木製の棚に戻していた。",
+      "background": "observatory_rain",
+      "characters": [
+        {
+          "characterId": "wanxing",
+          "expression": "neutral",
+          "position": "center"
+        }
+      ],
+      "tokens": [
+        {
+          "word": "台灯",
+          "pinyin": "táidēng",
+          "pos": "名詞",
+          "meaningJa": "電気スタンド・デスクライト",
+          "contextualNote": "机の上に置く照明器具。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "泛黄",
+          "pinyin": "fànhuáng",
+          "pos": "動詞",
+          "meaningJa": "黄ばむ",
+          "contextualNote": "古い紙が年月で黄色みを帯びている様子。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "星图",
+          "pinyin": "xīngtú",
+          "pos": "名詞",
+          "meaningJa": "星図",
+          "contextualNote": "星座の位置を描いた図。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "正",
+          "pinyin": "zhèng",
+          "pos": "副詞",
+          "meaningJa": "ちょうど〜している",
+          "contextualNote": "動作の進行を表す。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "把",
+          "pinyin": "bǎ",
+          "pos": "前置詞",
+          "meaningJa": "〜を（処置文）",
+          "contextualNote": "目的語を動詞の前に置いて処理の結果を示す。",
+          "source": "novel-extra"
+        }
+      ],
+      "nextLineId": "ch03_03"
+    },
+    {
+      "id": "ch03_03",
+      "chapterId": "ch03",
+      "speaker": "",
+      "speakerId": "narrator",
+      "textZh": "坐在窗边的苏晚星轻轻揉了揉眉心，手里的红茶已经凉了一半。",
+      "pinyin": "Zuò zài chuāngbiān de Sū Wǎnxīng qīngqīng róu le róu méixīn, shǒulǐ de hóngchá yǐjīng liáng le yíbàn.",
+      "textJa": "窓辺に座っていた蘇晩星がそっと眉間を揉み、手元の紅茶はすでに半分冷めていた。",
+      "background": "observatory_rain",
+      "characters": [
+        {
+          "characterId": "wanxing",
+          "expression": "sad",
+          "position": "center"
+        }
+      ],
+      "tokens": [
+        {
+          "word": "窗边",
+          "pinyin": "chuāngbiān",
+          "pos": "名詞",
+          "meaningJa": "窓辺",
+          "contextualNote": "窓のそば。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "轻轻",
+          "pinyin": "qīngqīng",
+          "pos": "副詞",
+          "meaningJa": "そっと・軽く",
+          "contextualNote": "控えめで静かな仕草。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "眉心",
+          "pinyin": "méixīn",
+          "pos": "名詞",
+          "meaningJa": "眉間",
+          "contextualNote": "疲れや頭痛のときによく押さえる場所。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "红茶",
+          "pinyin": "hóngchá",
+          "pos": "名詞",
+          "meaningJa": "紅茶",
+          "contextualNote": "第1章から二人の時間を象徴する飲み物。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "已经",
+          "pinyin": "yǐjīng",
+          "pos": "副詞",
+          "meaningJa": "すでに・もう",
+          "contextualNote": "時間の経過を強調する。",
+          "source": "textbook-scope",
+          "lessonId": "L07"
+        }
+      ],
+      "nextLineId": "ch03_04"
+    },
+    {
+      "id": "ch03_04",
+      "chapterId": "ch03",
+      "speaker": "林澄",
+      "speakerId": "cheng",
+      "textZh": "晚星学姐，是不是头又有点疼了？你的脸色不太好。",
+      "pinyin": "Wǎnxīng xuéjiě, shìbushì tóu yòu yǒudiǎn téng le? Nǐ de liǎnsè bú tài hǎo.",
+      "textJa": "晩星先輩、また少し頭が痛みますか？顔色があまりよくないです。",
+      "background": "observatory_rain",
+      "characters": [
+        {
+          "characterId": "cheng",
+          "expression": "neutral",
+          "position": "left"
+        },
+        {
+          "characterId": "wanxing",
+          "expression": "sad",
+          "position": "right"
+        }
+      ],
+      "tokens": [
+        {
+          "word": "学姐",
+          "pinyin": "xuéjiě",
+          "pos": "名詞",
+          "meaningJa": "（女性の）先輩",
+          "contextualNote": "大学の上級生への呼びかけ。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "是不是",
+          "pinyin": "shìbushì",
+          "pos": "表現",
+          "meaningJa": "〜ではないですか",
+          "contextualNote": "確認や心配を込めた柔らかな問いかけ。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "有点",
+          "pinyin": "yǒudiǎn",
+          "pos": "副詞",
+          "meaningJa": "少し・ちょっと",
+          "contextualNote": "やや望ましくない状態に使う。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "疼",
+          "pinyin": "téng",
+          "pos": "形容詞",
+          "meaningJa": "痛い",
+          "contextualNote": "頭痛を表す。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "脸色",
+          "pinyin": "liǎnsè",
+          "pos": "名詞",
+          "meaningJa": "顔色",
+          "contextualNote": "体調や気分の変化が顔に出ていること。",
+          "source": "novel-extra"
+        }
+      ],
+      "nextLineId": "ch03_05"
+    },
+    {
+      "id": "ch03_05",
+      "chapterId": "ch03",
+      "speaker": "苏晚星",
+      "speakerId": "wanxing",
+      "textZh": "没事啦，大概是气压太低，老毛病犯了而已。",
+      "pinyin": "Méishì la, dàgài shì qìyā tài dī, lǎomáobìng fàn le éryǐ.",
+      "textJa": "大丈夫だよ、たぶん気圧が低すぎて、いつもの持病がちょっと出ただけ。",
+      "background": "observatory_rain",
+      "characters": [
+        {
+          "characterId": "cheng",
+          "expression": "neutral",
+          "position": "left"
+        },
+        {
+          "characterId": "wanxing",
+          "expression": "smile",
+          "position": "right"
+        }
+      ],
+      "tokens": [
+        {
+          "word": "没事",
+          "pinyin": "méishì",
+          "pos": "表現",
+          "meaningJa": "大丈夫・何でもない",
+          "contextualNote": "心配させまいと軽く受け流す言い方。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "大概",
+          "pinyin": "dàgài",
+          "pos": "副詞",
+          "meaningJa": "たぶん・おそらく",
+          "contextualNote": "ぼかした推測。",
+          "source": "textbook-scope",
+          "lessonId": "L15"
+        },
+        {
+          "word": "气压",
+          "pinyin": "qìyā",
+          "pos": "名詞",
+          "meaningJa": "気圧",
+          "contextualNote": "嵐の前の低い気圧。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "老毛病",
+          "pinyin": "lǎomáobìng",
+          "pos": "名詞",
+          "meaningJa": "持病・いつもの癖",
+          "contextualNote": "以前から繰り返している不調のこと。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "而已",
+          "pinyin": "éryǐ",
+          "pos": "助詞",
+          "meaningJa": "〜にすぎない・〜だけ",
+          "contextualNote": "大したことではないと軽く見せる語気。",
+          "source": "novel-extra"
+        }
+      ],
+      "grammarNotes": [
+        {
+          "pattern": "……而已",
+          "title": "「〜而已」：大したことではないと和らげる語気",
+          "explanation": "文末に置いて「ただ〜なだけだよ」と相手を安心させたり、自分の症状を軽く見せたりする口語表現です。",
+          "isColloquial": true
+        }
+      ],
+      "nextLineId": "ch03_06"
+    },
+    {
+      "id": "ch03_06",
+      "chapterId": "ch03",
+      "speaker": "",
+      "speakerId": "narrator",
+      "textZh": "话虽这么说，她合上笔记时，指尖却比平时慢了半拍。",
+      "pinyin": "Huà suī zhème shuō, tā héshàng bǐjì shí, zhǐjiān què bǐ píngshí màn le bànpāi.",
+      "textJa": "口ではそう言ったものの、ノートを閉じる彼女の指先は普段より半拍遅れていた。",
+      "background": "observatory_rain",
+      "characters": [
+        {
+          "characterId": "cheng",
+          "expression": "neutral",
+          "position": "left"
+        },
+        {
+          "characterId": "wanxing",
+          "expression": "neutral",
+          "position": "right"
+        }
+      ],
+      "tokens": [
+        {
+          "word": "话虽这么说",
+          "pinyin": "huà suī zhème shuō",
+          "pos": "慣用表現",
+          "meaningJa": "そうは言っても",
+          "contextualNote": "相手の言葉を一度受け止めつつ裏腹の事実を示す。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "合上",
+          "pinyin": "héshàng",
+          "pos": "動詞",
+          "meaningJa": "閉じる・たたむ",
+          "contextualNote": "本やノートをパタンと閉じる動作。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "指尖",
+          "pinyin": "zhǐjiān",
+          "pos": "名詞",
+          "meaningJa": "指先",
+          "contextualNote": "細かな疲れが表れる部分。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "平时",
+          "pinyin": "píngshí",
+          "pos": "名詞",
+          "meaningJa": "普段・いつも",
+          "contextualNote": "日常との比較に使う。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "半拍",
+          "pinyin": "bànpāi",
+          "pos": "名詞",
+          "meaningJa": "半拍・ほんの一瞬",
+          "contextualNote": "リズムがわずかに遅れる比喩。",
+          "source": "novel-extra"
+        }
+      ],
+      "nextLineId": "ch03_07"
+    },
+    {
+      "id": "ch03_07",
+      "chapterId": "ch03",
+      "speaker": "苏晚星",
+      "speakerId": "wanxing",
+      "textZh": "外头雷声好像越来越近了，你早点收拾东西回去吧，别被困在这里。",
+      "pinyin": "Wàitou léishēng hǎoxiàng yuèláiyuè jìn le, nǐ zǎodiǎn shōushi dōngxi huíqù ba, bié bèi kùn zài zhèlǐ.",
+      "textJa": "外の雷の音、だんだん近づいてるみたい。早く片付けて帰りなよ、ここに閉じ込められないうちに。",
+      "background": "observatory_rain",
+      "characters": [
+        {
+          "characterId": "cheng",
+          "expression": "neutral",
+          "position": "left"
+        },
+        {
+          "characterId": "wanxing",
+          "expression": "neutral",
+          "position": "right"
+        }
+      ],
+      "tokens": [
+        {
+          "word": "外头",
+          "pinyin": "wàitou",
+          "pos": "名詞",
+          "meaningJa": "外",
+          "contextualNote": "「外面」よりくだけた話し言葉。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "雷声",
+          "pinyin": "léishēng",
+          "pos": "名詞",
+          "meaningJa": "雷鳴・雷の音",
+          "contextualNote": "嵐の接近を知らせる音。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "好像",
+          "pinyin": "hǎoxiàng",
+          "pos": "副詞",
+          "meaningJa": "〜のようだ",
+          "contextualNote": "不確かな知覚に基づく判断。",
+          "source": "textbook-scope",
+          "lessonId": "L15"
+        },
+        {
+          "word": "收拾",
+          "pinyin": "shōushi",
+          "pos": "動詞",
+          "meaningJa": "片付ける・まとめる",
+          "contextualNote": "荷物をまとめること。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "困",
+          "pinyin": "kùn",
+          "pos": "動詞",
+          "meaningJa": "閉じ込める・足止めする",
+          "contextualNote": "「被困在这里」で受動的に足止めされる意。",
+          "source": "novel-extra"
+        }
+      ],
+      "nextLineId": "ch03_08"
+    },
+    {
+      "id": "ch03_08",
+      "chapterId": "ch03",
+      "speaker": "",
+      "speakerId": "narrator",
+      "textZh": "我看着窗外几乎连成一片白幕的大雨，又看了看她桌上摊开的记录本。",
+      "pinyin": "Wǒ kàn zhe chuāngwài jīhū liánchéng yípiàn báimù de dàyǔ, yòu kàn le kàn tā zhuōshàng tānkāi de jìlùběn.",
+      "textJa": "私は窓の外の白い幕のように降りしきる大雨を見つめ、それから彼女の机に広げられた記録ノートに目をやった。",
+      "background": "observatory_rain",
+      "characters": [
+        {
+          "characterId": "cheng",
+          "expression": "neutral",
+          "position": "left"
+        },
+        {
+          "characterId": "wanxing",
+          "expression": "neutral",
+          "position": "right"
+        }
+      ],
+      "tokens": [
+        {
+          "word": "几乎",
+          "pinyin": "jīhū",
+          "pos": "副詞",
+          "meaningJa": "ほとんど",
+          "contextualNote": "状態が極限に近い様子。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "白幕",
+          "pinyin": "báimù",
+          "pos": "名詞",
+          "meaningJa": "白い幕",
+          "contextualNote": "激しい雨で視界が白く煙る描写。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "大雨",
+          "pinyin": "dàyǔ",
+          "pos": "名詞",
+          "meaningJa": "大雨",
+          "contextualNote": "激しい雨。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "摊开",
+          "pinyin": "tānkāi",
+          "pos": "動詞",
+          "meaningJa": "広げる",
+          "contextualNote": "机の上にページを開いて置くこと。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "记录本",
+          "pinyin": "jìlùběn",
+          "pos": "名詞",
+          "meaningJa": "記録ノート",
+          "contextualNote": "観測や整理の記録帳。",
+          "source": "novel-extra"
+        }
+      ],
+      "nextLineId": "ch03_09"
+    },
+    {
+      "id": "ch03_09",
+      "chapterId": "ch03",
+      "speaker": "",
+      "speakerId": "narrator",
+      "textZh": "这样的大雨里，我也放心不下让她一个人留在这里。",
+      "pinyin": "Zhèyàng de dàyǔ lǐ, wǒ yě fàngxīnbuxià ràng tā yígèrén liú zài zhèlǐ.",
+      "textJa": "こんな大雨の中、彼女を一人でここに残していく気にはとてもなれなかった。",
+      "background": "observatory_rain",
+      "characters": [
+        {
+          "characterId": "cheng",
+          "expression": "neutral",
+          "position": "left"
+        },
+        {
+          "characterId": "wanxing",
+          "expression": "neutral",
+          "position": "right"
+        }
+      ],
+      "tokens": [
+        {
+          "word": "这样",
+          "pinyin": "zhèyàng",
+          "pos": "代詞",
+          "meaningJa": "このような・こんな",
+          "contextualNote": "目の前の状況を指す。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "放心不下",
+          "pinyin": "fàngxīnbuxià",
+          "pos": "慣用表現",
+          "meaningJa": "心配でたまらない・気がかりだ",
+          "contextualNote": "「放心」に可能補語否定「不下」が付いた表現。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "让",
+          "pinyin": "ràng",
+          "pos": "動詞",
+          "meaningJa": "〜させる",
+          "contextualNote": "使役を表す。",
+          "source": "textbook-scope",
+          "lessonId": "L16"
+        },
+        {
+          "word": "一个人",
+          "pinyin": "yígèrén",
+          "pos": "表現",
+          "meaningJa": "一人で",
+          "contextualNote": "孤独に、単独で。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "留",
+          "pinyin": "liú",
+          "pos": "動詞",
+          "meaningJa": "残る・留まる",
+          "contextualNote": "その場に居残る。",
+          "source": "textbook-scope",
+          "lessonId": "L22"
+        }
+      ],
+      "choices": [
+        {
+          "id": "ch03_c1a",
+          "labelZh": "别硬撑啦，剩下的我帮你整理完再一起走。",
+          "labelJa": "無理しないで、残りを一緒に片付けてから帰ろうと声をかける",
+          "nextLineId": "ch03_c1a_01",
+          "addNumbers": {
+            "affection": 1
+          }
+        },
+        {
+          "id": "ch03_c1b",
+          "labelZh": "先喝口温水歇会儿吧，我陪你等雨小一点。",
+          "labelJa": "少し休んで、雨が弱まるまで一緒に待とうと提案する",
+          "nextLineId": "ch03_c1b_01",
+          "addNumbers": {
+            "affection": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "ch03_c1a_01",
+      "chapterId": "ch03",
+      "speaker": "林澄",
+      "speakerId": "cheng",
+      "textZh": "别硬撑啦，学姐。剩下的编号我来写，弄完我们一起走。",
+      "pinyin": "Bié yìngchēng la, xuéjiě. Shèngxià de biānhào wǒ lái xiě, nòngwán wǒmen yìqǐ zǒu.",
+      "textJa": "無理しないでください、先輩。残りの番号は私が書きますから、終わったら一緒に帰りましょう。",
+      "background": "observatory_rain",
+      "characters": [
+        {
+          "characterId": "cheng",
+          "expression": "neutral",
+          "position": "left"
+        },
+        {
+          "characterId": "wanxing",
+          "expression": "neutral",
+          "position": "right"
+        }
+      ],
+      "tokens": [
+        {
+          "word": "硬撑",
+          "pinyin": "yìngchēng",
+          "pos": "動詞",
+          "meaningJa": "無理をして持ちこたえる・意地を張る",
+          "contextualNote": "体調が悪いのに平気なふりをする様子。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "剩下",
+          "pinyin": "shèngxià",
+          "pos": "動詞",
+          "meaningJa": "残る",
+          "contextualNote": "まだ終わっていない作業分。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "编号",
+          "pinyin": "biānhào",
+          "pos": "名詞",
+          "meaningJa": "整理番号",
+          "contextualNote": "資料に振る番号。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "弄完",
+          "pinyin": "nòngwán",
+          "pos": "動詞",
+          "meaningJa": "やり終える",
+          "contextualNote": "口語で「做完」の代わりに広く使う。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "一起",
+          "pinyin": "yìqǐ",
+          "pos": "副詞",
+          "meaningJa": "一緒に",
+          "contextualNote": "行動を共にする。",
+          "source": "textbook-scope",
+          "lessonId": "L02"
+        }
+      ],
+      "nextLineId": "ch03_c1a_02"
+    },
+    {
+      "id": "ch03_c1a_02",
+      "chapterId": "ch03",
+      "speaker": "苏晚星",
+      "speakerId": "wanxing",
+      "textZh": "你这人啊，平时看着安安静静的，关键时候倒是固执得很。",
+      "pinyin": "Nǐ zhè rén a, píngshí kàn zhe ān'ānjìngjìng de, guānjiàn shíhou dàoshì gùzhí de hěn.",
+      "textJa": "ほんと、普段はおとなしそうなのに、肝心なときは頑固なんだから。",
+      "background": "observatory_rain",
+      "characters": [
+        {
+          "characterId": "cheng",
+          "expression": "neutral",
+          "position": "left"
+        },
+        {
+          "characterId": "wanxing",
+          "expression": "smile",
+          "position": "right"
+        }
+      ],
+      "tokens": [
+        {
+          "word": "安安静静",
+          "pinyin": "ān'ānjìngjìng",
+          "pos": "形容詞",
+          "meaningJa": "おとなしく静かだ",
+          "contextualNote": "AABB型の重ね型で穏やかな印象を強める。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "关键",
+          "pinyin": "guānjiàn",
+          "pos": "名詞",
+          "meaningJa": "肝心・重要",
+          "contextualNote": "大事な局面。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "倒是",
+          "pinyin": "dàoshì",
+          "pos": "副詞",
+          "meaningJa": "かえって・案外",
+          "contextualNote": "予想に反した一面へのちょっとした驚き。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "固执",
+          "pinyin": "gùzhí",
+          "pos": "形容詞",
+          "meaningJa": "頑固だ・譲らない",
+          "contextualNote": "親しみを込めた軽口として使われている。",
+          "source": "novel-extra"
+        }
+      ],
+      "nextLineId": "ch03_c1a_03"
+    },
+    {
+      "id": "ch03_c1a_03",
+      "chapterId": "ch03",
+      "speaker": "",
+      "speakerId": "narrator",
+      "textZh": "她嘴上抱怨着，嘴角却弯起一点柔和的弧度，把钢笔递了过来。",
+      "pinyin": "Tā zuǐshàng bàoyuàn zhe, zuǐjiǎo què wānqǐ yìdiǎn róuhé de húdù, bǎ gāngbǐ dì le guòlái.",
+      "textJa": "口では文句を言いながらも、口元には柔らかな笑みが浮かび、万年筆をこちらへ差し出した。",
+      "background": "observatory_rain",
+      "characters": [
+        {
+          "characterId": "cheng",
+          "expression": "neutral",
+          "position": "left"
+        },
+        {
+          "characterId": "wanxing",
+          "expression": "smile",
+          "position": "right"
+        }
+      ],
+      "tokens": [
+        {
+          "word": "嘴上",
+          "pinyin": "zuǐshàng",
+          "pos": "名詞",
+          "meaningJa": "口先では",
+          "contextualNote": "内心とは裏腹に口に出すこと。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "抱怨",
+          "pinyin": "bàoyuàn",
+          "pos": "動詞",
+          "meaningJa": "愚痴をこぼす・文句を言う",
+          "contextualNote": "軽いぼやき。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "柔和",
+          "pinyin": "róuhé",
+          "pos": "形容詞",
+          "meaningJa": "柔らかい・穏やかだ",
+          "contextualNote": "表情の優しさを表す。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "钢笔",
+          "pinyin": "gāngbǐ",
+          "pos": "名詞",
+          "meaningJa": "万年筆",
+          "contextualNote": "星図の記録に使っているペン。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "递",
+          "pinyin": "dì",
+          "pos": "動詞",
+          "meaningJa": "手渡す",
+          "contextualNote": "相手の方へ差し出す。",
+          "source": "novel-extra"
+        }
+      ],
+      "nextLineId": "ch03_10"
+    },
+    {
+      "id": "ch03_c1b_01",
+      "chapterId": "ch03",
+      "speaker": "林澄",
+      "speakerId": "cheng",
+      "textZh": "现在下楼肯定会淋湿的，我再去泡壶热茶，咱们等雨小一点再走吧。",
+      "pinyin": "Xiànzài xiàlóu kěndìng huì línshī de, wǒ zài qù pào hú rèchá, zánmen děng yǔ xiǎo yìdiǎn zài zǒu ba.",
+      "textJa": "今降りたら絶対に濡れてしまいます。もう一壺熱いお茶を淹れてきますから、雨が少し弱まるまで待ちましょう。",
+      "background": "observatory_rain",
+      "characters": [
+        {
+          "characterId": "cheng",
+          "expression": "neutral",
+          "position": "left"
+        },
+        {
+          "characterId": "wanxing",
+          "expression": "neutral",
+          "position": "right"
+        }
+      ],
+      "tokens": [
+        {
+          "word": "肯定",
+          "pinyin": "kěndìng",
+          "pos": "副詞",
+          "meaningJa": "きっと・間違いなく",
+          "contextualNote": "強い確信を示す。",
+          "source": "textbook-scope",
+          "lessonId": "L17"
+        },
+        {
+          "word": "淋湿",
+          "pinyin": "línshī",
+          "pos": "動詞",
+          "meaningJa": "雨に濡れる",
+          "contextualNote": "「淋」は雨を浴びること。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "泡",
+          "pinyin": "pào",
+          "pos": "動詞",
+          "meaningJa": "（お茶を）淹れる",
+          "contextualNote": "茶葉にお湯を注ぐ。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "咱们",
+          "pinyin": "zánmen",
+          "pos": "代詞",
+          "meaningJa": "私たち（聞き手を含む）",
+          "contextualNote": "親近感を込めた「私たち」。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "再",
+          "pinyin": "zài",
+          "pos": "副詞",
+          "meaningJa": "それから〜する",
+          "contextualNote": "前の条件が整ってからの動作を表す。",
+          "source": "textbook-scope",
+          "lessonId": "L07"
+        }
+      ],
+      "nextLineId": "ch03_c1b_02"
+    },
+    {
+      "id": "ch03_c1b_02",
+      "chapterId": "ch03",
+      "speaker": "苏晚星",
+      "speakerId": "wanxing",
+      "textZh": "好啊，那就再蹭林澄学妹一壶红茶喽。",
+      "pinyin": "Hǎo a, nà jiù zài cèng Lín Chéng xuémèi yì hú hóngchá lou.",
+      "textJa": "いいね、それじゃあ後輩の林澄にもう一ポットご馳走になっちゃおうかな。",
+      "background": "observatory_rain",
+      "characters": [
+        {
+          "characterId": "cheng",
+          "expression": "neutral",
+          "position": "left"
+        },
+        {
+          "characterId": "wanxing",
+          "expression": "smile",
+          "position": "right"
+        }
+      ],
+      "tokens": [
+        {
+          "word": "蹭",
+          "pinyin": "cèng",
+          "pos": "動詞",
+          "meaningJa": "（人の好意に甘えて）ご馳走になる・便乗する",
+          "contextualNote": "親しい間柄で茶目っ気たっぷりに使う口語。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "学妹",
+          "pinyin": "xuémèi",
+          "pos": "名詞",
+          "meaningJa": "（女性の）後輩",
+          "contextualNote": "先輩が親しみを込めて呼ぶ言い方。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "壶",
+          "pinyin": "hú",
+          "pos": "量詞",
+          "meaningJa": "ポット・急須（一杯分）",
+          "contextualNote": "お茶を淹れる容器を数える。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "喽",
+          "pinyin": "lou",
+          "pos": "助詞",
+          "meaningJa": "〜よ・〜ね",
+          "contextualNote": "軽く弾むような語気助詞。",
+          "source": "novel-extra"
+        }
+      ],
+      "nextLineId": "ch03_c1b_03"
+    },
+    {
+      "id": "ch03_c1b_03",
+      "chapterId": "ch03",
+      "speaker": "",
+      "speakerId": "narrator",
+      "textZh": "她托着下巴笑了笑，只是目光依旧时不时望向漆黑的窗外。",
+      "pinyin": "Tā tuō zhe xiàba xiào le xiào, zhǐshì mùguāng yījiù shíbùshí wàngxiàng qīhēi de chuāngwài.",
+      "textJa": "彼女は頬杖をついて微笑んだが、視線はやはり時折真っ暗な窓の外へ向いていた。",
+      "background": "observatory_rain",
+      "characters": [
+        {
+          "characterId": "cheng",
+          "expression": "neutral",
+          "position": "left"
+        },
+        {
+          "characterId": "wanxing",
+          "expression": "neutral",
+          "position": "right"
+        }
+      ],
+      "tokens": [
+        {
+          "word": "托着下巴",
+          "pinyin": "tuō zhe xiàba",
+          "pos": "表現",
+          "meaningJa": "頬杖をつく",
+          "contextualNote": "あごを手で支える仕草。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "依旧",
+          "pinyin": "yījiù",
+          "pos": "副詞",
+          "meaningJa": "相変わらず・依然として",
+          "contextualNote": "前と変わらない状態。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "时不时",
+          "pinyin": "shíbùshí",
+          "pos": "副詞",
+          "meaningJa": "時折・たびたび",
+          "contextualNote": "口語でよく使う頻度表現。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "漆黑",
+          "pinyin": "qīhēi",
+          "pos": "形容詞",
+          "meaningJa": "真っ暗だ",
+          "contextualNote": "嵐で空が暗く沈んでいる様子。",
+          "source": "novel-extra"
+        }
+      ],
+      "nextLineId": "ch03_10"
+    },
+    {
+      "id": "ch03_10",
+      "chapterId": "ch03",
+      "speaker": "",
+      "speakerId": "narrator",
+      "textZh": "就在这时，窗外猛地劈下一道刺眼的闪电——紧接着，轰隆一声巨响震得玻璃都在发颤！",
+      "pinyin": "Jiù zài zhèshí, chuāngwài měngde pīxià yídào cìyǎn de shǎndiàn——jǐnjiēzhe, hōnglōng yìshēng jùxiǎng zhèn de bōli dōu zài fāchàn!",
+      "textJa": "まさにその瞬間、窓の外に目が眩むような稲妻が走り——直後、轟音とともにガラスが震えた！",
+      "background": "observatory_rain",
+      "characters": [],
+      "bgm": "none",
+      "sfx": "rain-thunder",
+      "transition": "flash",
+      "tokens": [
+        {
+          "word": "猛地",
+          "pinyin": "měngde",
+          "pos": "副詞",
+          "meaningJa": "急に・激しく",
+          "contextualNote": "突発的な強い動き。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "刺眼",
+          "pinyin": "cìyǎn",
+          "pos": "形容詞",
+          "meaningJa": "眩しい・目に刺さるような",
+          "contextualNote": "稲光の強烈な明るさ。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "闪电",
+          "pinyin": "shǎndiàn",
+          "pos": "名詞",
+          "meaningJa": "稲妻・雷光",
+          "contextualNote": "雷の光。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "巨响",
+          "pinyin": "jùxiǎng",
+          "pos": "名詞",
+          "meaningJa": "轟音・すさまじい音",
+          "contextualNote": "落雷の音。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "发颤",
+          "pinyin": "fāchàn",
+          "pos": "動詞",
+          "meaningJa": "震える",
+          "contextualNote": "振動で小刻みに揺れること。",
+          "source": "novel-extra"
+        }
+      ],
+      "nextLineId": "ch03_11"
+    },
+    {
+      "id": "ch03_11",
+      "chapterId": "ch03",
+      "speaker": "",
+      "speakerId": "narrator",
+      "textZh": "啪嗒。头顶的吊灯和桌上的台灯同时熄灭，整个旧天文台瞬间陷入一片黑暗。",
+      "pinyin": "Pādā. Tóudǐng de diàodēng hé zhuōshàng de táidēng tóngshí xīmiè, zhěnggè jiù tiānwéntái shùnjiān xiànrù yípiàn hēi'àn.",
+      "textJa": "パチン。天井の吊り下げ灯と机のスタンドが同時に消え、旧天文台全体が一瞬で闇に包まれた。",
+      "background": "observatory_rain",
+      "characters": [],
+      "bgm": "emotional",
+      "tokens": [
+        {
+          "word": "同时",
+          "pinyin": "tóngshí",
+          "pos": "副詞",
+          "meaningJa": "同時に",
+          "contextualNote": "二つの照明が同じ瞬間に消えた。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "熄灭",
+          "pinyin": "xīmiè",
+          "pos": "動詞",
+          "meaningJa": "消える",
+          "contextualNote": "明かりや火が消える。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "瞬间",
+          "pinyin": "shùnjiān",
+          "pos": "名詞",
+          "meaningJa": "一瞬・たちまち",
+          "contextualNote": "極めて短い時間。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "陷入",
+          "pinyin": "xiànrù",
+          "pos": "動詞",
+          "meaningJa": "陥る・沈む",
+          "contextualNote": "暗闇に包まれる状態への移行。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "黑暗",
+          "pinyin": "hēi'àn",
+          "pos": "名詞",
+          "meaningJa": "暗闇",
+          "contextualNote": "光の全くない状態。",
+          "source": "novel-extra"
+        }
+      ],
+      "nextLineId": "ch03_12"
+    },
+    {
+      "id": "ch03_12",
+      "chapterId": "ch03",
+      "speaker": "林澄",
+      "speakerId": "cheng",
+      "textZh": "停电了……！晚星学姐，你没事吧？你在哪儿？",
+      "pinyin": "Tíngdiàn le……! Wǎnxīng xuéjiě, nǐ méishì ba? Nǐ zài nǎr?",
+      "textJa": "停電だ……！晩星先輩、大丈夫ですか？どこにいますか？",
+      "background": "observatory_rain",
+      "characters": [],
+      "tokens": [
+        {
+          "word": "停电",
+          "pinyin": "tíngdiàn",
+          "pos": "動詞",
+          "meaningJa": "停電する",
+          "contextualNote": "電力供給が止まること。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "没事",
+          "pinyin": "méishì",
+          "pos": "表現",
+          "meaningJa": "大丈夫・何事もない",
+          "contextualNote": "暗闇で相手の無事を確かめる言葉。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "哪儿",
+          "pinyin": "nǎr",
+          "pos": "代詞",
+          "meaningJa": "どこ",
+          "contextualNote": "居場所を尋ねる疑問詞。",
+          "source": "textbook-scope",
+          "lessonId": "L03"
+        },
+        {
+          "word": "吧",
+          "pinyin": "ba",
+          "pos": "助詞",
+          "meaningJa": "〜でしょう・〜ですよね",
+          "contextualNote": "心配しながら確認する語気。",
+          "source": "textbook-scope",
+          "lessonId": "L06"
+        }
+      ],
+      "nextLineId": "ch03_13"
+    },
+    {
+      "id": "ch03_13",
+      "chapterId": "ch03",
+      "speaker": "",
+      "speakerId": "narrator",
+      "textZh": "黑暗里，一只微凉的手轻轻拉住了我的袖口，随即传来她低低的呼吸声。",
+      "pinyin": "Hēi'àn lǐ, yì zhī wēiliáng de shǒu qīngqīng lāzhù le wǒ de xiùkǒu, suíjí chuánlái tā dīdī de hūxīshēng.",
+      "textJa": "暗闇の中で、ほんのり冷たい手がそっと私の袖口を引き、すぐ近くから微かな息遣いが聞こえた。",
+      "background": "observatory_rain",
+      "characters": [
+        {
+          "characterId": "wanxing",
+          "expression": "neutral",
+          "position": "center"
+        }
+      ],
+      "tokens": [
+        {
+          "word": "微凉",
+          "pinyin": "wēiliáng",
+          "pos": "形容詞",
+          "meaningJa": "ほんのり冷たい",
+          "contextualNote": "雨の夜の指先の温度。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "拉住",
+          "pinyin": "lāzhù",
+          "pos": "動詞",
+          "meaningJa": "つかむ・引き止める",
+          "contextualNote": "結果補語「住」でしっかり掴むことを表す。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "袖口",
+          "pinyin": "xiùkǒu",
+          "pos": "名詞",
+          "meaningJa": "袖口",
+          "contextualNote": "カーディガンの袖の先。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "随即",
+          "pinyin": "suíjí",
+          "pos": "副詞",
+          "meaningJa": "すぐさま・直後に",
+          "contextualNote": "続けて起こる様子。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "呼吸",
+          "pinyin": "hūxī",
+          "pos": "名詞",
+          "meaningJa": "呼吸・息遣い",
+          "contextualNote": "暗闇で距離の近さを意識する描写。",
+          "source": "novel-extra"
+        }
+      ],
+      "nextLineId": "ch03_14"
+    },
+    {
+      "id": "ch03_14",
+      "chapterId": "ch03",
+      "speaker": "苏晚星",
+      "speakerId": "wanxing",
+      "textZh": "我在这儿……只是旧楼的电路一打雷就爱跳闸，吓着你了吗？",
+      "pinyin": "Wǒ zài zhèr……zhǐshì jiùlóu de diànlù yì dǎléi jiù ài tiàozhá, xiàzhao nǐ le ma?",
+      "textJa": "ここだよ……古い建物の電気系統は、雷が鳴るとすぐブレーカーが落ちるんだ。驚かせちゃった？",
+      "background": "observatory_rain",
+      "characters": [
+        {
+          "characterId": "wanxing",
+          "expression": "neutral",
+          "position": "center"
+        }
+      ],
+      "tokens": [
+        {
+          "word": "这儿",
+          "pinyin": "zhèr",
+          "pos": "代詞",
+          "meaningJa": "ここ",
+          "contextualNote": "自分の居場所を示す。",
+          "source": "textbook-scope",
+          "lessonId": "L03"
+        },
+        {
+          "word": "电路",
+          "pinyin": "diànlù",
+          "pos": "名詞",
+          "meaningJa": "電気回路・配線",
+          "contextualNote": "建物内の電気設備。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "打雷",
+          "pinyin": "dǎléi",
+          "pos": "動詞",
+          "meaningJa": "雷が鳴る",
+          "contextualNote": "「一〜就〜」で条件反射的に起こることを示す。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "跳闸",
+          "pinyin": "tiàozhá",
+          "pos": "動詞",
+          "meaningJa": "ブレーカーが落ちる",
+          "contextualNote": "停電時の日常語。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "吓着",
+          "pinyin": "xiàzhao",
+          "pos": "動詞",
+          "meaningJa": "驚かせる・怖がらせる",
+          "contextualNote": "相手への気遣い。",
+          "source": "novel-extra"
+        }
+      ],
+      "nextLineId": "ch03_15"
+    },
+    {
+      "id": "ch03_15",
+      "chapterId": "ch03",
+      "speaker": "",
+      "speakerId": "narrator",
+      "textZh": "我从书包里摸出备用的小手电筒，按亮之后把光柱朝向天花板。",
+      "pinyin": "Wǒ cóng shūbāo lǐ mōchū bèiyòng de xiǎo shǒudiàntǒng, ànliàng zhīhòu bǎ guāngzhù cháoxiàng tiānhuābǎn.",
+      "textJa": "私は鞄の中から予備の小さな懐中電灯を探り出し、スイッチを入れて光の柱を天井に向けた。",
+      "background": "observatory_rain",
+      "characters": [
+        {
+          "characterId": "wanxing",
+          "expression": "neutral",
+          "position": "center"
+        }
+      ],
+      "tokens": [
+        {
+          "word": "书包",
+          "pinyin": "shūbāo",
+          "pos": "名詞",
+          "meaningJa": "通学鞄・リュック",
+          "contextualNote": "林澄が持ち歩いている鞄。",
+          "source": "textbook-scope",
+          "lessonId": "L04"
+        },
+        {
+          "word": "摸出",
+          "pinyin": "mōchū",
+          "pos": "動詞",
+          "meaningJa": "手探りで取り出す",
+          "contextualNote": "暗闇で探して出す動作。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "手电筒",
+          "pinyin": "shǒudiàntǒng",
+          "pos": "名詞",
+          "meaningJa": "懐中電灯",
+          "contextualNote": "停電時に頼りになる小さな灯り。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "朝向",
+          "pinyin": "cháoxiàng",
+          "pos": "動詞",
+          "meaningJa": "〜へ向ける",
+          "contextualNote": "直接目に入らないよう天井に向ける優しさ。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "天花板",
+          "pinyin": "tiānhuābǎn",
+          "pos": "名詞",
+          "meaningJa": "天井",
+          "contextualNote": "部屋の上部。",
+          "source": "novel-extra"
+        }
+      ],
+      "nextLineId": "ch03_16"
+    },
+    {
+      "id": "ch03_16",
+      "chapterId": "ch03",
+      "speaker": "",
+      "speakerId": "narrator",
+      "textZh": "柔和的光晕散落下来，我们干脆靠着书架坐在了地板上。",
+      "pinyin": "Róuhé de guāngyūn sànluò xiàlái, wǒmen gāncuì kào zhe shūjià zuò zài le dìbǎn shàng.",
+      "textJa": "柔らかな光の輪が部屋に落ち、私たちは思い切って本棚に背を預けて床に座り込んだ。",
+      "background": "observatory_rain",
+      "characters": [
+        {
+          "characterId": "cheng",
+          "expression": "neutral",
+          "position": "left"
+        },
+        {
+          "characterId": "wanxing",
+          "expression": "neutral",
+          "position": "right"
+        }
+      ],
+      "tokens": [
+        {
+          "word": "光晕",
+          "pinyin": "guāngyūn",
+          "pos": "名詞",
+          "meaningJa": "光の輪・ぼんやりした光",
+          "contextualNote": "反射して広がった優しい明かり。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "干脆",
+          "pinyin": "gāncuì",
+          "pos": "副詞",
+          "meaningJa": "いっそのこと・思い切って",
+          "contextualNote": "迷いを断ち切って行動する口語。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "靠着",
+          "pinyin": "kào zhe",
+          "pos": "動詞",
+          "meaningJa": "寄りかかる・もたれる",
+          "contextualNote": "本棚に背中を預ける。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "书架",
+          "pinyin": "shūjià",
+          "pos": "名詞",
+          "meaningJa": "本棚",
+          "contextualNote": "図書室の古い木製本棚。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "地板",
+          "pinyin": "dìbǎn",
+          "pos": "名詞",
+          "meaningJa": "床",
+          "contextualNote": "板張りの床。",
+          "source": "novel-extra"
+        }
+      ],
+      "nextLineId": "ch03_17"
+    },
+    {
+      "id": "ch03_17",
+      "chapterId": "ch03",
+      "speaker": "",
+      "speakerId": "narrator",
+      "textZh": "楼道的应急灯没亮，外头的雨又急又密，暂时只能等它过去。",
+      "pinyin": "Lóudào de yìngjídēng méi liàng, wàitou de yǔ yòu jí yòu mì, zànshí zhǐnéng děng tā guòqù.",
+      "textJa": "廊下の非常灯も点かず、外では雨が激しく降りしきっている。しばらくは通り過ぎるのを待つしかなさそうだった。",
+      "background": "observatory_rain",
+      "characters": [
+        {
+          "characterId": "cheng",
+          "expression": "neutral",
+          "position": "left"
+        },
+        {
+          "characterId": "wanxing",
+          "expression": "neutral",
+          "position": "right"
+        }
+      ],
+      "tokens": [
+        {
+          "word": "楼道",
+          "pinyin": "lóudào",
+          "pos": "名詞",
+          "meaningJa": "廊下・階段通路",
+          "contextualNote": "建物内の通路。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "应急灯",
+          "pinyin": "yìngjídēng",
+          "pos": "名詞",
+          "meaningJa": "非常灯",
+          "contextualNote": "停電時に自動で点灯するはずの照明。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "暂时",
+          "pinyin": "zànshí",
+          "pos": "副詞",
+          "meaningJa": "しばらく・当面",
+          "contextualNote": "嵐が収まるまでの時間。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "只能",
+          "pinyin": "zhǐnéng",
+          "pos": "助動詞",
+          "meaningJa": "〜するしかない",
+          "contextualNote": "他に選択肢がないこと。",
+          "source": "novel-extra"
+        }
+      ],
+      "nextLineId": "ch03_18"
+    },
+    {
+      "id": "ch03_18",
+      "chapterId": "ch03",
+      "speaker": "",
+      "speakerId": "narrator",
+      "textZh": "大概是因为停电后安静得只剩雨声，晚星学姐突然轻声开了口。",
+      "pinyin": "Dàgài shì yīnwèi tíngdiàn hòu ānjìng de zhǐ shèng yǔshēng, Wǎnxīng xuéjiě tūrán qīngshēng kāi le kǒu.",
+      "textJa": "停電して雨音しか残らないほど静かになったからだろうか、晩星先輩がふいに小さな声で口を開いた。",
+      "background": "observatory_rain",
+      "characters": [
+        {
+          "characterId": "cheng",
+          "expression": "neutral",
+          "position": "left"
+        },
+        {
+          "characterId": "wanxing",
+          "expression": "sad",
+          "position": "right"
+        }
+      ],
+      "tokens": [
+        {
+          "word": "因为",
+          "pinyin": "yīnwèi",
+          "pos": "接続詞",
+          "meaningJa": "〜だから",
+          "contextualNote": "理由を説明する。",
+          "source": "textbook-scope",
+          "lessonId": "L14"
+        },
+        {
+          "word": "安静",
+          "pinyin": "ānjìng",
+          "pos": "形容詞",
+          "meaningJa": "静かだ",
+          "contextualNote": "物音のない落ち着いた空気。",
+          "source": "textbook-scope",
+          "lessonId": "L11"
+        },
+        {
+          "word": "只剩",
+          "pinyin": "zhǐ shèng",
+          "pos": "動詞",
+          "meaningJa": "〜だけが残る",
+          "contextualNote": "他の音が消え雨音だけになる。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "轻声",
+          "pinyin": "qīngshēng",
+          "pos": "副詞",
+          "meaningJa": "小声で・静かに",
+          "contextualNote": "打ち明け話のトーン。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "开了口",
+          "pinyin": "kāi le kǒu",
+          "pos": "表現",
+          "meaningJa": "口を開いた・話し始めた",
+          "contextualNote": "沈黙を破って語り出す。",
+          "source": "novel-extra"
+        }
+      ],
+      "nextLineId": "ch03_19"
+    },
+    {
+      "id": "ch03_19",
+      "chapterId": "ch03",
+      "speaker": "苏晚星",
+      "speakerId": "wanxing",
+      "textZh": "林澄，你以前……是不是觉得我老在胡说八道，什么“雨夜能看见过去的光”？",
+      "pinyin": "Lín Chéng, nǐ yǐqián……shìbushì juéde wǒ lǎo zài húshuō bādào, shénme “yǔyè néng kànjiàn guòqù de guāng”?",
+      "textJa": "林澄、あなた……前は私のこと、「雨の夜に過去の光が見える」なんていつもでたらめばかり言ってると思ってたでしょ？",
+      "background": "observatory_rain",
+      "characters": [
+        {
+          "characterId": "cheng",
+          "expression": "neutral",
+          "position": "left"
+        },
+        {
+          "characterId": "wanxing",
+          "expression": "sad",
+          "position": "right"
+        }
+      ],
+      "tokens": [
+        {
+          "word": "以前",
+          "pinyin": "yǐqián",
+          "pos": "名詞",
+          "meaningJa": "以前・これまで",
+          "contextualNote": "第1章での発言を振り返る。",
+          "source": "textbook-scope",
+          "lessonId": "L11"
+        },
+        {
+          "word": "觉得",
+          "pinyin": "juéde",
+          "pos": "動詞",
+          "meaningJa": "〜だと思う・感じる",
+          "contextualNote": "主観的な印象を尋ねる。",
+          "source": "textbook-scope",
+          "lessonId": "L11"
+        },
+        {
+          "word": "老",
+          "pinyin": "lǎo",
+          "pos": "副詞",
+          "meaningJa": "いつも・しょっちゅう",
+          "contextualNote": "口語で「总是」の意味でよく使われる。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "胡说八道",
+          "pinyin": "húshuō bādào",
+          "pos": "成語",
+          "meaningJa": "でたらめを言う・たわごとを言う",
+          "contextualNote": "自嘲気味に使った慣用成語。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "过去",
+          "pinyin": "guòqù",
+          "pos": "名詞",
+          "meaningJa": "過去",
+          "contextualNote": "過ぎ去った時間。",
+          "source": "novel-extra"
+        }
+      ],
+      "nextLineId": "ch03_20"
+    },
+    {
+      "id": "ch03_20",
+      "chapterId": "ch03",
+      "speaker": "林澄",
+      "speakerId": "cheng",
+      "textZh": "没有。虽然我听不太懂，但我知道学姐不是随便说说而已。",
+      "pinyin": "Méiyǒu. Suīrán wǒ tīng bù tài dǒng, dàn wǒ zhīdào xuéjiě búshì suíbiàn shuōshuō éryǐ.",
+      "textJa": "いいえ。よく分からなくても、先輩が適当なことを言っているわけじゃないのは分かっていました。",
+      "background": "observatory_rain",
+      "characters": [
+        {
+          "characterId": "cheng",
+          "expression": "neutral",
+          "position": "left"
+        },
+        {
+          "characterId": "wanxing",
+          "expression": "neutral",
+          "position": "right"
+        }
+      ],
+      "tokens": [
+        {
+          "word": "虽然",
+          "pinyin": "suīrán",
+          "pos": "接続詞",
+          "meaningJa": "〜だけれども",
+          "contextualNote": "「但」と組んで逆接を表す。",
+          "source": "textbook-scope",
+          "lessonId": "L20"
+        },
+        {
+          "word": "知道",
+          "pinyin": "zhīdào",
+          "pos": "動詞",
+          "meaningJa": "知っている・分かる",
+          "contextualNote": "相手への信頼を示す。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "随便",
+          "pinyin": "suíbiàn",
+          "pos": "副詞",
+          "meaningJa": "気ままに・いい加減に",
+          "contextualNote": "軽い冗談や無責任な発言ではないと伝える。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "说说",
+          "pinyin": "shuōshuō",
+          "pos": "動詞",
+          "meaningJa": "ちょっと言ってみる",
+          "contextualNote": "動詞の重ね型で軽さを表す。",
+          "source": "novel-extra"
+        }
+      ],
+      "nextLineId": "ch03_21"
+    },
+    {
+      "id": "ch03_21",
+      "chapterId": "ch03",
+      "speaker": "苏晚星",
+      "speakerId": "wanxing",
+      "textZh": "……其实十年前的夏天，我还有个亲姐姐。",
+      "pinyin": "……Qíshí shí nián qián de xiàtiān, wǒ hái yǒu ge qīn jiějie.",
+      "textJa": "……実は十年前の夏、私には実の姉がいたんだ。",
+      "background": "observatory_rain",
+      "characters": [
+        {
+          "characterId": "cheng",
+          "expression": "neutral",
+          "position": "left"
+        },
+        {
+          "characterId": "wanxing",
+          "expression": "sad",
+          "position": "right"
+        }
+      ],
+      "tokens": [
+        {
+          "word": "其实",
+          "pinyin": "qíshí",
+          "pos": "副詞",
+          "meaningJa": "実は・本当は",
+          "contextualNote": "秘密を切り出す合図。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "夏天",
+          "pinyin": "xiàtiān",
+          "pos": "名詞",
+          "meaningJa": "夏",
+          "contextualNote": "思い出の季節。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "亲姐姐",
+          "pinyin": "qīn jiějie",
+          "pos": "名詞",
+          "meaningJa": "実の姉",
+          "contextualNote": "血のつながった姉。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "还有",
+          "pinyin": "háiyǒu",
+          "pos": "動詞",
+          "meaningJa": "まだ〜がいた",
+          "contextualNote": "過去の存在を振り返る。",
+          "source": "novel-extra"
+        }
+      ],
+      "nextLineId": "ch03_22"
+    },
+    {
+      "id": "ch03_22",
+      "chapterId": "ch03",
+      "speaker": "苏晚星",
+      "speakerId": "wanxing",
+      "textZh": "那年八月下了好几天暴雨，天放晴的夜里，姐姐带我爬上屋顶看流星雨。",
+      "pinyin": "Nà nián bāyuè xià le hǎojǐ tiān bàoyǔ, tiān fàngqíng de yèlǐ, jiějie dài wǒ páshàng wūdǐng kàn liúxīngyǔ.",
+      "textJa": "その年の八月、何日も豪雨が続いて、空が晴れた夜に、姉が私を連れて屋上に登って流星群を見たの。",
+      "background": "observatory_rain",
+      "characters": [
+        {
+          "characterId": "cheng",
+          "expression": "neutral",
+          "position": "left"
+        },
+        {
+          "characterId": "wanxing",
+          "expression": "sad",
+          "position": "right"
+        }
+      ],
+      "tokens": [
+        {
+          "word": "暴雨",
+          "pinyin": "bàoyǔ",
+          "pos": "名詞",
+          "meaningJa": "豪雨・激しい雨",
+          "contextualNote": "今の嵐と重なる過去の記憶。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "放晴",
+          "pinyin": "fàngqíng",
+          "pos": "動詞",
+          "meaningJa": "雨などが止んで晴れる",
+          "contextualNote": "「雨霁」につながる言葉。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "屋顶",
+          "pinyin": "wūdǐng",
+          "pos": "名詞",
+          "meaningJa": "屋上・屋根",
+          "contextualNote": "スマホに同じ写真が残っていた場所。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "流星雨",
+          "pinyin": "liúxīngyǔ",
+          "pos": "名詞",
+          "meaningJa": "流星群",
+          "contextualNote": "姉妹で最後に見た星空。",
+          "source": "novel-extra"
+        }
+      ],
+      "nextLineId": "ch03_23"
+    },
+    {
+      "id": "ch03_23",
+      "chapterId": "ch03",
+      "speaker": "苏晚星",
+      "speakerId": "wanxing",
+      "textZh": "可没过多久，她就生病走了。从那以后，我的眼睛和记忆好像出了点毛病。",
+      "pinyin": "Kě méi guò duōjiǔ, tā jiù shēngbìng zǒu le. Cóng nà yǐhòu, wǒ de yǎnjing hé jìyì hǎoxiàng chū le diǎn máobìng.",
+      "textJa": "でもそれから間もなく、姉は病気で逝ってしまった。それ以来、私の目と記憶はおかしくなったみたいで。",
+      "background": "observatory_rain",
+      "characters": [
+        {
+          "characterId": "cheng",
+          "expression": "neutral",
+          "position": "left"
+        },
+        {
+          "characterId": "wanxing",
+          "expression": "sad",
+          "position": "right"
+        }
+      ],
+      "tokens": [
+        {
+          "word": "没过多久",
+          "pinyin": "méi guò duōjiǔ",
+          "pos": "表現",
+          "meaningJa": "ほどなくして・間もなく",
+          "contextualNote": "時間があまり経たないうちに。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "生病",
+          "pinyin": "shēngbìng",
+          "pos": "動詞",
+          "meaningJa": "病気になる",
+          "contextualNote": "体調を崩すこと。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "走",
+          "pinyin": "zǒu",
+          "pos": "動詞",
+          "meaningJa": "亡くなる・旅立つ",
+          "contextualNote": "死を婉曲に表す自然な口語。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "记忆",
+          "pinyin": "jìyì",
+          "pos": "名詞",
+          "meaningJa": "記憶",
+          "contextualNote": "過去の覚え。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "毛病",
+          "pinyin": "máobìng",
+          "pos": "名詞",
+          "meaningJa": "不具合・故障・異常",
+          "contextualNote": "「出了点毛病」で少し不具合が生じた意。",
+          "source": "novel-extra"
+        }
+      ],
+      "nextLineId": "ch03_24"
+    },
+    {
+      "id": "ch03_24",
+      "chapterId": "ch03",
+      "speaker": "苏晚星",
+      "speakerId": "wanxing",
+      "textZh": "每逢空气潮湿的下雨夜，路灯的光折在玻璃上，我就会在眼前看见十年前的星座残影。",
+      "pinyin": "Měiféng kōngqì cháoshī de xiàyǔ yè, lùdēng de guāng zhé zài bōli shàng, wǒ jiù huì zài yǎnqián kànjiàn shí nián qián de xīngzuò cányǐng.",
+      "textJa": "空気の湿った雨の夜になると、街灯の光がガラスに屈折するたび、目の前に十年前の星座の残像が浮かび上がるの。",
+      "background": "observatory_rain",
+      "characters": [
+        {
+          "characterId": "cheng",
+          "expression": "neutral",
+          "position": "left"
+        },
+        {
+          "characterId": "wanxing",
+          "expression": "sad",
+          "position": "right"
+        }
+      ],
+      "tokens": [
+        {
+          "word": "每逢",
+          "pinyin": "měiféng",
+          "pos": "接続詞",
+          "meaningJa": "〜のたびに・〜に出くわすといつも",
+          "contextualNote": "やや文語的で静かな語り口。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "潮湿",
+          "pinyin": "cháoshī",
+          "pos": "形容詞",
+          "meaningJa": "湿っぽい・湿度が高い",
+          "contextualNote": "梅雨時の空気。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "路灯",
+          "pinyin": "lùdēng",
+          "pos": "名詞",
+          "meaningJa": "街灯",
+          "contextualNote": "夜道を照らす灯り。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "星座",
+          "pinyin": "xīngzuò",
+          "pos": "名詞",
+          "meaningJa": "星座",
+          "contextualNote": "空の星の並び。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "残影",
+          "pinyin": "cányǐng",
+          "pos": "名詞",
+          "meaningJa": "残像・名残の影",
+          "contextualNote": "晩星の言う「光の残響」の正体。",
+          "source": "novel-extra"
+        }
+      ],
+      "nextLineId": "ch03_25"
+    },
+    {
+      "id": "ch03_25",
+      "chapterId": "ch03",
+      "speaker": "苏晚星",
+      "speakerId": "wanxing",
+      "textZh": "有时候甚至能听见模糊的声音，就像姐姐还在旁边说话一样……医生说那是视神经和记忆重叠引起的幻觉。",
+      "pinyin": "Yǒu shíhou shènzhì néng tīngjiàn móhu de shēngyīn, jiù xiàng jiějie hái zài pángbiān shuōhuà yíyàng……yīshēng shuō nà shì shìshénjīng hé jìyì chóngdié yǐnqǐ de huànjué.",
+      "textJa": "ときにはぼんやりと声まで聞こえて、まるで姉がまだ隣で話しかけてくれているみたいで……お医者さんは、視神経と記憶が重なって起きる幻覚だと言うの。",
+      "background": "observatory_rain",
+      "characters": [
+        {
+          "characterId": "cheng",
+          "expression": "neutral",
+          "position": "left"
+        },
+        {
+          "characterId": "wanxing",
+          "expression": "sad",
+          "position": "right"
+        }
+      ],
+      "tokens": [
+        {
+          "word": "甚至",
+          "pinyin": "shènzhì",
+          "pos": "副詞",
+          "meaningJa": "それどころか・〜さえ",
+          "contextualNote": "程度がさらに深いことを強調。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "模糊",
+          "pinyin": "móhu",
+          "pos": "形容詞",
+          "meaningJa": "ぼんやりしている・曖昧だ",
+          "contextualNote": "はっきり聞き取れない音や輪郭。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "重叠",
+          "pinyin": "chóngdié",
+          "pos": "動詞",
+          "meaningJa": "重なり合う",
+          "contextualNote": "過去と現在が重なること。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "引起",
+          "pinyin": "yǐnqǐ",
+          "pos": "動詞",
+          "meaningJa": "引き起こす",
+          "contextualNote": "原因から症状が生じる。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "幻觉",
+          "pinyin": "huànjué",
+          "pos": "名詞",
+          "meaningJa": "幻覚",
+          "contextualNote": "医学的な説明。",
+          "source": "novel-extra"
+        }
+      ],
+      "nextLineId": "ch03_26"
+    },
+    {
+      "id": "ch03_26",
+      "chapterId": "ch03",
+      "speaker": "林澄",
+      "speakerId": "cheng",
+      "textZh": "怪不得……你在咖啡馆给我看的相册里会有那么多张一模一样的屋顶照片，还一直带着药瓶。",
+      "pinyin": "Guàibude……nǐ zài kāfēiguǎn gěi wǒ kàn de xiàngcè lǐ huì yǒu nàme duō zhāng yìmúyíyàng de wūdǐng zhàopiàn, hái yìzhí dài zhe yàopíng.",
+      "textJa": "道理で……カフェで見せてくれたアルバムに、同じ構図の屋上の写真が何枚もあったのも、ずっと薬の小瓶を持ち歩いていたのも……。",
+      "background": "observatory_rain",
+      "characters": [
+        {
+          "characterId": "cheng",
+          "expression": "neutral",
+          "position": "left"
+        },
+        {
+          "characterId": "wanxing",
+          "expression": "sad",
+          "position": "right"
+        }
+      ],
+      "tokens": [
+        {
+          "word": "怪不得",
+          "pinyin": "guàibude",
+          "pos": "接続詞",
+          "meaningJa": "道理で〜なわけだ・なるほど",
+          "contextualNote": "腑に落ちたときに思わず漏れる口語。",
+          "source": "textbook-scope",
+          "lessonId": "L16"
+        },
+        {
+          "word": "咖啡馆",
+          "pinyin": "kāfēiguǎn",
+          "pos": "名詞",
+          "meaningJa": "カフェ・喫茶店",
+          "contextualNote": "第2章で訪れた場所。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "相册",
+          "pinyin": "xiàngcè",
+          "pos": "名詞",
+          "meaningJa": "アルバム・カメラロール",
+          "contextualNote": "第2章で見たスマホの写真アルバム。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "一模一样",
+          "pinyin": "yìmúyíyàng",
+          "pos": "成語",
+          "meaningJa": "瓜二つだ・まったく同じだ",
+          "contextualNote": "「模」はここでは mú と読む。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "照片",
+          "pinyin": "zhàopiàn",
+          "pos": "名詞",
+          "meaningJa": "写真",
+          "contextualNote": "カメラロールの写真。",
+          "source": "textbook-scope",
+          "lessonId": "L04"
+        },
+        {
+          "word": "药瓶",
+          "pinyin": "yàopíng",
+          "pos": "名詞",
+          "meaningJa": "薬瓶",
+          "contextualNote": "第2章の伏線③。",
+          "source": "novel-extra"
+        }
+      ],
+      "grammarNotes": [
+        {
+          "pattern": "怪不得……",
+          "title": "「怪不得」：納得を表す定番口語",
+          "explanation": "原因を知って「なるほど、それで〜だったのか／道理で〜なわけだ」と腑に落ちたときに使う非常に自然な口語です。",
+          "isColloquial": true
+        }
+      ],
+      "nextLineId": "ch03_27"
+    },
+    {
+      "id": "ch03_27",
+      "chapterId": "ch03",
+      "speaker": "苏晚星",
+      "speakerId": "wanxing",
+      "textZh": "被你发现了啊。我老拿手机拍同一片天，就是想确认自己看见的到底是不是真的。",
+      "pinyin": "Bèi nǐ fāxiàn le a. Wǒ lǎo ná shǒujī pāi tóng yípiàn tiān, jiùshì xiǎng quèrèn zìjǐ kànjiàn de dàodǐ shìbushì zhēn de.",
+      "textJa": "バレてたんだ。スマホで同じ空ばかり撮っていたのは、自分に見えているものが本当なのか確かめたかったからなんだ。",
+      "background": "observatory_rain",
+      "characters": [
+        {
+          "characterId": "cheng",
+          "expression": "neutral",
+          "position": "left"
+        },
+        {
+          "characterId": "wanxing",
+          "expression": "smile",
+          "position": "right"
+        }
+      ],
+      "tokens": [
+        {
+          "word": "发现",
+          "pinyin": "fāxiàn",
+          "pos": "動詞",
+          "meaningJa": "見つける・気づく",
+          "contextualNote": "秘密に気づかれていたこと。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "手机",
+          "pinyin": "shǒujī",
+          "pos": "名詞",
+          "meaningJa": "スマートフォン・携帯電話",
+          "contextualNote": "写真撮影に使っていた。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "确认",
+          "pinyin": "quèrèn",
+          "pos": "動詞",
+          "meaningJa": "確認する・確かめる",
+          "contextualNote": "現実との境界を測る行動。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "到底",
+          "pinyin": "dàodǐ",
+          "pos": "副詞",
+          "meaningJa": "いったい（どうなのか）",
+          "contextualNote": "疑問を強調する副詞。",
+          "source": "novel-extra"
+        }
+      ],
+      "nextLineId": "ch03_28"
+    },
+    {
+      "id": "ch03_28",
+      "chapterId": "ch03",
+      "speaker": "",
+      "speakerId": "narrator",
+      "textZh": "她低下头看着掌心，声音忽然轻得像快要被雨声吞掉。",
+      "pinyin": "Tā dīxià tóu kàn zhe zhǎngxīn, shēngyīn hūrán qīng de xiàng kuàiyào bèi yǔshēng tūndiào.",
+      "textJa": "彼女はうつむいて自分の掌を見つめ、その声は雨音に飲み込まれそうなほどふっと細くなった。",
+      "background": "observatory_rain",
+      "characters": [
+        {
+          "characterId": "cheng",
+          "expression": "neutral",
+          "position": "left"
+        },
+        {
+          "characterId": "wanxing",
+          "expression": "sad",
+          "position": "right"
+        }
+      ],
+      "tokens": [
+        {
+          "word": "掌心",
+          "pinyin": "zhǎngxīn",
+          "pos": "名詞",
+          "meaningJa": "手のひら",
+          "contextualNote": "視線を落とす先。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "忽然",
+          "pinyin": "hūrán",
+          "pos": "副詞",
+          "meaningJa": "ふいに・突然",
+          "contextualNote": "声のトーンが急に変わる。",
+          "source": "textbook-scope",
+          "lessonId": "L22"
+        },
+        {
+          "word": "快要",
+          "pinyin": "kuàiyào",
+          "pos": "副詞",
+          "meaningJa": "もうすぐ〜しそうだ",
+          "contextualNote": "今にも消えそうな様子。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "吞掉",
+          "pinyin": "tūndiào",
+          "pos": "動詞",
+          "meaningJa": "飲み込む",
+          "contextualNote": "大きな雨音にかき消される比喩。",
+          "source": "novel-extra"
+        }
+      ],
+      "nextLineId": "ch03_29"
+    },
+    {
+      "id": "ch03_29",
+      "chapterId": "ch03",
+      "speaker": "苏晚星",
+      "speakerId": "wanxing",
+      "textZh": "所以……今年八月，我打算转去北边那座城市。一边接受专科治疗，一边继续念书。",
+      "pinyin": "Suǒyǐ……jīnnián bāyuè, wǒ dǎsuàn zhuǎn qù běibiān nà zuò chéngshì. Yìbiān jiēshòu zhuānkē zhìliáo, yìbiān jìxù niànshū.",
+      "textJa": "だからね……今年の八月、北のほうの街へ転学しようと思ってる。専門の治療を受けながら、大学も続けるつもり。",
+      "background": "observatory_rain",
+      "characters": [
+        {
+          "characterId": "cheng",
+          "expression": "neutral",
+          "position": "left"
+        },
+        {
+          "characterId": "wanxing",
+          "expression": "sad",
+          "position": "right"
+        }
+      ],
+      "tokens": [
+        {
+          "word": "所以",
+          "pinyin": "suǒyǐ",
+          "pos": "接続詞",
+          "meaningJa": "だから・それで",
+          "contextualNote": "結論を導く。",
+          "source": "textbook-scope",
+          "lessonId": "L14"
+        },
+        {
+          "word": "打算",
+          "pinyin": "dǎsuàn",
+          "pos": "動詞",
+          "meaningJa": "〜するつもりだ・予定している",
+          "contextualNote": "将来の計画。",
+          "source": "textbook-scope",
+          "lessonId": "L07"
+        },
+        {
+          "word": "治疗",
+          "pinyin": "zhìliáo",
+          "pos": "動詞",
+          "meaningJa": "治療する",
+          "contextualNote": "専門医での治療。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "继续",
+          "pinyin": "jìxù",
+          "pos": "動詞",
+          "meaningJa": "続ける",
+          "contextualNote": "「一边A，一边B」で並行して行う。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "念书",
+          "pinyin": "niànshū",
+          "pos": "動詞",
+          "meaningJa": "勉強する・学校に通う",
+          "contextualNote": "学業を続ける口語表現。",
+          "source": "novel-extra"
+        }
+      ],
+      "nextLineId": "ch03_30"
+    },
+    {
+      "id": "ch03_30",
+      "chapterId": "ch03",
+      "speaker": "",
+      "speakerId": "narrator",
+      "textZh": "一时间，屋里只剩下手电筒微弱的光和敲在窗上的暴雨声，我的心猛地往下一沉。",
+      "pinyin": "Yìshíjiān, wūli zhǐ shèngxià shǒudiàntǒng wēiruò de guāng hé qiāo zài chuāngshàng de bàoyǔshēng, wǒ de xīn měngde wǎng xià yì chén.",
+      "textJa": "一瞬、部屋の中には懐中電灯のかすかな光と窓を叩く豪雨の音だけが残った。私の胸がどんと重く沈んだ。",
+      "background": "observatory_rain",
+      "characters": [
+        {
+          "characterId": "cheng",
+          "expression": "neutral",
+          "position": "left"
+        },
+        {
+          "characterId": "wanxing",
+          "expression": "sad",
+          "position": "right"
+        }
+      ],
+      "tokens": [
+        {
+          "word": "一时间",
+          "pinyin": "yìshíjiān",
+          "pos": "名詞",
+          "meaningJa": "しばらくの間・一瞬",
+          "contextualNote": "言葉を失った空白の時間。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "微弱",
+          "pinyin": "wēiruò",
+          "pos": "形容詞",
+          "meaningJa": "かすかだ・弱い",
+          "contextualNote": "手電筒の細い明かり。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "往",
+          "pinyin": "wǎng",
+          "pos": "前置詞",
+          "meaningJa": "〜の方へ",
+          "contextualNote": "心が下へ沈む方向。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "沉",
+          "pinyin": "chén",
+          "pos": "動詞",
+          "meaningJa": "沈む",
+          "contextualNote": "ショックで胸が重くなる感覚。",
+          "source": "novel-extra"
+        }
+      ],
+      "nextLineId": "ch03_31"
+    },
+    {
+      "id": "ch03_31",
+      "chapterId": "ch03",
+      "speaker": "苏晚星",
+      "speakerId": "wanxing",
+      "textZh": "本来想等办好手续再跟大家说的……今天不知道怎么回事，全都说出来了。",
+      "pinyin": "Běnlái xiǎng děng bànhǎo shǒuxù zài gēn dàjiā shuō de……jīntiān bù zhīdào zěnme huíshì, quándōu shuō chūlái le.",
+      "textJa": "本当は手続きが終わってからみんなに言おうと思ってたのに……今日はどうしたんだろう、全部話しちゃった。",
+      "background": "observatory_rain",
+      "characters": [
+        {
+          "characterId": "cheng",
+          "expression": "neutral",
+          "position": "left"
+        },
+        {
+          "characterId": "wanxing",
+          "expression": "sad",
+          "position": "right"
+        }
+      ],
+      "tokens": [
+        {
+          "word": "本来",
+          "pinyin": "běnlái",
+          "pos": "副詞",
+          "meaningJa": "もともと・本当は",
+          "contextualNote": "当初の予定。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "手续",
+          "pinyin": "shǒuxù",
+          "pos": "名詞",
+          "meaningJa": "手続き",
+          "contextualNote": "転学の手続き。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "怎么回事",
+          "pinyin": "zěnme huíshì",
+          "pos": "表現",
+          "meaningJa": "どういうわけか・どうしたことか",
+          "contextualNote": "自分でも意外に思う様子。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "说出来",
+          "pinyin": "shuō chūlái",
+          "pos": "動詞",
+          "meaningJa": "口に出す・打ち明ける",
+          "contextualNote": "心の中にしまっていた秘密を全部話してしまうこと。",
+          "source": "novel-extra"
+        }
+      ],
+      "choices": [
+        {
+          "id": "ch03_c2a",
+          "labelZh": "至少在走之前，别再把所有事都一个人扛着了。",
+          "labelJa": "行くまででいいから、もう一人で抱え込まないでほしいと伝える",
+          "nextLineId": "ch03_c2a_01",
+          "setFlags": {
+            "honest_feeling": true
+          },
+          "addNumbers": {
+            "affection": 2
+          }
+        },
+        {
+          "id": "ch03_c2b",
+          "labelZh": "谢谢你愿意告诉我，希望那边的治疗一切顺利。",
+          "labelJa": "話してくれてありがとう、向こうでの治療がうまくいくよう願っていると伝える",
+          "nextLineId": "ch03_c2b_01",
+          "addNumbers": {
+            "affection": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "ch03_c2a_01",
+      "chapterId": "ch03",
+      "speaker": "林澄",
+      "speakerId": "cheng",
+      "textZh": "学姐……谢谢你告诉我。可是，我不想你就这么一声不响地走掉。",
+      "pinyin": "Xuéjiě……xièxie nǐ gàosu wǒ. Kěshì, wǒ bù xiǎng nǐ jiù zhème yìshēng-bùxiǎng de zǒudiào.",
+      "textJa": "先輩……話してくれてありがとうございます。でも、そのまま何も言わずにいなくなってしまうのは、嫌です。",
+      "background": "observatory_rain",
+      "characters": [
+        {
+          "characterId": "cheng",
+          "expression": "neutral",
+          "position": "left"
+        },
+        {
+          "characterId": "wanxing",
+          "expression": "sad",
+          "position": "right"
+        }
+      ],
+      "tokens": [
+        {
+          "word": "告诉",
+          "pinyin": "gàosu",
+          "pos": "動詞",
+          "meaningJa": "伝える・教える",
+          "contextualNote": "秘密を打ち明けてくれたことへの感謝。",
+          "source": "textbook-scope",
+          "lessonId": "L10"
+        },
+        {
+          "word": "可是",
+          "pinyin": "kěshì",
+          "pos": "接続詞",
+          "meaningJa": "でも・しかし",
+          "contextualNote": "本音を続ける。",
+          "source": "textbook-scope",
+          "lessonId": "L07"
+        },
+        {
+          "word": "一声不响",
+          "pinyin": "yìshēng-bùxiǎng",
+          "pos": "成語",
+          "meaningJa": "一言も発さずに・ひっそりと",
+          "contextualNote": "誰にも告げずに立ち去る様子。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "走掉",
+          "pinyin": "zǒudiào",
+          "pos": "動詞",
+          "meaningJa": "立ち去る・いなくなる",
+          "contextualNote": "「掉」が喪失感や離脱のニュアンスを添える。",
+          "source": "novel-extra"
+        }
+      ],
+      "nextLineId": "ch03_c2a_02"
+    },
+    {
+      "id": "ch03_c2a_02",
+      "chapterId": "ch03",
+      "speaker": "林澄",
+      "speakerId": "cheng",
+      "textZh": "至少在八月之前，别再把所有事都一个人扛着了，好不好？",
+      "pinyin": "Zhìshǎo zài bāyuè zhīqián, bié zài bǎ suǒyǒu shì dōu yígèrén káng zhe le, hǎobuhǎo?",
+      "textJa": "せめて八月までは、何もかも一人で抱え込まないでください。いいですか？",
+      "background": "observatory_rain",
+      "characters": [
+        {
+          "characterId": "cheng",
+          "expression": "neutral",
+          "position": "left"
+        },
+        {
+          "characterId": "wanxing",
+          "expression": "blush",
+          "position": "right"
+        }
+      ],
+      "tokens": [
+        {
+          "word": "至少",
+          "pinyin": "zhìshǎo",
+          "pos": "副詞",
+          "meaningJa": "少なくとも・せめて",
+          "contextualNote": "控えめだが強い願い。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "所有",
+          "pinyin": "suǒyǒu",
+          "pos": "形容詞",
+          "meaningJa": "すべての",
+          "contextualNote": "抱えている秘密や不安すべて。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "扛",
+          "pinyin": "káng",
+          "pos": "動詞",
+          "meaningJa": "（肩に）担ぐ・背負う",
+          "contextualNote": "重い責任や苦しみを抱える比喩。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "好不好",
+          "pinyin": "hǎobuhǎo",
+          "pos": "表現",
+          "meaningJa": "いいですか・お願い",
+          "contextualNote": "相手の同意を優しく求める結び。",
+          "source": "novel-extra"
+        }
+      ],
+      "nextLineId": "ch03_c2a_03"
+    },
+    {
+      "id": "ch03_c2a_03",
+      "chapterId": "ch03",
+      "speaker": "苏晚星",
+      "speakerId": "wanxing",
+      "textZh": "……笨蛋。你这么认真盯着我看，我会害羞的啦。",
+      "pinyin": "……Bèndàn. Nǐ zhème rènzhēn dīng zhe wǒ kàn, wǒ huì hàixiū de la.",
+      "textJa": "……ばか。そんなに真剣に見つめられたら、照れるじゃない。",
+      "background": "observatory_rain",
+      "characters": [
+        {
+          "characterId": "cheng",
+          "expression": "neutral",
+          "position": "left"
+        },
+        {
+          "characterId": "wanxing",
+          "expression": "blush",
+          "position": "right"
+        }
+      ],
+      "tokens": [
+        {
+          "word": "笨蛋",
+          "pinyin": "bèndàn",
+          "pos": "名詞",
+          "meaningJa": "ばか・おバカさん",
+          "contextualNote": "照れ隠しの親愛を込めた呼び方。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "认真",
+          "pinyin": "rènzhēn",
+          "pos": "形容詞",
+          "meaningJa": "真剣だ・真面目だ",
+          "contextualNote": "真っ直ぐな眼差し。",
+          "source": "textbook-scope",
+          "lessonId": "L14"
+        },
+        {
+          "word": "盯着",
+          "pinyin": "dīng zhe",
+          "pos": "動詞",
+          "meaningJa": "じっと見つめる",
+          "contextualNote": "視線をそらさず見ること。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "害羞",
+          "pinyin": "hàixiū",
+          "pos": "形容詞",
+          "meaningJa": "照れる・恥ずかしがる",
+          "contextualNote": "ほのかな好意が伝わる瞬間。",
+          "source": "novel-extra"
+        }
+      ],
+      "nextLineId": "ch03_c2a_04"
+    },
+    {
+      "id": "ch03_c2a_04",
+      "chapterId": "ch03",
+      "speaker": "",
+      "speakerId": "narrator",
+      "textZh": "昏暗的光线里，她耳根微微泛红，却轻轻点了点头。",
+      "pinyin": "Hūn'àn de guāngxiàn lǐ, tā ěrgēn wēiwēi fànhóng, què qīngqīng diǎn le diǎn tóu.",
+      "textJa": "薄暗い光の中で、彼女は耳元をかすかに赤らめながらも、小さく頷いてくれた。",
+      "background": "observatory_rain",
+      "characters": [
+        {
+          "characterId": "cheng",
+          "expression": "neutral",
+          "position": "left"
+        },
+        {
+          "characterId": "wanxing",
+          "expression": "blush",
+          "position": "right"
+        }
+      ],
+      "tokens": [
+        {
+          "word": "昏暗",
+          "pinyin": "hūn'àn",
+          "pos": "形容詞",
+          "meaningJa": "薄暗い",
+          "contextualNote": "懐中電灯だけの室内。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "耳根",
+          "pinyin": "ěrgēn",
+          "pos": "名詞",
+          "meaningJa": "耳の付け根・耳元",
+          "contextualNote": "恥ずかしさで赤くなりやすい場所。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "微微",
+          "pinyin": "wēiwēi",
+          "pos": "副詞",
+          "meaningJa": "わずかに・かすかに",
+          "contextualNote": "控えめな変化。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "点头",
+          "pinyin": "diǎntóu",
+          "pos": "動詞",
+          "meaningJa": "頷く",
+          "contextualNote": "「点了点头」で軽く頷く動作。",
+          "source": "textbook-scope",
+          "lessonId": "L22"
+        }
+      ],
+      "nextLineId": "ch03_32"
+    },
+    {
+      "id": "ch03_c2b_01",
+      "chapterId": "ch03",
+      "speaker": "林澄",
+      "speakerId": "cheng",
+      "textZh": "谢谢学姐愿意告诉我这些……不管去哪里，只要能好起来，就比什么都重要。",
+      "pinyin": "Xièxie xuéjiě yuànyì gàosu wǒ zhèxiē……bùguǎn qù nǎlǐ, zhǐyào néng hǎoqǐlái, jiù bǐ shénme dōu zhòngyào.",
+      "textJa": "話してくれてありがとうございます……どこへ行っても、先輩の体調が良くなるなら、それが何より大切です。",
+      "background": "observatory_rain",
+      "characters": [
+        {
+          "characterId": "cheng",
+          "expression": "neutral",
+          "position": "left"
+        },
+        {
+          "characterId": "wanxing",
+          "expression": "sad",
+          "position": "right"
+        }
+      ],
+      "tokens": [
+        {
+          "word": "愿意",
+          "pinyin": "yuànyì",
+          "pos": "助動詞",
+          "meaningJa": "〜したいと思う・快く〜する",
+          "contextualNote": "心を開いてくれたことへの謝意。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "不管",
+          "pinyin": "bùguǎn",
+          "pos": "接続詞",
+          "meaningJa": "〜にかかわらず",
+          "contextualNote": "条件を問わない譲歩。",
+          "source": "textbook-scope",
+          "lessonId": "L19"
+        },
+        {
+          "word": "只要",
+          "pinyin": "zhǐyào",
+          "pos": "接続詞",
+          "meaningJa": "〜さえすれば",
+          "contextualNote": "必要十分条件を表す。",
+          "source": "textbook-scope",
+          "lessonId": "L21"
+        },
+        {
+          "word": "重要",
+          "pinyin": "zhòngyào",
+          "pos": "形容詞",
+          "meaningJa": "重要だ・大切だ",
+          "contextualNote": "相手の回復を最優先に思う気持ち。",
+          "source": "novel-extra"
+        }
+      ],
+      "nextLineId": "ch03_c2b_02"
+    },
+    {
+      "id": "ch03_c2b_02",
+      "chapterId": "ch03",
+      "speaker": "苏晚星",
+      "speakerId": "wanxing",
+      "textZh": "嗯，林澄一直都这么体贴呢。听你这么说，我心里轻松多了。",
+      "pinyin": "Ǹ, Lín Chéng yìzhí dōu zhème tǐtiē ne. Tīng nǐ zhème shuō, wǒ xīnlǐ qīngsōng duō le.",
+      "textJa": "うん、林澄はいつも本当に優しいね。そう言ってもらえると、気持ちがずいぶん軽くなるよ。",
+      "background": "observatory_rain",
+      "characters": [
+        {
+          "characterId": "cheng",
+          "expression": "neutral",
+          "position": "left"
+        },
+        {
+          "characterId": "wanxing",
+          "expression": "smile",
+          "position": "right"
+        }
+      ],
+      "tokens": [
+        {
+          "word": "一直",
+          "pinyin": "yìzhí",
+          "pos": "副詞",
+          "meaningJa": "ずっと・いつも",
+          "contextualNote": "一貫した性格への言及。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "体贴",
+          "pinyin": "tǐtiē",
+          "pos": "形容詞",
+          "meaningJa": "思いやりがある・気配りができる",
+          "contextualNote": "相手の立場を気遣う優しさ。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "轻松",
+          "pinyin": "qīngsōng",
+          "pos": "形容詞",
+          "meaningJa": "気が楽だ・軽い",
+          "contextualNote": "心の重荷が下りた状態。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "多了",
+          "pinyin": "duō le",
+          "pos": "表現",
+          "meaningJa": "ずっと〜だ・はるかに〜だ",
+          "contextualNote": "形容詞の後ろに置いて程度の差を強調する。",
+          "source": "novel-extra"
+        }
+      ],
+      "nextLineId": "ch03_c2b_03"
+    },
+    {
+      "id": "ch03_c2b_03",
+      "chapterId": "ch03",
+      "speaker": "苏晚星",
+      "speakerId": "wanxing",
+      "textZh": "不过说实话，我也有点舍不得这间旧屋子，还有总陪我喝茶的人。",
+      "pinyin": "Búguò shuō shíhuà, wǒ yě yǒudiǎn shěbude zhè jiān jiù wūzi, háiyǒu zǒng péi wǒ hēchá de rén.",
+      "textJa": "でも正直言うと、この古い図書室とも、いつもお茶に付き合ってくれる人とも、少し離れがたいな。",
+      "background": "observatory_rain",
+      "characters": [
+        {
+          "characterId": "cheng",
+          "expression": "neutral",
+          "position": "left"
+        },
+        {
+          "characterId": "wanxing",
+          "expression": "smile",
+          "position": "right"
+        }
+      ],
+      "tokens": [
+        {
+          "word": "说实话",
+          "pinyin": "shuō shíhuà",
+          "pos": "慣用表現",
+          "meaningJa": "正直に言うと・実を言うと",
+          "contextualNote": "本音を打ち明ける前置き。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "舍不得",
+          "pinyin": "shěbude",
+          "pos": "動詞",
+          "meaningJa": "手放しがたい・名残惜しい",
+          "contextualNote": "別れや手放すことへの未練。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "陪",
+          "pinyin": "péi",
+          "pos": "動詞",
+          "meaningJa": "付き合う・そばにいる",
+          "contextualNote": "林澄との穏やかな時間を指す。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "喝茶",
+          "pinyin": "hēchá",
+          "pos": "動詞",
+          "meaningJa": "お茶を飲む",
+          "contextualNote": "二人の日課。",
+          "source": "novel-extra"
+        }
+      ],
+      "nextLineId": "ch03_c2b_04"
+    },
+    {
+      "id": "ch03_c2b_04",
+      "chapterId": "ch03",
+      "speaker": "",
+      "speakerId": "narrator",
+      "textZh": "她靠回书架上，眼神比刚才平静了许多，嘴角带着淡淡的笑意。",
+      "pinyin": "Tā kàohuí shūjià shàng, yǎnshén bǐ gāngcái píngjìng le xǔduō, zuǐjiǎo dài zhe dàndàn de xiàoyì.",
+      "textJa": "彼女は本棚にもたれ直した。その眼差しはさっきよりずっと穏やかで、口元には淡い微笑みが浮かんでいた。",
+      "background": "observatory_rain",
+      "characters": [
+        {
+          "characterId": "cheng",
+          "expression": "neutral",
+          "position": "left"
+        },
+        {
+          "characterId": "wanxing",
+          "expression": "smile",
+          "position": "right"
+        }
+      ],
+      "tokens": [
+        {
+          "word": "眼神",
+          "pinyin": "yǎnshén",
+          "pos": "名詞",
+          "meaningJa": "目つき・眼差し",
+          "contextualNote": "心の変化が映る目元。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "刚才",
+          "pinyin": "gāngcái",
+          "pos": "名詞",
+          "meaningJa": "さっき",
+          "contextualNote": "少し前の時点。",
+          "source": "textbook-scope",
+          "lessonId": "L16"
+        },
+        {
+          "word": "平静",
+          "pinyin": "píngjìng",
+          "pos": "形容詞",
+          "meaningJa": "穏やかだ・落ち着いている",
+          "contextualNote": "不安が和らいだ状態。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "淡淡",
+          "pinyin": "dàndàn",
+          "pos": "形容詞",
+          "meaningJa": "淡い・控えめな",
+          "contextualNote": "静かな微笑みの修飾。",
+          "source": "novel-extra"
+        }
+      ],
+      "nextLineId": "ch03_32"
+    },
+    {
+      "id": "ch03_32",
+      "chapterId": "ch03",
+      "speaker": "",
+      "speakerId": "narrator",
+      "textZh": "又过了一会儿，雷声渐渐滚向远处的海面，窗外的雨势也缓了下来。",
+      "pinyin": "Yòu guò le yíhuìr, léishēng jiànjiàn gǔnxiàng yuǎnchù de hǎimiàn, chuāngwài de yǔshì yě huǎn le xiàlái.",
+      "textJa": "しばらくすると雷鳴は遠くの海の方へと遠ざかり、窓の外の雨足も次第に弱まってきた。",
+      "background": "observatory_rain",
+      "characters": [
+        {
+          "characterId": "cheng",
+          "expression": "neutral",
+          "position": "left"
+        },
+        {
+          "characterId": "wanxing",
+          "expression": "neutral",
+          "position": "right"
+        }
+      ],
+      "tokens": [
+        {
+          "word": "一会儿",
+          "pinyin": "yíhuìr",
+          "pos": "名詞",
+          "meaningJa": "しばらく・ちょっとの間",
+          "contextualNote": "時間の経過。",
+          "source": "textbook-scope",
+          "lessonId": "L22"
+        },
+        {
+          "word": "渐渐",
+          "pinyin": "jiànjiàn",
+          "pos": "副詞",
+          "meaningJa": "だんだん・次第に",
+          "contextualNote": "ゆるやかな変化。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "海面",
+          "pinyin": "hǎimiàn",
+          "pos": "名詞",
+          "meaningJa": "海面",
+          "contextualNote": "大学街のそばに広がる海。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "雨势",
+          "pinyin": "yǔshì",
+          "pos": "名詞",
+          "meaningJa": "雨足・雨の勢い",
+          "contextualNote": "降雨の強さ。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "缓",
+          "pinyin": "huǎn",
+          "pos": "動詞",
+          "meaningJa": "緩む・弱まる",
+          "contextualNote": "勢いが落ち着く。",
+          "source": "novel-extra"
+        }
+      ],
+      "nextLineId": "ch03_33"
+    },
+    {
+      "id": "ch03_33",
+      "chapterId": "ch03",
+      "speaker": "苏晚星",
+      "speakerId": "wanxing",
+      "textZh": "电一时半会儿大概来不了了，趁着雨小，我们下山吧。",
+      "pinyin": "Diàn yìshí-bànhuìr dàgài lái bu liǎo le, chèn zhe yǔ xiǎo, wǒmen xiàshān ba.",
+      "textJa": "電気はすぐには戻りそうにないね。雨が小降りになった今のうちに、山を下りようか。",
+      "background": "observatory_rain",
+      "characters": [
+        {
+          "characterId": "cheng",
+          "expression": "neutral",
+          "position": "left"
+        },
+        {
+          "characterId": "wanxing",
+          "expression": "neutral",
+          "position": "right"
+        }
+      ],
+      "tokens": [
+        {
+          "word": "一时半会儿",
+          "pinyin": "yìshí-bànhuìr",
+          "pos": "慣用表現",
+          "meaningJa": "すぐには・当分は",
+          "contextualNote": "否定文とよく組む自然な口語。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "来不了",
+          "pinyin": "lái bu liǎo",
+          "pos": "表現",
+          "meaningJa": "来られない・復旧しない",
+          "contextualNote": "可能補語否定「不了」。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "趁着",
+          "pinyin": "chèn zhe",
+          "pos": "前置詞",
+          "meaningJa": "〜のうちに・〜に乗じて",
+          "contextualNote": "良い機会を逃さず行動する。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "下山",
+          "pinyin": "xiàshān",
+          "pos": "動詞",
+          "meaningJa": "山を下りる",
+          "contextualNote": "丘の上にある旧天文台から街へ戻る。",
+          "source": "novel-extra"
+        }
+      ],
+      "grammarNotes": [
+        {
+          "pattern": "一时半会儿 + 否定",
+          "title": "「一时半会儿」：すぐには〜ない",
+          "explanation": "「短時間のうちには（無理だ）」というニュアンスを表す非常によく使われる口語表現です。",
+          "isColloquial": true
+        }
+      ],
+      "nextLineId": "ch03_34"
+    },
+    {
+      "id": "ch03_34",
+      "chapterId": "ch03",
+      "speaker": "",
+      "speakerId": "narrator",
+      "textZh": "走到玄关伞架前，我才发现原本备用的折叠伞不见了，而晚星学姐今天也刚好没带伞。",
+      "pinyin": "Zǒudào xuánguān sǎnjià qián, wǒ cái fāxiàn yuánběn bèiyòng de zhédiésǎn bújiàn le, ér Wǎnxīng xuéjiě jīntiān yě gānghǎo méi dài sǎn.",
+      "textJa": "玄関の傘立ての前まで来て、私はようやく気づいた。予備の折りたたみ傘が見当たらず、晩星先輩もちょうど今日、傘を持ってきていなかったのだ。",
+      "background": "observatory_rain",
+      "characters": [
+        {
+          "characterId": "cheng",
+          "expression": "neutral",
+          "position": "left"
+        },
+        {
+          "characterId": "wanxing",
+          "expression": "neutral",
+          "position": "right"
+        }
+      ],
+      "tokens": [
+        {
+          "word": "玄关",
+          "pinyin": "xuánguān",
+          "pos": "名詞",
+          "meaningJa": "玄関",
+          "contextualNote": "建物の入り口。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "折叠伞",
+          "pinyin": "zhédiésǎn",
+          "pos": "名詞",
+          "meaningJa": "折りたたみ傘",
+          "contextualNote": "持ち運び用の傘。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "把",
+          "pinyin": "bǎ",
+          "pos": "量詞",
+          "meaningJa": "本（傘を数える）",
+          "contextualNote": "取っ手のある道具の量詞。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "根本",
+          "pinyin": "gēnběn",
+          "pos": "副詞",
+          "meaningJa": "そもそも・まったく",
+          "contextualNote": "否定を強める副詞。",
+          "source": "novel-extra"
+        }
+      ],
+      "nextLineId": "ch03_35"
+    },
+    {
+      "id": "ch03_35",
+      "chapterId": "ch03",
+      "speaker": "林澄",
+      "speakerId": "cheng",
+      "textZh": "我这把透明雨伞还算宽敞，学姐，咱们一起撑吧。",
+      "pinyin": "Wǒ zhè bǎ tòumíng yǔsǎn hái suàn kuānchang, xuéjiě, zánmen yìqǐ chēng ba.",
+      "textJa": "私のこの透明な傘、わりと大きめですから、先輩、一緒に入りましょう。",
+      "background": "observatory_rain",
+      "characters": [
+        {
+          "characterId": "cheng",
+          "expression": "neutral",
+          "position": "left"
+        },
+        {
+          "characterId": "wanxing",
+          "expression": "smile",
+          "position": "right"
+        }
+      ],
+      "tokens": [
+        {
+          "word": "透明",
+          "pinyin": "tòumíng",
+          "pos": "形容詞",
+          "meaningJa": "透明だ",
+          "contextualNote": "ビニール傘の質感。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "雨伞",
+          "pinyin": "yǔsǎn",
+          "pos": "名詞",
+          "meaningJa": "雨傘",
+          "contextualNote": "雨よけの傘。",
+          "source": "textbook-scope",
+          "lessonId": "L09"
+        },
+        {
+          "word": "还算",
+          "pinyin": "hái suàn",
+          "pos": "表現",
+          "meaningJa": "まあ〜なほうだ",
+          "contextualNote": "控えめに評価する口語。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "宽敞",
+          "pinyin": "kuānchang",
+          "pos": "形容詞",
+          "meaningJa": "広い・ゆったりしている",
+          "contextualNote": "二人でも入れるサイズ感。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "撑",
+          "pinyin": "chēng",
+          "pos": "動詞",
+          "meaningJa": "（傘を）差す",
+          "contextualNote": "傘を広げてさす動詞。",
+          "source": "novel-extra"
+        }
+      ],
+      "nextLineId": "ch03_36"
+    },
+    {
+      "id": "ch03_36",
+      "chapterId": "ch03",
+      "speaker": "",
+      "speakerId": "narrator",
+      "textZh": "撑开透明的伞面，夜风裹着湿润的松木气息扑面而来。我们并肩走进蓝灰色的夜雨里。",
+      "pinyin": "Chēngkāi tòumíng de sǎnmiàn, yèfēng guǒ zhe shīrùn de sōngmù qìxī pūmiàn'érlái. Wǒmen bìngjiān zǒujìn lánhuīsè de yèyǔ lǐ.",
+      "textJa": "透明な傘を広げると、湿った松の木の香りをまとった夜風がふわりと頬に触れた。私たちは肩を並べて青灰色の夜雨の中へ踏み出した。",
+      "background": "observatory_rain",
+      "cg": "cg_umbrella",
+      "unlockCg": "cg_umbrella",
+      "characters": [],
+      "sfx": "chime",
+      "transition": "fade",
+      "tokens": [
+        {
+          "word": "伞面",
+          "pinyin": "sǎnmiàn",
+          "pos": "名詞",
+          "meaningJa": "傘の布（ビニール）面",
+          "contextualNote": "雨粒が当たる面。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "湿润",
+          "pinyin": "shīrùn",
+          "pos": "形容詞",
+          "meaningJa": "しっとり湿っている",
+          "contextualNote": "雨を含んだ空気の質感。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "扑面而来",
+          "pinyin": "pūmiàn'érlái",
+          "pos": "成語",
+          "meaningJa": "顔に吹きかかる・目の前に迫ってくる",
+          "contextualNote": "外に出た瞬間の風や香り。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "并肩",
+          "pinyin": "bìngjiān",
+          "pos": "副詞",
+          "meaningJa": "肩を並べて",
+          "contextualNote": "相合傘で寄り添う姿。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "夜雨",
+          "pinyin": "yèyǔ",
+          "pos": "名詞",
+          "meaningJa": "夜の雨",
+          "contextualNote": "静かな夜の雨景色。",
+          "source": "novel-extra"
+        }
+      ],
+      "nextLineId": "ch03_37"
+    },
+    {
+      "id": "ch03_37",
+      "chapterId": "ch03",
+      "speaker": "",
+      "speakerId": "narrator",
+      "textZh": "雨点细密地敲在头顶的伞骨上，把两个人的距离缩进同一个小小的圆圈里。",
+      "pinyin": "Yǔdiǎn xìmì de qiāo zài tóudǐng de sǎngǔ shàng, bǎ liǎng gè rén de jùlí suōjìn tóng yígè xiǎoxiǎo de yuánquān lǐ.",
+      "textJa": "細かな雨粒が頭上の傘の骨を叩き、二人の距離をひとつの小さな円の中にそっと縮めていく。",
+      "background": "observatory_rain",
+      "cg": "cg_umbrella",
+      "characters": [],
+      "tokens": [
+        {
+          "word": "细密",
+          "pinyin": "xìmì",
+          "pos": "形容詞",
+          "meaningJa": "きめ細かい・細やかで密だ",
+          "contextualNote": "小雨の様子。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "距离",
+          "pinyin": "jùlí",
+          "pos": "名詞",
+          "meaningJa": "距離",
+          "contextualNote": "物理的にも心理的にも近い距離。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "缩进",
+          "pinyin": "suōjìn",
+          "pos": "動詞",
+          "meaningJa": "縮めて〜の中に入れる",
+          "contextualNote": "一つの傘の下に収まる感覚。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "圆圈",
+          "pinyin": "yuánquān",
+          "pos": "名詞",
+          "meaningJa": "丸・円",
+          "contextualNote": "傘が作る小さな空間。",
+          "source": "novel-extra"
+        }
+      ],
+      "nextLineId": "ch03_38"
+    },
+    {
+      "id": "ch03_38",
+      "chapterId": "ch03",
+      "speaker": "",
+      "speakerId": "narrator",
+      "textZh": "为了不让她淋到雨，我悄悄把伞柄往她那边倾了倾。",
+      "pinyin": "Wèile bú ràng tā líndào yǔ, wǒ qiāoqiāo bǎ sǎnbǐng wǎng tā nàbiān qīng le qīng.",
+      "textJa": "彼女が雨に濡れないように、私はこっそり傘の柄を彼女の方へ傾けた。",
+      "background": "observatory_rain",
+      "cg": "cg_umbrella",
+      "characters": [],
+      "tokens": [
+        {
+          "word": "为了",
+          "pinyin": "wèile",
+          "pos": "前置詞",
+          "meaningJa": "〜するために",
+          "contextualNote": "行動の目的。",
+          "source": "textbook-scope",
+          "lessonId": "L18"
+        },
+        {
+          "word": "悄悄",
+          "pinyin": "qiāoqiāo",
+          "pos": "副詞",
+          "meaningJa": "こっそり・そっと",
+          "contextualNote": "気づかれないようにする優しさ。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "伞柄",
+          "pinyin": "sǎnbǐng",
+          "pos": "名詞",
+          "meaningJa": "傘の柄",
+          "contextualNote": "手で握る持ち手。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "倾",
+          "pinyin": "qīng",
+          "pos": "動詞",
+          "meaningJa": "傾ける",
+          "contextualNote": "「倾了倾」で少し傾ける動作。",
+          "source": "novel-extra"
+        }
+      ],
+      "nextLineId": "ch03_39"
+    },
+    {
+      "id": "ch03_39",
+      "chapterId": "ch03",
+      "speaker": "苏晚星",
+      "speakerId": "wanxing",
+      "textZh": "喂，你再往我这边让，右边肩膀都要湿透啦。",
+      "pinyin": "Wèi, nǐ zài wǎng wǒ zhèbiān ràng, yòubiān jiānbǎng dōu yào shītòu la.",
+      "textJa": "ねえ、そんなに私の方ばかりかばってたら、右肩がびしょ濡れになっちゃうよ。",
+      "background": "observatory_rain",
+      "cg": "cg_umbrella",
+      "characters": [],
+      "tokens": [
+        {
+          "word": "喂",
+          "pinyin": "wèi",
+          "pos": "感嘆詞",
+          "meaningJa": "ねえ・ちょっと",
+          "contextualNote": "親しい相手への呼びかけ。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "让",
+          "pinyin": "ràng",
+          "pos": "動詞",
+          "meaningJa": "譲る・避ける",
+          "contextualNote": "傘のスペースを譲ること。",
+          "source": "textbook-scope",
+          "lessonId": "L16"
+        },
+        {
+          "word": "右边",
+          "pinyin": "yòubiān",
+          "pos": "名詞",
+          "meaningJa": "右側",
+          "contextualNote": "位置を示す。",
+          "source": "textbook-scope",
+          "lessonId": "L03"
+        },
+        {
+          "word": "肩膀",
+          "pinyin": "jiānbǎng",
+          "pos": "名詞",
+          "meaningJa": "肩",
+          "contextualNote": "雨に濡れやすい場所。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "湿透",
+          "pinyin": "shītòu",
+          "pos": "動詞",
+          "meaningJa": "びしょ濡れになる",
+          "contextualNote": "「透」は中まで完全に濡れる結果補語。",
+          "source": "novel-extra"
+        }
+      ],
+      "nextLineId": "ch03_40"
+    },
+    {
+      "id": "ch03_40",
+      "chapterId": "ch03",
+      "speaker": "",
+      "speakerId": "narrator",
+      "textZh": "话音未落，晚星学姐顺手握住了我拿伞的手腕，轻轻往回拉了一点，肩膀随之贴近过来。",
+      "pinyin": "Huàyīn wèi luò, Wǎnxīng xuéjiě shùnshǒu wòzhù le wǒ ná sǎn de shǒuwàn, qīngqīng wǎng huí lā le yìdiǎn, jiānbǎng suízhī tiējìn guòlái.",
+      "textJa": "言葉が終わらないうちに、晩星先輩は傘を持つ私の手首をそっと掴んで少し引き戻し、そのぶん肩がふわりと寄り添った。",
+      "background": "observatory_rain",
+      "cg": "cg_umbrella",
+      "characters": [],
+      "tokens": [
+        {
+          "word": "顺手",
+          "pinyin": "shùnshǒu",
+          "pos": "副詞",
+          "meaningJa": "ついでに・自然にすっと",
+          "contextualNote": "流れるような自然な動き。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "握住",
+          "pinyin": "wòzhù",
+          "pos": "動詞",
+          "meaningJa": "握る・掴む",
+          "contextualNote": "手首をそっと包む。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "手腕",
+          "pinyin": "shǒuwàn",
+          "pos": "名詞",
+          "meaningJa": "手首",
+          "contextualNote": "傘を握る手首。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "贴近",
+          "pinyin": "tiējìn",
+          "pos": "動詞",
+          "meaningJa": "ぴったり寄り添う・近づく",
+          "contextualNote": "相合傘ならではの近さ。",
+          "source": "novel-extra"
+        }
+      ],
+      "nextLineId": "ch03_41"
+    },
+    {
+      "id": "ch03_41",
+      "chapterId": "ch03",
+      "speaker": "林澄",
+      "speakerId": "cheng",
+      "textZh": "啊……嗯。谢谢学姐。",
+      "pinyin": "À……ǹ. Xièxie xuéjiě.",
+      "textJa": "あ……はい。ありがとうございます、先輩。",
+      "background": "observatory_rain",
+      "cg": "cg_umbrella",
+      "characters": [],
+      "tokens": [
+        {
+          "word": "啊",
+          "pinyin": "à",
+          "pos": "感嘆詞",
+          "meaningJa": "あっ",
+          "contextualNote": "不意の接触への小さな驚き。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "嗯",
+          "pinyin": "ǹ",
+          "pos": "感嘆詞",
+          "meaningJa": "うん",
+          "contextualNote": "小さな返事。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "谢谢",
+          "pinyin": "xièxie",
+          "pos": "動詞",
+          "meaningJa": "ありがとう",
+          "contextualNote": "感謝の挨拶。",
+          "source": "textbook-scope",
+          "lessonId": "L01"
+        },
+        {
+          "word": "学姐",
+          "pinyin": "xuéjiě",
+          "pos": "名詞",
+          "meaningJa": "先輩",
+          "contextualNote": "敬愛を込めた呼び方。",
+          "source": "novel-extra"
+        }
+      ],
+      "nextLineId": "ch03_42"
+    },
+    {
+      "id": "ch03_42",
+      "chapterId": "ch03",
+      "speaker": "苏晚星",
+      "speakerId": "wanxing",
+      "textZh": "林澄，刚才说的话你别往心里去——不过，如果梅雨停了的话……",
+      "pinyin": "Lín Chéng, gāngcái shuō de huà nǐ bié wǎng xīnlǐ qù——búguò, rúguǒ méiyǔ tíng le dehuà……",
+      "textJa": "林澄、さっき話したこと、あまり気にしすぎないでね——でも、もし梅雨が明けたら……",
+      "background": "observatory_rain",
+      "cg": "cg_umbrella",
+      "characters": [],
+      "tokens": [
+        {
+          "word": "别往心里去",
+          "pinyin": "bié wǎng xīnlǐ qù",
+          "pos": "慣用表現",
+          "meaningJa": "気に病まないで・心に留めないで",
+          "contextualNote": "相手を気遣う定番の慰めフレーズ。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "不过",
+          "pinyin": "búguò",
+          "pos": "接続詞",
+          "meaningJa": "でも・ただ",
+          "contextualNote": "話題を少し転じる。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "如果",
+          "pinyin": "rúguǒ",
+          "pos": "接続詞",
+          "meaningJa": "もし〜なら",
+          "contextualNote": "仮定の条件。",
+          "source": "textbook-scope",
+          "lessonId": "L13"
+        },
+        {
+          "word": "梅雨",
+          "pinyin": "méiyǔ",
+          "pos": "名詞",
+          "meaningJa": "梅雨",
+          "contextualNote": "この物語の季節。",
+          "source": "novel-extra"
+        }
+      ],
+      "grammarNotes": [
+        {
+          "pattern": "别往心里去",
+          "title": "「别往心里去」：気にしないで",
+          "explanation": "直訳すると「心の中へ持って行かないで」。「重く受け止めて落ち込まないでね」と相手を優しく気遣う慣用表現です。",
+          "isColloquial": true
+        }
+      ],
+      "nextLineId": "ch03_43"
+    },
+    {
+      "id": "ch03_43",
+      "chapterId": "ch03",
+      "speaker": "苏晚星",
+      "speakerId": "wanxing",
+      "textZh": "你愿意陪我最后再看一次……没有幻觉、真真正正的夏日星空吗？",
+      "pinyin": "Nǐ yuànyì péi wǒ zuìhòu zài kàn yícì……méiyǒu huànjué, zhēnzhēn-zhèngzhèng de xiàrì xīngkōng ma?",
+      "textJa": "幻覚じゃない、正真正銘の夏の星空を……最後にもう一度、私と一緒に見てくれる？",
+      "background": "observatory_rain",
+      "cg": "cg_umbrella",
+      "characters": [],
+      "tokens": [
+        {
+          "word": "最后",
+          "pinyin": "zuìhòu",
+          "pos": "名詞",
+          "meaningJa": "最後",
+          "contextualNote": "転居前の最後の夏。",
+          "source": "textbook-scope",
+          "lessonId": "L18"
+        },
+        {
+          "word": "真真正正",
+          "pinyin": "zhēnzhēn-zhèngzhèng",
+          "pos": "形容詞",
+          "meaningJa": "正真正銘の・本物の",
+          "contextualNote": "AABB型で「本物」を強く願う気持ちを表す。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "夏日",
+          "pinyin": "xiàrì",
+          "pos": "名詞",
+          "meaningJa": "夏の日",
+          "contextualNote": "詩的な響きの言葉。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "星空",
+          "pinyin": "xīngkōng",
+          "pos": "名詞",
+          "meaningJa": "星空",
+          "contextualNote": "二人が見上げたい夜空。",
+          "source": "novel-extra"
+        }
+      ],
+      "nextLineId": "ch03_44"
+    },
+    {
+      "id": "ch03_44",
+      "chapterId": "ch03",
+      "speaker": "林澄",
+      "speakerId": "cheng",
+      "textZh": "嗯，我一定陪你看。咱们一言为定。",
+      "pinyin": "Ǹ, wǒ yídìng péi nǐ kàn. Zánmen yìyán-wéidìng.",
+      "textJa": "はい、必ず一緒に見ます。約束ですよ。",
+      "background": "observatory_rain",
+      "cg": "cg_umbrella",
+      "characters": [],
+      "tokens": [
+        {
+          "word": "一定",
+          "pinyin": "yídìng",
+          "pos": "副詞",
+          "meaningJa": "必ず・きっと",
+          "contextualNote": "揺るがない決意。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "陪",
+          "pinyin": "péi",
+          "pos": "動詞",
+          "meaningJa": "付き添う・一緒にいる",
+          "contextualNote": "そばにいる約束。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "咱们",
+          "pinyin": "zánmen",
+          "pos": "代詞",
+          "meaningJa": "私たち",
+          "contextualNote": "二人の間の親密な約束。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "一言为定",
+          "pinyin": "yìyán-wéidìng",
+          "pos": "成語",
+          "meaningJa": "それで決まりだ・約束だ",
+          "contextualNote": "「一言で決めたら変えない」という約束の決まり文句。",
+          "source": "novel-extra"
+        }
+      ],
+      "grammarNotes": [
+        {
+          "pattern": "一言为定",
+          "title": "「一言为定」：約束だよ／それで決まり",
+          "explanation": "「ひとこと口にしたことを約束として定める」という意味の成語で、日常会話でも「約束ね！」と念押しするときによく使います。",
+          "isColloquial": true
+        }
+      ],
+      "nextLineId": "ch03_45"
+    },
+    {
+      "id": "ch03_45",
+      "chapterId": "ch03",
+      "speaker": "",
+      "speakerId": "narrator",
+      "textZh": "她轻笑了一声，隔着薄薄的衣料，掌心传来的温度慢慢驱散了雨夜的凉意。",
+      "pinyin": "Tā qīngxiào le yìshēng, gé zhe báobáo de yīliào, zhǎngxīn chuánlái de wēndù mànmàn qūsàn le yǔyè de liángyì.",
+      "textJa": "彼女はふっと小さく笑い、薄い布地越しに伝わるぬくもりが、雨の夜の冷たさをゆっくりと溶かしていった。",
+      "background": "observatory_rain",
+      "cg": "cg_umbrella",
+      "characters": [],
+      "tokens": [
+        {
+          "word": "隔着",
+          "pinyin": "gé zhe",
+          "pos": "動詞",
+          "meaningJa": "〜を隔てて",
+          "contextualNote": "服の生地越しに感じる様子。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "衣料",
+          "pinyin": "yīliào",
+          "pos": "名詞",
+          "meaningJa": "服の生地",
+          "contextualNote": "夏の薄手のカーディガン。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "温度",
+          "pinyin": "wēndù",
+          "pos": "名詞",
+          "meaningJa": "温度・ぬくもり",
+          "contextualNote": "相手の体温。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "驱散",
+          "pinyin": "qūsàn",
+          "pos": "動詞",
+          "meaningJa": "追い払う・消し去る",
+          "contextualNote": "寒さや不安を和らげる。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "凉意",
+          "pinyin": "liángyì",
+          "pos": "名詞",
+          "meaningJa": "ひんやりとした冷気",
+          "contextualNote": "雨夜の肌寒さ。",
+          "source": "novel-extra"
+        }
+      ],
+      "nextLineId": "ch03_46"
+    },
+    {
+      "id": "ch03_46",
+      "chapterId": "ch03",
+      "speaker": "",
+      "speakerId": "narrator",
+      "textZh": "琥珀色的路灯在水洼里碎成细光，我忽然希望这条下山的路能再长一点、再慢一点。",
+      "pinyin": "Hǔpòsè de lùdēng zài shuǐwā lǐ suìchéng xìguāng, wǒ hūrán xīwàng zhè tiáo xiàshān de lù néng zài cháng yìdiǎn, zài màn yìdiǎn.",
+      "textJa": "琥珀色の街灯が水たまりの中で細かな光に砕ける。私はふと、この坂道がもう少し長ければ、もう少しゆっくり歩けたらと願っていた。",
+      "background": "observatory_rain",
+      "cg": "cg_umbrella",
+      "characters": [],
+      "tokens": [
+        {
+          "word": "琥珀色",
+          "pinyin": "hǔpòsè",
+          "pos": "名詞",
+          "meaningJa": "琥珀色",
+          "contextualNote": "温かいオレンジがかった街灯の色。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "水洼",
+          "pinyin": "shuǐwā",
+          "pos": "名詞",
+          "meaningJa": "水たまり",
+          "contextualNote": "道にできた水たまり。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "细光",
+          "pinyin": "xìguāng",
+          "pos": "名詞",
+          "meaningJa": "細かな光",
+          "contextualNote": "雨粒で揺れる反射光。",
+          "source": "novel-extra"
+        },
+        {
+          "word": "希望",
+          "pinyin": "xīwàng",
+          "pos": "動詞",
+          "meaningJa": "願う・望む",
+          "contextualNote": "心の奥の密かな願い。",
+          "source": "textbook-scope",
+          "lessonId": "L11"
+        },
+        {
+          "word": "长",
+          "pinyin": "cháng",
+          "pos": "形容詞",
+          "meaningJa": "長い",
+          "contextualNote": "帰り道が続いてほしいという余韻。",
+          "source": "textbook-scope",
+          "lessonId": "L12"
+        }
+      ],
+      "nextLineId": null
+    }
+  ],
+  "reviewQuiz": [
+    {
+      "id": "ch03_q1",
+      "prompt": "晚星が林澄に「别往心里去」と言ったときの自然な意味はどれですか？",
+      "choices": [
+        "「心の中にしっかり刻んでおいてね」",
+        "「あまり気に病まないでね」",
+        "「他の人には秘密にしてね」",
+        "「自分の気持ちを隠さないでね」"
+      ],
+      "answer": "「あまり気に病まないでね」",
+      "explanation": "「别往心里去」は直訳すると「心の中へ持って行かないで」で、「深く気にして落ち込まないでね」と相手を気遣う定番の慣用表現です。"
+    },
+    {
+      "id": "ch03_q2",
+      "prompt": "第2章の伏線（同じ屋上の写真や薬瓶）を聞いて、林澄が思わず口にした「怪不得……」の意味として最も適切なものはどれですか？",
+      "choices": [
+        "「まさかそんなはずがない」",
+        "「なるほど、道理で〜なわけだ」",
+        "「それでもやはり許せない」",
+        "「どうでもいいことだ」"
+      ],
+      "answer": "「なるほど、道理で〜なわけだ」",
+      "explanation": "「怪不得」は原因がわかって腑に落ちたときに使う口語で、「道理で〜なわけだ／それで〜だったのか」を意味します。"
+    },
+    {
+      "id": "ch03_q3",
+      "prompt": "第3章で晚星が打ち明けた秘密の内容として正しいものはどれですか？",
+      "choices": [
+        "10年前に姉と流星群を見たあと姉を亡くし、雨の夜に星座の残像が視える症状があるため8月に治療と転学で街を離れること",
+        "実は天文同好会の記録係を辞めて、顾知夏のカフェで働くつもりであること",
+        "海外留学が決まったので、今夜すぐに大学を去らなければならないこと",
+        "古い星図に隠された宝のありかを探して天文台に通っていたこと"
+      ],
+      "answer": "10年前に姉と流星群を見たあと姉を亡くし、雨の夜に星座の残像が視える症状があるため8月に治療と転学で街を離れること",
+      "explanation": "停電した図書室で、晚星は10年前の姉との記憶、雨夜に視える「光の残響（残影）」の症状、そして8月に治療と転学のため北の街へ移る予定を打ち明けました。"
+    },
+    {
+      "id": "ch03_q4",
+      "prompt": "会話の結びで林澄が使った成語「一言为定」はどのような意味ですか？",
+      "choices": [
+        "ひとこと言えば十分だ",
+        "言葉では表せないほどだ",
+        "それで決まり・約束だよ",
+        "何度言っても変わらない"
+      ],
+      "answer": "それで決まり・約束だよ",
+      "explanation": "「一言为定」は「ひとこと言ったとおりに決める＝約束だよ、それで決まりだ」を表す日常でも頻出の成語です。"
+    }
+  ]
+}

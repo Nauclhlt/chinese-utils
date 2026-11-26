@@ -10,7 +10,7 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "test:e2e": "playwright test",
-    "validate": "node scripts/validate-data.mjs",
+    "validate": "node scripts/validate-data.mjs && node scripts/validate-games.mjs && node scripts/validate-works.mjs",
     "coverage": "node scripts/generate-coverage.mjs",
     "check": "npx tsc --noEmit && npm run validate && npm run test && npm run build"
   },

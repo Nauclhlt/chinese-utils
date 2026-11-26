@@ -7,10 +7,12 @@ import {
   CheckSquare,
   Compass,
   FileEdit,
+  Gamepad2,
   GitCompare,
   Headphones,
   Home,
   Layers,
+  Library,
   Menu,
   Moon,
   RotateCcw,
@@ -50,6 +52,18 @@ const NAV_GROUPS = [
       { to: '/practice/grammar', label: '文法練習問題', icon: CheckSquare },
       { to: '/practice/composition', label: '中国語作文練習', icon: FileEdit },
       { to: '/exam', label: '総合テスト・模試', icon: Award },
+    ],
+  },
+  {
+    label: 'ゲームで学ぶ',
+    items: [
+      { to: '/games', label: 'ゲームセンター (4種)', icon: Gamepad2 },
+    ],
+  },
+  {
+    label: '文学で学ぶ',
+    items: [
+      { to: '/reader', label: '中国語文学リーダー', icon: Library },
     ],
   },
   {

@@ -1,0 +1,2466 @@
+[
+  {
+    "id": "WP-S05-01",
+    "stageId": "stage05",
+    "difficulty": 2,
+    "grammarIds": [
+      "G09-01",
+      "G07-04"
+    ],
+    "lessonId": "L09",
+    "japanesePrompt": "私はすでにその中国語の小説を読み終えました。",
+    "chunks": [
+      {
+        "id": "c1",
+        "pinyinMarked": "wǒ",
+        "pinyinPlain": "wo",
+        "hanzi": "我",
+        "meaningHint": "私"
+      },
+      {
+        "id": "c2",
+        "pinyinMarked": "yǐjīng",
+        "pinyinPlain": "yijing",
+        "hanzi": "已经"
+      },
+      {
+        "id": "c3",
+        "pinyinMarked": "kàn",
+        "pinyinPlain": "kan",
+        "hanzi": "看",
+        "meaningHint": "読む"
+      },
+      {
+        "id": "c4",
+        "pinyinMarked": "wán",
+        "pinyinPlain": "wan",
+        "hanzi": "完",
+        "meaningHint": "〜し終える"
+      },
+      {
+        "id": "c5",
+        "pinyinMarked": "le",
+        "pinyinPlain": "le",
+        "hanzi": "了",
+        "meaningHint": "（完了）"
+      },
+      {
+        "id": "c6",
+        "pinyinMarked": "nà běn Zhōngwén xiǎoshuō",
+        "pinyinPlain": "na ben zhongwen xiaoshuo",
+        "hanzi": "那本中文小说"
+      }
+    ],
+    "correctOrderIds": [
+      "c1",
+      "c2",
+      "c3",
+      "c4",
+      "c5",
+      "c6"
+    ],
+    "modelAnswer": "我已经看完了那本中文小说。",
+    "acceptableAnswers": [
+      "我已经看完了那本中文小说。",
+      "我已经看完了那本中文小说"
+    ],
+    "fullPinyin": "Wǒ yǐjīng kàn wán le nà běn Zhōngwén xiǎoshuō.",
+    "structureBreakdown": [
+      {
+        "role": "S",
+        "label": "主語",
+        "text": "我",
+        "pinyin": "wǒ"
+      },
+      {
+        "role": "Adv",
+        "label": "副詞",
+        "text": "已经",
+        "pinyin": "yǐjīng"
+      },
+      {
+        "role": "V",
+        "label": "動詞",
+        "text": "看",
+        "pinyin": "kàn"
+      },
+      {
+        "role": "C",
+        "label": "結果補語",
+        "text": "完",
+        "pinyin": "wán"
+      },
+      {
+        "role": "P",
+        "label": "完了助詞",
+        "text": "了",
+        "pinyin": "le"
+      },
+      {
+        "role": "O",
+        "label": "目的語",
+        "text": "那本中文小说",
+        "pinyin": "nà běn Zhōngwén xiǎoshuō"
+      }
+    ],
+    "explanation": "結果補語「完（〜し終える）」は動詞「看」の直後に置き、完了の「了」は「看完」の後ろ・目的語の前に置きます。"
+  },
+  {
+    "id": "WP-S05-02",
+    "stageId": "stage05",
+    "difficulty": 2,
+    "grammarIds": [
+      "G09-01"
+    ],
+    "lessonId": "L09",
+    "japanesePrompt": "彼女は先生の説明を聞いて理解しましたか？",
+    "chunks": [
+      {
+        "id": "c1",
+        "pinyinMarked": "tā",
+        "pinyinPlain": "ta",
+        "hanzi": "她",
+        "meaningHint": "彼女"
+      },
+      {
+        "id": "c2",
+        "pinyinMarked": "tīng",
+        "pinyinPlain": "ting",
+        "hanzi": "听",
+        "meaningHint": "聞く"
+      },
+      {
+        "id": "c3",
+        "pinyinMarked": "dǒng",
+        "pinyinPlain": "dong",
+        "hanzi": "懂",
+        "meaningHint": "理解する"
+      },
+      {
+        "id": "c4",
+        "pinyinMarked": "lǎoshī de huà",
+        "pinyinPlain": "laoshi de hua",
+        "hanzi": "老师的话"
+      },
+      {
+        "id": "c5",
+        "pinyinMarked": "le ma",
+        "pinyinPlain": "le ma",
+        "hanzi": "了吗",
+        "meaningHint": "〜ましたか"
+      }
+    ],
+    "correctOrderIds": [
+      "c1",
+      "c2",
+      "c3",
+      "c4",
+      "c5"
+    ],
+    "modelAnswer": "她听懂老师的话了吗？",
+    "acceptableAnswers": [
+      "她听懂老师的话了吗？",
+      "她听懂老师的话了吗"
+    ],
+    "fullPinyin": "Tā tīng dǒng lǎoshī de huà le ma?",
+    "structureBreakdown": [
+      {
+        "role": "S",
+        "label": "主語",
+        "text": "她",
+        "pinyin": "tā"
+      },
+      {
+        "role": "V",
+        "label": "動詞",
+        "text": "听",
+        "pinyin": "tīng"
+      },
+      {
+        "role": "C",
+        "label": "結果補語",
+        "text": "懂",
+        "pinyin": "dǒng"
+      },
+      {
+        "role": "O",
+        "label": "目的語",
+        "text": "老师的话",
+        "pinyin": "lǎoshī de huà"
+      },
+      {
+        "role": "P",
+        "label": "助詞",
+        "text": "了吗",
+        "pinyin": "le ma"
+      }
+    ],
+    "explanation": "「听懂（聞いて理解する）」は「動詞＋結果補語」が1つのまとまりとして機能するため、目的語（老师的话）は「懂」の後ろに置きます。"
+  },
+  {
+    "id": "WP-S05-03",
+    "stageId": "stage05",
+    "difficulty": 2,
+    "grammarIds": [
+      "G09-01"
+    ],
+    "lessonId": "L09",
+    "japanesePrompt": "ごめんなさい、私は漢字を1つ書き間違えてしまいました。",
+    "chunks": [
+      {
+        "id": "c1",
+        "pinyinMarked": "duìbuqǐ",
+        "pinyinPlain": "duibuqi",
+        "hanzi": "对不起"
+      },
+      {
+        "id": "c2",
+        "pinyinMarked": "wǒ",
+        "pinyinPlain": "wo",
+        "hanzi": "我",
+        "meaningHint": "私"
+      },
+      {
+        "id": "c3",
+        "pinyinMarked": "xiě",
+        "pinyinPlain": "xie",
+        "hanzi": "写",
+        "meaningHint": "書く"
+      },
+      {
+        "id": "c4",
+        "pinyinMarked": "cuò le",
+        "pinyinPlain": "cuo le",
+        "hanzi": "错了",
+        "meaningHint": "間違えた"
+      },
+      {
+        "id": "c5",
+        "pinyinMarked": "yí ge Hànzì",
+        "pinyinPlain": "yi ge hanzi",
+        "hanzi": "一个汉字"
+      }
+    ],
+    "correctOrderIds": [
+      "c1",
+      "c2",
+      "c3",
+      "c4",
+      "c5"
+    ],
+    "modelAnswer": "对不起，我写错了一个汉字。",
+    "acceptableAnswers": [
+      "对不起，我写错了一个汉字。",
+      "对不起我写错了一个汉字。",
+      "对不起，我写错了一个汉字"
+    ],
+    "fullPinyin": "Duìbuqǐ, wǒ xiě cuò le yí ge Hànzì.",
+    "structureBreakdown": [
+      {
+        "role": "Other",
+        "label": "謝罪",
+        "text": "对不起",
+        "pinyin": "duìbuqǐ"
+      },
+      {
+        "role": "S",
+        "label": "主語",
+        "text": "我",
+        "pinyin": "wǒ"
+      },
+      {
+        "role": "V",
+        "label": "動詞",
+        "text": "写",
+        "pinyin": "xiě"
+      },
+      {
+        "role": "C",
+        "label": "結果補語＋了",
+        "text": "错了",
+        "pinyin": "cuò le"
+      },
+      {
+        "role": "O",
+        "label": "目的語",
+        "text": "一个汉字",
+        "pinyin": "yí ge Hànzì"
+      }
+    ],
+    "explanation": "結果補語「错（間違える）」を動詞「写」の後ろに置いて「写错（書き間違える）」を作ります。"
+  },
+  {
+    "id": "WP-S05-04",
+    "stageId": "stage05",
+    "difficulty": 2,
+    "grammarIds": [
+      "G09-02"
+    ],
+    "lessonId": "L09",
+    "japanesePrompt": "私は以前、西安の兵馬俑へ行ったことがあります。",
+    "chunks": [
+      {
+        "id": "c1",
+        "pinyinMarked": "wǒ",
+        "pinyinPlain": "wo",
+        "hanzi": "我",
+        "meaningHint": "私"
+      },
+      {
+        "id": "c2",
+        "pinyinMarked": "yǐqián",
+        "pinyinPlain": "yiqian",
+        "hanzi": "以前"
+      },
+      {
+        "id": "c3",
+        "pinyinMarked": "qù",
+        "pinyinPlain": "qu",
+        "hanzi": "去",
+        "meaningHint": "行く"
+      },
+      {
+        "id": "c4",
+        "pinyinMarked": "guò",
+        "pinyinPlain": "guo",
+        "hanzi": "过",
+        "meaningHint": "〜したことがある"
+      },
+      {
+        "id": "c5",
+        "pinyinMarked": "Xī’ān de Bīngmǎyǒng",
+        "pinyinPlain": "xian de bingmayong",
+        "hanzi": "西安的兵马俑"
+      }
+    ],
+    "correctOrderIds": [
+      "c1",
+      "c2",
+      "c3",
+      "c4",
+      "c5"
+    ],
+    "modelAnswer": "我以前去过西安的兵马俑。",
+    "acceptableAnswers": [
+      "我以前去过西安的兵马俑。",
+      "以前我去过西安的兵马俑。",
+      "我以前去过西安的兵马俑",
+      "以前我去过西安的兵马俑"
+    ],
+    "fullPinyin": "Wǒ yǐqián qù guo Xī’ān de Bīngmǎyǒng.",
+    "structureBreakdown": [
+      {
+        "role": "S",
+        "label": "主語",
+        "text": "我",
+        "pinyin": "wǒ"
+      },
+      {
+        "role": "Time",
+        "label": "時間詞",
+        "text": "以前",
+        "pinyin": "yǐqián"
+      },
+      {
+        "role": "V",
+        "label": "動詞",
+        "text": "去",
+        "pinyin": "qù"
+      },
+      {
+        "role": "Aux",
+        "label": "経験助詞",
+        "text": "过",
+        "pinyin": "guo"
+      },
+      {
+        "role": "Loc",
+        "label": "目的語",
+        "text": "西安的兵马俑",
+        "pinyin": "Xī’ān de Bīngmǎyǒng"
+      }
+    ],
+    "explanation": "過去の経験を表すアスペクト助詞「过」は、動詞の直後・目的語の前に置きます。発音は軽声 guo です。"
+  },
+  {
+    "id": "WP-S05-05",
+    "stageId": "stage05",
+    "difficulty": 2,
+    "grammarIds": [
+      "G09-02"
+    ],
+    "lessonId": "L09",
+    "japanesePrompt": "弟はまだ一度も北京ダックを食べたことがありません。",
+    "chunks": [
+      {
+        "id": "c1",
+        "pinyinMarked": "dìdi",
+        "pinyinPlain": "didi",
+        "hanzi": "弟弟"
+      },
+      {
+        "id": "c2",
+        "pinyinMarked": "hái",
+        "pinyinPlain": "hai",
+        "hanzi": "还",
+        "meaningHint": "まだ"
+      },
+      {
+        "id": "c3",
+        "pinyinMarked": "méiyǒu",
+        "pinyinPlain": "meiyou",
+        "hanzi": "没有",
+        "meaningHint": "〜ない"
+      },
+      {
+        "id": "c4",
+        "pinyinMarked": "chī guo",
+        "pinyinPlain": "chi guo",
+        "hanzi": "吃过",
+        "meaningHint": "食べたことがある"
+      },
+      {
+        "id": "c5",
+        "pinyinMarked": "Běijīng kǎoyā",
+        "pinyinPlain": "beijing kaoya",
+        "hanzi": "北京烤鸭"
+      }
+    ],
+    "correctOrderIds": [
+      "c1",
+      "c2",
+      "c3",
+      "c4",
+      "c5"
+    ],
+    "modelAnswer": "弟弟还没有吃过北京烤鸭。",
+    "acceptableAnswers": [
+      "弟弟还没有吃过北京烤鸭。",
+      "弟弟还没有吃过北京烤鸭"
+    ],
+    "fullPinyin": "Dìdi hái méiyǒu chī guo Běijīng kǎoyā.",
+    "structureBreakdown": [
+      {
+        "role": "S",
+        "label": "主語",
+        "text": "弟弟",
+        "pinyin": "dìdi"
+      },
+      {
+        "role": "Adv",
+        "label": "副詞",
+        "text": "还",
+        "pinyin": "hái"
+      },
+      {
+        "role": "Neg",
+        "label": "否定副詞",
+        "text": "没有",
+        "pinyin": "méiyǒu"
+      },
+      {
+        "role": "V",
+        "label": "動詞＋过",
+        "text": "吃过",
+        "pinyin": "chī guo"
+      },
+      {
+        "role": "O",
+        "label": "目的語",
+        "text": "北京烤鸭",
+        "pinyin": "Běijīng kǎoyā"
+      }
+    ],
+    "explanation": "経験の否定「〜したことがない」では「没有 + V + 过」となり、完了の「了」と違って「过」は残ります。"
+  },
+  {
+    "id": "WP-S05-06",
+    "stageId": "stage05",
+    "difficulty": 2,
+    "grammarIds": [
+      "G09-02",
+      "G02-02"
+    ],
+    "lessonId": "L09",
+    "japanesePrompt": "あなたはこの有名な映画を見たことがありますか？",
+    "chunks": [
+      {
+        "id": "c1",
+        "pinyinMarked": "nǐ",
+        "pinyinPlain": "ni",
+        "hanzi": "你",
+        "meaningHint": "あなた"
+      },
+      {
+        "id": "c2",
+        "pinyinMarked": "kàn guo",
+        "pinyinPlain": "kan guo",
+        "hanzi": "看过",
+        "meaningHint": "見たことがある"
+      },
+      {
+        "id": "c3",
+        "pinyinMarked": "zhè bù",
+        "pinyinPlain": "zhe bu",
+        "hanzi": "这部",
+        "meaningHint": "この（映画の量詞）"
+      },
+      {
+        "id": "c4",
+        "pinyinMarked": "yǒumíng de diànyǐng",
+        "pinyinPlain": "youming de dianying",
+        "hanzi": "有名的电影"
+      },
+      {
+        "id": "c5",
+        "pinyinMarked": "ma",
+        "pinyinPlain": "ma",
+        "hanzi": "吗",
+        "meaningHint": "〜ですか"
+      }
+    ],
+    "correctOrderIds": [
+      "c1",
+      "c2",
+      "c3",
+      "c4",
+      "c5"
+    ],
+    "modelAnswer": "你看过这部有名的电影吗？",
+    "acceptableAnswers": [
+      "你看过这部有名的电影吗？",
+      "你看过这部有名的电影吗"
+    ],
+    "fullPinyin": "Nǐ kàn guo zhè bù yǒumíng de diànyǐng ma?",
+    "structureBreakdown": [
+      {
+        "role": "S",
+        "label": "主語",
+        "text": "你",
+        "pinyin": "nǐ"
+      },
+      {
+        "role": "V",
+        "label": "動詞＋过",
+        "text": "看过",
+        "pinyin": "kàn guo"
+      },
+      {
+        "role": "O",
+        "label": "目的語",
+        "text": "这部有名的电影",
+        "pinyin": "zhè bù yǒumíng de diànyǐng"
+      },
+      {
+        "role": "P",
+        "label": "疑問助詞",
+        "text": "吗",
+        "pinyin": "ma"
+      }
+    ],
+    "explanation": "経験を尋ねる疑問文は「主語 + V + 过 + 目的語 + 吗？」の形です。映画や小説の量詞は「部」を使います。"
+  },
+  {
+    "id": "WP-S05-07",
+    "stageId": "stage05",
+    "difficulty": 2,
+    "grammarIds": [
+      "G09-03"
+    ],
+    "lessonId": "L09",
+    "japanesePrompt": "昨日、あなたはもう宿題を終えたのではないですか？",
+    "chunks": [
+      {
+        "id": "c1",
+        "pinyinMarked": "nǐ",
+        "pinyinPlain": "ni",
+        "hanzi": "你",
+        "meaningHint": "あなた"
+      },
+      {
+        "id": "c2",
+        "pinyinMarked": "zuótiān",
+        "pinyinPlain": "zuotian",
+        "hanzi": "昨天"
+      },
+      {
+        "id": "c3",
+        "pinyinMarked": "bú shì",
+        "pinyinPlain": "bu shi",
+        "hanzi": "不是",
+        "meaningHint": "〜ではないか（反問）"
+      },
+      {
+        "id": "c4",
+        "pinyinMarked": "yǐjīng zuò wán le",
+        "pinyinPlain": "yijing zuo wan le",
+        "hanzi": "已经做完了"
+      },
+      {
+        "id": "c5",
+        "pinyinMarked": "ma",
+        "pinyinPlain": "ma",
+        "hanzi": "吗",
+        "meaningHint": "〜か"
+      }
+    ],
+    "correctOrderIds": [
+      "c1",
+      "c2",
+      "c3",
+      "c4",
+      "c5"
+    ],
+    "modelAnswer": "你昨天不是已经做完了吗？",
+    "acceptableAnswers": [
+      "你昨天不是已经做完了吗？",
+      "昨天你不是已经做完了吗？",
+      "你昨天不是已经做完了吗",
+      "昨天你不是已经做完了吗"
+    ],
+    "fullPinyin": "Nǐ zuótiān bú shì yǐjīng zuò wán le ma?",
+    "structureBreakdown": [
+      {
+        "role": "S",
+        "label": "主語",
+        "text": "你",
+        "pinyin": "nǐ"
+      },
+      {
+        "role": "Time",
+        "label": "時間詞",
+        "text": "昨天",
+        "pinyin": "zuótiān"
+      },
+      {
+        "role": "Adv",
+        "label": "反問前部",
+        "text": "不是",
+        "pinyin": "bú shì"
+      },
+      {
+        "role": "V",
+        "label": "述語句",
+        "text": "已经做完了",
+        "pinyin": "yǐjīng zuò wán le"
+      },
+      {
+        "role": "P",
+        "label": "反問後部",
+        "text": "吗",
+        "pinyin": "ma"
+      }
+    ],
+    "explanation": "「不是……吗？」で「〜ではないですか（〜のはずですよね）」と相手に確認・念押しする反問文になります。"
+  },
+  {
+    "id": "WP-S05-08",
+    "stageId": "stage05",
+    "difficulty": 2,
+    "grammarIds": [
+      "G09-03",
+      "G01-02"
+    ],
+    "lessonId": "L09",
+    "japanesePrompt": "彼はあなたの高校の同級生ではないですか？",
+    "chunks": [
+      {
+        "id": "c1",
+        "pinyinMarked": "tā",
+        "pinyinPlain": "ta",
+        "hanzi": "他",
+        "meaningHint": "彼"
+      },
+      {
+        "id": "c2",
+        "pinyinMarked": "bú shì",
+        "pinyinPlain": "bu shi",
+        "hanzi": "不是",
+        "meaningHint": "〜ではないか（反問）"
+      },
+      {
+        "id": "c3",
+        "pinyinMarked": "nǐ de",
+        "pinyinPlain": "ni de",
+        "hanzi": "你的",
+        "meaningHint": "あなたの"
+      },
+      {
+        "id": "c4",
+        "pinyinMarked": "gāozhōng tóngxué",
+        "pinyinPlain": "gaozhong tongxue",
+        "hanzi": "高中同学"
+      },
+      {
+        "id": "c5",
+        "pinyinMarked": "ma",
+        "pinyinPlain": "ma",
+        "hanzi": "吗",
+        "meaningHint": "〜か"
+      }
+    ],
+    "correctOrderIds": [
+      "c1",
+      "c2",
+      "c3",
+      "c4",
+      "c5"
+    ],
+    "modelAnswer": "他不是你的高中同学吗？",
+    "acceptableAnswers": [
+      "他不是你的高中同学吗？",
+      "他不是你的高中同学吗"
+    ],
+    "fullPinyin": "Tā bú shì nǐ de gāozhōng tóngxué ma?",
+    "structureBreakdown": [
+      {
+        "role": "S",
+        "label": "主語",
+        "text": "他",
+        "pinyin": "tā"
+      },
+      {
+        "role": "V",
+        "label": "反問・判断",
+        "text": "不是",
+        "pinyin": "bú shì"
+      },
+      {
+        "role": "O",
+        "label": "目的語",
+        "text": "你的高中同学",
+        "pinyin": "nǐ de gāozhōng tóngxué"
+      },
+      {
+        "role": "P",
+        "label": "反問助詞",
+        "text": "吗",
+        "pinyin": "ma"
+      }
+    ],
+    "explanation": "名詞述語の場合、「是」を二重にせず「S + 不是 + 名詞 + 吗？」の形で「〜ではありませんか？」を表します。"
+  },
+  {
+    "id": "WP-S05-09",
+    "stageId": "stage05",
+    "difficulty": 3,
+    "grammarIds": [
+      "G09-03"
+    ],
+    "lessonId": "L09",
+    "japanesePrompt": "週末はみんな一緒にハイキングに行くと言ったではないですか？",
+    "chunks": [
+      {
+        "id": "c1",
+        "pinyinMarked": "zhōumò",
+        "pinyinPlain": "zhoumo",
+        "hanzi": "周末"
+      },
+      {
+        "id": "c2",
+        "pinyinMarked": "bú shì",
+        "pinyinPlain": "bu shi",
+        "hanzi": "不是",
+        "meaningHint": "〜ではないか（反問）"
+      },
+      {
+        "id": "c3",
+        "pinyinMarked": "shuō hǎo le",
+        "pinyinPlain": "shuo hao le",
+        "hanzi": "说好了"
+      },
+      {
+        "id": "c4",
+        "pinyinMarked": "yìqǐ",
+        "pinyinPlain": "yiqi",
+        "hanzi": "一起",
+        "meaningHint": "一緒に"
+      },
+      {
+        "id": "c5",
+        "pinyinMarked": "qù páshān",
+        "pinyinPlain": "qu pashan",
+        "hanzi": "去爬山"
+      },
+      {
+        "id": "c6",
+        "pinyinMarked": "ma",
+        "pinyinPlain": "ma",
+        "hanzi": "吗",
+        "meaningHint": "〜か"
+      }
+    ],
+    "correctOrderIds": [
+      "c1",
+      "c2",
+      "c3",
+      "c4",
+      "c5",
+      "c6"
+    ],
+    "modelAnswer": "周末不是说好了一起去爬山吗？",
+    "acceptableAnswers": [
+      "周末不是说好了一起去爬山吗？",
+      "周末不是说好了一起去爬山吗"
+    ],
+    "fullPinyin": "Zhōumò bú shì shuō hǎo le yìqǐ qù páshān ma?",
+    "structureBreakdown": [
+      {
+        "role": "Time",
+        "label": "時間詞",
+        "text": "周末",
+        "pinyin": "zhōumò"
+      },
+      {
+        "role": "Adv",
+        "label": "反問前部",
+        "text": "不是",
+        "pinyin": "bú shì"
+      },
+      {
+        "role": "V",
+        "label": "動詞＋補語",
+        "text": "说好了",
+        "pinyin": "shuō hǎo le"
+      },
+      {
+        "role": "Adv",
+        "label": "副詞",
+        "text": "一起",
+        "pinyin": "yìqǐ"
+      },
+      {
+        "role": "V",
+        "label": "動詞句",
+        "text": "去爬山",
+        "pinyin": "qù páshān"
+      },
+      {
+        "role": "P",
+        "label": "反問助詞",
+        "text": "吗",
+        "pinyin": "ma"
+      }
+    ],
+    "explanation": "「说好（約束する・話を決める）」に「不是……吗？」を被せ、「〜と約束したじゃないですか」と念を押す表現です。"
+  },
+  {
+    "id": "WP-S05-10",
+    "stageId": "stage05",
+    "difficulty": 2,
+    "grammarIds": [
+      "G09-04",
+      "G09-01"
+    ],
+    "lessonId": "L09",
+    "japanesePrompt": "部屋をきれいに掃除してください。",
+    "chunks": [
+      {
+        "id": "c1",
+        "pinyinMarked": "qǐng",
+        "pinyinPlain": "qing",
+        "hanzi": "请",
+        "meaningHint": "〜してください"
+      },
+      {
+        "id": "c2",
+        "pinyinMarked": "bǎ",
+        "pinyinPlain": "ba",
+        "hanzi": "把",
+        "meaningHint": "〜を（把構文）"
+      },
+      {
+        "id": "c3",
+        "pinyinMarked": "fángjiān",
+        "pinyinPlain": "fangjian",
+        "hanzi": "房间"
+      },
+      {
+        "id": "c4",
+        "pinyinMarked": "dǎsǎo",
+        "pinyinPlain": "dasao",
+        "hanzi": "打扫"
+      },
+      {
+        "id": "c5",
+        "pinyinMarked": "gānjìng",
+        "pinyinPlain": "ganjing",
+        "hanzi": "干净",
+        "meaningHint": "きれいに"
+      }
+    ],
+    "correctOrderIds": [
+      "c1",
+      "c2",
+      "c3",
+      "c4",
+      "c5"
+    ],
+    "modelAnswer": "请把房间打扫干净。",
+    "acceptableAnswers": [
+      "请把房间打扫干净。",
+      "请把房间打扫干净"
+    ],
+    "fullPinyin": "Qǐng bǎ fángjiān dǎsǎo gānjìng.",
+    "structureBreakdown": [
+      {
+        "role": "V",
+        "label": "依頼",
+        "text": "请",
+        "pinyin": "qǐng"
+      },
+      {
+        "role": "Prep",
+        "label": "処置介詞",
+        "text": "把",
+        "pinyin": "bǎ"
+      },
+      {
+        "role": "O",
+        "label": "特定対象",
+        "text": "房间",
+        "pinyin": "fángjiān"
+      },
+      {
+        "role": "V",
+        "label": "動詞",
+        "text": "打扫",
+        "pinyin": "dǎsǎo"
+      },
+      {
+        "role": "C",
+        "label": "結果補語",
+        "text": "干净",
+        "pinyin": "gānjìng"
+      }
+    ],
+    "explanation": "「把 + 特定の対象 + 動詞 + 結果補語」の処置文です。「把」構文の動詞の後ろには結果補語や「了」などの付加成分が必要です。"
+  },
+  {
+    "id": "WP-S05-11",
+    "stageId": "stage05",
+    "difficulty": 3,
+    "grammarIds": [
+      "G09-04",
+      "G07-04"
+    ],
+    "lessonId": "L09",
+    "japanesePrompt": "私はもうそのレポートを先生の机の上に置きました。",
+    "chunks": [
+      {
+        "id": "c1",
+        "pinyinMarked": "wǒ",
+        "pinyinPlain": "wo",
+        "hanzi": "我",
+        "meaningHint": "私"
+      },
+      {
+        "id": "c2",
+        "pinyinMarked": "bǎ",
+        "pinyinPlain": "ba",
+        "hanzi": "把",
+        "meaningHint": "〜を（把構文）"
+      },
+      {
+        "id": "c3",
+        "pinyinMarked": "nà fèn bàogào",
+        "pinyinPlain": "na fen baogao",
+        "hanzi": "那份报告"
+      },
+      {
+        "id": "c4",
+        "pinyinMarked": "fàng zài",
+        "pinyinPlain": "fang zai",
+        "hanzi": "放在",
+        "meaningHint": "〜に置く"
+      },
+      {
+        "id": "c5",
+        "pinyinMarked": "lǎoshī zhuōzi shàng",
+        "pinyinPlain": "laoshi zhuozi shang",
+        "hanzi": "老师桌子上"
+      },
+      {
+        "id": "c6",
+        "pinyinMarked": "le",
+        "pinyinPlain": "le",
+        "hanzi": "了",
+        "meaningHint": "（完了）"
+      }
+    ],
+    "correctOrderIds": [
+      "c1",
+      "c2",
+      "c3",
+      "c4",
+      "c5",
+      "c6"
+    ],
+    "modelAnswer": "我把那份报告放在老师桌子上了。",
+    "acceptableAnswers": [
+      "我把那份报告放在老师桌子上了。",
+      "我把那份报告放在老师桌子上了"
+    ],
+    "fullPinyin": "Wǒ bǎ nà fèn bàogào fàng zài lǎoshī zhuōzi shàng le.",
+    "structureBreakdown": [
+      {
+        "role": "S",
+        "label": "主語",
+        "text": "我",
+        "pinyin": "wǒ"
+      },
+      {
+        "role": "Prep",
+        "label": "処置介詞",
+        "text": "把",
+        "pinyin": "bǎ"
+      },
+      {
+        "role": "O",
+        "label": "特定対象",
+        "text": "那份报告",
+        "pinyin": "nà fèn bàogào"
+      },
+      {
+        "role": "V",
+        "label": "動詞＋在",
+        "text": "放在",
+        "pinyin": "fàng zài"
+      },
+      {
+        "role": "Loc",
+        "label": "場所",
+        "text": "老师桌子上",
+        "pinyin": "lǎoshī zhuōzi shàng"
+      },
+      {
+        "role": "P",
+        "label": "完了助詞",
+        "text": "了",
+        "pinyin": "le"
+      }
+    ],
+    "explanation": "「〜をどこそこへ置く」と言うときは「把 + 物 + 放在 + 場所 + 了」の語順になります。レポート類の量詞は「份」です。"
+  },
+  {
+    "id": "WP-S05-12",
+    "stageId": "stage05",
+    "difficulty": 3,
+    "grammarIds": [
+      "G09-04"
+    ],
+    "lessonId": "L09",
+    "japanesePrompt": "彼はうっかり私の傘を持って行ってしまいました。",
+    "chunks": [
+      {
+        "id": "c1",
+        "pinyinMarked": "tā",
+        "pinyinPlain": "ta",
+        "hanzi": "他",
+        "meaningHint": "彼"
+      },
+      {
+        "id": "c2",
+        "pinyinMarked": "bù xiǎoxīn",
+        "pinyinPlain": "bu xiaoxin",
+        "hanzi": "不小心"
+      },
+      {
+        "id": "c3",
+        "pinyinMarked": "bǎ",
+        "pinyinPlain": "ba",
+        "hanzi": "把",
+        "meaningHint": "〜を（把構文）"
+      },
+      {
+        "id": "c4",
+        "pinyinMarked": "wǒ de yǔsǎn",
+        "pinyinPlain": "wo de yusan",
+        "hanzi": "我的雨伞"
+      },
+      {
+        "id": "c5",
+        "pinyinMarked": "ná zǒu le",
+        "pinyinPlain": "na zou le",
+        "hanzi": "拿走了"
+      }
+    ],
+    "correctOrderIds": [
+      "c1",
+      "c2",
+      "c3",
+      "c4",
+      "c5"
+    ],
+    "modelAnswer": "他不小心把我的雨伞拿走了。",
+    "acceptableAnswers": [
+      "他不小心把我的雨伞拿走了。",
+      "他不小心把我的雨伞拿走了"
+    ],
+    "fullPinyin": "Tā bù xiǎoxīn bǎ wǒ de yǔsǎn ná zǒu le.",
+    "structureBreakdown": [
+      {
+        "role": "S",
+        "label": "主語",
+        "text": "他",
+        "pinyin": "tā"
+      },
+      {
+        "role": "Adv",
+        "label": "副詞句",
+        "text": "不小心",
+        "pinyin": "bù xiǎoxīn"
+      },
+      {
+        "role": "Prep",
+        "label": "処置介詞",
+        "text": "把",
+        "pinyin": "bǎ"
+      },
+      {
+        "role": "O",
+        "label": "特定対象",
+        "text": "我的雨伞",
+        "pinyin": "wǒ de yǔsǎn"
+      },
+      {
+        "role": "V",
+        "label": "動詞＋結果補語＋了",
+        "text": "拿走了",
+        "pinyin": "ná zǒu le"
+      }
+    ],
+    "explanation": "副詞（不小心）・否定辞・助動詞は必ず「把」の前に置きます。「拿走」は「手に取って持って行く」という意味です。"
+  },
+  {
+    "id": "WP-S05-13",
+    "stageId": "stage05",
+    "difficulty": 2,
+    "grammarIds": [
+      "G10-01"
+    ],
+    "lessonId": "L10",
+    "japanesePrompt": "窓が1つ開いたままになっています。",
+    "chunks": [
+      {
+        "id": "c1",
+        "pinyinMarked": "chuānghu",
+        "pinyinPlain": "chuanghu",
+        "hanzi": "窗户"
+      },
+      {
+        "id": "c2",
+        "pinyinMarked": "kāi",
+        "pinyinPlain": "kai",
+        "hanzi": "开",
+        "meaningHint": "開く"
+      },
+      {
+        "id": "c3",
+        "pinyinMarked": "zhe",
+        "pinyinPlain": "zhe",
+        "hanzi": "着",
+        "meaningHint": "（状態の持続）"
+      },
+      {
+        "id": "c4",
+        "pinyinMarked": "ne",
+        "pinyinPlain": "ne",
+        "hanzi": "呢",
+        "meaningHint": "（語気）"
+      },
+      {
+        "id": "c5",
+        "pinyinMarked": "nǐ qù guān yíxià",
+        "pinyinPlain": "ni qu guan yixia",
+        "hanzi": "你去关一下"
+      }
+    ],
+    "correctOrderIds": [
+      "c1",
+      "c2",
+      "c3",
+      "c4",
+      "c5"
+    ],
+    "modelAnswer": "窗户开着呢，你去关一下。",
+    "acceptableAnswers": [
+      "窗户开着呢，你去关一下。",
+      "窗户开着呢你去关一下。",
+      "窗户开着呢，你去关一下"
+    ],
+    "fullPinyin": "Chuānghu kāi zhe ne, nǐ qù guān yíxià.",
+    "structureBreakdown": [
+      {
+        "role": "S",
+        "label": "主語",
+        "text": "窗户",
+        "pinyin": "chuānghu"
+      },
+      {
+        "role": "V",
+        "label": "動詞",
+        "text": "开",
+        "pinyin": "kāi"
+      },
+      {
+        "role": "Aux",
+        "label": "持続助詞",
+        "text": "着",
+        "pinyin": "zhe"
+      },
+      {
+        "role": "P",
+        "label": "語気助詞",
+        "text": "呢",
+        "pinyin": "ne"
+      },
+      {
+        "role": "V",
+        "label": "後続依頼",
+        "text": "你去关一下",
+        "pinyin": "nǐ qù guān yíxià"
+      }
+    ],
+    "explanation": "「V + 着 + (呢)」で動作の結果生じた状態の持続を表します。「开着」は「開いたままになっている」という状態です。"
+  },
+  {
+    "id": "WP-S05-14",
+    "stageId": "stage05",
+    "difficulty": 2,
+    "grammarIds": [
+      "G10-01"
+    ],
+    "lessonId": "L10",
+    "japanesePrompt": "彼女はずっと微笑みながらみんなと話しています。",
+    "chunks": [
+      {
+        "id": "c1",
+        "pinyinMarked": "tā",
+        "pinyinPlain": "ta",
+        "hanzi": "她",
+        "meaningHint": "彼女"
+      },
+      {
+        "id": "c2",
+        "pinyinMarked": "xiào",
+        "pinyinPlain": "xiao",
+        "hanzi": "笑",
+        "meaningHint": "笑う"
+      },
+      {
+        "id": "c3",
+        "pinyinMarked": "zhe",
+        "pinyinPlain": "zhe",
+        "hanzi": "着",
+        "meaningHint": "〜しながら"
+      },
+      {
+        "id": "c4",
+        "pinyinMarked": "gēn dàjiā",
+        "pinyinPlain": "gen dajia",
+        "hanzi": "跟大家"
+      },
+      {
+        "id": "c5",
+        "pinyinMarked": "liáotiānr",
+        "pinyinPlain": "liaotianr",
+        "hanzi": "聊天儿"
+      }
+    ],
+    "correctOrderIds": [
+      "c1",
+      "c2",
+      "c3",
+      "c4",
+      "c5"
+    ],
+    "modelAnswer": "她笑着跟大家聊天儿。",
+    "acceptableAnswers": [
+      "她笑着跟大家聊天儿。",
+      "她笑着跟大家聊天儿"
+    ],
+    "fullPinyin": "Tā xiào zhe gēn dàjiā liáotiānr.",
+    "structureBreakdown": [
+      {
+        "role": "S",
+        "label": "主語",
+        "text": "她",
+        "pinyin": "tā"
+      },
+      {
+        "role": "V",
+        "label": "付帯動詞",
+        "text": "笑",
+        "pinyin": "xiào"
+      },
+      {
+        "role": "Aux",
+        "label": "持続助詞",
+        "text": "着",
+        "pinyin": "zhe"
+      },
+      {
+        "role": "Prep",
+        "label": "相手介詞句",
+        "text": "跟大家",
+        "pinyin": "gēn dàjiā"
+      },
+      {
+        "role": "V",
+        "label": "主動詞",
+        "text": "聊天儿",
+        "pinyin": "liáotiānr"
+      }
+    ],
+    "explanation": "「V1 + 着 + V2」で「V1しながらV2する」という付帯状況を表します。「笑着」が「跟大家聊天儿」の様態になっています。"
+  },
+  {
+    "id": "WP-S05-15",
+    "stageId": "stage05",
+    "difficulty": 2,
+    "grammarIds": [
+      "G10-01"
+    ],
+    "lessonId": "L10",
+    "japanesePrompt": "壁には綺麗な風景画が1枚掛かっています。",
+    "chunks": [
+      {
+        "id": "c1",
+        "pinyinMarked": "qiáng shàng",
+        "pinyinPlain": "qiang shang",
+        "hanzi": "墙上"
+      },
+      {
+        "id": "c2",
+        "pinyinMarked": "guà",
+        "pinyinPlain": "gua",
+        "hanzi": "挂",
+        "meaningHint": "掛かる・掛ける"
+      },
+      {
+        "id": "c3",
+        "pinyinMarked": "zhe",
+        "pinyinPlain": "zhe",
+        "hanzi": "着",
+        "meaningHint": "〜ている"
+      },
+      {
+        "id": "c4",
+        "pinyinMarked": "yì fú",
+        "pinyinPlain": "yi fu",
+        "hanzi": "一幅",
+        "meaningHint": "1幅の（絵の量詞）"
+      },
+      {
+        "id": "c5",
+        "pinyinMarked": "fēngjǐnghuà",
+        "pinyinPlain": "fengjinghua",
+        "hanzi": "风景画"
+      }
+    ],
+    "correctOrderIds": [
+      "c1",
+      "c2",
+      "c3",
+      "c4",
+      "c5"
+    ],
+    "modelAnswer": "墙上挂着一幅风景画。",
+    "acceptableAnswers": [
+      "墙上挂着一幅风景画。",
+      "墙上挂着一幅风景画"
+    ],
+    "fullPinyin": "Qiáng shàng guà zhe yì fú fēngjǐnghuà.",
+    "structureBreakdown": [
+      {
+        "role": "Loc",
+        "label": "場所主語",
+        "text": "墙上",
+        "pinyin": "qiáng shàng"
+      },
+      {
+        "role": "V",
+        "label": "配置動詞",
+        "text": "挂",
+        "pinyin": "guà"
+      },
+      {
+        "role": "Aux",
+        "label": "持続助詞",
+        "text": "着",
+        "pinyin": "zhe"
+      },
+      {
+        "role": "O",
+        "label": "不特定名詞",
+        "text": "一幅风景画",
+        "pinyin": "yì fú fēngjǐnghuà"
+      }
+    ],
+    "explanation": "「場所 + V + 着 + 数量＋名詞」の存現文パターンです。絵や書道の量詞には「幅（fú）」や「张」を使います。"
+  },
+  {
+    "id": "WP-S05-16",
+    "stageId": "stage05",
+    "difficulty": 2,
+    "grammarIds": [
+      "G10-02"
+    ],
+    "lessonId": "L10",
+    "japanesePrompt": "黒板の文字が小さすぎて、私ははっきり見えません。",
+    "chunks": [
+      {
+        "id": "c1",
+        "pinyinMarked": "hēibǎn shàng de zì",
+        "pinyinPlain": "heiban shang de zi",
+        "hanzi": "黑板上的字"
+      },
+      {
+        "id": "c2",
+        "pinyinMarked": "tài xiǎo le",
+        "pinyinPlain": "tai xiao le",
+        "hanzi": "太小了"
+      },
+      {
+        "id": "c3",
+        "pinyinMarked": "wǒ",
+        "pinyinPlain": "wo",
+        "hanzi": "我",
+        "meaningHint": "私"
+      },
+      {
+        "id": "c4",
+        "pinyinMarked": "kàn",
+        "pinyinPlain": "kan",
+        "hanzi": "看",
+        "meaningHint": "見る"
+      },
+      {
+        "id": "c5",
+        "pinyinMarked": "bu",
+        "pinyinPlain": "bu",
+        "hanzi": "不",
+        "meaningHint": "（不可能）"
+      },
+      {
+        "id": "c6",
+        "pinyinMarked": "qīngchu",
+        "pinyinPlain": "qingchu",
+        "hanzi": "清楚",
+        "meaningHint": "はっきり"
+      }
+    ],
+    "correctOrderIds": [
+      "c1",
+      "c2",
+      "c3",
+      "c4",
+      "c5",
+      "c6"
+    ],
+    "modelAnswer": "黑板上的字太小了，我看不清楚。",
+    "acceptableAnswers": [
+      "黑板上的字太小了，我看不清楚。",
+      "黑板上的字太小了我看不清楚。",
+      "黑板上的字太小了，我看不清楚"
+    ],
+    "fullPinyin": "Hēibǎn shàng de zì tài xiǎo le, wǒ kàn bu qīngchu.",
+    "structureBreakdown": [
+      {
+        "role": "S",
+        "label": "前節主語",
+        "text": "黑板上的字",
+        "pinyin": "hēibǎn shàng de zì"
+      },
+      {
+        "role": "V",
+        "label": "前節述語",
+        "text": "太小了",
+        "pinyin": "tài xiǎo le"
+      },
+      {
+        "role": "S",
+        "label": "主語",
+        "text": "我",
+        "pinyin": "wǒ"
+      },
+      {
+        "role": "V",
+        "label": "動詞",
+        "text": "看",
+        "pinyin": "kàn"
+      },
+      {
+        "role": "Neg",
+        "label": "不可能",
+        "text": "不",
+        "pinyin": "bu"
+      },
+      {
+        "role": "C",
+        "label": "結果補語",
+        "text": "清楚",
+        "pinyin": "qīngchu"
+      }
+    ],
+    "explanation": "可能補語の否定形「動詞 + 不 + 補語」で「〜できない」を表します。ここでは「看不清楚（はっきり見えない）」となります。"
+  },
+  {
+    "id": "WP-S05-17",
+    "stageId": "stage05",
+    "difficulty": 2,
+    "grammarIds": [
+      "G10-02"
+    ],
+    "lessonId": "L10",
+    "japanesePrompt": "この荷物は重くないので、私は1人で持ち上げられます。",
+    "chunks": [
+      {
+        "id": "c1",
+        "pinyinMarked": "zhège xíngli",
+        "pinyinPlain": "zhege xingli",
+        "hanzi": "这个行李"
+      },
+      {
+        "id": "c2",
+        "pinyinMarked": "bú zhòng",
+        "pinyinPlain": "bu zhong",
+        "hanzi": "不重"
+      },
+      {
+        "id": "c3",
+        "pinyinMarked": "wǒ",
+        "pinyinPlain": "wo",
+        "hanzi": "我",
+        "meaningHint": "私"
+      },
+      {
+        "id": "c4",
+        "pinyinMarked": "yí ge rén",
+        "pinyinPlain": "yi ge ren",
+        "hanzi": "一个人"
+      },
+      {
+        "id": "c5",
+        "pinyinMarked": "ná de dòng",
+        "pinyinPlain": "na de dong",
+        "hanzi": "拿得动",
+        "meaningHint": "持ち運べる"
+      }
+    ],
+    "correctOrderIds": [
+      "c1",
+      "c2",
+      "c3",
+      "c4",
+      "c5"
+    ],
+    "modelAnswer": "这个行李不重，我一个人拿得动。",
+    "acceptableAnswers": [
+      "这个行李不重，我一个人拿得动。",
+      "这个行李不重我一个人拿得动。",
+      "这个行李不重，我一个人拿得动"
+    ],
+    "fullPinyin": "Zhège xíngli bú zhòng, wǒ yí ge rén ná de dòng.",
+    "structureBreakdown": [
+      {
+        "role": "S",
+        "label": "前節主語",
+        "text": "这个行李",
+        "pinyin": "zhège xíngli"
+      },
+      {
+        "role": "V",
+        "label": "前節述語",
+        "text": "不重",
+        "pinyin": "bú zhòng"
+      },
+      {
+        "role": "S",
+        "label": "主語",
+        "text": "我",
+        "pinyin": "wǒ"
+      },
+      {
+        "role": "Adv",
+        "label": "様態",
+        "text": "一个人",
+        "pinyin": "yí ge rén"
+      },
+      {
+        "role": "V",
+        "label": "可能補語",
+        "text": "拿得动",
+        "pinyin": "ná de dòng"
+      }
+    ],
+    "explanation": "「动词 + 得 + 动」は「（重さや体力の面で）動かせる・運べる」を表す定番の可能補語です。"
+  },
+  {
+    "id": "WP-S05-18",
+    "stageId": "stage05",
+    "difficulty": 3,
+    "grammarIds": [
+      "G10-02"
+    ],
+    "lessonId": "L10",
+    "japanesePrompt": "今日中にこの仕事を全部終わらせられますか？",
+    "chunks": [
+      {
+        "id": "c1",
+        "pinyinMarked": "nǐ",
+        "pinyinPlain": "ni",
+        "hanzi": "你",
+        "meaningHint": "あなた"
+      },
+      {
+        "id": "c2",
+        "pinyinMarked": "jīntiān",
+        "pinyinPlain": "jintian",
+        "hanzi": "今天"
+      },
+      {
+        "id": "c3",
+        "pinyinMarked": "zuò de wán",
+        "pinyinPlain": "zuo de wan",
+        "hanzi": "做得完",
+        "meaningHint": "やり終えられる"
+      },
+      {
+        "id": "c4",
+        "pinyinMarked": "zhè xiàng gōngzuò",
+        "pinyinPlain": "zhe xiang gongzuo",
+        "hanzi": "这项工作"
+      },
+      {
+        "id": "c5",
+        "pinyinMarked": "ma",
+        "pinyinPlain": "ma",
+        "hanzi": "吗",
+        "meaningHint": "〜ですか"
+      }
+    ],
+    "correctOrderIds": [
+      "c1",
+      "c2",
+      "c3",
+      "c4",
+      "c5"
+    ],
+    "modelAnswer": "你今天做得完这项工作吗？",
+    "acceptableAnswers": [
+      "你今天做得完这项工作吗？",
+      "今天你做得完这项工作吗？",
+      "你今天做得完这项工作吗",
+      "今天你做得完这项工作吗"
+    ],
+    "fullPinyin": "Nǐ jīntiān zuò de wán zhè xiàng gōngzuò ma?",
+    "structureBreakdown": [
+      {
+        "role": "S",
+        "label": "主語",
+        "text": "你",
+        "pinyin": "nǐ"
+      },
+      {
+        "role": "Time",
+        "label": "時間詞",
+        "text": "今天",
+        "pinyin": "jīntiān"
+      },
+      {
+        "role": "V",
+        "label": "可能補語",
+        "text": "做得完",
+        "pinyin": "zuò de wán"
+      },
+      {
+        "role": "O",
+        "label": "目的語",
+        "text": "这项工作",
+        "pinyin": "zhè xiàng gōngzuò"
+      },
+      {
+        "role": "P",
+        "label": "疑問助詞",
+        "text": "吗",
+        "pinyin": "ma"
+      }
+    ],
+    "explanation": "「做得完（やり終えられる）」は可能補語を伴うまとまった述語なので、目的語「这项工作」はその後ろに置きます。"
+  },
+  {
+    "id": "WP-S05-19",
+    "stageId": "stage05",
+    "difficulty": 1,
+    "grammarIds": [
+      "G10-03"
+    ],
+    "lessonId": "L10",
+    "japanesePrompt": "この1斤のリンゴは8元5角（8塊5毛）です。",
+    "chunks": [
+      {
+        "id": "c1",
+        "pinyinMarked": "zhè yì jīn",
+        "pinyinPlain": "zhe yi jin",
+        "hanzi": "这一斤"
+      },
+      {
+        "id": "c2",
+        "pinyinMarked": "píngguǒ",
+        "pinyinPlain": "pingguo",
+        "hanzi": "苹果"
+      },
+      {
+        "id": "c3",
+        "pinyinMarked": "bā kuài",
+        "pinyinPlain": "ba kuai",
+        "hanzi": "八块",
+        "meaningHint": "8元"
+      },
+      {
+        "id": "c4",
+        "pinyinMarked": "wǔ máo",
+        "pinyinPlain": "wu mao",
+        "hanzi": "五毛",
+        "meaningHint": "5角"
+      },
+      {
+        "id": "c5",
+        "pinyinMarked": "qián",
+        "pinyinPlain": "qian",
+        "hanzi": "钱",
+        "meaningHint": "お金"
+      }
+    ],
+    "correctOrderIds": [
+      "c1",
+      "c2",
+      "c3",
+      "c4",
+      "c5"
+    ],
+    "modelAnswer": "这一斤苹果八块五毛钱。",
+    "acceptableAnswers": [
+      "这一斤苹果八块五毛钱。",
+      "这一斤苹果八块五毛钱"
+    ],
+    "fullPinyin": "Zhè yì jīn píngguǒ bā kuài wǔ máo qián.",
+    "structureBreakdown": [
+      {
+        "role": "S",
+        "label": "主語",
+        "text": "这一斤苹果",
+        "pinyin": "zhè yì jīn píngguǒ"
+      },
+      {
+        "role": "O",
+        "label": "価格(元)",
+        "text": "八块",
+        "pinyin": "bā kuài"
+      },
+      {
+        "role": "O",
+        "label": "価格(角)",
+        "text": "五毛",
+        "pinyin": "wǔ máo"
+      },
+      {
+        "role": "O",
+        "label": "貨幣名詞",
+        "text": "钱",
+        "pinyin": "qián"
+      }
+    ],
+    "explanation": "口語では「元→块」「角→毛」を使い、金額を表す名詞述語文（是なし）で表します。末尾の「钱」は省略も可能です。"
+  },
+  {
+    "id": "WP-S05-20",
+    "stageId": "stage05",
+    "difficulty": 2,
+    "grammarIds": [
+      "G10-03",
+      "G04-03"
+    ],
+    "lessonId": "L10",
+    "japanesePrompt": "ペットボトルのお茶は1本3元5角です（書面語の元・角）。",
+    "chunks": [
+      {
+        "id": "c1",
+        "pinyinMarked": "píngzhuāng chá",
+        "pinyinPlain": "pingzhuang cha",
+        "hanzi": "瓶装茶"
+      },
+      {
+        "id": "c2",
+        "pinyinMarked": "sān yuán",
+        "pinyinPlain": "san yuan",
+        "hanzi": "三元",
+        "meaningHint": "3元"
+      },
+      {
+        "id": "c3",
+        "pinyinMarked": "wǔ jiǎo",
+        "pinyinPlain": "wu jiao",
+        "hanzi": "五角",
+        "meaningHint": "5角"
+      },
+      {
+        "id": "c4",
+        "pinyinMarked": "yì",
+        "pinyinPlain": "yi",
+        "hanzi": "一",
+        "meaningHint": "1〜あたり"
+      },
+      {
+        "id": "c5",
+        "pinyinMarked": "píng",
+        "pinyinPlain": "ping",
+        "hanzi": "瓶",
+        "meaningHint": "（瓶の量詞）"
+      }
+    ],
+    "correctOrderIds": [
+      "c1",
+      "c2",
+      "c3",
+      "c4",
+      "c5"
+    ],
+    "modelAnswer": "瓶装茶三元五角一瓶。",
+    "acceptableAnswers": [
+      "瓶装茶三元五角一瓶。",
+      "瓶装茶三元五角一瓶"
+    ],
+    "fullPinyin": "Píngzhuāng chá sān yuán wǔ jiǎo yì píng.",
+    "structureBreakdown": [
+      {
+        "role": "S",
+        "label": "商品名",
+        "text": "瓶装茶",
+        "pinyin": "píngzhuāng chá"
+      },
+      {
+        "role": "O",
+        "label": "金額",
+        "text": "三元五角",
+        "pinyin": "sān yuán wǔ jiǎo"
+      },
+      {
+        "role": "Attr",
+        "label": "単位量詞",
+        "text": "一瓶",
+        "pinyin": "yì píng"
+      }
+    ],
+    "explanation": "単価を示すときは「価格 + 一 + 量詞」の語順にします。書き言葉や表示では「元・角」が使われます。"
+  },
+  {
+    "id": "WP-S05-21",
+    "stageId": "stage05",
+    "difficulty": 2,
+    "grammarIds": [
+      "G10-03",
+      "G04-04"
+    ],
+    "lessonId": "L10",
+    "japanesePrompt": "これら2つのノートは全部でいくらですか？",
+    "chunks": [
+      {
+        "id": "c1",
+        "pinyinMarked": "zhè liǎng běn",
+        "pinyinPlain": "zhe liang ben",
+        "hanzi": "这两本"
+      },
+      {
+        "id": "c2",
+        "pinyinMarked": "bǐjìběn",
+        "pinyinPlain": "bijiben",
+        "hanzi": "笔记本"
+      },
+      {
+        "id": "c3",
+        "pinyinMarked": "yígòng",
+        "pinyinPlain": "yigong",
+        "hanzi": "一共"
+      },
+      {
+        "id": "c4",
+        "pinyinMarked": "duōshao",
+        "pinyinPlain": "duoshao",
+        "hanzi": "多少",
+        "meaningHint": "いくら"
+      },
+      {
+        "id": "c5",
+        "pinyinMarked": "qián",
+        "pinyinPlain": "qian",
+        "hanzi": "钱",
+        "meaningHint": "お金"
+      }
+    ],
+    "correctOrderIds": [
+      "c1",
+      "c2",
+      "c3",
+      "c4",
+      "c5"
+    ],
+    "modelAnswer": "这两本笔记本一共多少钱？",
+    "acceptableAnswers": [
+      "这两本笔记本一共多少钱？",
+      "这两本笔记本一共多少钱"
+    ],
+    "fullPinyin": "Zhè liǎng běn bǐjìběn yígòng duōshao qián?",
+    "structureBreakdown": [
+      {
+        "role": "S",
+        "label": "主語",
+        "text": "这两本笔记本",
+        "pinyin": "zhè liǎng běn bǐjìběn"
+      },
+      {
+        "role": "Adv",
+        "label": "副詞",
+        "text": "一共",
+        "pinyin": "yígòng"
+      },
+      {
+        "role": "O",
+        "label": "疑問価格",
+        "text": "多少钱",
+        "pinyin": "duōshao qián"
+      }
+    ],
+    "explanation": "合計金額を尋ねるときは「一共多少钱？」を使います。「多少」の後には量詞なしで「钱」を続けられます。"
+  },
+  {
+    "id": "WP-S05-22",
+    "stageId": "stage05",
+    "difficulty": 2,
+    "grammarIds": [
+      "G10-04"
+    ],
+    "lessonId": "L10",
+    "japanesePrompt": "すみません、ここで写真を撮ってもいいですか？",
+    "chunks": [
+      {
+        "id": "c1",
+        "pinyinMarked": "qǐngwèn",
+        "pinyinPlain": "qingwen",
+        "hanzi": "请问"
+      },
+      {
+        "id": "c2",
+        "pinyinMarked": "zài zhèr",
+        "pinyinPlain": "zai zher",
+        "hanzi": "在这儿"
+      },
+      {
+        "id": "c3",
+        "pinyinMarked": "kěyǐ",
+        "pinyinPlain": "keyi",
+        "hanzi": "可以",
+        "meaningHint": "〜してもよい（許可）"
+      },
+      {
+        "id": "c4",
+        "pinyinMarked": "pāizhào",
+        "pinyinPlain": "paizhao",
+        "hanzi": "拍照"
+      },
+      {
+        "id": "c5",
+        "pinyinMarked": "ma",
+        "pinyinPlain": "ma",
+        "hanzi": "吗",
+        "meaningHint": "〜ですか"
+      }
+    ],
+    "correctOrderIds": [
+      "c1",
+      "c2",
+      "c3",
+      "c4",
+      "c5"
+    ],
+    "modelAnswer": "请问，在这儿可以拍照吗？",
+    "acceptableAnswers": [
+      "请问，在这儿可以拍照吗？",
+      "请问，可以在这儿拍照吗？",
+      "请问，在这儿可以拍照吗",
+      "请问，可以在这儿拍照吗"
+    ],
+    "fullPinyin": "Qǐngwèn, zài zhèr kěyǐ pāizhào ma?",
+    "structureBreakdown": [
+      {
+        "role": "Other",
+        "label": "前置き",
+        "text": "请问",
+        "pinyin": "qǐngwèn"
+      },
+      {
+        "role": "Prep",
+        "label": "場所介詞句",
+        "text": "在这儿",
+        "pinyin": "zài zhèr"
+      },
+      {
+        "role": "Aux",
+        "label": "許可助動詞",
+        "text": "可以",
+        "pinyin": "kěyǐ"
+      },
+      {
+        "role": "V",
+        "label": "動詞",
+        "text": "拍照",
+        "pinyin": "pāizhào"
+      },
+      {
+        "role": "P",
+        "label": "疑問助詞",
+        "text": "吗",
+        "pinyin": "ma"
+      }
+    ],
+    "explanation": "相手や規則に許可を求めるときは助動詞「可以」を使います。「在这儿」は「可以」の前でも後ろでも置けますが、文頭寄りに置くのが自然です。"
+  },
+  {
+    "id": "WP-S05-23",
+    "stageId": "stage05",
+    "difficulty": 2,
+    "grammarIds": [
+      "G10-04"
+    ],
+    "lessonId": "L10",
+    "japanesePrompt": "館内では飲食してはいけません（してはいけない）。",
+    "chunks": [
+      {
+        "id": "c1",
+        "pinyinMarked": "guǎn nèi",
+        "pinyinPlain": "guan nei",
+        "hanzi": "馆内"
+      },
+      {
+        "id": "c2",
+        "pinyinMarked": "bù néng",
+        "pinyinPlain": "bu neng",
+        "hanzi": "不能",
+        "meaningHint": "〜してはいけない"
+      },
+      {
+        "id": "c3",
+        "pinyinMarked": "chī dōngxi",
+        "pinyinPlain": "chi dongxi",
+        "hanzi": "吃东西"
+      },
+      {
+        "id": "c4",
+        "pinyinMarked": "hé",
+        "pinyinPlain": "he",
+        "hanzi": "和",
+        "meaningHint": "と"
+      },
+      {
+        "id": "c5",
+        "pinyinMarked": "hē yǐnliào",
+        "pinyinPlain": "he yinliao",
+        "hanzi": "喝饮料"
+      }
+    ],
+    "correctOrderIds": [
+      "c1",
+      "c2",
+      "c3",
+      "c4",
+      "c5"
+    ],
+    "modelAnswer": "馆内不能吃东西和喝饮料。",
+    "acceptableAnswers": [
+      "馆内不能吃东西和喝饮料。",
+      "馆内不能吃东西和喝饮料"
+    ],
+    "fullPinyin": "Guǎn nèi bù néng chī dōngxi hé hē yǐnliào.",
+    "structureBreakdown": [
+      {
+        "role": "Loc",
+        "label": "場所",
+        "text": "馆内",
+        "pinyin": "guǎn nèi"
+      },
+      {
+        "role": "Neg",
+        "label": "禁止助動詞",
+        "text": "不能",
+        "pinyin": "bù néng"
+      },
+      {
+        "role": "V",
+        "label": "禁止行為1",
+        "text": "吃东西",
+        "pinyin": "chī dōngxi"
+      },
+      {
+        "role": "Conj",
+        "label": "並列",
+        "text": "和",
+        "pinyin": "hé"
+      },
+      {
+        "role": "V",
+        "label": "禁止行為2",
+        "text": "喝饮料",
+        "pinyin": "hē yǐnliào"
+      }
+    ],
+    "explanation": "規則や状況として「〜してはいけない（禁止）」を表すときは、助動詞「可以」の否定「不可以」よりも「不能」がよく使われます。"
+  },
+  {
+    "id": "WP-S05-24",
+    "stageId": "stage05",
+    "difficulty": 3,
+    "grammarIds": [
+      "G10-04"
+    ],
+    "lessonId": "L10",
+    "japanesePrompt": "彼女は1分間に60個以上の中国語の文字を打つことができます。",
+    "chunks": [
+      {
+        "id": "c1",
+        "pinyinMarked": "tā",
+        "pinyinPlain": "ta",
+        "hanzi": "她",
+        "meaningHint": "彼女"
+      },
+      {
+        "id": "c2",
+        "pinyinMarked": "yì fēnzhōng",
+        "pinyinPlain": "yi fenzhong",
+        "hanzi": "一分钟"
+      },
+      {
+        "id": "c3",
+        "pinyinMarked": "néng",
+        "pinyinPlain": "neng",
+        "hanzi": "能",
+        "meaningHint": "〜できる（能力）"
+      },
+      {
+        "id": "c4",
+        "pinyinMarked": "dǎ",
+        "pinyinPlain": "da",
+        "hanzi": "打",
+        "meaningHint": "入力する"
+      },
+      {
+        "id": "c5",
+        "pinyinMarked": "liùshí duō ge Hànzì",
+        "pinyinPlain": "liushi duo ge hanzi",
+        "hanzi": "六十多个汉字"
+      }
+    ],
+    "correctOrderIds": [
+      "c1",
+      "c2",
+      "c3",
+      "c4",
+      "c5"
+    ],
+    "modelAnswer": "她一分钟能打六十多个汉字。",
+    "acceptableAnswers": [
+      "她一分钟能打六十多个汉字。",
+      "她一分钟能打六十多个汉字"
+    ],
+    "fullPinyin": "Tā yì fēnzhōng néng dǎ liùshí duō ge Hànzì.",
+    "structureBreakdown": [
+      {
+        "role": "S",
+        "label": "主語",
+        "text": "她",
+        "pinyin": "tā"
+      },
+      {
+        "role": "Time",
+        "label": "時間量",
+        "text": "一分钟",
+        "pinyin": "yì fēnzhōng"
+      },
+      {
+        "role": "Aux",
+        "label": "能力助動詞",
+        "text": "能",
+        "pinyin": "néng"
+      },
+      {
+        "role": "V",
+        "label": "動詞",
+        "text": "打",
+        "pinyin": "dǎ"
+      },
+      {
+        "role": "O",
+        "label": "目的語",
+        "text": "六十多个汉字",
+        "pinyin": "liùshí duō ge Hànzì"
+      }
+    ],
+    "explanation": "具体的な数値（60字以上）や高い到達度を伴う能力表現には「可以」ではなく「能」を使います。"
+  },
+  {
+    "id": "WP-S05-25",
+    "stageId": "stage05",
+    "difficulty": 2,
+    "grammarIds": [
+      "G10-05"
+    ],
+    "lessonId": "L10",
+    "japanesePrompt": "張先生は私たちに中国語の発音を教えています。",
+    "chunks": [
+      {
+        "id": "c1",
+        "pinyinMarked": "Zhāng lǎoshī",
+        "pinyinPlain": "zhang laoshi",
+        "hanzi": "张老师"
+      },
+      {
+        "id": "c2",
+        "pinyinMarked": "jiāo",
+        "pinyinPlain": "jiao",
+        "hanzi": "教",
+        "meaningHint": "教える"
+      },
+      {
+        "id": "c3",
+        "pinyinMarked": "wǒmen",
+        "pinyinPlain": "women",
+        "hanzi": "我们"
+      },
+      {
+        "id": "c4",
+        "pinyinMarked": "Hànyǔ",
+        "pinyinPlain": "hanyu",
+        "hanzi": "汉语",
+        "meaningHint": "中国語"
+      },
+      {
+        "id": "c5",
+        "pinyinMarked": "fāyīn",
+        "pinyinPlain": "fayin",
+        "hanzi": "发音"
+      }
+    ],
+    "correctOrderIds": [
+      "c1",
+      "c2",
+      "c3",
+      "c4",
+      "c5"
+    ],
+    "modelAnswer": "张老师教我们汉语发音。",
+    "acceptableAnswers": [
+      "张老师教我们汉语发音。",
+      "张老师教我们汉语发音"
+    ],
+    "fullPinyin": "Zhāng lǎoshī jiāo wǒmen Hànyǔ fāyīn.",
+    "structureBreakdown": [
+      {
+        "role": "S",
+        "label": "主語",
+        "text": "张老师",
+        "pinyin": "Zhāng lǎoshī"
+      },
+      {
+        "role": "V",
+        "label": "二重目的動詞",
+        "text": "教",
+        "pinyin": "jiāo"
+      },
+      {
+        "role": "O",
+        "label": "間接目的語(人)",
+        "text": "我们",
+        "pinyin": "wǒmen"
+      },
+      {
+        "role": "O",
+        "label": "直接目的語(内容)",
+        "text": "汉语发音",
+        "pinyin": "Hànyǔ fāyīn"
+      }
+    ],
+    "explanation": "「教（教える）」は二重目的語をとる動詞です。「S + 教 + 人（我们） + 教える内容（汉语发音）」の語順になります。"
+  },
+  {
+    "id": "WP-S05-26",
+    "stageId": "stage05",
+    "difficulty": 2,
+    "grammarIds": [
+      "G10-05",
+      "G07-04"
+    ],
+    "lessonId": "L10",
+    "japanesePrompt": "店員さんは私に5元のお釣りをくれました。",
+    "chunks": [
+      {
+        "id": "c1",
+        "pinyinMarked": "shòuhuòyuán",
+        "pinyinPlain": "shouhuoyuan",
+        "hanzi": "售货员"
+      },
+      {
+        "id": "c2",
+        "pinyinMarked": "zhǎo",
+        "pinyinPlain": "zhao",
+        "hanzi": "找",
+        "meaningHint": "お釣りを渡す"
+      },
+      {
+        "id": "c3",
+        "pinyinMarked": "le",
+        "pinyinPlain": "le",
+        "hanzi": "了",
+        "meaningHint": "（完了）"
+      },
+      {
+        "id": "c4",
+        "pinyinMarked": "wǒ",
+        "pinyinPlain": "wo",
+        "hanzi": "我",
+        "meaningHint": "私"
+      },
+      {
+        "id": "c5",
+        "pinyinMarked": "wǔ kuài qián",
+        "pinyinPlain": "wu kuai qian",
+        "hanzi": "五块钱"
+      }
+    ],
+    "correctOrderIds": [
+      "c1",
+      "c2",
+      "c3",
+      "c4",
+      "c5"
+    ],
+    "modelAnswer": "售货员找了我五块钱。",
+    "acceptableAnswers": [
+      "售货员找了我五块钱。",
+      "售货员找了我五块钱"
+    ],
+    "fullPinyin": "Shòuhuòyuán zhǎo le wǒ wǔ kuài qián.",
+    "structureBreakdown": [
+      {
+        "role": "S",
+        "label": "主語",
+        "text": "售货员",
+        "pinyin": "shòuhuòyuán"
+      },
+      {
+        "role": "V",
+        "label": "動詞＋了",
+        "text": "找了",
+        "pinyin": "zhǎo le"
+      },
+      {
+        "role": "O",
+        "label": "間接目的語(人)",
+        "text": "我",
+        "pinyin": "wǒ"
+      },
+      {
+        "role": "O",
+        "label": "直接目的語(金額)",
+        "text": "五块钱",
+        "pinyin": "wǔ kuài qián"
+      }
+    ],
+    "explanation": "「找 + 人 + お金」で「（人）にお釣りを渡す」という意味になります。完了の「了」は動詞「找」の直後に置きます。"
+  },
+  {
+    "id": "WP-S05-27",
+    "stageId": "stage05",
+    "difficulty": 3,
+    "grammarIds": [
+      "G10-05"
+    ],
+    "lessonId": "L10",
+    "japanesePrompt": "出発前に、必ずあなたの電話番号を私に教えてください。",
+    "chunks": [
+      {
+        "id": "c1",
+        "pinyinMarked": "chūfā qián",
+        "pinyinPlain": "chufa qian",
+        "hanzi": "出发前"
+      },
+      {
+        "id": "c2",
+        "pinyinMarked": "qǐng gàosu",
+        "pinyinPlain": "qing gaosu",
+        "hanzi": "请告诉"
+      },
+      {
+        "id": "c3",
+        "pinyinMarked": "wǒ",
+        "pinyinPlain": "wo",
+        "hanzi": "我",
+        "meaningHint": "私"
+      },
+      {
+        "id": "c4",
+        "pinyinMarked": "nǐ de",
+        "pinyinPlain": "ni de",
+        "hanzi": "你的",
+        "meaningHint": "あなたの"
+      },
+      {
+        "id": "c5",
+        "pinyinMarked": "diànhuà hàomǎ",
+        "pinyinPlain": "dianhua haoma",
+        "hanzi": "电话号码"
+      }
+    ],
+    "correctOrderIds": [
+      "c1",
+      "c2",
+      "c3",
+      "c4",
+      "c5"
+    ],
+    "modelAnswer": "出发前，请告诉我你的电话号码。",
+    "acceptableAnswers": [
+      "出发前，请告诉我你的电话号码。",
+      "出发前请告诉我你的电话号码。",
+      "出发前，请告诉我你的电话号码"
+    ],
+    "fullPinyin": "Chūfā qián, qǐng gàosu wǒ nǐ de diànhuà hàomǎ.",
+    "structureBreakdown": [
+      {
+        "role": "Time",
+        "label": "時間句",
+        "text": "出发前",
+        "pinyin": "chūfā qián"
+      },
+      {
+        "role": "V",
+        "label": "依頼＋動詞",
+        "text": "请告诉",
+        "pinyin": "qǐng gàosu"
+      },
+      {
+        "role": "O",
+        "label": "間接目的語(人)",
+        "text": "我",
+        "pinyin": "wǒ"
+      },
+      {
+        "role": "O",
+        "label": "直接目的語(情報)",
+        "text": "你的电话号码",
+        "pinyin": "nǐ de diànhuà hàomǎ"
+      }
+    ],
+    "explanation": "「告诉（知らせる・伝える）」も二重目的語をとり、「告诉 + 人（我） + 伝える内容（你的电话号码）」の語順になります。"
+  }
+]

@@ -33,6 +33,7 @@ export function createDefaultUserState(): UserState {
     },
     customVocab: [],
     customExercises: [],
+    novelVocabReview: [],
   };
 }
 
@@ -129,6 +130,9 @@ export function validateImportedUserState(input: unknown): {
     customVocab: Array.isArray(obj.customVocab) ? (obj.customVocab as UserState['customVocab']) : [],
     customExercises: Array.isArray(obj.customExercises)
       ? (obj.customExercises as UserState['customExercises'])
+      : [],
+    novelVocabReview: Array.isArray(obj.novelVocabReview)
+      ? (obj.novelVocabReview as UserState['novelVocabReview'])
       : [],
   };
 

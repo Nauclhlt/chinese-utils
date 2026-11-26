@@ -3,6 +3,7 @@ import type {
   AnswerHistoryEntry,
   CompositionHistoryEntry,
   CompositionSelfScore,
+  NovelVocabEntry,
   SrsRating,
   StudyScope,
   UserCustomExercise,
@@ -41,6 +42,8 @@ interface AppContextValue {
   deleteCustomVocab: (id: string) => void;
   addCustomExercise: (item: Omit<UserCustomExercise, 'id' | 'createdAt'>) => void;
   deleteCustomExercise: (id: string) => void;
+  addNovelVocabToReview: (item: Omit<NovelVocabEntry, 'id' | 'addedAt'>) => void;
+  removeNovelVocabFromReview: (id: string) => void;
   importUserStateJson: (rawJson: string) => { ok: boolean; error?: string };
   resetUserState: () => void;
 }
@@ -302,6 +305,34 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
     }));
   }, []);
 
+  const addNovelVocabToReview = useCallback((item: Omit<NovelVocabEntry, 'id' | 'addedAt'>) => {
+    setUserState((prev) => {
+      if (prev.novelVocabReview.some((x) => x.word === item.word)) {
+        return prev;
+      }
+      const entry: NovelVocabEntry = {
+        ...item,
+        id: `NV-${Date.now()}-${Math.random().toString(36).slice(2, 5)}`,
+        addedAt: new Date().toISOString(),
+      };
+      return {
+        ...prev,
+        novelVocabReview: [entry, ...prev.novelVocabReview],
+        srs: {
+          ...prev.srs,
+          [entry.id]: updateSrsRecord(prev.srs[entry.id], entry.id, 'vocab', 'again'),
+        },
+      };
+    });
+  }, []);
+
+  const removeNovelVocabFromReview = useCallback((id: string) => {
+    setUserState((prev) => ({
+      ...prev,
+      novelVocabReview: prev.novelVocabReview.filter((x) => x.id !== id),
+    }));
+  }, []);
+
   const importUserStateJson = useCallback((rawJson: string): { ok: boolean; error?: string } => {
     try {
       const parsed = JSON.parse(rawJson);
@@ -341,6 +372,8 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
       deleteCustomVocab,
       addCustomExercise,
       deleteCustomExercise,
+      addNovelVocabToReview,
+      removeNovelVocabFromReview,
       importUserStateJson,
       resetUserState,
     }),
@@ -364,6 +397,8 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
       deleteCustomVocab,
       addCustomExercise,
       deleteCustomExercise,
+      addNovelVocabToReview,
+      removeNovelVocabFromReview,
       importUserStateJson,
       resetUserState,
     ]

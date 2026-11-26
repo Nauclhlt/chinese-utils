@@ -1,0 +1,282 @@
+/* Chinese Literature Reader Styles */
+
+.reader-page-wrap {
+  --r-bg: var(--bg);
+  --r-paper: #ffffff;
+  --r-ink: #1f2937;
+  --r-muted: #64748b;
+  --r-border: #e2e8f0;
+  --r-soft: #f8fafc;
+  --r-accent: #2563eb;
+  --r-vocab: #2563eb;
+  --r-grammar: #059669;
+  --r-expr: #b45309;
+  --r-bg-mark: #7c3aed;
+}
+
+.reader-page-wrap[data-reader-theme='sepia'] {
+  --r-bg: #efe8d8;
+  --r-paper: #faf5ea;
+  --r-ink: #2c251d;
+  --r-muted: #6b5e4c;
+  --r-border: #e0d4be;
+  --r-soft: #f3ecdd;
+  --r-accent: #8b5a2b;
+  --r-vocab: #1d4ed8;
+  --r-grammar: #047857;
+  --r-expr: #92400e;
+  --r-bg-mark: #6d28d9;
+}
+
+.reader-page-wrap[data-reader-theme='dark'] {
+  --r-bg: #0b1120;
+  --r-paper: #131c2e;
+  --r-ink: #e2e8f0;
+  --r-muted: #94a3b8;
+  --r-border: #26334a;
+  --r-soft: #1a253b;
+  --r-accent: #60a5fa;
+  --r-vocab: #60a5fa;
+  --r-grammar: #34d399;
+  --r-expr: #fbbf24;
+  --r-bg-mark: #c084fc;
+}
+
+.reader-focus-mode {
+  position: fixed;
+  inset: 0;
+  z-index: 90;
+  overflow-y: auto;
+  padding: 20px;
+  background: var(--r-bg);
+}
+
+.reader-book-surface {
+  background: var(--r-paper);
+  color: var(--r-ink);
+  border: 1px solid var(--r-border);
+  border-radius: 14px;
+  padding: 28px 34px;
+  box-shadow: 0 6px 24px rgba(15, 23, 42, 0.08);
+  margin: 0 auto;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.reader-width-narrow { max-width: 620px; }
+.reader-width-medium { max-width: 780px; }
+.reader-width-wide { max-width: 980px; }
+
+.reader-font-serif {
+  font-family: 'Noto Serif SC', 'Songti SC', 'SimSun', 'Yu Mincho', Georgia, serif;
+}
+
+.reader-font-sans {
+  font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans SC', system-ui, sans-serif;
+}
+
+.reader-font-kai {
+  font-family: 'Kaiti SC', 'KaiTi', 'STKaiti', 'BiauKai', 'Noto Serif SC', serif;
+}
+
+.reader-paragraph {
+  margin: 0 0 1.3em;
+  text-align: justify;
+}
+
+.reader-paragraph-letter {
+  background: var(--r-soft);
+  border-left: 3px solid var(--r-accent);
+  padding: 14px 18px;
+  border-radius: 0 10px 10px 0;
+  margin: 1.4em 0;
+}
+
+.reader-paragraph-heading {
+  font-weight: 700;
+  font-size: 1.2em;
+  color: var(--r-accent);
+  margin: 1.6em 0 0.8em;
+}
+
+.reader-sentence-block {
+  margin-bottom: 0.9em;
+  padding: 6px 8px;
+  border-radius: 8px;
+  transition: background-color 0.15s ease;
+}
+
+.reader-sentence-block.active-listening {
+  background: rgba(59, 130, 246, 0.14);
+  outline: 1px solid rgba(59, 130, 246, 0.35);
+}
+
+.reader-sentence-block.active-search-hit {
+  background: rgba(245, 158, 11, 0.16);
+}
+
+/* Inline underline indicators that never shift line height */
+.reader-seg {
+  display: inline;
+  border-radius: 2px;
+  transition: background-color 0.12s ease;
+}
+
+.reader-seg-interactive {
+  cursor: pointer;
+  text-decoration-line: underline;
+  text-decoration-skip-ink: none;
+  text-underline-offset: 4px;
+  text-decoration-thickness: 1.5px;
+}
+
+.reader-seg-vocab {
+  text-decoration-color: var(--r-vocab);
+  text-decoration-style: dotted;
+}
+
+.reader-seg-grammar {
+  text-decoration-color: var(--r-grammar);
+  text-decoration-style: solid;
+}
+
+.reader-seg-expression {
+  text-decoration-color: var(--r-expr);
+  text-decoration-style: dashed;
+}
+
+.reader-seg-background {
+  text-decoration-color: var(--r-bg-mark);
+  text-decoration-style: wavy;
+}
+
+.reader-seg-multi {
+  background: rgba(37, 99, 235, 0.08);
+}
+
+.reader-seg-interactive:hover,
+.reader-seg-interactive:focus-visible,
+.reader-seg-selected {
+  background: rgba(37, 99, 235, 0.18);
+  outline: none;
+}
+
+.reader-seg-dimmed {
+  opacity: 0.72;
+  text-decoration-color: rgba(148, 163, 184, 0.45);
+}
+
+.reader-pinyin-line {
+  font-size: 0.82rem;
+  color: var(--r-muted);
+  margin-top: 2px;
+  font-family: system-ui, -apple-system, sans-serif;
+  line-height: 1.45;
+}
+
+.reader-translation-line {
+  font-size: 0.9rem;
+  color: var(--r-muted);
+  margin-top: 4px;
+  padding-left: 10px;
+  border-left: 2px solid var(--r-border);
+  font-family: var(--font-ja);
+  line-height: 1.65;
+}
+
+/* Floating Popup */
+.reader-popup {
+  position: fixed;
+  z-index: 120;
+  width: min(390px, calc(100vw - 24px));
+  max-height: min(64vh, 460px);
+  overflow-y: auto;
+  background: var(--surface);
+  color: var(--text);
+  border: 1px solid var(--border-strong);
+  border-radius: 12px;
+  box-shadow: 0 14px 36px rgba(15, 23, 42, 0.24);
+  padding: 14px 16px;
+}
+
+/* Side Panel */
+.reader-sidepanel-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(15, 23, 42, 0.35);
+  z-index: 130;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.reader-sidepanel {
+  width: min(470px, 100vw);
+  height: 100%;
+  overflow-y: auto;
+  background: var(--surface);
+  color: var(--text);
+  border-left: 1px solid var(--border);
+  padding: 20px;
+  box-shadow: -8px 0 32px rgba(15, 23, 42, 0.2);
+}
+
+/* Bookshelf */
+.bookshelf-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
+  gap: 18px;
+}
+
+.book-card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  background: var(--surface);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.book-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.book-cover-wrap {
+  display: flex;
+  gap: 14px;
+  padding: 16px;
+  background: var(--surface-subtle);
+  border-bottom: 1px solid var(--border);
+}
+
+.book-cover-img {
+  width: 88px;
+  height: 118px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 1px solid var(--border-strong);
+  flex-shrink: 0;
+  background: #1e293b;
+}
+
+.reader-dropzone {
+  border: 2px dashed var(--border-strong);
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  background: var(--surface-subtle);
+  transition: border-color 0.15s ease, background-color 0.15s ease;
+}
+
+.reader-dropzone.dragover {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+}
+
+@media (max-width: 720px) {
+  .reader-book-surface {
+    padding: 18px 16px;
+    border-radius: 10px;
+  }
+}

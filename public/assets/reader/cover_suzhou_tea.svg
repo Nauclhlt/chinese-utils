@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" role="img" aria-label="平江路茶记 表紙">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f3efe2"/>
+      <stop offset="60%" stop-color="#e4eadb"/>
+      <stop offset="100%" stop-color="#cfdacc"/>
+    </linearGradient>
+    <linearGradient id="canal" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#6b8f8e"/>
+      <stop offset="100%" stop-color="#3e5f61"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="800" fill="url(#bg)"/>
+  <!-- Distant Mist Hills -->
+  <path d="M0 320 Q160 255 310 310 T600 290 L600 440 L0 440 Z" fill="#b7c7bd" opacity="0.55"/>
+  <!-- Suzhou White Walls & Black Tiles -->
+  <rect x="55" y="345" width="175" height="175" fill="#faf7ef" stroke="#475569" stroke-width="2"/>
+  <path d="M40 348 L142 290 L245 348 Z" fill="#334155"/>
+  <rect x="370" y="330" width="180" height="190" fill="#faf7ef" stroke="#475569" stroke-width="2"/>
+  <path d="M352 333 L460 272 L568 333 Z" fill="#334155"/>
+  <!-- Canal & Stone Arch Bridge -->
+  <rect x="0" y="515" width="600" height="285" fill="url(#canal)"/>
+  <path d="M165 520 Q300 415 435 520 L405 520 Q300 452 195 520 Z" fill="#78716c"/>
+  <!-- Tea Cup & Biluochun Leaves -->
+  <g transform="translate(230 585)">
+    <path d="M12 20 Q70 28 128 20 L114 78 Q70 92 26 78 Z" fill="#f8fafc" stroke="#475569" stroke-width="2"/>
+    <ellipse cx="70" cy="20" rx="58" ry="12" fill="#d9ead3" stroke="#475569" stroke-width="2"/>
+    <path d="M46 0 Q38 -18 52 -34 M72 -4 Q64 -24 78 -42 M96 0 Q90 -16 102 -32" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" opacity="0.72"/>
+  </g>
+  <rect x="26" y="26" width="548" height="748" fill="none" stroke="#475569" stroke-opacity="0.3" stroke-width="1.5" rx="10"/>
+</svg>

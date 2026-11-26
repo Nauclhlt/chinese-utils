@@ -1,0 +1,545 @@
+[
+  {
+    "id": "GC-S07-01",
+    "stageId": "stage07",
+    "type": "spot",
+    "difficulty": 1,
+    "grammarIds": ["G11-01"],
+    "lessonId": "L11",
+    "promptJa": "誤っている箇所をタップしてください。（意味：私は駅の前で彼を20分待ちました。）",
+    "tokens": ["我", "在", "车站", "前面", "等了", "二十分钟", "他", "。"],
+    "sentenceZh": "我在车站前面等了二十分钟他。",
+    "errorIndices": [6],
+    "correctedSentence": "我在车站前面等了他二十分钟。",
+    "acceptableSentences": [
+      "我在车站前面等了他二十分钟。",
+      "我在车站前等了他二十分钟。"
+    ],
+    "pinyin": "Wǒ zài chēzhàn qiánmiàn děng le tā èrshí fēnzhōng.",
+    "explanation": "人称代詞（他）が目的語になるときは、時量補語（二十分钟）より前に置く必要があります。正しくは「等了他二十分钟」です。",
+    "pitfallNote": "一般名詞なら「看了两个小时书」と後ろに置けますが、人称代詞「我・你・他・她」は必ず補語の前に置きます。"
+  },
+  {
+    "id": "GC-S07-02",
+    "stageId": "stage07",
+    "type": "spot",
+    "difficulty": 2,
+    "grammarIds": ["G11-02"],
+    "lessonId": "L11",
+    "promptJa": "誤っている箇所をタップしてください。（意味：兄は新幹線で北京へ行ったのです。）",
+    "tokens": ["哥哥", "是", "坐", "高铁", "去了", "北京", "的", "。"],
+    "sentenceZh": "哥哥是坐高铁去了北京的。",
+    "errorIndices": [4],
+    "correctedSentence": "哥哥是坐高铁去北京的。",
+    "acceptableSentences": [
+      "哥哥是坐高铁去北京的。",
+      "哥哥坐高铁去北京的。"
+    ],
+    "pinyin": "Gēge shì zuò gāotiě qù Běijīng de.",
+    "explanation": "「是……的」構文はすでに起きた動作の手段や時・場所を焦点化する文型で、原則として動詞の後ろに完了の「了」を同時に使いません。",
+    "pitfallNote": "日本語の「〜したのです」につられて「去了……的」と「了」を入れてしまう誤りが非常に多いので注意しましょう。"
+  },
+  {
+    "id": "GC-S07-03",
+    "stageId": "stage07",
+    "type": "spot",
+    "difficulty": 2,
+    "grammarIds": ["G12-01"],
+    "lessonId": "L12",
+    "promptJa": "誤っている箇所をタップしてください。（意味：王先生はもう図書室の中へ入っていきました。）",
+    "tokens": ["王老师", "已经", "进去", "阅览室", "了", "。"],
+    "sentenceZh": "王老师已经进去阅览室了。",
+    "errorIndices": [2],
+    "correctedSentence": "王老师已经进阅览室去了。",
+    "acceptableSentences": [
+      "王老师已经进阅览室去了。"
+    ],
+    "pinyin": "Wáng lǎoshī yǐjīng jìn yuèlǎnshì qù le.",
+    "explanation": "単純方向補語（进＋去）に場所目的語（阅览室）を伴う場合、場所詞は必ず「去 / 来」の前に置き、「进阅览室去」の語順にします。",
+    "pitfallNote": "「进去阅览室」のように「去」の後ろに場所を置くことはできません。場所目的語は動詞と「来/去」の間に挟みます。"
+  },
+  {
+    "id": "GC-S07-04",
+    "stageId": "stage07",
+    "type": "spot",
+    "difficulty": 2,
+    "grammarIds": ["G12-03"],
+    "lessonId": "L12",
+    "promptJa": "誤っている箇所をタップしてください。（意味：姉は中国語の発音がとてもきれいです。）",
+    "tokens": ["姐姐", "说", "中国话", "得", "非常", "标准", "。"],
+    "sentenceZh": "姐姐说中国话得非常标准。",
+    "errorIndices": [3],
+    "correctedSentence": "姐姐说中国话说得非常标准。",
+    "acceptableSentences": [
+      "姐姐说中国话说得非常标准。",
+      "姐姐中国话说得非常标准。"
+    ],
+    "pinyin": "Jiějie shuō Zhōngguóhuà shuō de fēicháng biāozhǔn.",
+    "explanation": "程度補語の「得」は動詞の直後に置く必要があり、目的語「中国话」の後ろに直接「得」を続けることはできません。",
+    "pitfallNote": "「V＋O＋得＋Adj」は不可です。目的語があるときは「V＋O＋V＋得＋Adj」と動詞を繰り返すか、目的語を主語・主題にします。"
+  },
+  {
+    "id": "GC-S07-05",
+    "stageId": "stage07",
+    "type": "replace",
+    "difficulty": 1,
+    "grammarIds": ["G11-01"],
+    "lessonId": "L11",
+    "promptJa": "誤っている語句を正しい表現に置き換えてください。（意味：この映画は本当に面白くて、私は最初から最後まで2回観ました。）",
+    "tokens": ["这部", "电影", "真", "好看", "，", "我", "看了", "两", "个", "。"],
+    "sentenceZh": "这部电影真好看，我看了两个。",
+    "errorIndices": [8],
+    "choices": ["遍", "小时", "天", "年"],
+    "correctedSentence": "这部电影真好看，我看了两遍。",
+    "acceptableSentences": [
+      "这部电影真好看，我看了两遍。",
+      "这部电影真好看，我看了两次。"
+    ],
+    "pinyin": "Zhè bù diànyǐng zhēn hǎokàn, wǒ kàn le liǎng biàn.",
+    "explanation": "映画や本などを最初から最後まで通して見た回数を表す動量詞には「遍」を使います。「个」は物の個数に使う量詞です。",
+    "pitfallNote": "「次」は単純な回数、「遍」は最初から終わりまで1回通して行う回数に使います。"
+  },
+  {
+    "id": "GC-S07-06",
+    "stageId": "stage07",
+    "type": "replace",
+    "difficulty": 2,
+    "grammarIds": ["G11-03"],
+    "lessonId": "L11",
+    "promptJa": "誤っている語句を正しい表現に置き換えてください。（意味：私はあなたが今度のスピーチ大会で優勝することを望んでいます。）",
+    "tokens": ["我", "想", "你", "在", "这次", "演讲", "比赛", "中", "拿", "第一名", "。"],
+    "sentenceZh": "我想你在这次演讲比赛中拿第一名。",
+    "errorIndices": [1],
+    "choices": ["希望", "觉得", "打算", "喜欢"],
+    "correctedSentence": "我希望你在这次演讲比赛中拿第一名。",
+    "acceptableSentences": [
+      "我希望你在这次演讲比赛中拿第一名。"
+    ],
+    "pinyin": "Wǒ xīwàng nǐ zài zhè cì yǎnjiǎng bǐsài zhōng ná dì-yī míng.",
+    "explanation": "「想」は話者自身の願望や思考を表し、「想＋他者がVする」という他者への希望には使えません。他者の行為を望むときは「希望」を使います。",
+    "pitfallNote": "日本語の「〜してほしいと思う」を直訳して「我想你〜」としないよう、「我希望你〜」で覚えましょう。"
+  },
+  {
+    "id": "GC-S07-07",
+    "stageId": "stage07",
+    "type": "replace",
+    "difficulty": 2,
+    "grammarIds": ["G12-01"],
+    "lessonId": "L12",
+    "promptJa": "誤っている語句を正しい表現に置き換えてください。（意味：私は今部屋の中にいます。早く中に入ってきて、お茶を飲んでください。）",
+    "tokens": ["外面", "风", "大", "，", "你", "快", "进去", "喝茶", "吧", "。"],
+    "sentenceZh": "外面风大，你快进去喝茶吧。",
+    "errorIndices": [6],
+    "choices": ["进来", "出来", "回去", "上去"],
+    "correctedSentence": "外面风大，你快进来喝茶吧。",
+    "acceptableSentences": [
+      "外面风大，你快进来喝茶吧。"
+    ],
+    "pinyin": "Wàimiàn fēng dà, nǐ kuài jìnlai hē chá ba.",
+    "explanation": "話し手自身が部屋の中にいて、外にいる相手を自分のいる側（中）へ招き入れるので、「进＋来（进来）」を使います。",
+    "pitfallNote": "日本語の「入る」に引かれて「进去」を使うと、話し手も外にいて中へ行くニュアンスになってしまいます。"
+  },
+  {
+    "id": "GC-S07-08",
+    "stageId": "stage07",
+    "type": "replace",
+    "difficulty": 1,
+    "grammarIds": ["G11-02"],
+    "lessonId": "L11",
+    "promptJa": "誤っている語句を正しい表現に置き換えてください。（意味：私は昨日このスーパーで買ったのではありません。）",
+    "tokens": ["我", "没", "是", "昨天", "在", "这家", "超市", "买", "的", "。"],
+    "sentenceZh": "我没是昨天在这家超市买的。",
+    "errorIndices": [1],
+    "choices": ["不", "别", "没有", "不要"],
+    "correctedSentence": "我不是昨天在这家超市买的。",
+    "acceptableSentences": [
+      "我不是昨天在这家超市买的。"
+    ],
+    "pinyin": "Wǒ bú shì zuótiān zài zhè jiā chāoshì mǎi de.",
+    "explanation": "「是……的」構文を否定するときは、過去のことであっても「没」ではなく必ず「不是……的」とします。",
+    "pitfallNote": "「是」の否定は時制にかかわらず常に「不是」です。「没是」という形は存在しません。"
+  },
+  {
+    "id": "GC-S07-09",
+    "stageId": "stage07",
+    "type": "delete",
+    "difficulty": 2,
+    "grammarIds": ["G11-04"],
+    "lessonId": "L11",
+    "promptJa": "不要な語句を1つ削除してください。（意味：この部屋は隣の会議室と同じくらい広いです。）",
+    "tokens": ["这个", "房间", "跟", "隔壁", "会议室", "一样", "很", "宽敞", "。"],
+    "sentenceZh": "这个房间跟隔壁会议室一样很宽敞。",
+    "errorIndices": [6],
+    "correctedSentence": "这个房间跟隔壁会议室一样宽敞。",
+    "acceptableSentences": [
+      "这个房间跟隔壁会议室一样宽敞。",
+      "这个房间和隔壁会议室一样宽敞。"
+    ],
+    "pinyin": "Zhège fángjiān gēn gébì huìyìshì yíyàng kuānchang.",
+    "explanation": "「A 跟 B 一样 + 形容詞」の比較構文では、すでに程度・基準が示されているため形容詞の前に「很」を付けません。",
+    "pitfallNote": "平叙文の癖で「一样」の後ろの形容詞にもつい「很」を入れてしまいがちなので注意が必要です。"
+  },
+  {
+    "id": "GC-S07-10",
+    "stageId": "stage07",
+    "type": "delete",
+    "difficulty": 2,
+    "grammarIds": ["G11-05"],
+    "lessonId": "L11",
+    "promptJa": "不要な語句を1つ削除してください。（意味：弟は家に帰るとすぐに宿題をやり始めます。）",
+    "tokens": ["弟弟", "一", "回到", "家", "了", "就", "开始", "做作业", "。"],
+    "sentenceZh": "弟弟一回到家了就开始做作业。",
+    "errorIndices": [4],
+    "correctedSentence": "弟弟一回到家就开始做作业。",
+    "acceptableSentences": [
+      "弟弟一回到家就开始做作业。",
+      "弟弟一回家就开始做作业。"
+    ],
+    "pinyin": "Dìdi yì huí dào jiā jiù kāishǐ zuò zuòyè.",
+    "explanation": "「一 + V1 + 就 + V2」の前半の動作には原則として「了」を付けません。過去の事実であっても文末に「了」を置くのが自然です。",
+    "pitfallNote": "「〜するとすぐに」を表す前半節「一……就……」では、V1の直後に「了」を入れないようにしましょう。"
+  },
+  {
+    "id": "GC-S07-11",
+    "stageId": "stage07",
+    "type": "delete",
+    "difficulty": 1,
+    "grammarIds": ["G11-01"],
+    "lessonId": "L11",
+    "promptJa": "不要な語句を1つ削除してください。（意味：母は北海道に5日間旅行に行きました。）",
+    "tokens": ["妈妈", "去", "北海道", "旅游", "了", "五", "个", "天", "。"],
+    "sentenceZh": "妈妈去北海道旅游了五个天。",
+    "errorIndices": [6],
+    "correctedSentence": "妈妈去北海道旅游了五天。",
+    "acceptableSentences": [
+      "妈妈去北海道旅游了五天。"
+    ],
+    "pinyin": "Māma qù Běihǎidào lǚyóu le wǔ tiān.",
+    "explanation": "時間量の「天」「年」「分钟」はそれ自体が量詞的な働きを持つため、前に「个」を付けません。「五天」とします。",
+    "pitfallNote": "「小时（三个小时）」「星期（两个星期）」「月（四个月）」には「个」が必要ですが、「天」「年」「分钟」には不要です。"
+  },
+  {
+    "id": "GC-S07-12",
+    "stageId": "stage07",
+    "type": "insert",
+    "difficulty": 1,
+    "grammarIds": ["G11-01"],
+    "lessonId": "L11",
+    "promptJa": "文中の適切な位置に脱落している語句を挿入してください。（意味：図書館で3時間勉強しました。）",
+    "tokens": ["我", "昨天", "在", "图书馆", "学习", "了", "三", "小时", "。"],
+    "sentenceZh": "我昨天在图书馆学习了三小时。",
+    "insertIndex": 7,
+    "choices": ["个", "次", "遍", "点"],
+    "correctedSentence": "我昨天在图书馆学习了三个小时。",
+    "acceptableSentences": [
+      "我昨天在图书馆学习了三个小时。"
+    ],
+    "pinyin": "Wǒ zuótiān zài túshūguǎn xuéxí le sān gè xiǎoshí.",
+    "explanation": "「小时（時間）」は名詞扱いであり、時間量を表すときは数詞との間に必ず量詞「个」を挟んで「三个小时」とします。",
+    "pitfallNote": "「三小时」と「个」を落としてしまうのは初級学習者に非常に多いミスです。"
+  },
+  {
+    "id": "GC-S07-13",
+    "stageId": "stage07",
+    "type": "insert",
+    "difficulty": 2,
+    "grammarIds": ["G11-04"],
+    "lessonId": "L11",
+    "promptJa": "文中の適切な位置に脱落している語句を挿入してください。（意味：このカバンの値段はあなたのカバンと同じです。）",
+    "tokens": ["这个", "包", "的", "价钱", "跟", "你", "的", "包", "。"],
+    "sentenceZh": "这个包的价钱跟你的包。",
+    "insertIndex": 8,
+    "choices": ["一样", "一起", "一点儿", "一下"],
+    "correctedSentence": "这个包的价钱跟你的包一样。",
+    "acceptableSentences": [
+      "这个包的价钱跟你的包一样。",
+      "这个包的价钱和你的一样。"
+    ],
+    "pinyin": "Zhège bāo de jiàqian gēn nǐ de bāo yíyàng.",
+    "explanation": "同等比較は「A 跟 B 一样」という形をとります。「跟」だけでは「〜と同じ」という意味にならず、述語となる「一样」が必要です。",
+    "pitfallNote": "「跟……一样」は必ずセットで使います。文末の「一样」を落とさないようにしましょう。"
+  },
+  {
+    "id": "GC-S07-14",
+    "stageId": "stage07",
+    "type": "insert",
+    "difficulty": 2,
+    "grammarIds": ["G12-03"],
+    "lessonId": "L12",
+    "promptJa": "文中の適切な位置に脱落している語句を挿入してください。（意味：彼は料理を作るのが本当に上手です。）",
+    "tokens": ["他", "做", "菜", "做", "真", "好", "吃", "！"],
+    "sentenceZh": "他做菜做真好吃！",
+    "insertIndex": 4,
+    "choices": ["得", "的", "地", "了"],
+    "correctedSentence": "他做菜做得真好吃！",
+    "acceptableSentences": [
+      "他做菜做得真好吃！",
+      "他做的菜真好吃！"
+    ],
+    "pinyin": "Tā zuò cài zuò de zhēn hǎochī!",
+    "explanation": "動詞の後にその様子や評価を述べる程度補語を導くときは、必ず助詞「得」を挟んで「做得真好吃」とします。",
+    "pitfallNote": "程度補語の「得」を落としたり、連体修飾の「的」と混同しないようにしましょう。"
+  },
+  {
+    "id": "GC-S07-15",
+    "stageId": "stage07",
+    "type": "reorder",
+    "difficulty": 2,
+    "grammarIds": ["G12-02"],
+    "lessonId": "L12",
+    "promptJa": "語順を正しく並べ替えてください。（意味：来週水曜日に試験があるそうです。）",
+    "tokens": ["下", "周三", "有", "考试", "听说", "。"],
+    "sentenceZh": "下周三有考试听说。",
+    "correctedSentence": "听说下周三有考试。",
+    "acceptableSentences": [
+      "听说下周三有考试。",
+      "听说下星期三有考试。"
+    ],
+    "pinyin": "Tīngshuō xià zhōusān yǒu kǎoshì.",
+    "explanation": "伝聞を表す「听说（〜だそうです）」は日本語と異なり、文末ではなく必ず伝聞内容の前（文頭または主語「我」の後）に置きます。",
+    "pitfallNote": "日本語の「〜だそうです」に引っ張られて文末に置かないよう、「听说＋内容」の語順を徹底しましょう。"
+  },
+  {
+    "id": "GC-S07-16",
+    "stageId": "stage07",
+    "type": "reorder",
+    "difficulty": 2,
+    "grammarIds": ["G11-05"],
+    "lessonId": "L11",
+    "promptJa": "語順を正しく並べ替えてください。（意味：授業が終わるとすぐに、同級生たちは食堂へ走っていきました。）",
+    "tokens": ["一", "下课", "，", "就", "同学们", "跑去", "食堂", "了", "。"],
+    "sentenceZh": "一下课，就同学们跑去食堂了。",
+    "correctedSentence": "一下课，同学们就跑去食堂了。",
+    "acceptableSentences": [
+      "一下课，同学们就跑去食堂了。",
+      "一下课，同学们就跑食堂去了。"
+    ],
+    "pinyin": "Yí xiàkè, tóngxuémen jiù pǎo qù shítáng le.",
+    "explanation": "副詞「就」は第2節の主語（同学们）の前ではなく、必ず主語の後ろ・動詞の前に置きます。",
+    "pitfallNote": "前後の主語が異なるときや主語を明示するときは、「……，S2＋就＋V2」となるのが鉄則です。"
+  },
+  {
+    "id": "GC-S07-17",
+    "stageId": "stage07",
+    "type": "reorder",
+    "difficulty": 2,
+    "grammarIds": ["G12-01"],
+    "lessonId": "L12",
+    "promptJa": "語順を正しく並べ替えてください。（意味：彼は故郷からたくさんのお土産を持って帰ってきました。）",
+    "tokens": ["他", "从", "老家", "带", "了", "来", "很多", "特产", "。"],
+    "sentenceZh": "他从老家带了来很多特产。",
+    "correctedSentence": "他从老家带来了很多特产。",
+    "acceptableSentences": [
+      "他从老家带来了很多特产。",
+      "他从老家带了很多特产来。"
+    ],
+    "pinyin": "Tā cóng lǎojiā dài lái le hěn duō tèchǎn.",
+    "explanation": "「带来」は「动词＋方向补语」で1つのまとまりを作るため、完了の「了」を「带」と「来」の間に割り込ませず「带来了」とします。",
+    "pitfallNote": "「带了很多特产来」も自然ですが、「带了来很多特产」のように「了」を「带来」の間に挟む語順は誤りです。"
+  },
+  {
+    "id": "GC-S07-18",
+    "stageId": "stage07",
+    "type": "reorder",
+    "difficulty": 2,
+    "grammarIds": ["G11-03"],
+    "lessonId": "L11",
+    "promptJa": "語順を正しく並べ替えてください。（意味：あの店の餃子はとても美味しいと思います。）",
+    "tokens": ["那家", "店", "的", "饺子", "非常", "好吃", "我", "觉得", "。"],
+    "sentenceZh": "那家店的饺子非常好吃我觉得。",
+    "correctedSentence": "我觉得那家店的饺子非常好吃。",
+    "acceptableSentences": [
+      "我觉得那家店的饺子非常好吃。",
+      "我觉得那家店的饺子很好吃。"
+    ],
+    "pinyin": "Wǒ juéde nà jiā diàn de jiǎozi fēicháng hǎochī.",
+    "explanation": "中国語の思考・判断動詞「觉得」は目的語となる節の前に置きます。日本語の「〜と思います」の語順で文末に回してはいけません。",
+    "pitfallNote": "「觉得＋主述フレーズ」が基本構造です。先に意見の対象を言ってから「我觉得」を付けるのは不自然です。"
+  },
+  {
+    "id": "GC-S07-19",
+    "stageId": "stage07",
+    "type": "rewrite",
+    "difficulty": 3,
+    "grammarIds": ["G12-03"],
+    "lessonId": "L12",
+    "promptJa": "文法的な誤りを直して正しい文に書き換えてください。（意味：彼女は先週のテストがあまりよく書けませんでした。）",
+    "tokens": ["她", "上周", "的", "作文", "写", "不", "得", "太", "好", "。"],
+    "sentenceZh": "她上周的作文写不得太好。",
+    "correctedSentence": "她上周的作文写得不太好。",
+    "acceptableSentences": [
+      "她上周的作文写得不太好。",
+      "她上周写作文写得不太好。",
+      "上周的作文她写得不太好。"
+    ],
+    "pinyin": "Tā shàng zhōu de zuòwén xiě de bú tài hǎo.",
+    "explanation": "程度補語の否定形は動詞の前や「得」の前を否定するのではなく、「得」の後ろにある補語を否定して「写得不太好」とします。",
+    "pitfallNote": "「写不得」とすると「書いてはいけない」という別の意味になるか、可能補語の否定と混同されてしまいます。"
+  },
+  {
+    "id": "GC-S07-20",
+    "stageId": "stage07",
+    "type": "rewrite",
+    "difficulty": 3,
+    "grammarIds": ["G11-04"],
+    "lessonId": "L11",
+    "promptJa": "比較対象を正しく揃えて文を書き換えてください。（意味：私の靴のサイズは弟の靴と同じです。）",
+    "tokens": ["我", "的", "鞋", "的", "尺码", "和", "弟弟", "一样", "。"],
+    "sentenceZh": "我的鞋的尺码和弟弟一样。",
+    "correctedSentence": "我的鞋的尺码和弟弟的鞋一样。",
+    "acceptableSentences": [
+      "我的鞋的尺码和弟弟的鞋一样。",
+      "我的鞋的尺码跟弟弟的鞋一样。",
+      "我的鞋的尺码和弟弟的一样。",
+      "我的鞋的尺码跟弟弟的一样。"
+    ],
+    "pinyin": "Wǒ de xié de chǐmǎ gēn dìdi de xié yíyàng.",
+    "explanation": "比較する対象は同じ種類で揃える必要があります。「私の靴のサイズ」と「弟（人間）」を比較してしまっているので、「弟弟的一样」または「弟弟的鞋一样」にします。",
+    "pitfallNote": "日本語では「弟と同じだ」と省略しても通じますが、中国語では「的」を補って「弟弟的」とするのが正確です。"
+  },
+  {
+    "id": "GC-S07-21",
+    "stageId": "stage07",
+    "type": "rewrite",
+    "difficulty": 3,
+    "grammarIds": ["G11-01"],
+    "lessonId": "L11",
+    "promptJa": "語順の誤りを直して正しい文に書き換えてください。（意味：私は昨晩2時間ピアノを練習しました。）",
+    "tokens": ["我", "昨晚", "两个", "小时", "弹了", "钢琴", "。"],
+    "sentenceZh": "我昨晚两个小时弹了钢琴。",
+    "correctedSentence": "我昨晚弹了两个小时钢琴。",
+    "acceptableSentences": [
+      "我昨晚弹了两个小时钢琴。",
+      "我昨晚弹了两个小时的钢琴。",
+      "我昨晚弹钢琴弹了两个小时。",
+      "昨晚我弹了两个小时钢琴。",
+      "昨晚我弹钢琴弹了两个小时。"
+    ],
+    "pinyin": "Wǒ zuówǎn tán le liǎng gè xiǎoshí gāngqín.",
+    "explanation": "動作がどれくらいの時間続いたかを表す時量補語は動詞の後ろに置きます。一般名詞の目的語がある場合は「弹了两个小时钢琴」または「弹钢琴弹了两个小时」とします。",
+    "pitfallNote": "「2時間ピアノを弾いた」の日本語語順に引かれて時間量を動詞の前に置かないようにしましょう。"
+  },
+  {
+    "id": "GC-S07-22",
+    "stageId": "stage07",
+    "type": "judge",
+    "difficulty": 2,
+    "grammarIds": ["G11-02"],
+    "lessonId": "L11",
+    "promptJa": "次の中国語文が文法的に正しいか判定してください。（意味：私たちは先月、上海で知り合ったのです。）",
+    "tokens": ["我们", "是", "上个月", "在", "上海", "认识", "的", "。"],
+    "sentenceZh": "我们是上个月在上海认识的。",
+    "choices": ["正しい", "誤りがある"],
+    "correctedSentence": "我们是上个月在上海认识的。",
+    "acceptableSentences": [
+      "我们是上个月在上海认识的。"
+    ],
+    "isAlreadyCorrect": true,
+    "pinyin": "Wǒmen shì shàng gè yuè zài Shànghǎi rènshi de.",
+    "explanation": "この文は文法的にも意味的にも完全に正しい文です。すでに起きた出来事の時（上个月）と場所（在上海）を「是……的」で適切に焦点化しており、「了」も混入していません。",
+    "pitfallNote": "時間と場所が両方入ると語順に迷いがちですが、「是＋時間＋場所＋動詞＋的」は標準的な正しい語順です。"
+  },
+  {
+    "id": "GC-S07-23",
+    "stageId": "stage07",
+    "type": "judge",
+    "difficulty": 2,
+    "grammarIds": ["G12-01"],
+    "lessonId": "L12",
+    "promptJa": "次の中国語文が文法的に正しいか判定してください。（意味：午後は友達と駅へ切符を買いに行ってきます。）",
+    "tokens": ["下午", "我", "跟", "朋友", "回", "学校", "去", "拿", "书", "。"],
+    "sentenceZh": "下午我跟朋友回学校去拿书。",
+    "choices": ["正しい", "誤りがある"],
+    "correctedSentence": "下午我跟朋友回学校去拿书。",
+    "acceptableSentences": [
+      "下午我跟朋友回学校去拿书。"
+    ],
+    "isAlreadyCorrect": true,
+    "pinyin": "Xiàwǔ wǒ gēn péngyou huí xuéxiào qù ná shū.",
+    "explanation": "この文は正しい文です。場所目的語「学校」が方向動詞「回」と「去」の間に置かれており（回学校去）、その後に目的の動作（拿书）が続く連動文としても自然です。",
+    "pitfallNote": "「回学校去」を「*回去学校」と誤解して直してしまわないようにしましょう。"
+  },
+  {
+    "id": "GC-S07-24",
+    "stageId": "stage07",
+    "type": "judge",
+    "difficulty": 2,
+    "grammarIds": ["G12-02"],
+    "lessonId": "L12",
+    "promptJa": "次の中国語文が文法的に正しいか判定してください。（意味：来週から図書館は夜10時まで開くそうです。）",
+    "tokens": ["我", "听说", "过", "下周", "开始", "图书馆", "开到", "晚上", "十点", "。"],
+    "sentenceZh": "我听说过下周开始图书馆开到晚上十点。",
+    "errorIndices": [2],
+    "choices": ["正しい", "誤りがある"],
+    "correctedSentence": "听说下周开始图书馆开到晚上十点。",
+    "acceptableSentences": [
+      "听说下周开始图书馆开到晚上十点。",
+      "我听说下周开始图书馆开到晚上十点。"
+    ],
+    "isAlreadyCorrect": false,
+    "pinyin": "Tīngshuō xià zhōu kāishǐ túshūguǎn kāi dào wǎnshang shí diǎn.",
+    "explanation": "誤りがあります。「听说过」は「（過去に）〜という話を聞いたことがある」という経験を表し、「〜だそうです」という伝聞には「过」を付けず「听说」を使います。",
+    "pitfallNote": "「〜と聞いた」の過去形感覚で「听说过」としてしまうと意味が変わってしまうので注意しましょう。"
+  },
+  {
+    "id": "GC-S07-25",
+    "stageId": "stage07",
+    "type": "multi-error",
+    "difficulty": 3,
+    "grammarIds": ["G11-05", "G12-03"],
+    "lessonId": "L11",
+    "promptJa": "2か所の誤りを見つけて正しく直してください。（意味：彼は部屋に入るとすぐに、掃除をとてもきれいにしました。）",
+    "tokens": ["他", "一", "进", "房间", "了", "就", "打扫", "房间", "得", "很", "干净", "。"],
+    "sentenceZh": "他一进房间了就打扫房间得很干净。",
+    "errorIndices": [4, 8],
+    "correctedSentence": "他一进房间就打扫房间打扫得很干净。",
+    "acceptableSentences": [
+      "他一进房间就打扫房间打扫得很干净。",
+      "他一进房间就把房间打扫得很干净。",
+      "他一进房间就把屋子打扫得很干净。"
+    ],
+    "pinyin": "Tā yí jìn fángjiān jiù dǎsǎo fángjiān dǎsǎo de hěn gānjìng.",
+    "explanation": "①「一……就……」の前半（一进房间）に「了」を付けません。②目的語（房间）の後ろに直接「得」を置けないため、「打扫房间打扫得很干净」と動詞を繰り返すか「把房间打扫得很干净」にします。",
+    "pitfallNote": "「一＋V1」に「了」を入れないことと、程度補語での動詞反復（または把構文）の2点を同時にチェックしましょう。"
+  },
+  {
+    "id": "GC-S07-26",
+    "stageId": "stage07",
+    "type": "multi-error",
+    "difficulty": 3,
+    "grammarIds": ["G11-01", "G11-02"],
+    "lessonId": "L11",
+    "promptJa": "2か所の誤りを見つけて正しく直してください。（意味：妹は去年北京へ行って1年間留学したのです。）",
+    "tokens": ["妹妹", "是", "去年", "去了", "北京", "留学", "一", "个", "年", "的", "。"],
+    "sentenceZh": "妹妹是去年去了北京留学一个年的。",
+    "errorIndices": [3, 7],
+    "correctedSentence": "妹妹是去年去北京留学一年的。",
+    "acceptableSentences": [
+      "妹妹是去年去北京留学一年的。",
+      "妹妹去年去北京留学一年的。"
+    ],
+    "pinyin": "Mèimei shì qùnián qù Běijīng liúxué yì nián de.",
+    "explanation": "①「是……的」構文では動詞の後ろに「了」を付けないため「去了」を「去」にします。②「年」には量詞「个」を付けないため「一年」とします。",
+    "pitfallNote": "「是……的」と「了」の衝突、および「年・天・分钟」に「个」が不要な点は頻出の落とし穴です。"
+  },
+  {
+    "id": "GC-S07-27",
+    "stageId": "stage07",
+    "type": "multi-error",
+    "difficulty": 3,
+    "grammarIds": ["G11-04", "G12-01"],
+    "lessonId": "L12",
+    "promptJa": "2か所の誤りを見つけて正しく直してください。（意味：彼女が持って帰ってきたリンゴはスーパーで売っているのと同じくらい甘いです。）",
+    "tokens": ["她", "买", "了", "回来", "的", "苹果", "跟", "超市", "卖", "的", "一样", "很", "甜", "。"],
+    "sentenceZh": "她买了回来的苹果跟超市卖的一样很甜。",
+    "errorIndices": [2, 11],
+    "correctedSentence": "她买回来的苹果跟超市卖的一样甜。",
+    "acceptableSentences": [
+      "她买回来的苹果跟超市卖的一样甜。",
+      "她买回来的苹果和超市卖的一样甜。"
+    ],
+    "pinyin": "Tā mǎi huílai de píngguǒ gēn chāoshì mài de yíyàng tián.",
+    "explanation": "①方向補語を伴う修飾節「买回来的苹果」で「买」と「回来」の間に「了」は入れません。②「一样＋形容詞」では「很」を削除して「一样甜」とします。",
+    "pitfallNote": "方向補語は動詞と一体で扱うこと、同等比較の形容詞に「很」を添えないことがポイントです。"
+  }
+]

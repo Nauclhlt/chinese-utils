@@ -1,0 +1,1714 @@
+{
+  "schemaVersion": "1.0.0",
+  "metadata": {
+    "id": "suzhou-tea-note",
+    "titleZh": "平江路茶记",
+    "titlePinyin": "Píngjiānglù Chájì",
+    "titleJa": "平江路のお茶の記録",
+    "subtitle": "雨后碧螺春",
+    "author": "江晚澄（オリジナル）",
+    "authorNote": "蘇州・平江路の情景と碧螺春の茶文化を題材に、中国語リーダーの実証作品として書き下ろしたオリジナル散文風短編。",
+    "script": "zh-Hans",
+    "genres": [
+      "散文風短編",
+      "日常",
+      "江南茶文化"
+    ],
+    "synopsis": "春雨の上がった午後、蘇州の古い石畳・平江路を歩く「私」。小さな石橋の先で漂う茶の香りに誘われて運河沿いの茶館へ入り、女将の沈さんから「上投法」で淹れる洞庭碧螺春を教わりながら、穏やかな水辺の時間を味わう全2章の小さな記録。",
+    "coverImage": "./assets/reader/cover_suzhou_tea.svg",
+    "coverAlt": "白壁と黒瓦、石橋と運河、湯気の立つ緑茶を描いた『平江路茶记』の表紙",
+    "estimatedDifficulty": "初級後半〜中級入口（大学1〜2年・HSK3〜4級相当の目安）",
+    "difficultyBasis": "全2章・約600字。既習範囲（L05〜L21の「着」「被」「把」「先……，再……」「一边……，一边……」「连……也……」など）を軸に、茶文化・情景描写の語彙を無理なく織り交ぜています。",
+    "charCount": 591,
+    "chapterCount": 2,
+    "rights": {
+      "status": "original",
+      "notice": "機能実証用オリジナル第2作品（リポジトリ公開可）",
+      "redistributableInRepo": true
+    },
+    "createdAt": "2026-11-26",
+    "updatedAt": "2026-11-26"
+  },
+  "characters": [
+    {
+      "id": "char-narrator",
+      "nameZh": "林知夏",
+      "pinyin": "Lín Zhīxià",
+      "nameJa": "林知夏（語り手「我」）",
+      "role": "語り手・旅人",
+      "speechStyle": "落ち着いた一人称の語り口。会話では丁寧で素直な表現を使う。",
+      "description": "春の雨上がりに蘇州の平江路を散歩し、運河沿いの小さな茶館で新茶と出会う旅人。",
+      "revealFromChapterIndex": 0
+    },
+    {
+      "id": "char-host",
+      "nameZh": "沈阿姨",
+      "pinyin": "Shěn Āyí",
+      "nameJa": "沈さん（茶館の女将）",
+      "role": "運河沿いの茶館の店主",
+      "speechStyle": "気さくで温かみのある口調。お茶の淹れ方を丁寧に教えてくれる。",
+      "description": "平江河に面した小さな茶館を切り盛りする地元の年配の女性。新茶の碧螺春を大切に扱っている。",
+      "revealFromChapterIndex": 1
+    }
+  ],
+  "backgroundNotes": [
+    {
+      "id": "bg-pingjiang",
+      "category": "geography",
+      "title": "平江路（蘇州の歴史文化街区）",
+      "summary": "江蘇省蘇州市姑蘇区に残る、運河（平江河）と石畳の路地が並行する歴史的街並み。",
+      "detail": "宋・元時代の蘇州の旧称「平江」に由来し、「水陸並行、河街相隣（水路と陸路が並び、川と街並みが隣り合う）」という伝統的な都市構造を今に伝えています。白い漆喰壁と黒い瓦の民家、石橋、青石畳の小道が続く代表的な江南水郷の風景で、2009年には「中国歴史文化名街」に選ばれました。",
+      "factType": "fact",
+      "revealFromChapterIndex": 0,
+      "sources": [
+        {
+          "title": "平江路 (苏州市) - 维基百科",
+          "publisher": "Wikipedia",
+          "url": "https://zh.wikipedia.org/wiki/%E5%B9%B3%E6%B1%9F%E8%B7%AF_(%E8%8B%8F%E5%B7%9E%E5%B8%82)",
+          "checkedAt": "2026-11-26"
+        }
+      ]
+    },
+    {
+      "id": "bg-biluochun",
+      "category": "culture",
+      "title": "洞庭碧螺春と「上投法」",
+      "summary": "蘇州・太湖の洞庭山周辺で生産される伝統的な緑茶と、繊細な新芽に適した淹れ方。",
+      "detail": "洞庭碧螺春は中国十大銘茶の一つに数えられる緑茶で、細く螺旋状に巻いた茶葉に白い産毛（白毫）を多くまとい、花や果実を思わせる爽やかな香りを持つことで知られています。柔らかい新芽は熱湯で直接淹れると渋みが出やすいため、透明なグラスに先に約80℃のお湯を注ぎ、後から茶葉をそっと落とす「上投法」がよく用いられます。茶葉がくるくると回りながら沈んでいく様子も鑑賞の楽しみの一つです。",
+      "factType": "fact",
+      "revealFromChapterIndex": 1,
+      "sources": [
+        {
+          "title": "碧螺春 - 维基百科",
+          "publisher": "Wikipedia",
+          "url": "https://zh.wikipedia.org/wiki/%E7%A2%A7%E8%9E%BA%E6%98%A5",
+          "checkedAt": "2026-11-26"
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "id": "tl-1",
+      "label": "春雨上がりの午後",
+      "description": "濡れた青石畳の平江路を歩きながら、平江河と白壁・黒瓦の家並みを眺める。",
+      "revealFromChapterIndex": 0
+    },
+    {
+      "id": "tl-2",
+      "label": "小橋と茶の香り",
+      "description": "柳が揺れる石橋を渡り、提灯と木の窓から漂う茶香に惹かれて茶館へ入る。",
+      "revealFromChapterIndex": 0
+    },
+    {
+      "id": "tl-3",
+      "label": "水辺で味わう碧螺春",
+      "description": "沈さんから「上投法」で淹れた洞庭碧螺春を味わい、小舟が通る運河の午後を過ごす。",
+      "revealFromChapterIndex": 1
+    }
+  ],
+  "glossary": [
+    {
+      "id": "g-sanbu",
+      "headword": "散步",
+      "pinyin": "sànbù",
+      "tones": [
+        {
+          "syllable": "san",
+          "tone": 4
+        },
+        {
+          "syllable": "bu",
+          "tone": 4
+        }
+      ],
+      "pos": "動詞（離合動詞）",
+      "generalMeaningJa": "散歩する",
+      "wordStructure": "「散（気を晴らす・ぶらつく）」＋「步（歩み）」の動目構造。",
+      "usageNote": "「散了半个小时步」のように間に時間表現を挟むことができます。",
+      "examples": [
+        {
+          "zh": "晚饭后我常在河边散步。",
+          "pinyin": "Wǎnfàn hòu wǒ cháng zài hébiān sànbù.",
+          "ja": "夕食のあと、よく川辺を散歩します。"
+        }
+      ],
+      "relatedLessonId": "L05",
+      "relatedVocabId": "V05-024"
+    },
+    {
+      "id": "g-shibanlu",
+      "headword": "青石板路",
+      "pinyin": "qīngshíbǎnlù",
+      "tones": [
+        {
+          "syllable": "qing",
+          "tone": 1
+        },
+        {
+          "syllable": "shi",
+          "tone": 2
+        },
+        {
+          "syllable": "ban",
+          "tone": 3
+        },
+        {
+          "syllable": "lu",
+          "tone": 4
+        }
+      ],
+      "pos": "名詞",
+      "generalMeaningJa": "青石の石畳の道",
+      "wordStructure": "青石（青みがかった石）＋板（板石）＋路（道）。",
+      "examples": [
+        {
+          "zh": "雨后的青石板路有点儿滑。",
+          "pinyin": "Yǔhòu de qīngshíbǎnlù yǒudiǎnr huá.",
+          "ja": "雨上がりの青石畳の道は少し滑りやすい。"
+        }
+      ]
+    },
+    {
+      "id": "g-liutang",
+      "headword": "流淌",
+      "pinyin": "liútǎng",
+      "tones": [
+        {
+          "syllable": "liu",
+          "tone": 2
+        },
+        {
+          "syllable": "tang",
+          "tone": 3
+        }
+      ],
+      "pos": "動詞",
+      "generalMeaningJa": "（水・光・時間などが）静かに流れる",
+      "usageNote": "風景や感情を穏やかに描く書き言葉で好まれます。",
+      "examples": [
+        {
+          "zh": "小河在老街旁静静地流淌。",
+          "pinyin": "Xiǎohé zài lǎojiē páng jìngjìng de liútǎng.",
+          "ja": "小川が古い街並みのそばを静かに流れている。"
+        }
+      ]
+    },
+    {
+      "id": "g-ouer",
+      "headword": "偶尔",
+      "pinyin": "ǒu’ěr",
+      "tones": [
+        {
+          "syllable": "ou",
+          "tone": 3
+        },
+        {
+          "syllable": "er",
+          "tone": 3
+        }
+      ],
+      "pos": "副詞",
+      "generalMeaningJa": "たまに、時折",
+      "usageNote": "「有时候」よりも回数が少なく、ふとした折であることを示します。",
+      "examples": [
+        {
+          "zh": "我平时喝咖啡，偶尔也喝绿茶。",
+          "pinyin": "Wǒ píngshí hē kāfēi, ǒu’ěr yě hē lǜchá.",
+          "ja": "普段はコーヒーを飲みますが、たまに緑茶も飲みます。"
+        }
+      ]
+    },
+    {
+      "id": "g-chaxiang",
+      "headword": "茶香",
+      "pinyin": "cháxiāng",
+      "tones": [
+        {
+          "syllable": "cha",
+          "tone": 2
+        },
+        {
+          "syllable": "xiang",
+          "tone": 1
+        }
+      ],
+      "pos": "名詞",
+      "generalMeaningJa": "お茶の香り",
+      "examples": [
+        {
+          "zh": "屋子里飘着淡淡的茶香。",
+          "pinyin": "Wūzi lǐ piāo zhe dàndàn de cháxiāng.",
+          "ja": "部屋の中にほのかなお茶の香りが漂っている。"
+        }
+      ]
+    },
+    {
+      "id": "g-anjing",
+      "headword": "安静",
+      "pinyin": "ānjìng",
+      "tones": [
+        {
+          "syllable": "an",
+          "tone": 1
+        },
+        {
+          "syllable": "jing",
+          "tone": 4
+        }
+      ],
+      "pos": "形容詞・動詞",
+      "generalMeaningJa": "静かだ、落ち着いている、静まる",
+      "usageNote": "「安静下来」のように方向補語「下来」を伴って「静かになる・落ち着く」を表すこともできます。",
+      "examples": [
+        {
+          "zh": "雨后的小巷非常安静。",
+          "pinyin": "Yǔhòu de xiǎoxiàng fēicháng ānjìng.",
+          "ja": "雨上がりの路地はとても静かです。"
+        }
+      ],
+      "relatedLessonId": "L11",
+      "relatedVocabId": "V11-003"
+    },
+    {
+      "id": "g-yusan",
+      "headword": "雨伞",
+      "pinyin": "yǔsǎn",
+      "tones": [
+        {
+          "syllable": "yu",
+          "tone": 3
+        },
+        {
+          "syllable": "san",
+          "tone": 3
+        }
+      ],
+      "pos": "名詞",
+      "generalMeaningJa": "雨傘、傘",
+      "usageNote": "量詞は「把（bǎ）」。第3声が連続するため、実際の発音は「yúsǎn」に近く変調します。",
+      "examples": [
+        {
+          "zh": "进屋前请把雨伞收好。",
+          "pinyin": "Jìnwū qián qǐng bǎ yǔsǎn shōuhǎo.",
+          "ja": "部屋に入る前に雨傘をきちんとたたんでください。"
+        }
+      ],
+      "relatedLessonId": "L09",
+      "relatedVocabId": "V09-019"
+    },
+    {
+      "id": "g-chaguan",
+      "headword": "茶馆",
+      "pinyin": "cháguǎn",
+      "tones": [
+        {
+          "syllable": "cha",
+          "tone": 2
+        },
+        {
+          "syllable": "guan",
+          "tone": 3
+        }
+      ],
+      "pos": "名詞",
+      "generalMeaningJa": "茶館、伝統的な喫茶店",
+      "usageNote": "量詞は「家（jiā）」。",
+      "examples": [
+        {
+          "zh": "河边有一家安静的茶馆。",
+          "pinyin": "Hébiān yǒu yì jiā ānjìng de cháguǎn.",
+          "ja": "川辺に静かな茶館が一軒あります。"
+        }
+      ],
+      "relatedLessonId": "L09",
+      "relatedVocabId": "V09-001"
+    },
+    {
+      "id": "g-reqing",
+      "headword": "热情",
+      "pinyin": "rèqíng",
+      "tones": [
+        {
+          "syllable": "re",
+          "tone": 4
+        },
+        {
+          "syllable": "qing",
+          "tone": 2
+        }
+      ],
+      "pos": "形容詞・名詞",
+      "generalMeaningJa": "親切だ、熱心だ、温かくもてなす",
+      "examples": [
+        {
+          "zh": "茶馆的老板非常热情。",
+          "pinyin": "Cháguǎn de lǎobǎn fēicháng rèqíng.",
+          "ja": "茶館の店主はとても親切です。"
+        }
+      ],
+      "relatedLessonId": "L14",
+      "relatedVocabId": "V14-017"
+    },
+    {
+      "id": "g-nenya",
+      "headword": "嫩芽",
+      "pinyin": "nènyá",
+      "tones": [
+        {
+          "syllable": "nen",
+          "tone": 4
+        },
+        {
+          "syllable": "ya",
+          "tone": 2
+        }
+      ],
+      "pos": "名詞",
+      "generalMeaningJa": "柔らかい新芽、若芽",
+      "examples": [
+        {
+          "zh": "春天的茶树长出了翠绿的嫩芽。",
+          "pinyin": "Chūntiān de cháshù zhǎngchū le cuìlǜ de nènyá.",
+          "ja": "春の茶の木に鮮やかな緑の新芽が出た。"
+        }
+      ]
+    },
+    {
+      "id": "g-guaibude",
+      "headword": "怪不得",
+      "pinyin": "guàibude",
+      "tones": [
+        {
+          "syllable": "guai",
+          "tone": 4
+        },
+        {
+          "syllable": "bu",
+          "tone": 5
+        },
+        {
+          "syllable": "de",
+          "tone": 5
+        }
+      ],
+      "pos": "副詞・接続詞",
+      "generalMeaningJa": "どうりで〜わけだ、なるほど",
+      "examples": [
+        {
+          "zh": "原来今天下雨了，怪不得这么凉快。",
+          "pinyin": "Yuánlái jīntiān xiàyǔ le, guàibude zhème liángkuai.",
+          "ja": "なるほど今日雨が降ったのか、どうりでこんなに涼しいわけだ。"
+        }
+      ],
+      "relatedLessonId": "L16",
+      "relatedVocabId": "V16-003"
+    },
+    {
+      "id": "g-shuzhan",
+      "headword": "舒展",
+      "pinyin": "shūzhǎn",
+      "tones": [
+        {
+          "syllable": "shu",
+          "tone": 1
+        },
+        {
+          "syllable": "zhan",
+          "tone": 3
+        }
+      ],
+      "pos": "動詞・形容詞",
+      "generalMeaningJa": "伸び広がる、ふわりとほどけて開く",
+      "examples": [
+        {
+          "zh": "茶叶在温水里慢慢舒展开来。",
+          "pinyin": "Cháyè zài wēnshuǐ lǐ mànmàn shūzhǎn kāilái.",
+          "ja": "茶葉がお湯の中でゆっくりとほどけて広がる。"
+        }
+      ]
+    },
+    {
+      "id": "g-chang",
+      "headword": "尝",
+      "pinyin": "cháng",
+      "tones": [
+        {
+          "syllable": "chang",
+          "tone": 2
+        }
+      ],
+      "pos": "動詞",
+      "generalMeaningJa": "味わう、試飲・試食する",
+      "examples": [
+        {
+          "zh": "请尝一尝今年的新茶。",
+          "pinyin": "Qǐng cháng yi cháng jīnnián de xīnchá.",
+          "ja": "今年の新茶をぜひ味わってみてください。"
+        }
+      ],
+      "relatedLessonId": "L19",
+      "relatedVocabId": "V19-018"
+    },
+    {
+      "id": "g-huigan",
+      "headword": "回甘",
+      "pinyin": "huígān",
+      "tones": [
+        {
+          "syllable": "hui",
+          "tone": 2
+        },
+        {
+          "syllable": "gan",
+          "tone": 1
+        }
+      ],
+      "pos": "名詞・動詞",
+      "generalMeaningJa": "（お茶を飲んだあとに）後から戻る甘みの余韻",
+      "usageNote": "「甘（gān）」は「甘い・甘み」の意。良質な中国茶の味わいを表す重要語。",
+      "examples": [
+        {
+          "zh": "这杯茶虽然微苦，但是回甘很明显。",
+          "pinyin": "Zhè bēi chá suīrán wēikǔ, dànshì huígān hěn míngxiǎn.",
+          "ja": "このお茶はほのかな苦みがありますが、後味の甘みがはっきり感じられます。"
+        }
+      ]
+    }
+  ],
+  "chapters": [
+    {
+      "id": "ch-1",
+      "index": 0,
+      "number": 1,
+      "titleZh": "雨后石板路",
+      "titlePinyin": "Yǔhòu Shíbǎnlù",
+      "titleJa": "雨上がりの石畳",
+      "summaryNoSpoiler": "春雨の上がった午後、濡れた青石畳の平江路を歩きながら、運河沿いの小さな茶館の灯りに惹かれて足を止める。",
+      "paragraphs": [
+        {
+          "id": "p-1-1",
+          "kind": "narrative",
+          "sentences": [
+            {
+              "id": "s-1-1-1",
+              "text": "春雨刚停，苏州的午后还带着几分凉意。",
+              "pinyin": "Chūnyǔ gāng tíng, Sūzhōu de wǔhòu hái dài zhe jǐ fēn liángyì.",
+              "translationJa": "春雨が上がったばかりで、蘇州の午後にはまだいくらかひんやりとした空気が残っていた。",
+              "annotations": [
+                {
+                  "id": "ann-1-1-1-a",
+                  "kind": "grammar",
+                  "start": 10,
+                  "end": 17,
+                  "surface": "还带着几分凉意",
+                  "grammar": {
+                    "title": "「带＋着」による状態の持続",
+                    "pattern": "主語 + 还 + 带着 + 目的語",
+                    "structureSummary": "「带（帯びる）」＋持続アスペクト助詞「着」＋抽象的な気分・気配",
+                    "slots": [
+                      {
+                        "role": "adverb",
+                        "label": "副詞",
+                        "text": "还",
+                        "pinyin": "hái"
+                      },
+                      {
+                        "role": "predicate",
+                        "label": "動詞＋着",
+                        "text": "带着",
+                        "pinyin": "dài zhe"
+                      },
+                      {
+                        "role": "object",
+                        "label": "目的語",
+                        "text": "几分凉意",
+                        "pinyin": "jǐ fēn liángyì"
+                      }
+                    ],
+                    "roleExplanation": "雨が止んだあとも午後の空気になお涼しさが残っている状態を静かに描写します。",
+                    "particleOrAspectNote": "「着」は動作の進行ではなく「帯びた状態が続いていること」を示します。",
+                    "literalVsNaturalJa": {
+                      "literal": "まだいくらかの涼しさを帯びている",
+                      "natural": "まだいくらかひんやりとした空気が残っていた"
+                    },
+                    "relatedGrammarId": "G10-01"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "s-1-1-2",
+              "text": "我沿着平江路慢慢地散步，脚下的青石板路被雨水洗得干干净净，在柔和的天光里泛着清亮的光泽。",
+              "pinyin": "Wǒ yánzhe Píngjiānglù mànmàn de sànbù, jiǎoxià de qīngshíbǎnlù bèi yǔshuǐ xǐ de gāngānjìngjìng, zài róuhé de tiānguāng lǐ fàn zhe qīngliàng de guāngzé.",
+              "translationJa": "私は平江路に沿ってゆっくりと散歩した。足元の青石畳は雨水に洗われてさっぱりと清らかで、柔らかな空の光を受けて澄んだ艶を帯びていた。",
+              "annotations": [
+                {
+                  "id": "ann-1-1-2-a",
+                  "kind": "background",
+                  "start": 3,
+                  "end": 6,
+                  "surface": "平江路",
+                  "background": {
+                    "backgroundNoteId": "bg-pingjiang",
+                    "shortHintJa": "蘇州古城の東北部に残る、運河と石畳が並行する歴史街区"
+                  }
+                },
+                {
+                  "id": "ann-1-1-2-b",
+                  "kind": "grammar",
+                  "start": 6,
+                  "end": 11,
+                  "surface": "慢慢地散步",
+                  "grammar": {
+                    "title": "重ね型＋「地」による連用修飾",
+                    "pattern": "形容詞重ね型 + 地 + 動詞",
+                    "structureSummary": "AA型「慢慢」に構造助詞「地」を付けて動作の様態を詳しく表す",
+                    "slots": [
+                      {
+                        "role": "adverb",
+                        "label": "様態修飾語",
+                        "text": "慢慢地",
+                        "pinyin": "mànmàn de"
+                      },
+                      {
+                        "role": "predicate",
+                        "label": "動詞",
+                        "text": "散步",
+                        "pinyin": "sànbù"
+                      }
+                    ],
+                    "roleExplanation": "急がず味わうように歩く情景を柔らかく示します。",
+                    "wordOrderReason": "動作の様態を表す修飾語は必ず動詞の前に置きます。",
+                    "relatedGrammarId": "G14-02"
+                  }
+                },
+                {
+                  "id": "ann-1-1-2-c",
+                  "kind": "vocab",
+                  "start": 9,
+                  "end": 11,
+                  "surface": "散步",
+                  "vocab": {
+                    "glossaryId": "g-sanbu",
+                    "surface": "散步",
+                    "contextualPinyin": "sànbù",
+                    "contextualTones": [
+                      {
+                        "syllable": "san",
+                        "tone": 4
+                      },
+                      {
+                        "syllable": "bu",
+                        "tone": 4
+                      }
+                    ],
+                    "contextualMeaningJa": "散歩する、ぶらぶら歩く",
+                    "contextualNote": "離合動詞（散一会儿步のように間に語を挟むことも可能）。"
+                  }
+                },
+                {
+                  "id": "ann-1-1-2-d",
+                  "kind": "vocab",
+                  "start": 15,
+                  "end": 19,
+                  "surface": "青石板路",
+                  "vocab": {
+                    "glossaryId": "g-shibanlu",
+                    "surface": "青石板路",
+                    "contextualPinyin": "qīngshíbǎnlù",
+                    "contextualTones": [
+                      {
+                        "syllable": "qing",
+                        "tone": 1
+                      },
+                      {
+                        "syllable": "shi",
+                        "tone": 2
+                      },
+                      {
+                        "syllable": "ban",
+                        "tone": 3
+                      },
+                      {
+                        "syllable": "lu",
+                        "tone": 4
+                      }
+                    ],
+                    "contextualMeaningJa": "青石の石畳の道",
+                    "contextualNote": "江南の水郷や古鎮でよく見られる落ち着いた色合いの石畳。"
+                  }
+                },
+                {
+                  "id": "ann-1-1-2-e",
+                  "kind": "grammar",
+                  "start": 19,
+                  "end": 28,
+                  "surface": "被雨水洗得干干净净",
+                  "grammar": {
+                    "title": "「被」による受け身表現（自然現象が動作主）",
+                    "pattern": "受事者 + 被 + 動作主 + 動詞 + 得 + 補語",
+                    "structureSummary": "「青石板路」が「雨水」によって「干干净净（さっぱり清らか）」に洗われたことを示す受け身構文",
+                    "slots": [
+                      {
+                        "role": "particle",
+                        "label": "受身介詞",
+                        "text": "被",
+                        "pinyin": "bèi"
+                      },
+                      {
+                        "role": "subject",
+                        "label": "動作主",
+                        "text": "雨水",
+                        "pinyin": "yǔshuǐ"
+                      },
+                      {
+                        "role": "predicate",
+                        "label": "動詞＋得",
+                        "text": "洗得",
+                        "pinyin": "xǐ de"
+                      },
+                      {
+                        "role": "complement",
+                        "label": "様態補語",
+                        "text": "干干净净",
+                        "pinyin": "gāngānjìngjìng"
+                      }
+                    ],
+                    "roleExplanation": "被害だけでなく、雨によって美しく洗われたという客観的描写にも「被」が用いられます。結果や様態を伴うため補語「干干净净」まで含めて文が完結します。",
+                    "relatedGrammarId": "G14-03"
+                  }
+                },
+                {
+                  "id": "ann-1-1-2-f",
+                  "kind": "grammar",
+                  "start": 22,
+                  "end": 28,
+                  "surface": "洗得干干净净",
+                  "grammar": {
+                    "title": "程度・様態補語（V＋得＋AABB重ね型）",
+                    "pattern": "動詞 + 得 + 形容詞重ね型",
+                    "structureSummary": "「干净」のAABB重ね型「干干净净」で洗われた後の清浄さを強調",
+                    "slots": [
+                      {
+                        "role": "predicate",
+                        "label": "動詞",
+                        "text": "洗",
+                        "pinyin": "xǐ"
+                      },
+                      {
+                        "role": "particle",
+                        "label": "構造助詞",
+                        "text": "得",
+                        "pinyin": "de"
+                      },
+                      {
+                        "role": "complement",
+                        "label": "様態補語",
+                        "text": "干干净净",
+                        "pinyin": "gāngānjìngjìng"
+                      }
+                    ],
+                    "roleExplanation": "「洗う」という動作の結果、どれほどきれいになったかを生き生きと描写します。",
+                    "relatedGrammarId": "G12-03"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "s-1-1-3",
+              "text": "路的一边是安静流淌的平江河，另一边是白墙黑瓦的老房子。",
+              "pinyin": "Lù de yì biān shì ānjìng liútǎng de Píngjiānghé, lìng yì biān shì báiqiáng hēiwǎ de lǎo fángzi.",
+              "translationJa": "道の片側には静かに流れる平江河があり、もう片側には白壁と黒瓦の古い家並みが続いている。",
+              "annotations": [
+                {
+                  "id": "ann-1-1-3-a",
+                  "kind": "vocab",
+                  "start": 7,
+                  "end": 9,
+                  "surface": "流淌",
+                  "vocab": {
+                    "glossaryId": "g-liutang",
+                    "surface": "流淌",
+                    "contextualPinyin": "liútǎng",
+                    "contextualTones": [
+                      {
+                        "syllable": "liu",
+                        "tone": 2
+                      },
+                      {
+                        "syllable": "tang",
+                        "tone": 3
+                      }
+                    ],
+                    "contextualMeaningJa": "（水などが）静かに・絶え間なく流れる",
+                    "contextualNote": "単なる「流」よりも穏やかで情緒ある書き言葉。"
+                  }
+                },
+                {
+                  "id": "ann-1-1-3-b",
+                  "kind": "expression",
+                  "start": 18,
+                  "end": 22,
+                  "surface": "白墙黑瓦",
+                  "expression": {
+                    "subtype": "literary-diction",
+                    "subtypeLabelJa": "情景描写の四字表現",
+                    "meaningJa": "白い漆喰の壁と黒い瓦屋根",
+                    "nuanceNote": "江南の水郷建築（蘇州・杭州周辺）の典型的な外観を表す定番表現。「粉墙黛瓦（fěnqiáng dàiwǎ）」とも呼ばれます。",
+                    "factType": "fact"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "s-1-1-4",
+              "text": "虽然街上偶尔也有游人走过，但是只要听见河水轻响，心里就会立刻安静下来。",
+              "pinyin": "Suīrán jiēshang ǒu’ěr yě yǒu yóurén zǒuguò, dànshì zhǐyào tīngjiàn héshuǐ qīngxiǎng, xīnlǐ jiù huì lìkè ānjìng xiàlái.",
+              "translationJa": "通りには時折観光客の姿もあったが、川面のささやかな水音を耳にするだけで、心はたちまち静まり返っていく。",
+              "annotations": [
+                {
+                  "id": "ann-1-1-4-a",
+                  "kind": "grammar",
+                  "start": 0,
+                  "end": 34,
+                  "surface": "虽然街上偶尔也有游人走过，但是只要听见河水轻响，心里就会立刻安静下来",
+                  "grammar": {
+                    "title": "逆接複文「虽然……，但是……」",
+                    "pattern": "虽然 + 事実・譲歩，但是 + 対比される結論",
+                    "structureSummary": "観光客が行き交う事実（前件）を認めつつ、川音を聞けばすぐ心が落ち着くという結論（後件）と対比させる",
+                    "roleExplanation": "観光地としての賑わいと、水辺ならではの落ち着きを一文全体で対比しています。",
+                    "relatedGrammarId": "G20-01"
+                  }
+                },
+                {
+                  "id": "ann-1-1-4-b",
+                  "kind": "vocab",
+                  "start": 4,
+                  "end": 6,
+                  "surface": "偶尔",
+                  "vocab": {
+                    "glossaryId": "g-ouer",
+                    "surface": "偶尔",
+                    "contextualPinyin": "ǒu’ěr",
+                    "contextualTones": [
+                      {
+                        "syllable": "ou",
+                        "tone": 3
+                      },
+                      {
+                        "syllable": "er",
+                        "tone": 3
+                      }
+                    ],
+                    "contextualMeaningJa": "たまに、時折",
+                    "contextualNote": "第3声＋第3声なので、発音時は前半が第2声に近く変調します（óu’ěr）。"
+                  }
+                },
+                {
+                  "id": "ann-1-1-4-c",
+                  "kind": "grammar",
+                  "start": 15,
+                  "end": 34,
+                  "surface": "只要听见河水轻响，心里就会立刻安静下来",
+                  "grammar": {
+                    "title": "十分条件「只要……，就……」",
+                    "pattern": "只要 + 十分条件，(主語) + 就 + 結果",
+                    "structureSummary": "「河水轻响」を耳にすることさえすれば、それだけで心が落ち着くという条件関係",
+                    "roleExplanation": "「〜しさえすれば、すぐ〜になる」という、たやすく成立する条件を表します。",
+                    "relatedGrammarId": "G21-02"
+                  }
+                },
+                {
+                  "id": "ann-1-1-4-d",
+                  "kind": "grammar",
+                  "start": 30,
+                  "end": 34,
+                  "surface": "安静下来",
+                  "grammar": {
+                    "title": "複合方向補語「〜下来」（状態の定着）",
+                    "pattern": "形容詞 / 動詞 + 下来",
+                    "structureSummary": "騒がしさ・高ぶりから落ち着いた状態へ移り定着することを表す",
+                    "roleExplanation": "「下来」は物理的な下降だけでなく、「静まる」「落ち着く」という状態変化にもよく使われます。",
+                    "relatedGrammarId": "G15-04"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "p-1-2",
+          "kind": "narrative",
+          "sentences": [
+            {
+              "id": "s-1-2-1",
+              "text": "走过一座小石桥，春风迎面吹来，岸边的柳枝正轻轻地摆动着。",
+              "pinyin": "Zǒuguò yí zuò xiǎo shíqiáo, chūnfēng yíngmiàn chuīlái, ànbiān de liǔzhī zhèng qīngqīng de bǎidòng zhe.",
+              "translationJa": "小さな石橋を渡ると、春風が正面から吹き抜け、岸辺の柳の枝がそっと揺れていた。",
+              "annotations": [
+                {
+                  "id": "ann-1-2-1-a",
+                  "kind": "grammar",
+                  "start": 20,
+                  "end": 27,
+                  "surface": "正轻轻地摆动着",
+                  "grammar": {
+                    "title": "進行・持続「正……着」",
+                    "pattern": "主語 + 正 + 修飾語 + 動詞 + 着",
+                    "structureSummary": "橋を渡ったその瞬間に、柳の枝がちょうど揺れ続けている情景を描く",
+                    "roleExplanation": "「正」で時点の「ちょうど今」を、「着」で動作・状態の持続を示します。",
+                    "relatedGrammarId": "G05-01"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "s-1-2-2",
+              "text": "桥头不远处的屋檐下挂着一盏暖黄色的灯笼，半开的木窗里飘出淡淡的茶香。",
+              "pinyin": "Qiáotóu bù yuǎn chù de wūyán xià guà zhe yì zhǎn nuǎnhuángsè de dēnglong, bànkāi de mùchuāng lǐ piāochū dàndàn de cháxiāng.",
+              "translationJa": "橋のたもとからほど近い軒下には温かな黄色の提灯が掛かり、半開きの木の窓からはほのかな茶の香りが漂ってくる。",
+              "annotations": [
+                {
+                  "id": "ann-1-2-2-a",
+                  "kind": "grammar",
+                  "start": 6,
+                  "end": 19,
+                  "surface": "屋檐下挂着一盏暖黄色的灯笼",
+                  "grammar": {
+                    "title": "存現文（場所＋動詞＋着＋不特定名詞）",
+                    "pattern": "場所詞 + 動詞 + 着 + 数量詞 + 名詞",
+                    "structureSummary": "「軒下に提灯が掛かっている」という眼前への出現・存在を描写する語順",
+                    "slots": [
+                      {
+                        "role": "modifier",
+                        "label": "場所",
+                        "text": "屋檐下",
+                        "pinyin": "wūyán xià"
+                      },
+                      {
+                        "role": "predicate",
+                        "label": "動詞＋着",
+                        "text": "挂着",
+                        "pinyin": "guà zhe"
+                      },
+                      {
+                        "role": "object",
+                        "label": "存在物",
+                        "text": "一盏暖黄色的灯笼",
+                        "pinyin": "yì zhǎn nuǎnhuángsè de dēnglong"
+                      }
+                    ],
+                    "roleExplanation": "特定の提灯を主語にするのではなく、視界に入った場所の情景として新しい存在（数量詞＋名詞）を提示します。",
+                    "wordOrderReason": "日本語の「〜に〜が掛かっている」と同じく「場所」を文頭に置くのが自然な中国語の語順です。",
+                    "relatedGrammarId": "G17-03"
+                  }
+                },
+                {
+                  "id": "ann-1-2-2-b",
+                  "kind": "vocab",
+                  "start": 31,
+                  "end": 33,
+                  "surface": "茶香",
+                  "vocab": {
+                    "glossaryId": "g-chaxiang",
+                    "surface": "茶香",
+                    "contextualPinyin": "cháxiāng",
+                    "contextualTones": [
+                      {
+                        "syllable": "cha",
+                        "tone": 2
+                      },
+                      {
+                        "syllable": "xiang",
+                        "tone": 1
+                      }
+                    ],
+                    "contextualMeaningJa": "お茶の香り",
+                    "contextualNote": "「花香」「书香」などと同様に「〜の香り」を表す名詞複合語。"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "s-1-2-3",
+              "text": "走近一看，门旁立着一块木牌，上面写着“临水茶座”四个字。",
+              "pinyin": "Zǒujìn yí kàn, mén páng lì zhe yí kuài mùpái, shàngmiàn xiě zhe “Línshuǐ Cházuò” sì gè zì.",
+              "translationJa": "近づいて見ると、戸口のそばに木の看板が立てられており、そこには「臨水茶座」と四文字が書かれていた。",
+              "annotations": [
+                {
+                  "id": "ann-1-2-3-a",
+                  "kind": "grammar",
+                  "start": 5,
+                  "end": 13,
+                  "surface": "门旁立着一块木牌",
+                  "grammar": {
+                    "title": "存現文（門のそばに看板が立っている）",
+                    "pattern": "場所 + 動詞 + 着 + 数量詞 + 名詞",
+                    "structureSummary": "茶館の入口の様子を「場所→存在物」の順で自然に提示",
+                    "roleExplanation": "「立着（立てられている）」に「着」を添えることで、静かに置かれた状態を表現します。",
+                    "relatedGrammarId": "G17-03"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "s-1-2-4",
+              "text": "看到这样一家安静的茶馆，我便收好手中的雨伞，轻轻推门走了进去。",
+              "pinyin": "Kàndào zhèyàng yì jiā ānjìng de cháguǎn, wǒ biàn shōuhǎo shǒuzhōng de yǔsǎn, qīngqīng tuīmén zǒu le jìnqù.",
+              "translationJa": "こんなに静かな茶館を見かけたのだからと、私は手に持っていた傘をたたみ、そっと扉を押して中へ入った。",
+              "annotations": [
+                {
+                  "id": "ann-1-2-4-a",
+                  "kind": "vocab",
+                  "start": 6,
+                  "end": 8,
+                  "surface": "安静",
+                  "vocab": {
+                    "glossaryId": "g-anjing",
+                    "surface": "安静",
+                    "contextualPinyin": "ānjìng",
+                    "contextualTones": [
+                      {
+                        "syllable": "an",
+                        "tone": 1
+                      },
+                      {
+                        "syllable": "jing",
+                        "tone": 4
+                      }
+                    ],
+                    "contextualMeaningJa": "静かである、落ち着いている"
+                  }
+                },
+                {
+                  "id": "ann-1-2-4-b",
+                  "kind": "grammar",
+                  "start": 14,
+                  "end": 21,
+                  "surface": "收好手中的雨伞",
+                  "grammar": {
+                    "title": "結果補語「〜好」（動作の適切な完了）",
+                    "pattern": "動詞 + 好 + 目的語",
+                    "structureSummary": "雨傘をきちんとたたんでしまい終えることを表す結果補語",
+                    "roleExplanation": "「好」を動詞の後ろに置くことで、ただしまうだけでなく「整えてきちんと完了した」ニュアンスになります。",
+                    "relatedGrammarId": "G09-01"
+                  }
+                },
+                {
+                  "id": "ann-1-2-4-c",
+                  "kind": "vocab",
+                  "start": 19,
+                  "end": 21,
+                  "surface": "雨伞",
+                  "vocab": {
+                    "glossaryId": "g-yusan",
+                    "surface": "雨伞",
+                    "contextualPinyin": "yǔsǎn",
+                    "contextualTones": [
+                      {
+                        "syllable": "yu",
+                        "tone": 3
+                      },
+                      {
+                        "syllable": "san",
+                        "tone": 3
+                      }
+                    ],
+                    "contextualMeaningJa": "雨傘、傘",
+                    "contextualNote": "第3声＋第3声の連続のため、発音時は前の「雨」が第2声に近く変調します（yúsǎn）。"
+                  }
+                },
+                {
+                  "id": "ann-1-2-4-d",
+                  "kind": "grammar",
+                  "start": 26,
+                  "end": 30,
+                  "surface": "走了进去",
+                  "grammar": {
+                    "title": "複合方向補語「〜进去」（中への移動）",
+                    "pattern": "動詞 + 了 + 进去",
+                    "structureSummary": "話し手（外の道）から茶館の内部へ向かって入っていった移動方向",
+                    "roleExplanation": "語り手（我）の視点がまだ店の外にあるため、「进来」ではなく「进去」が使われています。",
+                    "relatedGrammarId": "G15-04"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "id": "q-1-1",
+          "promptJa": "語り手（「我」）が茶館へ入ることにした直接のきっかけとして、本文の描写に合うものはどれですか？",
+          "choices": [
+            "激しい雨が再び降り出して雨宿りが必要になったから",
+            "橋の近くの軒下の提灯と、窓から漂うほのかな茶の香りに惹かれたから",
+            "友人と平江路の茶館で待ち合わせをしていたから",
+            "石橋の上で茶館の店主に声をかけられたから"
+          ],
+          "answerIndex": 1,
+          "explanationJa": "第2段落で「桥头不远处的屋檐下挂着一盏暖黄色的灯笼，半开的木窗里飘出淡淡的茶香」と描写され、それに誘われるように「推门走了进去」と続いています。"
+        }
+      ]
+    },
+    {
+      "id": "ch-2",
+      "index": 1,
+      "number": 2,
+      "titleZh": "临水尝春茶",
+      "titlePinyin": "Línshuǐ Cháng Chūnchá",
+      "titleJa": "水辺で味わう春の新茶",
+      "summaryNoSpoiler": "運河を望む窓辺の席で、女将の沈さんから「上投法」による洞庭碧螺春を淹れてもらい、穏やかな午後のひとときを味わう。",
+      "paragraphs": [
+        {
+          "id": "p-2-1",
+          "kind": "narrative",
+          "sentences": [
+            {
+              "id": "s-2-1-1",
+              "text": "茶馆不大，靠窗摆着几张木桌，推开窗就能看见碧绿的河水。",
+              "pinyin": "Cháguǎn bú dà, kàochuāng bǎi zhe jǐ zhāng mùzhuō, tuīkāi chuāng jiù néng kànjiàn bìlǜ de héshuǐ.",
+              "translationJa": "茶館の中は広くないが、窓際に木のテーブルがいくつか並び、窓を押し開ければ澄んだ緑の川面が見渡せる。",
+              "annotations": [
+                {
+                  "id": "ann-2-1-1-a",
+                  "kind": "vocab",
+                  "start": 0,
+                  "end": 2,
+                  "surface": "茶馆",
+                  "vocab": {
+                    "glossaryId": "g-chaguan",
+                    "surface": "茶馆",
+                    "contextualPinyin": "cháguǎn",
+                    "contextualTones": [
+                      {
+                        "syllable": "cha",
+                        "tone": 2
+                      },
+                      {
+                        "syllable": "guan",
+                        "tone": 3
+                      }
+                    ],
+                    "contextualMeaningJa": "茶館、中国茶の喫茶店"
+                  }
+                },
+                {
+                  "id": "ann-2-1-1-b",
+                  "kind": "grammar",
+                  "start": 5,
+                  "end": 13,
+                  "surface": "靠窗摆着几张木桌",
+                  "grammar": {
+                    "title": "「着」による配置状態の描写",
+                    "pattern": "場所 + 動詞 + 着 + 名詞",
+                    "structureSummary": "テーブルが窓際に並べられている静的な空間配置を表す",
+                    "roleExplanation": "「摆（並べる）」という動作の結果が、そのまま状態として保たれていることを「着」で表します。",
+                    "relatedGrammarId": "G10-01"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "s-2-1-2",
+              "text": "店主沈阿姨热情地迎上来，向我介绍了本地新采的洞庭碧螺春。",
+              "pinyin": "Diànzhǔ Shěn Āyí rèqíng de yíng shànglái, xiàng wǒ jièshào le běndì xīncǎi de Dòngtíng Bìluóchūn.",
+              "translationJa": "女将の沈さんが親しみ深く出迎えてくれ、地元で摘まれたばかりの洞庭碧螺春を勧めてくれた。",
+              "annotations": [
+                {
+                  "id": "ann-2-1-2-a",
+                  "kind": "vocab",
+                  "start": 5,
+                  "end": 7,
+                  "surface": "热情",
+                  "vocab": {
+                    "glossaryId": "g-reqing",
+                    "surface": "热情",
+                    "contextualPinyin": "rèqíng",
+                    "contextualTones": [
+                      {
+                        "syllable": "re",
+                        "tone": 4
+                      },
+                      {
+                        "syllable": "qing",
+                        "tone": 2
+                      }
+                    ],
+                    "contextualMeaningJa": "親切である、温かくもてなす",
+                    "contextualNote": "日本語の「情熱」だけでなく、接客や人への温かな対応にも広く用います。"
+                  }
+                },
+                {
+                  "id": "ann-2-1-2-b",
+                  "kind": "background",
+                  "start": 22,
+                  "end": 27,
+                  "surface": "洞庭碧螺春",
+                  "background": {
+                    "backgroundNoteId": "bg-biluochun",
+                    "shortHintJa": "蘇州・太湖の洞庭山周辺を産地とする中国銘茶（緑茶）"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "s-2-1-3",
+              "text": "窗外偶尔有雨滴从屋檐滑落，在河面上敲出一圈圈细小的水纹。",
+              "pinyin": "Chuāngwài ǒu’ěr yǒu yǔdī cóng wūyán huáluò, zài hémiàn shàng qiāochū yì quānquān xìxiǎo de shuǐwén.",
+              "translationJa": "窓の外では時折、軒先から雨粒が滑り落ち、川面に小さな波紋をいく重にも広げていた。",
+              "annotations": [
+                {
+                  "id": "ann-2-1-3-a",
+                  "kind": "vocab",
+                  "start": 2,
+                  "end": 4,
+                  "surface": "偶尔",
+                  "vocab": {
+                    "glossaryId": "g-ouer",
+                    "surface": "偶尔",
+                    "contextualPinyin": "ǒu’ěr",
+                    "contextualTones": [
+                      {
+                        "syllable": "ou",
+                        "tone": 3
+                      },
+                      {
+                        "syllable": "er",
+                        "tone": 3
+                      }
+                    ],
+                    "contextualMeaningJa": "たまに、時折"
+                  }
+                },
+                {
+                  "id": "ann-2-1-3-b",
+                  "kind": "grammar",
+                  "start": 7,
+                  "end": 12,
+                  "surface": "从屋檐滑落",
+                  "grammar": {
+                    "title": "介詞「从」＋動詞（起点の表現）",
+                    "pattern": "从 + 起点場所 + 動詞",
+                    "structureSummary": "雨粒が「軒先から」滑り落ちる起点を明示",
+                    "roleExplanation": "動作の始まりや経由点を表すときは、介詞フレーズ「从＋場所」を動詞の前に置きます。",
+                    "relatedGrammarId": "G04-02"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "p-2-2",
+          "kind": "dialogue",
+          "sentences": [
+            {
+              "id": "s-2-2-1",
+              "text": "“刚下过雨，喝一杯热茶最舒服了，我给你泡一杯今年的新茶吧。”",
+              "pinyin": "“Gāng xià guo yǔ, hē yì bēi rèchá zuì shūfu le, wǒ gěi nǐ pào yì bēi jīnnián de xīnchá ba.”",
+              "translationJa": "「雨が上がったばかりですから、温かいお茶を一杯飲むのが一番ほっとしますよ。今年の新茶を淹れてあげましょうね。」",
+              "speaker": "沈阿姨",
+              "annotations": [
+                {
+                  "id": "ann-2-2-1-a",
+                  "kind": "grammar",
+                  "start": 1,
+                  "end": 5,
+                  "surface": "刚下过雨",
+                  "grammar": {
+                    "title": "アスペクト助詞「过」（直近の経験・完了）",
+                    "pattern": "刚 + 動詞 + 过 + 目的語",
+                    "structureSummary": "雨が降ったという出来事がすでに通り過ぎたことを表す",
+                    "roleExplanation": "「刚下过雨」は「ついさっき雨が降ったばかりで今は止んでいる」という定番の天気表現です。",
+                    "relatedGrammarId": "G09-02"
+                  }
+                },
+                {
+                  "id": "ann-2-2-1-b",
+                  "kind": "expression",
+                  "start": 27,
+                  "end": 28,
+                  "surface": "吧",
+                  "expression": {
+                    "subtype": "modal-particle",
+                    "subtypeLabelJa": "語気助詞（親しみを込めた提案）",
+                    "meaningJa": "〜しましょうね、〜しよう",
+                    "nuanceNote": "押しつけがましくなく、相手を気遣いながら柔らかく提案する響きを出します。",
+                    "factType": "common-interpretation"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "s-2-2-2",
+              "text": "“碧螺春的嫩芽很娇气，可不能用刚烧开的滚水直接冲，得先往玻璃杯里倒八十度左右的热水，再把茶叶轻轻撒进去。”",
+              "pinyin": "“Bìluóchūn de nènyá hěn jiāoqi, kě bù néng yòng gāng shāokāi de gǔnshuǐ zhíjiē chōng, děi xiān wǎng bōlibēi lǐ dào bāshí dù zuǒyòu de rèshuǐ, zài bǎ cháyè qīngqīng sǎ jìnqù.”",
+              "translationJa": "「碧螺春の新芽はとても繊細なので、沸騰したばかりのお湯をそのまま注いではいけません。まずガラスのコップに八十度くらいのお湯を入れてから、茶葉をそっと上に浮かべるように落とすのです。」",
+              "speaker": "沈阿姨",
+              "annotations": [
+                {
+                  "id": "ann-2-2-2-a",
+                  "kind": "vocab",
+                  "start": 5,
+                  "end": 7,
+                  "surface": "嫩芽",
+                  "vocab": {
+                    "glossaryId": "g-nenya",
+                    "surface": "嫩芽",
+                    "contextualPinyin": "nènyá",
+                    "contextualTones": [
+                      {
+                        "syllable": "nen",
+                        "tone": 4
+                      },
+                      {
+                        "syllable": "ya",
+                        "tone": 2
+                      }
+                    ],
+                    "contextualMeaningJa": "柔らかい新芽（茶の若芽）"
+                  }
+                },
+                {
+                  "id": "ann-2-2-2-b",
+                  "kind": "expression",
+                  "start": 8,
+                  "end": 10,
+                  "surface": "娇气",
+                  "expression": {
+                    "subtype": "metaphor",
+                    "subtypeLabelJa": "擬人的な形容",
+                    "meaningJa": "繊細で傷みやすい、デリケートだ",
+                    "nuanceNote": "本来は「甘えていて打たれ弱い」という人の性質を表しますが、ここでは茶葉の若芽が熱湯に弱い繊細さを愛情を込めて表現しています。「气」は口語では軽声（jiāoqi）で発音されるのが自然です。",
+                    "factType": "common-interpretation"
+                  }
+                },
+                {
+                  "id": "ann-2-2-2-c",
+                  "kind": "grammar",
+                  "start": 25,
+                  "end": 51,
+                  "surface": "得先往玻璃杯里倒八十度左右的热水，再把茶叶轻轻撒进去",
+                  "grammar": {
+                    "title": "必要の「得(děi)」＋動作の順序「先……，再……」",
+                    "pattern": "得 + 先 + 動作1，再 + 動作2",
+                    "structureSummary": "茶を淹れる正しい手順を「まずお湯を注ぎ、次に茶葉を入れる」と順を追って説明",
+                    "roleExplanation": "「得(děi)」は口語で「〜しなければならない」という助言・必要を表し、「先……，再……」が2段階の手順を明確にします。",
+                    "relatedGrammarId": "G21-03"
+                  }
+                },
+                {
+                  "id": "ann-2-2-2-d",
+                  "kind": "grammar",
+                  "start": 43,
+                  "end": 51,
+                  "surface": "把茶叶轻轻撒进去",
+                  "grammar": {
+                    "title": "「把」構文（処置＋方向補語）",
+                    "pattern": "把 + 特定の対象 + 動詞 + 方向補語",
+                    "structureSummary": "茶葉をコップの水面へそっと散らし入れる動作の処置・結果を表す",
+                    "roleExplanation": "「撒进去（中にふわりと撒き入れる）」という移動結果を伴うため、「把茶叶」を動詞の前に置きます。",
+                    "relatedGrammarId": "G09-04"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "p-2-2b",
+          "kind": "narrative",
+          "sentences": [
+            {
+              "id": "s-2-2-2b",
+              "text": "说着，她先往玻璃杯里倒好热水，再捻起一撮碧螺春轻轻撒进去。",
+              "pinyin": "Shuō zhe, tā xiān wǎng bōlibēi lǐ dào hǎo rèshuǐ, zài niǎnqǐ yì cuō Bìluóchūn qīngqīng sǎ jìnqù.",
+              "translationJa": "そう言いながら、彼女はまずガラスのコップにお湯を注ぎ入れ、それからひとつまみの碧螺春をそっと水面へ落とした。",
+              "annotations": [
+                {
+                  "id": "ann-2-2-2b-a",
+                  "kind": "grammar",
+                  "start": 10,
+                  "end": 12,
+                  "surface": "倒好",
+                  "grammar": {
+                    "title": "結果補語「〜好」（準備・動作の完了）",
+                    "pattern": "動詞 + 好 + 目的語",
+                    "structureSummary": "お湯を適切な量・温度でしっかり注ぎ終えたことを表す",
+                    "roleExplanation": "「好」は動作が満足いく状態・次の工程に進める状態まで完了したことを示します。",
+                    "relatedGrammarId": "G09-01"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "p-2-2c",
+          "kind": "dialogue",
+          "sentences": [
+            {
+              "id": "s-2-2-3",
+              "text": "“原来这就是常说的‘上投法’啊！怪不得茶叶会在水里慢慢旋转着往下沉。”",
+              "pinyin": "“Yuánlái zhè jiùshì cháng shuō de ‘shàngtóufǎ’ a! Guàibude cháyè huì zài shuǐ lǐ mànmàn xuánzhuǎn zhe wǎng xià chén.”",
+              "translationJa": "「なるほど、これがよく聞く『上投法』なのですね！どうりで茶葉が水の中でくるくると回りながらゆっくり沈んでいくわけです。」",
+              "speaker": "林知夏",
+              "annotations": [
+                {
+                  "id": "ann-2-2-3-a",
+                  "kind": "background",
+                  "start": 10,
+                  "end": 13,
+                  "surface": "上投法",
+                  "background": {
+                    "backgroundNoteId": "bg-biluochun",
+                    "shortHintJa": "先にお湯を注いでから茶葉を落とす、繊細な緑茶向けの淹れ方"
+                  }
+                },
+                {
+                  "id": "ann-2-2-3-b",
+                  "kind": "grammar",
+                  "start": 16,
+                  "end": 33,
+                  "surface": "怪不得茶叶会在水里慢慢旋转着往下沉",
+                  "grammar": {
+                    "title": "納得・腑に落ちる「怪不得……」",
+                    "pattern": "怪不得 + 納得した事実",
+                    "structureSummary": "女将の説明を聞いて、茶葉がゆっくり舞い沈む理由が腑に落ちた感嘆",
+                    "roleExplanation": "「どうりで〜なわけだ」と、目の前の現象と理由が結びついた瞬間の自然な反応を表します。",
+                    "relatedGrammarId": "G16-05"
+                  }
+                },
+                {
+                  "id": "ann-2-2-3-c",
+                  "kind": "vocab",
+                  "start": 16,
+                  "end": 19,
+                  "surface": "怪不得",
+                  "vocab": {
+                    "glossaryId": "g-guaibude",
+                    "surface": "怪不得",
+                    "contextualPinyin": "guàibude",
+                    "contextualTones": [
+                      {
+                        "syllable": "guai",
+                        "tone": 4
+                      },
+                      {
+                        "syllable": "bu",
+                        "tone": 5
+                      },
+                      {
+                        "syllable": "de",
+                        "tone": 5
+                      }
+                    ],
+                    "contextualMeaningJa": "どうりで〜わけだ、なるほど"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "p-2-3",
+          "kind": "narrative",
+          "sentences": [
+            {
+              "id": "s-2-3-1",
+              "text": "沈阿姨笑着点点头，透明的玻璃杯里渐渐泛起一层清亮的嫩绿。",
+              "pinyin": "Shěn Āyí xiào zhe diǎndiǎntóu, tòumíng de bōlibēi lǐ jiànjiàn fànqǐ yì céng qīngliàng de nènlǜ.",
+              "translationJa": "沈さんはにっこりとうなずいた。透明なガラスコップの中には、次第に澄み切った若葉色が広がっていった。",
+              "annotations": [
+                {
+                  "id": "ann-2-3-1-a",
+                  "kind": "grammar",
+                  "start": 3,
+                  "end": 8,
+                  "surface": "笑着点点头",
+                  "grammar": {
+                    "title": "「V1＋着＋V2」による付帯状況",
+                    "pattern": "動詞1 + 着 + 動詞2",
+                    "structureSummary": "「笑いながらうなずく」という同時・付帯の動作を表す",
+                    "roleExplanation": "「着」が前の動作（笑う）の状態を保ったまま次の動作（うなずく）を行うことを示します。",
+                    "relatedGrammarId": "G10-01"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "s-2-3-2",
+              "text": "不一会儿，卷曲的小芽在清澈的水中舒展开来，细细的热气带着清新的花果香气扑面而来。",
+              "pinyin": "Bùyíhuìr, juǎnqū de xiǎoyá zài qīngchè de shuǐ zhōng shūzhǎn kāilái, xìxì de rèqì dài zhe qīngxīn de huāguǒ xiāngqì pūmiàn’érlái.",
+              "translationJa": "しばらくすると、丸まっていた小さな芽が澄んだ水の中でふわりとほどけ、細い湯気とともに爽やかな花や果実のような香りが立ち上ってきた。",
+              "annotations": [
+                {
+                  "id": "ann-2-3-2-a",
+                  "kind": "vocab",
+                  "start": 16,
+                  "end": 18,
+                  "surface": "舒展",
+                  "vocab": {
+                    "glossaryId": "g-shuzhan",
+                    "surface": "舒展",
+                    "contextualPinyin": "shūzhǎn",
+                    "contextualTones": [
+                      {
+                        "syllable": "shu",
+                        "tone": 1
+                      },
+                      {
+                        "syllable": "zhan",
+                        "tone": 3
+                      }
+                    ],
+                    "contextualMeaningJa": "伸び広がる、ふわりと開く",
+                    "contextualNote": "丸まっていた茶葉が湯の中でほどけて開く様子によく使われます。"
+                  }
+                },
+                {
+                  "id": "ann-2-3-2-b",
+                  "kind": "expression",
+                  "start": 35,
+                  "end": 39,
+                  "surface": "扑面而来",
+                  "expression": {
+                    "subtype": "idiom",
+                    "subtypeLabelJa": "成語（四字熟語）",
+                    "meaningJa": "顔に向かってすっと押し寄せてくる、香りや風が直に感じられる",
+                    "nuanceNote": "風・香り・春の気配などが目の前に豊かに迫ってくる様子を表す、非常に文学的でよく使われる成語です。",
+                    "factType": "fact"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "s-2-3-3",
+              "text": "我端起杯子小口地尝了尝，茶汤入口清甜柔润，喝完以后唇齿间还留着淡淡的回甘。",
+              "pinyin": "Wǒ duānqǐ bēizi xiǎokǒu de cháng le cháng, chátāng rùkǒu qīngtián róurùn, hēwán yǐhòu chúnchǐ jiān hái liú zhe dàndàn de huígān.",
+              "translationJa": "私はコップを手に取り小さく一口味わってみた。お茶は口当たりがすっきり甘くやわらかで、飲み終えたあとも口の中にほのかな甘みの余韻が残った。",
+              "annotations": [
+                {
+                  "id": "ann-2-3-3-a",
+                  "kind": "grammar",
+                  "start": 8,
+                  "end": 11,
+                  "surface": "尝了尝",
+                  "grammar": {
+                    "title": "動詞の重ね型（V＋了＋V：ちょっと〜してみた）",
+                    "pattern": "主語 + V + 了 + V",
+                    "structureSummary": "完了の「了」を挟んで「ちょっと試みに味わってみた」ことを表す",
+                    "roleExplanation": "一口試飲する控えめで落ち着いた動作を自然に描きます。",
+                    "relatedGrammarId": "G13-02"
+                  }
+                },
+                {
+                  "id": "ann-2-3-3-b",
+                  "kind": "vocab",
+                  "start": 8,
+                  "end": 9,
+                  "surface": "尝",
+                  "vocab": {
+                    "glossaryId": "g-chang",
+                    "surface": "尝",
+                    "contextualPinyin": "cháng",
+                    "contextualTones": [
+                      {
+                        "syllable": "chang",
+                        "tone": 2
+                      }
+                    ],
+                    "contextualMeaningJa": "味わう、試飲・試食する"
+                  }
+                },
+                {
+                  "id": "ann-2-3-3-c",
+                  "kind": "vocab",
+                  "start": 34,
+                  "end": 36,
+                  "surface": "回甘",
+                  "vocab": {
+                    "glossaryId": "g-huigan",
+                    "surface": "回甘",
+                    "contextualPinyin": "huígān",
+                    "contextualTones": [
+                      {
+                        "syllable": "hui",
+                        "tone": 2
+                      },
+                      {
+                        "syllable": "gan",
+                        "tone": 1
+                      }
+                    ],
+                    "contextualMeaningJa": "（お茶などを飲んだあとに）口の中に返ってくる甘みの余韻",
+                    "contextualNote": "中国茶を評するときに欠かせない大切な味覚表現です。"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "s-2-3-4",
+              "text": "窗外的石桥下，一艘小木船轻轻摇过，水波把岸边的倒影揉碎又聚拢。",
+              "pinyin": "Chuāngwài de shíqiáo xià, yì sōu xiǎo mùchuán qīngqīng yáo guò, shuǐbō bǎ ànbiān de dàoyǐng róusuì yòu jùlǒng.",
+              "translationJa": "窓の外の石橋の下では、小さな木舟が静かに漕ぎ過ぎ、水面の波が、水面に映る岸辺の影を揺らして砕き、やがてまたひとつに寄せ集めていった。",
+              "annotations": [
+                {
+                  "id": "ann-2-3-4-a",
+                  "kind": "expression",
+                  "start": 19,
+                  "end": 30,
+                  "surface": "把岸边的倒影揉碎又聚拢",
+                  "expression": {
+                    "subtype": "metaphor",
+                    "subtypeLabelJa": "詩的な比喩表現",
+                    "meaningJa": "水面に映った岸辺の影を波がくしゃっと砕き、また元へと集め直す",
+                    "nuanceNote": "「揉碎（揉み砕く）」と「聚拢（寄せ集める）」という触覚的な動詞によって、小舟の通過後に波紋が広がり再び静まる水面の変化を鮮やかに描いています。",
+                    "factType": "fictional-setting"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "s-2-3-5",
+              "text": "在这个细雨初歇的下午，一边听着水声，一边品着春茶，我觉得连时间也变得像茶汤一样温柔而缓慢。",
+              "pinyin": "Zài zhège xìyǔ chūxiē de xiàwǔ, yìbiān tīng zhe shuǐshēng, yìbiān pǐn zhe chūnchá, wǒ juéde lián shíjiān yě biànde xiàng chátāng yíyàng wēnróu ér huǎnmàn.",
+              "translationJa": "小雨が上がったばかりのこの午後、水の音を聞きながら春の茶を味わっていると、時間までもがお茶のように穏やかでゆるやかなものに変わっていくように思えた。",
+              "annotations": [
+                {
+                  "id": "ann-2-3-5-a",
+                  "kind": "grammar",
+                  "start": 11,
+                  "end": 24,
+                  "surface": "一边听着水声，一边品着春茶",
+                  "grammar": {
+                    "title": "並行動作「一边……，一边……」",
+                    "pattern": "一边 + 動詞句1，一边 + 動詞句2",
+                    "structureSummary": "川の水音を聞くことと春茶を味わうことが同時にゆったりと進んでいる様子",
+                    "roleExplanation": "それぞれに「着」を伴うことで、二つの行為が心地よく溶け合って続く余韻を表します。",
+                    "relatedGrammarId": "G20-03"
+                  }
+                },
+                {
+                  "id": "ann-2-3-5-b",
+                  "kind": "grammar",
+                  "start": 28,
+                  "end": 44,
+                  "surface": "连时间也变得像茶汤一样温柔而缓慢",
+                  "grammar": {
+                    "title": "強調構文「连……也……」",
+                    "pattern": "连 + 強調対象 + 都 / 也 + 述語",
+                    "structureSummary": "「時間でさえも」と意外性・強調を込めて主観的な感覚を締めくくる",
+                    "roleExplanation": "「时间（時間）」という無形のものまでがお茶のように柔らかくゆっくりになったという感慨を際立たせます。",
+                    "relatedGrammarId": "G20-05"
+                  }
+                },
+                {
+                  "id": "ann-2-3-5-c",
+                  "kind": "grammar",
+                  "start": 34,
+                  "end": 39,
+                  "surface": "像茶汤一样",
+                  "grammar": {
+                    "title": "比喩表現「像……一样」",
+                    "pattern": "像 + 比喩対象 + 一样 + 形容詞",
+                    "structureSummary": "時間の流れを「温かく澄んだお茶のように」と比喩で表現",
+                    "roleExplanation": "「温柔而缓慢（穏やかでゆっくりだ）」という性質を具象的なお茶の質感に重ねています。",
+                    "relatedGrammarId": "G15-01"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "id": "q-2-1",
+          "promptJa": "沈阿姨が説明した碧螺春の「上投法」の手順として正しいものはどれですか？",
+          "choices": [
+            "沸騰した100度のお湯を茶葉の上から勢いよく注ぐ",
+            "先に茶葉をコップに入れてから、冷たい水を注ぐ",
+            "先に80度くらいのお湯をガラスコップに注ぎ、そのあとから茶葉をそっと入れる",
+            "急須で10分ほど煮出してからガラスコップへ移す"
+          ],
+          "answerIndex": 2,
+          "explanationJa": "「得先在玻璃杯里倒八十度左右的热水，再把茶叶轻轻撒进去」とある通り、先に約80度のお湯を注ぎ、あとから茶葉を落とすのが上投法です。"
+        }
+      ]
+    }
+  ],
+  "practiceItems": [
+    {
+      "id": "prac-1",
+      "kind": "tone",
+      "chapterId": "ch-1",
+      "promptJa": "第1章の「散步（散歩する）」の正しい声調の組み合わせを選んでください。",
+      "targetZh": "散步",
+      "pinyin": "sànbù",
+      "choices": [
+        "sànbù（4声＋4声）",
+        "sānbù（1声＋4声）",
+        "sǎnbū（3声＋1声）",
+        "sánbú（2声＋2声）"
+      ],
+      "answer": "sànbù（4声＋4声）",
+      "explanationJa": "「散步」は両方とも第4声（sànbù）です。なお「散」は「ばらばらになる」などの意味では sǎn（3声）と読む多音字なので注意しましょう。"
+    },
+    {
+      "id": "prac-2",
+      "kind": "word-order",
+      "chapterId": "ch-1",
+      "promptJa": "第1章の存現文（「軒下に温かな黄色の提灯が一つ掛かっている」）を正しい語順に並べてください。",
+      "targetZh": "屋檐下挂着一盏暖黄色的灯笼",
+      "pinyin": "Wūyán xià guà zhe yì zhǎn nuǎnhuángsè de dēnglong",
+      "chunks": [
+        "暖黄色的",
+        "屋檐下",
+        "一盏",
+        "挂着",
+        "灯笼"
+      ],
+      "answer": "屋檐下挂着一盏暖黄色的灯笼",
+      "explanationJa": "存現文は「場所（屋檐下）＋動詞＋着（挂着）＋数量詞＋修飾語＋名詞（一盏暖黄色的灯笼）」の語順になります。",
+      "relatedGrammarId": "G17-03"
+    },
+    {
+      "id": "prac-3",
+      "kind": "grammar",
+      "chapterId": "ch-2",
+      "promptJa": "第2章の「上投法」の説明として空欄に入る最も自然な組み合わせを選んでください：「得____往玻璃杯里倒八十度左右的热水，____把茶叶轻轻撒进去。」",
+      "targetZh": "得先往玻璃杯里倒八十度左右的热水，再把茶叶轻轻撒进去。",
+      "pinyin": "Děi xiān wǎng bōlibēi lǐ dào bāshí dù zuǒyòu de rèshuǐ, zài bǎ cháyè qīngqīng sǎ jìnqù.",
+      "choices": [
+        "先 / 再",
+        "先 / 又",
+        "刚 / 就",
+        "虽然 / 但是"
+      ],
+      "answer": "先 / 再",
+      "explanationJa": "未実現の動作や手順の順序を示すときは「先……，再……」を使います。「先……，又……」は原則としてすでに起きた一連の動作に用います。",
+      "relatedGrammarId": "G21-03"
+    },
+    {
+      "id": "prac-4",
+      "kind": "word-order",
+      "chapterId": "ch-2",
+      "promptJa": "第2章の並行動作（「水音を聞きながら、春茶を味わう」）を正しい語順に並べてください。",
+      "targetZh": "一边听着水声，一边品着春茶",
+      "pinyin": "Yìbiān tīng zhe shuǐshēng, yìbiān pǐn zhe chūnchá",
+      "chunks": [
+        "品着春茶",
+        "一边听着",
+        "一边",
+        "水声，"
+      ],
+      "answer": "一边听着水声，一边品着春茶",
+      "explanationJa": "「一边＋動詞句1，一边＋動詞句2」で二つの動作が同時に行われていることを表します。",
+      "relatedGrammarId": "G20-03"
+    }
+  ]
+}

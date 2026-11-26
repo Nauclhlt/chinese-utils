@@ -1,0 +1,2155 @@
+[
+  {
+    "id": "WP-S02-01",
+    "stageId": "stage02",
+    "difficulty": 1,
+    "grammarIds": [
+      "G03-01"
+    ],
+    "lessonId": "L03",
+    "japanesePrompt": "ここは私たちの教室です。",
+    "chunks": [
+      {
+        "id": "c1",
+        "pinyinMarked": "zhèr",
+        "pinyinPlain": "zher",
+        "hanzi": "这儿",
+        "meaningHint": "ここ"
+      },
+      {
+        "id": "c2",
+        "pinyinMarked": "shì",
+        "pinyinPlain": "shi",
+        "hanzi": "是",
+        "meaningHint": "〜である"
+      },
+      {
+        "id": "c3",
+        "pinyinMarked": "wǒmen de",
+        "pinyinPlain": "women de",
+        "hanzi": "我们的",
+        "meaningHint": "私たちの"
+      },
+      {
+        "id": "c4",
+        "pinyinMarked": "jiàoshì",
+        "pinyinPlain": "jiaoshi",
+        "hanzi": "教室"
+      }
+    ],
+    "correctOrderIds": [
+      "c1",
+      "c2",
+      "c3",
+      "c4"
+    ],
+    "modelAnswer": "这儿是我们的教室。",
+    "acceptableAnswers": [
+      "这儿是我们的教室。",
+      "这儿是我们的教室"
+    ],
+    "fullPinyin": "Zhèr shì wǒmen de jiàoshì.",
+    "structureBreakdown": [
+      {
+        "role": "S",
+        "label": "主語(場所)",
+        "text": "这儿",
+        "pinyin": "zhèr"
+      },
+      {
+        "role": "V",
+        "label": "判断動詞",
+        "text": "是",
+        "pinyin": "shì"
+      },
+      {
+        "role": "Attr",
+        "label": "連体修飾",
+        "text": "我们的",
+        "pinyin": "wǒmen de"
+      },
+      {
+        "role": "O",
+        "label": "目的語",
+        "text": "教室",
+        "pinyin": "jiàoshì"
+      }
+    ],
+    "explanation": "場所を指す指示代詞「这儿（ここ）」は名詞と同じく主語になれます。「这」だけでは場所の「ここ」になりません。"
+  },
+  {
+    "id": "WP-S02-02",
+    "stageId": "stage02",
+    "difficulty": 1,
+    "grammarIds": [
+      "G03-01",
+      "G03-03"
+    ],
+    "lessonId": "L03",
+    "japanesePrompt": "郵便局はどこにありますか？",
+    "chunks": [
+      {
+        "id": "c1",
+        "pinyinMarked": "yóujú",
+        "pinyinPlain": "youju",
+        "hanzi": "邮局"
+      },
+      {
+        "id": "c2",
+        "pinyinMarked": "zài",
+        "pinyinPlain": "zai",
+        "hanzi": "在",
+        "meaningHint": "（場所に）ある"
+      },
+      {
+        "id": "c3",
+        "pinyinMarked": "nǎr",
+        "pinyinPlain": "nar",
+        "hanzi": "哪儿",
+        "meaningHint": "どこ"
+      }
+    ],
+    "correctOrderIds": [
+      "c1",
+      "c2",
+      "c3"
+    ],
+    "modelAnswer": "邮局在哪儿？",
+    "acceptableAnswers": [
+      "邮局在哪儿？",
+      "邮局在哪儿"
+    ],
+    "fullPinyin": "Yóujú zài nǎr?",
+    "structureBreakdown": [
+      {
+        "role": "S",
+        "label": "主語",
+        "text": "邮局",
+        "pinyin": "yóujú"
+      },
+      {
+        "role": "V",
+        "label": "存在動詞",
+        "text": "在",
+        "pinyin": "zài"
+      },
+      {
+        "role": "Loc",
+        "label": "疑問詞",
+        "text": "哪儿",
+        "pinyin": "nǎr"
+      }
+    ],
+    "explanation": "場所を尋ねる疑問詞「哪儿（どこ）」を「在」の後ろに置きます。疑問詞があるため文末に「吗」は不要です。"
+  },
+  {
+    "id": "WP-S02-03",
+    "stageId": "stage02",
+    "difficulty": 2,
+    "grammarIds": [
+      "G03-01"
+    ],
+    "lessonId": "L03",
+    "japanesePrompt": "あそこは新しい体育館ではありません。",
+    "chunks": [
+      {
+        "id": "c1",
+        "pinyinMarked": "nàlǐ",
+        "pinyinPlain": "nali",
+        "hanzi": "那里",
+        "meaningHint": "あそこ"
+      },
+      {
+        "id": "c2",
+        "pinyinMarked": "bú shì",
+        "pinyinPlain": "bu shi",
+        "hanzi": "不是",
+        "meaningHint": "〜ではない"
+      },
+      {
+        "id": "c3",
+        "pinyinMarked": "xīn de",
+        "pinyinPlain": "xin de",
+        "hanzi": "新的",
+        "meaningHint": "新しい"
+      },
+      {
+        "id": "c4",
+        "pinyinMarked": "tǐyùguǎn",
+        "pinyinPlain": "tiyuguan",
+        "hanzi": "体育馆"
+      }
+    ],
+    "correctOrderIds": [
+      "c1",
+      "c2",
+      "c3",
+      "c4"
+    ],
+    "modelAnswer": "那里不是新的体育馆。",
+    "acceptableAnswers": [
+      "那里不是新的体育馆。",
+      "那里不是新的体育馆"
+    ],
+    "fullPinyin": "Nàlǐ bú shì xīn de tǐyùguǎn.",
+    "structureBreakdown": [
+      {
+        "role": "S",
+        "label": "主語(場所)",
+        "text": "那里",
+        "pinyin": "nàlǐ"
+      },
+      {
+        "role": "V",
+        "label": "否定判断",
+        "text": "不是",
+        "pinyin": "bú shì"
+      },
+      {
+        "role": "Attr",
+        "label": "連体修飾",
+        "text": "新的",
+        "pinyin": "xīn de"
+      },
+      {
+        "role": "O",
+        "label": "目的語",
+        "text": "体育馆",
+        "pinyin": "tǐyùguǎn"
+      }
+    ],
+    "explanation": "「那里」は「那儿」と同じく「あそこ」を意味します（やや改まった響きや南方での使用が多い表現です）。"
+  },
+  {
+    "id": "WP-S02-04",
+    "stageId": "stage02",
+    "difficulty": 1,
+    "grammarIds": [
+      "G03-02"
+    ],
+    "lessonId": "L03",
+    "japanesePrompt": "この公園はとても静かです。",
+    "chunks": [
+      {
+        "id": "c1",
+        "pinyinMarked": "zhège",
+        "pinyinPlain": "zhege",
+        "hanzi": "这个",
+        "meaningHint": "この"
+      },
+      {
+        "id": "c2",
+        "pinyinMarked": "gōngyuán",
+        "pinyinPlain": "gongyuan",
+        "hanzi": "公园"
+      },
+      {
+        "id": "c3",
+        "pinyinMarked": "hěn",
+        "pinyinPlain": "hen",
+        "hanzi": "很",
+        "meaningHint": "（程度副詞）"
+      },
+      {
+        "id": "c4",
+        "pinyinMarked": "ānjìng",
+        "pinyinPlain": "anjing",
+        "hanzi": "安静"
+      }
+    ],
+    "correctOrderIds": [
+      "c1",
+      "c2",
+      "c3",
+      "c4"
+    ],
+    "modelAnswer": "这个公园很安静。",
+    "acceptableAnswers": [
+      "这个公园很安静。",
+      "这个公园很安静"
+    ],
+    "fullPinyin": "Zhège gōngyuán hěn ānjìng.",
+    "structureBreakdown": [
+      {
+        "role": "S",
+        "label": "主語",
+        "text": "这个公园",
+        "pinyin": "zhège gōngyuán"
+      },
+      {
+        "role": "Adv",
+        "label": "程度副詞",
+        "text": "很",
+        "pinyin": "hěn"
+      },
+      {
+        "role": "V",
+        "label": "形容詞述語",
+        "text": "安静",
+        "pinyin": "ānjìng"
+      }
+    ],
+    "explanation": "形容詞が述語になるときは「是」を使わず、平叙文では対比のニュアンスを避けるため程度副詞「很」を補います。"
+  },
+  {
+    "id": "WP-S02-05",
+    "stageId": "stage02",
+    "difficulty": 2,
+    "grammarIds": [
+      "G03-02"
+    ],
+    "lessonId": "L03",
+    "japanesePrompt": "彼の部屋はあまり広くありません。",
+    "chunks": [
+      {
+        "id": "c1",
+        "pinyinMarked": "tā de",
+        "pinyinPlain": "ta de",
+        "hanzi": "他的",
+        "meaningHint": "彼の"
+      },
+      {
+        "id": "c2",
+        "pinyinMarked": "fángjiān",
+        "pinyinPlain": "fangjian",
+        "hanzi": "房间"
+      },
+      {
+        "id": "c3",
+        "pinyinMarked": "bú tài",
+        "pinyinPlain": "bu tai",
+        "hanzi": "不太",
+        "meaningHint": "あまり〜ない"
+      },
+      {
+        "id": "c4",
+        "pinyinMarked": "dà",
+        "pinyinPlain": "da",
+        "hanzi": "大",
+        "meaningHint": "大きい・広い"
+      }
+    ],
+    "correctOrderIds": [
+      "c1",
+      "c2",
+      "c3",
+      "c4"
+    ],
+    "modelAnswer": "他的房间不太大。",
+    "acceptableAnswers": [
+      "他的房间不太大。",
+      "他的房间不太大"
+    ],
+    "fullPinyin": "Tā de fángjiān bú tài dà.",
+    "structureBreakdown": [
+      {
+        "role": "S",
+        "label": "主語",
+        "text": "他的房间",
+        "pinyin": "tā de fángjiān"
+      },
+      {
+        "role": "Neg",
+        "label": "否定副詞句",
+        "text": "不太",
+        "pinyin": "bú tài"
+      },
+      {
+        "role": "V",
+        "label": "形容詞述語",
+        "text": "大",
+        "pinyin": "dà"
+      }
+    ],
+    "explanation": "「不太＋形容詞」で「あまり〜ない」という柔らかい否定を表します。形容詞述語文の否定には「很」を付けません。"
+  },
+  {
+    "id": "WP-S02-06",
+    "stageId": "stage02",
+    "difficulty": 2,
+    "grammarIds": [
+      "G03-02",
+      "G02-01"
+    ],
+    "lessonId": "L03",
+    "japanesePrompt": "彼女はとてもきれいな赤いセーターを着ています（それは〜です）。",
+    "chunks": [
+      {
+        "id": "c1",
+        "pinyinMarked": "nà shì",
+        "pinyinPlain": "na shi",
+        "hanzi": "那是",
+        "meaningHint": "あれは〜である"
+      },
+      {
+        "id": "c2",
+        "pinyinMarked": "yí jiàn",
+        "pinyinPlain": "yi jian",
+        "hanzi": "一件",
+        "meaningHint": "1着の"
+      },
+      {
+        "id": "c3",
+        "pinyinMarked": "hěn",
+        "pinyinPlain": "hen",
+        "hanzi": "很",
+        "meaningHint": "とても"
+      },
+      {
+        "id": "c4",
+        "pinyinMarked": "piàoliang de",
+        "pinyinPlain": "piaoliang de",
+        "hanzi": "漂亮的"
+      },
+      {
+        "id": "c5",
+        "pinyinMarked": "máoyī",
+        "pinyinPlain": "maoyi",
+        "hanzi": "毛衣"
+      }
+    ],
+    "correctOrderIds": [
+      "c1",
+      "c2",
+      "c3",
+      "c4",
+      "c5"
+    ],
+    "modelAnswer": "那是一件很漂亮的毛衣。",
+    "acceptableAnswers": [
+      "那是一件很漂亮的毛衣。",
+      "那是一件很漂亮的毛衣"
+    ],
+    "fullPinyin": "Nà shì yí jiàn hěn piàoliang de máoyī.",
+    "structureBreakdown": [
+      {
+        "role": "S",
+        "label": "主語",
+        "text": "那",
+        "pinyin": "nà"
+      },
+      {
+        "role": "V",
+        "label": "判断動詞",
+        "text": "是",
+        "pinyin": "shì"
+      },
+      {
+        "role": "Attr",
+        "label": "数量詞",
+        "text": "一件",
+        "pinyin": "yí jiàn"
+      },
+      {
+        "role": "Attr",
+        "label": "形容詞修飾",
+        "text": "很漂亮的",
+        "pinyin": "hěn piàoliang de"
+      },
+      {
+        "role": "O",
+        "label": "目的語",
+        "text": "毛衣",
+        "pinyin": "máoyī"
+      }
+    ],
+    "explanation": "2音節の形容詞に「很」を付けて名詞を修飾する場合は「很漂亮的毛衣」のように「的」を付けるのが原則です。"
+  },
+  {
+    "id": "WP-S02-07",
+    "stageId": "stage02",
+    "difficulty": 1,
+    "grammarIds": [
+      "G03-03"
+    ],
+    "lessonId": "L03",
+    "japanesePrompt": "鈴木先生は今、事務室にいません。",
+    "chunks": [
+      {
+        "id": "c1",
+        "pinyinMarked": "Língmù lǎoshī",
+        "pinyinPlain": "lingmu laoshi",
+        "hanzi": "铃木老师"
+      },
+      {
+        "id": "c2",
+        "pinyinMarked": "xiànzài",
+        "pinyinPlain": "xianzai",
+        "hanzi": "现在"
+      },
+      {
+        "id": "c3",
+        "pinyinMarked": "bú zài",
+        "pinyinPlain": "bu zai",
+        "hanzi": "不在",
+        "meaningHint": "いない"
+      },
+      {
+        "id": "c4",
+        "pinyinMarked": "bàngōngshì",
+        "pinyinPlain": "bangongshi",
+        "hanzi": "办公室"
+      }
+    ],
+    "correctOrderIds": [
+      "c1",
+      "c2",
+      "c3",
+      "c4"
+    ],
+    "modelAnswer": "铃木老师现在不在办公室。",
+    "acceptableAnswers": [
+      "铃木老师现在不在办公室。",
+      "现在铃木老师不在办公室。",
+      "铃木老师现在不在办公室",
+      "现在铃木老师不在办公室"
+    ],
+    "fullPinyin": "Língmù lǎoshī xiànzài bú zài bàngōngshì.",
+    "structureBreakdown": [
+      {
+        "role": "S",
+        "label": "主語",
+        "text": "铃木老师",
+        "pinyin": "Língmù lǎoshī"
+      },
+      {
+        "role": "Time",
+        "label": "時間詞",
+        "text": "现在",
+        "pinyin": "xiànzài"
+      },
+      {
+        "role": "V",
+        "label": "否定存在",
+        "text": "不在",
+        "pinyin": "bú zài"
+      },
+      {
+        "role": "Loc",
+        "label": "場所",
+        "text": "办公室",
+        "pinyin": "bàngōngshì"
+      }
+    ],
+    "explanation": "人や物の所在を表す動詞「在」の否定は「不在＋場所」です。時間詞「现在」は主語の前後どちらにも置けます。"
+  },
+  {
+    "id": "WP-S02-08",
+    "stageId": "stage02",
+    "difficulty": 2,
+    "grammarIds": [
+      "G03-03",
+      "G02-02"
+    ],
+    "lessonId": "L03",
+    "japanesePrompt": "あなたのパスポートはかばんの中にありますか？",
+    "chunks": [
+      {
+        "id": "c1",
+        "pinyinMarked": "nǐ de",
+        "pinyinPlain": "ni de",
+        "hanzi": "你的",
+        "meaningHint": "あなたの"
+      },
+      {
+        "id": "c2",
+        "pinyinMarked": "hùzhào",
+        "pinyinPlain": "huzhao",
+        "hanzi": "护照"
+      },
+      {
+        "id": "c3",
+        "pinyinMarked": "zài",
+        "pinyinPlain": "zai",
+        "hanzi": "在",
+        "meaningHint": "ある"
+      },
+      {
+        "id": "c4",
+        "pinyinMarked": "bāo li",
+        "pinyinPlain": "bao li",
+        "hanzi": "包里"
+      },
+      {
+        "id": "c5",
+        "pinyinMarked": "ma",
+        "pinyinPlain": "ma",
+        "hanzi": "吗",
+        "meaningHint": "〜ですか"
+      }
+    ],
+    "correctOrderIds": [
+      "c1",
+      "c2",
+      "c3",
+      "c4",
+      "c5"
+    ],
+    "modelAnswer": "你的护照在包里吗？",
+    "acceptableAnswers": [
+      "你的护照在包里吗？",
+      "你的护照在包里吗"
+    ],
+    "fullPinyin": "Nǐ de hùzhào zài bāo li ma?",
+    "structureBreakdown": [
+      {
+        "role": "S",
+        "label": "主語",
+        "text": "你的护照",
+        "pinyin": "nǐ de hùzhào"
+      },
+      {
+        "role": "V",
+        "label": "存在動詞",
+        "text": "在",
+        "pinyin": "zài"
+      },
+      {
+        "role": "Loc",
+        "label": "場所(方位)",
+        "text": "包里",
+        "pinyin": "bāo li"
+      },
+      {
+        "role": "P",
+        "label": "疑問助詞",
+        "text": "吗",
+        "pinyin": "ma"
+      }
+    ],
+    "explanation": "「特定の人・物 + 在 + 場所」で所在を表します。「包（かばん）」に方位詞「里」を付けて「かばんの中」を表します。"
+  },
+  {
+    "id": "WP-S02-09",
+    "stageId": "stage02",
+    "difficulty": 2,
+    "grammarIds": [
+      "G03-03",
+      "G01-01"
+    ],
+    "lessonId": "L03",
+    "japanesePrompt": "母は台所で、父は居間にいます。",
+    "chunks": [
+      {
+        "id": "c1",
+        "pinyinMarked": "māma",
+        "pinyinPlain": "mama",
+        "hanzi": "妈妈"
+      },
+      {
+        "id": "c2",
+        "pinyinMarked": "zài chúfáng",
+        "pinyinPlain": "zai chufang",
+        "hanzi": "在厨房"
+      },
+      {
+        "id": "c3",
+        "pinyinMarked": "bàba",
+        "pinyinPlain": "baba",
+        "hanzi": "爸爸"
+      },
+      {
+        "id": "c4",
+        "pinyinMarked": "zài kètīng",
+        "pinyinPlain": "zai keting",
+        "hanzi": "在客厅"
+      }
+    ],
+    "correctOrderIds": [
+      "c1",
+      "c2",
+      "c3",
+      "c4"
+    ],
+    "modelAnswer": "妈妈在厨房，爸爸在客厅。",
+    "acceptableAnswers": [
+      "妈妈在厨房，爸爸在客厅。",
+      "妈妈在厨房爸爸在客厅"
+    ],
+    "fullPinyin": "Māma zài chúfáng, bàba zài kètīng.",
+    "structureBreakdown": [
+      {
+        "role": "S",
+        "label": "主語1",
+        "text": "妈妈",
+        "pinyin": "māma"
+      },
+      {
+        "role": "V",
+        "label": "存在句1",
+        "text": "在厨房",
+        "pinyin": "zài chúfáng"
+      },
+      {
+        "role": "S",
+        "label": "主語2",
+        "text": "爸爸",
+        "pinyin": "bàba"
+      },
+      {
+        "role": "V",
+        "label": "存在句2",
+        "text": "在客厅",
+        "pinyin": "zài kètīng"
+      }
+    ],
+    "explanation": "「在＋場所」だけで「〜にいる」という意味の述語になります。「厨房（台所）」や「客厅（居間）」のような場所名詞に直接付けられます。"
+  },
+  {
+    "id": "WP-S02-10",
+    "stageId": "stage02",
+    "difficulty": 2,
+    "grammarIds": [
+      "G03-04",
+      "G03-03"
+    ],
+    "lessonId": "L03",
+    "japanesePrompt": "眼鏡は机の上にあります。",
+    "chunks": [
+      {
+        "id": "c1",
+        "pinyinMarked": "yǎnjìng",
+        "pinyinPlain": "yanjing",
+        "hanzi": "眼镜",
+        "meaningHint": "眼鏡"
+      },
+      {
+        "id": "c2",
+        "pinyinMarked": "zài",
+        "pinyinPlain": "zai",
+        "hanzi": "在",
+        "meaningHint": "ある"
+      },
+      {
+        "id": "c3",
+        "pinyinMarked": "zhuōzi",
+        "pinyinPlain": "zhuozi",
+        "hanzi": "桌子"
+      },
+      {
+        "id": "c4",
+        "pinyinMarked": "shàngmian",
+        "pinyinPlain": "shangmian",
+        "hanzi": "上面",
+        "meaningHint": "上"
+      }
+    ],
+    "correctOrderIds": [
+      "c1",
+      "c2",
+      "c3",
+      "c4"
+    ],
+    "modelAnswer": "眼镜在桌子上面。",
+    "acceptableAnswers": [
+      "眼镜在桌子上面。",
+      "眼镜在桌子上面"
+    ],
+    "fullPinyin": "Yǎnjìng zài zhuōzi shàngmian.",
+    "structureBreakdown": [
+      {
+        "role": "S",
+        "label": "主語",
+        "text": "眼镜",
+        "pinyin": "yǎnjìng"
+      },
+      {
+        "role": "V",
+        "label": "存在動詞",
+        "text": "在",
+        "pinyin": "zài"
+      },
+      {
+        "role": "Loc",
+        "label": "場所＋方位詞",
+        "text": "桌子上面",
+        "pinyin": "zhuōzi shàngmian"
+      }
+    ],
+    "explanation": "「桌子」のような一般名詞を場所として使うときは、必ず後ろに「上・上面・里」などの方位詞を補います。"
+  },
+  {
+    "id": "WP-S02-11",
+    "stageId": "stage02",
+    "difficulty": 2,
+    "grammarIds": [
+      "G03-04"
+    ],
+    "lessonId": "L03",
+    "japanesePrompt": "銀行は病院の左側にあります。",
+    "chunks": [
+      {
+        "id": "c1",
+        "pinyinMarked": "yínháng",
+        "pinyinPlain": "yinhang",
+        "hanzi": "银行"
+      },
+      {
+        "id": "c2",
+        "pinyinMarked": "zài",
+        "pinyinPlain": "zai",
+        "hanzi": "在",
+        "meaningHint": "ある"
+      },
+      {
+        "id": "c3",
+        "pinyinMarked": "yīyuàn",
+        "pinyinPlain": "yiyuan",
+        "hanzi": "医院"
+      },
+      {
+        "id": "c4",
+        "pinyinMarked": "de",
+        "pinyinPlain": "de",
+        "hanzi": "的",
+        "meaningHint": "〜の"
+      },
+      {
+        "id": "c5",
+        "pinyinMarked": "zuǒbiān",
+        "pinyinPlain": "zuobian",
+        "hanzi": "左边"
+      }
+    ],
+    "correctOrderIds": [
+      "c1",
+      "c2",
+      "c3",
+      "c4",
+      "c5"
+    ],
+    "modelAnswer": "银行在医院的左边。",
+    "acceptableAnswers": [
+      "银行在医院的左边。",
+      "银行在医院的左边"
+    ],
+    "fullPinyin": "Yínháng zài yīyuàn de zuǒbiān.",
+    "structureBreakdown": [
+      {
+        "role": "S",
+        "label": "主語",
+        "text": "银行",
+        "pinyin": "yínháng"
+      },
+      {
+        "role": "V",
+        "label": "存在動詞",
+        "text": "在",
+        "pinyin": "zài"
+      },
+      {
+        "role": "Loc",
+        "label": "基準場所",
+        "text": "医院的",
+        "pinyin": "yīyuàn de"
+      },
+      {
+        "role": "Loc",
+        "label": "合成方位詞",
+        "text": "左边",
+        "pinyin": "zuǒbiān"
+      }
+    ],
+    "explanation": "「左边（左側）」「右边（右側）」などの2音節の合成方位詞は、基準となる名詞との間に「的」を入れて繋ぐことができます。"
+  },
+  {
+    "id": "WP-S02-12",
+    "stageId": "stage02",
+    "difficulty": 2,
+    "grammarIds": [
+      "G03-04"
+    ],
+    "lessonId": "L03",
+    "japanesePrompt": "地下鉄の駅はホテルの前にあります。",
+    "chunks": [
+      {
+        "id": "c1",
+        "pinyinMarked": "dìtiězhàn",
+        "pinyinPlain": "ditiezhan",
+        "hanzi": "地铁站"
+      },
+      {
+        "id": "c2",
+        "pinyinMarked": "zài",
+        "pinyinPlain": "zai",
+        "hanzi": "在",
+        "meaningHint": "ある"
+      },
+      {
+        "id": "c3",
+        "pinyinMarked": "jiǔdiàn",
+        "pinyinPlain": "jiudian",
+        "hanzi": "酒店"
+      },
+      {
+        "id": "c4",
+        "pinyinMarked": "qiánmiàn",
+        "pinyinPlain": "qianmian",
+        "hanzi": "前面",
+        "meaningHint": "前"
+      }
+    ],
+    "correctOrderIds": [
+      "c1",
+      "c2",
+      "c3",
+      "c4"
+    ],
+    "modelAnswer": "地铁站在酒店前面。",
+    "acceptableAnswers": [
+      "地铁站在酒店前面。",
+      "地铁站在酒店前面"
+    ],
+    "fullPinyin": "Dìtiězhàn zài jiǔdiàn qiánmiàn.",
+    "structureBreakdown": [
+      {
+        "role": "S",
+        "label": "主語",
+        "text": "地铁站",
+        "pinyin": "dìtiězhàn"
+      },
+      {
+        "role": "V",
+        "label": "存在動詞",
+        "text": "在",
+        "pinyin": "zài"
+      },
+      {
+        "role": "Loc",
+        "label": "場所＋方位詞",
+        "text": "酒店前面",
+        "pinyin": "jiǔdiàn qiánmiàn"
+      }
+    ],
+    "explanation": "「〜の前に」は「名詞 + (的) + 前面」で表します。建物名どうしの位置関係を説明する定番パターンです。"
+  },
+  {
+    "id": "WP-S02-13",
+    "stageId": "stage02",
+    "difficulty": 2,
+    "grammarIds": [
+      "G03-04",
+      "G03-03"
+    ],
+    "lessonId": "L03",
+    "japanesePrompt": "猫は椅子の下にいますか？",
+    "chunks": [
+      {
+        "id": "c1",
+        "pinyinMarked": "xiǎomāo",
+        "pinyinPlain": "xiaomao",
+        "hanzi": "小猫"
+      },
+      {
+        "id": "c2",
+        "pinyinMarked": "zài",
+        "pinyinPlain": "zai",
+        "hanzi": "在",
+        "meaningHint": "いる"
+      },
+      {
+        "id": "c3",
+        "pinyinMarked": "yǐzi",
+        "pinyinPlain": "yizi",
+        "hanzi": "椅子"
+      },
+      {
+        "id": "c4",
+        "pinyinMarked": "xiàmiàn",
+        "pinyinPlain": "xiamian",
+        "hanzi": "下面",
+        "meaningHint": "下"
+      },
+      {
+        "id": "c5",
+        "pinyinMarked": "ma",
+        "pinyinPlain": "ma",
+        "hanzi": "吗",
+        "meaningHint": "〜ですか"
+      }
+    ],
+    "correctOrderIds": [
+      "c1",
+      "c2",
+      "c3",
+      "c4",
+      "c5"
+    ],
+    "modelAnswer": "小猫在椅子下面吗？",
+    "acceptableAnswers": [
+      "小猫在椅子下面吗？",
+      "小猫在椅子下面吗"
+    ],
+    "fullPinyin": "Xiǎomāo zài yǐzi xiàmiàn ma?",
+    "structureBreakdown": [
+      {
+        "role": "S",
+        "label": "主語",
+        "text": "小猫",
+        "pinyin": "xiǎomāo"
+      },
+      {
+        "role": "V",
+        "label": "存在動詞",
+        "text": "在",
+        "pinyin": "zài"
+      },
+      {
+        "role": "Loc",
+        "label": "場所＋方位詞",
+        "text": "椅子下面",
+        "pinyin": "yǐzi xiàmiàn"
+      },
+      {
+        "role": "P",
+        "label": "疑問助詞",
+        "text": "吗",
+        "pinyin": "ma"
+      }
+    ],
+    "explanation": "「椅子下面（椅子の下）」に「在」を付け、文末に「吗」を置いて居場所を確認する疑問文にしています。"
+  },
+  {
+    "id": "WP-S02-14",
+    "stageId": "stage02",
+    "difficulty": 1,
+    "grammarIds": [
+      "G04-01"
+    ],
+    "lessonId": "L04",
+    "japanesePrompt": "私には姉が1人、弟が1人います。",
+    "chunks": [
+      {
+        "id": "c1",
+        "pinyinMarked": "wǒ",
+        "pinyinPlain": "wo",
+        "hanzi": "我",
+        "meaningHint": "私"
+      },
+      {
+        "id": "c2",
+        "pinyinMarked": "yǒu",
+        "pinyinPlain": "you",
+        "hanzi": "有",
+        "meaningHint": "いる・持つ"
+      },
+      {
+        "id": "c3",
+        "pinyinMarked": "yí ge jiějie",
+        "pinyinPlain": "yi ge jiejie",
+        "hanzi": "一个姐姐"
+      },
+      {
+        "id": "c4",
+        "pinyinMarked": "hé",
+        "pinyinPlain": "he",
+        "hanzi": "和",
+        "meaningHint": "〜と"
+      },
+      {
+        "id": "c5",
+        "pinyinMarked": "yí ge dìdi",
+        "pinyinPlain": "yi ge didi",
+        "hanzi": "一个弟弟"
+      }
+    ],
+    "correctOrderIds": [
+      "c1",
+      "c2",
+      "c3",
+      "c4",
+      "c5"
+    ],
+    "modelAnswer": "我有一个姐姐和一个弟弟。",
+    "acceptableAnswers": [
+      "我有一个姐姐和一个弟弟。",
+      "我有一个弟弟和一个姐姐。",
+      "我有一个姐姐和一个弟弟"
+    ],
+    "fullPinyin": "Wǒ yǒu yí ge jiějie hé yí ge dìdi.",
+    "structureBreakdown": [
+      {
+        "role": "S",
+        "label": "主語",
+        "text": "我",
+        "pinyin": "wǒ"
+      },
+      {
+        "role": "V",
+        "label": "所有動詞",
+        "text": "有",
+        "pinyin": "yǒu"
+      },
+      {
+        "role": "O",
+        "label": "目的語(並列)",
+        "text": "一个姐姐和一个弟弟",
+        "pinyin": "yí ge jiějie hé yí ge dìdi"
+      }
+    ],
+    "explanation": "家族や所有物を表すには動詞「有」を使い、名詞と名詞を並列するときは接続詞「和」で結びます。"
+  },
+  {
+    "id": "WP-S02-15",
+    "stageId": "stage02",
+    "difficulty": 1,
+    "grammarIds": [
+      "G04-01"
+    ],
+    "lessonId": "L04",
+    "japanesePrompt": "今日は授業がありません。",
+    "chunks": [
+      {
+        "id": "c1",
+        "pinyinMarked": "wǒ",
+        "pinyinPlain": "wo",
+        "hanzi": "我",
+        "meaningHint": "私"
+      },
+      {
+        "id": "c2",
+        "pinyinMarked": "jīntiān",
+        "pinyinPlain": "jintian",
+        "hanzi": "今天"
+      },
+      {
+        "id": "c3",
+        "pinyinMarked": "méiyǒu",
+        "pinyinPlain": "meiyou",
+        "hanzi": "没有",
+        "meaningHint": "ない"
+      },
+      {
+        "id": "c4",
+        "pinyinMarked": "kè",
+        "pinyinPlain": "ke",
+        "hanzi": "课",
+        "meaningHint": "授業"
+      }
+    ],
+    "correctOrderIds": [
+      "c1",
+      "c2",
+      "c3",
+      "c4"
+    ],
+    "modelAnswer": "我今天没有课。",
+    "acceptableAnswers": [
+      "我今天没有课。",
+      "今天我没有课。",
+      "我今天没有课",
+      "今天我没有课"
+    ],
+    "fullPinyin": "Wǒ jīntiān méiyǒu kè.",
+    "structureBreakdown": [
+      {
+        "role": "S",
+        "label": "主語",
+        "text": "我",
+        "pinyin": "wǒ"
+      },
+      {
+        "role": "Time",
+        "label": "時間詞",
+        "text": "今天",
+        "pinyin": "jīntiān"
+      },
+      {
+        "role": "V",
+        "label": "否定所有",
+        "text": "没有",
+        "pinyin": "méiyǒu"
+      },
+      {
+        "role": "O",
+        "label": "目的語",
+        "text": "课",
+        "pinyin": "kè"
+      }
+    ],
+    "explanation": "動詞「有」の否定は必ず「没有（または没）」を使います。「不有」と言うことは絶対にできません。"
+  },
+  {
+    "id": "WP-S02-16",
+    "stageId": "stage02",
+    "difficulty": 2,
+    "grammarIds": [
+      "G04-01",
+      "G03-04"
+    ],
+    "lessonId": "L04",
+    "japanesePrompt": "キャンパスの東側に大きな食堂があります。",
+    "chunks": [
+      {
+        "id": "c1",
+        "pinyinMarked": "xuéxiào",
+        "pinyinPlain": "xuexiao",
+        "hanzi": "学校"
+      },
+      {
+        "id": "c2",
+        "pinyinMarked": "dōngbiān",
+        "pinyinPlain": "dongbian",
+        "hanzi": "东边"
+      },
+      {
+        "id": "c3",
+        "pinyinMarked": "yǒu",
+        "pinyinPlain": "you",
+        "hanzi": "有",
+        "meaningHint": "ある"
+      },
+      {
+        "id": "c4",
+        "pinyinMarked": "yí ge",
+        "pinyinPlain": "yi ge",
+        "hanzi": "一个",
+        "meaningHint": "1つの"
+      },
+      {
+        "id": "c5",
+        "pinyinMarked": "dà shítáng",
+        "pinyinPlain": "da shitang",
+        "hanzi": "大食堂"
+      }
+    ],
+    "correctOrderIds": [
+      "c1",
+      "c2",
+      "c3",
+      "c4",
+      "c5"
+    ],
+    "modelAnswer": "学校东边有一个大食堂。",
+    "acceptableAnswers": [
+      "学校东边有一个大食堂。",
+      "学校东边有一个大食堂"
+    ],
+    "fullPinyin": "Xuéxiào dōngbiān yǒu yí ge dà shítáng.",
+    "structureBreakdown": [
+      {
+        "role": "Loc",
+        "label": "場所主語",
+        "text": "学校东边",
+        "pinyin": "xuéxiào dōngbiān"
+      },
+      {
+        "role": "V",
+        "label": "存在動詞",
+        "text": "有",
+        "pinyin": "yǒu"
+      },
+      {
+        "role": "O",
+        "label": "存在物",
+        "text": "一个大食堂",
+        "pinyin": "yí ge dà shítáng"
+      }
+    ],
+    "explanation": "「場所 + 有 + 不特定の物」で「（場所）に〜がある」という存在文を作ります。不特定なので「一个」を伴うのが自然です。"
+  },
+  {
+    "id": "WP-S02-17",
+    "stageId": "stage02",
+    "difficulty": 2,
+    "grammarIds": [
+      "G04-02"
+    ],
+    "lessonId": "L04",
+    "japanesePrompt": "私は食堂で昼ご飯を食べます。",
+    "chunks": [
+      {
+        "id": "c1",
+        "pinyinMarked": "wǒ",
+        "pinyinPlain": "wo",
+        "hanzi": "我",
+        "meaningHint": "私"
+      },
+      {
+        "id": "c2",
+        "pinyinMarked": "zài",
+        "pinyinPlain": "zai",
+        "hanzi": "在",
+        "meaningHint": "〜で（場所）"
+      },
+      {
+        "id": "c3",
+        "pinyinMarked": "shítáng",
+        "pinyinPlain": "shitang",
+        "hanzi": "食堂"
+      },
+      {
+        "id": "c4",
+        "pinyinMarked": "chī",
+        "pinyinPlain": "chi",
+        "hanzi": "吃",
+        "meaningHint": "食べる"
+      },
+      {
+        "id": "c5",
+        "pinyinMarked": "wǔfàn",
+        "pinyinPlain": "wufan",
+        "hanzi": "午饭"
+      }
+    ],
+    "correctOrderIds": [
+      "c1",
+      "c2",
+      "c3",
+      "c4",
+      "c5"
+    ],
+    "modelAnswer": "我在食堂吃午饭。",
+    "acceptableAnswers": [
+      "我在食堂吃午饭。",
+      "我在食堂吃午饭"
+    ],
+    "fullPinyin": "Wǒ zài shítáng chī wǔfàn.",
+    "structureBreakdown": [
+      {
+        "role": "S",
+        "label": "主語",
+        "text": "我",
+        "pinyin": "wǒ"
+      },
+      {
+        "role": "Prep",
+        "label": "介詞句",
+        "text": "在食堂",
+        "pinyin": "zài shítáng"
+      },
+      {
+        "role": "V",
+        "label": "動詞",
+        "text": "吃",
+        "pinyin": "chī"
+      },
+      {
+        "role": "O",
+        "label": "目的語",
+        "text": "午饭",
+        "pinyin": "wǔfàn"
+      }
+    ],
+    "explanation": "動作が行われる場所を示す介詞句「在＋場所」は、主語の後ろ・メインの動詞「吃」の前に置きます。"
+  },
+  {
+    "id": "WP-S02-18",
+    "stageId": "stage02",
+    "difficulty": 2,
+    "grammarIds": [
+      "G04-02"
+    ],
+    "lessonId": "L04",
+    "japanesePrompt": "彼女は京都から東京へ来ます。",
+    "chunks": [
+      {
+        "id": "c1",
+        "pinyinMarked": "tā",
+        "pinyinPlain": "ta",
+        "hanzi": "她",
+        "meaningHint": "彼女"
+      },
+      {
+        "id": "c2",
+        "pinyinMarked": "cóng",
+        "pinyinPlain": "cong",
+        "hanzi": "从",
+        "meaningHint": "〜から"
+      },
+      {
+        "id": "c3",
+        "pinyinMarked": "Jīngdū",
+        "pinyinPlain": "jingdu",
+        "hanzi": "京都"
+      },
+      {
+        "id": "c4",
+        "pinyinMarked": "lái",
+        "pinyinPlain": "lai",
+        "hanzi": "来",
+        "meaningHint": "来る"
+      },
+      {
+        "id": "c5",
+        "pinyinMarked": "Dōngjīng",
+        "pinyinPlain": "dongjing",
+        "hanzi": "东京"
+      }
+    ],
+    "correctOrderIds": [
+      "c1",
+      "c2",
+      "c3",
+      "c4",
+      "c5"
+    ],
+    "modelAnswer": "她从京都来东京。",
+    "acceptableAnswers": [
+      "她从京都来东京。",
+      "她从京都来东京"
+    ],
+    "fullPinyin": "Tā cóng Jīngdū lái Dōngjīng.",
+    "structureBreakdown": [
+      {
+        "role": "S",
+        "label": "主語",
+        "text": "她",
+        "pinyin": "tā"
+      },
+      {
+        "role": "Prep",
+        "label": "起点介詞句",
+        "text": "从京都",
+        "pinyin": "cóng Jīngdū"
+      },
+      {
+        "role": "V",
+        "label": "動詞",
+        "text": "来",
+        "pinyin": "lái"
+      },
+      {
+        "role": "Loc",
+        "label": "着点",
+        "text": "东京",
+        "pinyin": "Dōngjīng"
+      }
+    ],
+    "explanation": "起点を表す介詞「从＋場所」も必ず動詞「来」の前に置きます。"
+  },
+  {
+    "id": "WP-S02-19",
+    "stageId": "stage02",
+    "difficulty": 2,
+    "grammarIds": [
+      "G04-02"
+    ],
+    "lessonId": "L04",
+    "japanesePrompt": "私は友達にテキストメッセージを送ります（電話をかけます）。",
+    "chunks": [
+      {
+        "id": "c1",
+        "pinyinMarked": "wǒ",
+        "pinyinPlain": "wo",
+        "hanzi": "我",
+        "meaningHint": "私"
+      },
+      {
+        "id": "c2",
+        "pinyinMarked": "gěi",
+        "pinyinPlain": "gei",
+        "hanzi": "给",
+        "meaningHint": "〜に（相手）"
+      },
+      {
+        "id": "c3",
+        "pinyinMarked": "péngyou",
+        "pinyinPlain": "pengyou",
+        "hanzi": "朋友"
+      },
+      {
+        "id": "c4",
+        "pinyinMarked": "dǎ diànhuà",
+        "pinyinPlain": "da dianhua",
+        "hanzi": "打电话"
+      }
+    ],
+    "correctOrderIds": [
+      "c1",
+      "c2",
+      "c3",
+      "c4"
+    ],
+    "modelAnswer": "我给朋友打电话。",
+    "acceptableAnswers": [
+      "我给朋友打电话。",
+      "我给朋友打电话"
+    ],
+    "fullPinyin": "Wǒ gěi péngyou dǎ diànhuà.",
+    "structureBreakdown": [
+      {
+        "role": "S",
+        "label": "主語",
+        "text": "我",
+        "pinyin": "wǒ"
+      },
+      {
+        "role": "Prep",
+        "label": "対象介詞句",
+        "text": "给朋友",
+        "pinyin": "gěi péngyou"
+      },
+      {
+        "role": "V",
+        "label": "動詞句",
+        "text": "打电话",
+        "pinyin": "dǎ diànhuà"
+      }
+    ],
+    "explanation": "「〜に電話をかける」は「给 + 人 + 打电话」の語順になります。対象を示す「给〜」は動詞の前に置きます。"
+  },
+  {
+    "id": "WP-S02-20",
+    "stageId": "stage02",
+    "difficulty": 3,
+    "grammarIds": [
+      "G04-02"
+    ],
+    "lessonId": "L04",
+    "japanesePrompt": "この電車は大阪から神戸まで行きます。",
+    "chunks": [
+      {
+        "id": "c1",
+        "pinyinMarked": "zhè bān chē",
+        "pinyinPlain": "zhe ban che",
+        "hanzi": "这班车"
+      },
+      {
+        "id": "c2",
+        "pinyinMarked": "cóng Dàbǎn",
+        "pinyinPlain": "cong daban",
+        "hanzi": "从大阪"
+      },
+      {
+        "id": "c3",
+        "pinyinMarked": "dào Shénhù",
+        "pinyinPlain": "dao shenhu",
+        "hanzi": "到神户"
+      },
+      {
+        "id": "c4",
+        "pinyinMarked": "qù",
+        "pinyinPlain": "qu",
+        "hanzi": "去",
+        "meaningHint": "行く"
+      }
+    ],
+    "correctOrderIds": [
+      "c1",
+      "c2",
+      "c3",
+      "c4"
+    ],
+    "modelAnswer": "这班车从大阪到神户去。",
+    "acceptableAnswers": [
+      "这班车从大阪到神户去。",
+      "这班车从大阪到神户去"
+    ],
+    "fullPinyin": "Zhè bān chē cóng Dàbǎn dào Shénhù qù.",
+    "structureBreakdown": [
+      {
+        "role": "S",
+        "label": "主語",
+        "text": "这班车",
+        "pinyin": "zhè bān chē"
+      },
+      {
+        "role": "Prep",
+        "label": "起点",
+        "text": "从大阪",
+        "pinyin": "cóng Dàbǎn"
+      },
+      {
+        "role": "Prep",
+        "label": "着点",
+        "text": "到神户",
+        "pinyin": "dào Shénhù"
+      },
+      {
+        "role": "V",
+        "label": "動詞",
+        "text": "去",
+        "pinyin": "qù"
+      }
+    ],
+    "explanation": "「从 A 到 B（AからBまで）」の介詞句を「去」の前に置いて移動区間を表します。"
+  },
+  {
+    "id": "WP-S02-21",
+    "stageId": "stage02",
+    "difficulty": 1,
+    "grammarIds": [
+      "G04-03",
+      "G04-01"
+    ],
+    "lessonId": "L04",
+    "japanesePrompt": "机の上に雑誌が2冊あります。",
+    "chunks": [
+      {
+        "id": "c1",
+        "pinyinMarked": "zhuōzi shàng",
+        "pinyinPlain": "zhuozi shang",
+        "hanzi": "桌子上"
+      },
+      {
+        "id": "c2",
+        "pinyinMarked": "yǒu",
+        "pinyinPlain": "you",
+        "hanzi": "有",
+        "meaningHint": "ある"
+      },
+      {
+        "id": "c3",
+        "pinyinMarked": "liǎng",
+        "pinyinPlain": "liang",
+        "hanzi": "两",
+        "meaningHint": "2（数量）"
+      },
+      {
+        "id": "c4",
+        "pinyinMarked": "běn",
+        "pinyinPlain": "ben",
+        "hanzi": "本",
+        "meaningHint": "（本・雑誌の量詞）"
+      },
+      {
+        "id": "c5",
+        "pinyinMarked": "zázhì",
+        "pinyinPlain": "zazhi",
+        "hanzi": "杂志"
+      }
+    ],
+    "correctOrderIds": [
+      "c1",
+      "c2",
+      "c3",
+      "c4",
+      "c5"
+    ],
+    "modelAnswer": "桌子上有两本杂志。",
+    "acceptableAnswers": [
+      "桌子上有两本杂志。",
+      "桌子上有两本杂志"
+    ],
+    "fullPinyin": "Zhuōzi shàng yǒu liǎng běn zázhì.",
+    "structureBreakdown": [
+      {
+        "role": "Loc",
+        "label": "場所",
+        "text": "桌子上",
+        "pinyin": "zhuōzi shàng"
+      },
+      {
+        "role": "V",
+        "label": "存在動詞",
+        "text": "有",
+        "pinyin": "yǒu"
+      },
+      {
+        "role": "Attr",
+        "label": "数詞＋量詞",
+        "text": "两本",
+        "pinyin": "liǎng běn"
+      },
+      {
+        "role": "O",
+        "label": "名詞",
+        "text": "杂志",
+        "pinyin": "zázhì"
+      }
+    ],
+    "explanation": "量詞の前に「2」を置くときは「二」ではなく必ず「两」を使います。本や雑誌の量詞は「本」です。"
+  },
+  {
+    "id": "WP-S02-22",
+    "stageId": "stage02",
+    "difficulty": 2,
+    "grammarIds": [
+      "G04-03"
+    ],
+    "lessonId": "L04",
+    "japanesePrompt": "私はコーヒーを2杯買います。",
+    "chunks": [
+      {
+        "id": "c1",
+        "pinyinMarked": "wǒ",
+        "pinyinPlain": "wo",
+        "hanzi": "我",
+        "meaningHint": "私"
+      },
+      {
+        "id": "c2",
+        "pinyinMarked": "mǎi",
+        "pinyinPlain": "mai",
+        "hanzi": "买",
+        "meaningHint": "買う"
+      },
+      {
+        "id": "c3",
+        "pinyinMarked": "liǎng",
+        "pinyinPlain": "liang",
+        "hanzi": "两",
+        "meaningHint": "2（数量）"
+      },
+      {
+        "id": "c4",
+        "pinyinMarked": "bēi",
+        "pinyinPlain": "bei",
+        "hanzi": "杯",
+        "meaningHint": "〜杯"
+      },
+      {
+        "id": "c5",
+        "pinyinMarked": "kāfēi",
+        "pinyinPlain": "kafei",
+        "hanzi": "咖啡"
+      }
+    ],
+    "correctOrderIds": [
+      "c1",
+      "c2",
+      "c3",
+      "c4",
+      "c5"
+    ],
+    "modelAnswer": "我买两杯咖啡。",
+    "acceptableAnswers": [
+      "我买两杯咖啡。",
+      "我买两杯咖啡"
+    ],
+    "fullPinyin": "Wǒ mǎi liǎng bēi kāfēi.",
+    "structureBreakdown": [
+      {
+        "role": "S",
+        "label": "主語",
+        "text": "我",
+        "pinyin": "wǒ"
+      },
+      {
+        "role": "V",
+        "label": "動詞",
+        "text": "买",
+        "pinyin": "mǎi"
+      },
+      {
+        "role": "Attr",
+        "label": "数詞＋量詞",
+        "text": "两杯",
+        "pinyin": "liǎng bēi"
+      },
+      {
+        "role": "O",
+        "label": "名詞",
+        "text": "咖啡",
+        "pinyin": "kāfēi"
+      }
+    ],
+    "explanation": "カップやコップに入った飲み物を数える量詞は「杯」です。「数詞(两) + 量詞(杯) + 名詞(咖啡)」の語順にします。"
+  },
+  {
+    "id": "WP-S02-23",
+    "stageId": "stage02",
+    "difficulty": 2,
+    "grammarIds": [
+      "G04-03",
+      "G03-01"
+    ],
+    "lessonId": "L04",
+    "japanesePrompt": "これら3枚の写真はいずれもきれいです。",
+    "chunks": [
+      {
+        "id": "c1",
+        "pinyinMarked": "zhè",
+        "pinyinPlain": "zhe",
+        "hanzi": "这",
+        "meaningHint": "この"
+      },
+      {
+        "id": "c2",
+        "pinyinMarked": "sān zhāng",
+        "pinyinPlain": "san zhang",
+        "hanzi": "三张",
+        "meaningHint": "3枚の"
+      },
+      {
+        "id": "c3",
+        "pinyinMarked": "zhàopiàn",
+        "pinyinPlain": "zhaopian",
+        "hanzi": "照片"
+      },
+      {
+        "id": "c4",
+        "pinyinMarked": "hěn",
+        "pinyinPlain": "hen",
+        "hanzi": "很",
+        "meaningHint": "とても"
+      },
+      {
+        "id": "c5",
+        "pinyinMarked": "hǎokàn",
+        "pinyinPlain": "haokan",
+        "hanzi": "好看"
+      }
+    ],
+    "correctOrderIds": [
+      "c1",
+      "c2",
+      "c3",
+      "c4",
+      "c5"
+    ],
+    "modelAnswer": "这三张照片很好看。",
+    "acceptableAnswers": [
+      "这三张照片很好看。",
+      "这三张照片很好看"
+    ],
+    "fullPinyin": "Zhè sān zhāng zhàopiàn hěn hǎokàn.",
+    "structureBreakdown": [
+      {
+        "role": "Attr",
+        "label": "指示＋数量",
+        "text": "这三张",
+        "pinyin": "zhè sān zhāng"
+      },
+      {
+        "role": "S",
+        "label": "主語名詞",
+        "text": "照片",
+        "pinyin": "zhàopiàn"
+      },
+      {
+        "role": "Adv",
+        "label": "程度副詞",
+        "text": "很",
+        "pinyin": "hěn"
+      },
+      {
+        "role": "V",
+        "label": "形容詞述語",
+        "text": "好看",
+        "pinyin": "hǎokàn"
+      }
+    ],
+    "explanation": "平らな物（写真・切符・机など）の量詞は「张」です。指示代詞と数詞を組み合わせるときは「这/那 + 数詞 + 量詞 + 名詞」の語順になります。"
+  },
+  {
+    "id": "WP-S02-24",
+    "stageId": "stage02",
+    "difficulty": 2,
+    "grammarIds": [
+      "G04-03",
+      "G04-01"
+    ],
+    "lessonId": "L04",
+    "japanesePrompt": "私には親しい中国人の友人が3人います。",
+    "chunks": [
+      {
+        "id": "c1",
+        "pinyinMarked": "wǒ",
+        "pinyinPlain": "wo",
+        "hanzi": "我",
+        "meaningHint": "私"
+      },
+      {
+        "id": "c2",
+        "pinyinMarked": "yǒu",
+        "pinyinPlain": "you",
+        "hanzi": "有",
+        "meaningHint": "いる"
+      },
+      {
+        "id": "c3",
+        "pinyinMarked": "sān wèi",
+        "pinyinPlain": "san wei",
+        "hanzi": "三位",
+        "meaningHint": "3名（丁寧）"
+      },
+      {
+        "id": "c4",
+        "pinyinMarked": "Zhōngguó",
+        "pinyinPlain": "zhongguo",
+        "hanzi": "中国"
+      },
+      {
+        "id": "c5",
+        "pinyinMarked": "péngyou",
+        "pinyinPlain": "pengyou",
+        "hanzi": "朋友"
+      }
+    ],
+    "correctOrderIds": [
+      "c1",
+      "c2",
+      "c3",
+      "c4",
+      "c5"
+    ],
+    "modelAnswer": "我有三位中国朋友。",
+    "acceptableAnswers": [
+      "我有三位中国朋友。",
+      "我有三位中国朋友"
+    ],
+    "fullPinyin": "Wǒ yǒu sān wèi Zhōngguó péngyou.",
+    "structureBreakdown": [
+      {
+        "role": "S",
+        "label": "主語",
+        "text": "我",
+        "pinyin": "wǒ"
+      },
+      {
+        "role": "V",
+        "label": "所有動詞",
+        "text": "有",
+        "pinyin": "yǒu"
+      },
+      {
+        "role": "Attr",
+        "label": "数詞＋量詞",
+        "text": "三位",
+        "pinyin": "sān wèi"
+      },
+      {
+        "role": "O",
+        "label": "名詞句",
+        "text": "中国朋友",
+        "pinyin": "Zhōngguó péngyou"
+      }
+    ],
+    "explanation": "人を丁寧に数える量詞は「位」です（通常の「个」も使えます）。修飾語「中国」は数量詞の後ろ・名詞の前に置きます。"
+  },
+  {
+    "id": "WP-S02-25",
+    "stageId": "stage02",
+    "difficulty": 1,
+    "grammarIds": [
+      "G04-04"
+    ],
+    "lessonId": "L04",
+    "japanesePrompt": "あなたはスーパーで何を買いますか？",
+    "chunks": [
+      {
+        "id": "c1",
+        "pinyinMarked": "nǐ",
+        "pinyinPlain": "ni",
+        "hanzi": "你",
+        "meaningHint": "あなた"
+      },
+      {
+        "id": "c2",
+        "pinyinMarked": "zài chāoshì",
+        "pinyinPlain": "zai chaoshi",
+        "hanzi": "在超市"
+      },
+      {
+        "id": "c3",
+        "pinyinMarked": "mǎi",
+        "pinyinPlain": "mai",
+        "hanzi": "买",
+        "meaningHint": "買う"
+      },
+      {
+        "id": "c4",
+        "pinyinMarked": "shénme",
+        "pinyinPlain": "shenme",
+        "hanzi": "什么",
+        "meaningHint": "何"
+      }
+    ],
+    "correctOrderIds": [
+      "c1",
+      "c2",
+      "c3",
+      "c4"
+    ],
+    "modelAnswer": "你在超市买什么？",
+    "acceptableAnswers": [
+      "你在超市买什么？",
+      "你在超市买什么"
+    ],
+    "fullPinyin": "Nǐ zài chāoshì mǎi shénme?",
+    "structureBreakdown": [
+      {
+        "role": "S",
+        "label": "主語",
+        "text": "你",
+        "pinyin": "nǐ"
+      },
+      {
+        "role": "Prep",
+        "label": "場所介詞句",
+        "text": "在超市",
+        "pinyin": "zài chāoshì"
+      },
+      {
+        "role": "V",
+        "label": "動詞",
+        "text": "买",
+        "pinyin": "mǎi"
+      },
+      {
+        "role": "O",
+        "label": "疑問詞",
+        "text": "什么",
+        "pinyin": "shénme"
+      }
+    ],
+    "explanation": "中国語の疑問詞疑問文は語順を変えず、答えが入る位置（ここでは目的語の位置）に「什么」を置きます。文末の「吗」は付けません。"
+  },
+  {
+    "id": "WP-S02-26",
+    "stageId": "stage02",
+    "difficulty": 2,
+    "grammarIds": [
+      "G04-04"
+    ],
+    "lessonId": "L04",
+    "japanesePrompt": "誰が図書館で本を読んでいますか？",
+    "chunks": [
+      {
+        "id": "c1",
+        "pinyinMarked": "shéi",
+        "pinyinPlain": "shei",
+        "hanzi": "谁",
+        "meaningHint": "誰"
+      },
+      {
+        "id": "c2",
+        "pinyinMarked": "zài",
+        "pinyinPlain": "zai",
+        "hanzi": "在",
+        "meaningHint": "〜で"
+      },
+      {
+        "id": "c3",
+        "pinyinMarked": "túshūguǎn",
+        "pinyinPlain": "tushuguan",
+        "hanzi": "图书馆"
+      },
+      {
+        "id": "c4",
+        "pinyinMarked": "kànshū",
+        "pinyinPlain": "kanshu",
+        "hanzi": "看书"
+      }
+    ],
+    "correctOrderIds": [
+      "c1",
+      "c2",
+      "c3",
+      "c4"
+    ],
+    "modelAnswer": "谁在图书馆看书？",
+    "acceptableAnswers": [
+      "谁在图书馆看书？",
+      "谁在图书馆看书"
+    ],
+    "fullPinyin": "Shéi zài túshūguǎn kànshū?",
+    "structureBreakdown": [
+      {
+        "role": "S",
+        "label": "疑問詞主語",
+        "text": "谁",
+        "pinyin": "shéi"
+      },
+      {
+        "role": "Prep",
+        "label": "場所介詞句",
+        "text": "在图书馆",
+        "pinyin": "zài túshūguǎn"
+      },
+      {
+        "role": "V",
+        "label": "動詞句",
+        "text": "看书",
+        "pinyin": "kànshū"
+      }
+    ],
+    "explanation": "主語を尋ねるときは主語の位置に「谁（shéi / shuí）」を置き、その後に「在＋場所＋動詞」を続けます。"
+  },
+  {
+    "id": "WP-S02-27",
+    "stageId": "stage02",
+    "difficulty": 2,
+    "grammarIds": [
+      "G04-04"
+    ],
+    "lessonId": "L04",
+    "japanesePrompt": "彼はどうして今日学校へ来ないのですか？",
+    "chunks": [
+      {
+        "id": "c1",
+        "pinyinMarked": "tā",
+        "pinyinPlain": "ta",
+        "hanzi": "他",
+        "meaningHint": "彼"
+      },
+      {
+        "id": "c2",
+        "pinyinMarked": "jīntiān",
+        "pinyinPlain": "jintian",
+        "hanzi": "今天"
+      },
+      {
+        "id": "c3",
+        "pinyinMarked": "wèishénme",
+        "pinyinPlain": "weishenme",
+        "hanzi": "为什么"
+      },
+      {
+        "id": "c4",
+        "pinyinMarked": "bù lái",
+        "pinyinPlain": "bu lai",
+        "hanzi": "不来",
+        "meaningHint": "来ない"
+      },
+      {
+        "id": "c5",
+        "pinyinMarked": "xuéxiào",
+        "pinyinPlain": "xuexiao",
+        "hanzi": "学校"
+      }
+    ],
+    "correctOrderIds": [
+      "c1",
+      "c2",
+      "c3",
+      "c4",
+      "c5"
+    ],
+    "modelAnswer": "他今天为什么不来学校？",
+    "acceptableAnswers": [
+      "他今天为什么不来学校？",
+      "今天他为什么不来学校？",
+      "为什么他今天不来学校？",
+      "他今天为什么不来学校",
+      "今天他为什么不来学校",
+      "为什么他今天不来学校"
+    ],
+    "fullPinyin": "Tā jīntiān wèishénme bù lái xuéxiào?",
+    "structureBreakdown": [
+      {
+        "role": "S",
+        "label": "主語",
+        "text": "他",
+        "pinyin": "tā"
+      },
+      {
+        "role": "Time",
+        "label": "時間詞",
+        "text": "今天",
+        "pinyin": "jīntiān"
+      },
+      {
+        "role": "Adv",
+        "label": "疑問副詞",
+        "text": "为什么",
+        "pinyin": "wèishénme"
+      },
+      {
+        "role": "V",
+        "label": "否定動詞",
+        "text": "不来",
+        "pinyin": "bù lái"
+      },
+      {
+        "role": "Loc",
+        "label": "目的地",
+        "text": "学校",
+        "pinyin": "xuéxiào"
+      }
+    ],
+    "explanation": "理由を尋ねる「为什么（なぜ）」は、通常主語と時間詞の後ろ・述語の前に置きます（主語の前に置くことも可能です）。"
+  }
+]

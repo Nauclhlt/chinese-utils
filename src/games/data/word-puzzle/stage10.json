@@ -1,0 +1,798 @@
+[
+  {
+    "id": "WP-S10-01",
+    "stageId": "stage10",
+    "difficulty": 1,
+    "grammarIds": ["G17-01"],
+    "lessonId": "L17",
+    "japanesePrompt": "週末に私たちはよく一緒に川辺へ散歩に行きます。",
+    "chunks": [
+      { "id": "c1", "pinyinMarked": "zhōumò", "pinyinPlain": "zhoumo", "hanzi": "周末", "meaningHint": "週末" },
+      { "id": "c2", "pinyinMarked": "wǒmen", "pinyinPlain": "women", "hanzi": "我们", "meaningHint": "私たち" },
+      { "id": "c3", "pinyinMarked": "chángcháng", "pinyinPlain": "changchang", "hanzi": "常常", "meaningHint": "よく・しばしば" },
+      { "id": "c4", "pinyinMarked": "yìqǐ", "pinyinPlain": "yiqi", "hanzi": "一起", "meaningHint": "一緒に" },
+      { "id": "c5", "pinyinMarked": "qù hébiān sànbù", "pinyinPlain": "qu hebian sanbu", "hanzi": "去河边散步", "meaningHint": "川辺へ散歩に行く" },
+      { "id": "d1", "pinyinMarked": "zhèngzài", "pinyinPlain": "zhengzai", "hanzi": "正在", "meaningHint": "今まさに〜している", "isDistractor": true }
+    ],
+    "correctOrderIds": ["c1", "c2", "c3", "c4", "c5"],
+    "modelAnswer": "周末我们常常一起去河边散步。",
+    "acceptableAnswers": [
+      "周末我们常常一起去河边散步。",
+      "我们周末常常一起去河边散步。"
+    ],
+    "fullPinyin": "Zhōumò wǒmen chángcháng yìqǐ qù hébiān sànbù.",
+    "structureBreakdown": [
+      { "role": "Time", "label": "時間", "text": "周末", "pinyin": "zhōumò" },
+      { "role": "S", "label": "主語", "text": "我们", "pinyin": "wǒmen" },
+      { "role": "Adv", "label": "頻度", "text": "常常", "pinyin": "chángcháng" },
+      { "role": "Adv", "label": "様態", "text": "一起", "pinyin": "yìqǐ" },
+      { "role": "V", "label": "連動文", "text": "去河边散步", "pinyin": "qù hébiān sànbù" }
+    ],
+    "explanation": "頻度副詞「常常」は主語「我们」の後ろ、副詞「一起」や動詞の前に置きます。習慣を表すため進行の「正在」は使いません。"
+  },
+  {
+    "id": "WP-S10-02",
+    "stageId": "stage10",
+    "difficulty": 2,
+    "grammarIds": ["G17-01", "G14-02"],
+    "lessonId": "L17",
+    "japanesePrompt": "冬になるといつも、彼は朝早く起きてランニングをします。",
+    "chunks": [
+      { "id": "c1", "pinyinMarked": "měi dào dōngtiān", "pinyinPlain": "mei dao dongtian", "hanzi": "每到冬天", "meaningHint": "冬になるたびに" },
+      { "id": "c2", "pinyinMarked": "tā", "pinyinPlain": "ta", "hanzi": "他", "meaningHint": "彼" },
+      { "id": "c3", "pinyinMarked": "zǒngshì", "pinyinPlain": "zongshi", "hanzi": "总是", "meaningHint": "いつも" },
+      { "id": "c4", "pinyinMarked": "zǎozǎo de qǐchuáng", "pinyinPlain": "zaozao de qichuang", "hanzi": "早早地起床", "meaningHint": "朝早く起きる" },
+      { "id": "c5", "pinyinMarked": "pǎobù", "pinyinPlain": "paobu", "hanzi": "跑步", "meaningHint": "ランニングする" }
+    ],
+    "correctOrderIds": ["c1", "c2", "c3", "c4", "c5"],
+    "modelAnswer": "每到冬天，他总是早早地起床跑步。",
+    "acceptableAnswers": [
+      "每到冬天，他总是早早地起床跑步。"
+    ],
+    "fullPinyin": "Měi dào dōngtiān, tā zǒngshì zǎozǎo de qǐchuáng pǎobù.",
+    "structureBreakdown": [
+      { "role": "Time", "label": "時期", "text": "每到冬天", "pinyin": "měi dào dōngtiān" },
+      { "role": "S", "label": "主語", "text": "他", "pinyin": "tā" },
+      { "role": "Adv", "label": "頻度", "text": "总是", "pinyin": "zǒngshì" },
+      { "role": "V", "label": "連用+動詞1", "text": "早早地起床", "pinyin": "zǎozǎo de qǐchuáng" },
+      { "role": "V", "label": "動詞2", "text": "跑步", "pinyin": "pǎobù" }
+    ],
+    "explanation": "「总是」は例外なく「いつも〜する」という高い頻度を表し、主語の後ろ・連用修飾句の前に置かれます。"
+  },
+  {
+    "id": "WP-S10-03",
+    "stageId": "stage10",
+    "difficulty": 1,
+    "grammarIds": ["G17-02"],
+    "lessonId": "L17",
+    "japanesePrompt": "図書館の中では静かにして、皆さんは大きな声で話さないでください。",
+    "chunks": [
+      { "id": "c1", "pinyinMarked": "túshūguǎn lǐ", "pinyinPlain": "tushuguan li", "hanzi": "图书馆里", "meaningHint": "図書館の中" },
+      { "id": "c2", "pinyinMarked": "bǎochí ānjìng", "pinyinPlain": "baochi anjing", "hanzi": "保持安静", "meaningHint": "静かさを保つ" },
+      { "id": "c3", "pinyinMarked": "qǐng dàjiā", "pinyinPlain": "qing dajia", "hanzi": "请大家", "meaningHint": "皆さんどうぞ" },
+      { "id": "c4", "pinyinMarked": "búyào", "pinyinPlain": "buyao", "hanzi": "不要", "meaningHint": "〜しないで" },
+      { "id": "c5", "pinyinMarked": "dàshēng shuōhuà", "pinyinPlain": "dasheng shuohua", "hanzi": "大声说话", "meaningHint": "大声で話す" },
+      { "id": "d1", "pinyinMarked": "méiyǒu", "pinyinPlain": "meiyou", "hanzi": "没有", "meaningHint": "〜しなかった", "isDistractor": true }
+    ],
+    "correctOrderIds": ["c1", "c2", "c3", "c4", "c5"],
+    "modelAnswer": "图书馆里保持安静，请大家不要大声说话。",
+    "acceptableAnswers": [
+      "图书馆里保持安静，请大家不要大声说话。"
+    ],
+    "fullPinyin": "Túshūguǎn lǐ bǎochí ānjìng, qǐng dàjiā búyào dàshēng shuōhuà.",
+    "structureBreakdown": [
+      { "role": "Loc", "label": "場所", "text": "图书馆里", "pinyin": "túshūguǎn lǐ" },
+      { "role": "V", "label": "動詞句", "text": "保持安静", "pinyin": "bǎochí ānjìng" },
+      { "role": "V", "label": "依頼", "text": "请大家", "pinyin": "qǐng dàjiā" },
+      { "role": "Neg", "label": "禁止", "text": "不要", "pinyin": "búyào" },
+      { "role": "V", "label": "動詞句", "text": "大声说话", "pinyin": "dàshēng shuōhuà" }
+    ],
+    "explanation": "禁止や制止を表すときは「不要 + 动词句」を用います。「请大家不要……」で丁寧な注意喚起になります。"
+  },
+  {
+    "id": "WP-S10-04",
+    "stageId": "stage10",
+    "difficulty": 2,
+    "grammarIds": ["G17-02"],
+    "lessonId": "L17",
+    "japanesePrompt": "明日は大切な面接があるので、今晩は早めに休む必要があります。",
+    "chunks": [
+      { "id": "c1", "pinyinMarked": "míngtiān yǒu", "pinyinPlain": "mingtian you", "hanzi": "明天有", "meaningHint": "明日〜がある" },
+      { "id": "c2", "pinyinMarked": "zhòngyào de miànshì", "pinyinPlain": "zhongyao de mianshi", "hanzi": "重要的面试", "meaningHint": "大切な面接" },
+      { "id": "c3", "pinyinMarked": "jīntiān wǎnshang", "pinyinPlain": "jintian wanshang", "hanzi": "今天晚上", "meaningHint": "今晩" },
+      { "id": "c4", "pinyinMarked": "yào", "pinyinPlain": "yao", "hanzi": "要", "meaningHint": "〜する必要がある" },
+      { "id": "c5", "pinyinMarked": "zǎodiǎn xiūxi", "pinyinPlain": "zaodian xiuxi", "hanzi": "早点休息", "meaningHint": "早めに休む" }
+    ],
+    "correctOrderIds": ["c1", "c2", "c3", "c4", "c5"],
+    "modelAnswer": "明天有重要的面试，今天晚上要早点休息。",
+    "acceptableAnswers": [
+      "明天有重要的面试，今天晚上要早点休息。"
+    ],
+    "fullPinyin": "Míngtiān yǒu zhòngyào de miànshì, jīntiān wǎnshang yào zǎodiǎn xiūxi.",
+    "structureBreakdown": [
+      { "role": "Time", "label": "時間+有", "text": "明天有", "pinyin": "míngtiān yǒu" },
+      { "role": "O", "label": "目的語", "text": "重要的面试", "pinyin": "zhòngyào de miànshì" },
+      { "role": "Time", "label": "時間", "text": "今天晚上", "pinyin": "jīntiān wǎnshang" },
+      { "role": "Aux", "label": "必要", "text": "要", "pinyin": "yào" },
+      { "role": "V", "label": "動詞句", "text": "早点休息", "pinyin": "zǎodiǎn xiūxi" }
+    ],
+    "explanation": "助動詞「要」は状況から見て「〜する必要がある／〜すべきだ」という必要性を表します。"
+  },
+  {
+    "id": "WP-S10-05",
+    "stageId": "stage10",
+    "difficulty": 1,
+    "grammarIds": ["G17-03"],
+    "lessonId": "L17",
+    "japanesePrompt": "教室の壁には世界地図が1枚掛かっています。",
+    "chunks": [
+      { "id": "c1", "pinyinMarked": "jiàoshì de qiáng shàng", "pinyinPlain": "jiaoshi de qiang shang", "hanzi": "教室的墙上", "meaningHint": "教室の壁の上" },
+      { "id": "c2", "pinyinMarked": "guà", "pinyinPlain": "gua", "hanzi": "挂", "meaningHint": "掛かる・掛ける" },
+      { "id": "c3", "pinyinMarked": "zhe", "pinyinPlain": "zhe", "hanzi": "着", "meaningHint": "〜ている（状態持続）" },
+      { "id": "c4", "pinyinMarked": "yì fú", "pinyinPlain": "yi fu", "hanzi": "一幅", "meaningHint": "1枚の（地図の量詞）" },
+      { "id": "c5", "pinyinMarked": "shìjiè dìtú", "pinyinPlain": "shijie ditu", "hanzi": "世界地图", "meaningHint": "世界地図" },
+      { "id": "d1", "pinyinMarked": "zài", "pinyinPlain": "zai", "hanzi": "在", "meaningHint": "〜にある", "isDistractor": true }
+    ],
+    "correctOrderIds": ["c1", "c2", "c3", "c4", "c5"],
+    "modelAnswer": "教室的墙上挂着一幅世界地图。",
+    "acceptableAnswers": [
+      "教室的墙上挂着一幅世界地图。"
+    ],
+    "fullPinyin": "Jiàoshì de qiáng shàng guà zhe yì fú shìjiè dìtú.",
+    "structureBreakdown": [
+      { "role": "Loc", "label": "場所", "text": "教室的墙上", "pinyin": "jiàoshì de qiáng shàng" },
+      { "role": "V", "label": "動詞", "text": "挂", "pinyin": "guà" },
+      { "role": "Aux", "label": "持続", "text": "着", "pinyin": "zhe" },
+      { "role": "O", "label": "不特定名詞", "text": "一幅世界地图", "pinyin": "yì fú shìjiè dìtú" }
+    ],
+    "explanation": "「場所 + 动词 + 着 + 不特定名詞」の存現文です。存在場所を文頭に置くため、介詞「在」は付けない点に注意しましょう。"
+  },
+  {
+    "id": "WP-S10-06",
+    "stageId": "stage10",
+    "difficulty": 2,
+    "grammarIds": ["G17-03"],
+    "lessonId": "L17",
+    "japanesePrompt": "正門の入口にシェアサイクルが数台停まっています。",
+    "chunks": [
+      { "id": "c1", "pinyinMarked": "dàménkǒu", "pinyinPlain": "damenkou", "hanzi": "大门口", "meaningHint": "正門の入口" },
+      { "id": "c2", "pinyinMarked": "tíng", "pinyinPlain": "ting", "hanzi": "停", "meaningHint": "停まる" },
+      { "id": "c3", "pinyinMarked": "zhe", "pinyinPlain": "zhe", "hanzi": "着", "meaningHint": "〜ている（持続）" },
+      { "id": "c4", "pinyinMarked": "jǐ liàng", "pinyinPlain": "ji liang", "hanzi": "几辆", "meaningHint": "数台の" },
+      { "id": "c5", "pinyinMarked": "gòngxiǎng dānchē", "pinyinPlain": "gongxiang danche", "hanzi": "共享单车", "meaningHint": "シェアサイクル" },
+      { "id": "d1", "pinyinMarked": "bǎ", "pinyinPlain": "ba", "hanzi": "把", "meaningHint": "〜を（処置）", "isDistractor": true }
+    ],
+    "correctOrderIds": ["c1", "c2", "c3", "c4", "c5"],
+    "modelAnswer": "大门口停着几辆共享单车。",
+    "acceptableAnswers": [
+      "大门口停着几辆共享单车。"
+    ],
+    "fullPinyin": "Dàménkǒu tíng zhe jǐ liàng gòngxiǎng dānchē.",
+    "structureBreakdown": [
+      { "role": "Loc", "label": "場所", "text": "大门口", "pinyin": "dàménkǒu" },
+      { "role": "V", "label": "動詞", "text": "停", "pinyin": "tíng" },
+      { "role": "Aux", "label": "持続", "text": "着", "pinyin": "zhe" },
+      { "role": "O", "label": "不特定名詞", "text": "几辆共享单车", "pinyin": "jǐ liàng gòngxiǎng dānchē" }
+    ],
+    "explanation": "存現文の動詞の後ろには「几辆共享单车」のように数量詞を伴う不特定の名詞を置きます。"
+  },
+  {
+    "id": "WP-S10-07",
+    "stageId": "stage10",
+    "difficulty": 3,
+    "grammarIds": ["G17-03", "G15-04"],
+    "lessonId": "L17",
+    "japanesePrompt": "さっき芝生の上を1匹の白い子犬が走ってきました。",
+    "chunks": [
+      { "id": "c1", "pinyinMarked": "gāngcái", "pinyinPlain": "gangcai", "hanzi": "刚才", "meaningHint": "さっき" },
+      { "id": "c2", "pinyinMarked": "cǎodì shàng", "pinyinPlain": "caodi shang", "hanzi": "草地上", "meaningHint": "芝生の上" },
+      { "id": "c3", "pinyinMarked": "pǎo guòlái", "pinyinPlain": "pao guolai", "hanzi": "跑过来", "meaningHint": "走ってくる" },
+      { "id": "c4", "pinyinMarked": "yì zhī", "pinyinPlain": "yi zhi", "hanzi": "一只", "meaningHint": "1匹の" },
+      { "id": "c5", "pinyinMarked": "báisè de xiǎogǒu", "pinyinPlain": "baise de xiaogou", "hanzi": "白色的小狗", "meaningHint": "白い子犬" }
+    ],
+    "correctOrderIds": ["c1", "c2", "c3", "c4", "c5"],
+    "modelAnswer": "刚才草地上跑过来一只白色的小狗。",
+    "acceptableAnswers": [
+      "刚才草地上跑过来一只白色的小狗。"
+    ],
+    "fullPinyin": "Gāngcái cǎodì shàng pǎo guòlái yì zhī báisè de xiǎogǒu.",
+    "structureBreakdown": [
+      { "role": "Time", "label": "時間", "text": "刚才", "pinyin": "gāngcái" },
+      { "role": "Loc", "label": "場所", "text": "草地上", "pinyin": "cǎodì shàng" },
+      { "role": "V", "label": "動詞+方向補語", "text": "跑过来", "pinyin": "pǎo guòlái" },
+      { "role": "O", "label": "不特定名詞", "text": "一只白色的小狗", "pinyin": "yì zhī báisè de xiǎogǒu" }
+    ],
+    "explanation": "存現文は「着」だけでなく「跑过来（走ってくる）」のような出現・移動を表す方向補語も後ろにとることができます。"
+  },
+  {
+    "id": "WP-S10-08",
+    "stageId": "stage10",
+    "difficulty": 2,
+    "grammarIds": ["G17-04"],
+    "lessonId": "L17",
+    "japanesePrompt": "彼はこんなに長い間練習したのだから、明日の試合はきっと問題ありません。",
+    "chunks": [
+      { "id": "c1", "pinyinMarked": "tā liànxí le", "pinyinPlain": "ta lianxi le", "hanzi": "他练习了", "meaningHint": "彼は練習した" },
+      { "id": "c2", "pinyinMarked": "zhème jiǔ", "pinyinPlain": "zheme jiu", "hanzi": "这么久", "meaningHint": "こんなに長い間" },
+      { "id": "c3", "pinyinMarked": "míngtiān de bǐsài", "pinyinPlain": "mingtian de bisai", "hanzi": "明天的比赛", "meaningHint": "明日の試合" },
+      { "id": "c4", "pinyinMarked": "kěndìng", "pinyinPlain": "kending", "hanzi": "肯定", "meaningHint": "きっと・確実に" },
+      { "id": "c5", "pinyinMarked": "méi wèntí", "pinyinPlain": "mei wenti", "hanzi": "没问题", "meaningHint": "問題ない" },
+      { "id": "d1", "pinyinMarked": "nándào", "pinyinPlain": "nandao", "hanzi": "难道", "meaningHint": "まさか〜だろうか", "isDistractor": true }
+    ],
+    "correctOrderIds": ["c1", "c2", "c3", "c4", "c5"],
+    "modelAnswer": "他练习了这么久，明天的比赛肯定没问题。",
+    "acceptableAnswers": [
+      "他练习了这么久，明天的比赛肯定没问题。"
+    ],
+    "fullPinyin": "Tā liànxí le zhème jiǔ, míngtiān de bǐsài kěndìng méi wèntí.",
+    "structureBreakdown": [
+      { "role": "S", "label": "主語", "text": "他", "pinyin": "tā" },
+      { "role": "V", "label": "動詞+補語", "text": "练习了这么久", "pinyin": "liànxí le zhème jiǔ" },
+      { "role": "S", "label": "話題", "text": "明天的比赛", "pinyin": "míngtiān de bǐsài" },
+      { "role": "Adv", "label": "確信", "text": "肯定", "pinyin": "kěndìng" },
+      { "role": "P", "label": "述語", "text": "没问题", "pinyin": "méi wèntí" }
+    ],
+    "explanation": "副詞「肯定」は強い確信「きっと〜だ／間違いなく〜だ」を表し、述語「没问题」の前に置きます。"
+  },
+  {
+    "id": "WP-S10-09",
+    "stageId": "stage10",
+    "difficulty": 1,
+    "grammarIds": ["G17-04"],
+    "lessonId": "L17",
+    "japanesePrompt": "週末に郊外へピクニックに行く？いいね、私はもちろん喜んで行きます！",
+    "chunks": [
+      { "id": "c1", "pinyinMarked": "zhōumò qù jiāowài yěcān", "pinyinPlain": "zhoumo qu jiaowai yecan", "hanzi": "周末去郊外野餐", "meaningHint": "週末に郊外へピクニック" },
+      { "id": "c2", "pinyinMarked": "hǎo a", "pinyinPlain": "hao a", "hanzi": "好啊", "meaningHint": "いいね" },
+      { "id": "c3", "pinyinMarked": "wǒ", "pinyinPlain": "wo", "hanzi": "我", "meaningHint": "私" },
+      { "id": "c4", "pinyinMarked": "dāngrán", "pinyinPlain": "dangran", "hanzi": "当然", "meaningHint": "もちろん" },
+      { "id": "c5", "pinyinMarked": "yuànyi qù", "pinyinPlain": "yuanyi qu", "hanzi": "愿意去", "meaningHint": "喜んで行く" }
+    ],
+    "correctOrderIds": ["c1", "c2", "c3", "c4", "c5"],
+    "modelAnswer": "周末去郊外野餐？好啊，我当然愿意去！",
+    "acceptableAnswers": [
+      "周末去郊外野餐？好啊，我当然愿意去！",
+      "周末去郊外野餐？好啊，当然我愿意去！"
+    ],
+    "fullPinyin": "Zhōumò qù jiāowài yěcān? Hǎo a, wǒ dāngrán yuànyi qù!",
+    "structureBreakdown": [
+      { "role": "Other", "label": "問いかけ", "text": "周末去郊外野餐？", "pinyin": "zhōumò qù jiāowài yěcān" },
+      { "role": "Other", "label": "応答", "text": "好啊", "pinyin": "hǎo a" },
+      { "role": "S", "label": "主語", "text": "我", "pinyin": "wǒ" },
+      { "role": "Adv", "label": "当然", "text": "当然", "pinyin": "dāngrán" },
+      { "role": "V", "label": "述語", "text": "愿意去", "pinyin": "yuànyi qù" }
+    ],
+    "explanation": "「当然」は「もちろん〜だ」という当然の肯定を表し、主語「我」の後ろ（または文頭）に置きます。"
+  },
+  {
+    "id": "WP-S10-10",
+    "stageId": "stage10",
+    "difficulty": 2,
+    "grammarIds": ["G17-05"],
+    "lessonId": "L17",
+    "japanesePrompt": "来週のインターンシップの予定について、先生はすでにメールを送りました。",
+    "chunks": [
+      { "id": "c1", "pinyinMarked": "guānyú", "pinyinPlain": "guanyu", "hanzi": "关于", "meaningHint": "〜について" },
+      { "id": "c2", "pinyinMarked": "xià zhōu de shíxí ānpái", "pinyinPlain": "xia zhou de shixi anpai", "hanzi": "下周的实习安排", "meaningHint": "来週のインターン予定" },
+      { "id": "c3", "pinyinMarked": "lǎoshī", "pinyinPlain": "laoshi", "hanzi": "老师", "meaningHint": "先生" },
+      { "id": "c4", "pinyinMarked": "yǐjīng", "pinyinPlain": "yijing", "hanzi": "已经", "meaningHint": "すでに" },
+      { "id": "c5", "pinyinMarked": "fā le yóujiàn", "pinyinPlain": "fa le youjian", "hanzi": "发了邮件", "meaningHint": "メールを送った" },
+      { "id": "d1", "pinyinMarked": "bǎ", "pinyinPlain": "ba", "hanzi": "把", "meaningHint": "〜を（処置）", "isDistractor": true }
+    ],
+    "correctOrderIds": ["c1", "c2", "c3", "c4", "c5"],
+    "modelAnswer": "关于下周的实习安排，老师已经发了邮件。",
+    "acceptableAnswers": [
+      "关于下周的实习安排，老师已经发了邮件。"
+    ],
+    "fullPinyin": "Guānyú xià zhōu de shíxí ānpái, lǎoshī yǐjīng fā le yóujiàn.",
+    "structureBreakdown": [
+      { "role": "Prep", "label": "関連話題", "text": "关于下周的实习安排", "pinyin": "guānyú xià zhōu de shíxí ānpái" },
+      { "role": "S", "label": "主語", "text": "老师", "pinyin": "lǎoshī" },
+      { "role": "Adv", "label": "完了副詞", "text": "已经", "pinyin": "yǐjīng" },
+      { "role": "V", "label": "動詞+了+目的語", "text": "发了邮件", "pinyin": "fā le yóujiàn" }
+    ],
+    "explanation": "「关于 + 名詞句」で文全体のトピックを提示するときは、主語の前（文頭）に置くのが基本です。"
+  },
+  {
+    "id": "WP-S10-11",
+    "stageId": "stage10",
+    "difficulty": 2,
+    "grammarIds": ["G17-05"],
+    "lessonId": "L17",
+    "japanesePrompt": "新鮮な果物を多く食べることは、体の健康にとってとても良いことです。",
+    "chunks": [
+      { "id": "c1", "pinyinMarked": "duō chī xīnxiān shuǐguǒ", "pinyinPlain": "duo chi xinxian shuiguo", "hanzi": "多吃新鲜水果", "meaningHint": "新鮮な果物を多く食べる" },
+      { "id": "c2", "pinyinMarked": "duì", "pinyinPlain": "dui", "hanzi": "对", "meaningHint": "〜に対して・〜にとって" },
+      { "id": "c3", "pinyinMarked": "shēntǐ jiànkāng", "pinyinPlain": "shenti jiankang", "hanzi": "身体健康", "meaningHint": "体の健康" },
+      { "id": "c4", "pinyinMarked": "hěn yǒu", "pinyinPlain": "hen you", "hanzi": "很有", "meaningHint": "とてもある" },
+      { "id": "c5", "pinyinMarked": "hǎochù", "pinyinPlain": "haochu", "hanzi": "好处", "meaningHint": "良い点・メリット" },
+      { "id": "d1", "pinyinMarked": "guānyú", "pinyinPlain": "guanyu", "hanzi": "关于", "meaningHint": "〜に関して", "isDistractor": true }
+    ],
+    "correctOrderIds": ["c1", "c2", "c3", "c4", "c5"],
+    "modelAnswer": "多吃新鲜水果对身体健康很有好处。",
+    "acceptableAnswers": [
+      "多吃新鲜水果对身体健康很有好处。"
+    ],
+    "fullPinyin": "Duō chī xīnxiān shuǐguǒ duì shēntǐ jiànkāng hěn yǒu hǎochù.",
+    "structureBreakdown": [
+      { "role": "S", "label": "主語句", "text": "多吃新鲜水果", "pinyin": "duō chī xīnxiān shuǐguǒ" },
+      { "role": "Prep", "label": "対象", "text": "对身体健康", "pinyin": "duì shēntǐ jiànkāng" },
+      { "role": "P", "label": "述語", "text": "很有好处", "pinyin": "hěn yǒu hǎochù" }
+    ],
+    "explanation": "「〜にとって有益だ／影響がある」のように対象を示すときは「关于」ではなく介詞「对」を使います（主語の後ろ・述語の前に置きます）。"
+  },
+  {
+    "id": "WP-S10-12",
+    "stageId": "stage10",
+    "difficulty": 2,
+    "grammarIds": ["G18-01"],
+    "lessonId": "L18",
+    "japanesePrompt": "この春雨は降れば降るほど強くなり、街の人はますます少なくなりました。",
+    "chunks": [
+      { "id": "c1", "pinyinMarked": "zhè chǎng chūnyǔ", "pinyinPlain": "zhe chang chunyu", "hanzi": "这场春雨", "meaningHint": "この春雨" },
+      { "id": "c2", "pinyinMarked": "yuè xià yuè dà", "pinyinPlain": "yue xia yue da", "hanzi": "越下越大", "meaningHint": "降れば降るほど大きくなる" },
+      { "id": "c3", "pinyinMarked": "jiē shàng de rén", "pinyinPlain": "jie shang de ren", "hanzi": "街上的人", "meaningHint": "通りの人" },
+      { "id": "c4", "pinyinMarked": "yuèláiyuè", "pinyinPlain": "yuelaiyue", "hanzi": "越来越", "meaningHint": "ますます" },
+      { "id": "c5", "pinyinMarked": "shǎo le", "pinyinPlain": "shao le", "hanzi": "少了", "meaningHint": "少なくなった" },
+      { "id": "d1", "pinyinMarked": "gèng", "pinyinPlain": "geng", "hanzi": "更", "meaningHint": "さらに", "isDistractor": true }
+    ],
+    "correctOrderIds": ["c1", "c2", "c3", "c4", "c5"],
+    "modelAnswer": "这场春雨越下越大，街上的人越来越少了。",
+    "acceptableAnswers": [
+      "这场春雨越下越大，街上的人越来越少了。"
+    ],
+    "fullPinyin": "Zhè chǎng chūnyǔ yuè xià yuè dà, jiē shàng de rén yuèláiyuè shǎo le.",
+    "structureBreakdown": [
+      { "role": "S", "label": "主語1", "text": "这场春雨", "pinyin": "zhè chǎng chūnyǔ" },
+      { "role": "P", "label": "比例変化", "text": "越下越大", "pinyin": "yuè xià yuè dà" },
+      { "role": "S", "label": "主語2", "text": "街上的人", "pinyin": "jiē shàng de rén" },
+      { "role": "Adv", "label": "時間的変化", "text": "越来越", "pinyin": "yuèláiyuè" },
+      { "role": "P", "label": "形容詞+了", "text": "少了", "pinyin": "shǎo le" }
+    ],
+    "explanation": "「越 A 越 B（〜すればするほど〜）」と「越来越 + 形容詞（だんだん〜になる）」の2つの変化表現を組み合わせた文です。"
+  },
+  {
+    "id": "WP-S10-13",
+    "stageId": "stage10",
+    "difficulty": 1,
+    "grammarIds": ["G18-01"],
+    "lessonId": "L18",
+    "japanesePrompt": "中国語は学べば学ぶほど面白くなり、私は毎日もう少し練習したくなります。",
+    "chunks": [
+      { "id": "c1", "pinyinMarked": "Hànyǔ", "pinyinPlain": "Hanyu", "hanzi": "汉语", "meaningHint": "中国語" },
+      { "id": "c2", "pinyinMarked": "yuè xué", "pinyinPlain": "yue xue", "hanzi": "越学", "meaningHint": "学べば学ぶほど" },
+      { "id": "c3", "pinyinMarked": "yuè yǒuyìsi", "pinyinPlain": "yue youyisi", "hanzi": "越有意思", "meaningHint": "ますます面白い" },
+      { "id": "c4", "pinyinMarked": "wǒ měitiān dōu xiǎng", "pinyinPlain": "wo meitian dou xiang", "hanzi": "我每天都想", "meaningHint": "私は毎日〜したい" },
+      { "id": "c5", "pinyinMarked": "duō liàn yíhuìr", "pinyinPlain": "duo lian yihuir", "hanzi": "多练一会儿", "meaningHint": "もう少し多く練習する" }
+    ],
+    "correctOrderIds": ["c1", "c2", "c3", "c4", "c5"],
+    "modelAnswer": "汉语越学越有意思，我每天都想多练一会儿。",
+    "acceptableAnswers": [
+      "汉语越学越有意思，我每天都想多练一会儿。"
+    ],
+    "fullPinyin": "Hànyǔ yuè xué yuè yǒuyìsi, wǒ měitiān dōu xiǎng duō liàn yíhuìr.",
+    "structureBreakdown": [
+      { "role": "S", "label": "話題", "text": "汉语", "pinyin": "hànyǔ" },
+      { "role": "Adv", "label": "条件変化", "text": "越学", "pinyin": "yuè xué" },
+      { "role": "P", "label": "結果変化", "text": "越有意思", "pinyin": "yuè yǒuyìsi" },
+      { "role": "S", "label": "主語+願望", "text": "我每天都想", "pinyin": "wǒ měitiān dōu xiǎng" },
+      { "role": "V", "label": "動詞句", "text": "多练一会儿", "pinyin": "duō liàn yíhuìr" }
+    ],
+    "explanation": "「越学越有意思」は「学べば学ぶほど面白くなる」の定番表現です。「越」の後ろには「很」を付けません。"
+  },
+  {
+    "id": "WP-S10-14",
+    "stageId": "stage10",
+    "difficulty": 3,
+    "grammarIds": ["G18-01", "G12-03"],
+    "lessonId": "L18",
+    "japanesePrompt": "高く立てば立つほど遠くまで見えて、景色もいっそう壮観になります。",
+    "chunks": [
+      { "id": "c1", "pinyinMarked": "zhàn de", "pinyinPlain": "zhan de", "hanzi": "站得", "meaningHint": "立つのが（程度）" },
+      { "id": "c2", "pinyinMarked": "yuè gāo", "pinyinPlain": "yue gao", "hanzi": "越高", "meaningHint": "高いほど" },
+      { "id": "c3", "pinyinMarked": "kàn de", "pinyinPlain": "kan de", "hanzi": "看得", "meaningHint": "見るのが（程度）" },
+      { "id": "c4", "pinyinMarked": "yuè yuǎn", "pinyinPlain": "yue yuan", "hanzi": "越远", "meaningHint": "より遠く" },
+      { "id": "c5", "pinyinMarked": "fēngjǐng yě yuè zhuàngguān", "pinyinPlain": "fengjing ye yue zhuangguan", "hanzi": "风景也越壮观", "meaningHint": "景色もより壮観だ" },
+      { "id": "d1", "pinyinMarked": "hěn", "pinyinPlain": "hen", "hanzi": "很", "meaningHint": "とても", "isDistractor": true }
+    ],
+    "correctOrderIds": ["c1", "c2", "c3", "c4", "c5"],
+    "modelAnswer": "站得越高，看得越远，风景也越壮观。",
+    "acceptableAnswers": [
+      "站得越高，看得越远，风景也越壮观。"
+    ],
+    "fullPinyin": "Zhàn de yuè gāo, kàn de yuè yuǎn, fēngjǐng yě yuè zhuàngguān.",
+    "structureBreakdown": [
+      { "role": "V", "label": "動詞+得", "text": "站得", "pinyin": "zhàn de" },
+      { "role": "C", "label": "比例補語1", "text": "越高", "pinyin": "yuè gāo" },
+      { "role": "V", "label": "動詞+得", "text": "看得", "pinyin": "kàn de" },
+      { "role": "C", "label": "比例補語2", "text": "越远", "pinyin": "yuè yuǎn" },
+      { "role": "S", "label": "主語+比例3", "text": "风景也越壮观", "pinyin": "fēngjǐng yě yuè zhuàngguān" }
+    ],
+    "explanation": "程度補語と「越……越……」を組み合わせて「V得越 + 形容詞」の形を作っています。「越」の後ろには「很」を置けません。"
+  },
+  {
+    "id": "WP-S10-15",
+    "stageId": "stage10",
+    "difficulty": 1,
+    "grammarIds": ["G18-02", "G09-04"],
+    "lessonId": "L18",
+    "japanesePrompt": "私は大切な領収書を引き出しの中に入れておきました。",
+    "chunks": [
+      { "id": "c1", "pinyinMarked": "wǒ bǎ", "pinyinPlain": "wo ba", "hanzi": "我把", "meaningHint": "私は〜を" },
+      { "id": "c2", "pinyinMarked": "zhòngyào de fāpiào", "pinyinPlain": "zhongyao de fapiao", "hanzi": "重要的发票", "meaningHint": "大切な領収書" },
+      { "id": "c3", "pinyinMarked": "fàng zài", "pinyinPlain": "fang zai", "hanzi": "放在", "meaningHint": "〜に置く（定着）" },
+      { "id": "c4", "pinyinMarked": "chōuti lǐ", "pinyinPlain": "chouti li", "hanzi": "抽屉里", "meaningHint": "引き出しの中" },
+      { "id": "c5", "pinyinMarked": "le", "pinyinPlain": "le", "hanzi": "了", "meaningHint": "完了" },
+      { "id": "d1", "pinyinMarked": "zhe", "pinyinPlain": "zhe", "hanzi": "着", "meaningHint": "〜ている", "isDistractor": true }
+    ],
+    "correctOrderIds": ["c1", "c2", "c3", "c4", "c5"],
+    "modelAnswer": "我把重要的发票放在抽屉里了。",
+    "acceptableAnswers": [
+      "我把重要的发票放在抽屉里了。"
+    ],
+    "fullPinyin": "Wǒ bǎ zhòngyào de fāpiào fàng zài chōuti lǐ le.",
+    "structureBreakdown": [
+      { "role": "S", "label": "主語", "text": "我", "pinyin": "wǒ" },
+      { "role": "Prep", "label": "把+対象", "text": "把重要的发票", "pinyin": "bǎ zhòngyào de fāpiào" },
+      { "role": "V", "label": "動詞+在", "text": "放在", "pinyin": "fàng zai" },
+      { "role": "Loc", "label": "定着場所", "text": "抽屉里", "pinyin": "chōuti lǐ" },
+      { "role": "Other", "label": "完了", "text": "了", "pinyin": "le" }
+    ],
+    "explanation": "「把 + O + 动词 + 在 + 场所」で、動作の結果として物がある場所に定着・位置することを表します。"
+  },
+  {
+    "id": "WP-S10-16",
+    "stageId": "stage10",
+    "difficulty": 2,
+    "grammarIds": ["G18-02", "G09-04"],
+    "lessonId": "L18",
+    "japanesePrompt": "あなたの名前と連絡先をこの表の上に書いてください。",
+    "chunks": [
+      { "id": "c1", "pinyinMarked": "qǐng bǎ", "pinyinPlain": "qing ba", "hanzi": "请把", "meaningHint": "どうぞ〜を" },
+      { "id": "c2", "pinyinMarked": "nǐ de míngzi hé liánxì fāngshì", "pinyinPlain": "ni de mingzi he lianxi fangshi", "hanzi": "你的名字和联系方式", "meaningHint": "あなたの名前と連絡先" },
+      { "id": "c3", "pinyinMarked": "xiě", "pinyinPlain": "xie", "hanzi": "写", "meaningHint": "書く" },
+      { "id": "c4", "pinyinMarked": "zài", "pinyinPlain": "zai", "hanzi": "在", "meaningHint": "〜に（定着位置）" },
+      { "id": "c5", "pinyinMarked": "zhè zhāng biǎogé shàng", "pinyinPlain": "zhe zhang biaoge shang", "hanzi": "这张表格上", "meaningHint": "この表の上" },
+      { "id": "d1", "pinyinMarked": "bèi", "pinyinPlain": "bei", "hanzi": "被", "meaningHint": "〜される", "isDistractor": true }
+    ],
+    "correctOrderIds": ["c1", "c2", "c3", "c4", "c5"],
+    "modelAnswer": "请把你的名字和联系方式写在这张表格上。",
+    "acceptableAnswers": [
+      "请把你的名字和联系方式写在这张表格上。"
+    ],
+    "fullPinyin": "Qǐng bǎ nǐ de míngzi hé liánxì fāngshì xiě zài zhè zhāng biǎogé shàng.",
+    "structureBreakdown": [
+      { "role": "V", "label": "依頼", "text": "请", "pinyin": "qǐng" },
+      { "role": "Prep", "label": "把+対象", "text": "把你的名字和联系方式", "pinyin": "bǎ nǐ de míngzi hé liánxì fāngshì" },
+      { "role": "V", "label": "動詞", "text": "写", "pinyin": "xiě" },
+      { "role": "Prep", "label": "定着", "text": "在", "pinyin": "zài" },
+      { "role": "Loc", "label": "場所", "text": "这张表格上", "pinyin": "zhè zhāng biǎogé shàng" }
+    ],
+    "explanation": "「写在……」は「〜に書いて残す（定着させる）」という意味で、「在」が動詞の後ろに置かれます（動詞の前の「在」＝動作の行われる場所、とは意味が異なります）。"
+  },
+  {
+    "id": "WP-S10-17",
+    "stageId": "stage10",
+    "difficulty": 2,
+    "grammarIds": ["G18-03", "G12-03"],
+    "lessonId": "L18",
+    "japanesePrompt": "昨日はとても遅く寝たにもかかわらず、彼は今日も依然として元気いっぱいです。",
+    "chunks": [
+      { "id": "c1", "pinyinMarked": "jǐnguǎn", "pinyinPlain": "jinguan", "hanzi": "尽管", "meaningHint": "〜にもかかわらず" },
+      { "id": "c2", "pinyinMarked": "zuótiān shuì de hěn wǎn", "pinyinPlain": "zuotian shui de hen wan", "hanzi": "昨天睡得很晚", "meaningHint": "昨日とても遅く寝た" },
+      { "id": "c3", "pinyinMarked": "dànshì", "pinyinPlain": "danshi", "hanzi": "但是", "meaningHint": "しかし" },
+      { "id": "c4", "pinyinMarked": "tā jīntiān", "pinyinPlain": "ta jintian", "hanzi": "他今天", "meaningHint": "彼は今日" },
+      { "id": "c5", "pinyinMarked": "jīngshén yīrán hěn hǎo", "pinyinPlain": "jingshen yiran hen hao", "hanzi": "精神依然很好", "meaningHint": "依然として元気だ" },
+      { "id": "d1", "pinyinMarked": "yīnwèi", "pinyinPlain": "yinwei", "hanzi": "因为", "meaningHint": "なぜなら", "isDistractor": true }
+    ],
+    "correctOrderIds": ["c1", "c2", "c3", "c4", "c5"],
+    "modelAnswer": "尽管昨天睡得很晚，但是他今天精神依然很好。",
+    "acceptableAnswers": [
+      "尽管昨天睡得很晚，但是他今天精神依然很好。",
+      "昨天尽管睡得很晚，但是他今天精神依然很好。"
+    ],
+    "fullPinyin": "Jǐnguǎn zuótiān shuì de hěn wǎn, dànshì tā jīntiān jīngshén yīrán hěn hǎo.",
+    "structureBreakdown": [
+      { "role": "Conj", "label": "譲歩", "text": "尽管", "pinyin": "jǐnguǎn" },
+      { "role": "V", "label": "事実節", "text": "昨天睡得很晚", "pinyin": "zuótiān shuì de hěn wǎn" },
+      { "role": "Conj", "label": "逆接", "text": "但是", "pinyin": "dànshì" },
+      { "role": "S", "label": "主語+時間", "text": "他今天", "pinyin": "tā jīntiān" },
+      { "role": "P", "label": "主述述語", "text": "精神依然很好", "pinyin": "jīngshén yīrán hěn hǎo" }
+    ],
+    "explanation": "譲歩の「尽管……，但是……」は、「虽然……，但是……」よりも「〜という事実があるにもかかわらず」という逆説のニュアンスが強い表現です。"
+  },
+  {
+    "id": "WP-S10-18",
+    "stageId": "stage10",
+    "difficulty": 2,
+    "grammarIds": ["G18-03"],
+    "lessonId": "L18",
+    "japanesePrompt": "道のりがとても遠いにもかかわらず、みんなやはり歩いて山頂へ行くことに決めました。",
+    "chunks": [
+      { "id": "c1", "pinyinMarked": "jǐnguǎn", "pinyinPlain": "jinguan", "hanzi": "尽管", "meaningHint": "〜にもかかわらず" },
+      { "id": "c2", "pinyinMarked": "lùtú hěn yuǎn", "pinyinPlain": "lutu hen yuan", "hanzi": "路途很远", "meaningHint": "道のりがとても遠い" },
+      { "id": "c3", "pinyinMarked": "dàjiā", "pinyinPlain": "dajia", "hanzi": "大家", "meaningHint": "みんな" },
+      { "id": "c4", "pinyinMarked": "háishi", "pinyinPlain": "haishi", "hanzi": "还是", "meaningHint": "それでもやはり" },
+      { "id": "c5", "pinyinMarked": "juédìng bùxíng qù shāndǐng", "pinyinPlain": "jueding buxing qu shanding", "hanzi": "决定步行去山顶", "meaningHint": "歩いて山頂へ行くと決める" }
+    ],
+    "correctOrderIds": ["c1", "c2", "c3", "c4", "c5"],
+    "modelAnswer": "尽管路途很远，大家还是决定步行去山顶。",
+    "acceptableAnswers": [
+      "尽管路途很远，大家还是决定步行去山顶。"
+    ],
+    "fullPinyin": "Jǐnguǎn lùtú hěn yuǎn, dàjiā háishi juédìng bùxíng qù shāndǐng.",
+    "structureBreakdown": [
+      { "role": "Conj", "label": "譲歩", "text": "尽管", "pinyin": "jǐnguǎn" },
+      { "role": "P", "label": "事実節", "text": "路途很远", "pinyin": "lùtú hěn yuǎn" },
+      { "role": "S", "label": "主語", "text": "大家", "pinyin": "dàjiā" },
+      { "role": "Adv", "label": "譲歩呼応", "text": "还是", "pinyin": "háishi" },
+      { "role": "V", "label": "動詞句", "text": "决定步行去山顶", "pinyin": "juédìng bùxíng qù shāndǐng" }
+    ],
+    "explanation": "「尽管……，……还是……」で、厳しい条件にもかかわらず当初の意志を変えない様子を表します。「还是」は主語「大家」の後ろに置きます。"
+  },
+  {
+    "id": "WP-S10-19",
+    "stageId": "stage10",
+    "difficulty": 1,
+    "grammarIds": ["G18-04"],
+    "lessonId": "L18",
+    "japanesePrompt": "朝一番の飛行機に間に合うために、私たちは5時に出発しました。",
+    "chunks": [
+      { "id": "c1", "pinyinMarked": "wèile", "pinyinPlain": "weile", "hanzi": "为了", "meaningHint": "〜するために" },
+      { "id": "c2", "pinyinMarked": "gǎnshàng zǎobān fēijī", "pinyinPlain": "ganshang zaoban feiji", "hanzi": "赶上早班飞机", "meaningHint": "早朝便に間に合う" },
+      { "id": "c3", "pinyinMarked": "wǒmen", "pinyinPlain": "women", "hanzi": "我们", "meaningHint": "私たち" },
+      { "id": "c4", "pinyinMarked": "wǔ diǎn jiù", "pinyinPlain": "wu dian jiu", "hanzi": "五点就", "meaningHint": "5時にはもう" },
+      { "id": "c5", "pinyinMarked": "chūfā le", "pinyinPlain": "chufa le", "hanzi": "出发了", "meaningHint": "出発した" },
+      { "id": "d1", "pinyinMarked": "yīnwèi", "pinyinPlain": "yinwei", "hanzi": "因为", "meaningHint": "〜なので（原因）", "isDistractor": true }
+    ],
+    "correctOrderIds": ["c1", "c2", "c3", "c4", "c5"],
+    "modelAnswer": "为了赶上早班飞机，我们五点就出发了。",
+    "acceptableAnswers": [
+      "为了赶上早班飞机，我们五点就出发了。",
+      "我们为了赶上早班飞机，五点就出发了。"
+    ],
+    "fullPinyin": "Wèile gǎnshàng zǎobān fēijī, wǒmen wǔ diǎn jiù chūfā le.",
+    "structureBreakdown": [
+      { "role": "Prep", "label": "目的", "text": "为了赶上早班飞机", "pinyin": "wèile gǎnshàng zǎobān fēijī" },
+      { "role": "S", "label": "主語", "text": "我们", "pinyin": "wǒmen" },
+      { "role": "Time", "label": "時間+就", "text": "五点就", "pinyin": "wǔ diǎn jiù" },
+      { "role": "V", "label": "動詞+了", "text": "出发了", "pinyin": "chūfā le" }
+    ],
+    "explanation": "「为了 + 目的」を文頭に置き、目的を明示します。すでに達成された原因を述べる「因为」と区別しましょう。"
+  },
+  {
+    "id": "WP-S10-20",
+    "stageId": "stage10",
+    "difficulty": 3,
+    "grammarIds": ["G18-04"],
+    "lessonId": "L18",
+    "japanesePrompt": "彼女が毎日30個の単語を覚えるのは、読解スピードを上げるためです。",
+    "chunks": [
+      { "id": "c1", "pinyinMarked": "tā měitiān", "pinyinPlain": "ta meitian", "hanzi": "她每天", "meaningHint": "彼女は毎日" },
+      { "id": "c2", "pinyinMarked": "bèi sānshí ge dāncí", "pinyinPlain": "bei sanshi ge danci", "hanzi": "背三十个单词", "meaningHint": "30個の単語を暗記する" },
+      { "id": "c3", "pinyinMarked": "shì wèile", "pinyinPlain": "shi weile", "hanzi": "是为了", "meaningHint": "〜するためである" },
+      { "id": "c4", "pinyinMarked": "tígāo", "pinyinPlain": "tigao", "hanzi": "提高", "meaningHint": "高める・向上させる" },
+      { "id": "c5", "pinyinMarked": "yuèdú sùdù", "pinyinPlain": "yuedu sudu", "hanzi": "阅读速度", "meaningHint": "読解スピード" }
+    ],
+    "correctOrderIds": ["c1", "c2", "c3", "c4", "c5"],
+    "modelAnswer": "她每天背三十个单词，是为了提高阅读速度。",
+    "acceptableAnswers": [
+      "她每天背三十个单词，是为了提高阅读速度。",
+      "她每天背三十个单词是为了提高阅读速度。"
+    ],
+    "fullPinyin": "Tā měitiān bèi sānshí ge dāncí, shì wèile tígāo yuèdú sùdù.",
+    "structureBreakdown": [
+      { "role": "S", "label": "行為節", "text": "她每天背三十个单词", "pinyin": "tā měitiān bèi sānshí ge dāncí" },
+      { "role": "V", "label": "判断+目的", "text": "是为了", "pinyin": "shì wèile" },
+      { "role": "O", "label": "目的句", "text": "提高阅读速度", "pinyin": "tígāo yuèdú sùdù" }
+    ],
+    "explanation": "「（行為）是为了（目的）」の形で「〜するのは〜するためだ」と目的を文の後半で説明することもできます。"
+  },
+  {
+    "id": "WP-S10-21",
+    "stageId": "stage10",
+    "difficulty": 1,
+    "grammarIds": ["G19-01"],
+    "lessonId": "L19",
+    "japanesePrompt": "昨晩彼は11時半になってようやく家に戻りました。",
+    "chunks": [
+      { "id": "c1", "pinyinMarked": "zuówǎn", "pinyinPlain": "zuowan", "hanzi": "昨晚", "meaningHint": "昨晩" },
+      { "id": "c2", "pinyinMarked": "tā zhídào", "pinyinPlain": "ta zhidao", "hanzi": "他直到", "meaningHint": "彼は〜になってようやく" },
+      { "id": "c3", "pinyinMarked": "shíyī diǎn bàn", "pinyinPlain": "shiyi dian ban", "hanzi": "十一点半", "meaningHint": "11時半" },
+      { "id": "c4", "pinyinMarked": "cái", "pinyinPlain": "cai", "hanzi": "才", "meaningHint": "やっと（遅い）" },
+      { "id": "c5", "pinyinMarked": "huí dào jiā", "pinyinPlain": "hui dao jia", "hanzi": "回到家", "meaningHint": "家に戻った" },
+      { "id": "d1", "pinyinMarked": "jiù", "pinyinPlain": "jiu", "hanzi": "就", "meaningHint": "もう（早い）", "isDistractor": true }
+    ],
+    "correctOrderIds": ["c1", "c2", "c3", "c4", "c5"],
+    "modelAnswer": "昨晚他直到十一点半才回到家。",
+    "acceptableAnswers": [
+      "昨晚他直到十一点半才回到家。",
+      "他昨晚直到十一点半才回到家。"
+    ],
+    "fullPinyin": "Zuówǎn tā zhídào shíyī diǎn bàn cái huí dào jiā.",
+    "structureBreakdown": [
+      { "role": "Time", "label": "時間", "text": "昨晚", "pinyin": "zuówǎn" },
+      { "role": "S", "label": "主語", "text": "他", "pinyin": "tā" },
+      { "role": "Prep", "label": "時点", "text": "直到十一点半", "pinyin": "zhídào shíyī diǎn bàn" },
+      { "role": "Adv", "label": "遅延", "text": "才", "pinyin": "cái" },
+      { "role": "V", "label": "動詞+補語", "text": "回到家", "pinyin": "huí dào jiā" }
+    ],
+    "explanation": "話し手が時間を「遅い」と感じているときは「才」を用います。また「才」の文では基本的に文末に「了」を付けません（重要ルール）。"
+  },
+  {
+    "id": "WP-S10-22",
+    "stageId": "stage10",
+    "difficulty": 2,
+    "grammarIds": ["G19-01"],
+    "lessonId": "L19",
+    "japanesePrompt": "毎日続けて音読してこそ、会話のレベルが初めて向上します。",
+    "chunks": [
+      { "id": "c1", "pinyinMarked": "zhǐyǒu", "pinyinPlain": "zhiyou", "hanzi": "只有", "meaningHint": "〜してこそ（必要条件）" },
+      { "id": "c2", "pinyinMarked": "měitiān jiānchí lǎngdú", "pinyinPlain": "meitian jianchi langdu", "hanzi": "每天坚持朗读", "meaningHint": "毎日続けて音読する" },
+      { "id": "c3", "pinyinMarked": "kǒuyǔ shuǐpíng", "pinyinPlain": "kouyu shuiping", "hanzi": "口语水平", "meaningHint": "会話レベル" },
+      { "id": "c4", "pinyinMarked": "cái néng", "pinyinPlain": "cai neng", "hanzi": "才能", "meaningHint": "初めて〜できる" },
+      { "id": "c5", "pinyinMarked": "tígāo", "pinyinPlain": "tigao", "hanzi": "提高", "meaningHint": "向上する" },
+      { "id": "d1", "pinyinMarked": "jiù néng", "pinyinPlain": "jiu neng", "hanzi": "就能", "meaningHint": "すぐ〜できる", "isDistractor": true }
+    ],
+    "correctOrderIds": ["c1", "c2", "c3", "c4", "c5"],
+    "modelAnswer": "只有每天坚持朗读，口语水平才能提高。",
+    "acceptableAnswers": [
+      "只有每天坚持朗读，口语水平才能提高。"
+    ],
+    "fullPinyin": "Zhǐyǒu měitiān jiānchí lǎngdú, kǒuyǔ shuǐpíng cái néng tígāo.",
+    "structureBreakdown": [
+      { "role": "Conj", "label": "必要条件", "text": "只有", "pinyin": "zhǐyǒu" },
+      { "role": "V", "label": "条件節", "text": "每天坚持朗读", "pinyin": "měitiān jiānchí lǎngdú" },
+      { "role": "S", "label": "主語", "text": "口语水平", "pinyin": "kǒuyǔ shuǐpíng" },
+      { "role": "Adv", "label": "呼応+可能", "text": "才能", "pinyin": "cái néng" },
+      { "role": "V", "label": "動詞", "text": "提高", "pinyin": "tígāo" }
+    ],
+    "explanation": "必要条件「只有……，才……」は「〜して初めて〜できる」を表し、「只要……，就……」と明確に区別されます。"
+  },
+  {
+    "id": "WP-S10-23",
+    "stageId": "stage10",
+    "difficulty": 2,
+    "grammarIds": ["G19-02", "G06-01"],
+    "lessonId": "L19",
+    "japanesePrompt": "みんながこのプランに同意している以上、私たちはすぐ始めましょう。",
+    "chunks": [
+      { "id": "c1", "pinyinMarked": "jìrán", "pinyinPlain": "jiran", "hanzi": "既然", "meaningHint": "〜である以上" },
+      { "id": "c2", "pinyinMarked": "dàjiā dōu tóngyì", "pinyinPlain": "dajia dou tongyi", "hanzi": "大家都同意", "meaningHint": "みんな賛成している" },
+      { "id": "c3", "pinyinMarked": "zhège fāng'àn", "pinyinPlain": "zhege fang'an", "hanzi": "这个方案", "meaningHint": "このプラン" },
+      { "id": "c4", "pinyinMarked": "wǒmen jiù", "pinyinPlain": "women jiu", "hanzi": "我们就", "meaningHint": "それなら私たちは" },
+      { "id": "c5", "pinyinMarked": "mǎshàng kāishǐ ba", "pinyinPlain": "mashang kaishi ba", "hanzi": "马上开始吧", "meaningHint": "すぐ始めよう" },
+      { "id": "d1", "pinyinMarked": "suīrán", "pinyinPlain": "suiran", "hanzi": "虽然", "meaningHint": "〜だけれども", "isDistractor": true }
+    ],
+    "correctOrderIds": ["c1", "c2", "c3", "c4", "c5"],
+    "modelAnswer": "既然大家都同意这个方案，我们就马上开始吧。",
+    "acceptableAnswers": [
+      "既然大家都同意这个方案，我们就马上开始吧。"
+    ],
+    "fullPinyin": "Jìrán dàjiā dōu tóngyì zhège fāng'àn, wǒmen jiù mǎshàng kāishǐ ba.",
+    "structureBreakdown": [
+      { "role": "Conj", "label": "既定事実", "text": "既然", "pinyin": "jìrán" },
+      { "role": "S", "label": "事実節", "text": "大家都同意这个方案", "pinyin": "dàjiā dōu tóngyì zhège fāng'àn" },
+      { "role": "S", "label": "主語", "text": "我们", "pinyin": "wǒmen" },
+      { "role": "Adv", "label": "推論・提案", "text": "就", "pinyin": "jiù" },
+      { "role": "V", "label": "動詞句+吧", "text": "马上开始吧", "pinyin": "mǎshàng kāishǐ ba" }
+    ],
+    "explanation": "「既然……，就……」はすでに明らかな事実（みんなが同意していること）を前提に、次の提案や結論を導く構文です。"
+  },
+  {
+    "id": "WP-S10-24",
+    "stageId": "stage10",
+    "difficulty": 2,
+    "grammarIds": ["G19-02"],
+    "lessonId": "L19",
+    "japanesePrompt": "あなたがもう切符を買ったのなら、元の予定通りに出発しましょう。",
+    "chunks": [
+      { "id": "c1", "pinyinMarked": "jìrán nǐ", "pinyinPlain": "jiran ni", "hanzi": "既然你", "meaningHint": "あなたが〜である以上" },
+      { "id": "c2", "pinyinMarked": "yǐjīng mǎi le chēpiào", "pinyinPlain": "yijing mai le chepiao", "hanzi": "已经买了车票", "meaningHint": "すでに切符を買った" },
+      { "id": "c3", "pinyinMarked": "nà jiù", "pinyinPlain": "na jiu", "hanzi": "那就", "meaningHint": "それなら" },
+      { "id": "c4", "pinyinMarked": "àn yuán jìhuà", "pinyinPlain": "an yuan jihua", "hanzi": "按原计划", "meaningHint": "元の予定通りに" },
+      { "id": "c5", "pinyinMarked": "chūfā ba", "pinyinPlain": "chufa ba", "hanzi": "出发吧", "meaningHint": "出発しよう" }
+    ],
+    "correctOrderIds": ["c1", "c2", "c3", "c4", "c5"],
+    "modelAnswer": "既然你已经买了车票，那就按原计划出发吧。",
+    "acceptableAnswers": [
+      "既然你已经买了车票，那就按原计划出发吧。"
+    ],
+    "fullPinyin": "Jìrán nǐ yǐjīng mǎi le chēpiào, nà jiù àn yuán jìhuà chūfā ba.",
+    "structureBreakdown": [
+      { "role": "Conj", "label": "既定事実", "text": "既然", "pinyin": "jìrán" },
+      { "role": "S", "label": "事実節", "text": "你已经买了车票", "pinyin": "nǐ yǐjīng mǎi le chēpiào" },
+      { "role": "Conj", "label": "帰結", "text": "那就", "pinyin": "nà jiù" },
+      { "role": "Prep", "label": "基準", "text": "按原计划", "pinyin": "àn yuán jìhuà" },
+      { "role": "V", "label": "動詞+吧", "text": "出发吧", "pinyin": "chūfā ba" }
+    ],
+    "explanation": "後節では「那就……」と受けて相手の行為に応じた自然な提案をしています。"
+  },
+  {
+    "id": "WP-S10-25",
+    "stageId": "stage10",
+    "difficulty": 2,
+    "grammarIds": ["G19-03"],
+    "lessonId": "L19",
+    "japanesePrompt": "今回のスピーチコンテストに私はどうしても参加しなければならず、必ず全力を尽くします。",
+    "chunks": [
+      { "id": "c1", "pinyinMarked": "zhè cì yǎnjiǎng bǐsài", "pinyinPlain": "zhe ci yanjiang bisai", "hanzi": "这次演讲比赛", "meaningHint": "今回のスピーチ大会" },
+      { "id": "c2", "pinyinMarked": "wǒ", "pinyinPlain": "wo", "hanzi": "我", "meaningHint": "私" },
+      { "id": "c3", "pinyinMarked": "fēi cānjiā", "pinyinPlain": "fei canjia", "hanzi": "非参加", "meaningHint": "どうしても参加する" },
+      { "id": "c4", "pinyinMarked": "bù kě", "pinyinPlain": "bu ke", "hanzi": "不可", "meaningHint": "〜ずにはいられない" },
+      { "id": "c5", "pinyinMarked": "yídìng yào quánlì yǐ fù", "pinyinPlain": "yiding yao quanli yi fu", "hanzi": "一定要全力以赴", "meaningHint": "必ず全力を尽くす" },
+      { "id": "d1", "pinyinMarked": "bù néng", "pinyinPlain": "bu neng", "hanzi": "不能", "meaningHint": "〜できない", "isDistractor": true }
+    ],
+    "correctOrderIds": ["c1", "c2", "c3", "c4", "c5"],
+    "modelAnswer": "这次演讲比赛我非参加不可，一定要全力以赴。",
+    "acceptableAnswers": [
+      "这次演讲比赛我非参加不可，一定要全力以赴。"
+    ],
+    "fullPinyin": "Zhè cì yǎnjiǎng bǐsài wǒ fēi cānjiā bù kě, yídìng yào quánlì yǐ fù.",
+    "structureBreakdown": [
+      { "role": "O", "label": "話題/対象", "text": "这次演讲比赛", "pinyin": "zhè cì yǎnjiǎng bǐsài" },
+      { "role": "S", "label": "主語", "text": "我", "pinyin": "wǒ" },
+      { "role": "Adv", "label": "二重否定", "text": "非……不可", "pinyin": "fēi cānjiā bù kě" },
+      { "role": "V", "label": "決意文", "text": "一定要全力以赴", "pinyin": "yídìng yào quánlì yǐ fù" }
+    ],
+    "explanation": "「非 + 动词 + 不可」は「〜しなければ済まない／どうしても〜する」という強い決意を表す二重否定構文です。"
+  },
+  {
+    "id": "WP-S10-26",
+    "stageId": "stage10",
+    "difficulty": 3,
+    "grammarIds": ["G19-03"],
+    "lessonId": "L19",
+    "japanesePrompt": "外国語を1つしっかり身につけるには、多くの時間をかけて練習するほかありません。",
+    "chunks": [
+      { "id": "c1", "pinyinMarked": "yào xuéhǎo", "pinyinPlain": "yao xuehao", "hanzi": "要学好", "meaningHint": "しっかり学ぶには" },
+      { "id": "c2", "pinyinMarked": "yì mén wàiyǔ", "pinyinPlain": "yi men waiyu", "hanzi": "一门外语", "meaningHint": "1つの外国語" },
+      { "id": "c3", "pinyinMarked": "fēi", "pinyinPlain": "fei", "hanzi": "非", "meaningHint": "ぜひ〜しなければ" },
+      { "id": "c4", "pinyinMarked": "huā dàliàng shíjiān liànxí", "pinyinPlain": "hua daliang shijian lianxi", "hanzi": "花大量时间练习", "meaningHint": "多くの時間をかけて練習する" },
+      { "id": "c5", "pinyinMarked": "bù kě", "pinyinPlain": "bu ke", "hanzi": "不可", "meaningHint": "〜ずには済まない" }
+    ],
+    "correctOrderIds": ["c1", "c2", "c3", "c4", "c5"],
+    "modelAnswer": "要学好一门外语，非花大量时间练习不可。",
+    "acceptableAnswers": [
+      "要学好一门外语，非花大量时间练习不可。"
+    ],
+    "fullPinyin": "Yào xuéhǎo yì mén wàiyǔ, fēi huā dàliàng shíjiān liànxí bù kě.",
+    "structureBreakdown": [
+      { "role": "V", "label": "前提目的", "text": "要学好一门外语", "pinyin": "yào xuéhǎo yì mén wàiyǔ" },
+      { "role": "Adv", "label": "必須1", "text": "非", "pinyin": "fēi" },
+      { "role": "V", "label": "必須条件", "text": "花大量时间练习", "pinyin": "huā dàliàng shíjiān liànxí" },
+      { "role": "Neg", "label": "必須2", "text": "不可", "pinyin": "bù kě" }
+    ],
+    "explanation": "「非」と「不可」の間に長い動詞フレーズ「花大量时间练习」を挟み、「どうしても〜する必要がある」という客観的必須を表します。"
+  },
+  {
+    "id": "WP-S10-27",
+    "stageId": "stage10",
+    "difficulty": 2,
+    "grammarIds": ["G19-04"],
+    "lessonId": "L19",
+    "japanesePrompt": "景色の良いところがあればどこへでも、私たちは写真撮影に行って記念を残します。",
+    "chunks": [
+      { "id": "c1", "pinyinMarked": "nǎr fēngjǐng hǎo", "pinyinPlain": "nar fengjing hao", "hanzi": "哪儿风景好", "meaningHint": "どこが景色が良ければ" },
+      { "id": "c2", "pinyinMarked": "wǒmen jiù", "pinyinPlain": "women jiu", "hanzi": "我们就", "meaningHint": "私たちはそこへ" },
+      { "id": "c3", "pinyinMarked": "qù nǎr", "pinyinPlain": "qu nar", "hanzi": "去哪儿", "meaningHint": "どこへでも行く" },
+      { "id": "c4", "pinyinMarked": "pāizhào", "pinyinPlain": "paizhao", "hanzi": "拍照", "meaningHint": "写真を撮る" },
+      { "id": "c5", "pinyinMarked": "liúniàn", "pinyinPlain": "liunian", "hanzi": "留念", "meaningHint": "記念にする" },
+      { "id": "d1", "pinyinMarked": "shénme", "pinyinPlain": "shenme", "hanzi": "什么", "meaningHint": "何", "isDistractor": true }
+    ],
+    "correctOrderIds": ["c1", "c2", "c3", "c4", "c5"],
+    "modelAnswer": "哪儿风景好，我们就去哪儿拍照留念。",
+    "acceptableAnswers": [
+      "哪儿风景好，我们就去哪儿拍照留念。",
+      "哪里风景好，我们就去哪里拍照留念。"
+    ],
+    "fullPinyin": "Nǎr fēngjǐng hǎo, wǒmen jiù qù nǎr pāizhào liúniàn.",
+    "structureBreakdown": [
+      { "role": "Loc", "label": "不定場所1", "text": "哪儿风景好", "pinyin": "nǎr fēngjǐng hǎo" },
+      { "role": "S", "label": "主語+就", "text": "我们就", "pinyin": "wǒmen jiù" },
+      { "role": "V", "label": "不定場所2", "text": "去哪儿", "pinyin": "qù nǎr" },
+      { "role": "V", "label": "連動", "text": "拍照留念", "pinyin": "pāizhào liúniàn" }
+    ],
+    "explanation": "同じ疑問詞を前後で呼応させる「哪儿……，就……哪儿」構文です。特定の場所を決めず「〜なところならどこへでも」を表します。"
+  }
+]

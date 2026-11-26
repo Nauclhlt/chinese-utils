@@ -1,0 +1,545 @@
+[
+  {
+    "id": "GC-S10-01",
+    "stageId": "stage10",
+    "type": "spot",
+    "difficulty": 2,
+    "grammarIds": ["G17-03"],
+    "lessonId": "L17",
+    "promptJa": "誤っている箇所をタップしてください。（意味：机の上には開いたノートが1冊置かれています。）",
+    "tokens": ["在", "桌子", "上", "放着", "一本", "打开", "的", "笔记本", "。"],
+    "sentenceZh": "在桌子上放着一本打开的笔记本。",
+    "errorIndices": [0],
+    "correctedSentence": "桌子上放着一本打开的笔记本。",
+    "acceptableSentences": [
+      "桌子上放着一本打开的笔记本。",
+      "桌上放着一本打开的笔记本。"
+    ],
+    "pinyin": "Zhuōzi shàng fàng zhe yì běn dǎkāi de bǐjìběn.",
+    "explanation": "存現文（場所＋動詞＋着＋不特定名詞）では、文頭の場所詞の前に前置詞「在」を付けません。「桌子上放着……」とします。",
+    "pitfallNote": "「桌子上」が文の主題・場所主語になるため、「在」を付けると非文法的になります。"
+  },
+  {
+    "id": "GC-S10-02",
+    "stageId": "stage10",
+    "type": "spot",
+    "difficulty": 2,
+    "grammarIds": ["G17-05"],
+    "lessonId": "L17",
+    "promptJa": "誤っている箇所をタップしてください。（意味：私は中国の伝統音楽にとても興味があります。）",
+    "tokens": ["我", "关于", "中国", "传统", "音乐", "很", "感兴趣", "。"],
+    "sentenceZh": "我关于中国传统音乐很感兴趣。",
+    "errorIndices": [1],
+    "correctedSentence": "我对中国传统音乐很感兴趣。",
+    "acceptableSentences": [
+      "我对中国传统音乐很感兴趣。",
+      "关于中国传统音乐，我很感兴趣。"
+    ],
+    "pinyin": "Wǒ duì Zhōngguó chuántǒng yīnyuè hěn gǎn xìngqù.",
+    "explanation": "感情・興味・態度の対象（「〜に対して興味がある」）を表すときは「关于」ではなく「对」を使います。また「关于」は主語の後ろに置けません。",
+    "pitfallNote": "「感兴趣（興味がある）」のパートナーは常に「对〜感兴趣」です。「关于」と混同しないようにしましょう。"
+  },
+  {
+    "id": "GC-S10-03",
+    "stageId": "stage10",
+    "type": "spot",
+    "difficulty": 2,
+    "grammarIds": ["G18-02"],
+    "lessonId": "L18",
+    "promptJa": "誤っている箇所をタップしてください。（意味：私の祖父母は京都の北部に住んでいます。）",
+    "tokens": ["我", "爷爷", "奶奶", "在", "京都", "北边", "住", "。"],
+    "sentenceZh": "我爷爷奶奶在京都北边住。",
+    "errorIndices": [3],
+    "correctedSentence": "我爷爷奶奶住在京都北边。",
+    "acceptableSentences": [
+      "我爷爷奶奶住在京都北边。",
+      "我爷爷奶奶住在京都的北边。"
+    ],
+    "pinyin": "Wǒ yéye nǎinai zhù zài Jīngdū běibiān.",
+    "explanation": "「住（住む）」は動作の結果としてある場所に定着する動詞なので、場所詞の前に「在」を置くのではなく動詞の後ろに「住在＋場所」の形をとります。",
+    "pitfallNote": "「在教室里上课（動作の場）」と「住在京都（定着先）」では「在」の位置が逆になります。"
+  },
+  {
+    "id": "GC-S10-04",
+    "stageId": "stage10",
+    "type": "spot",
+    "difficulty": 2,
+    "grammarIds": ["G19-04"],
+    "lessonId": "L19",
+    "promptJa": "誤っている箇所をタップしてください。（意味：この部屋では、誰でも好きな席に座ってよいです。）",
+    "tokens": ["在这儿", "，", "谁", "想", "坐", "哪儿", "就", "坐", "哪儿", "吗", "？"],
+    "sentenceZh": "在这儿，谁想坐哪儿就坐哪儿吗？",
+    "errorIndices": [9],
+    "correctedSentence": "在这儿，谁想坐哪儿就坐哪儿。",
+    "acceptableSentences": [
+      "在这儿，谁想坐哪儿就坐哪儿。",
+      "在这儿，你想坐哪儿就坐哪儿。"
+    ],
+    "pinyin": "Zài zhèr, shéi xiǎng zuò nǎr jiù zuò nǎr.",
+    "explanation": "「哪儿……就……哪儿」という疑問詞の呼応構文は疑問文ではなく平叙文（任意・不定の表現）なので、文末の「吗」と「？」は不要です。",
+    "pitfallNote": "「哪儿」や「谁」が含まれていても、同じ疑問詞で呼応する文は平叙文になる点に気をつけましょう。"
+  },
+  {
+    "id": "GC-S10-05",
+    "stageId": "stage10",
+    "type": "replace",
+    "difficulty": 2,
+    "grammarIds": ["G17-02"],
+    "lessonId": "L17",
+    "promptJa": "誤っている語句を正しい表現に置き換えてください。（意味：A「明日の資料は印刷する必要がありますか？」B「いいえ、必要ありません。」）",
+    "tokens": ["明天", "的", "资料", "，", "其实", "不要", "打印", "，", "看", "电子版", "就", "行", "。"],
+    "sentenceZh": "明天的资料，其实不要打印，看电子版就行。",
+    "errorIndices": [5],
+    "choices": ["不用", "不能", "不想", "不会"],
+    "correctedSentence": "明天的资料，其实不用打印，看电子版就行。",
+    "acceptableSentences": [
+      "明天的资料，其实不用打印，看电子版就行。",
+      "明天的资料，其实不必打印，看电子版就行。"
+    ],
+    "pinyin": "Míngtiān de zīliào, qíshí búyòng dǎyìn, kàn diànzǐbǎn jiù xíng.",
+    "explanation": "「〜する必要がない」を表すときは「不要（〜するな＝禁止）」ではなく「不用」または「不必」を使います。",
+    "pitfallNote": "「要（必要だ）」の否定を「不要」にすると禁止の意味になってしまうため、不要・不必要には必ず「不用」を使います。"
+  },
+  {
+    "id": "GC-S10-06",
+    "stageId": "stage10",
+    "type": "replace",
+    "difficulty": 2,
+    "grammarIds": ["G18-03"],
+    "lessonId": "L18",
+    "promptJa": "誤っている語句を正しい表現に置き換えてください。（意味：外はとても暑いですが、彼は毎日ジョギングを続けています。）",
+    "tokens": ["尽管", "外面", "很", "热", "，", "所以", "他", "还是", "每天", "坚持", "跑步", "。"],
+    "sentenceZh": "尽管外面很热，所以他还是每天坚持跑步。",
+    "errorIndices": [5],
+    "choices": ["但是", "因此", "因为", "而且"],
+    "correctedSentence": "尽管外面很热，但是他还是每天坚持跑步。",
+    "acceptableSentences": [
+      "尽管外面很热，但是他还是每天坚持跑步。",
+      "尽管外面很热，可是他还是每天坚持跑步。",
+      "尽管外面很热，他还是每天坚持跑步。"
+    ],
+    "pinyin": "Jǐnguǎn wàimiàn hěn rè, dànshì tā háishi měitiān jiānchí pǎobù.",
+    "explanation": "譲歩の「尽管」と呼応して逆接の結果を導くのは「所以」ではなく、「但是 / 可是 / 然而」です。",
+    "pitfallNote": "「尽管……，但是 / 还是……」は譲歩構文です。因果の「所以」を混ぜないようにしましょう。"
+  },
+  {
+    "id": "GC-S10-07",
+    "stageId": "stage10",
+    "type": "replace",
+    "difficulty": 2,
+    "grammarIds": ["G18-04"],
+    "lessonId": "L18",
+    "promptJa": "誤っている語句を正しい表現に置き換えてください。（意味：昨日から風邪を引いてしまったので、今日の講義に出られませんでした。）",
+    "tokens": ["为了", "昨天", "感冒", "了", "，", "我", "没", "去", "听", "讲座", "。"],
+    "sentenceZh": "为了昨天感冒了，我没去听讲座。",
+    "errorIndices": [0],
+    "choices": ["因为", "关于", "对于", "虽然"],
+    "correctedSentence": "因为昨天感冒了，我没去听讲座。",
+    "acceptableSentences": [
+      "因为昨天感冒了，我没去听讲座。"
+    ],
+    "pinyin": "Yīnwèi zuótiān gǎnmào le, wǒ méi qù tīng jiǎngzuò.",
+    "explanation": "「为了」はこれから実現したい目的（「〜するために」）を表します。すでに起きた原因・理由（「〜したので」）を表すには「因为」を使います。",
+    "pitfallNote": "「〜のため」という日本語に引かれて、原因と目的を取り違えないように注意しましょう。"
+  },
+  {
+    "id": "GC-S10-08",
+    "stageId": "stage10",
+    "type": "replace",
+    "difficulty": 2,
+    "grammarIds": ["G19-02"],
+    "lessonId": "L19",
+    "promptJa": "誤っている語句を正しい表現に置き換えてください。（意味：せっかくみんな集まったのだから、一緒に記念写真を撮りましょう。）",
+    "tokens": ["既然", "大家", "都", "来齐", "了", "，", "所以", "一起", "拍", "张", "合影", "吧", "。"],
+    "sentenceZh": "既然大家都来齐了，所以一起拍张合影吧。",
+    "errorIndices": [6],
+    "choices": ["就", "还", "再", "才"],
+    "correctedSentence": "既然大家都来齐了，就一起拍张合影吧。",
+    "acceptableSentences": [
+      "既然大家都来齐了，就一起拍张合影吧。"
+    ],
+    "pinyin": "Jìrán dàjiā dōu láiqí le, jiù yìqǐ pāi zhāng héyǐng ba.",
+    "explanation": "既定事実を踏まえた提案・推論の「既然」と呼応するのは「所以」ではなく、「就」です。",
+    "pitfallNote": "「既然……，就……」はセットです。「所以」は「因为」と呼応する語なので「既然」と組み合わせません。"
+  },
+  {
+    "id": "GC-S10-09",
+    "stageId": "stage10",
+    "type": "delete",
+    "difficulty": 2,
+    "grammarIds": ["G18-01"],
+    "lessonId": "L18",
+    "promptJa": "不要な語句を1つ削除してください。（意味：この街の地下鉄はますます便利になってきています。）",
+    "tokens": ["这个", "城市", "的", "地铁", "越来越", "很", "方便", "了", "。"],
+    "sentenceZh": "这个城市的地铁越来越很方便了。",
+    "errorIndices": [5],
+    "correctedSentence": "这个城市的地铁越来越方便了。",
+    "acceptableSentences": [
+      "这个城市的地铁越来越方便了。",
+      "这座城市的地铁越来越方便了。"
+    ],
+    "pinyin": "Zhège chéngshì de dìtiě yuèláiyuè fāngbiàn le.",
+    "explanation": "「越来越」自体が程度変化（「ますます〜」）を表す副詞であるため、後ろの形容詞に「很」を付けることはできません。",
+    "pitfallNote": "「越来越＋形容詞」の間に「很」や「非常」を入れないのがルールです。"
+  },
+  {
+    "id": "GC-S10-10",
+    "stageId": "stage10",
+    "type": "delete",
+    "difficulty": 2,
+    "grammarIds": ["G19-01"],
+    "lessonId": "L19",
+    "promptJa": "不要な語句を1つ削除してください。（意味：昨晩、父は夜11時になってようやく帰宅しました。）",
+    "tokens": ["昨晚", "爸爸", "晚上", "十一点", "才", "回家", "了", "。"],
+    "sentenceZh": "昨晚爸爸晚上十一点才回家了。",
+    "errorIndices": [6],
+    "correctedSentence": "昨晚爸爸晚上十一点才回家。",
+    "acceptableSentences": [
+      "昨晚爸爸晚上十一点才回家。",
+      "昨晚爸爸十一点才回家。"
+    ],
+    "pinyin": "Zuówǎn bàba wǎnshang shíyī diǎn cái huíjiā.",
+    "explanation": "過去の動作が遅かったこと・やっと行われたことを表す「才」を用いた文では、原則として文末に「了」を付けません。",
+    "pitfallNote": "「才」と文末の「了」は相性が悪く、過去の出来事でも「才＋V」で「了」を省くのが標準的です（一方、「就」は「了」を伴えます）。"
+  },
+  {
+    "id": "GC-S10-11",
+    "stageId": "stage10",
+    "type": "delete",
+    "difficulty": 2,
+    "grammarIds": ["G17-01"],
+    "lessonId": "L17",
+    "promptJa": "不要な語句を1つ削除してください。（意味：彼は普段あまり外食せず、家で自炊することが多いです。）",
+    "tokens": ["他", "平时", "不", "常常", "在", "外面", "吃饭", "，", "多半", "自己", "做", "。"],
+    "sentenceZh": "他平时不常常在外面吃饭，多半自己做。",
+    "errorIndices": [3],
+    "correctedSentence": "他平时不在外面吃饭，多半自己做。",
+    "acceptableSentences": [
+      "他平时不在外面吃饭，多半自己做。",
+      "他平时不常在外面吃饭，多半自己做。",
+      "他平时很少在外面吃饭，多半自己做。"
+    ],
+    "pinyin": "Tā píngshí bú zài wàimiàn chīfàn, duōbàn zìjǐ zuò.",
+    "explanation": "頻度副詞「常常」はそのまま「不常常」と否定せず、否定するときは「不常（あまり〜しない）」または「很少」を使うか、単純否定「不」にします。",
+    "pitfallNote": "「よく〜しない」を直訳して「*不常常」と言わないよう、「不常」または「很少」を使いましょう。"
+  },
+  {
+    "id": "GC-S10-12",
+    "stageId": "stage10",
+    "type": "insert",
+    "difficulty": 2,
+    "grammarIds": ["G17-05"],
+    "lessonId": "L17",
+    "promptJa": "文中の適切な位置に脱落している語句を挿入してください。（意味：彼は環境保護に関する本を1冊借りました。）",
+    "tokens": ["他", "借", "了", "一本", "关于", "环境保护", "书", "。"],
+    "sentenceZh": "他借了一本关于环境保护书。",
+    "insertIndex": 6,
+    "choices": ["的", "地", "得", "了"],
+    "correctedSentence": "他借了一本关于环境保护的书。",
+    "acceptableSentences": [
+      "他借了一本关于环境保护的书。"
+    ],
+    "pinyin": "Tā jiè le yì běn guānyú huánjìng bǎohù de shū.",
+    "explanation": "「关于＋名詞」が後ろの名詞（书）を連体修飾するときは、必ず間に「的」を入れて「关于环境保护的书」とします。",
+    "pitfallNote": "「关于〜」を名詞修飾に使うときは「的」が必須です。"
+  },
+  {
+    "id": "GC-S10-13",
+    "stageId": "stage10",
+    "type": "insert",
+    "difficulty": 2,
+    "grammarIds": ["G19-03"],
+    "lessonId": "L19",
+    "promptJa": "文中の適切な位置に脱落している語句を挿入してください。（意味：この難しい問題は、今日中に必ず解き明かさなければなりません。）",
+    "tokens": ["今天", "我", "非", "把", "这", "道", "难题", "解出来", "。"],
+    "sentenceZh": "今天我非把这道难题解出来。",
+    "insertIndex": 8,
+    "choices": ["不可", "不行", "不得", "不能"],
+    "correctedSentence": "今天我非把这道难题解出来不可。",
+    "acceptableSentences": [
+      "今天我非把这道难题解出来不可。",
+      "今天我非把这道难题解出来不行。"
+    ],
+    "pinyin": "Jīntiān wǒ fēi bǎ zhè dào nántí jiě chūlái bùkě.",
+    "explanation": "強い決意・必須を表す「非……不可」構文は、文末に「不可」を置いて枠を閉じる必要があります。",
+    "pitfallNote": "「非」だけでは決意構文が完結しないため、必ず末尾に「不可」を忘れないようにしましょう。"
+  },
+  {
+    "id": "GC-S10-14",
+    "stageId": "stage10",
+    "type": "insert",
+    "difficulty": 2,
+    "grammarIds": ["G17-03"],
+    "lessonId": "L17",
+    "promptJa": "文中の適切な位置に脱落している語句を挿入してください。（意味：教室の黒板の上には大きな世界地図が1枚掛けられています。）",
+    "tokens": ["黑板", "上方", "挂", "一", "张", "世界", "地图", "。"],
+    "sentenceZh": "黑板上方挂一张世界地图。",
+    "insertIndex": 3,
+    "choices": ["着", "在", "的", "得"],
+    "correctedSentence": "黑板上方挂着一张世界地图。",
+    "acceptableSentences": [
+      "黑板上方挂着一张世界地图。"
+    ],
+    "pinyin": "Hēibǎn shàngfāng guà zhe yì zhāng shìjiè dìtú.",
+    "explanation": "存在状態を描写する存現文では、動詞の直後に持続の助詞「着」を添えて「挂着（掛けられている）」とします。",
+    "pitfallNote": "存現文は「場所＋動詞＋着/了＋不特定名詞」の形を基本とし、裸の動詞だけでは描写になりません。"
+  },
+  {
+    "id": "GC-S10-15",
+    "stageId": "stage10",
+    "type": "reorder",
+    "difficulty": 2,
+    "grammarIds": ["G18-01"],
+    "lessonId": "L18",
+    "promptJa": "語順を正しく並べ替えてください。（意味：先生が速く話せば話すほど、私はますます聞き取れなくなります。）",
+    "tokens": ["越", "老师", "讲", "，", "越", "我", "听不懂", "。"],
+    "sentenceZh": "越老师讲，越我听不懂。",
+    "correctedSentence": "老师越讲，我越听不懂。",
+    "acceptableSentences": [
+      "老师越讲，我越听不懂。"
+    ],
+    "pinyin": "Lǎoshī yuè jiǎng, wǒ yuè tīngbudǒng.",
+    "explanation": "「越 A 越 B」で主語が2つある場合、それぞれの主語は必ず「越」の前に置きます（老师越讲，我越听不懂）。",
+    "pitfallNote": "副詞「越」は接続詞ではないため、主語の前に出して「*越老师〜」とすることはできません。"
+  },
+  {
+    "id": "GC-S10-16",
+    "stageId": "stage10",
+    "type": "reorder",
+    "difficulty": 2,
+    "grammarIds": ["G18-02"],
+    "lessonId": "L18",
+    "promptJa": "語順を正しく並べ替えてください。（意味：彼女は携帯番号を紙切れの上に書き留めました。）",
+    "tokens": ["她", "把", "手机", "号码", "在", "纸条上", "写", "了", "。"],
+    "sentenceZh": "她把手机号码在纸条上写了。",
+    "correctedSentence": "她把手机号码写在纸条上了。",
+    "acceptableSentences": [
+      "她把手机号码写在纸条上了。",
+      "她把手机号码写在了纸条上。"
+    ],
+    "pinyin": "Tā bǎ shǒujī hàomǎ xiě zài zhǐtiáo shàng le.",
+    "explanation": "定着先を表す「在＋場所」は動詞「写」の後ろに補語として置くため、「把手机号码写在纸条上了」の語順になります。",
+    "pitfallNote": "誤って「在纸条上写」と動詞の前に置かないよう、「V＋在＋場所」のまとまりを意識しましょう。"
+  },
+  {
+    "id": "GC-S10-17",
+    "stageId": "stage10",
+    "type": "reorder",
+    "difficulty": 2,
+    "grammarIds": ["G17-04"],
+    "lessonId": "L17",
+    "promptJa": "語順を正しく並べ替えてください。（意味：彼は忙しいので、おそらく今夜のパーティーには来ないでしょう。）",
+    "tokens": ["他", "很", "忙", "，", "不", "也许", "来", "参加", "聚会", "了", "。"],
+    "sentenceZh": "他很忙，不也许来参加聚会了。",
+    "correctedSentence": "他很忙，也许不来参加聚会了。",
+    "acceptableSentences": [
+      "他很忙，也许不来参加聚会了。",
+      "他很忙，也许不会来参加聚会了。"
+    ],
+    "pinyin": "Tā hěn máng, yěxǔ bù lái cānjiā jùhuì le.",
+    "explanation": "推量の副詞「也许（たぶん〜だろう）」は「*不也许」と直接否定せず、「也许不〜（たぶん〜しないだろう）」の語順にします。",
+    "pitfallNote": "「也许」「可能」「肯定」などの判断副詞が文にかかるときは、否定詞はその後ろ（動詞の前）に置きます。"
+  },
+  {
+    "id": "GC-S10-18",
+    "stageId": "stage10",
+    "type": "reorder",
+    "difficulty": 2,
+    "grammarIds": ["G18-04"],
+    "lessonId": "L18",
+    "promptJa": "語順を正しく並べ替えてください。（意味：朝遅刻しないために、彼はいつも6時半に起きます。）",
+    "tokens": ["不", "为了", "迟到", "，", "他", "每天", "六点半", "起床", "。"],
+    "sentenceZh": "不为了迟到，他每天六点半起床。",
+    "correctedSentence": "为了不迟到，他每天六点半起床。",
+    "acceptableSentences": [
+      "为了不迟到，他每天六点半起床。"
+    ],
+    "pinyin": "Wèile bù chídào, tā měitiān liù diǎn bàn qǐchuáng.",
+    "explanation": "「〜しないために」という否定の目的を表すときは、「*不为了……」ではなく「为了不……」の語順にします。",
+    "pitfallNote": "「为了＋否定内容」の順番になることをしっかり覚えておきましょう。"
+  },
+  {
+    "id": "GC-S10-19",
+    "stageId": "stage10",
+    "type": "rewrite",
+    "difficulty": 3,
+    "grammarIds": ["G18-03"],
+    "lessonId": "L18",
+    "promptJa": "文法の誤りを直して自然な中国語文に書き換えてください。（意味：激しい雨が降っているにもかかわらず、選手たちは試合を続けました。）",
+    "tokens": ["尽管", "大雨", "，", "运动员", "们", "还是", "继续", "比赛", "。"],
+    "sentenceZh": "尽管大雨，运动员们还是继续比赛。",
+    "correctedSentence": "尽管下着大雨，运动员们还是继续比赛。",
+    "acceptableSentences": [
+      "尽管下着大雨，运动员们还是继续比赛。",
+      "尽管雨下得很大，运动员们还是继续比赛。",
+      "尽管下大雨了，运动员们还是继续比赛。"
+    ],
+    "pinyin": "Jǐnguǎn xià zhe dàyǔ, yùndòngyuánmen háishi jìxù bǐsài.",
+    "explanation": "「尽管」の後ろには名詞1語（大雨）だけを置くことは原則できず、主述文や動詞フレーズ・形容詞句（下着大雨 / 雨很大）を置きます。",
+    "pitfallNote": "日本語の「大雨にもかかわらず」を直訳して「*尽管大雨」としないよう、動詞「下着」などを補いましょう。"
+  },
+  {
+    "id": "GC-S10-20",
+    "stageId": "stage10",
+    "type": "rewrite",
+    "difficulty": 3,
+    "grammarIds": ["G19-02"],
+    "lessonId": "L19",
+    "promptJa": "文脈に合うように誤りを直して正しい文に書き換えてください。（意味：もし明日天気が晴れたら、みんなで山登りに行きましょう。）",
+    "tokens": ["既然", "明天", "晴天", "，", "我们", "就", "去", "爬山", "吧", "。"],
+    "sentenceZh": "既然明天晴天，我们就去爬山吧。",
+    "correctedSentence": "如果明天晴天，我们就去爬山吧。",
+    "acceptableSentences": [
+      "如果明天晴天，我们就去爬山吧。",
+      "要是明天晴天，我们就去爬山吧。",
+      "如果明天是晴天，我们就去爬山吧。",
+      "要是明天天气晴朗，我们就去爬山吧。"
+    ],
+    "pinyin": "Rúguǒ míngtiān qíngtiān, wǒmen jiù qù páshān ba.",
+    "explanation": "「既然」はすでに確定している事実に対して使う接続詞です。「明日晴れたら」という未実現の仮定には「如果」または「要是」を使います。",
+    "pitfallNote": "既定事実の「既然（〜である以上は）」と仮定の「如果 / 要是（もし〜なら）」を混同しないようにしましょう。"
+  },
+  {
+    "id": "GC-S10-21",
+    "stageId": "stage10",
+    "type": "rewrite",
+    "difficulty": 3,
+    "grammarIds": ["G17-02"],
+    "lessonId": "L17",
+    "promptJa": "意図する意味に合うように文を書き換えてください。（意味：今日は疲れているので、夜の外出はしたくありません。）",
+    "tokens": ["今天", "太", "累", "了", "，", "晚上", "我", "不要", "出去", "。"],
+    "sentenceZh": "今天太累了，晚上我不要出去。",
+    "correctedSentence": "今天太累了，晚上我不想出去。",
+    "acceptableSentences": [
+      "今天太累了，晚上我不想出去。",
+      "今天太累了，我晚上不想出去。"
+    ],
+    "pinyin": "Jīntiān tài lèi le, wǎnshang wǒ bù xiǎng chūqù.",
+    "explanation": "「〜したくない」という自分の希望の否定を表すときは「不想」を使います。「不要」は主に「〜するな（禁止）」または強い拒絶に聞こえます。",
+    "pitfallNote": "「我不要出去」はきつい拒絶や命令のように響くため、自分の気持ちなら「不想」が自然です。"
+  },
+  {
+    "id": "GC-S10-22",
+    "stageId": "stage10",
+    "type": "judge",
+    "difficulty": 2,
+    "grammarIds": ["G17-03"],
+    "lessonId": "L17",
+    "promptJa": "次の中国語文が文法的に正しいか判定してください。（意味：向こうから赤い自転車に乗った学生が1人やってきました。）",
+    "tokens": ["前面", "骑过来", "一", "辆", "红色", "的", "自行车", "。"],
+    "sentenceZh": "前面骑过来一辆红色的自行车。",
+    "choices": ["正しい", "誤りがある"],
+    "correctedSentence": "前面骑过来一辆红色的自行车。",
+    "acceptableSentences": [
+      "前面骑过来一辆红色的自行车。"
+    ],
+    "isAlreadyCorrect": true,
+    "pinyin": "Qiánmiàn qí guòlái yí liàng hóngsè de zìxíngchē.",
+    "explanation": "この文は正しい存現文です。場所詞「前面」に「在」が付いておらず、出現を表す複合方向補語「骑过来」の後に不特定の名詞句（一辆红色的自行车）が自然に続いています。",
+    "pitfallNote": "「前面」に「在」がないことと、「动词＋方向补语＋数量词＋名词」が自然な存現文のパターンである点を確認しましょう。"
+  },
+  {
+    "id": "GC-S10-23",
+    "stageId": "stage10",
+    "type": "judge",
+    "difficulty": 2,
+    "grammarIds": ["G19-01"],
+    "lessonId": "L19",
+    "promptJa": "次の中国語文が文法的に正しいか判定してください。（意味：この博物館は予約をして初めて入ることができます。）",
+    "tokens": ["只有", "提前", "预约", "，", "才", "能", "进", "这家", "博物馆", "。"],
+    "sentenceZh": "只有提前预约，才能进这家博物馆。",
+    "choices": ["正しい", "誤りがある"],
+    "correctedSentence": "只有提前预约，才能进这家博物馆。",
+    "acceptableSentences": [
+      "只有提前预约，才能进这家博物馆。"
+    ],
+    "isAlreadyCorrect": true,
+    "pinyin": "Zhǐyǒu tíqián yùyuē, cái néng jìn zhè jiā bówùguǎn.",
+    "explanation": "この文は正しい文です。唯一・必要条件を表す「只有……，才……」が正しく呼応しています。",
+    "pitfallNote": "「只有」には必ず「才」が呼応し、「只要」には「就」が呼応します。"
+  },
+  {
+    "id": "GC-S10-24",
+    "stageId": "stage10",
+    "type": "judge",
+    "difficulty": 2,
+    "grammarIds": ["G17-01"],
+    "lessonId": "L17",
+    "promptJa": "次の中国語文が文法的に正しいか判定してください。（意味：来週の木曜日、私はよく図書館でレポートを書きます。）",
+    "tokens": ["下", "星期四", "我", "往往", "去", "图书馆", "写", "报告", "。"],
+    "sentenceZh": "下星期四我往往去图书馆写报告。",
+    "errorIndices": [3],
+    "choices": ["正しい", "誤りがある"],
+    "correctedSentence": "下星期四我打算去图书馆写报告。",
+    "acceptableSentences": [
+      "下星期四我打算去图书馆写报告。",
+      "下星期四我要去图书馆写报告。",
+      "下星期四我可能会去图书馆写报告。"
+    ],
+    "isAlreadyCorrect": false,
+    "pinyin": "Xià xīngqīsì wǒ dǎsuàn qù túshūguǎn xiě bàogào.",
+    "explanation": "誤りがあります。「往往」は過去の経験や習慣の傾向を表す副詞なので、「下星期四（来週木曜日）」のような1回きりの未来の予定には使えません。",
+    "pitfallNote": "「往往」は「ある条件下での常態・傾向」を述べる語であり、単発の未来予定には「打算 / 要 / 可能」を使います。"
+  },
+  {
+    "id": "GC-S10-25",
+    "stageId": "stage10",
+    "type": "multi-error",
+    "difficulty": 3,
+    "grammarIds": ["G17-05", "G18-01"],
+    "lessonId": "L17",
+    "promptJa": "2か所の誤りを見つけて正しく直してください。（意味：私は中国茶に対する興味がますます強くなってきました。）",
+    "tokens": ["我", "关于", "中国茶", "越来越", "很", "感兴趣", "了", "。"],
+    "sentenceZh": "我关于中国茶越来越很感兴趣了。",
+    "errorIndices": [1, 4],
+    "correctedSentence": "我对中国茶越来越感兴趣了。",
+    "acceptableSentences": [
+      "我对中国茶越来越感兴趣了。",
+      "对于中国茶，我越来越感兴趣了。"
+    ],
+    "pinyin": "Wǒ duì Zhōngguó chá yuèláiyuè gǎn xìngqù le.",
+    "explanation": "①興味の対象を示す介詞は「关于」ではなく「对」を使います。②「越来越」の後ろに「很」は置けないため削除します。",
+    "pitfallNote": "「对〜感兴趣」と「越来越＋心理動詞/形容詞（很なし）」の2点を同時に見抜く問題です。"
+  },
+  {
+    "id": "GC-S10-26",
+    "stageId": "stage10",
+    "type": "multi-error",
+    "difficulty": 3,
+    "grammarIds": ["G17-03", "G18-02"],
+    "lessonId": "L17",
+    "promptJa": "2か所の誤りを見つけて正しく直してください。（意味：玄関の前に郵便受けが1つ掛かっていて、中には手紙が2通入っています。）",
+    "tokens": ["在", "大门口", "挂着", "一个", "信箱", "，", "信", "已经", "放", "里头", "了", "。"],
+    "sentenceZh": "在大门口挂着一个信箱，信已经放里头了。",
+    "errorIndices": [0, 9],
+    "correctedSentence": "大门口挂着一个信箱，信已经放在里头了。",
+    "acceptableSentences": [
+      "大门口挂着一个信箱，信已经放在里头了。",
+      "大门口挂着一个信箱，信放在里头了。",
+      "大门口挂着一个信箱，信已经放在里面了。"
+    ],
+    "pinyin": "Dàménkǒu guà zhe yí gè xìnxiāng, xìn yǐjīng fàng zài lǐtou le.",
+    "explanation": "①存現文の文頭場所詞「大门口」に「在」を付けません。②物をある場所に置く定着位置は「放＋在＋里头」のように「在」を補います。",
+    "pitfallNote": "存現文の文頭には「在」不要、動詞＋定着先には「在」必須という対照的な2つのルールを押さえましょう。"
+  },
+  {
+    "id": "GC-S10-27",
+    "stageId": "stage10",
+    "type": "multi-error",
+    "difficulty": 3,
+    "grammarIds": ["G19-01", "G19-04"],
+    "lessonId": "L19",
+    "promptJa": "2か所の誤りを見つけて正しく直してください。（意味：昨日、彼は夜10時になってやっと帰ってきたし、好きなものを何でも買いました。）",
+    "tokens": ["他", "昨晚", "十点", "才", "到", "家", "了", "，", "想", "买", "什么", "就", "买", "哪儿", "。"],
+    "sentenceZh": "他昨晚十点才到家了，想买什么就买哪儿。",
+    "errorIndices": [6, 13],
+    "correctedSentence": "他昨晚十点才到家，想买什么就买什么。",
+    "acceptableSentences": [
+      "他昨晚十点才到家，想买什么就买什么。",
+      "昨晚他十点才到家，想买什么就买什么。"
+    ],
+    "pinyin": "Tā zuówǎn shí diǎn cái dào jiā, xiǎng mǎi shénme jiù mǎi shénme.",
+    "explanation": "①時間の遅さを表す「才」の節末には「了」を付けないため削除します。②疑問詞の呼応構文では前後で同じ疑問詞を対応させるため「买哪儿」ではなく「买什么」にします。",
+    "pitfallNote": "「才」の文末に「了」を付けないこと、疑問詞呼応では前後の疑問詞を必ず一致させることの2点がポイントです。"
+  }
+]

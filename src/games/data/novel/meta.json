@@ -1,0 +1,67 @@
+{
+  "titleZh": "雨霁星语",
+  "titleJa": "雨上がりの星のことば",
+  "subtitle": "The Starlight Left in the Rain",
+  "titleImage": "./assets/novel/title.jpg",
+  "backgrounds": {
+    "observatory_rain": "./assets/novel/bg_observatory_rain.jpg",
+    "cafe_afternoon": "./assets/novel/bg_cafe_afternoon.jpg",
+    "rooftop_sunset": "./assets/novel/bg_rooftop_sunset.jpg",
+    "rooftop_starry": "./assets/novel/bg_rooftop_starry.jpg"
+  },
+  "characters": {
+    "wanxing": {
+      "neutral": "./assets/novel/char_wanxing_neutral.jpg",
+      "smile": "./assets/novel/char_wanxing_smile.jpg",
+      "sad": "./assets/novel/char_wanxing_sad.jpg",
+      "blush": "./assets/novel/char_wanxing_smile.jpg"
+    },
+    "zhixia": {
+      "smile": "./assets/novel/char_zhixia_smile.jpg",
+      "surprised": "./assets/novel/char_zhixia_smile.jpg"
+    },
+    "cheng": {
+      "neutral": "./assets/novel/char_cheng_neutral.jpg"
+    }
+  },
+  "cgs": [
+    {
+      "id": "cg_umbrella",
+      "title": "梅雨の相合傘",
+      "image": "./assets/novel/cg_umbrella.jpg",
+      "description": "停電した旧天文台の帰り道、ひとつの透明な傘の下で交わした静かな約束。"
+    },
+    {
+      "id": "cg_stargazing",
+      "title": "真夜中の天体望遠鏡",
+      "image": "./assets/novel/cg_stargazing.jpg",
+      "description": "古い望遠鏡と手書きの星図。2人だけで覗いた梅雨の合間の星。"
+    },
+    {
+      "id": "cg_promise",
+      "title": "雨上がりの星空の約束（暫定CG）",
+      "image": "./assets/novel/cg_promise_provisional.svg",
+      "description": "離れても同じ空を見上げて記録を続ける、未完の星図ノート。（※生成上限到達のため暫定SVGアセットを表示）"
+    }
+  ],
+  "endings": [
+    {
+      "id": "end_true",
+      "titleZh": "未完的星轨",
+      "titleJa": "True End：まだ終わらない星の軌道",
+      "description": "誠実に向き合い、2人だけの交換星図ノートを始める未来へ続くエンディング。"
+    },
+    {
+      "id": "end_normal",
+      "titleZh": "夏夜的微光",
+      "titleJa": "Normal End：夏の夜の微かな光",
+      "description": "別れの朝に言葉を交わし、それぞれの夏へ歩き出す温かく切ないエンディング。"
+    },
+    {
+      "id": "end_bittersweet",
+      "titleZh": "雨停之前",
+      "titleJa": "Bittersweet End：雨が止む前に",
+      "description": "想いを言葉にできないまま、空っぽの天文台で晚星が残した栞を見つける静かな余韻のエンディング。"
+    }
+  ]
+}

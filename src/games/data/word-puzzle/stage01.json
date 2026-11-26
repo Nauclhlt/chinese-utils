@@ -1,0 +1,2148 @@
+[
+  {
+    "id": "WP-S01-01",
+    "stageId": "stage01",
+    "difficulty": 1,
+    "grammarIds": [
+      "G01-01",
+      "G01-02"
+    ],
+    "lessonId": "L01",
+    "japanesePrompt": "私は日本人です。",
+    "chunks": [
+      {
+        "id": "c1",
+        "pinyinMarked": "wǒ",
+        "pinyinPlain": "wo",
+        "hanzi": "我",
+        "meaningHint": "私"
+      },
+      {
+        "id": "c2",
+        "pinyinMarked": "shì",
+        "pinyinPlain": "shi",
+        "hanzi": "是",
+        "meaningHint": "〜である"
+      },
+      {
+        "id": "c3",
+        "pinyinMarked": "Rìběnrén",
+        "pinyinPlain": "ribenren",
+        "hanzi": "日本人"
+      }
+    ],
+    "correctOrderIds": [
+      "c1",
+      "c2",
+      "c3"
+    ],
+    "modelAnswer": "我是日本人。",
+    "acceptableAnswers": [
+      "我是日本人。",
+      "我是日本人"
+    ],
+    "fullPinyin": "Wǒ shì Rìběnrén.",
+    "structureBreakdown": [
+      {
+        "role": "S",
+        "label": "主語",
+        "text": "我",
+        "pinyin": "wǒ"
+      },
+      {
+        "role": "V",
+        "label": "判断動詞",
+        "text": "是",
+        "pinyin": "shì"
+      },
+      {
+        "role": "O",
+        "label": "目的語",
+        "text": "日本人",
+        "pinyin": "Rìběnrén"
+      }
+    ],
+    "explanation": "「主語 + 是 + 名詞」で「〜は…です」を表す最も基本的な判断文です。"
+  },
+  {
+    "id": "WP-S01-02",
+    "stageId": "stage01",
+    "difficulty": 1,
+    "grammarIds": [
+      "G01-01",
+      "G01-02"
+    ],
+    "lessonId": "L01",
+    "japanesePrompt": "彼は留学生ではありません。",
+    "chunks": [
+      {
+        "id": "c1",
+        "pinyinMarked": "tā",
+        "pinyinPlain": "ta",
+        "hanzi": "他",
+        "meaningHint": "彼"
+      },
+      {
+        "id": "c2",
+        "pinyinMarked": "bù",
+        "pinyinPlain": "bu",
+        "hanzi": "不",
+        "meaningHint": "〜ない"
+      },
+      {
+        "id": "c3",
+        "pinyinMarked": "shì",
+        "pinyinPlain": "shi",
+        "hanzi": "是",
+        "meaningHint": "〜である"
+      },
+      {
+        "id": "c4",
+        "pinyinMarked": "liúxuéshēng",
+        "pinyinPlain": "liuxuesheng",
+        "hanzi": "留学生"
+      }
+    ],
+    "correctOrderIds": [
+      "c1",
+      "c2",
+      "c3",
+      "c4"
+    ],
+    "modelAnswer": "他不是留学生。",
+    "acceptableAnswers": [
+      "他不是留学生。",
+      "他不是留学生"
+    ],
+    "fullPinyin": "Tā bú shì liúxuéshēng.",
+    "structureBreakdown": [
+      {
+        "role": "S",
+        "label": "主語",
+        "text": "他",
+        "pinyin": "tā"
+      },
+      {
+        "role": "Neg",
+        "label": "否定副詞",
+        "text": "不",
+        "pinyin": "bù"
+      },
+      {
+        "role": "V",
+        "label": "判断動詞",
+        "text": "是",
+        "pinyin": "shì"
+      },
+      {
+        "role": "O",
+        "label": "目的語",
+        "text": "留学生",
+        "pinyin": "liúxuéshēng"
+      }
+    ],
+    "explanation": "「是」の否定は直前に「不」を置いて「不是」にします。発音時は第4声の前なので bú shì と第2声に変調します。"
+  },
+  {
+    "id": "WP-S01-03",
+    "stageId": "stage01",
+    "difficulty": 1,
+    "grammarIds": [
+      "G01-01",
+      "G01-02"
+    ],
+    "lessonId": "L01",
+    "japanesePrompt": "彼女は私の姉です。",
+    "chunks": [
+      {
+        "id": "c1",
+        "pinyinMarked": "tā",
+        "pinyinPlain": "ta",
+        "hanzi": "她",
+        "meaningHint": "彼女"
+      },
+      {
+        "id": "c2",
+        "pinyinMarked": "shì",
+        "pinyinPlain": "shi",
+        "hanzi": "是",
+        "meaningHint": "〜である"
+      },
+      {
+        "id": "c3",
+        "pinyinMarked": "wǒ",
+        "pinyinPlain": "wo",
+        "hanzi": "我",
+        "meaningHint": "私"
+      },
+      {
+        "id": "c4",
+        "pinyinMarked": "jiějie",
+        "pinyinPlain": "jiejie",
+        "hanzi": "姐姐"
+      }
+    ],
+    "correctOrderIds": [
+      "c1",
+      "c2",
+      "c3",
+      "c4"
+    ],
+    "modelAnswer": "她是我姐姐。",
+    "acceptableAnswers": [
+      "她是我姐姐。",
+      "她是我姐姐"
+    ],
+    "fullPinyin": "Tā shì wǒ jiějie.",
+    "structureBreakdown": [
+      {
+        "role": "S",
+        "label": "主語",
+        "text": "她",
+        "pinyin": "tā"
+      },
+      {
+        "role": "V",
+        "label": "判断動詞",
+        "text": "是",
+        "pinyin": "shì"
+      },
+      {
+        "role": "Attr",
+        "label": "連体修飾",
+        "text": "我",
+        "pinyin": "wǒ"
+      },
+      {
+        "role": "O",
+        "label": "目的語",
+        "text": "姐姐",
+        "pinyin": "jiějie"
+      }
+    ],
+    "explanation": "「彼女」は女性を表す「她」を使います。親族呼称の前では「我的」の「的」を省略して「我姐姐」と言うのが自然です。"
+  },
+  {
+    "id": "WP-S01-04",
+    "stageId": "stage01",
+    "difficulty": 1,
+    "grammarIds": [
+      "G01-01"
+    ],
+    "lessonId": "L01",
+    "japanesePrompt": "こんにちは（目上の人に）、最近お元気ですか？",
+    "chunks": [
+      {
+        "id": "c1",
+        "pinyinMarked": "nín hǎo",
+        "pinyinPlain": "nin hao",
+        "hanzi": "您好",
+        "meaningHint": "こんにちは（敬称）"
+      },
+      {
+        "id": "c2",
+        "pinyinMarked": "zuìjìn",
+        "pinyinPlain": "zuijin",
+        "hanzi": "最近"
+      },
+      {
+        "id": "c3",
+        "pinyinMarked": "shēntǐ",
+        "pinyinPlain": "shenti",
+        "hanzi": "身体",
+        "meaningHint": "体・健康"
+      },
+      {
+        "id": "c4",
+        "pinyinMarked": "hǎo",
+        "pinyinPlain": "hao",
+        "hanzi": "好",
+        "meaningHint": "よい・元気"
+      },
+      {
+        "id": "c5",
+        "pinyinMarked": "ma",
+        "pinyinPlain": "ma",
+        "hanzi": "吗",
+        "meaningHint": "〜ですか"
+      }
+    ],
+    "correctOrderIds": [
+      "c1",
+      "c2",
+      "c3",
+      "c4",
+      "c5"
+    ],
+    "modelAnswer": "您好，最近身体好吗？",
+    "acceptableAnswers": [
+      "您好，最近身体好吗？",
+      "您好最近身体好吗？",
+      "您好，最近身体好吗",
+      "您好最近身体好吗"
+    ],
+    "fullPinyin": "Nín hǎo, zuìjìn shēntǐ hǎo ma?",
+    "structureBreakdown": [
+      {
+        "role": "Other",
+        "label": "挨拶",
+        "text": "您好",
+        "pinyin": "Nín hǎo"
+      },
+      {
+        "role": "Time",
+        "label": "時間詞",
+        "text": "最近",
+        "pinyin": "zuìjìn"
+      },
+      {
+        "role": "S",
+        "label": "主語",
+        "text": "身体",
+        "pinyin": "shēntǐ"
+      },
+      {
+        "role": "V",
+        "label": "形容詞述語",
+        "text": "好",
+        "pinyin": "hǎo"
+      },
+      {
+        "role": "P",
+        "label": "疑問助詞",
+        "text": "吗",
+        "pinyin": "ma"
+      }
+    ],
+    "explanation": "目上の人への挨拶には敬称「您」を使います。「身体好吗？」は「お元気ですか」を尋ねる丁寧な表現です。"
+  },
+  {
+    "id": "WP-S01-05",
+    "stageId": "stage01",
+    "difficulty": 1,
+    "grammarIds": [
+      "G01-01",
+      "G01-02"
+    ],
+    "lessonId": "L01",
+    "japanesePrompt": "あなたたちは会社員ですか？",
+    "chunks": [
+      {
+        "id": "c1",
+        "pinyinMarked": "nǐmen",
+        "pinyinPlain": "nimen",
+        "hanzi": "你们"
+      },
+      {
+        "id": "c2",
+        "pinyinMarked": "shì",
+        "pinyinPlain": "shi",
+        "hanzi": "是",
+        "meaningHint": "〜である"
+      },
+      {
+        "id": "c3",
+        "pinyinMarked": "gōngsī zhíyuán",
+        "pinyinPlain": "gongsi zhiyuan",
+        "hanzi": "公司职员"
+      },
+      {
+        "id": "c4",
+        "pinyinMarked": "ma",
+        "pinyinPlain": "ma",
+        "hanzi": "吗",
+        "meaningHint": "〜ですか"
+      }
+    ],
+    "correctOrderIds": [
+      "c1",
+      "c2",
+      "c3",
+      "c4"
+    ],
+    "modelAnswer": "你们是公司职员吗？",
+    "acceptableAnswers": [
+      "你们是公司职员吗？",
+      "你们是公司职员吗"
+    ],
+    "fullPinyin": "Nǐmen shì gōngsī zhíyuán ma?",
+    "structureBreakdown": [
+      {
+        "role": "S",
+        "label": "主語",
+        "text": "你们",
+        "pinyin": "nǐmen"
+      },
+      {
+        "role": "V",
+        "label": "判断動詞",
+        "text": "是",
+        "pinyin": "shì"
+      },
+      {
+        "role": "O",
+        "label": "目的語",
+        "text": "公司职员",
+        "pinyin": "gōngsī zhíyuán"
+      },
+      {
+        "role": "P",
+        "label": "疑問助詞",
+        "text": "吗",
+        "pinyin": "ma"
+      }
+    ],
+    "explanation": "2人称複数の「你们」に「是」と職業名「公司职员」を続け、文末に「吗」を置くと諾否疑問文になります。"
+  },
+  {
+    "id": "WP-S01-06",
+    "stageId": "stage01",
+    "difficulty": 1,
+    "grammarIds": [
+      "G01-02",
+      "G01-01"
+    ],
+    "lessonId": "L01",
+    "japanesePrompt": "林さんは医師ではありません。",
+    "chunks": [
+      {
+        "id": "c1",
+        "pinyinMarked": "Lín xiānsheng",
+        "pinyinPlain": "lin xiansheng",
+        "hanzi": "林先生"
+      },
+      {
+        "id": "c2",
+        "pinyinMarked": "bú shì",
+        "pinyinPlain": "bu shi",
+        "hanzi": "不是",
+        "meaningHint": "〜ではない"
+      },
+      {
+        "id": "c3",
+        "pinyinMarked": "yīshēng",
+        "pinyinPlain": "yisheng",
+        "hanzi": "医生"
+      }
+    ],
+    "correctOrderIds": [
+      "c1",
+      "c2",
+      "c3"
+    ],
+    "modelAnswer": "林先生不是医生。",
+    "acceptableAnswers": [
+      "林先生不是医生。",
+      "林先生不是医生"
+    ],
+    "fullPinyin": "Lín xiānsheng bú shì yīshēng.",
+    "structureBreakdown": [
+      {
+        "role": "S",
+        "label": "主語",
+        "text": "林先生",
+        "pinyin": "Lín xiānsheng"
+      },
+      {
+        "role": "V",
+        "label": "否定判断",
+        "text": "不是",
+        "pinyin": "bú shì"
+      },
+      {
+        "role": "O",
+        "label": "目的語",
+        "text": "医生",
+        "pinyin": "yīshēng"
+      }
+    ],
+    "explanation": "「姓＋先生」で「〜さん（男性）」を表す敬称になります。否定は「不是」を主語と名詞の間に置きます。"
+  },
+  {
+    "id": "WP-S01-07",
+    "stageId": "stage01",
+    "difficulty": 1,
+    "grammarIds": [
+      "G01-02"
+    ],
+    "lessonId": "L01",
+    "japanesePrompt": "それは中国語の辞書です。",
+    "chunks": [
+      {
+        "id": "c1",
+        "pinyinMarked": "nà",
+        "pinyinPlain": "na",
+        "hanzi": "那",
+        "meaningHint": "それ"
+      },
+      {
+        "id": "c2",
+        "pinyinMarked": "shì",
+        "pinyinPlain": "shi",
+        "hanzi": "是",
+        "meaningHint": "〜である"
+      },
+      {
+        "id": "c3",
+        "pinyinMarked": "Hànyǔ",
+        "pinyinPlain": "hanyu",
+        "hanzi": "汉语",
+        "meaningHint": "中国語"
+      },
+      {
+        "id": "c4",
+        "pinyinMarked": "cídiǎn",
+        "pinyinPlain": "cidian",
+        "hanzi": "词典"
+      }
+    ],
+    "correctOrderIds": [
+      "c1",
+      "c2",
+      "c3",
+      "c4"
+    ],
+    "modelAnswer": "那是汉语词典。",
+    "acceptableAnswers": [
+      "那是汉语词典。",
+      "那是汉语词典"
+    ],
+    "fullPinyin": "Nà shì Hànyǔ cídiǎn.",
+    "structureBreakdown": [
+      {
+        "role": "S",
+        "label": "主語",
+        "text": "那",
+        "pinyin": "nà"
+      },
+      {
+        "role": "V",
+        "label": "判断動詞",
+        "text": "是",
+        "pinyin": "shì"
+      },
+      {
+        "role": "Attr",
+        "label": "連体修飾",
+        "text": "汉语",
+        "pinyin": "Hànyǔ"
+      },
+      {
+        "role": "O",
+        "label": "目的語",
+        "text": "词典",
+        "pinyin": "cídiǎn"
+      }
+    ],
+    "explanation": "「那」は「それ・あれ」を指す指示代詞です。「汉语词典」のように材質・言語・分類を表す語は「的」なしで名詞を修飾できます。"
+  },
+  {
+    "id": "WP-S01-08",
+    "stageId": "stage01",
+    "difficulty": 1,
+    "grammarIds": [
+      "G01-03",
+      "G01-01"
+    ],
+    "lessonId": "L01",
+    "japanesePrompt": "私はコーヒーを飲みます。",
+    "chunks": [
+      {
+        "id": "c1",
+        "pinyinMarked": "wǒ",
+        "pinyinPlain": "wo",
+        "hanzi": "我",
+        "meaningHint": "私"
+      },
+      {
+        "id": "c2",
+        "pinyinMarked": "hē",
+        "pinyinPlain": "he",
+        "hanzi": "喝",
+        "meaningHint": "飲む"
+      },
+      {
+        "id": "c3",
+        "pinyinMarked": "kāfēi",
+        "pinyinPlain": "kafei",
+        "hanzi": "咖啡"
+      }
+    ],
+    "correctOrderIds": [
+      "c1",
+      "c2",
+      "c3"
+    ],
+    "modelAnswer": "我喝咖啡。",
+    "acceptableAnswers": [
+      "我喝咖啡。",
+      "我喝咖啡"
+    ],
+    "fullPinyin": "Wǒ hē kāfēi.",
+    "structureBreakdown": [
+      {
+        "role": "S",
+        "label": "主語",
+        "text": "我",
+        "pinyin": "wǒ"
+      },
+      {
+        "role": "V",
+        "label": "動詞",
+        "text": "喝",
+        "pinyin": "hē"
+      },
+      {
+        "role": "O",
+        "label": "目的語",
+        "text": "咖啡",
+        "pinyin": "kāfēi"
+      }
+    ],
+    "explanation": "中国語の基本語順は「主語（S）＋動詞（V）＋目的語（O）」です。日本語とは動詞と目的語の位置が逆になります。"
+  },
+  {
+    "id": "WP-S01-09",
+    "stageId": "stage01",
+    "difficulty": 1,
+    "grammarIds": [
+      "G01-03"
+    ],
+    "lessonId": "L01",
+    "japanesePrompt": "私たちは中国語を学びます。",
+    "chunks": [
+      {
+        "id": "c1",
+        "pinyinMarked": "wǒmen",
+        "pinyinPlain": "women",
+        "hanzi": "我们"
+      },
+      {
+        "id": "c2",
+        "pinyinMarked": "xuéxí",
+        "pinyinPlain": "xuexi",
+        "hanzi": "学习"
+      },
+      {
+        "id": "c3",
+        "pinyinMarked": "Zhōngwén",
+        "pinyinPlain": "zhongwen",
+        "hanzi": "中文"
+      }
+    ],
+    "correctOrderIds": [
+      "c1",
+      "c2",
+      "c3"
+    ],
+    "modelAnswer": "我们学习中文。",
+    "acceptableAnswers": [
+      "我们学习中文。",
+      "我们学习中文"
+    ],
+    "fullPinyin": "Wǒmen xuéxí Zhōngwén.",
+    "structureBreakdown": [
+      {
+        "role": "S",
+        "label": "主語",
+        "text": "我们",
+        "pinyin": "wǒmen"
+      },
+      {
+        "role": "V",
+        "label": "動詞",
+        "text": "学习",
+        "pinyin": "xuéxí"
+      },
+      {
+        "role": "O",
+        "label": "目的語",
+        "text": "中文",
+        "pinyin": "Zhōngwén"
+      }
+    ],
+    "explanation": "「学习（学ぶ）」の後ろに目的語「中文（中国語）」を置く「S＋V＋O」構文です。"
+  },
+  {
+    "id": "WP-S01-10",
+    "stageId": "stage01",
+    "difficulty": 1,
+    "grammarIds": [
+      "G01-03"
+    ],
+    "lessonId": "L01",
+    "japanesePrompt": "父は新聞を読みません。",
+    "chunks": [
+      {
+        "id": "c1",
+        "pinyinMarked": "bàba",
+        "pinyinPlain": "baba",
+        "hanzi": "爸爸"
+      },
+      {
+        "id": "c2",
+        "pinyinMarked": "bù",
+        "pinyinPlain": "bu",
+        "hanzi": "不",
+        "meaningHint": "〜ない"
+      },
+      {
+        "id": "c3",
+        "pinyinMarked": "kàn",
+        "pinyinPlain": "kan",
+        "hanzi": "看",
+        "meaningHint": "見る・読む"
+      },
+      {
+        "id": "c4",
+        "pinyinMarked": "bàozhǐ",
+        "pinyinPlain": "baozhi",
+        "hanzi": "报纸"
+      }
+    ],
+    "correctOrderIds": [
+      "c1",
+      "c2",
+      "c3",
+      "c4"
+    ],
+    "modelAnswer": "爸爸不看报纸。",
+    "acceptableAnswers": [
+      "爸爸不看报纸。",
+      "爸爸不看报纸"
+    ],
+    "fullPinyin": "Bàba bú kàn bàozhǐ.",
+    "structureBreakdown": [
+      {
+        "role": "S",
+        "label": "主語",
+        "text": "爸爸",
+        "pinyin": "bàba"
+      },
+      {
+        "role": "Neg",
+        "label": "否定副詞",
+        "text": "不",
+        "pinyin": "bù"
+      },
+      {
+        "role": "V",
+        "label": "動詞",
+        "text": "看",
+        "pinyin": "kàn"
+      },
+      {
+        "role": "O",
+        "label": "目的語",
+        "text": "报纸",
+        "pinyin": "bàozhǐ"
+      }
+    ],
+    "explanation": "動詞述語文の否定は、動詞の前に「不」を置きます。新聞・本・テレビなど「目を通す」動作には動詞「看」を使います。"
+  },
+  {
+    "id": "WP-S01-11",
+    "stageId": "stage01",
+    "difficulty": 2,
+    "grammarIds": [
+      "G01-03",
+      "G01-01"
+    ],
+    "lessonId": "L01",
+    "japanesePrompt": "彼らは音楽を聴き、彼女たちは歌を歌います。",
+    "chunks": [
+      {
+        "id": "c1",
+        "pinyinMarked": "tāmen",
+        "pinyinPlain": "tamen",
+        "hanzi": "他们",
+        "meaningHint": "彼ら"
+      },
+      {
+        "id": "c2",
+        "pinyinMarked": "tīng yīnyuè",
+        "pinyinPlain": "ting yinyue",
+        "hanzi": "听音乐"
+      },
+      {
+        "id": "c3",
+        "pinyinMarked": "tāmen",
+        "pinyinPlain": "tamen",
+        "hanzi": "她们",
+        "meaningHint": "彼女たち"
+      },
+      {
+        "id": "c4",
+        "pinyinMarked": "chànggē",
+        "pinyinPlain": "changge",
+        "hanzi": "唱歌"
+      }
+    ],
+    "correctOrderIds": [
+      "c1",
+      "c2",
+      "c3",
+      "c4"
+    ],
+    "modelAnswer": "他们听音乐，她们唱歌。",
+    "acceptableAnswers": [
+      "他们听音乐，她们唱歌。",
+      "他们听音乐她们唱歌",
+      "她们唱歌，他们听音乐。"
+    ],
+    "fullPinyin": "Tāmen tīng yīnyuè, tāmen chànggē.",
+    "structureBreakdown": [
+      {
+        "role": "S",
+        "label": "主語1",
+        "text": "他们",
+        "pinyin": "tāmen"
+      },
+      {
+        "role": "V",
+        "label": "動詞句1",
+        "text": "听音乐",
+        "pinyin": "tīng yīnyuè"
+      },
+      {
+        "role": "S",
+        "label": "主語2",
+        "text": "她们",
+        "pinyin": "tāmen"
+      },
+      {
+        "role": "V",
+        "label": "動詞句2",
+        "text": "唱歌",
+        "pinyin": "chànggē"
+      }
+    ],
+    "explanation": "「他们」は男性（または男女混合）、「她们」は女性のみの複数を表します。どちらも発音は同じ tāmen です。"
+  },
+  {
+    "id": "WP-S01-12",
+    "stageId": "stage01",
+    "difficulty": 1,
+    "grammarIds": [
+      "G02-01"
+    ],
+    "lessonId": "L02",
+    "japanesePrompt": "これは王先生のパソコンです。",
+    "chunks": [
+      {
+        "id": "c1",
+        "pinyinMarked": "zhè shì",
+        "pinyinPlain": "zhe shi",
+        "hanzi": "这是"
+      },
+      {
+        "id": "c2",
+        "pinyinMarked": "Wáng lǎoshī",
+        "pinyinPlain": "wang laoshi",
+        "hanzi": "王老师"
+      },
+      {
+        "id": "c3",
+        "pinyinMarked": "de",
+        "pinyinPlain": "de",
+        "hanzi": "的",
+        "meaningHint": "〜の"
+      },
+      {
+        "id": "c4",
+        "pinyinMarked": "diànnǎo",
+        "pinyinPlain": "diannao",
+        "hanzi": "电脑"
+      }
+    ],
+    "correctOrderIds": [
+      "c1",
+      "c2",
+      "c3",
+      "c4"
+    ],
+    "modelAnswer": "这是王老师的电脑。",
+    "acceptableAnswers": [
+      "这是王老师的电脑。",
+      "这是王老师的电脑"
+    ],
+    "fullPinyin": "Zhè shì Wáng lǎoshī de diànnǎo.",
+    "structureBreakdown": [
+      {
+        "role": "S",
+        "label": "主語",
+        "text": "这",
+        "pinyin": "zhè"
+      },
+      {
+        "role": "V",
+        "label": "判断動詞",
+        "text": "是",
+        "pinyin": "shì"
+      },
+      {
+        "role": "Attr",
+        "label": "連体修飾",
+        "text": "王老师的",
+        "pinyin": "Wáng lǎoshī de"
+      },
+      {
+        "role": "O",
+        "label": "目的語",
+        "text": "电脑",
+        "pinyin": "diànnǎo"
+      }
+    ],
+    "explanation": "所有関係を表すときは「所有者 + 的 + 名詞」の語順にします。「的」は常に軽声 de で発音します。"
+  },
+  {
+    "id": "WP-S01-13",
+    "stageId": "stage01",
+    "difficulty": 1,
+    "grammarIds": [
+      "G02-01",
+      "G01-02"
+    ],
+    "lessonId": "L02",
+    "japanesePrompt": "この本は私のものです。",
+    "chunks": [
+      {
+        "id": "c1",
+        "pinyinMarked": "zhè běn shū",
+        "pinyinPlain": "zhe ben shu",
+        "hanzi": "这本书"
+      },
+      {
+        "id": "c2",
+        "pinyinMarked": "shì",
+        "pinyinPlain": "shi",
+        "hanzi": "是",
+        "meaningHint": "〜である"
+      },
+      {
+        "id": "c3",
+        "pinyinMarked": "wǒ",
+        "pinyinPlain": "wo",
+        "hanzi": "我",
+        "meaningHint": "私"
+      },
+      {
+        "id": "c4",
+        "pinyinMarked": "de",
+        "pinyinPlain": "de",
+        "hanzi": "的",
+        "meaningHint": "〜のもの"
+      }
+    ],
+    "correctOrderIds": [
+      "c1",
+      "c2",
+      "c3",
+      "c4"
+    ],
+    "modelAnswer": "这本书是我的。",
+    "acceptableAnswers": [
+      "这本书是我的。",
+      "这本书是我的"
+    ],
+    "fullPinyin": "Zhè běn shū shì wǒ de.",
+    "structureBreakdown": [
+      {
+        "role": "S",
+        "label": "主語",
+        "text": "这本书",
+        "pinyin": "zhè běn shū"
+      },
+      {
+        "role": "V",
+        "label": "判断動詞",
+        "text": "是",
+        "pinyin": "shì"
+      },
+      {
+        "role": "O",
+        "label": "的字句",
+        "text": "我的",
+        "pinyin": "wǒ de"
+      }
+    ],
+    "explanation": "後ろの名詞（书）が文脈から明らかな場合、「我的书」の「书」を省略して「我的（私のもの）」と表せます。"
+  },
+  {
+    "id": "WP-S01-14",
+    "stageId": "stage01",
+    "difficulty": 2,
+    "grammarIds": [
+      "G02-01"
+    ],
+    "lessonId": "L02",
+    "japanesePrompt": "李さんは東京大学の学生です。",
+    "chunks": [
+      {
+        "id": "c1",
+        "pinyinMarked": "xiǎo Lǐ",
+        "pinyinPlain": "xiao li",
+        "hanzi": "小李",
+        "meaningHint": "李さん（親しみ）"
+      },
+      {
+        "id": "c2",
+        "pinyinMarked": "shì",
+        "pinyinPlain": "shi",
+        "hanzi": "是",
+        "meaningHint": "〜である"
+      },
+      {
+        "id": "c3",
+        "pinyinMarked": "Dōngjīng Dàxué",
+        "pinyinPlain": "dongjing daxue",
+        "hanzi": "东京大学"
+      },
+      {
+        "id": "c4",
+        "pinyinMarked": "de",
+        "pinyinPlain": "de",
+        "hanzi": "的",
+        "meaningHint": "〜の"
+      },
+      {
+        "id": "c5",
+        "pinyinMarked": "xuésheng",
+        "pinyinPlain": "xuesheng",
+        "hanzi": "学生"
+      }
+    ],
+    "correctOrderIds": [
+      "c1",
+      "c2",
+      "c3",
+      "c4",
+      "c5"
+    ],
+    "modelAnswer": "小李是东京大学的学生。",
+    "acceptableAnswers": [
+      "小李是东京大学的学生。",
+      "小李是东京大学的学生"
+    ],
+    "fullPinyin": "Xiǎo Lǐ shì Dōngjīng Dàxué de xuésheng.",
+    "structureBreakdown": [
+      {
+        "role": "S",
+        "label": "主語",
+        "text": "小李",
+        "pinyin": "Xiǎo Lǐ"
+      },
+      {
+        "role": "V",
+        "label": "判断動詞",
+        "text": "是",
+        "pinyin": "shì"
+      },
+      {
+        "role": "Attr",
+        "label": "所属修飾",
+        "text": "东京大学的",
+        "pinyin": "Dōngjīng Dàxué de"
+      },
+      {
+        "role": "O",
+        "label": "目的語",
+        "text": "学生",
+        "pinyin": "xuésheng"
+      }
+    ],
+    "explanation": "「所属組織 + 的 + 身分」の語順で「〜の学生／社員」などを表します。年下や同僚には「小＋姓」と呼ぶことがあります。"
+  },
+  {
+    "id": "WP-S01-15",
+    "stageId": "stage01",
+    "difficulty": 2,
+    "grammarIds": [
+      "G02-01",
+      "G01-02"
+    ],
+    "lessonId": "L02",
+    "japanesePrompt": "これはあなたのスマートフォンではありません。",
+    "chunks": [
+      {
+        "id": "c1",
+        "pinyinMarked": "zhè",
+        "pinyinPlain": "zhe",
+        "hanzi": "这",
+        "meaningHint": "これ"
+      },
+      {
+        "id": "c2",
+        "pinyinMarked": "bú shì",
+        "pinyinPlain": "bu shi",
+        "hanzi": "不是",
+        "meaningHint": "〜ではない"
+      },
+      {
+        "id": "c3",
+        "pinyinMarked": "nǐ de",
+        "pinyinPlain": "ni de",
+        "hanzi": "你的",
+        "meaningHint": "あなたの"
+      },
+      {
+        "id": "c4",
+        "pinyinMarked": "shǒujī",
+        "pinyinPlain": "shouji",
+        "hanzi": "手机"
+      }
+    ],
+    "correctOrderIds": [
+      "c1",
+      "c2",
+      "c3",
+      "c4"
+    ],
+    "modelAnswer": "这不是你的手机。",
+    "acceptableAnswers": [
+      "这不是你的手机。",
+      "这不是你的手机"
+    ],
+    "fullPinyin": "Zhè bú shì nǐ de shǒujī.",
+    "structureBreakdown": [
+      {
+        "role": "S",
+        "label": "主語",
+        "text": "这",
+        "pinyin": "zhè"
+      },
+      {
+        "role": "V",
+        "label": "否定判断",
+        "text": "不是",
+        "pinyin": "bú shì"
+      },
+      {
+        "role": "Attr",
+        "label": "連体修飾",
+        "text": "你的",
+        "pinyin": "nǐ de"
+      },
+      {
+        "role": "O",
+        "label": "目的語",
+        "text": "手机",
+        "pinyin": "shǒujī"
+      }
+    ],
+    "explanation": "「手机（携帯電話・スマホ）」に所有者「你的」を前に付けて修飾しています。否定「不是」は「你的」の前に置きます。"
+  },
+  {
+    "id": "WP-S01-16",
+    "stageId": "stage01",
+    "difficulty": 1,
+    "grammarIds": [
+      "G02-02"
+    ],
+    "lessonId": "L02",
+    "japanesePrompt": "あなたは紅茶を飲みますか？",
+    "chunks": [
+      {
+        "id": "c1",
+        "pinyinMarked": "nǐ",
+        "pinyinPlain": "ni",
+        "hanzi": "你",
+        "meaningHint": "あなた"
+      },
+      {
+        "id": "c2",
+        "pinyinMarked": "hē",
+        "pinyinPlain": "he",
+        "hanzi": "喝",
+        "meaningHint": "飲む"
+      },
+      {
+        "id": "c3",
+        "pinyinMarked": "hóngchá",
+        "pinyinPlain": "hongcha",
+        "hanzi": "红茶"
+      },
+      {
+        "id": "c4",
+        "pinyinMarked": "ma",
+        "pinyinPlain": "ma",
+        "hanzi": "吗",
+        "meaningHint": "〜ですか"
+      }
+    ],
+    "correctOrderIds": [
+      "c1",
+      "c2",
+      "c3",
+      "c4"
+    ],
+    "modelAnswer": "你喝红茶吗？",
+    "acceptableAnswers": [
+      "你喝红茶吗？",
+      "你喝红茶吗"
+    ],
+    "fullPinyin": "Nǐ hē hóngchá ma?",
+    "structureBreakdown": [
+      {
+        "role": "S",
+        "label": "主語",
+        "text": "你",
+        "pinyin": "nǐ"
+      },
+      {
+        "role": "V",
+        "label": "動詞",
+        "text": "喝",
+        "pinyin": "hē"
+      },
+      {
+        "role": "O",
+        "label": "目的語",
+        "text": "红茶",
+        "pinyin": "hóngchá"
+      },
+      {
+        "role": "P",
+        "label": "疑問助詞",
+        "text": "吗",
+        "pinyin": "ma"
+      }
+    ],
+    "explanation": "平叙文「你喝红茶」の語順は変えず、文末に「吗」を置くだけで「はい／いいえ」で答える疑問文になります。"
+  },
+  {
+    "id": "WP-S01-17",
+    "stageId": "stage01",
+    "difficulty": 1,
+    "grammarIds": [
+      "G02-02",
+      "G01-01"
+    ],
+    "lessonId": "L02",
+    "japanesePrompt": "私は日本語を勉強しています。あなたは？",
+    "chunks": [
+      {
+        "id": "c1",
+        "pinyinMarked": "wǒ",
+        "pinyinPlain": "wo",
+        "hanzi": "我",
+        "meaningHint": "私"
+      },
+      {
+        "id": "c2",
+        "pinyinMarked": "xué",
+        "pinyinPlain": "xue",
+        "hanzi": "学",
+        "meaningHint": "学ぶ"
+      },
+      {
+        "id": "c3",
+        "pinyinMarked": "Rìyǔ",
+        "pinyinPlain": "riyu",
+        "hanzi": "日语"
+      },
+      {
+        "id": "c4",
+        "pinyinMarked": "nǐ",
+        "pinyinPlain": "ni",
+        "hanzi": "你",
+        "meaningHint": "あなた"
+      },
+      {
+        "id": "c5",
+        "pinyinMarked": "ne",
+        "pinyinPlain": "ne",
+        "hanzi": "呢",
+        "meaningHint": "〜は？"
+      }
+    ],
+    "correctOrderIds": [
+      "c1",
+      "c2",
+      "c3",
+      "c4",
+      "c5"
+    ],
+    "modelAnswer": "我学日语，你呢？",
+    "acceptableAnswers": [
+      "我学日语，你呢？",
+      "我学日语你呢？",
+      "我学日语，你呢",
+      "我学日语你呢"
+    ],
+    "fullPinyin": "Wǒ xué Rìyǔ, nǐ ne?",
+    "structureBreakdown": [
+      {
+        "role": "S",
+        "label": "主語",
+        "text": "我",
+        "pinyin": "wǒ"
+      },
+      {
+        "role": "V",
+        "label": "動詞",
+        "text": "学",
+        "pinyin": "xué"
+      },
+      {
+        "role": "O",
+        "label": "目的語",
+        "text": "日语",
+        "pinyin": "Rìyǔ"
+      },
+      {
+        "role": "Other",
+        "label": "問い返し",
+        "text": "你呢",
+        "pinyin": "nǐ ne"
+      }
+    ],
+    "explanation": "同じ質問を繰り返さず「〜は？」と簡潔に問い返すときは「名詞・代詞 + 呢？」を使います。"
+  },
+  {
+    "id": "WP-S01-18",
+    "stageId": "stage01",
+    "difficulty": 2,
+    "grammarIds": [
+      "G02-02",
+      "G02-01"
+    ],
+    "lessonId": "L02",
+    "japanesePrompt": "彼女のお兄さんは弁護士ですか？",
+    "chunks": [
+      {
+        "id": "c1",
+        "pinyinMarked": "tā",
+        "pinyinPlain": "ta",
+        "hanzi": "她",
+        "meaningHint": "彼女"
+      },
+      {
+        "id": "c2",
+        "pinyinMarked": "gēge",
+        "pinyinPlain": "gege",
+        "hanzi": "哥哥"
+      },
+      {
+        "id": "c3",
+        "pinyinMarked": "shì",
+        "pinyinPlain": "shi",
+        "hanzi": "是",
+        "meaningHint": "〜である"
+      },
+      {
+        "id": "c4",
+        "pinyinMarked": "lǜshī",
+        "pinyinPlain": "lvshi",
+        "hanzi": "律师"
+      },
+      {
+        "id": "c5",
+        "pinyinMarked": "ma",
+        "pinyinPlain": "ma",
+        "hanzi": "吗",
+        "meaningHint": "〜ですか"
+      }
+    ],
+    "correctOrderIds": [
+      "c1",
+      "c2",
+      "c3",
+      "c4",
+      "c5"
+    ],
+    "modelAnswer": "她哥哥是律师吗？",
+    "acceptableAnswers": [
+      "她哥哥是律师吗？",
+      "她哥哥是律师吗"
+    ],
+    "fullPinyin": "Tā gēge shì lǜshī ma?",
+    "structureBreakdown": [
+      {
+        "role": "S",
+        "label": "主語",
+        "text": "她哥哥",
+        "pinyin": "tā gēge"
+      },
+      {
+        "role": "V",
+        "label": "判断動詞",
+        "text": "是",
+        "pinyin": "shì"
+      },
+      {
+        "role": "O",
+        "label": "目的語",
+        "text": "律师",
+        "pinyin": "lǜshī"
+      },
+      {
+        "role": "P",
+        "label": "疑問助詞",
+        "text": "吗",
+        "pinyin": "ma"
+      }
+    ],
+    "explanation": "「彼女のお兄さん」は親族関係なので「的」を省いて「她哥哥」と言えます。「律师（弁護士）」の lǜ は ü を含みます。"
+  },
+  {
+    "id": "WP-S01-19",
+    "stageId": "stage01",
+    "difficulty": 2,
+    "grammarIds": [
+      "G02-02"
+    ],
+    "lessonId": "L02",
+    "japanesePrompt": "田中さんは来ましたが、佐藤さんはどうですか？",
+    "chunks": [
+      {
+        "id": "c1",
+        "pinyinMarked": "Tiánzhōng",
+        "pinyinPlain": "tianzhong",
+        "hanzi": "田中"
+      },
+      {
+        "id": "c2",
+        "pinyinMarked": "lái le",
+        "pinyinPlain": "lai le",
+        "hanzi": "来了",
+        "meaningHint": "来た"
+      },
+      {
+        "id": "c3",
+        "pinyinMarked": "Zuǒténg",
+        "pinyinPlain": "zuoteng",
+        "hanzi": "佐藤"
+      },
+      {
+        "id": "c4",
+        "pinyinMarked": "ne",
+        "pinyinPlain": "ne",
+        "hanzi": "呢",
+        "meaningHint": "〜は？"
+      }
+    ],
+    "correctOrderIds": [
+      "c1",
+      "c2",
+      "c3",
+      "c4"
+    ],
+    "modelAnswer": "田中来了，佐藤呢？",
+    "acceptableAnswers": [
+      "田中来了，佐藤呢？",
+      "田中来了佐藤呢？",
+      "田中来了，佐藤呢"
+    ],
+    "fullPinyin": "Tiánzhōng lái le, Zuǒténg ne?",
+    "structureBreakdown": [
+      {
+        "role": "S",
+        "label": "主語1",
+        "text": "田中",
+        "pinyin": "Tiánzhōng"
+      },
+      {
+        "role": "V",
+        "label": "述語",
+        "text": "来了",
+        "pinyin": "lái le"
+      },
+      {
+        "role": "S",
+        "label": "主語2",
+        "text": "佐藤",
+        "pinyin": "Zuǒténg"
+      },
+      {
+        "role": "P",
+        "label": "問い返し助詞",
+        "text": "呢",
+        "pinyin": "ne"
+      }
+    ],
+    "explanation": "前の文脈を受けて別の対象の状態を尋ねるとき、「対象 + 呢？」を使います。ここでは「佐藤（さんはどう）？」の意味になります。"
+  },
+  {
+    "id": "WP-S01-20",
+    "stageId": "stage01",
+    "difficulty": 1,
+    "grammarIds": [
+      "G02-03",
+      "G01-02"
+    ],
+    "lessonId": "L02",
+    "japanesePrompt": "私もデザイン科の学生です。",
+    "chunks": [
+      {
+        "id": "c1",
+        "pinyinMarked": "wǒ",
+        "pinyinPlain": "wo",
+        "hanzi": "我",
+        "meaningHint": "私"
+      },
+      {
+        "id": "c2",
+        "pinyinMarked": "yě",
+        "pinyinPlain": "ye",
+        "hanzi": "也",
+        "meaningHint": "〜も"
+      },
+      {
+        "id": "c3",
+        "pinyinMarked": "shì",
+        "pinyinPlain": "shi",
+        "hanzi": "是",
+        "meaningHint": "〜である"
+      },
+      {
+        "id": "c4",
+        "pinyinMarked": "shèjìxì",
+        "pinyinPlain": "shejixi",
+        "hanzi": "设计系"
+      },
+      {
+        "id": "c5",
+        "pinyinMarked": "xuésheng",
+        "pinyinPlain": "xuesheng",
+        "hanzi": "学生"
+      }
+    ],
+    "correctOrderIds": [
+      "c1",
+      "c2",
+      "c3",
+      "c4",
+      "c5"
+    ],
+    "modelAnswer": "我也是设计系学生。",
+    "acceptableAnswers": [
+      "我也是设计系学生。",
+      "我也是设计系学生"
+    ],
+    "fullPinyin": "Wǒ yě shì shèjìxì xuésheng.",
+    "structureBreakdown": [
+      {
+        "role": "S",
+        "label": "主語",
+        "text": "我",
+        "pinyin": "wǒ"
+      },
+      {
+        "role": "Adv",
+        "label": "副詞",
+        "text": "也",
+        "pinyin": "yě"
+      },
+      {
+        "role": "V",
+        "label": "判断動詞",
+        "text": "是",
+        "pinyin": "shì"
+      },
+      {
+        "role": "Attr",
+        "label": "専攻修飾",
+        "text": "设计系",
+        "pinyin": "shèjìxì"
+      },
+      {
+        "role": "O",
+        "label": "目的語",
+        "text": "学生",
+        "pinyin": "xuésheng"
+      }
+    ],
+    "explanation": "副詞「也（〜も）」は必ず主語の後ろ、述語動詞（「是」など）の前に置きます。「是我也…」のように文頭には置けません。"
+  },
+  {
+    "id": "WP-S01-21",
+    "stageId": "stage01",
+    "difficulty": 2,
+    "grammarIds": [
+      "G02-03"
+    ],
+    "lessonId": "L02",
+    "japanesePrompt": "弟も水泳に行きません。",
+    "chunks": [
+      {
+        "id": "c1",
+        "pinyinMarked": "dìdi",
+        "pinyinPlain": "didi",
+        "hanzi": "弟弟"
+      },
+      {
+        "id": "c2",
+        "pinyinMarked": "yě",
+        "pinyinPlain": "ye",
+        "hanzi": "也",
+        "meaningHint": "〜も"
+      },
+      {
+        "id": "c3",
+        "pinyinMarked": "bú qù",
+        "pinyinPlain": "bu qu",
+        "hanzi": "不去",
+        "meaningHint": "行かない"
+      },
+      {
+        "id": "c4",
+        "pinyinMarked": "yóuyǒng",
+        "pinyinPlain": "youyong",
+        "hanzi": "游泳"
+      }
+    ],
+    "correctOrderIds": [
+      "c1",
+      "c2",
+      "c3",
+      "c4"
+    ],
+    "modelAnswer": "弟弟也不去游泳。",
+    "acceptableAnswers": [
+      "弟弟也不去游泳。",
+      "弟弟也不去游泳"
+    ],
+    "fullPinyin": "Dìdi yě bú qù yóuyǒng.",
+    "structureBreakdown": [
+      {
+        "role": "S",
+        "label": "主語",
+        "text": "弟弟",
+        "pinyin": "dìdi"
+      },
+      {
+        "role": "Adv",
+        "label": "副詞",
+        "text": "也",
+        "pinyin": "yě"
+      },
+      {
+        "role": "Neg",
+        "label": "否定＋動詞",
+        "text": "不去",
+        "pinyin": "bú qù"
+      },
+      {
+        "role": "O",
+        "label": "目的行動",
+        "text": "游泳",
+        "pinyin": "yóuyǒng"
+      }
+    ],
+    "explanation": "「〜も…ない」は「S + 也 + 不 + 動詞」の語順になります。「不」の前に「也」を置くのが鉄則です。"
+  },
+  {
+    "id": "WP-S01-22",
+    "stageId": "stage01",
+    "difficulty": 2,
+    "grammarIds": [
+      "G02-03",
+      "G01-03"
+    ],
+    "lessonId": "L02",
+    "japanesePrompt": "彼女も中国料理を食べます。",
+    "chunks": [
+      {
+        "id": "c1",
+        "pinyinMarked": "tā",
+        "pinyinPlain": "ta",
+        "hanzi": "她",
+        "meaningHint": "彼女"
+      },
+      {
+        "id": "c2",
+        "pinyinMarked": "yě",
+        "pinyinPlain": "ye",
+        "hanzi": "也",
+        "meaningHint": "〜も"
+      },
+      {
+        "id": "c3",
+        "pinyinMarked": "chī",
+        "pinyinPlain": "chi",
+        "hanzi": "吃",
+        "meaningHint": "食べる"
+      },
+      {
+        "id": "c4",
+        "pinyinMarked": "Zhōngguócài",
+        "pinyinPlain": "zhongguocai",
+        "hanzi": "中国菜"
+      }
+    ],
+    "correctOrderIds": [
+      "c1",
+      "c2",
+      "c3",
+      "c4"
+    ],
+    "modelAnswer": "她也吃中国菜。",
+    "acceptableAnswers": [
+      "她也吃中国菜。",
+      "她也吃中国菜"
+    ],
+    "fullPinyin": "Tā yě chī Zhōngguócài.",
+    "structureBreakdown": [
+      {
+        "role": "S",
+        "label": "主語",
+        "text": "她",
+        "pinyin": "tā"
+      },
+      {
+        "role": "Adv",
+        "label": "副詞",
+        "text": "也",
+        "pinyin": "yě"
+      },
+      {
+        "role": "V",
+        "label": "動詞",
+        "text": "吃",
+        "pinyin": "chī"
+      },
+      {
+        "role": "O",
+        "label": "目的語",
+        "text": "中国菜",
+        "pinyin": "Zhōngguócài"
+      }
+    ],
+    "explanation": "「也」は動詞「吃」の直前に置きます。「中国菜」のような料理名は「〜菜」で表します。"
+  },
+  {
+    "id": "WP-S01-23",
+    "stageId": "stage01",
+    "difficulty": 2,
+    "grammarIds": [
+      "G02-03",
+      "G02-02"
+    ],
+    "lessonId": "L02",
+    "japanesePrompt": "あなたも上海の人ですか？",
+    "chunks": [
+      {
+        "id": "c1",
+        "pinyinMarked": "nǐ",
+        "pinyinPlain": "ni",
+        "hanzi": "你",
+        "meaningHint": "あなた"
+      },
+      {
+        "id": "c2",
+        "pinyinMarked": "yě",
+        "pinyinPlain": "ye",
+        "hanzi": "也",
+        "meaningHint": "〜も"
+      },
+      {
+        "id": "c3",
+        "pinyinMarked": "shì",
+        "pinyinPlain": "shi",
+        "hanzi": "是",
+        "meaningHint": "〜である"
+      },
+      {
+        "id": "c4",
+        "pinyinMarked": "Shànghǎirén",
+        "pinyinPlain": "shanghairen",
+        "hanzi": "上海人"
+      },
+      {
+        "id": "c5",
+        "pinyinMarked": "ma",
+        "pinyinPlain": "ma",
+        "hanzi": "吗",
+        "meaningHint": "〜ですか"
+      }
+    ],
+    "correctOrderIds": [
+      "c1",
+      "c2",
+      "c3",
+      "c4",
+      "c5"
+    ],
+    "modelAnswer": "你也是上海人吗？",
+    "acceptableAnswers": [
+      "你也是上海人吗？",
+      "你也是上海人吗"
+    ],
+    "fullPinyin": "Nǐ yě shì Shànghǎirén ma?",
+    "structureBreakdown": [
+      {
+        "role": "S",
+        "label": "主語",
+        "text": "你",
+        "pinyin": "nǐ"
+      },
+      {
+        "role": "Adv",
+        "label": "副詞",
+        "text": "也",
+        "pinyin": "yě"
+      },
+      {
+        "role": "V",
+        "label": "判断動詞",
+        "text": "是",
+        "pinyin": "shì"
+      },
+      {
+        "role": "O",
+        "label": "目的語",
+        "text": "上海人",
+        "pinyin": "Shànghǎirén"
+      },
+      {
+        "role": "P",
+        "label": "疑問助詞",
+        "text": "吗",
+        "pinyin": "ma"
+      }
+    ],
+    "explanation": "「也」と疑問助詞「吗」を組み合わせた文です。「你也是〜吗？」は共通点を尋ねる会話で非常によく使われます。"
+  },
+  {
+    "id": "WP-S01-24",
+    "stageId": "stage01",
+    "difficulty": 1,
+    "grammarIds": [
+      "G02-04"
+    ],
+    "lessonId": "L02",
+    "japanesePrompt": "私たちは一緒に図書館へ行きます。",
+    "chunks": [
+      {
+        "id": "c1",
+        "pinyinMarked": "wǒmen",
+        "pinyinPlain": "women",
+        "hanzi": "我们"
+      },
+      {
+        "id": "c2",
+        "pinyinMarked": "yìqǐ",
+        "pinyinPlain": "yiqi",
+        "hanzi": "一起",
+        "meaningHint": "一緒に"
+      },
+      {
+        "id": "c3",
+        "pinyinMarked": "qù",
+        "pinyinPlain": "qu",
+        "hanzi": "去",
+        "meaningHint": "行く"
+      },
+      {
+        "id": "c4",
+        "pinyinMarked": "túshūguǎn",
+        "pinyinPlain": "tushuguan",
+        "hanzi": "图书馆"
+      }
+    ],
+    "correctOrderIds": [
+      "c1",
+      "c2",
+      "c3",
+      "c4"
+    ],
+    "modelAnswer": "我们一起去图书馆。",
+    "acceptableAnswers": [
+      "我们一起去图书馆。",
+      "我们一起去图书馆"
+    ],
+    "fullPinyin": "Wǒmen yìqǐ qù túshūguǎn.",
+    "structureBreakdown": [
+      {
+        "role": "S",
+        "label": "主語",
+        "text": "我们",
+        "pinyin": "wǒmen"
+      },
+      {
+        "role": "Adv",
+        "label": "副詞",
+        "text": "一起",
+        "pinyin": "yìqǐ"
+      },
+      {
+        "role": "V",
+        "label": "動詞",
+        "text": "去",
+        "pinyin": "qù"
+      },
+      {
+        "role": "Loc",
+        "label": "目的地",
+        "text": "图书馆",
+        "pinyin": "túshūguǎn"
+      }
+    ],
+    "explanation": "副詞「一起（一緒に）」は複数の主語の後ろ、動詞「去」の前に置きます。"
+  },
+  {
+    "id": "WP-S01-25",
+    "stageId": "stage01",
+    "difficulty": 2,
+    "grammarIds": [
+      "G02-04",
+      "G01-01"
+    ],
+    "lessonId": "L02",
+    "japanesePrompt": "私（話者＋聞き手）は一緒に昼ご飯を食べましょう。",
+    "chunks": [
+      {
+        "id": "c1",
+        "pinyinMarked": "zánmen",
+        "pinyinPlain": "zanmen",
+        "hanzi": "咱们",
+        "meaningHint": "私たち（聞き手含む）"
+      },
+      {
+        "id": "c2",
+        "pinyinMarked": "yìqǐ",
+        "pinyinPlain": "yiqi",
+        "hanzi": "一起",
+        "meaningHint": "一緒に"
+      },
+      {
+        "id": "c3",
+        "pinyinMarked": "chī",
+        "pinyinPlain": "chi",
+        "hanzi": "吃",
+        "meaningHint": "食べる"
+      },
+      {
+        "id": "c4",
+        "pinyinMarked": "wǔfàn",
+        "pinyinPlain": "wufan",
+        "hanzi": "午饭"
+      }
+    ],
+    "correctOrderIds": [
+      "c1",
+      "c2",
+      "c3",
+      "c4"
+    ],
+    "modelAnswer": "咱们一起吃午饭。",
+    "acceptableAnswers": [
+      "咱们一起吃午饭。",
+      "咱们一起吃午饭"
+    ],
+    "fullPinyin": "Zánmen yìqǐ chī wǔfàn.",
+    "structureBreakdown": [
+      {
+        "role": "S",
+        "label": "主語",
+        "text": "咱们",
+        "pinyin": "zánmen"
+      },
+      {
+        "role": "Adv",
+        "label": "副詞",
+        "text": "一起",
+        "pinyin": "yìqǐ"
+      },
+      {
+        "role": "V",
+        "label": "動詞",
+        "text": "吃",
+        "pinyin": "chī"
+      },
+      {
+        "role": "O",
+        "label": "目的語",
+        "text": "午饭",
+        "pinyin": "wǔfàn"
+      }
+    ],
+    "explanation": "「咱们」は必ず聞き手を含めた「私たち」を指す親しみのある代詞で、「一起」と相性がよい表現です。"
+  },
+  {
+    "id": "WP-S01-26",
+    "stageId": "stage01",
+    "difficulty": 2,
+    "grammarIds": [
+      "G02-04",
+      "G02-02"
+    ],
+    "lessonId": "L02",
+    "japanesePrompt": "あなたたちは一緒に映画を見ますか？",
+    "chunks": [
+      {
+        "id": "c1",
+        "pinyinMarked": "nǐmen",
+        "pinyinPlain": "nimen",
+        "hanzi": "你们"
+      },
+      {
+        "id": "c2",
+        "pinyinMarked": "yìqǐ",
+        "pinyinPlain": "yiqi",
+        "hanzi": "一起",
+        "meaningHint": "一緒に"
+      },
+      {
+        "id": "c3",
+        "pinyinMarked": "kàn",
+        "pinyinPlain": "kan",
+        "hanzi": "看",
+        "meaningHint": "見る"
+      },
+      {
+        "id": "c4",
+        "pinyinMarked": "diànyǐng",
+        "pinyinPlain": "dianying",
+        "hanzi": "电影"
+      },
+      {
+        "id": "c5",
+        "pinyinMarked": "ma",
+        "pinyinPlain": "ma",
+        "hanzi": "吗",
+        "meaningHint": "〜ですか"
+      }
+    ],
+    "correctOrderIds": [
+      "c1",
+      "c2",
+      "c3",
+      "c4",
+      "c5"
+    ],
+    "modelAnswer": "你们一起看电影吗？",
+    "acceptableAnswers": [
+      "你们一起看电影吗？",
+      "你们一起看电影吗"
+    ],
+    "fullPinyin": "Nǐmen yìqǐ kàn diànyǐng ma?",
+    "structureBreakdown": [
+      {
+        "role": "S",
+        "label": "主語",
+        "text": "你们",
+        "pinyin": "nǐmen"
+      },
+      {
+        "role": "Adv",
+        "label": "副詞",
+        "text": "一起",
+        "pinyin": "yìqǐ"
+      },
+      {
+        "role": "V",
+        "label": "動詞",
+        "text": "看",
+        "pinyin": "kàn"
+      },
+      {
+        "role": "O",
+        "label": "目的語",
+        "text": "电影",
+        "pinyin": "diànyǐng"
+      },
+      {
+        "role": "P",
+        "label": "疑問助詞",
+        "text": "吗",
+        "pinyin": "ma"
+      }
+    ],
+    "explanation": "「主語 + 一起 + 動詞 + 目的語 + 吗？」の語順です。「看电影」で「映画を見る」という意味になります。"
+  },
+  {
+    "id": "WP-S01-27",
+    "stageId": "stage01",
+    "difficulty": 2,
+    "grammarIds": [
+      "G02-03",
+      "G02-04"
+    ],
+    "lessonId": "L02",
+    "japanesePrompt": "彼らも一緒に大学へ行きます。",
+    "chunks": [
+      {
+        "id": "c1",
+        "pinyinMarked": "tāmen",
+        "pinyinPlain": "tamen",
+        "hanzi": "他们",
+        "meaningHint": "彼ら"
+      },
+      {
+        "id": "c2",
+        "pinyinMarked": "yě",
+        "pinyinPlain": "ye",
+        "hanzi": "也",
+        "meaningHint": "〜も"
+      },
+      {
+        "id": "c3",
+        "pinyinMarked": "yìqǐ",
+        "pinyinPlain": "yiqi",
+        "hanzi": "一起",
+        "meaningHint": "一緒に"
+      },
+      {
+        "id": "c4",
+        "pinyinMarked": "qù",
+        "pinyinPlain": "qu",
+        "hanzi": "去",
+        "meaningHint": "行く"
+      },
+      {
+        "id": "c5",
+        "pinyinMarked": "dàxué",
+        "pinyinPlain": "daxue",
+        "hanzi": "大学"
+      }
+    ],
+    "correctOrderIds": [
+      "c1",
+      "c2",
+      "c3",
+      "c4",
+      "c5"
+    ],
+    "modelAnswer": "他们也一起去大学。",
+    "acceptableAnswers": [
+      "他们也一起去大学。",
+      "他们也一起去大学"
+    ],
+    "fullPinyin": "Tāmen yě yìqǐ qù dàxué.",
+    "structureBreakdown": [
+      {
+        "role": "S",
+        "label": "主語",
+        "text": "他们",
+        "pinyin": "tāmen"
+      },
+      {
+        "role": "Adv",
+        "label": "副詞1",
+        "text": "也",
+        "pinyin": "yě"
+      },
+      {
+        "role": "Adv",
+        "label": "副詞2",
+        "text": "一起",
+        "pinyin": "yìqǐ"
+      },
+      {
+        "role": "V",
+        "label": "動詞",
+        "text": "去",
+        "pinyin": "qù"
+      },
+      {
+        "role": "Loc",
+        "label": "目的地",
+        "text": "大学",
+        "pinyin": "dàxué"
+      }
+    ],
+    "explanation": "範囲・類推の副詞「也」と様態の副詞「一起」を並べる場合、「也」を先に置いて「也一起 + 動詞」の語順にします。"
+  }
+]

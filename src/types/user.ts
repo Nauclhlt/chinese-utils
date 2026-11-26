@@ -24,12 +24,32 @@ export interface SrsRecord {
 export interface AnswerHistoryEntry {
   id: string;
   itemId: string;
-  itemKind: 'exercise' | 'pinyin' | 'listening' | 'flashcard' | 'exam';
+  itemKind:
+    | 'exercise'
+    | 'pinyin'
+    | 'listening'
+    | 'flashcard'
+    | 'exam'
+    | 'rhythm'
+    | 'grammar-game'
+    | 'word-puzzle';
   lessonId: string;
   grammarIds: string[];
   correct: boolean;
   userAnswer: string;
   timestamp: string;
+}
+
+export interface NovelVocabEntry {
+  id: string;
+  word: string;
+  pinyin: string;
+  pos: string;
+  meaningJa: string;
+  contextualNote: string;
+  source: 'textbook-scope' | 'novel-extra';
+  chapterId: string;
+  addedAt: string;
 }
 
 export type CompositionSelfScore = 'correct' | 'partial' | 'wrong';
@@ -94,4 +114,5 @@ export interface UserState {
   settings: UserSettings;
   customVocab: UserVocabNote[];
   customExercises: UserCustomExercise[];
+  novelVocabReview: NovelVocabEntry[];
 }

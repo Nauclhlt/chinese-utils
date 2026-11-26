@@ -7,10 +7,17 @@ import { isDueForReview, sortByReviewPriority } from '../utils/srs';
 import { createShuffleSeed, shuffleWithSeed } from '../utils/shuffle';
 import { ExerciseCard } from '../components/ExerciseCard';
 import { OrderControls } from '../components/OrderControls';
+import {
+  loadReaderState,
+  removeReaderGrammarFromReview,
+  removeReaderVocabFromReview,
+  saveReaderState,
+} from '../reader/core/readerStorage';
 
 export const ReviewPage: React.FC = () => {
-  const { userState } = useApp();
-  const [tab, setTab] = useState<'weak' | 'srs' | 'bookmarks' | 'history'>('weak');
+  const { userState, removeNovelVocabFromReview, rateSrsItem } = useApp();
+  const [tab, setTab] = useState<'weak' | 'srs' | 'novel' | 'reader' | 'bookmarks' | 'history'>('weak');
+  const [readerState, setReaderState] = useState(() => loadReaderState());
   const [weakIdx, setWeakIdx] = useState(0);
   const [weakRandom, setWeakRandom] = useState(false);
   const [weakSeed, setWeakSeed] = useState(() => createShuffleSeed());
@@ -71,6 +78,24 @@ export const ReviewPage: React.FC = () => {
           onClick={() => setTab('srs')}
         >
           復習スケジュール ({dueVocab.length}語期限到来)
+        </button>
+        <button
+          type="button"
+          className={`btn btn-sm ${tab === 'novel' ? 'btn-primary' : ''}`}
+          onClick={() => setTab('novel')}
+        >
+          ノベル登録語彙 ({userState.novelVocabReview.length})
+        </button>
+        <button
+          type="button"
+          className={`btn btn-sm ${tab === 'reader' ? 'btn-primary' : ''}`}
+          onClick={() => {
+            setReaderState(loadReaderState());
+            setTab('reader');
+          }}
+          data-testid="review-tab-reader"
+        >
+          文学リーダー復習 ({readerState.vocabReview.length + readerState.grammarReview.length})
         </button>
         <button
           type="button"
@@ -190,6 +215,197 @@ export const ReviewPage: React.FC = () => {
               </table>
             </div>
           )}
+        </div>
+      )}
+
+      {tab === 'novel' && (
+        <div className="card stack-md">
+          <div className="row-between">
+            <div>
+              <h3 style={{ margin: 0 }}>ノベルゲームから追加した復習語彙 ({userState.novelVocabReview.length}語)</h3>
+              <p style={{ margin: '4px 0 0', color: 'var(--text-muted)', fontSize: '0.86rem' }}>
+                ノベルゲーム『雨霁星语』の文中辞書から追加した語彙です（教材範囲外語彙は「ノベル由来」と明示）。
+              </p>
+            </div>
+            <Link to="/games/novel" className="btn btn-sm btn-soft">
+              ノベルゲームへ戻る
+            </Link>
+          </div>
+          {userState.novelVocabReview.length === 0 ? (
+            <p style={{ margin: 0, color: 'var(--text-muted)' }}>
+              ノベルゲームのセリフ中の単語をクリックし、「復習帳へ追加」を押すとここに登録されます。
+            </p>
+          ) : (
+            <div className="table-wrap">
+              <table className="data-table">
+                <thead>
+                  <tr>
+                    <th>語彙</th>
+                    <th>ピンイン</th>
+                    <th>品詞・意味</th>
+                    <th>出典</th>
+                    <th>習熟度 / 操作</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {userState.novelVocabReview.map((nv) => {
+                    const mastery = userState.srs[nv.id]?.mastery ?? 0;
+                    return (
+                      <tr key={nv.id}>
+                        <td className="zh-md" lang="zh-Hans">{nv.word}</td>
+                        <td>{nv.pinyin}</td>
+                        <td>
+                          <span className="badge" style={{ marginRight: 6 }}>{nv.pos}</span>
+                          {nv.meaningJa}
+                          <div style={{ fontSize: '0.78rem', color: 'var(--text-light)' }}>{nv.contextualNote}</div>
+                        </td>
+                        <td>
+                          <span className={`badge ${nv.source === 'novel-extra' ? 'badge-warning' : 'badge-accent'}`}>
+                            {nv.source === 'novel-extra' ? 'ノベル由来(教材外)' : '教材範囲'} / {nv.chapterId}
+                          </span>
+                        </td>
+                        <td>
+                          <div className="row-wrap">
+                            <span className="badge">{mastery}%</span>
+                            <button
+                              type="button"
+                              className="btn btn-sm btn-soft"
+                              onClick={() => rateSrsItem(nv.id, 'vocab', 'good')}
+                            >
+                              覚えた
+                            </button>
+                            <button
+                              type="button"
+                              className="btn btn-sm btn-danger"
+                              onClick={() => removeNovelVocabFromReview(nv.id)}
+                            >
+                              削除
+                            </button>
+                          </div>
+                        </td>
+                      </tr>
+                    );
+                  })}
+                </tbody>
+              </table>
+            </div>
+          )}
+        </div>
+      )}
+
+      {tab === 'reader' && (
+        <div className="stack-md" data-testid="review-reader-panel">
+          <div className="card stack-md">
+            <div className="row-between">
+              <div>
+                <h3 style={{ margin: 0 }}>文学リーダーから登録した語彙 ({readerState.vocabReview.length}語)</h3>
+                <p style={{ margin: '4px 0 0', color: 'var(--text-muted)', fontSize: '0.86rem' }}>
+                  教材外語彙も含め、間隔反復（SRS）で復習管理できます。
+                </p>
+              </div>
+              <Link to="/reader" className="btn btn-sm btn-soft">
+                文学リーダーへ
+              </Link>
+            </div>
+            {readerState.vocabReview.length === 0 ? (
+              <p style={{ margin: 0, color: 'var(--text-muted)' }}>
+                まだ登録語彙がありません。読書中に注釈から「復習帳へ追加」を押すと追加されます。
+              </p>
+            ) : (
+              <div className="table-wrap">
+                <table className="data-table">
+                  <thead>
+                    <tr>
+                      <th>語彙</th>
+                      <th>ピンイン</th>
+                      <th>意味・品詞</th>
+                      <th>作品・対応</th>
+                      <th>習熟度 / 操作</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {readerState.vocabReview.map((rv) => {
+                      const mastery = userState.srs[rv.id]?.mastery ?? 0;
+                      return (
+                        <tr key={rv.id}>
+                          <td className="zh-md" lang="zh-Hans">{rv.word}</td>
+                          <td>{rv.pinyin}</td>
+                          <td>
+                            <span className="badge" style={{ marginRight: 6 }}>{rv.pos}</span>
+                            {rv.meaningJa}
+                            {rv.contextualNote && (
+                              <div style={{ fontSize: '0.78rem', color: 'var(--text-light)' }}>{rv.contextualNote}</div>
+                            )}
+                          </td>
+                          <td>
+                            <span className="badge badge-accent">{rv.workTitleZh}</span>{' '}
+                            {rv.relatedLessonId ? (
+                              <span className="badge badge-success">{rv.relatedLessonId}</span>
+                            ) : (
+                              <span className="badge">教材外</span>
+                            )}
+                          </td>
+                          <td>
+                            <div className="row-wrap">
+                              <span className="badge">{mastery}%</span>
+                              <button
+                                type="button"
+                                className="btn btn-sm btn-soft"
+                                onClick={() => rateSrsItem(rv.id, 'vocab', 'good')}
+                              >
+                                覚えた
+                              </button>
+                              <button
+                                type="button"
+                                className="btn btn-sm btn-danger"
+                                onClick={() => {
+                                  const next = removeReaderVocabFromReview(readerState, rv.id);
+                                  saveReaderState(next);
+                                  setReaderState(next);
+                                }}
+                              >
+                                削除
+                              </button>
+                            </div>
+                          </td>
+                        </tr>
+                      );
+                    })}
+                  </tbody>
+                </table>
+              </div>
+            )}
+          </div>
+
+          <div className="card stack-sm">
+            <h3 style={{ margin: 0 }}>登録した文法 ({readerState.grammarReview.length}) / お気に入り文 ({readerState.favoriteSentences.length}) / 検索履歴 ({readerState.lookupHistory.length})</h3>
+            {readerState.grammarReview.map((rg) => (
+              <div key={rg.id} className="card-subtle row-between">
+                <div>
+                  <strong>{rg.title}</strong> (<span lang="zh-Hans">{rg.pattern}</span>) — {rg.explanationJa}
+                </div>
+                <button
+                  type="button"
+                  className="btn btn-sm"
+                  onClick={() => {
+                    const next = removeReaderGrammarFromReview(readerState, rg.id);
+                    saveReaderState(next);
+                    setReaderState(next);
+                  }}
+                >
+                  削除
+                </button>
+              </div>
+            ))}
+            {readerState.favoriteSentences.map((fs) => (
+              <div key={fs.id} className="card-subtle">
+                <div lang="zh-Hans" style={{ fontWeight: 600 }}>{fs.text}</div>
+                <div style={{ fontSize: '0.84rem', color: 'var(--text-muted)' }}>
+                  {fs.pinyin} — {fs.translationJa} ({fs.workTitleZh})
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
       )}
 

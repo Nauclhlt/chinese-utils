@@ -19,6 +19,13 @@ import { ListeningPage } from './pages/ListeningPage';
 import { ExamPage } from './pages/ExamPage';
 import { ReviewPage } from './pages/ReviewPage';
 import { SettingsPage } from './pages/SettingsPage';
+import { GamesHubPage } from './pages/GamesHubPage';
+import { NovelGamePage } from './games/novel/NovelGamePage';
+import { ToneRhythmGamePage } from './games/rhythm/ToneRhythmGamePage';
+import { GrammarCorrectionGamePage } from './games/grammar/GrammarCorrectionGamePage';
+import { WordOrderPuzzleGamePage } from './games/puzzle/WordOrderPuzzleGamePage';
+import { BookshelfPage } from './reader/pages/BookshelfPage';
+import { LiteratureReaderPage } from './reader/pages/LiteratureReaderPage';
 
 export const App: React.FC = () => {
   return (
@@ -43,6 +50,13 @@ export const App: React.FC = () => {
             <Route path="/exam" element={<ExamPage />} />
             <Route path="/review" element={<ReviewPage />} />
             <Route path="/settings" element={<SettingsPage />} />
+            <Route path="/games" element={<GamesHubPage />} />
+            <Route path="/games/novel" element={<NovelGamePage />} />
+            <Route path="/games/rhythm" element={<ToneRhythmGamePage />} />
+            <Route path="/games/grammar-hunter" element={<GrammarCorrectionGamePage />} />
+            <Route path="/games/word-puzzle" element={<WordOrderPuzzleGamePage />} />
+            <Route path="/reader" element={<BookshelfPage />} />
+            <Route path="/reader/:workId" element={<LiteratureReaderPage />} />
             <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>
         </Layout>
